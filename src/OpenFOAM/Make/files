@@ -533,13 +533,13 @@ meshes/ijkMesh/ijkMesh.C
 meshes/lduMesh/lduMesh.C
 meshes/lduMesh/lduPrimitiveMesh.C
 
-LduMatrix = matrices/LduMatrix
-$(LduMatrix)/LduMatrix/lduMatrices.C
-$(LduMatrix)/LduMatrix/solverPerformance.C
-$(LduMatrix)/LduMatrix/LduInterfaceField/LduInterfaceFields.C
-$(LduMatrix)/Smoothers/lduSmoothers.C
-$(LduMatrix)/Preconditioners/lduPreconditioners.C
-$(LduMatrix)/Solvers/lduSolvers.C
+LduMatrixCaseDir = matrices/LduMatrixCaseDir
+$(LduMatrixCaseDir)/LduMatrixCaseDir/lduMatrices.C
+$(LduMatrixCaseDir)/LduMatrixCaseDir/solverPerformance.C
+$(LduMatrixCaseDir)/LduMatrixCaseDir/LduInterfaceField/LduInterfaceFields.C
+$(LduMatrixCaseDir)/Smoothers/lduSmoothers.C
+$(LduMatrixCaseDir)/Preconditioners/lduPreconditioners.C
+$(LduMatrixCaseDir)/Solvers/lduSolvers.C
 
 primitiveShapes = meshes/primitiveShapes
 
@@ -704,8 +704,8 @@ $(mapPolyMesh)/mapDistribute/IOmapDistribute.C
 $(mapPolyMesh)/mapDistribute/IOmapDistributePolyMesh.C
 $(mapPolyMesh)/mapAddedPolyMesh.C
 
-PrimitivePatch = $(primitiveMesh)/PrimitivePatch
-$(PrimitivePatch)/PrimitivePatchBase.C
+PrimitivePatchCaseDir = $(primitiveMesh)/PrimitivePatchCaseDir
+$(PrimitivePatchCaseDir)/PrimitivePatchBase.C
 
 pointMesh = meshes/pointMesh
 $(pointMesh)/pointMesh.C

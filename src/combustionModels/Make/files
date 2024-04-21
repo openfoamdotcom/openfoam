@@ -1,5 +1,5 @@
 combustionModel/combustionModel.C
-CombustionModel/CombustionModel/CombustionModels.C
+CombustionModelCaseDir/CombustionModelCaseDir/CombustionModels.C
 
 diffusion/diffusions.C
 infinitelyFastChemistry/infinitelyFastChemistrys.C
