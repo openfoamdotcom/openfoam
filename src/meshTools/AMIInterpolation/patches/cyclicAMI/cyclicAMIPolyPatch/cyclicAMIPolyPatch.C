@@ -28,7 +28,7 @@ License
 
 #include "cyclicAMIPolyPatch.H"
 #include "SubField.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "unitConversion.H"
 #include "OFstream.H"
 #include "meshTools.H"

@@ -36,7 +36,7 @@ Description
 
 #include "argList.H"
 #include "polyMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "attachPolyTopoChanger.H"
 
 using namespace Foam;

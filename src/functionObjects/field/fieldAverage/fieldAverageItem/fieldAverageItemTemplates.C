@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "objectRegistry.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 template<class Type>
 bool Foam::functionObjects::fieldAverageItem::calculateMeanField

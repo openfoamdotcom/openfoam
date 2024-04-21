@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "FIREMeshWriter.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "Map.H"
 #include "OFstream.H"
 #include "processorPolyPatch.H"

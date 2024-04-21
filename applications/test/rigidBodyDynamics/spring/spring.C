@@ -32,7 +32,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "rigidBodyMotion.H"
 #include "masslessBody.H"
 #include "sphere.H"

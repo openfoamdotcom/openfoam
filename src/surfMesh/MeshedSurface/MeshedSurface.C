@@ -30,7 +30,7 @@ License
 #include "UnsortedMeshedSurface.H"
 #include "MeshedSurfaceProxy.H"
 #include "mergePoints.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "ListOps.H"
 #include "polyBoundaryMesh.H"
 #include "polyMesh.H"

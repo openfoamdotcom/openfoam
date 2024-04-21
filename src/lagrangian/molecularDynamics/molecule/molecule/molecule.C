@@ -28,7 +28,7 @@ License
 #include "moleculeCloud.H"
 #include "molecule.H"
 #include "Random.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

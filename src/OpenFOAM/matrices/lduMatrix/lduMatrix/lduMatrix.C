@@ -31,7 +31,7 @@ License
 #include "Switch.H"
 #include "objectRegistry.H"
 #include "scalarIOField.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "meshState.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

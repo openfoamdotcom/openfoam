@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "uniformInterpolationTable.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "IOstream.H"
 #include "IOdictionary.H"
 

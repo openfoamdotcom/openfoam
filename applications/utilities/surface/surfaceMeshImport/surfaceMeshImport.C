@@ -69,7 +69,7 @@ Note
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 #include "MeshedSurfaces.H"
 #include "coordinateSystems.H"

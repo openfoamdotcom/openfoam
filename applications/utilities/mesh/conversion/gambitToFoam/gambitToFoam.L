@@ -55,7 +55,7 @@ Description
 using namespace Foam;
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyMesh.H"
 #include "emptyPolyPatch.H"
 #include "preservePatchTypes.H"

@@ -35,7 +35,7 @@ Note
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "clockTime.H"
 #include "triSurface.H"
 #include "MeshedSurfaces.H"

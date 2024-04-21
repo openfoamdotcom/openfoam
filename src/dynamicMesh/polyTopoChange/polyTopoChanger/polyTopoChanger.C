@@ -29,7 +29,7 @@ License
 #include "polyTopoChanger.H"
 #include "polyMesh.H"
 #include "polyTopoChange.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "PtrListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

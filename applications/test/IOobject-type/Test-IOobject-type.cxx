@@ -29,7 +29,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "IOobject.H"
 #include "IOdictionary.H"
 #include "IOMap.H"

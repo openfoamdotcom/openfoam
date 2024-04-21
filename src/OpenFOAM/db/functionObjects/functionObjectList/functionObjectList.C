@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "functionObjectList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "mapPolyMesh.H"
 #include "profiling.H"
 #include "argList.H"

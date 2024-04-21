@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ignitionSite.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "volFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

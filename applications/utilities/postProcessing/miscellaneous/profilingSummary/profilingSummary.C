@@ -37,7 +37,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyMesh.H"
 #include "OSspecific.H"
 #include "IFstream.H"

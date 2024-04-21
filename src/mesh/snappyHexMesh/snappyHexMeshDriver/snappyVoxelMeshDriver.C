@@ -28,7 +28,7 @@ License
 #include "snappyVoxelMeshDriver.H"
 #include "meshRefinement.H"
 #include "fvMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "refinementParameters.H"
 #include "refinementSurfaces.H"
 #include "refinementFeatures.H"

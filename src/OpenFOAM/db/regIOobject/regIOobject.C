@@ -30,7 +30,7 @@ Note
 \*---------------------------------------------------------------------------*/
 
 #include "regIOobject.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyMesh.H"
 #include "dictionary.H"
 #include "fileOperation.H"

@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "valueAverageBase.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

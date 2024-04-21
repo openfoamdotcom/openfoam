@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "meshToMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "globalIndex.H"
 #include "meshToMeshMethod.H"
 #include "nearestFaceAMI.H"

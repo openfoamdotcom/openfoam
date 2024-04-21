@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "stateFunctionObject.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

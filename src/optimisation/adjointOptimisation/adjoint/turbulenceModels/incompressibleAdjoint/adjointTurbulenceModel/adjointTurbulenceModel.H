@@ -51,7 +51,7 @@ SourceFiles
 #include "incompressibleVars.H"
 #include "incompressibleAdjointMeanFlowVars.H"
 #include "objectiveManager.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

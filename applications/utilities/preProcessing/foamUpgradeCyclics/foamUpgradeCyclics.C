@@ -46,7 +46,7 @@ Usage
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "timeSelector.H"
 #include "IOdictionary.H"
 #include "polyMesh.H"

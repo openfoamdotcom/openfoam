@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "mergePolyMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyTopoChanger.H"
 #include "mapPolyMesh.H"
 #include "polyAddPoint.H"

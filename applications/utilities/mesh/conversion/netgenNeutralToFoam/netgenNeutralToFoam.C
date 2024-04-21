@@ -81,7 +81,7 @@ NOTE:
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyMesh.H"
 #include "IFstream.H"
 #include "polyPatch.H"

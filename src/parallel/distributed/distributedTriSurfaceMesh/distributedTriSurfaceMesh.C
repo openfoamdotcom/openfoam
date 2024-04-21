@@ -33,7 +33,7 @@ License
 #include "triangle.H"
 #include "matchPoints.H"
 #include "globalIndex.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 #include "IFstream.H"
 #include "decompositionMethod.H"

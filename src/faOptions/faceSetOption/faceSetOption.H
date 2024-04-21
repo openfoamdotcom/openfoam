@@ -100,7 +100,7 @@ SourceFiles
 
 #include "faOption.H"
 #include "faceSet.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

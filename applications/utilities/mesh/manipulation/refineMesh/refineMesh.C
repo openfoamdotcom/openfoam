@@ -45,7 +45,7 @@ Description
 
 #include "argList.H"
 #include "polyMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "cellSet.H"
 #include "multiDirRefinement.H"
 #include "labelIOList.H"

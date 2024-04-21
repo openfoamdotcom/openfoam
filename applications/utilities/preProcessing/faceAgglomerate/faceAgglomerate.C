@@ -42,7 +42,7 @@ SeeAlso
 
 #include "argList.H"
 #include "fvMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "volFields.H"
 #include "unitConversion.H"
 #include "pairPatchAgglomeration.H"

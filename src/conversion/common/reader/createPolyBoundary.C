@@ -37,7 +37,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "meshReader.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyPatch.H"
 #include "emptyPolyPatch.H"
 #include "preservePatchTypes.H"

@@ -28,7 +28,7 @@ License
 
 #include "curvatureSeparation.H"
 #include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "stringListOps.H"
 #include "cyclicPolyPatch.H"
 

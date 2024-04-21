@@ -36,7 +36,7 @@ Description
 #include "fvMesh.H"
 #include "volFields.H"
 #include "meshTools.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "OFstream.H"
 #include "mappedPolyPatch.H"
 #include "mappedFixedValueFvPatchFields.H"

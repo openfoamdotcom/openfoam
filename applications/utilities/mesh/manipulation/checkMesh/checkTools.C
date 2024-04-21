@@ -40,7 +40,7 @@ License
 #include "pointSet.H"
 #include "faceSet.H"
 #include "cellSet.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "coordSetWriter.H"
 #include "surfaceWriter.H"
 #include "syncTools.H"

@@ -37,7 +37,7 @@ Description
 #include "IOList.H"
 #include "primitiveFields.H"
 #include "polyMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 using namespace Foam;
 

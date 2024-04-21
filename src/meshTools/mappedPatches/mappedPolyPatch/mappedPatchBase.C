@@ -39,7 +39,7 @@ License
 #include "indexedOctree.H"
 #include "polyMesh.H"
 #include "polyPatch.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "mapDistribute.H"
 #include "SubField.H"
 #include "triangle.H"

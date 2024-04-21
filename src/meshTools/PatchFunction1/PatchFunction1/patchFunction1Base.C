@@ -30,7 +30,7 @@ License
 #include "polyMesh.H"
 #include "polyPatch.H"
 #include "objectRegistry.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

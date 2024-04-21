@@ -27,7 +27,7 @@ License
 
 #include "error.H"
 
-#include "wchar.H"
+#include "wcharOpenFOAM.H"
 #include "IOstreams.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //

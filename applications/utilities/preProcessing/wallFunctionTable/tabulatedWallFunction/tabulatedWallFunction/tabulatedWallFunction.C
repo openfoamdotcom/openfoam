@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "tabulatedWallFunction.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

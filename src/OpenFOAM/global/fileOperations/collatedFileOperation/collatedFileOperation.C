@@ -29,7 +29,7 @@ License
 #include "collatedFileOperation.H"
 #include "addToRunTimeSelectionTable.H"
 #include "Pstream.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "threadedCollatedOFstream.H"
 #include "decomposedBlockData.H"
 #include "registerSwitch.H"

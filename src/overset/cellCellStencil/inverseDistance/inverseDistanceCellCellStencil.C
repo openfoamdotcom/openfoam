@@ -28,7 +28,7 @@ License
 #include "inverseDistanceCellCellStencil.H"
 #include "addToRunTimeSelectionTable.H"
 #include "OBJstream.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "fvMeshSubset.H"
 
 #include "globalIndex.H"

@@ -30,7 +30,7 @@ License
 #include "fileOperationInitialise.H"
 #include "addToRunTimeSelectionTable.H"
 #include "Pstream.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "instant.H"
 #include "IFstream.H"
 #include "SpanStream.H"

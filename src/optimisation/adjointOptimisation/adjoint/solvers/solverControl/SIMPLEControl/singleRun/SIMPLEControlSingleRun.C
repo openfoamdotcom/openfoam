@@ -29,7 +29,7 @@ License
 
 #include "SIMPLEControlSingleRun.H"
 #include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

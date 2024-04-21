@@ -33,7 +33,7 @@ Description
 
 #include "globalIndex.H"
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "IOstreams.H"
 #include "Random.H"
 #include "IndirectList.H"

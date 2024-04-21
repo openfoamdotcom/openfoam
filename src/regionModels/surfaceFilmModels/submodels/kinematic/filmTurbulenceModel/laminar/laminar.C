@@ -29,7 +29,7 @@ License
 #include "addToRunTimeSelectionTable.H"
 #include "fvMesh.H"
 #include "fvMatrices.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "volFields.H"
 #include "fvmSup.H"
 #include "kinematicSingleLayer.H"

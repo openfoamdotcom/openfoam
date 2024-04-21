@@ -39,7 +39,7 @@ Note
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "fvMesh.H"
 #include "pointMesh.H"
 #include "volFields.H"

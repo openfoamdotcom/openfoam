@@ -27,7 +27,7 @@ License
 
 #include "topoBoolSet.H"
 #include "polyMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

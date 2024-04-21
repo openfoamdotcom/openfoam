@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "motionSolver.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyMesh.H"
 #include "dictionaryEntry.H"
 #include "dlLibraryTable.H"

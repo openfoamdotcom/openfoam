@@ -30,7 +30,7 @@ License
 #include "OFstream.H"
 #include "OSspecific.H"
 #include "IOmanip.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "pointIOField.H"
 #include "primitivePatch.H"
 #include "profiling.H"

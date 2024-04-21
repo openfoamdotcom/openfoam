@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fvMeshFunctionObject.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "fvMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

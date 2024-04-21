@@ -28,7 +28,7 @@ License
 #include "cyclicAMIPointPatch.H"
 #include "pointBoundaryMesh.H"
 #include "pointMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

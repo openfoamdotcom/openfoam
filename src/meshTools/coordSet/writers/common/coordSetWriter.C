@@ -28,7 +28,7 @@ License
 #include "coordSet.H"
 #include "coordSetWriter.H"
 #include "fileFormats.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

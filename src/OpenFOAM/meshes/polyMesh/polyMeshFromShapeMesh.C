@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "polyMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "primitiveMesh.H"
 #include "DynamicList.H"
 #include "indexedOctree.H"

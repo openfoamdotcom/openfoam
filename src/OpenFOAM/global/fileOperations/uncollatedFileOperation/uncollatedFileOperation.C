@@ -28,7 +28,7 @@ License
 
 #include "uncollatedFileOperation.H"
 #include "fileOperationInitialise.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "Fstream.H"
 #include "addToRunTimeSelectionTable.H"
 #include "decomposedBlockData.H"

@@ -45,7 +45,7 @@ Description
 #include "cyclicPolyPatch.H"
 #include "syncTools.H"
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "OFstream.H"
 #include "meshTools.H"
 #include "faceSet.H"

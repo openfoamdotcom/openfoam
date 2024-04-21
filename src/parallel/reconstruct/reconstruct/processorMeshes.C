@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "processorMeshes.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "IndirectList.H"
 #include "primitiveMesh.H"
 #include "OSspecific.H"

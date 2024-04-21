@@ -30,7 +30,7 @@ License
 #include "addToRunTimeSelectionTable.H"
 #include "floatScalar.H"
 #include "globalMeshData.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "PrecisionAdaptor.H"
 #include "OFstream.H"
 #include <cstdio>

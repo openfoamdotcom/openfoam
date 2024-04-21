@@ -31,7 +31,7 @@ License
 #include "polyTopoChange.H"
 #include "removePoints.H"
 #include "faceSet.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "motionSmoother.H"
 #include "syncTools.H"
 

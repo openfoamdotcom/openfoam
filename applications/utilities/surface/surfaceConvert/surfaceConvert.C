@@ -62,7 +62,7 @@ Note
 #include "triSurface.H"
 #include "OFstream.H"
 #include "OSspecific.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 using namespace Foam;
 

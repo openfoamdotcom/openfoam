@@ -28,7 +28,7 @@ License
 
 #include "sigWriteNow.H"
 #include "error.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "IOstreams.H"
 
 // File-local functions

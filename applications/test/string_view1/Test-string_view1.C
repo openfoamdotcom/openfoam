@@ -28,7 +28,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "string.H"
+#include "stringOpenFOAM.H"
 #include "IOstreams.H"
 #include "List.H"
 

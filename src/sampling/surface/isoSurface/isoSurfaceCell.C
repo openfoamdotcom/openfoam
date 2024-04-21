@@ -35,7 +35,7 @@ License
 #include "syncTools.H"
 #include "triSurface.H"
 #include "triSurfaceTools.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,7 +36,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "mergePolyMesh.H"
 #include "topoSet.H"
 #include "processorMeshes.H"

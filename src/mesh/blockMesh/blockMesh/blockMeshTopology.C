@@ -28,7 +28,7 @@ License
 
 #include "blockMesh.H"
 #include "blockMeshTools.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "preservePatchTypes.H"
 #include "emptyPolyPatch.H"
 #include "cyclicPolyPatch.H"

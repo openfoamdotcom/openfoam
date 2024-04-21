@@ -36,7 +36,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "Fstream.H"
 #include "unitConversion.H"
 #include "foamVtkSeriesWriter.H"

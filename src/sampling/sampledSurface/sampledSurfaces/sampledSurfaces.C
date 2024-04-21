@@ -34,7 +34,7 @@ License
 #include "surfaceFields.H"
 #include "HashOps.H"
 #include "ListOps.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "IndirectList.H"
 #include "addToRunTimeSelectionTable.H"
 

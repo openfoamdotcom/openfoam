@@ -31,7 +31,7 @@ License
 #include "syncTools.H"
 #include "OFstream.H"
 #include "meshTools.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "SortableList.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //

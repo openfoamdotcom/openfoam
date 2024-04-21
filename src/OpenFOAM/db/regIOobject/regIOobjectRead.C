@@ -28,7 +28,7 @@ License
 
 #include "regIOobject.H"
 #include "IFstream.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "Pstream.H"
 #include "HashSet.H"
 #include "fileOperation.H"

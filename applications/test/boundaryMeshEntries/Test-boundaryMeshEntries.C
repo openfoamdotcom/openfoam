@@ -38,7 +38,7 @@ Description
 #include "polyMesh.H"
 #include "polyBoundaryMeshEntries.H"
 #include "OSspecific.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 using namespace Foam;
 

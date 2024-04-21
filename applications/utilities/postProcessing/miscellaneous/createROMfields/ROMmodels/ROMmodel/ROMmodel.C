@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ROMmodel.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "fvMesh.H"
 #include "dictionary.H"
 

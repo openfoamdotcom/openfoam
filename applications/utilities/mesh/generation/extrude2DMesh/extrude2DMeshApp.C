@@ -40,7 +40,7 @@ Note
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyMesh.H"
 #include "extrude2DMesh.H"
 #include "extrudeModel.H"

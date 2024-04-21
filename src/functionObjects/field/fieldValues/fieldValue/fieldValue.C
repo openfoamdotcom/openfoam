@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fieldValue.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

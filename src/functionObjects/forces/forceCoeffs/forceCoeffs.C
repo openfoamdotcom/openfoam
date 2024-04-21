@@ -28,7 +28,7 @@ License
 
 #include "forceCoeffs.H"
 #include "dictionary.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "Pstream.H"
 #include "IOmanip.H"
 #include "fvMesh.H"

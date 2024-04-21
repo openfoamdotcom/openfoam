@@ -148,7 +148,7 @@ SourceFiles
 #include "fvOption.H"
 #include "fvMesh.H"
 #include "dictionary.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

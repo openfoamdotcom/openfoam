@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multiphaseMixture.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "subCycle.H"
 #include "MULES.H"
 #include "surfaceInterpolate.H"

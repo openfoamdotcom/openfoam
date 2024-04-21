@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "timeFunctionObject.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

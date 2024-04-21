@@ -75,7 +75,7 @@ Description
 
 #include "triSurface.H"
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "featureEdgeMesh.H"
 #include "extendedFeatureEdgeMesh.H"
 #include "triSurfaceSearch.H"

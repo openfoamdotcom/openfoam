@@ -59,7 +59,7 @@ SourceFiles
 #include "IOdictionary.H"
 #include "DynamicList.H"
 #include "PtrDynList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "clockTime.H"
 #include <memory>
 

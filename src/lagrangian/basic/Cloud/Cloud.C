@@ -31,7 +31,7 @@ License
 #include "globalMeshData.H"
 #include "PstreamBuffers.H"
 #include "mapPolyMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "OFstream.H"
 #include "wallPolyPatch.H"
 #include "cyclicAMIPolyPatch.H"

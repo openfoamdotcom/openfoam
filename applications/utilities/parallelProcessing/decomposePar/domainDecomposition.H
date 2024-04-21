@@ -43,7 +43,7 @@ SourceFiles
 #include "fvMesh.H"
 #include "labelList.H"
 #include "point.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "volFields.H"
 
 namespace Foam

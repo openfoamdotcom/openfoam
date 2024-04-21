@@ -28,7 +28,7 @@ License
 
 #include "cyclicACMIPolyPatch.H"
 #include "SubField.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "addToRunTimeSelectionTable.H"
 #include "primitiveMeshTools.H"
 

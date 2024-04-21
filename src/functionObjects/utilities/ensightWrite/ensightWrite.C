@@ -27,7 +27,7 @@ License
 
 #include "ensightWrite.H"
 #include "ensightOutput.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyMesh.H"
 #include "addToRunTimeSelectionTable.H"
 

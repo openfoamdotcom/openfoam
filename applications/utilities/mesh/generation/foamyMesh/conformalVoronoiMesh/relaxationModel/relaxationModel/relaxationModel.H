@@ -39,7 +39,7 @@ SourceFiles
 #define relaxationModel_H
 
 #include "point.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "dictionary.H"
 #include "autoPtr.H"
 #include "runTimeSelectionTables.H"

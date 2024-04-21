@@ -51,7 +51,7 @@ Description
 
 #include "argList.H"
 #include "polyMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyTopoChange.H"
 #include "mapPolyMesh.H"
 #include "faceSet.H"

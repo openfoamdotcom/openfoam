@@ -28,7 +28,7 @@ License
 
 #include "basicChemistryModel.H"
 #include "fvMesh.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

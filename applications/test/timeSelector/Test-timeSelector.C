@@ -30,7 +30,7 @@ Description
 
 #include "argList.H"
 #include "IOstreams.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "timeSelector.H"
 
 using namespace Foam;

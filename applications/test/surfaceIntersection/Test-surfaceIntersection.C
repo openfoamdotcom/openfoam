@@ -32,7 +32,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "argList.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "triSurface.H"
 #include "triSurfaceMesh.H"
 #include "surfaceIntersection.H"

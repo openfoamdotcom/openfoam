@@ -66,7 +66,7 @@ Note
 
 #include "argList.H"
 #include "profiling.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 
 #include "UnsortedMeshedSurfaces.H"
 

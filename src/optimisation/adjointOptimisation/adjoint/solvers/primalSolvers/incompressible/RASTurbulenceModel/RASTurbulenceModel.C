@@ -29,7 +29,7 @@ License
 
 #include "RASTurbulenceModel.H"
 #include "findRefCell.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

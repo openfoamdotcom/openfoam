@@ -32,7 +32,7 @@ License
 #include "pointFields.H"
 #include "surfaceFields.H"
 #include "volFields.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "polyMesh.H"
 #include "displacementMotionSolver.H"
 

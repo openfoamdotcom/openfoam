@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "MeshedSurfaceProxy.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "ListOps.H"
 #include "surfMesh.H"
 #include "OFstream.H"

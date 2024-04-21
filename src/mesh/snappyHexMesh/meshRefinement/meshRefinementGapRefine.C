@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "meshRefinement.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "refinementSurfaces.H"
 #include "refinementFeatures.H"
 #include "shellSurfaces.H"

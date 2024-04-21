@@ -28,7 +28,7 @@ License
 
 #include "metisDecomp.H"
 #include "addToRunTimeSelectionTable.H"
-#include "Time.H"
+#include "TimeOpenFOAM.H"
 #include "PrecisionAdaptor.H"
 
 // Probably not needed...
