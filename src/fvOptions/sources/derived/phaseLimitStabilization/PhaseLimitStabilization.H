@@ -85,7 +85,7 @@ Usage
     \endverbatim
 
 SourceFiles
-    PhaseLimitStabilization.C
+    PhaseLimitStabilizationDeCased.C
 
 \*---------------------------------------------------------------------------*/
 
@@ -174,7 +174,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PhaseLimitStabilization.C"
+    #include "PhaseLimitStabilizationDeCased.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

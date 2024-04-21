@@ -64,7 +64,7 @@ Note
 
 SourceFiles
     meshObject.C
-    MeshObject.C
+    MeshObjectDeCased.C
 
 \*---------------------------------------------------------------------------*/
 
@@ -286,7 +286,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MeshObject.C"
+    #include "MeshObjectDeCased.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

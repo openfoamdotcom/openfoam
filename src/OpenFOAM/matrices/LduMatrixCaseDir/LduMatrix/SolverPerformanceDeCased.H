@@ -32,7 +32,7 @@ Description
     containing performance statistics.
 
 SourceFiles
-    SolverPerformance.C
+    SolverPerformanceDeCased.C
 
 \*---------------------------------------------------------------------------*/
 
@@ -298,7 +298,7 @@ const scalar solverPerformance##Type::vsmall_(VSMALL);                         \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SolverPerformance.C"
+    #include "SolverPerformanceDeCased.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

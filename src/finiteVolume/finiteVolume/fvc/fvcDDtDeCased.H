@@ -30,7 +30,7 @@ Description
     Calculate the substantive (total) derivative.
 
 SourceFiles
-    fvcDDt.C
+    fvcDDtDeCased.C
 
 \*---------------------------------------------------------------------------*/
 
@@ -75,7 +75,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcDDt.C"
+    #include "fvcDDtDeCased.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

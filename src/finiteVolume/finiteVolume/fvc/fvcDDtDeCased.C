@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcDDt.H"
+#include "fvcDDtDeCased.H"
 #include "fvcDiv.H"
 #include "fvMesh.H"
 
