@@ -534,9 +534,9 @@ meshes/lduMesh/lduMesh.C
 meshes/lduMesh/lduPrimitiveMesh.C
 
 LduMatrixCaseDir = matrices/LduMatrixCaseDir
-$(LduMatrixCaseDir)/LduMatrixCaseDir/lduMatrices.C
-$(LduMatrixCaseDir)/LduMatrixCaseDir/solverPerformance.C
-$(LduMatrixCaseDir)/LduMatrixCaseDir/LduInterfaceField/LduInterfaceFields.C
+$(LduMatrixCaseDir)/LduMatrix/lduMatrices.C
+$(LduMatrixCaseDir)/LduMatrix/solverPerformance.C
+$(LduMatrixCaseDir)/LduMatrix/LduInterfaceField/LduInterfaceFields.C
 $(LduMatrixCaseDir)/Smoothers/lduSmoothers.C
 $(LduMatrixCaseDir)/Preconditioners/lduPreconditioners.C
 $(LduMatrixCaseDir)/Solvers/lduSolvers.C
