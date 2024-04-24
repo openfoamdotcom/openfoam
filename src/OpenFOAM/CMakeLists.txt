@@ -602,7 +602,7 @@ lemon_target(MyName expressions/fields/fieldExprLemonParser.lyy-m4 "${_lemon_src
 add_library(OpenFOAM ${_FILES} ${_lemon_src})
 target_compile_features(OpenFOAM PUBLIC cxx_std_11)
 target_compile_definitions(OpenFOAM PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(OpenFOAM PUBLIC OSspecific Pstream)
+target_link_libraries(OpenFOAM PUBLIC Pstream)
 target_include_directories(OpenFOAM PUBLIC 
   include
   parallel/processorTopology
@@ -1161,5 +1161,6 @@ target_include_directories(OpenFOAM PUBLIC
   matrices/LduMatrixCaseDir/LduMatrix
   matrices/LduMatrixCaseDir/LduMatrix/LduInterfaceField
   matrices/SquareMatrix
+  meshes/meshShapes/traits
 )
 install(TARGETS OpenFOAM DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

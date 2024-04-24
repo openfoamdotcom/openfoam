@@ -17,18 +17,10 @@ target_compile_definitions(Pstream PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM
 if (BUILD_SHARED_LIBS)
   target_link_options(Pstream PUBLIC -undefined dynamic_lookup)
 endif()
-target_link_libraries(Pstream PUBLIC MPI::MPI_CXX)
+target_link_libraries(Pstream PUBLIC OSspecific MPI::MPI_CXX)
 target_include_directories(Pstream PUBLIC 
   .
   PRIVATE
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/.
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/fileMonitor
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/regExp
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/signals
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/fileStat
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/memInfo
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/cpuTime
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/cpuInfo
   ${OPENFOAM_SRC_DIR}/OpenFOAM/parallel/processorTopology
   ${OPENFOAM_SRC_DIR}/OpenFOAM/parallel/fieldsDistributor
   ${OPENFOAM_SRC_DIR}/OpenFOAM/parallel/commSchedule
