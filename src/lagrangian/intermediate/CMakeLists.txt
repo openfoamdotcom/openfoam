@@ -63,7 +63,7 @@ set(_FILES
 add_library(lagrangianIntermediate ${_FILES})
 target_compile_features(lagrangianIntermediate PUBLIC cxx_std_11)
 target_compile_definitions(lagrangianIntermediate PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(lagrangianIntermediate PUBLIC 
+target_include_directories(lagrangianIntermediate PUBLIC
   include
   integrationScheme/integrationScheme
   integrationScheme/analytical

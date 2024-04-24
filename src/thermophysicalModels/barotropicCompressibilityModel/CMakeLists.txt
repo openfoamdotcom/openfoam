@@ -8,7 +8,7 @@ set(_FILES
 add_library(barotropicCompressibilityModel ${_FILES})
 target_compile_features(barotropicCompressibilityModel PUBLIC cxx_std_11)
 target_compile_definitions(barotropicCompressibilityModel PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(barotropicCompressibilityModel PUBLIC 
+target_include_directories(barotropicCompressibilityModel PUBLIC
   Wallis
   linear
   barotropicCompressibilityModel

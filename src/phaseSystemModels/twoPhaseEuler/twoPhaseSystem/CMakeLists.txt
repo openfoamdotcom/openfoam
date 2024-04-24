@@ -67,7 +67,7 @@ set(_FILES
 add_library(compressibleTwoPhaseSystem ${_FILES})
 target_compile_features(compressibleTwoPhaseSystem PUBLIC cxx_std_11)
 target_compile_definitions(compressibleTwoPhaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(compressibleTwoPhaseSystem PUBLIC 
+target_include_directories(compressibleTwoPhaseSystem PUBLIC
   diameterModels/constantDiameter
   diameterModels/diameterModel
   diameterModels/isothermalDiameter

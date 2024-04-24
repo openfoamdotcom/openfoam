@@ -32,7 +32,7 @@ set(_FILES
 add_library(sixDoFRigidBodyMotion ${_FILES})
 target_compile_features(sixDoFRigidBodyMotion PUBLIC cxx_std_11)
 target_compile_definitions(sixDoFRigidBodyMotion PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(sixDoFRigidBodyMotion PUBLIC 
+target_include_directories(sixDoFRigidBodyMotion PUBLIC
   pointPatchFields/derived/uncoupledSixDoFRigidBodyDisplacement
   pointPatchFields/derived/sixDoFRigidBodyDisplacement
   sixDoFSolvers/symplectic

@@ -13,7 +13,7 @@ set(_FILES
 add_library(reactingTwoPhaseSystem ${_FILES})
 target_compile_features(reactingTwoPhaseSystem PUBLIC cxx_std_11)
 target_compile_definitions(reactingTwoPhaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(reactingTwoPhaseSystem PUBLIC 
+target_include_directories(reactingTwoPhaseSystem PUBLIC
   .
   diameterModels/IATE
   diameterModels/IATE/IATEsources/dummy

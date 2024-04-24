@@ -123,7 +123,7 @@ set(_FILES
 add_library(fieldFunctionObjects ${_FILES})
 target_compile_features(fieldFunctionObjects PUBLIC cxx_std_11)
 target_compile_definitions(fieldFunctionObjects PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(fieldFunctionObjects PUBLIC 
+target_include_directories(fieldFunctionObjects PUBLIC
   mag
   momentumError
   continuityError

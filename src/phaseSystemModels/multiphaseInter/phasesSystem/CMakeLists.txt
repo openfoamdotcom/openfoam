@@ -19,7 +19,7 @@ set(_FILES
 add_library(incompressibleMultiphaseSystems ${_FILES})
 target_compile_features(incompressibleMultiphaseSystems PUBLIC cxx_std_11)
 target_compile_definitions(incompressibleMultiphaseSystems PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(incompressibleMultiphaseSystems PUBLIC 
+target_include_directories(incompressibleMultiphaseSystems PUBLIC
   MassTransferPhaseSystem
   derivedFvPatchFields/timeVaryingMassSorption
   multiphaseSystem

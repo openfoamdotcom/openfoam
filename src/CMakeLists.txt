@@ -22,3 +22,8 @@ add_subdirectory(meshTools)
 add_subdirectory(finiteArea)
 add_subdirectory(finiteVolume)
 
+add_subdirectory(mesh/blockMesh)
+add_subdirectory(mesh/extrudeModel)
+add_subdirectory(dynamicMesh)
+add_subdirectory(genericPatchFields)
+

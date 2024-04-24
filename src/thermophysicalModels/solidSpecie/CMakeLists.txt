@@ -4,7 +4,7 @@ set(_FILES
 add_library(solidSpecie ${_FILES})
 target_compile_features(solidSpecie PUBLIC cxx_std_11)
 target_compile_definitions(solidSpecie PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(solidSpecie PUBLIC 
+target_include_directories(solidSpecie PUBLIC
   include
   reaction/reactionRate/solidIsothermalReactionRate
   reaction/reactionRate/solidArrheniusReactionRate

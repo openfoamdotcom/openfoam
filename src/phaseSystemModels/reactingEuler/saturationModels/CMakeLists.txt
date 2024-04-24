@@ -10,7 +10,7 @@ set(_FILES
 add_library(saturationModel ${_FILES})
 target_compile_features(saturationModel PUBLIC cxx_std_11)
 target_compile_definitions(saturationModel PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(saturationModel PUBLIC 
+target_include_directories(saturationModel PUBLIC
   constantSaturationConditions
   Antoine
   AntoineExtended

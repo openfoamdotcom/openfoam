@@ -6,7 +6,7 @@ set(_FILES
 add_library(rhoCentralFoam ${_FILES})
 target_compile_features(rhoCentralFoam PUBLIC cxx_std_11)
 target_compile_definitions(rhoCentralFoam PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(rhoCentralFoam PUBLIC 
+target_include_directories(rhoCentralFoam PUBLIC
   U
   T
   rho

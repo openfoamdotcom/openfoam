@@ -16,7 +16,7 @@ set(_FILES
 add_library(incompressibleTransportModels ${_FILES})
 target_compile_features(incompressibleTransportModels PUBLIC cxx_std_11)
 target_compile_definitions(incompressibleTransportModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(incompressibleTransportModels PUBLIC 
+target_include_directories(incompressibleTransportModels PUBLIC
   singlePhaseTransportModel
   incompressibleTwoPhaseMixture
   transportModel

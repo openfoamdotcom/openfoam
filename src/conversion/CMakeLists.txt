@@ -18,7 +18,7 @@ set(_FILES
 add_library(conversion ${_FILES})
 target_compile_features(conversion PUBLIC cxx_std_11)
 target_compile_definitions(conversion PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(conversion PUBLIC 
+target_include_directories(conversion PUBLIC
   starcd
   polyDualMesh
   ccm/reader

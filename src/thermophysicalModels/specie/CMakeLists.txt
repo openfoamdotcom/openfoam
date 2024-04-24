@@ -7,7 +7,7 @@ set(_FILES
 add_library(specie ${_FILES})
 target_compile_features(specie PUBLIC cxx_std_11)
 target_compile_definitions(specie PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(specie PUBLIC 
+target_include_directories(specie PUBLIC
   include
   reaction/reactionRate/fallOffFunctions/LindemannFallOffFunction
   reaction/reactionRate/fallOffFunctions/TroeFallOffFunction

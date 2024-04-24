@@ -20,7 +20,7 @@ set(_FILES
 add_library(geometricVoF ${_FILES})
 target_compile_features(geometricVoF PUBLIC cxx_std_11)
 target_compile_definitions(geometricVoF PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(geometricVoF PUBLIC 
+target_include_directories(geometricVoF PUBLIC
   cellCuts/cutCell
   cellCuts/cutFace
   reconstructionSchemes

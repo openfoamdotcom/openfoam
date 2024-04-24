@@ -28,7 +28,7 @@ set(_FILES
 add_library(phaseCompressibleTurbulenceModels ${_FILES})
 target_compile_features(phaseCompressibleTurbulenceModels PUBLIC cxx_std_11)
 target_compile_definitions(phaseCompressibleTurbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(phaseCompressibleTurbulenceModels PUBLIC 
+target_include_directories(phaseCompressibleTurbulenceModels PUBLIC
   phasePressureModel
   kineticTheoryModels/conductivityModel/HrenyaSinclair
   kineticTheoryModels/conductivityModel/conductivityModel

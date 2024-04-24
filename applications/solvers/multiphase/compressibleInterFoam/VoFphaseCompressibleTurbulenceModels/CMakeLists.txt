@@ -5,7 +5,7 @@ set(_FILES
 add_library(VoFphaseCompressibleTurbulenceModels ${_FILES})
 target_compile_features(VoFphaseCompressibleTurbulenceModels PUBLIC cxx_std_11)
 target_compile_definitions(VoFphaseCompressibleTurbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(VoFphaseCompressibleTurbulenceModels PUBLIC 
+target_include_directories(VoFphaseCompressibleTurbulenceModels PUBLIC
   .
 )
 install(TARGETS VoFphaseCompressibleTurbulenceModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

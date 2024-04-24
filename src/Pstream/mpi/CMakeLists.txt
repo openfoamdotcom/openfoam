@@ -18,7 +18,7 @@ if (BUILD_SHARED_LIBS)
   target_link_options(Pstream PUBLIC -undefined dynamic_lookup)
 endif()
 target_link_libraries(Pstream PUBLIC OSspecific MPI::MPI_CXX)
-target_include_directories(Pstream PUBLIC 
+target_include_directories(Pstream PUBLIC
   .
   PRIVATE
   ${OPENFOAM_SRC_DIR}/OpenFOAM/parallel/processorTopology

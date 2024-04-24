@@ -21,7 +21,7 @@ set(_FILES
 add_library(multiphaseSystem ${_FILES})
 target_compile_features(multiphaseSystem PUBLIC cxx_std_11)
 target_compile_definitions(multiphaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(multiphaseSystem PUBLIC 
+target_include_directories(multiphaseSystem PUBLIC
   diameterModels/constantDiameter
   diameterModels/diameterModel
   diameterModels/isothermalDiameter

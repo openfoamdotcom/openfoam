@@ -68,7 +68,7 @@ add_library(surfMesh ${_FILES})
 target_compile_features(surfMesh PUBLIC cxx_std_11)
 target_compile_definitions(surfMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(surfMesh PUBLIC fileFormats)
-target_include_directories(surfMesh PUBLIC 
+target_include_directories(surfMesh PUBLIC
   mergedSurf
   meshedSurf
   triSurface

@@ -71,7 +71,7 @@ set(_FILES
 add_library(sampling ${_FILES})
 target_compile_features(sampling PUBLIC cxx_std_11)
 target_compile_definitions(sampling PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(sampling PUBLIC 
+target_include_directories(sampling PUBLIC
   probes
   meshToMesh0
   graphField

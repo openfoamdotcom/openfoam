@@ -29,7 +29,7 @@ set(_FILES
 add_library(potential ${_FILES})
 target_compile_features(potential PUBLIC cxx_std_11)
 target_compile_definitions(potential PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(potential PUBLIC 
+target_include_directories(potential PUBLIC
   energyScalingFunction/derived/noScaling
   energyScalingFunction/derived/doubleSigmoid
   energyScalingFunction/derived/shiftedForce

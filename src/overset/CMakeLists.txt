@@ -31,7 +31,7 @@ set(_FILES
 add_library(overset ${_FILES})
 target_compile_features(overset PUBLIC cxx_std_11)
 target_compile_definitions(overset PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(overset PUBLIC 
+target_include_directories(overset PUBLIC
   include
   oversetPolyPatch
   oversetCoupledPolyPatch/oversetGAMGInterfaceField

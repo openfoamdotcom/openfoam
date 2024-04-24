@@ -429,7 +429,7 @@ add_library(finiteVolume ${_FILES} ${_lemon_src})
 target_compile_features(finiteVolume PUBLIC cxx_std_11)
 target_compile_definitions(finiteVolume PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(finiteVolume PUBLIC meshTools)
-target_include_directories(finiteVolume PUBLIC 
+target_include_directories(finiteVolume PUBLIC
   volMesh
   fvMesh
   fvMesh/fvBoundaryMesh

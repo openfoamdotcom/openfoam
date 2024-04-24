@@ -5,7 +5,7 @@ set(_FILES
 add_library(coalCombustion ${_FILES})
 target_compile_features(coalCombustion PUBLIC cxx_std_11)
 target_compile_definitions(coalCombustion PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(coalCombustion PUBLIC 
+target_include_directories(coalCombustion PUBLIC
   include
   submodels/surfaceReactionModel/COxidationDiffusionLimitedRate
   submodels/surfaceReactionModel/COxidationMurphyShaddix

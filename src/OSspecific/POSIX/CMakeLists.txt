@@ -21,7 +21,7 @@ target_compile_definitions(OSspecific PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_$
 if (BUILD_SHARED_LIBS)
   target_link_options(OSspecific PUBLIC -undefined dynamic_lookup)
 endif()
-target_include_directories(OSspecific PUBLIC 
+target_include_directories(OSspecific PUBLIC
   .
   fileMonitor
   regExp

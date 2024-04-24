@@ -8,7 +8,8 @@ set(_FILES
 add_library(genericPatchFields ${_FILES})
 target_compile_features(genericPatchFields PUBLIC cxx_std_11)
 target_compile_definitions(genericPatchFields PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(genericPatchFields PUBLIC 
+target_link_libraries(genericPatchFields PUBLIC finiteArea finiteVolume)
+target_include_directories(genericPatchFields PUBLIC
   genericFvsPatchField
   genericPointPatchField
   genericFvPatchField

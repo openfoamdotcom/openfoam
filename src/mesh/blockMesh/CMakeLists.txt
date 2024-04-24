@@ -38,10 +38,12 @@ set(_FILES
   PDRblockMesh/PDRblockLocation.C
   PDRblockMesh/PDRblockOuter.C
 )
-add_library(blockMesh ${_FILES})
-target_compile_features(blockMesh PUBLIC cxx_std_11)
-target_compile_definitions(blockMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_include_directories(blockMesh PUBLIC 
+add_library(blockMeshLib ${_FILES})
+target_compile_features(blockMeshLib PUBLIC cxx_std_11)
+target_compile_definitions(blockMeshLib PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(blockMeshLib PUBLIC meshTools)
+set_target_properties(blockMeshLib PROPERTIES OUTPUT_NAME blockMesh)
+target_include_directories(blockMeshLib PUBLIC
   blocks/namedBlock
   blocks/block
   blockFaces/projectFace
@@ -66,4 +68,4 @@ target_include_directories(blockMesh PUBLIC
   blockVertices/namedVertex
   blockVertices/blockVertex
 )
-install(TARGETS blockMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
+install(TARGETS blockMeshLib DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
