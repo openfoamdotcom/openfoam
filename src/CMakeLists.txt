@@ -15,3 +15,7 @@ endif()
 
 add_subdirectory(OpenFOAM)
 
+add_subdirectory(fileFormats)
+add_subdirectory(surfMesh)
+add_subdirectory(meshTools)
+
