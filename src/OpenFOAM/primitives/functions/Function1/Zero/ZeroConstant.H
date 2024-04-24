@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Function1Types_ZeroConstant_H
 #define Function1Types_ZeroConstant_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

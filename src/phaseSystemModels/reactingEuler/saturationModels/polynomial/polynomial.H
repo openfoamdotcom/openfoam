@@ -48,7 +48,7 @@ SourceFiles
 #define saturationModels_polynomial_H
 
 #include "saturationModel.H"
-#include "Polynomial.H"
+#include "PolynomialPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

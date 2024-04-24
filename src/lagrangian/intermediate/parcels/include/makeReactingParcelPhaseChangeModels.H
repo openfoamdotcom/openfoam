@@ -31,7 +31,7 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoPhaseChange.H"
+#include "NoPhaseChangePascal.H"
 #include "LiquidEvaporation.H"
 #include "LiquidEvaporationBoil.H"
 #include "LiquidEvapFuchsKnudsen.H"

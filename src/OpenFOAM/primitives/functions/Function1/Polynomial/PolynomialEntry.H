@@ -62,7 +62,7 @@ SourceFiles
 #ifndef Function1Types_Polynomial_H
 #define Function1Types_Polynomial_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "Tuple2.H"
 #include "Function1Fwd.H"
 

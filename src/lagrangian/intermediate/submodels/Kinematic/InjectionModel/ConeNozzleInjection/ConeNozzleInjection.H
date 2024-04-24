@@ -67,7 +67,7 @@ SourceFiles
 #ifndef ConeNozzleInjection_H
 #define ConeNozzleInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -28,7 +28,7 @@ License
 
 #include "blockEdge.H"
 #include "blockVertex.H"
-#include "polyLine.H"
+#include "polyLinePascal.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

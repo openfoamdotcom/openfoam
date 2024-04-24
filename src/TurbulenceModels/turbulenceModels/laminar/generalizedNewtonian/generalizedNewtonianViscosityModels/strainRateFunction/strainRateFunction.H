@@ -50,7 +50,7 @@ SourceFiles
 #define strainRateFunction_H
 
 #include "generalizedNewtonianViscosityModel.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

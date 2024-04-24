@@ -60,7 +60,7 @@ SourceFiles
 #include "engineTime.H"
 #include "dictionary.H"
 #include "dimensionedScalar.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

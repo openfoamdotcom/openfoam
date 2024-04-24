@@ -97,7 +97,7 @@ SourceFiles
 #define CrankNicolsonDdtScheme_H
 
 #include "ddtScheme.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

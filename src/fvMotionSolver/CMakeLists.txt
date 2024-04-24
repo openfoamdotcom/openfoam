@@ -1,0 +1,74 @@
+set(_FILES
+  fvMotionSolvers/fvMotionSolver/fvMotionSolver.C
+  fvMotionSolvers/displacement/SBRStress/displacementSBRStressFvMotionSolver.C
+  fvMotionSolvers/displacement/laplacian/displacementLaplacianFvMotionSolver.C
+  fvMotionSolvers/displacement/surfaceAlignedSBRStress/surfaceAlignedSBRStressFvMotionSolver.C
+  fvMotionSolvers/displacement/solidBodyDisplacementLaplacian/solidBodyDisplacementLaplacianFvMotionSolver.C
+  fvMotionSolvers/componentDisplacement/componentLaplacian/displacementComponentLaplacianFvMotionSolver.C
+  fvMotionSolvers/velocity/laplacian/velocityLaplacianFvMotionSolver.C
+  fvMotionSolvers/componentVelocity/componentLaplacian/velocityComponentLaplacianFvMotionSolver.C
+  motionDiffusivity/motionDiffusivity/motionDiffusivity.C
+  motionDiffusivity/uniform/uniformDiffusivity.C
+  motionDiffusivity/inverseDistance/inverseDistanceDiffusivity.C
+  motionDiffusivity/inverseFaceDistance/inverseFaceDistanceDiffusivity.C
+  motionDiffusivity/inversePointDistance/inversePointDistanceDiffusivity.C
+  motionDiffusivity/inverseVolume/inverseVolumeDiffusivity.C
+  motionDiffusivity/directional/directionalDiffusivity.C
+  motionDiffusivity/motionDirectional/motionDirectionalDiffusivity.C
+  motionDiffusivity/file/fileDiffusivity.C
+  motionDiffusivity/manipulators/quadratic/quadraticDiffusivity.C
+  motionDiffusivity/manipulators/exponential/exponentialDiffusivity.C
+  motionInterpolation/motionInterpolation/motionInterpolation.C
+  motionInterpolation/patchCorrected/patchCorrectedInterpolation.C
+  motionInterpolation/patchTransformed/patchTransformedInterpolation.C
+  fvPatchFields/derived/cellMotion/cellMotionFvPatchFields.C
+  fvPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementFvPatchFields.C
+  pointPatchFields/derived/oscillatingVelocity/oscillatingVelocityPointPatchVectorField.C
+  pointPatchFields/derived/angularOscillatingVelocity/angularOscillatingVelocityPointPatchVectorField.C
+  pointPatchFields/derived/oscillatingDisplacement/oscillatingDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/angularOscillatingDisplacement/angularOscillatingDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/surfaceDisplacement/surfaceDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/waveDisplacement/waveDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchFields.C
+  pointPatchFields/derived/uniformInterpolatedDisplacement/uniformInterpolatedDisplacementPointPatchVectorField.C
+)
+add_library(fvMotionSolvers ${_FILES})
+target_compile_features(fvMotionSolvers PUBLIC cxx_std_11)
+target_compile_definitions(fvMotionSolvers PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_include_directories(fvMotionSolvers PUBLIC 
+  fvPatchFields/derived/surfaceSlipDisplacement
+  fvPatchFields/derived/cellMotion
+  motionInterpolation/patchCorrected
+  motionInterpolation/motionInterpolation
+  motionInterpolation/patchTransformed
+  pointPatchFields/derived/surfaceSlipDisplacement
+  pointPatchFields/derived/angularOscillatingVelocity
+  pointPatchFields/derived/angularOscillatingDisplacement
+  pointPatchFields/derived/timeVaryingMappedFixedValue
+  pointPatchFields/derived/waveDisplacement
+  pointPatchFields/derived/surfaceDisplacement
+  pointPatchFields/derived/uniformInterpolatedDisplacement
+  pointPatchFields/derived/oscillatingVelocity
+  pointPatchFields/derived/oscillatingDisplacement
+  fvMotionSolvers/componentVelocity/componentLaplacian
+  fvMotionSolvers/fvMotionSolver
+  fvMotionSolvers/componentDisplacement/componentLaplacian
+  fvMotionSolvers/displacement/laplacian
+  fvMotionSolvers/displacement/SBRStress
+  fvMotionSolvers/displacement/surfaceAlignedSBRStress
+  fvMotionSolvers/displacement/solidBodyDisplacementLaplacian
+  fvMotionSolvers/velocity/laplacian
+  motionDiffusivity/manipulators/quadratic
+  motionDiffusivity/manipulators/exponential
+  motionDiffusivity/motionDirectional
+  motionDiffusivity/inverseFaceDistance
+  motionDiffusivity/file
+  motionDiffusivity/uniform
+  motionDiffusivity/inverseVolume
+  motionDiffusivity/directional
+  motionDiffusivity/motionDiffusivity
+  motionDiffusivity/inversePointDistance
+  motionDiffusivity/inverseDistance
+)
+install(TARGETS fvMotionSolvers DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

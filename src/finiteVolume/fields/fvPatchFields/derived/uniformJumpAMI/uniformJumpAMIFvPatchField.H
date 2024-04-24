@@ -73,7 +73,7 @@ SourceFiles
 #define uniformJumpAMIFvPatchField_H
 
 #include "fixedJumpAMIFvPatchField.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -44,7 +44,7 @@ SourceFiles
 
 #include "sixDoFRigidBodyMotionRestraint.H"
 #include "point.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

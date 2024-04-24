@@ -1,0 +1,6 @@
+set(_FILES
+  uncoupledKinematicParcelDyMFoam.C
+)
+add_executable(uncoupledKinematicParcelDyMFoam ${_FILES})
+target_compile_features(uncoupledKinematicParcelDyMFoam PUBLIC cxx_std_11)
+target_link_libraries(uncoupledKinematicParcelDyMFoam PUBLIC finiteVolume)

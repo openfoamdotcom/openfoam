@@ -44,7 +44,7 @@ SourceFiles
 #ifndef InflationInjection_H
 #define InflationInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "distributionModel.H"
 #include "Switch.H"
 

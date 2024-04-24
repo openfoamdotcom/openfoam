@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_passivePositionParticleCloud_H
 #define Foam_passivePositionParticleCloud_H
 
-#include "Cloud.H"
+#include "CloudPascal.H"
 #include "passivePositionParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -62,7 +62,7 @@ SourceFiles
 #define powerLawLopesdaCosta_H
 
 #include "porosityModel.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

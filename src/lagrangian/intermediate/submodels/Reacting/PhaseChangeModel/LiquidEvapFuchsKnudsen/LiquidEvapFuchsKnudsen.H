@@ -52,7 +52,7 @@ Description
 #ifndef LiquidEvapFuchsKnudsen_H
 #define LiquidEvapFuchsKnudsen_H
 
-#include "PhaseChangeModel.H"
+#include "PhaseChangeModelPascal.H"
 #include "liquidMixtureProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

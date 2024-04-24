@@ -1,0 +1,6 @@
+set(_FILES
+  createExternalCoupledPatchGeometry.C
+)
+add_executable(createExternalCoupledPatchGeometry ${_FILES})
+target_compile_features(createExternalCoupledPatchGeometry PUBLIC cxx_std_11)
+target_link_libraries(createExternalCoupledPatchGeometry PUBLIC finiteVolume)

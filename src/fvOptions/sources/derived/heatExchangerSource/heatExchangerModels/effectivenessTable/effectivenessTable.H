@@ -179,7 +179,7 @@ SourceFiles
 
 #include "heatExchangerModel.H"
 #include "interpolation2DTable.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

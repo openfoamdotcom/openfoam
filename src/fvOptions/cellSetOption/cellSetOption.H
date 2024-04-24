@@ -149,7 +149,7 @@ SourceFiles
 #include "fvMesh.H"
 #include "dictionary.H"
 #include "TimeOpenFOAM.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

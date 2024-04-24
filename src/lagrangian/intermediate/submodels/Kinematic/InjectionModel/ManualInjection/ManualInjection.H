@@ -49,7 +49,7 @@ SourceFiles
 #ifndef ManualInjection_H
 #define ManualInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "distributionModel.H"
 #include "Switch.H"
 #include "globalIOFields.H"

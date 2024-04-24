@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CorrectPhi.H"
+#include "CorrectPhiPascal.H"
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "fvScalarMatrix.H"

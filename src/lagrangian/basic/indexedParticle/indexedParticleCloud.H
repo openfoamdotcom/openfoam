@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_indexedParticleCloud_H
 #define Foam_indexedParticleCloud_H
 
-#include "Cloud.H"
+#include "CloudPascal.H"
 #include "indexedParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

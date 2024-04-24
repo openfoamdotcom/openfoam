@@ -1,0 +1,6 @@
+set(_FILES
+  applyBoundaryLayer.C
+)
+add_executable(applyBoundaryLayer ${_FILES})
+target_compile_features(applyBoundaryLayer PUBLIC cxx_std_11)
+target_link_libraries(applyBoundaryLayer PUBLIC finiteVolume)

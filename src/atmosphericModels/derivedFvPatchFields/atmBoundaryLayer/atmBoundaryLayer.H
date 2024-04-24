@@ -217,7 +217,7 @@ SourceFiles
 #define atmBoundaryLayer_H
 
 #include "fvPatchFields.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

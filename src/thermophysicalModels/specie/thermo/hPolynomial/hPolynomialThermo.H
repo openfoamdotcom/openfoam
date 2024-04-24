@@ -80,7 +80,7 @@ See also
 #define hPolynomialThermo_H
 
 #include "scalar.H"
-#include "Polynomial.H"
+#include "PolynomialPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

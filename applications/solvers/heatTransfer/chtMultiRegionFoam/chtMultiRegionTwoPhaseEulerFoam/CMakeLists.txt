@@ -1,0 +1,8 @@
+set(_FILES
+  derivedFvPatchFields/turbulentTemperatureTwoPhaseRadCoupledMixed/turbulentTemperatureTwoPhaseRadCoupledMixedFvPatchScalarField.C
+  solid/solidRegionDiffNo.C
+  chtMultiRegionTwoPhaseEulerFoam.C
+)
+add_executable(chtMultiRegionTwoPhaseEulerFoam ${_FILES})
+target_compile_features(chtMultiRegionTwoPhaseEulerFoam PUBLIC cxx_std_11)
+target_link_libraries(chtMultiRegionTwoPhaseEulerFoam PUBLIC finiteVolume)

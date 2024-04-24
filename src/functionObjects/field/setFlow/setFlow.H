@@ -138,7 +138,7 @@ SourceFiles
 #define functionObjects_setFlow_H
 
 #include "fvMeshFunctionObject.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "Enum.H"
 #include "point.H"
 #include "volFieldsFwd.H"

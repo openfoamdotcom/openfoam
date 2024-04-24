@@ -80,7 +80,7 @@ SourceFiles
 #define Foam_PatchFunction1Types_MappedFile_H
 
 #include "PatchFunction1.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "Pair.H"
 #include "instantList.H"
 #include "surfaceReader.H"

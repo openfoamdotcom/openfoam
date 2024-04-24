@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_simpleObjectRegistry_H
 #define Foam_simpleObjectRegistry_H
 
-#include "Dictionary.H"
+#include "DictionaryPascal.H"
 #include "simpleRegIOobject.H"
 #include <string>
 

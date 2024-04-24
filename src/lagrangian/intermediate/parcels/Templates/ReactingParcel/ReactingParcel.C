@@ -29,7 +29,7 @@ License
 #include "ReactingParcel.H"
 #include "specie.H"
 #include "CompositionModel.H"
-#include "PhaseChangeModel.H"
+#include "PhaseChangeModelPascal.H"
 #include "mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;

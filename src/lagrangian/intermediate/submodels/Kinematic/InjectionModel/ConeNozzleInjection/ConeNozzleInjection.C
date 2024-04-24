@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ConeNozzleInjection.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "unitConversion.H"
 #include "distributionModel.H"
 

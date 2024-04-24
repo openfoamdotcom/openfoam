@@ -1,0 +1,18 @@
+set(_FILES
+  alphaContactAngle/constantAlphaContactAngle/constantAlphaContactAngleFvPatchScalarField.C
+  alphaContactAngle/temperatureDependentAlphaContactAngle/temperatureDependentAlphaContactAngleFvPatchScalarField.C
+  alphaContactAngle/dynamicAlphaContactAngle/dynamicAlphaContactAngleFvPatchScalarField.C
+  alphaContactAngle/timeVaryingAlphaContactAngle/timeVaryingAlphaContactAngleFvPatchScalarField.C
+  alphaFixedPressure/alphaFixedPressureFvPatchScalarField.C
+)
+add_library(twoPhaseProperties ${_FILES})
+target_compile_features(twoPhaseProperties PUBLIC cxx_std_11)
+target_compile_definitions(twoPhaseProperties PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_include_directories(twoPhaseProperties PUBLIC 
+  alphaContactAngle/timeVaryingAlphaContactAngle
+  alphaContactAngle/temperatureDependentAlphaContactAngle
+  alphaContactAngle/dynamicAlphaContactAngle
+  alphaContactAngle/constantAlphaContactAngle
+  alphaFixedPressure
+)
+install(TARGETS twoPhaseProperties DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

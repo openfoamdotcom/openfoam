@@ -51,7 +51,7 @@ SourceFiles
 #ifndef FieldActivatedInjection_H
 #define FieldActivatedInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "distributionModel.H"
 #include "volFieldsFwd.H"
 #include "globalIOFields.H"

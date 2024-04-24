@@ -59,7 +59,7 @@ SourceFiles
 #ifndef KinematicLookupTableInjection_H
 #define KinematicLookupTableInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "kinematicParcelInjectionDataIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

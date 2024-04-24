@@ -49,7 +49,7 @@ SourceFiles
 #define tanhInterpolation_H
 
 #include "topOInterpolationFunction.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

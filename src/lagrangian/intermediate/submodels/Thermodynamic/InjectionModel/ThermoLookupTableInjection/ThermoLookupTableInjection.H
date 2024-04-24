@@ -57,7 +57,7 @@ SourceFiles
 #ifndef ThermoLookupTableInjection_H
 #define ThermoLookupTableInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "kinematicParcelInjectionDataIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

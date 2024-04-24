@@ -1,0 +1,14 @@
+set(_FILES
+  derivedFvPatchFields/filmPyrolysisVelocityCoupled/filmPyrolysisVelocityCoupledFvPatchVectorField.C
+  derivedFvPatchFields/filmPyrolysisTemperatureCoupled/filmPyrolysisTemperatureCoupledFvPatchScalarField.C
+  derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed/filmPyrolysisRadiativeCoupledMixedFvPatchScalarField.C
+)
+add_library(regionCoupling ${_FILES})
+target_compile_features(regionCoupling PUBLIC cxx_std_11)
+target_compile_definitions(regionCoupling PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_include_directories(regionCoupling PUBLIC 
+  derivedFvPatchFields/filmPyrolysisTemperatureCoupled
+  derivedFvPatchFields/filmPyrolysisVelocityCoupled
+  derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed
+)
+install(TARGETS regionCoupling DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

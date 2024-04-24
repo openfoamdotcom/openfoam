@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ConeInjection.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "mathematicalConstants.H"
 #include "unitConversion.H"
 

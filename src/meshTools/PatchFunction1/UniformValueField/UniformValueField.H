@@ -44,7 +44,7 @@ SourceFiles
 #define PatchFunction1Types_UniformValueField_H
 
 #include "PatchFunction1.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

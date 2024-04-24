@@ -77,7 +77,7 @@ See also
 #ifndef InjectedParticleDistributionInjection_H
 #define InjectedParticleDistributionInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "general.H"
 #include "Switch.H"
 #include "vectorList.H"

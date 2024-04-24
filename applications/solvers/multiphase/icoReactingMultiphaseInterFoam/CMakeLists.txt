@@ -1,0 +1,6 @@
+set(_FILES
+  icoReactingMultiphaseInterFoam.C
+)
+add_executable(icoReactingMultiphaseInterFoam ${_FILES})
+target_compile_features(icoReactingMultiphaseInterFoam PUBLIC cxx_std_11)
+target_link_libraries(icoReactingMultiphaseInterFoam PUBLIC finiteVolume)

@@ -28,7 +28,7 @@ License
 #ifndef Function1Fwd_H
 #define Function1Fwd_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "vector.H"
 #include "symmTensor.H"
 #include "sphericalTensor.H"

@@ -149,7 +149,7 @@ SourceFiles
 
 #include "cellSetOption.H"
 #include "Enum.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "HashPtrTable.H"
 #include "volumeExprDriver.H"
 

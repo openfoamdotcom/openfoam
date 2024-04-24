@@ -39,7 +39,7 @@ SourceFiles
 #define function1Viscosity_H
 
 #include "filmViscosityModel.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,7 +28,7 @@ License
 
 #include "streamLineBase.H"
 #include "fvMesh.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "OFstream.H"
 #include "sampledSet.H"
 #include "globalIndex.H"

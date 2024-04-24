@@ -41,7 +41,7 @@ SourceFiles
 #define liquid_H
 
 #include "liquidProperties.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

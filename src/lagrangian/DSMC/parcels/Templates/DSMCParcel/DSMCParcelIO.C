@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DSMCParcel.H"
+#include "DSMCParcelPascal.H"
 #include "IOstreams.H"
 #include "IOField.H"
-#include "Cloud.H"
+#include "CloudPascal.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

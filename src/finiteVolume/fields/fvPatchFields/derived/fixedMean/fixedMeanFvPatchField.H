@@ -62,7 +62,7 @@ SourceFiles
 #define fixedMeanFvPatchField_H
 
 #include "fixedValueFvPatchFields.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

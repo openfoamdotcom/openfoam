@@ -56,7 +56,7 @@ SourceFiles
 #ifndef Foam_Function1Types_CSV_H
 #define Foam_Function1Types_CSV_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "TableBase.H"
 #include "Tuple2.H"
 #include "labelList.H"

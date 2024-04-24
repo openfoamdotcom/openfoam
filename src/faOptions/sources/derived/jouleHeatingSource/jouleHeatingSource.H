@@ -139,7 +139,7 @@ SourceFiles
 #define Foam_fa_jouleHeatingSource_H
 
 #include "faOption.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "areaFields.H"
 #include "faceSetOption.H"
 

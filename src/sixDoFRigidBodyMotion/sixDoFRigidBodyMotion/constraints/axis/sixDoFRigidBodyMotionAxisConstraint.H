@@ -88,7 +88,7 @@ SourceFiles
 #define Foam_sixDoFRigidBodyMotionAxisConstraint_H
 
 #include "sixDoFRigidBodyMotionConstraint.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

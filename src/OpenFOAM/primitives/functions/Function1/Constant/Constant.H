@@ -56,7 +56,7 @@ SourceFiles
 #ifndef Function1Types_Constant_H
 #define Function1Types_Constant_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

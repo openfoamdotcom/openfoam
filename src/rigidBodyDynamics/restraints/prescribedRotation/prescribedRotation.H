@@ -59,7 +59,7 @@ SourceFiles
 #define prescribedRotation_H
 
 #include "rigidBodyRestraint.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -33,7 +33,7 @@ License
 
 #include "DampingModel.H"
 #include "NoDamping.H"
-#include "Relaxation.H"
+#include "RelaxationPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

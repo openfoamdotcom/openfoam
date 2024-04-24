@@ -67,7 +67,7 @@ See also
 #ifndef polynomialSolidTransport_H
 #define polynomialSolidTransport_H
 
-#include "Polynomial.H"
+#include "PolynomialPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

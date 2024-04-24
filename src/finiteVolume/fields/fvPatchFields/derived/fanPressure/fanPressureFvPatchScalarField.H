@@ -112,7 +112,7 @@ SourceFiles
 #define fanPressureFvPatchScalarField_H
 
 #include "totalPressureFvPatchScalarField.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

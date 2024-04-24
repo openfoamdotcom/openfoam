@@ -40,7 +40,7 @@ SourceFiles
 #define topOInterpolationFunction_H
 
 #include "fvMesh.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

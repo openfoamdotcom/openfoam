@@ -73,7 +73,7 @@ SourceFiles
 #define functionObjects_setTimeStepFunctionObject_H
 
 #include "timeFunctionObject.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

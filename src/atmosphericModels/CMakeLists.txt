@@ -1,0 +1,56 @@
+set(_FILES
+  turbulenceModels/atmosphericTurbulentTransportModels.C
+  turbulenceModels/atmosphericTurbulentFluidThermoModels.C
+  porosityModels/powerLawLopesdaCosta/powerLawLopesdaCosta.C
+  derivedFvPatchFields/atmBoundaryLayer/atmBoundaryLayer.C
+  derivedFvPatchFields/atmBoundaryLayerInletVelocity/atmBoundaryLayerInletVelocityFvPatchVectorField.C
+  derivedFvPatchFields/atmBoundaryLayerInletK/atmBoundaryLayerInletKFvPatchScalarField.C
+  derivedFvPatchFields/atmBoundaryLayerInletEpsilon/atmBoundaryLayerInletEpsilonFvPatchScalarField.C
+  derivedFvPatchFields/atmBoundaryLayerInletOmega/atmBoundaryLayerInletOmegaFvPatchScalarField.C
+  derivedFvPatchFields/atmTurbulentHeatFluxTemperature/atmTurbulentHeatFluxTemperatureFvPatchScalarField.C
+  derivedFvPatchFields/wallFunctions/atmAlphatkWallFunction/atmAlphatkWallFunctionFvPatchScalarField.C
+  derivedFvPatchFields/wallFunctions/atmEpsilonWallFunction/atmEpsilonWallFunctionFvPatchScalarField.C
+  derivedFvPatchFields/wallFunctions/atmNutkWallFunction/atmNutkWallFunctionFvPatchScalarField.C
+  derivedFvPatchFields/wallFunctions/atmNutUWallFunction/atmNutUWallFunctionFvPatchScalarField.C
+  derivedFvPatchFields/wallFunctions/atmNutWallFunction/atmNutWallFunctionFvPatchScalarField.C
+  derivedFvPatchFields/wallFunctions/atmOmegaWallFunction/atmOmegaWallFunctionFvPatchScalarField.C
+  fvOptions/atmAmbientTurbSource/atmAmbientTurbSource.C
+  fvOptions/atmBuoyancyTurbSource/atmBuoyancyTurbSource.C
+  fvOptions/atmCoriolisUSource/atmCoriolisUSource.C
+  fvOptions/atmLengthScaleTurbSource/atmLengthScaleTurbSource.C
+  fvOptions/atmPlantCanopyTurbSource/atmPlantCanopyTurbSource.C
+  fvOptions/atmPlantCanopyUSource/atmPlantCanopyUSource.C
+  fvOptions/atmPlantCanopyTSource/atmPlantCanopyTSource.C
+  fvOptions/atmNutSource/atmNutSource.C
+  functionObjects/ObukhovLength/ObukhovLength.C
+)
+add_library(atmosphericModels ${_FILES})
+target_compile_features(atmosphericModels PUBLIC cxx_std_11)
+target_compile_definitions(atmosphericModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_include_directories(atmosphericModels PUBLIC 
+  fvOptions/atmPlantCanopyUSource
+  fvOptions/atmLengthScaleTurbSource
+  fvOptions/atmPlantCanopyTSource
+  fvOptions/atmCoriolisUSource
+  fvOptions/atmAmbientTurbSource
+  fvOptions/atmBuoyancyTurbSource
+  fvOptions/atmPlantCanopyTurbSource
+  fvOptions/atmNutSource
+  derivedFvPatchFields/atmBoundaryLayer
+  derivedFvPatchFields/atmBoundaryLayerInletOmega
+  derivedFvPatchFields/atmTurbulentHeatFluxTemperature
+  derivedFvPatchFields/wallFunctions/atmEpsilonWallFunction
+  derivedFvPatchFields/wallFunctions/atmNutUWallFunction
+  derivedFvPatchFields/wallFunctions/atmAlphatkWallFunction
+  derivedFvPatchFields/wallFunctions/atmOmegaWallFunction
+  derivedFvPatchFields/wallFunctions/atmNutkWallFunction
+  derivedFvPatchFields/wallFunctions/atmNutWallFunction
+  derivedFvPatchFields/atmBoundaryLayerInletK
+  derivedFvPatchFields/atmBoundaryLayerInletEpsilon
+  derivedFvPatchFields/atmBoundaryLayerInletVelocity
+  turbulenceModels/RAS/kL
+  turbulenceModels/RAS/kEpsilonLopesdaCosta
+  functionObjects/ObukhovLength
+  porosityModels/powerLawLopesdaCosta
+)
+install(TARGETS atmosphericModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

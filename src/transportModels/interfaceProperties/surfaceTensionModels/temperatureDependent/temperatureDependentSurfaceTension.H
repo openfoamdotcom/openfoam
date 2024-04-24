@@ -62,7 +62,7 @@ SourceFiles
 #define temperatureDependentSurfaceTension_H
 
 #include "surfaceTensionModel.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

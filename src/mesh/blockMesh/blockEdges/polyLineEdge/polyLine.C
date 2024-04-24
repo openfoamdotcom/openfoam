@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyLine.H"
+#include "polyLinePascal.H"
 #include "SubList.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //

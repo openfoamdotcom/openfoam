@@ -83,7 +83,7 @@ SourceFiles
 #define Foam_porosityModels_solidification_H
 
 #include "porosityModel.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

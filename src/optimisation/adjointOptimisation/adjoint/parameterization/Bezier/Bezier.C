@@ -30,7 +30,7 @@ License
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "pointFields.H"
-#include "Bezier.H"
+#include "BezierPascal.H"
 #include "Pstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

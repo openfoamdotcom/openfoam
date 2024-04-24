@@ -34,11 +34,11 @@ Description
 #ifndef basicHeterogeneousReactingCloud_H
 #define basicHeterogeneousReactingCloud_H
 
-#include "Cloud.H"
-#include "KinematicCloud.H"
-#include "ThermoCloud.H"
-#include "ReactingCloud.H"
-#include "ReactingHeterogeneousCloud.H"
+#include "CloudPascal.H"
+#include "KinematicCloudPascal.H"
+#include "ThermoCloudPascal.H"
+#include "ReactingCloudPascal.H"
+#include "ReactingHeterogeneousCloudPascal.H"
 #include "basicHeterogeneousReactingParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

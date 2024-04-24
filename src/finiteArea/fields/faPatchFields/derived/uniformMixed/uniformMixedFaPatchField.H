@@ -86,7 +86,7 @@ SourceFiles
 #define Foam_uniformMixedFaPatchField_H
 
 #include "mixedFaPatchField.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,7 +39,7 @@ SourceFiles
 
 #include "phaseChangeModel.H"
 #include "uniformDimensionedFields.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

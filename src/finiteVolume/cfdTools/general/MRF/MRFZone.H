@@ -51,7 +51,7 @@ SourceFiles
 #include "surfaceFields.H"
 #include "fvMatricesFwd.H"
 #include "mapPolyMesh.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

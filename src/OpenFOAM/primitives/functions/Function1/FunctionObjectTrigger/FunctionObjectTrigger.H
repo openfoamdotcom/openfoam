@@ -61,7 +61,7 @@ SourceFiles
 #ifndef Function1Types_FunctionObjectTrigger_H
 #define Function1Types_FunctionObjectTrigger_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

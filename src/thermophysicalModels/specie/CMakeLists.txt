@@ -1,0 +1,63 @@
+set(_FILES
+  atomicWeights/atomicWeights.C
+  specie/specie.C
+  reaction/reactions/makeReactions.C
+  reaction/reactions/makeLangmuirHinshelwoodReactions.C
+)
+add_library(specie ${_FILES})
+target_compile_features(specie PUBLIC cxx_std_11)
+target_compile_definitions(specie PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_include_directories(specie PUBLIC 
+  include
+  reaction/reactionRate/fallOffFunctions/LindemannFallOffFunction
+  reaction/reactionRate/fallOffFunctions/TroeFallOffFunction
+  reaction/reactionRate/fallOffFunctions/SRIFallOffFunction
+  reaction/reactionRate/ArrheniusReactionRate
+  reaction/reactionRate/thirdBodyArrheniusReactionRate
+  reaction/reactionRate/thirdBodyEfficiencies
+  reaction/reactionRate/powerSeries
+  reaction/reactionRate/infiniteReactionRate
+  reaction/reactionRate/JanevReactionRate
+  reaction/reactionRate/ChemicallyActivatedReactionRate
+  reaction/reactionRate/LandauTellerReactionRate
+  reaction/reactionRate/LangmuirHinshelwood
+  reaction/reactionRate/FallOffReactionRate
+  reaction/reactions
+  reaction/ReactionsCaseDir/Reaction
+  reaction/ReactionsCaseDir/NonEquilibriumReversibleReaction
+  reaction/ReactionsCaseDir/ReversibleReaction
+  reaction/ReactionsCaseDir/IrreversibleReaction
+  reaction/ReactionsCaseDir/ReactionList
+  transport/tabulated
+  transport/logPolynomial
+  transport/const
+  transport/sutherland
+  transport/WLF
+  transport/polynomial
+  atomicWeights
+  include
+  specie
+  thermo/janaf
+  thermo/hPower
+  thermo/thermo
+  thermo/hTabulated
+  thermo/sensibleEnthalpy
+  thermo/sensibleInternalEnergy
+  thermo/hPolynomial
+  thermo/hConst
+  thermo/eConst
+  speciesTable
+  equationOfState/icoPolynomial
+  equationOfState/Boussinesq
+  equationOfState/icoTabulated
+  equationOfState/rPolynomial
+  equationOfState/adiabaticPerfectFluid
+  equationOfState/perfectFluid
+  equationOfState/linear
+  equationOfState/rhoConst
+  equationOfState/PengRobinsonGas
+  equationOfState/incompressiblePerfectGas
+  equationOfState/perfectGas
+  specieElement
+)
+install(TARGETS specie DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

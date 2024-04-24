@@ -39,7 +39,7 @@ SourceFiles
 #define Function1Types_TableBase_H
 
 #include "tableBounds.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

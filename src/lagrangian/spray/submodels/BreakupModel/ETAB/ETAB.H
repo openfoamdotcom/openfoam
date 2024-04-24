@@ -55,7 +55,7 @@ See also
 #ifndef ETAB_H
 #define ETAB_H
 
-#include "BreakupModel.H"
+#include "BreakupModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Foam_KinematicSurfaceFilm_H
 #define Foam_KinematicSurfaceFilm_H
 
-#include "SurfaceFilmModel.H"
+#include "SurfaceFilmModelPascal.H"
 #include "UPtrList.H"
 #include "liquidMixtureProperties.H"
 #include "Enum.H"

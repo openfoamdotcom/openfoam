@@ -34,8 +34,8 @@ Description
 #ifndef basicKinematicMPPICCloud_H
 #define basicKinematicMPPICCloud_H
 
-#include "Cloud.H"
-#include "KinematicCloud.H"
+#include "CloudPascal.H"
+#include "KinematicCloudPascal.H"
 #include "MPPICCloud.H"
 #include "basicKinematicMPPICParcel.H"
 

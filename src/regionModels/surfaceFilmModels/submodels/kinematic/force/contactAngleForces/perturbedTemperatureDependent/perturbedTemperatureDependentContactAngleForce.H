@@ -51,7 +51,7 @@ SourceFiles
 #define perturbedTemperatureDependentContactAngleForce_H
 
 #include "contactAngleForce.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "distributionModel.H"
 #include "Random.H"
 

@@ -51,10 +51,10 @@ SourceFiles
 #ifndef ConeInjection_H
 #define ConeInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "distributionModel.H"
 #include "vectorList.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -56,7 +56,7 @@ SourceFiles
 #define RBD_restraints_externalForce_H
 
 #include "rigidBodyRestraint.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

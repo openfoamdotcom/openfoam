@@ -1,0 +1,69 @@
+set(_FILES
+  blockVertices/blockVertex/blockVertex.C
+  blockVertices/pointVertex/pointVertex.C
+  blockVertices/projectVertex/projectVertex.C
+  blockVertices/namedVertex/namedVertex.C
+  blockEdges/bezier/bezier.C
+  blockEdges/blockEdge/blockEdge.C
+  blockEdges/lineDivide/lineDivide.C
+  blockEdges/lineEdge/lineEdge.C
+  blockEdges/polyLineEdge/polyLine.C
+  blockEdges/polyLineEdge/polyLineEdge.C
+  blockEdges/arcEdge/arcEdge.C
+  blockEdges/BSplineEdge/BSpline.C
+  blockEdges/BSplineEdge/BSplineEdge.C
+  blockEdges/splineEdge/CatmullRomSpline.C
+  blockEdges/splineEdge/splineEdge.C
+  blockEdges/projectEdge/projectEdge.C
+  blockEdges/projectCurveEdge/projectCurveEdge.C
+  blockFaces/blockFace/blockFace.C
+  blockFaces/projectFace/projectFace.C
+  gradingDescriptor/gradingDescriptor.C
+  gradingDescriptor/gradingDescriptors.C
+  blockDescriptor/blockDescriptor.C
+  blockDescriptor/blockDescriptorEdges.C
+  blocks/block/block.C
+  blocks/block/blockCreate.C
+  blocks/namedBlock/namedBlock.C
+  blockMesh/blockMesh.C
+  blockMesh/blockMeshCreate.C
+  blockMesh/blockMeshTopology.C
+  blockMesh/blockMeshCheck.C
+  blockMesh/blockMeshMergeGeometrical.C
+  blockMesh/blockMeshMergeTopological.C
+  blockMeshTools/blockMeshTools.C
+  PDRblockMesh/PDRblock.C
+  PDRblockMesh/PDRblockBlockMesh.C
+  PDRblockMesh/PDRblockCreate.C
+  PDRblockMesh/PDRblockLocation.C
+  PDRblockMesh/PDRblockOuter.C
+)
+add_library(blockMesh ${_FILES})
+target_compile_features(blockMesh PUBLIC cxx_std_11)
+target_compile_definitions(blockMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_include_directories(blockMesh PUBLIC 
+  blocks/namedBlock
+  blocks/block
+  blockFaces/projectFace
+  blockFaces/blockFace
+  gradingDescriptor
+  PDRblockMesh
+  blockEdges/bezier
+  blockEdges/splineEdge
+  blockEdges/polyLineEdge
+  blockEdges/BSplineEdge
+  blockEdges/projectCurveEdge
+  blockEdges/lineDivide
+  blockEdges/blockEdge
+  blockEdges/projectEdge
+  blockEdges/lineEdge
+  blockEdges/arcEdge
+  blockMeshTools
+  blockDescriptor
+  blockMesh
+  blockVertices/projectVertex
+  blockVertices/pointVertex
+  blockVertices/namedVertex
+  blockVertices/blockVertex
+)
+install(TARGETS blockMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

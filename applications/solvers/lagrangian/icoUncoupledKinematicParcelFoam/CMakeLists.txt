@@ -1,0 +1,6 @@
+set(_FILES
+  icoUncoupledKinematicParcelFoam.C
+)
+add_executable(icoUncoupledKinematicParcelFoam ${_FILES})
+target_compile_features(icoUncoupledKinematicParcelFoam PUBLIC cxx_std_11)
+target_link_libraries(icoUncoupledKinematicParcelFoam PUBLIC finiteVolume)

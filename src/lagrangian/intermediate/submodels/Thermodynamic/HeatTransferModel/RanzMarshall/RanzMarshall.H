@@ -121,7 +121,7 @@ SourceFiles
 #ifndef RanzMarshall_H
 #define RanzMarshall_H
 
-#include "HeatTransferModel.H"
+#include "HeatTransferModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

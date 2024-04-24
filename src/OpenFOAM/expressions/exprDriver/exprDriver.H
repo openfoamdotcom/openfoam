@@ -76,7 +76,7 @@ SourceFiles
 #include "objectRegistry.H"
 #include "HashTable.H"
 #include "HashSet.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -1,0 +1,6 @@
+set(_FILES
+  setTurbulenceFields.C
+)
+add_executable(setTurbulenceFields ${_FILES})
+target_compile_features(setTurbulenceFields PUBLIC cxx_std_11)
+target_link_libraries(setTurbulenceFields PUBLIC finiteVolume)

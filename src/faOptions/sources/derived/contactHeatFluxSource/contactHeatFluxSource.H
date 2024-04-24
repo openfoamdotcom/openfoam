@@ -80,7 +80,7 @@ SourceFiles
 #define Foam_fa_contactHeatFluxSource_H
 
 #include "faOption.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "PtrList.H"
 #include "areaFields.H"
 #include "faceSetOption.H"

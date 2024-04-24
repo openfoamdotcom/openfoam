@@ -212,7 +212,7 @@ SourceFiles
 
 #include "cellSetOption.H"
 #include "writeFile.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

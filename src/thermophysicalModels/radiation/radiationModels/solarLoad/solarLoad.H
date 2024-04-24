@@ -104,7 +104,7 @@ SourceFiles
 #include "faceShading.H"
 #include "faceReflecting.H"
 #include "solarCalculator.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

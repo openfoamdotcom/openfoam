@@ -36,7 +36,7 @@ License
 #include "FieldActivatedInjection.H"
 #include "ManualInjection.H"
 #include "NoInjection.H"
-#include "PatchInjection.H"
+#include "PatchInjectionPascal.H"
 #include "PatchFlowRateInjection.H"
 #include "ReactingMultiphaseLookupTableInjection.H"
 

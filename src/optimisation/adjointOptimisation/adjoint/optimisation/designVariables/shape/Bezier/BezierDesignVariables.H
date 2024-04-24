@@ -39,7 +39,7 @@ SourceFiles
 #define BezierDesignVariables_H
 
 #include "shapeDesignVariables.H"
-#include "Bezier.H"
+#include "BezierPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -57,7 +57,7 @@ See also
 #ifndef InjectedParticleInjection_H
 #define InjectedParticleInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "Switch.H"
 #include "vectorList.H"
 

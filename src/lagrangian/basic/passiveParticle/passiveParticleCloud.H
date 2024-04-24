@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_passiveParticleCloud_H
 #define Foam_passiveParticleCloud_H
 
-#include "Cloud.H"
+#include "CloudPascal.H"
 #include "passiveParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

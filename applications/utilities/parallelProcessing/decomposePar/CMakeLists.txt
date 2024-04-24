@@ -1,0 +1,12 @@
+set(_FILES
+  decomposePar.C
+  domainDecomposition.C
+  domainDecompositionMesh.C
+  domainDecompositionDistribute.C
+  domainDecompositionWrite.C
+  domainDecompositionDryRun.C
+  domainDecompositionDryRunWrite.C
+)
+add_executable(decomposePar ${_FILES})
+target_compile_features(decomposePar PUBLIC cxx_std_11)
+target_link_libraries(decomposePar PUBLIC finiteVolume)

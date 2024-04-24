@@ -62,7 +62,7 @@ SourceFiles
 #ifndef Foam_tabulatedAnIsoSolidTransport_H
 #define Foam_tabulatedAnIsoSolidTransport_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

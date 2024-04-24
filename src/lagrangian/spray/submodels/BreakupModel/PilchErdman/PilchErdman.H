@@ -73,7 +73,7 @@ SourceFiles
 #ifndef PilchErdman_H
 #define PilchErdman_H
 
-#include "BreakupModel.H"
+#include "BreakupModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

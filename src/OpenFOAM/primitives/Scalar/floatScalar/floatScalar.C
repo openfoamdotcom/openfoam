@@ -46,7 +46,7 @@ License
 // Convert using larger representation to properly capture underflow
 #define ScalarConvert ::strtod
 
-#include "Scalar.C"
+#include "ScalarPascal.C"
 
 #undef Scalar
 #undef ScalarVGREAT

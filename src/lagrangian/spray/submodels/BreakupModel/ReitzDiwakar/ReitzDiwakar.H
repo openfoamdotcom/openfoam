@@ -55,7 +55,7 @@ Description
 #ifndef ReitzDiwakar_H
 #define ReitzDiwakar_H
 
-#include "BreakupModel.H"
+#include "BreakupModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,7 +29,7 @@ License
 #include "fvcGrad.H"
 #include "polyMeshTetDecomposition.H"
 
-#include "Basic.H"
+#include "BasicPascal.H"
 #include "Dual.H"
 #include "Moment.H"
 

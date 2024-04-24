@@ -57,7 +57,7 @@ SourceFiles
 #ifndef NoHeatTransfer_H
 #define NoHeatTransfer_H
 
-#include "HeatTransferModel.H"
+#include "HeatTransferModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

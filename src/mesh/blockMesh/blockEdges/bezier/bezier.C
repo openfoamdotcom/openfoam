@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "bezier.H"
-#include "polyLine.H"
+#include "polyLinePascal.H"
 #include "SubList.H"
 #include "addToRunTimeSelectionTable.H"
 

@@ -86,7 +86,7 @@ SourceFiles
 #include "solidBodyMotionFunction.H"
 #include "primitiveFields.H"
 #include "point.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -1,0 +1,6 @@
+set(_FILES
+  compressibleMultiphaseInterFoam.C
+)
+add_executable(compressibleMultiphaseInterFoam ${_FILES})
+target_compile_features(compressibleMultiphaseInterFoam PUBLIC cxx_std_11)
+target_link_libraries(compressibleMultiphaseInterFoam PUBLIC finiteVolume)

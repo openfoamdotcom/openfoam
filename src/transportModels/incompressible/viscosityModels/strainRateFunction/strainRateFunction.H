@@ -54,7 +54,7 @@ SourceFiles
 
 #include "viscosityModel.H"
 #include "volFields.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

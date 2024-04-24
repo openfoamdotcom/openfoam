@@ -223,7 +223,7 @@ SourceFiles
 #include "DynamicField.H"
 #include "HashSet.H"
 #include "coordinateSystem.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

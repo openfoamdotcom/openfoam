@@ -33,7 +33,7 @@ License
 #include "polyMesh.H"
 #include "interpolationWeights.H"
 #include "uniformInterpolate.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

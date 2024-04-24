@@ -50,7 +50,7 @@ SourceFiles
 #ifndef CellZoneInjection_H
 #define CellZoneInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

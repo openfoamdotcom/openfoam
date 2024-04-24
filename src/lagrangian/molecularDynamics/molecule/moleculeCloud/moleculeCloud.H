@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_moleculeCloud_H
 #define Foam_moleculeCloud_H
 
-#include "Cloud.H"
+#include "CloudPascal.H"
 #include "molecule.H"
 #include "IOdictionary.H"
 #include "potential.H"

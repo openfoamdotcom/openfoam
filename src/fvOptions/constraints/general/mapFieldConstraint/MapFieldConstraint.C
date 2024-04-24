@@ -28,7 +28,7 @@ License
 #include "MapFieldConstraint.H"
 #include "fvMatrices.H"
 #include "meshToMesh.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

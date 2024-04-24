@@ -118,7 +118,7 @@ SourceFiles
 #define Foam_fa_externalHeatFluxSource_H
 
 #include "faOption.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "areaFields.H"
 #include "faceSetOption.H"
 

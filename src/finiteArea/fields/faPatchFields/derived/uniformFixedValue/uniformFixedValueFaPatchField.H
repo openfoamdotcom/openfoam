@@ -71,7 +71,7 @@ SourceFiles
 #define Foam_uniformFixedValueFaPatchField_H
 
 #include "fixedValueFaPatchField.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

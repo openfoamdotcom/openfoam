@@ -112,7 +112,7 @@ SourceFiles
 #define Foam_CoulombForce_H
 
 #include "ParticleForce.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

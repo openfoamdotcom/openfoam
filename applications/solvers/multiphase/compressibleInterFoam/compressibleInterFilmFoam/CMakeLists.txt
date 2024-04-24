@@ -1,0 +1,9 @@
+set(_FILES
+  VoFPatchTransfer/VoFPatchTransfer.C
+  VoFSolidificationMeltingSource/VoFSolidificationMeltingSource.C
+  VoFSolidificationMeltingSource/VoFSolidificationMeltingSourceIO.C
+  compressibleInterFilmFoam.C
+)
+add_executable(compressibleInterFilmFoam ${_FILES})
+target_compile_features(compressibleInterFilmFoam PUBLIC cxx_std_11)
+target_link_libraries(compressibleInterFilmFoam PUBLIC finiteVolume)

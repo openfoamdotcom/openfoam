@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_injectedParticleCloud_H
 #define Foam_injectedParticleCloud_H
 
-#include "Cloud.H"
+#include "CloudPascal.H"
 #include "injectedParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -1,0 +1,60 @@
+set(_FILES
+  sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.C
+  sixDoFRigidBodyMotion/sixDoFRigidBodyMotionIO.C
+  sixDoFRigidBodyMotion/sixDoFRigidBodyMotionState.C
+  sixDoFRigidBodyMotion/sixDoFRigidBodyMotionStateIO.C
+  sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraint.C
+  sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraintNew.C
+  sixDoFRigidBodyMotion/restraints/linearAxialAngularSpring/linearAxialAngularSpring.C
+  sixDoFRigidBodyMotion/restraints/linearSpring/linearSpring.C
+  sixDoFRigidBodyMotion/restraints/sphericalAngularSpring/sphericalAngularSpring.C
+  sixDoFRigidBodyMotion/restraints/tabulatedAxialAngularSpring/tabulatedAxialAngularSpring.C
+  sixDoFRigidBodyMotion/restraints/linearDamper/linearDamper.C
+  sixDoFRigidBodyMotion/restraints/sphericalAngularDamper/sphericalAngularDamper.C
+  sixDoFRigidBodyMotion/restraints/linearSpringDamper/linearSpringDamper.C
+  sixDoFRigidBodyMotion/restraints/softWall/softWall.C
+  sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint/sixDoFRigidBodyMotionConstraint.C
+  sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint/sixDoFRigidBodyMotionConstraintNew.C
+  sixDoFRigidBodyMotion/constraints/axis/sixDoFRigidBodyMotionAxisConstraint.C
+  sixDoFRigidBodyMotion/constraints/line/sixDoFRigidBodyMotionLineConstraint.C
+  sixDoFRigidBodyMotion/constraints/orientation/sixDoFRigidBodyMotionOrientationConstraint.C
+  sixDoFRigidBodyMotion/constraints/plane/sixDoFRigidBodyMotionPlaneConstraint.C
+  sixDoFRigidBodyMotion/constraints/point/sixDoFRigidBodyMotionPointConstraint.C
+  pointPatchFields/derived/sixDoFRigidBodyDisplacement/sixDoFRigidBodyDisplacementPointPatchVectorField.C
+  pointPatchFields/derived/uncoupledSixDoFRigidBodyDisplacement/uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField.C
+  sixDoFRigidBodyMotionSolver/sixDoFRigidBodyMotionSolver.C
+  sixDoFSolvers/sixDoFSolver/sixDoFSolver.C
+  sixDoFSolvers/sixDoFSolver/sixDoFSolverNew.C
+  sixDoFSolvers/symplectic/symplectic.C
+  sixDoFSolvers/CrankNicolson/CrankNicolson.C
+  sixDoFSolvers/Newmark/Newmark.C
+)
+add_library(sixDoFRigidBodyMotion ${_FILES})
+target_compile_features(sixDoFRigidBodyMotion PUBLIC cxx_std_11)
+target_compile_definitions(sixDoFRigidBodyMotion PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_include_directories(sixDoFRigidBodyMotion PUBLIC 
+  pointPatchFields/derived/uncoupledSixDoFRigidBodyDisplacement
+  pointPatchFields/derived/sixDoFRigidBodyDisplacement
+  sixDoFSolvers/symplectic
+  sixDoFSolvers/sixDoFSolver
+  sixDoFSolvers/Newmark
+  sixDoFSolvers/CrankNicolson
+  sixDoFRigidBodyMotionSolver
+  sixDoFRigidBodyMotion
+  sixDoFRigidBodyMotion/constraints/orientation
+  sixDoFRigidBodyMotion/constraints/point
+  sixDoFRigidBodyMotion/constraints/line
+  sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint
+  sixDoFRigidBodyMotion/constraints/axis
+  sixDoFRigidBodyMotion/constraints/plane
+  sixDoFRigidBodyMotion/restraints/tabulatedAxialAngularSpring
+  sixDoFRigidBodyMotion/restraints/linearSpringDamper
+  sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint
+  sixDoFRigidBodyMotion/restraints/linearSpring
+  sixDoFRigidBodyMotion/restraints/linearDamper
+  sixDoFRigidBodyMotion/restraints/linearAxialAngularSpring
+  sixDoFRigidBodyMotion/restraints/softWall
+  sixDoFRigidBodyMotion/restraints/sphericalAngularDamper
+  sixDoFRigidBodyMotion/restraints/sphericalAngularSpring
+)
+install(TARGETS sixDoFRigidBodyMotion DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

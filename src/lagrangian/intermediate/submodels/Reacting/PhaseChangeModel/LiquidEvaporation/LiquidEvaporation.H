@@ -39,7 +39,7 @@ Description
 #ifndef LiquidEvaporation_H
 #define LiquidEvaporation_H
 
-#include "PhaseChangeModel.H"
+#include "PhaseChangeModelPascal.H"
 #include "liquidMixtureProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

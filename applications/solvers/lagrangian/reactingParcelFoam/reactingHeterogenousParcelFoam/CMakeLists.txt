@@ -1,0 +1,6 @@
+set(_FILES
+  reactingHeterogenousParcelFoam.C
+)
+add_executable(reactingHeterogenousParcelFoam ${_FILES})
+target_compile_features(reactingHeterogenousParcelFoam PUBLIC cxx_std_11)
+target_link_libraries(reactingHeterogenousParcelFoam PUBLIC finiteVolume)

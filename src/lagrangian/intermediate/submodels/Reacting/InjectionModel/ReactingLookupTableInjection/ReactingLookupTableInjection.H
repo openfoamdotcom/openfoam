@@ -58,7 +58,7 @@ SourceFiles
 #ifndef ReactingLookupTableInjection_H
 #define ReactingLookupTableInjection_H
 
-#include "InjectionModel.H"
+#include "InjectionModelPascal.H"
 #include "reactingParcelInjectionDataIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

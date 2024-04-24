@@ -112,7 +112,7 @@ SourceFiles
 
 #include "boundarySourcePatch.H"
 #include "zeroGradientFvPatchFields.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

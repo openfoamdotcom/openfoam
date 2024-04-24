@@ -41,7 +41,7 @@ SourceFiles
 #define Foam_coordinateScaling_H
 
 #include "coordinateSystem.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

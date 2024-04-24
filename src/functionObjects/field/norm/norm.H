@@ -154,7 +154,7 @@ SourceFiles
 #define functionObjects_norm_H
 
 #include "fieldExpression.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "polySurfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

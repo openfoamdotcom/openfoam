@@ -53,7 +53,7 @@ SourceFiles
 #define Foam_timeVaryingMappedFixedValuePointPatchField_H
 
 #include "fixedValuePointPatchField.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "Pair.H"
 #include "instantList.H"
 #include "pointToPointPlanarInterpolation.H"

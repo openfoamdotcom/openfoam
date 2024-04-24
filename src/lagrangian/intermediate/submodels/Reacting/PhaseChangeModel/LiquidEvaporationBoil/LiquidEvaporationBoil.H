@@ -49,7 +49,7 @@ Description
 #ifndef LiquidEvaporationBoil_H
 #define LiquidEvaporationBoil_H
 
-#include "PhaseChangeModel.H"
+#include "PhaseChangeModelPascal.H"
 #include "liquidMixtureProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

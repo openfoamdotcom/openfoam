@@ -40,7 +40,7 @@ SourceFiles
 #ifndef NoSurfaceFilm_H
 #define NoSurfaceFilm_H
 
-#include "SurfaceFilmModel.H"
+#include "SurfaceFilmModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

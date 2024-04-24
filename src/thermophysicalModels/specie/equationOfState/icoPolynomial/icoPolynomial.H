@@ -70,7 +70,7 @@ See also
 #define icoPolynomial_H
 
 #include "autoPtr.H"
-#include "Polynomial.H"
+#include "PolynomialPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

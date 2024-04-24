@@ -101,7 +101,7 @@ SourceFiles
 #ifndef Function1Types_Sine_H
 #define Function1Types_Sine_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

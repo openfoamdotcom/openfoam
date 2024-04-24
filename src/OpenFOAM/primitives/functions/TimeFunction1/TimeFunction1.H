@@ -39,7 +39,7 @@ SourceFiles
 #ifndef TimeFunction1_H
 #define TimeFunction1_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

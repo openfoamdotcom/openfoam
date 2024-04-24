@@ -42,7 +42,7 @@ SourceFiles
 #define objectiveTopOVolume_H
 
 #include "objectiveGeometric.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

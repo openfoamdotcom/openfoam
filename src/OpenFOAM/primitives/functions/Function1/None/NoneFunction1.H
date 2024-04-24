@@ -37,7 +37,7 @@ Description
 #ifndef Foam_Function1Types_None_H
 #define Foam_Function1Types_None_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

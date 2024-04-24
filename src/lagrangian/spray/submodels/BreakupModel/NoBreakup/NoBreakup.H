@@ -37,7 +37,7 @@ Description
 #ifndef NoBreakup_H
 #define NoBreakup_H
 
-#include "BreakupModel.H"
+#include "BreakupModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

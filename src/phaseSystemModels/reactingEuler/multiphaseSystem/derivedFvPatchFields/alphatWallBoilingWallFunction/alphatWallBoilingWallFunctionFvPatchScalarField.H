@@ -279,7 +279,7 @@ SourceFiles
 #ifndef compressible_alphatWallBoilingWallFunctionFvPatchScalarField_H
 #define compressible_alphatWallBoilingWallFunctionFvPatchScalarField_H
 
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 #include "alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField.H"
 #include "partitioningModel.H"

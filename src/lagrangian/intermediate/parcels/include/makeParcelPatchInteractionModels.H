@@ -32,7 +32,7 @@ License
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #include "LocalInteraction.H"
-#include "NoInteraction.H"
+#include "NoInteractionPascal.H"
 #include "MultiInteraction.H"
 #include "Rebound.H"
 #include "RecycleInteraction.H"

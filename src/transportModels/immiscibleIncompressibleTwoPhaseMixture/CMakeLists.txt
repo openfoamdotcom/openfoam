@@ -1,0 +1,10 @@
+set(_FILES
+  immiscibleIncompressibleTwoPhaseMixture.C
+)
+add_library(immiscibleIncompressibleTwoPhaseMixture ${_FILES})
+target_compile_features(immiscibleIncompressibleTwoPhaseMixture PUBLIC cxx_std_11)
+target_compile_definitions(immiscibleIncompressibleTwoPhaseMixture PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_include_directories(immiscibleIncompressibleTwoPhaseMixture PUBLIC 
+  .
+)
+install(TARGETS immiscibleIncompressibleTwoPhaseMixture DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

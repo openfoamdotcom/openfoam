@@ -70,7 +70,7 @@ SourceFiles
 #define fixedMeanOutletInletFvPatchField_H
 
 #include "outletInletFvPatchFields.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

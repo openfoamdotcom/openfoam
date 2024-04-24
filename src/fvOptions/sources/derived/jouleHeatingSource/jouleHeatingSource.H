@@ -158,7 +158,7 @@ SourceFiles
 #define fv_jouleHeatingSource_H
 
 #include "fvOption.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 #include "coordinateSystem.H"
 #include "volFields.H"
 

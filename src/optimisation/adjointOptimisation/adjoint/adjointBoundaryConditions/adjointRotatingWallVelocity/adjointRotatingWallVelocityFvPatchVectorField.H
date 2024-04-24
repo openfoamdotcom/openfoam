@@ -42,7 +42,7 @@ SourceFiles
 #define adjointRotatingWallVelocityFvPatchVectorField_H
 
 #include "adjointWallVelocityFvPatchVectorField.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

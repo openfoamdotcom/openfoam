@@ -53,7 +53,7 @@ SourceFiles
 #include "rigidBodyModelState.H"
 #include "pointField.H"
 #include "Switch.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

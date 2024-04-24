@@ -45,7 +45,7 @@ SourceFiles
 #define temperatureDependentContactAngleForce_H
 
 #include "contactAngleForce.H"
-#include "Function1.H"
+#include "Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -1,0 +1,6 @@
+set(_FILES
+  cellSizeAndAlignmentGrid.C
+)
+add_executable(cellSizeAndAlignmentGrid ${_FILES})
+target_compile_features(cellSizeAndAlignmentGrid PUBLIC cxx_std_11)
+target_link_libraries(cellSizeAndAlignmentGrid PUBLIC finiteVolume)

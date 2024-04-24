@@ -44,7 +44,7 @@ License
 #include "RemoveParcels.H"
 #include "VoidFraction.H"
 #include "NusseltNumber.H"
-#include "HeatTransferCoeff.H"
+#include "HeatTransferCoeffPascal.H"
 #include "ThermoReynoldsNumber.H"
 #include "ParticleDose.H"
 
