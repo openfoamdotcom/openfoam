@@ -160,6 +160,7 @@ set(_FILES
   expressions/fields/fieldExpr.C
   expressions/fields/fieldExprDriver.C
   expressions/fields/fieldExprDriverFields.C
+  expressions/fields/fieldExprScanner.cc
   expressions/Function1/makeFunction1Expression.C
   primitives/ops/flipOp.C
   primitives/predicates/scalar/scalarPredicates.C

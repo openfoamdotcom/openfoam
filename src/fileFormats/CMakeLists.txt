@@ -38,6 +38,7 @@ set(_FILES
   stl/STLCore.C
   stl/STLReader.C
   stl/STLAsciiParseManual.C
+  stl/STLAsciiParseRagel.cc
   vtk/base/foamVtkCore.C
   vtk/base/foamVtkPTraits.C
   vtk/file/foamVtkFileWriter.C
@@ -61,7 +62,9 @@ set(_FILES
   vtk/write/foamVtkPolyWriter.C
   vtk/write/foamVtkSurfaceWriter.C
 )
-add_library(fileFormats ${_FILES})
+set(_flex_src ${CMAKE_CURRENT_BINARY_DIR}/STLAsciiParseFlex.C)
+flex_target(MyFlexName stl/STLAsciiParseFlex.L "${_flex_src}" COMPILE_FLAGS --c++)
+add_library(fileFormats ${_FILES} ${_flex_src})
 target_compile_features(fileFormats PUBLIC cxx_std_11)
 target_compile_definitions(fileFormats PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_include_directories(fileFormats PUBLIC 
