@@ -19,3 +19,6 @@ add_subdirectory(fileFormats)
 add_subdirectory(surfMesh)
 add_subdirectory(meshTools)
 
+add_subdirectory(finiteArea)
+add_subdirectory(finiteVolume)
+

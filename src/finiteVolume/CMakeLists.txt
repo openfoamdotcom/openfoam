@@ -424,10 +424,11 @@ set(_FILES
 )
 get_target_property(_lemon_template lemon LEMON_TEMPLATE)
 set(_lemon_src ${CMAKE_CURRENT_BINARY_DIR}/volumeExprLemonParser.C)
-lemon_target(MyName expressions/volume/volumeExprLemonParser.lyy-m4 "${_lemon_src}" COMPILE_FLAGS -I${CMAKE_CURRENT_SOURCE_DIR}/include -I${CMAKE_CURRENT_SOURCE_DIR}/expressions/volume TEMPLATE "${_lemon_template}")
+lemon_target(MyName expressions/volume/volumeExprLemonParser.lyy-m4 "${_lemon_src}" COMPILE_FLAGS -I${OPENFOAM_SRC_DIR}/OpenFOAM/include -I${CMAKE_CURRENT_SOURCE_DIR}/expressions/volume TEMPLATE "${_lemon_template}")
 add_library(finiteVolume ${_FILES} ${_lemon_src})
 target_compile_features(finiteVolume PUBLIC cxx_std_11)
 target_compile_definitions(finiteVolume PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(finiteVolume PUBLIC meshTools)
 target_include_directories(finiteVolume PUBLIC 
   volMesh
   fvMesh
