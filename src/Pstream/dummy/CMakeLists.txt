@@ -19,6 +19,14 @@ endif()
 target_link_libraries(Pstream PUBLIC MPI::MPI_CXX)
 target_include_directories(Pstream PUBLIC 
   PRIVATE
+  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/.
+  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/fileMonitor
+  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/regExp
+  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/signals
+  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/fileStat
+  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/memInfo
+  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/cpuTime
+  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/cpuInfo
   ${OPENFOAM_SRC_DIR}/OpenFOAM/parallel/processorTopology
   ${OPENFOAM_SRC_DIR}/OpenFOAM/parallel/fieldsDistributor
   ${OPENFOAM_SRC_DIR}/OpenFOAM/parallel/commSchedule
@@ -575,13 +583,5 @@ target_include_directories(Pstream PUBLIC
   ${OPENFOAM_SRC_DIR}/OpenFOAM/matrices/LduMatrixCaseDir/LduMatrix
   ${OPENFOAM_SRC_DIR}/OpenFOAM/matrices/LduMatrixCaseDir/LduMatrix/LduInterfaceField
   ${OPENFOAM_SRC_DIR}/OpenFOAM/matrices/SquareMatrix
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/.
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/fileMonitor
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/regExp
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/signals
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/fileStat
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/memInfo
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/cpuTime
-  ${OPENFOAM_SRC_DIR}/OSspecific/POSIX/cpuInfo
 )
 install(TARGETS Pstream DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
