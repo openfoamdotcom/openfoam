@@ -27,6 +27,7 @@ find_package(ZLIB REQUIRED)
 find_package(FLEX REQUIRED)
 find_package(RAGEL REQUIRED)
 find_package(FFTW REQUIRED)
+find_package(METIS)
 find_package(MPI)
 
 if (MPI_FOUND)
