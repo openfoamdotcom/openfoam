@@ -22,13 +22,14 @@ set(WM_LABEL_SIZE 32)
 set(WM_PRECISION DP)
 set(WM_VERSION OPENFOAM=${OPENFOAM_VERSION})
 
-find_package(SCOTCH REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(FLEX REQUIRED)
 find_package(RAGEL REQUIRED)
 find_package(FFTW3f REQUIRED)
+
 find_package(METIS)
 find_package(MPI)
+find_package(SCOTCH)
 
 if (TARGET SCOTCH::ptscotch)
   set(PTSCOTCH_FOUND 1)
