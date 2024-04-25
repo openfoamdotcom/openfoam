@@ -12,6 +12,10 @@ set(_FILES
 add_library(decompose ${_FILES})
 target_compile_features(decompose PUBLIC cxx_std_11)
 target_compile_definitions(decompose PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(decompose PUBLIC decompositionMethods lagrangian)
+if (SCOTCH_FOUND)
+  target_link_libraries(decompose PUBLIC scotchDecomp)
+endif()
 target_include_directories(decompose PUBLIC
   .
 )

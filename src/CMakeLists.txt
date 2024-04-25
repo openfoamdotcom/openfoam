@@ -42,3 +42,8 @@ if(KAHIP_FOUND)
   add_subdirectory(parallel/decompose/kahipDecomp)
 endif()
 
+add_subdirectory(lagrangian/basic)
+add_subdirectory(lagrangian/distributionModels)
+
+add_subdirectory(parallel/decompose/decompose)
+

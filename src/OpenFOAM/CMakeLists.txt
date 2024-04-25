@@ -1163,5 +1163,6 @@ target_include_directories(OpenFOAM PUBLIC
   matrices/SquareMatrix
   meshes/meshShapes/traits
   containers/HashTables/PtrMap
+  primitives/Barycentric/barycentricTensor
 )
 install(TARGETS OpenFOAM DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
