@@ -30,5 +30,6 @@ target_include_directories(incompressibleTransportModels PUBLIC
   viscosityModels/CrossPowerLaw
   viscosityModels/powerLaw
   viscosityModels/strainRateFunction
+  ../
 )
 install(TARGETS incompressibleTransportModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

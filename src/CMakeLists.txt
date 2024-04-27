@@ -54,3 +54,13 @@ add_subdirectory(parallel/distributed)
 add_subdirectory(dynamicFvMesh)
 add_subdirectory(topoChangerFvMesh)
 
+add_subdirectory(sampling)
+add_subdirectory(transportModels/twoPhaseMixture)
+add_subdirectory(transportModels/geometricVoF)
+add_subdirectory(transportModels/twoPhaseProperties)
+add_subdirectory(transportModels/interfaceProperties)
+add_subdirectory(transportModels/immiscibleIncompressibleTwoPhaseMixture)
+add_subdirectory(transportModels/incompressible)
+add_subdirectory(transportModels/compressible)
+add_subdirectory(randomProcesses)
+
