@@ -55,6 +55,7 @@ set(_FILES
 add_library(conformalVoronoiMesh ${_FILES})
 target_compile_features(conformalVoronoiMesh PUBLIC cxx_std_11)
 target_compile_definitions(conformalVoronoiMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(conformalVoronoiMesh PUBLIC decompose snappyHexMesh)
 target_include_directories(conformalVoronoiMesh PUBLIC
   pointPairs
   vectorTools

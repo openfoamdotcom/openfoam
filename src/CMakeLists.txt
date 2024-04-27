@@ -51,3 +51,6 @@ add_subdirectory(parallel/reconstruct/reconstruct)
 add_subdirectory(parallel/reconstruct/faReconstruct)
 add_subdirectory(parallel/distributed)
 
+add_subdirectory(dynamicFvMesh)
+add_subdirectory(topoChangerFvMesh)
+

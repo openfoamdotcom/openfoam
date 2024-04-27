@@ -4,6 +4,7 @@ set(_FILES
 add_library(VoFphaseTurbulentTransportModels ${_FILES})
 target_compile_features(VoFphaseTurbulentTransportModels PUBLIC cxx_std_11)
 target_compile_definitions(VoFphaseTurbulentTransportModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(VoFphaseTurbulentTransportModels PUBLIC fluidThermophysicalModels specie incompressibleTurbulenceModels)
 target_include_directories(VoFphaseTurbulentTransportModels PUBLIC
   .
 )

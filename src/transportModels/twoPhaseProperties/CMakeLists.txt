@@ -8,6 +8,7 @@ set(_FILES
 add_library(twoPhaseProperties ${_FILES})
 target_compile_features(twoPhaseProperties PUBLIC cxx_std_11)
 target_compile_definitions(twoPhaseProperties PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(twoPhaseProperties PUBLIC interfaceProperties finiteVolume)
 target_include_directories(twoPhaseProperties PUBLIC
   alphaContactAngle/timeVaryingAlphaContactAngle
   alphaContactAngle/temperatureDependentAlphaContactAngle

@@ -63,6 +63,7 @@ set(_FILES
 add_library(surfaceFilmModels ${_FILES})
 target_compile_features(surfaceFilmModels PUBLIC cxx_std_11)
 target_compile_definitions(surfaceFilmModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(surfaceFilmModels PUBLIC SLGThermo distributionModels regionModels)
 target_include_directories(surfaceFilmModels PUBLIC
   derivedFvPatchFields/filmHeightInletVelocity
   derivedFvPatchFields/inclinedFilmNusseltHeight

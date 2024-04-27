@@ -56,6 +56,7 @@ set(_FILES
 add_library(thermophysicalProperties ${_FILES})
 target_compile_features(thermophysicalProperties PUBLIC cxx_std_11)
 target_compile_definitions(thermophysicalProperties PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(thermophysicalProperties PUBLIC specie)
 target_include_directories(thermophysicalProperties PUBLIC
   solidProperties/solidProperties
   solidProperties/solidMixtureProperties

@@ -34,6 +34,7 @@ set(_FILES
 add_library(snappyHexMesh ${_FILES})
 target_compile_features(snappyHexMesh PUBLIC cxx_std_11)
 target_compile_definitions(snappyHexMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(snappyHexMesh PUBLIC fvMotionSolvers overset distributed decompositionMethods)
 target_include_directories(snappyHexMesh PUBLIC
   refinementSurfaces
   externalDisplacementMeshMover

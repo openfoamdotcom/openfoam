@@ -54,6 +54,7 @@ set(_FILES
 add_library(fvOptions ${_FILES})
 target_compile_features(fvOptions PUBLIC cxx_std_11)
 target_compile_definitions(fvOptions PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(fvOptions PUBLIC incompressibleTurbulenceModels compressibleTurbulenceModels reactionThermophysicalModels overset)
 target_include_directories(fvOptions PUBLIC
   constraints/derived/velocityDampingConstraint
   constraints/derived/fixedTemperatureConstraint

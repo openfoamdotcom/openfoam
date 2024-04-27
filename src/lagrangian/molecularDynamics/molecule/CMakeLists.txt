@@ -8,6 +8,7 @@ set(_FILES
 add_library(molecule ${_FILES})
 target_compile_features(molecule PUBLIC cxx_std_11)
 target_compile_definitions(molecule PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(molecule PUBLIC lagrangian potential molecularMeasurements)
 target_include_directories(molecule PUBLIC
   reducedUnits
   molecule

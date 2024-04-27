@@ -12,6 +12,7 @@ set(_FILES
 add_library(laserDTRM ${_FILES})
 target_compile_features(laserDTRM PUBLIC cxx_std_11)
 target_compile_definitions(laserDTRM PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(laserDTRM PUBLIC incompressibleMultiphaseSystems)
 target_include_directories(laserDTRM PUBLIC
   .
   localDensityAbsorptionEmission

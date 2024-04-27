@@ -9,6 +9,7 @@ set(_FILES
 add_library(interfaceTrackingFvMesh ${_FILES})
 target_compile_features(interfaceTrackingFvMesh PUBLIC cxx_std_11)
 target_compile_definitions(interfaceTrackingFvMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(interfaceTrackingFvMesh PUBLIC finiteArea fvMotionSolvers dynamicMesh)
 target_include_directories(interfaceTrackingFvMesh PUBLIC
   .
   fvPatchFields/freeSurfaceVelocity

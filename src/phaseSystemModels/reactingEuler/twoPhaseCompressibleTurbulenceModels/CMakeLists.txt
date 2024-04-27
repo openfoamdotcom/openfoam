@@ -28,6 +28,7 @@ set(_FILES
 add_library(twoPhaseReactingTurbulenceModels ${_FILES})
 target_compile_features(twoPhaseReactingTurbulenceModels PUBLIC cxx_std_11)
 target_compile_definitions(twoPhaseReactingTurbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(twoPhaseReactingTurbulenceModels PUBLIC reactingTwoPhaseSystem)
 target_include_directories(twoPhaseReactingTurbulenceModels PUBLIC
   phasePressureModel
   kineticTheoryModels/conductivityModel/HrenyaSinclair
