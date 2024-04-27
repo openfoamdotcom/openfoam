@@ -64,3 +64,5 @@ add_subdirectory(transportModels/incompressible)
 add_subdirectory(transportModels/compressible)
 add_subdirectory(randomProcesses)
 
+add_subdirectory(ODE)
+
