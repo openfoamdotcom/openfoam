@@ -16,5 +16,59 @@ target_include_directories(solidSpecie PUBLIC
   transport/const
   transport/polynomial
   include
+  PRIVATE
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/solidProperties/solidProperties
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/solidProperties/solidMixtureProperties
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/solidProperties/CaCO3
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/solidProperties/ash
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/solidProperties/C
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/thermophysicalFunction
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/nonUniformTable
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/integratedNonUniformTable
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc5
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc2
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc3
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc4
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc1
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc6
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc7
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc0
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/NSRDSfunctions/NSRDSfunc14
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalFunctions/APIfunctions/APIdiffCoefFunc
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalPropertiesSelector
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/thermophysicalProperties
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/H2O
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C6H6
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/CH4N2O
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C2H6
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/bC10H7CH3
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C6H14
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/CH3OH
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/liquid
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidMixtureProperties
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/aC10H7CH3
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/IC8H18
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C14H30
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/nC3H8O
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C7H16
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C13H28
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/IDEA
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/MB
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C12H26
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/Ar
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C4H10O
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/N2
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C9H20
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C7H8
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C16H34
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C3H8
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C2H5OH
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C2H6O
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/iC3H8O
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C8H10
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C3H6O
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/liquidProperties
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C8H18
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties/liquidProperties/C10H22
 )
 install(TARGETS solidSpecie DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

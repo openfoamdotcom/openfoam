@@ -23,7 +23,7 @@ flex_target(MyFlexName chemistryReaders/chemkinReader/chemkinLexer.L "${_flex_sr
 add_library(reactionThermophysicalModels ${_FILES} ${_flex_src})
 target_compile_features(reactionThermophysicalModels PUBLIC cxx_std_11)
 target_compile_definitions(reactionThermophysicalModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(reactionThermophysicalModels PUBLIC fluidThermophysicalModels solidSpecie thermophysicalProperties)
+target_link_libraries(reactionThermophysicalModels PUBLIC fluidThermophysicalModels solidSpecie thermophysicalProperties specie)
 target_include_directories(reactionThermophysicalModels PUBLIC
   .
   derivedFvPatchFields/gradientUnburntEnthalpy
