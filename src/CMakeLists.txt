@@ -79,3 +79,8 @@ add_subdirectory(thermophysicalModels/solidThermo)
 add_subdirectory(thermophysicalModels/solidChemistryModel)
 add_subdirectory(thermophysicalModels/solidSpecie)
 
+add_subdirectory(TurbulenceModels/turbulenceModels)
+add_subdirectory(TurbulenceModels/incompressible)
+add_subdirectory(TurbulenceModels/compressible)
+add_subdirectory(TurbulenceModels/schemes)
+
