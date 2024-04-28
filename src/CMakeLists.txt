@@ -84,3 +84,26 @@ add_subdirectory(TurbulenceModels/incompressible)
 add_subdirectory(TurbulenceModels/compressible)
 add_subdirectory(TurbulenceModels/schemes)
 
+add_subdirectory(combustionModels)
+
+add_subdirectory(overset)
+
+add_subdirectory(fvOptions)
+
+add_subdirectory(fvMotionSolver)
+
+add_subdirectory(mesh/snappyHexMesh)
+
+add_subdirectory(renumber/renumberMethods)
+if(HAVE_BOOST)
+  add_subdirectory(renumber/SloanRenumber)
+endif()
+if(HAVE_ZOLTAN)
+  add_subdirectory(renumber/zoltanRenumber)
+endif()
+
+add_subdirectory(fvAgglomerationMethods/pairPatchAgglomeration)
+if(HAVE_MGRIDGEN)
+  add_subdirectory(fvAgglomerationMethods/MGridGenGamgAgglomeration)
+endif()
+

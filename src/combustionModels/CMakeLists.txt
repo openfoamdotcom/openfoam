@@ -1,6 +1,6 @@
 set(_FILES
   combustionModel/combustionModel.C
-  CombustionModelCaseDir/CombustionModelCaseDir/CombustionModels.C
+  CombustionModelCaseDir/CombustionModel/CombustionModels.C
   diffusion/diffusions.C
   infinitelyFastChemistry/infinitelyFastChemistrys.C
   PaSR/PaSRs.C
