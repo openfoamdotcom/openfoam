@@ -47,6 +47,7 @@ set(_FILES
 add_library(rigidBodyDynamics ${_FILES})
 target_compile_features(rigidBodyDynamics PUBLIC cxx_std_11)
 target_compile_definitions(rigidBodyDynamics PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(rigidBodyDynamics PUBLIC OpenFOAM)
 target_include_directories(rigidBodyDynamics PUBLIC
   rigidBodyInertia
   bodies/subBody

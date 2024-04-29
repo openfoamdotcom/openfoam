@@ -5,7 +5,7 @@
     \\  /    A nd           | www.openfoam.com
      \\/     M anipulation  |
 -------------------------------------------------------------------------------
-    Copyright (C) 2020 OpenCFD Ltd.
+    Copyright (C) 2014-2015 OpenFOAM Foundation
 -------------------------------------------------------------------------------
 License
     This file is part of OpenFOAM.
@@ -24,104 +24,86 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Class
-    Foam::regionModels::surfaceFilmModels::injectionModelList
+    Foam::linear
 
 Description
-    List container for film injection models
 
 SourceFiles
-    injectionModelList.C
+    linear.C
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef injectionModelList_H
-#define injectionModelList_H
+#pragma once
 
-#include "PtrList.H"
-#include "injectionModel.H"
-#include "filmSubModelBase.H"
-#include "scalarField.H"
+#include "blendingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
-namespace regionModels
-{
-namespace areaSurfaceFilmModels
+namespace blendingMethods
 {
 
 /*---------------------------------------------------------------------------*\
-                    Class injectionModelList Declaration
+                         Class linear Declaration
 \*---------------------------------------------------------------------------*/
 
-class injectionModelList
+class linear
 :
-    public PtrList<injectionModel>,
-    public filmSubModelBase
+    public blendingMethod
 {
-    // Private Data
+    // Private data
 
-        //- List of mass injected per patch
-        scalar massInjected_;
+        //- Maximum fraction of phases which can be considered fully dispersed
+        HashTable<dimensionedScalar> maxFullyDispersedAlpha_;
 
-
-    // Private Member Functions
-
-        //- No copy construct
-        injectionModelList(const injectionModelList&) = delete;
-
-        //- No copy assignment
-        void operator=(const injectionModelList&) = delete;
+        //- Maximum fraction of phases which can be considered partly dispersed
+        HashTable<dimensionedScalar> maxPartlyDispersedAlpha_;
 
 
 public:
 
+    //- Runtime type information
+    TypeName("linear");
+
+
     // Constructors
 
-        //- Construct null
-        injectionModelList(liquidFilmBase& film);
-
-        //- Construct from type name, dictionary and surface film model
-        injectionModelList
+        //- Construct from a dictionary and two phases
+        linear
         (
-            liquidFilmBase& film,
-            const dictionary& dict
+            const dictionary& dict,
+            const wordList& phaseNames
         );
 
 
     //- Destructor
-    virtual ~injectionModelList();
+    ~linear() = default;
 
 
     // Member Functions
 
-        // Evolution
+        //- Factor for primary phase
+        virtual tmp<volScalarField> f1
+        (
+            const phaseModel& phase1,
+            const phaseModel& phase2
+        ) const;
 
-            //- Correct
-            virtual void correct
-            (
-                scalarField& availableMass,
-                volScalarField& massToInject,
-                volScalarField& diameterToInject
-            );
-
-
-        // I-O
-
-            //- Provide some info
-            virtual void info(Ostream& os);
+        //- Factor for secondary phase
+        virtual tmp<volScalarField> f2
+        (
+            const phaseModel& phase1,
+            const phaseModel& phase2
+        ) const;
 };
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-} // End namespace areaSurfaceFilmModels
-} // End namespace regionModels
+} // End namespace blendingMethods
 } // End namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-#endif
 
 // ************************************************************************* //

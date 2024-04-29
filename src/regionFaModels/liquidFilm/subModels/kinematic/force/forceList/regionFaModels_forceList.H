@@ -5,7 +5,7 @@
     \\  /    A nd           | www.openfoam.com
      \\/     M anipulation  |
 -------------------------------------------------------------------------------
-    Copyright (C) 2014-2015 OpenFOAM Foundation
+    Copyright (C) 2020 OpenCFD Ltd.
 -------------------------------------------------------------------------------
 License
     This file is part of OpenFOAM.
@@ -24,86 +24,72 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Class
-    Foam::linear
+    Foam::regionModels::surfaceFilmModels::forceList
 
 Description
+    List container for film sources
 
 SourceFiles
-    linear.C
+    forceList.C
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef linear_H
-#define linear_H
+#ifndef regionFaModels_forceList_H
+#define regionFaModels_forceList_H
 
-#include "blendingMethod.H"
+#include "PtrList.H"
+#include "regionFaModels_force.H"
+#include "faCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam
 {
-namespace blendingMethods
+namespace regionModels
+{
+namespace areaSurfaceFilmModels
 {
 
 /*---------------------------------------------------------------------------*\
-                         Class linear Declaration
+                       Class forceList Declaration
 \*---------------------------------------------------------------------------*/
 
-class linear
+class forceList
 :
-    public blendingMethod
+    public PtrList<force>
 {
-    // Private data
-
-        //- Maximum fraction of phases which can be considered fully dispersed
-        HashTable<dimensionedScalar> maxFullyDispersedAlpha_;
-
-        //- Maximum fraction of phases which can be considered partly dispersed
-        HashTable<dimensionedScalar> maxPartlyDispersedAlpha_;
-
-
 public:
-
-    //- Runtime type information
-    TypeName("linear");
-
 
     // Constructors
 
-        //- Construct from a dictionary and two phases
-        linear
+        //- Construct null
+        forceList(liquidFilmBase& film);
+
+        //- Construct from type name, dictionary and surface film model
+        forceList
         (
-            const dictionary& dict,
-            const wordList& phaseNames
+            liquidFilmBase& film,
+            const dictionary& dict
         );
 
 
     //- Destructor
-    ~linear() = default;
+    virtual ~forceList();
 
 
     // Member Functions
 
-        //- Factor for primary phase
-        virtual tmp<volScalarField> f1
-        (
-            const phaseModel& phase1,
-            const phaseModel& phase2
-        ) const;
-
-        //- Factor for secondary phase
-        virtual tmp<volScalarField> f2
-        (
-            const phaseModel& phase1,
-            const phaseModel& phase2
-        ) const;
+        //- Return (net) force system
+        tmp<faVectorMatrix> correct(areaVectorField& U);
 };
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-} // End namespace blendingMethods
+} // End namespace areaSurfaceFilmModels
+} // End namespace regionModels
 } // End namespace Foam
+
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmTurbulenceModel.H"
+#include "regionFaModels_filmTurbulenceModel.H"
 #include "gravityMeshObject.H"
 #include "turbulentTransportModel.H"
 #include "turbulentFluidThermoModel.H"

@@ -24,22 +24,22 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Class
-    Foam::regionModels::surfaceFilmModels::forceList
+    Foam::regionModels::areaSurfaceFilmModels::force
 
 Description
-    List container for film sources
+    Base class for film (stress-based) force models
 
 SourceFiles
-    forceList.C
+    force.C
+    forceNew.C
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef forceList_H
-#define forceList_H
+#ifndef regionFaModels_force_H
+#define regionFaModels_force_H
 
-#include "PtrList.H"
-#include "force.H"
-#include "faCFD.H"
+#include "regionFaModels_filmSubModelBase.H"
+#include "runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -51,36 +51,77 @@ namespace areaSurfaceFilmModels
 {
 
 /*---------------------------------------------------------------------------*\
-                       Class forceList Declaration
+                          Class force Declaration
 \*---------------------------------------------------------------------------*/
 
-class forceList
+class force
 :
-    public PtrList<force>
+    public filmSubModelBase
 {
+    // Private Member Functions
+
+        //- No copy construct
+        force(const force&) = delete;
+
+        //- No copy assignment
+        void operator=(const force&) = delete;
+
+
 public:
+
+    //- Runtime type information
+    TypeName("force");
+
+
+    // Declare runtime constructor selection table
+
+         declareRunTimeSelectionTable
+         (
+             autoPtr,
+             force,
+             dictionary,
+             (
+                liquidFilmBase& film,
+                const dictionary& dict
+             ),
+             (film, dict)
+         );
 
     // Constructors
 
         //- Construct null
-        forceList(liquidFilmBase& film);
+        force(liquidFilmBase& film);
 
         //- Construct from type name, dictionary and surface film model
-        forceList
+        force
         (
+            const word& modelType,
             liquidFilmBase& film,
             const dictionary& dict
         );
 
 
+    // Selectors
+
+        //- Return a reference to the selected force model
+        static autoPtr<force> New
+        (
+            liquidFilmBase& film,
+            const dictionary& dict,
+            const word& modelType
+        );
+
+
     //- Destructor
-    virtual ~forceList();
+    virtual ~force();
 
 
     // Member Functions
 
-        //- Return (net) force system
-        tmp<faVectorMatrix> correct(areaVectorField& U);
+        // Evolution
+
+            //- Correct
+            virtual tmp<faVectorMatrix> correct(areaVectorField& U) = 0;
 };
 
 
@@ -89,7 +130,6 @@ public:
 } // End namespace areaSurfaceFilmModels
 } // End namespace regionModels
 } // End namespace Foam
-
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

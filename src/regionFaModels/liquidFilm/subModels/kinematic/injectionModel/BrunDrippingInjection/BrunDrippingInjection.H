@@ -82,7 +82,7 @@ Usage
     \endtable
 
     The inherited entries are elaborated in:
-      - \link injectionModel.H \endlink
+      - \link regionFaModels_injectionModelList.H \endlink
 
 SourceFiles
     BrunDrippingInjection.C
@@ -92,7 +92,7 @@ SourceFiles
 #ifndef areaSurfaceFilmModels_BrunDrippingInjection_H
 #define areaSurfaceFilmModels_BrunDrippingInjection_H
 
-#include "injectionModel.H"
+#include "regionFaModels_injectionModelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

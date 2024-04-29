@@ -5,7 +5,7 @@
     \\  /    A nd           | www.openfoam.com
      \\/     M anipulation  |
 -------------------------------------------------------------------------------
-    Copyright (C) 2017-2022 OpenCFD Ltd.
+    Copyright (C) 2015-2018 OpenFOAM Foundation
 -------------------------------------------------------------------------------
 License
     This file is part of OpenFOAM.
@@ -35,8 +35,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef InterfaceCompositionModel_H
-#define InterfaceCompositionModel_H
+#ifndef InterfaceCompositionModelPascal1_H
+#define InterfaceCompositionModelPascal1_H
 
 #include "interfaceCompositionModel.H"
 
@@ -45,16 +45,14 @@ SourceFiles
 namespace Foam
 {
 
-using namespace multiphaseInter;
-
 // Forward Declarations
 class phaseModel;
 class phasePair;
-template <class ThermoType> class pureMixture;
-template <class ThermoType> class multiComponentMixture;
+template<class ThermoType> class pureMixture;
+template<class ThermoType> class multiComponentMixture;
 
 /*---------------------------------------------------------------------------*\
-                  Class InterfaceCompositionModel Declaration
+                         Class InterfaceCompositionModel Declaration
 \*---------------------------------------------------------------------------*/
 
 template<class Thermo, class OtherThermo>
@@ -64,19 +62,19 @@ class InterfaceCompositionModel
 {
 protected:
 
-    // Private data
+    // Protected Data
 
-        //- Thermo (from)
-        const Thermo& fromThermo_;
+        //- Thermo
+        const Thermo& thermo_;
 
-        //- Other Thermo (to)
-        const OtherThermo& toThermo_;
+        //- Other Thermo
+        const OtherThermo& otherThermo_;
 
         //- Lewis number
         const dimensionedScalar Le_;
 
 
-    // Private member functions
+    // Protected Member Functions
 
         //- Get a reference to the local thermo for a pure mixture
         template<class ThermoType>
@@ -96,45 +94,21 @@ protected:
             const multiComponentMixture<ThermoType>& globalThermo
         ) const;
 
-        //- Return mass fraction for a pureMixture equal to one
-        template<class ThermoType>
-        tmp<volScalarField> getSpecieMassFraction
-        (
-            const word& speciesName,
-            const pureMixture<ThermoType>& thermo
-        ) const;
-
-        //- Return mass fraction for speciesName
-        template<class ThermoType>
-        tmp<volScalarField> getSpecieMassFraction
-        (
-            const word& speciesName,
-            const multiComponentMixture<ThermoType>& thermo
-        ) const;
-
-        //- Return moleculas weight of the mixture for pureMixture [Kg/mol]
-        template<class ThermoType>
-        tmp<volScalarField> MwMixture
-        (
-            const pureMixture<ThermoType>& thermo
-        ) const;
-
-        //- Return moleculas weight of the mixture for multiComponentMixture
-        // [Kg/mol]
-        template<class ThermoType>
-        tmp<volScalarField> MwMixture
-        (
-            const multiComponentMixture<ThermoType>&
-        ) const;
-
 
 public:
 
-    //- Construct from components
-    InterfaceCompositionModel(const dictionary& dict, const phasePair& pair);
+    // Constructors
+
+        //- Construct from components
+        InterfaceCompositionModel
+        (
+            const dictionary& dict,
+            const phasePair& pair
+        );
+
 
     //- Destructor
-    virtual ~InterfaceCompositionModel() = default;
+    ~InterfaceCompositionModel() = default;
 
 
     // Member Functions
@@ -146,30 +120,26 @@ public:
             const volScalarField& Tf
         ) const;
 
-        //- Reference mass fraction for species based models
-        virtual tmp<volScalarField> Yf
-        (
-            const word& speciesName,
-            const volScalarField& Tf
-        ) const;
-
-        //- Specie mass diffusivity for pure mixture
-        virtual tmp<volScalarField> Dfrom
+        //- Mass diffusivity
+        virtual tmp<volScalarField> D
         (
             const word& speciesName
         ) const;
 
-        //- Specie mass diffusivity for specie in a multicomponent
-        virtual tmp<volScalarField> Dto
-        (
-             const word& speciesName
-        ) const;
-
-        //- Latent heat (to - from)(thermo - otherThermo)
+        //- Latent heat
         virtual tmp<volScalarField> L
         (
             const word& speciesName,
             const volScalarField& Tf
+        ) const;
+
+        //- Add latent heat flow rate to total
+        virtual void addMDotL
+        (
+            const volScalarField& K,
+            const volScalarField& Tf,
+            volScalarField& mDotL,
+            volScalarField& mDotLPrime
         ) const;
 };
 
@@ -180,59 +150,24 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-// Instantiation for multi-component (from) to single-component (to)
-#define makeInterfaceDispSpecieMixtureType(Type, Thermo, Comp, Mix, Phys, OtherThermo, OtherComp, OtherMix, OtherPhys)\
-                                                                               \
-    typedef Thermo<Comp, SpecieMixture<Mix<Phys>>>                             \
-        Type##Thermo##Comp##Mix##Phys;                                         \
-                                                                               \
-    typedef OtherThermo<OtherComp, OtherMix<OtherPhys>>                        \
-        Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys;              \
-                                                                               \
-    addInterfaceCompositionToRunTimeSelectionTable                             \
-    (                                                                          \
-        Type,                                                                  \
-        Type##Thermo##Comp##Mix##Phys,                                         \
-        Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys               \
-    )
-
-
-// Instantiation for single-component (from) to multi-component (to)
-#define makeInterfaceContSpecieMixtureType(Type, Thermo, Comp, Mix, Phys, OtherThermo, OtherComp, OtherMix, OtherPhys)\
-                                                                               \
-    typedef Thermo<Comp, Mix<Phys>>                                            \
-        Type##Thermo##Comp##Mix##Phys;                                         \
-                                                                               \
-    typedef OtherThermo<OtherComp, SpecieMixture<OtherMix<OtherPhys>>>         \
-        Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys;              \
-                                                                               \
-    addInterfaceCompositionToRunTimeSelectionTable                             \
-    (                                                                          \
-        Type,                                                                  \
-        Type##Thermo##Comp##Mix##Phys,                                         \
-        Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys               \
-    )
-
-
-// Instantiation for single-component-single-component pairs
-#define makeInterfacePureType(Type, Thermo, Comp, Mix, Phys, OtherThermo, OtherComp, OtherMix, OtherPhys)\
-                                                                               \
-    typedef Thermo<Comp, Mix<Phys>>                                            \
-        Type##Thermo##Comp##Mix##Phys;                                         \
-                                                                               \
-    typedef OtherThermo<OtherComp, OtherMix<OtherPhys>>                        \
-        Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys;              \
-                                                                               \
-    addInterfaceCompositionToRunTimeSelectionTable                             \
-    (                                                                          \
-        Type,                                                                  \
-        Type##Thermo##Comp##Mix##Phys,                                         \
-        Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys               \
-    )
-
-
 // Instantiation for multi-component-multi-component pairs
-#define makeSpecieInterfaceSpecieMixtures(Type, Thermo, Comp, Mix, Phys, OtherThermo, OtherComp, OtherMix, OtherPhys)\
+#define makeInterfaceCompositionType(Type, Thermo, Comp, Mix, Phys, OtherThermo, OtherComp, OtherMix, OtherPhys)\
+                                                                               \
+    typedef Thermo<Comp, SpecieMixture<Mix<Phys>>>                             \
+        Type##Thermo##Comp##Mix##Phys;                                         \
+                                                                               \
+    typedef OtherThermo<OtherComp, OtherMix<OtherPhys>>                        \
+        Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys;              \
+                                                                               \
+    addInterfaceCompositionToRunTimeSelectionTable                             \
+    (                                                                          \
+        Type,                                                                  \
+        Type##Thermo##Comp##Mix##Phys,                                         \
+        Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys               \
+    )
+
+// Instantiation for multi-component-single-component pairs
+#define makeSpecieInterfaceCompositionType(Type, Thermo, Comp, Mix, Phys, OtherThermo, OtherComp, OtherMix, OtherPhys)\
                                                                                \
     typedef Thermo<Comp, SpecieMixture<Mix<Phys>>>                             \
         Type##Thermo##Comp##Mix##Phys;                                         \
@@ -246,7 +181,6 @@ public:
         Type##Thermo##Comp##Mix##Phys,                                         \
         Type##Other##OtherThermo##OtherComp##OtherMix##OtherPhys               \
     )
-
 
 // Addition to the run-time selection table
 #define addInterfaceCompositionToRunTimeSelectionTable(Type, Thermo, OtherThermo)\
@@ -275,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#   include "InterfaceCompositionModel.C"
+    #include "InterfaceCompositionModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

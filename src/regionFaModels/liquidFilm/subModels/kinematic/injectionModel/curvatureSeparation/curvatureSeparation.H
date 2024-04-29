@@ -50,7 +50,7 @@ SourceFiles
 #ifndef curvatureSeparation_H
 #define curvatureSeparation_H
 
-#include "injectionModel.H"
+#include "regionFaModels_injectionModelList.H"
 #include "faCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -5,7 +5,7 @@
     \\  /    A nd           | www.openfoam.com
      \\/     M anipulation  |
 -------------------------------------------------------------------------------
-    Copyright (C) 2020 OpenCFD Ltd.
+    Copyright (C) 2021 OpenCFD Ltd.
 -------------------------------------------------------------------------------
 License
     This file is part of OpenFOAM.
@@ -24,22 +24,22 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Class
-    Foam::regionModels::areaSurfaceFilmModels::force
+    Foam::regionModels::surfaceFilmModels::filmSubModelBase
 
 Description
-    Base class for film (stress-based) force models
+    Base class for surface film sub-models
 
 SourceFiles
-    force.C
-    forceNew.C
+    filmSubModelBaseI.H
+    filmSubModelBase.C
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef force_H
-#define force_H
+#ifndef regionFaModels_filmSubModelBase_H
+#define regionFaModels_filmSubModelBase_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
+#include "liquidFilmBase.H"
+#include "subModelBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -51,77 +51,68 @@ namespace areaSurfaceFilmModels
 {
 
 /*---------------------------------------------------------------------------*\
-                          Class force Declaration
+                      Class filmSubModelBase Declaration
 \*---------------------------------------------------------------------------*/
 
-class force
+class filmSubModelBase
 :
-    public filmSubModelBase
+    public subModelBase
 {
-    // Private Member Functions
+protected:
 
-        //- No copy construct
-        force(const force&) = delete;
+    // Protected Data
 
-        //- No copy assignment
-        void operator=(const force&) = delete;
+        //- Reference to the film surface film model
+        liquidFilmBase& filmModel_;
 
 
 public:
 
-    //- Runtime type information
-    TypeName("force");
-
-
-    // Declare runtime constructor selection table
-
-         declareRunTimeSelectionTable
-         (
-             autoPtr,
-             force,
-             dictionary,
-             (
-                liquidFilmBase& film,
-                const dictionary& dict
-             ),
-             (film, dict)
-         );
-
     // Constructors
 
         //- Construct null
-        force(liquidFilmBase& film);
+        filmSubModelBase(liquidFilmBase& film);
 
-        //- Construct from type name, dictionary and surface film model
-        force
-        (
-            const word& modelType,
-            liquidFilmBase& film,
-            const dictionary& dict
-        );
-
-
-    // Selectors
-
-        //- Return a reference to the selected force model
-        static autoPtr<force> New
+        //- Construct from film film without name
+        filmSubModelBase
         (
             liquidFilmBase& film,
             const dictionary& dict,
+            const word& baseName,
+            const word& modelType,
+            const word& dictExt = "Coeffs"
+        );
+
+        //- Construct from film film with name
+        filmSubModelBase
+        (
+            const word& modelName,
+            liquidFilmBase& film,
+            const dictionary& dict,
+            const word& baseName,
             const word& modelType
         );
 
 
     //- Destructor
-    virtual ~force();
+    virtual ~filmSubModelBase();
 
 
     // Member Functions
 
-        // Evolution
+        // Access
 
-            //- Correct
-            virtual tmp<faVectorMatrix> correct(areaVectorField& U) = 0;
+            //- Flag to indicate when to write a property
+            virtual bool writeTime() const;
+
+            //- Return const access to the film surface film model
+            inline const liquidFilmBase& film() const;
+
+            //- Return the reference to the film surface film model
+            inline liquidFilmBase& film();
+
+            template<class FilmType>
+            inline const FilmType& filmType() const;
 };
 
 
@@ -130,6 +121,16 @@ public:
 } // End namespace areaSurfaceFilmModels
 } // End namespace regionModels
 } // End namespace Foam
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+#include "filmSubModelBaseI.H"
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+#ifdef NoRepository
+    #include "filmSubModelBaseTemplates.C"
+#endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

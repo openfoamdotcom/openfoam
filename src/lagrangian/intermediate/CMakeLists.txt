@@ -245,5 +245,6 @@ target_include_directories(lagrangianIntermediate PUBLIC
   clouds/Templates/CollidingCloud
   conversion/ensight
   conversion/vtk
+  ${OPENFOAM_SRC_DIR}/OpenFOAM/fields/Fields/globalFields
 )
 install(TARGETS lagrangianIntermediate DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

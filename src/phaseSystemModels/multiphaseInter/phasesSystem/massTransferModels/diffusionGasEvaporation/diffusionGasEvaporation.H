@@ -93,7 +93,7 @@ Usage
     \endtable
 
     The inherited entries are elaborated in:
-      - \link InterfaceCompositionModel.H \endlink
+      - \link InterfaceCompositionModelPascal2.H \endlink
       - \link saturationModel.H \endlink
 
 SourceFiles
@@ -104,7 +104,7 @@ SourceFiles
 #ifndef Foam_meltingEvaporationModels_diffusionGasEvaporation_H
 #define Foam_meltingEvaporationModels_diffusionGasEvaporation_H
 
-#include "InterfaceCompositionModel.H"
+#include "InterfaceCompositionModelPascal2.H"
 #include "saturationModel.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * *//

@@ -24,22 +24,24 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 Class
-    Foam::regionModels::surfaceFilmModels::filmSubModelBase
+    Foam::regionModels::areaSurfaceFilmModels::injectionModel
 
 Description
-    Base class for surface film sub-models
+    Base class for film injection models, handling mass transfer from the
+    film.
 
 SourceFiles
-    filmSubModelBaseI.H
-    filmSubModelBase.C
+    injectionModel.C
+    injectionModelNew.C
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef filmSubModelBase_H
-#define filmSubModelBase_H
+#ifndef regionFaModels_injectionModel_H
+#define regionFaModels_injectionModel_H
 
-#include "liquidFilmBase.H"
-#include "subModelBase.H"
+#include "regionFaModels_filmSubModelBase.H"
+#include "runTimeSelectionTables.H"
+#include "scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -51,68 +53,106 @@ namespace areaSurfaceFilmModels
 {
 
 /*---------------------------------------------------------------------------*\
-                      Class filmSubModelBase Declaration
+                      Class injectionModel Declaration
 \*---------------------------------------------------------------------------*/
 
-class filmSubModelBase
+class injectionModel
 :
-    public subModelBase
+    public filmSubModelBase
 {
+    // Private Data
+
+        //- Injected mass
+        scalar injectedMass_;
+
+
+    // Private Member Functions
+
+        //- No copy construct
+        injectionModel(const injectionModel&) = delete;
+
+        //- No copy assignment
+        void operator=(const injectionModel&) = delete;
+
+
 protected:
 
-    // Protected Data
+    // Protected Member Functions
 
-        //- Reference to the film surface film model
-        liquidFilmBase& filmModel_;
+        //- Add to injected mass
+        void addToInjectedMass(const scalar dMass);
+
+        //- Correct
+        void correct();
 
 
 public:
 
+    //- Runtime type information
+    TypeName("injectionModel");
+
+
+    // Declare runtime constructor selection table
+
+         declareRunTimeSelectionTable
+         (
+             autoPtr,
+             injectionModel,
+             dictionary,
+             (
+                liquidFilmBase& film,
+                const dictionary& dict
+             ),
+             (film, dict)
+         );
+
+
     // Constructors
 
         //- Construct null
-        filmSubModelBase(liquidFilmBase& film);
+        injectionModel(liquidFilmBase& film);
 
-        //- Construct from film film without name
-        filmSubModelBase
+        //- Construct from type name, dictionary and surface film model
+        injectionModel
         (
-            liquidFilmBase& film,
-            const dictionary& dict,
-            const word& baseName,
             const word& modelType,
-            const word& dictExt = "Coeffs"
+            liquidFilmBase& film,
+            const dictionary& dict
         );
 
-        //- Construct from film film with name
-        filmSubModelBase
+
+    // Selectors
+
+        //- Return a reference to the selected injection model
+        static autoPtr<injectionModel> New
         (
-            const word& modelName,
             liquidFilmBase& film,
             const dictionary& dict,
-            const word& baseName,
-            const word& modelType
+            const word& mdoelType
         );
 
 
     //- Destructor
-    virtual ~filmSubModelBase();
+    virtual ~injectionModel();
 
 
     // Member Functions
 
-        // Access
+        //- Correct
+        virtual void correct
+        (
+            scalarField& availableMass,
+            scalarField& massToInject,
+            scalarField& diameterToInject
+        ) = 0;
 
-            //- Flag to indicate when to write a property
-            virtual bool writeTime() const;
+        //- Return the total mass injected
+        virtual scalar injectedMassTotal() const;
 
-            //- Return const access to the film surface film model
-            inline const liquidFilmBase& film() const;
-
-            //- Return the reference to the film surface film model
-            inline liquidFilmBase& film();
-
-            template<class FilmType>
-            inline const FilmType& filmType() const;
+        //- Accumulate the total mass injected for the patches into the
+        //- scalarField provided
+        virtual void patchInjectedMassTotals(scalar& patchMasses) const
+        {}
 };
 
 
@@ -121,16 +161,6 @@ public:
 } // End namespace areaSurfaceFilmModels
 } // End namespace regionModels
 } // End namespace Foam
-
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-#include "filmSubModelBaseI.H"
-
-// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-#ifdef NoRepository
-    #include "filmSubModelBaseTemplates.C"
-#endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

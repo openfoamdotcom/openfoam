@@ -31,7 +31,7 @@ set(_FILES
 add_library(overset ${_FILES})
 target_compile_features(overset PUBLIC cxx_std_11)
 target_compile_definitions(overset PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(overset PUBLIC blockMeshLib dynamicFvMesh sampling decompositionMethods)
+target_link_libraries(overset PUBLIC dynamicFvMesh sampling decompositionMethods)
 target_include_directories(overset PUBLIC
   include
   oversetPolyPatch
@@ -53,7 +53,5 @@ target_include_directories(overset PUBLIC
   oversetPatchPhiErr
   regionsToCell
   oversetAdjustPhi
-  PRIVATE
-  ${OPENFOAM_SRC_DIR}/OpenFOAM/meshes/primitiveMesh/primitivePatch/compat
 )
 install(TARGETS overset DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
