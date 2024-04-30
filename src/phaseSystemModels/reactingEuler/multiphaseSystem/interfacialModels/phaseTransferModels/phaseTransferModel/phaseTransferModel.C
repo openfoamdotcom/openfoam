@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "phaseTransferModel.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "BlendedInterfacialModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

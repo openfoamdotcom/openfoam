@@ -37,8 +37,8 @@ SourceFiles
 #define BlendedInterfacialModel_H
 
 #include "blendingMethod.H"
-#include "phasePair.H"
-#include "orderedPhasePair.H"
+#include "reactingEuler_phasePair.H"
+#include "reactingEuler_orderedPhasePair.H"
 #include "geometricZeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

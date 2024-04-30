@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "dragModel.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "swarmCorrection.H"
 #include "surfaceInterpolate.H"
 #include "BlendedInterfacialModel.H"

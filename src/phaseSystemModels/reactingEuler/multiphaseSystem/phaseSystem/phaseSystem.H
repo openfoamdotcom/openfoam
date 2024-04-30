@@ -42,8 +42,8 @@ SourceFiles
 #include "IOdictionary.H"
 
 #include "reactingEuler_phaseModel.H"
-#include "phasePair.H"
-#include "orderedPhasePair.H"
+#include "reactingEuler_phasePair.H"
+#include "reactingEuler_orderedPhasePair.H"
 #include "HashPtrTable.H"
 #include "PtrListDictionary.H"
 

@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "liftModel.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "fvcCurl.H"
 #include "fvcFlux.H"
 #include "surfaceInterpolate.H"

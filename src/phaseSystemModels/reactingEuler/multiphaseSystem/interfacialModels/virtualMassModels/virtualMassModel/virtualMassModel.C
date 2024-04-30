@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "virtualMassModel.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "surfaceInterpolate.H"
 #include "BlendedInterfacialModel.H"
 

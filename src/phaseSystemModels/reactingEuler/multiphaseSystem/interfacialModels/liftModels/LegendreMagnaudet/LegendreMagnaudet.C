@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "LegendreMagnaudet.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "fvcGrad.H"
 #include "addToRunTimeSelectionTable.H"
 

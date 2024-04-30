@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "deposition.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "phaseSystem.H"
 #include "addToRunTimeSelectionTable.H"
 

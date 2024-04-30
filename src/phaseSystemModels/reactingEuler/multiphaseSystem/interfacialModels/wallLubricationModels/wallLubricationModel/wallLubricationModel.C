@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "wallLubricationModel.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "fvcFlux.H"
 #include "surfaceInterpolate.H"
 #include "wallFvPatch.H"

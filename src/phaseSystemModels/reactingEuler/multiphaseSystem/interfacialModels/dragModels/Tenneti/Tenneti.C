@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "Tenneti.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "SchillerNaumann.H"
 #include "addToRunTimeSelectionTable.H"
 

@@ -33,8 +33,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef phasePair_H
-#define phasePair_H
+#ifndef twoPhaseEuler_phasePair_H
+#define twoPhaseEuler_phasePair_H
 
 #include "phaseModel.H"
 #include "phasePairKey.H"

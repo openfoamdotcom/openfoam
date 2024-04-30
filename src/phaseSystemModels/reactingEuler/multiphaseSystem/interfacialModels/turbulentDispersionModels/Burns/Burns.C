@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "Burns.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "phaseCompressibleTurbulenceModel.H"
 #include "addToRunTimeSelectionTable.H"
 

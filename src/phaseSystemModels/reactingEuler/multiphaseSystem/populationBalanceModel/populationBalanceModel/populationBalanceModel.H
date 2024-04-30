@@ -152,7 +152,7 @@ SourceFiles
 #define populationBalanceModel_H
 
 #include "sizeGroup.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "pimpleControl.H"
 #include "phaseCompressibleTurbulenceModelFwd.H"
 #include "HashPtrTable.H"

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "phaseSystem.H"
 #include "surfaceTensionModel.H"
 

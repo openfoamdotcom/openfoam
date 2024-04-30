@@ -33,8 +33,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef orderedPhasePair_H
-#define orderedPhasePair_H
+#ifndef multiphaseInter_orderedPhasePair_H
+#define multiphaseInter_orderedPhasePair_H
 
 #include "phasePair.H"
 

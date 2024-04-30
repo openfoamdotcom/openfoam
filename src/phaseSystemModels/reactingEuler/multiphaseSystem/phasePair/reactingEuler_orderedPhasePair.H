@@ -33,10 +33,10 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef orderedPhasePair_H
-#define orderedPhasePair_H
+#ifndef reactingEuler_orderedPhasePair_H
+#define reactingEuler_orderedPhasePair_H
 
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "turbulentDispersionModel.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "fvcGrad.H"
 #include "surfaceInterpolate.H"
 #include "fvcSnGrad.H"

@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "GidaspowErgunWenYu.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "Ergun.H"
 #include "WenYu.H"
 #include "addToRunTimeSelectionTable.H"

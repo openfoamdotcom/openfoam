@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "TomiyamaAnalytic.H"
-#include "phasePair.H"
+#include "reactingEuler_phasePair.H"
 #include "addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

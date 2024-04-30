@@ -35,8 +35,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef phasePair_H
-#define phasePair_H
+#ifndef multiphaseInter_phasePair_H
+#define multiphaseInter_phasePair_H
 
 #include "phaseModel.H"
 #include "phasePairKey.H"
