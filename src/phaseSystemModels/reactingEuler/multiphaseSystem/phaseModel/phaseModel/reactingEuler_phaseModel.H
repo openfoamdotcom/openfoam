@@ -31,8 +31,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef phaseModel_H
-#define phaseModel_H
+#ifndef Foam_reactingEuler_phaseModel_H
+#define Foam_reactingEuler_phaseModel_H
 
 #include "dictionary.H"
 #include "dimensionedScalar.H"

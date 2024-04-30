@@ -30,7 +30,7 @@ Description
     Surface Interpolation
 
 SourceFiles
-    surfaceInterpolate.C
+    surfaceInterpolatePascal.C
 
 \*---------------------------------------------------------------------------*/
 
@@ -240,7 +240,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "surfaceInterpolate.C"
+    #include "surfaceInterpolatePascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

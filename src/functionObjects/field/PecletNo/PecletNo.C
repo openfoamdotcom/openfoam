@@ -28,7 +28,7 @@ License
 
 #include "PecletNo.H"
 #include "turbulenceModel.H"
-#include "surfaceInterpolate.H"
+#include "fieldFunctionObjects_surfaceInterpolate.H"
 #include "addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

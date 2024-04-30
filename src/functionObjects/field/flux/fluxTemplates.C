@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fvcFlux.H"
-#include "surfaceInterpolate.H"
+#include "fieldFunctionObjects_surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -84,8 +84,7 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef functionObjects_surfaceInterpolate_H
-#define functionObjects_surfaceInterpolate_H
+#pragma once
 
 #include "fvMeshFunctionObject.H"
 #include "surfaceFieldsFwd.H"
@@ -180,7 +179,5 @@ public:
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
-
-#endif
 
 // ************************************************************************* //

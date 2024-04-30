@@ -30,7 +30,7 @@ License
 #include "mathematicalConstants.H"
 #include "volFields.H"
 #include "surfaceFields.H"
-#include "surfaceInterpolate.H"
+#include "fieldFunctionObjects_surfaceInterpolate.H"
 #include "pairPatchAgglomeration.H"
 #include "emptyPolyPatch.H"
 #include "coupledPolyPatch.H"
