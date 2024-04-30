@@ -29,7 +29,7 @@ License
 #include "basicThermo.H"
 #include "uniformDimensionedFields.H"
 #include "volFields.H"
-#include "fieldFunctionObjects_surfaceInterpolate.H"
+#include "surfaceInterpolate.H"
 #include "fvcDiv.H"
 #include "fvmLaplacian.H"
 #include "fvcSnGrad.H"

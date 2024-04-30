@@ -25,7 +25,6 @@ target_include_directories(incompressibleTurbulenceModels PUBLIC
   turbulentTransportModels/RAS/LienLeschziner
   turbulentTransportModels/RAS/kkLOmega
   IncompressibleTurbulenceModel
-  PRIVATE
   ${OPENFOAM_SRC_DIR}/TurbulenceModels/phaseIncompressible/PhaseIncompressibleTurbulenceModel
 )
 install(TARGETS incompressibleTurbulenceModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
