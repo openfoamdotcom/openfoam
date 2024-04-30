@@ -28,7 +28,7 @@ License
 #include "addToRunTimeSelectionTable.H"
 
 #include "phaseSystem.H"
-#include "multiphaseSystem.H"
+#include "reactingEuler_multiphaseSystem.H"
 #include "MomentumTransferPhaseSystem.H"
 #include "OneResistanceHeatTransferPhaseSystem.H"
 #include "TwoResistanceHeatTransferPhaseSystem.H"

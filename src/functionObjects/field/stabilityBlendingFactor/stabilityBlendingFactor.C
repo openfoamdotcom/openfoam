@@ -29,7 +29,7 @@ License
 #include "addToRunTimeSelectionTable.H"
 #include "zeroGradientFvPatchFields.H"
 #include "fvcGrad.H"
-#include "fieldFunctionObjects_surfaceInterpolate.H"
+#include "surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

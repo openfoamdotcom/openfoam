@@ -41,5 +41,7 @@ target_include_directories(multiphaseSystem PUBLIC
   interfacialModels/dragModels/WenYu
   interfacialModels/heatTransferModels/RanzMarshall
   interfacialModels/heatTransferModels/heatTransferModel
+  PRIVATE
+  ${OPENFOAM_SRC_DIR}/OpenFOAM/containers/Dictionaries/PtrDictionary
 )
 install(TARGETS multiphaseSystem DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

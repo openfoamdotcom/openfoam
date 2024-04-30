@@ -34,8 +34,8 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef multiphaseSystem_H
-#define multiphaseSystem_H
+#ifndef multiphaseInter_multiphaseSystem_H
+#define multiphaseInter_multiphaseSystem_H
 
 #include "multiphaseInterSystem.H"
 #include "UPtrList.H"
