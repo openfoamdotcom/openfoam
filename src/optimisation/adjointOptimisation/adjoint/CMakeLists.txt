@@ -353,5 +353,6 @@ target_include_directories(adjointOptimisation PUBLIC
   optimisation/adjointSensitivity/adjointSensitivity/multiple
   optimisation/adjointSensitivity/adjointSensitivity/adjointEikonalSolver
   optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity
+  ${OPENFOAM_SRC_DIR}/OpenFOAM/compat
 )
 install(TARGETS adjointOptimisation DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -26,5 +26,6 @@ target_include_directories(DSMC PUBLIC
   submodels/WallInteractionModel/MaxwellianThermal
   clouds/baseClasses/DSMCBaseCloud
   clouds/Templates/DSMCCloud
+  clouds/derived/dsmcCloud
 )
 install(TARGETS DSMC DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
