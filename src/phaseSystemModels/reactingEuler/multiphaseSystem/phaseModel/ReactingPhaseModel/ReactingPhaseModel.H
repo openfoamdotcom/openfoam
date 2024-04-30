@@ -38,7 +38,7 @@ SourceFiles
 #ifndef ReactingPhaseModel_H
 #define ReactingPhaseModel_H
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

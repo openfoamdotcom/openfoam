@@ -39,7 +39,7 @@ SourceFiles
 #ifndef AnisothermalPhaseModel_H
 #define AnisothermalPhaseModel_H
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

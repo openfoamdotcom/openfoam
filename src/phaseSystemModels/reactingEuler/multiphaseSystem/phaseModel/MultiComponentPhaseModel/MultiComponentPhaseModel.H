@@ -38,7 +38,7 @@ SourceFiles
 #ifndef MultiComponentPhaseModel_H
 #define MultiComponentPhaseModel_H
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

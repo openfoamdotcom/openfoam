@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "InterfaceCompositionModelPascal1.H"
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 #include "phasePair.H"
 #include "pureMixture.H"
 #include "multiComponentMixture.H"

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef PurePhaseModel_H
 #define PurePhaseModel_H
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

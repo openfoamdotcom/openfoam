@@ -41,7 +41,7 @@ SourceFiles
 #ifndef ThermoPhaseModel_H
 #define ThermoPhaseModel_H
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

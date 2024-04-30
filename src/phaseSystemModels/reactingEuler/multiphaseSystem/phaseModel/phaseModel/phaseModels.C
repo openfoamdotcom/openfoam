@@ -32,7 +32,7 @@ License
 
 #include "CombustionModelPascal.H"
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 #include "ThermoPhaseModel.H"
 #include "IsothermalPhaseModel.H"
 #include "AnisothermalPhaseModel.H"

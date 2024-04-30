@@ -38,7 +38,7 @@ SourceFiles
 #ifndef InertPhaseModel_H
 #define InertPhaseModel_H
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

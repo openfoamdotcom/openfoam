@@ -39,7 +39,7 @@ SourceFiles
 #ifndef IsothermalPhaseModel_H
 #define IsothermalPhaseModel_H
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 #include "phaseSystem.H"
 #include "diameterModel.H"
 

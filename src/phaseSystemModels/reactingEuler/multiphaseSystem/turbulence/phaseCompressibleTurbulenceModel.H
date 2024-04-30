@@ -37,7 +37,7 @@ Description
 #include "phaseCompressibleTurbulenceModelFwd.H"
 #include "PhaseCompressibleTurbulenceModelPascal.H"
 #include "ThermalDiffusivity.H"
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

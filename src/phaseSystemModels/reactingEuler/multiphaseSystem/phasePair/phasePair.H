@@ -36,7 +36,7 @@ SourceFiles
 #ifndef phasePair_H
 #define phasePair_H
 
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 #include "phasePairKey.H"
 #include "uniformDimensionedFields.H"
 

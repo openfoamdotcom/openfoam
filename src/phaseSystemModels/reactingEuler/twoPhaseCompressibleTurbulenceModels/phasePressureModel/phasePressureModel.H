@@ -58,7 +58,7 @@ SourceFiles
 #include "eddyViscosity.H"
 #include "phaseCompressibleTurbulenceModel.H"
 #include "EddyDiffusivity.H"
-#include "phaseModel.H"
+#include "reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
