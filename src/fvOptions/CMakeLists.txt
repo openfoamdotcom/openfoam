@@ -56,53 +56,53 @@ target_compile_features(fvOptions PUBLIC cxx_std_11)
 target_compile_definitions(fvOptions PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(fvOptions PUBLIC incompressibleTurbulenceModels compressibleTurbulenceModels reactionThermophysicalModels overset)
 target_include_directories(fvOptions PUBLIC
-  constraints/derived/velocityDampingConstraint
+  cellSetOption
   constraints/derived/fixedTemperatureConstraint
+  constraints/derived/velocityDampingConstraint
   constraints/general/fixedValueConstraint
   constraints/general/mapFieldConstraint
-  cellSetOption
-  sources/derived/explicitPorositySource
+  corrections/limitTemperature
+  corrections/limitTurbulenceViscosity
+  corrections/limitVelocity
+  interRegionOption
+  sources/derived/acousticDampingSource
+  sources/derived/actuationDiskSource
   sources/derived/buoyancyEnergy
+  sources/derived/buoyancyForce
+  sources/derived/buoyancyTurbSource
+  sources/derived/directionalPressureGradientExplicitSource
+  sources/derived/explicitPorositySource
+  sources/derived/fanMomentumSource
+  sources/derived/heatExchangerSource
+  sources/derived/heatExchangerSource/heatExchangerModels/effectivenessTable
+  sources/derived/heatExchangerSource/heatExchangerModels/heatExchangerModel
+  sources/derived/heatExchangerSource/heatExchangerModels/referenceTemperature
+  sources/derived/jouleHeatingSource
   sources/derived/meanVelocityForce
   sources/derived/meanVelocityForce/patchMeanVelocityForce
-  sources/derived/solidificationMeltingSource
-  sources/derived/acousticDampingSource
-  sources/derived/phaseLimitStabilization
-  sources/derived/fanMomentumSource
-  sources/derived/patchCellsSource
-  sources/derived/directionalPressureGradientExplicitSource
   sources/derived/multiphaseStabilizedTurbulence
-  sources/derived/actuationDiskSource
-  sources/derived/buoyancyTurbSource
-  sources/derived/heatExchangerSource
-  sources/derived/heatExchangerSource/heatExchangerModels/heatExchangerModel
-  sources/derived/heatExchangerSource/heatExchangerModels/effectivenessTable
-  sources/derived/heatExchangerSource/heatExchangerModels/referenceTemperature
+  sources/derived/patchCellsSource
+  sources/derived/phaseLimitStabilization
+  sources/derived/radialActuationDiskSource
   sources/derived/rotorDiskSource
-  sources/derived/rotorDiskSource/profileModel
-  sources/derived/rotorDiskSource/profileModel/series
-  sources/derived/rotorDiskSource/profileModel/lookup
   sources/derived/rotorDiskSource/bladeModel
+  sources/derived/rotorDiskSource/profileModel
+  sources/derived/rotorDiskSource/profileModel/lookup
+  sources/derived/rotorDiskSource/profileModel/series
   sources/derived/rotorDiskSource/trimModel/fixed
   sources/derived/rotorDiskSource/trimModel/targetCoeff
   sources/derived/rotorDiskSource/trimModel/trimModel
-  sources/derived/jouleHeatingSource
-  sources/derived/radialActuationDiskSource
+  sources/derived/solidificationMeltingSource
   sources/derived/tabulatedAccelerationSource
   sources/derived/tabulatedAccelerationSource/tabulated6DoFAcceleration
   sources/derived/viscousDissipation
-  sources/derived/buoyancyForce
   sources/general/codedSource
   sources/general/semiImplicitSource
-  sources/interRegion/interRegionHeatTransfer/variableHeatTransfer
-  sources/interRegion/interRegionHeatTransfer/tabulatedNTUHeatTransfer
-  sources/interRegion/interRegionHeatTransfer/constantHeatTransfer
-  sources/interRegion/interRegionHeatTransfer/tabulatedHeatTransfer
-  sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel
   sources/interRegion/interRegionExplicitPorositySource
-  interRegionOption
-  corrections/limitTurbulenceViscosity
-  corrections/limitVelocity
-  corrections/limitTemperature
+  sources/interRegion/interRegionHeatTransfer/constantHeatTransfer
+  sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel
+  sources/interRegion/interRegionHeatTransfer/tabulatedHeatTransfer
+  sources/interRegion/interRegionHeatTransfer/tabulatedNTUHeatTransfer
+  sources/interRegion/interRegionHeatTransfer/variableHeatTransfer
 )
 install(TARGETS fvOptions DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

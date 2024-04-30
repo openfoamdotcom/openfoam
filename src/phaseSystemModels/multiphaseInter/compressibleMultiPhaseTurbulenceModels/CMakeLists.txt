@@ -4,7 +4,7 @@ set(_FILES
 add_library(compressibleMultiPhaseTurbulenceModels ${_FILES})
 target_compile_features(compressibleMultiPhaseTurbulenceModels PUBLIC cxx_std_11)
 target_compile_definitions(compressibleMultiPhaseTurbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(compressibleMultiPhaseTurbulenceModels PUBLIC incompressibleTransportModels compressibleTurbulenceModels incompressibleMultiphaseSystems)
+target_link_libraries(compressibleMultiPhaseTurbulenceModels PUBLIC incompressibleTransportModels compressibleTurbulenceModels)
 target_include_directories(compressibleMultiPhaseTurbulenceModels PUBLIC
   
 )

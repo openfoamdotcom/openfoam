@@ -23,21 +23,21 @@ target_compile_features(ODE PUBLIC cxx_std_11)
 target_compile_definitions(ODE PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(ODE PUBLIC OpenFOAM)
 target_include_directories(ODE PUBLIC
-  ODESystem
-  ODESolvers/Rosenbrock34
-  ODESolvers/rodas23
-  ODESolvers/EulerSI
-  ODESolvers/adaptiveSolver
-  ODESolvers/RKCK45
-  ODESolvers/SIBS
   ODESolvers/Euler
+  ODESolvers/EulerSI
   ODESolvers/ODESolver
-  ODESolvers/Trapezoid
-  ODESolvers/seulex
-  ODESolvers/Rosenbrock12
+  ODESolvers/RKCK45
   ODESolvers/RKDP45
-  ODESolvers/Rosenbrock23
-  ODESolvers/rodas34
   ODESolvers/RKF45
+  ODESolvers/Rosenbrock12
+  ODESolvers/Rosenbrock23
+  ODESolvers/Rosenbrock34
+  ODESolvers/SIBS
+  ODESolvers/Trapezoid
+  ODESolvers/adaptiveSolver
+  ODESolvers/rodas23
+  ODESolvers/rodas34
+  ODESolvers/seulex
+  ODESystem
 )
 install(TARGETS ODE DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

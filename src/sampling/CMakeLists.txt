@@ -73,49 +73,49 @@ target_compile_features(sampling PUBLIC cxx_std_11)
 target_compile_definitions(sampling PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(sampling PUBLIC finiteVolume lagrangian)
 target_include_directories(sampling PUBLIC
-  probes
-  meshToMesh0
-  graphField
-  sampledSet/shortestPath
-  sampledSet/cellCentre
-  sampledSet/sampledSet
-  sampledSet/face
-  sampledSet/array
-  sampledSet/triSurfaceMeshPointSet
-  sampledSet/sampledSets
-  sampledSet/uniform
-  sampledSet/polyLine
-  sampledSet/patchCloud
-  sampledSet/cloud
-  sampledSet/patchEdge
-  sampledSet/midPoint
-  sampledSet/circle
-  sampledSet/abaqus
-  sampledSet/midPointAndFace
-  sampledSet/patchSeed
-  surface/distanceSurface
-  surface/thresholdCellFaces
-  surface/isoSurface
-  surface/cutting
   functions/Function1/Sample
-  sampledSurface/sampledPatchInternalField
-  sampledSurface/sampledMeshedSurface
-  sampledSurface/sampledFaceZone
-  sampledSurface/sampledNone
-  sampledSurface/distanceSurface
-  sampledSurface/sampledCuttingSurface
-  sampledSurface/sampledSurfaces
-  sampledSurface/thresholdCellFaces
-  sampledSurface/isoSurface
-  sampledSurface/sampledPlane
-  sampledSurface/sampledSurface
-  sampledSurface/sampledPatch
-  sampledSurface/sampledCuttingPlane
+  graphField
   meshToMesh
+  meshToMesh/calcMethod/cellVolumeWeight
+  meshToMesh/calcMethod/correctedCellVolumeWeight
   meshToMesh/calcMethod/direct
   meshToMesh/calcMethod/mapNearest
-  meshToMesh/calcMethod/cellVolumeWeight
   meshToMesh/calcMethod/meshToMeshMethod
-  meshToMesh/calcMethod/correctedCellVolumeWeight
+  meshToMesh0
+  probes
+  sampledSet/abaqus
+  sampledSet/array
+  sampledSet/cellCentre
+  sampledSet/circle
+  sampledSet/cloud
+  sampledSet/face
+  sampledSet/midPoint
+  sampledSet/midPointAndFace
+  sampledSet/patchCloud
+  sampledSet/patchEdge
+  sampledSet/patchSeed
+  sampledSet/polyLine
+  sampledSet/sampledSet
+  sampledSet/sampledSets
+  sampledSet/shortestPath
+  sampledSet/triSurfaceMeshPointSet
+  sampledSet/uniform
+  sampledSurface/distanceSurface
+  sampledSurface/isoSurface
+  sampledSurface/sampledCuttingPlane
+  sampledSurface/sampledCuttingSurface
+  sampledSurface/sampledFaceZone
+  sampledSurface/sampledMeshedSurface
+  sampledSurface/sampledNone
+  sampledSurface/sampledPatch
+  sampledSurface/sampledPatchInternalField
+  sampledSurface/sampledPlane
+  sampledSurface/sampledSurface
+  sampledSurface/sampledSurfaces
+  sampledSurface/thresholdCellFaces
+  surface/cutting
+  surface/distanceSurface
+  surface/isoSurface
+  surface/thresholdCellFaces
 )
 install(TARGETS sampling DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

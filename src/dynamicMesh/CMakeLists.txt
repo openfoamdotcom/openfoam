@@ -112,70 +112,70 @@ target_compile_features(dynamicMesh PUBLIC cxx_std_11)
 target_compile_definitions(dynamicMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(dynamicMesh PUBLIC finiteVolume meshTools extrudeModel)
 target_include_directories(dynamicMesh PUBLIC
-  boundaryMesh
-  fvMeshSubset
   attachDetach
+  boundaryMesh
+  boundaryPatch
+  createShellMesh
+  extrudePatchMesh
+  fvMeshAdder
+  fvMeshDistribute
+  fvMeshSubset
+  layerAdditionRemoval
+  meshCut/cellCuts
+  meshCut/cellLooper
+  meshCut/directions
+  meshCut/directions/directionInfo
+  meshCut/edgeVertex
+  meshCut/meshModifiers/boundaryCutter
+  meshCut/meshModifiers/meshCutAndRemove
+  meshCut/meshModifiers/meshCutter
+  meshCut/meshModifiers/multiDirRefinement
+  meshCut/meshModifiers/refinementIterator
+  meshCut/meshModifiers/undoableMeshCutter
+  meshCut/refineCell
+  meshCut/splitCell
+  meshCut/wallLayerCells
+  meshCut/wallLayerCells/wallNormalInfo
   motionSmoother
   motionSmoother/badQualityToCell
   motionSmoother/badQualityToFace
   motionSmoother/polyMeshGeometry
-  motionSolvers/componentVelocity
-  motionSolvers/motionSolver
   motionSolvers/componentDisplacement
+  motionSolvers/componentVelocity
+  motionSolvers/displacement/codedPoints0
+  motionSolvers/displacement/displacement
+  motionSolvers/displacement/interpolation
+  motionSolvers/displacement/layeredSolver
+  motionSolvers/displacement/points0
   motionSolvers/displacement/solidBody
   motionSolvers/displacement/solidBody/pointPatchFields/derived/solidBodyMotionDisplacement
   motionSolvers/displacement/solidBody/solidBodyMotionFunctions/SDA
-  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/oscillatingRotatingMotion
-  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/oscillatingLinearMotion
-  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/multiMotion
   motionSolvers/displacement/solidBody/solidBodyMotionFunctions/axisRotationMotion
+  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/drivenLinearMotion
+  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/linearMotion
+  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/multiMotion
+  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/oscillatingLinearMotion
+  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/oscillatingRotatingMotion
   motionSolvers/displacement/solidBody/solidBodyMotionFunctions/rotatingMotion
   motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction
-  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/drivenLinearMotion
   motionSolvers/displacement/solidBody/solidBodyMotionFunctions/tabulated6DoFMotion
-  motionSolvers/displacement/solidBody/solidBodyMotionFunctions/linearMotion
-  motionSolvers/displacement/layeredSolver
-  motionSolvers/displacement/displacement
-  motionSolvers/displacement/points0
-  motionSolvers/displacement/codedPoints0
-  motionSolvers/displacement/interpolation
+  motionSolvers/motionSolver
   motionSolvers/velocity
   motionSolvers/velocity/velocityDisplacement
-  slidingInterface
-  slidingInterface/enrichedPatch
-  createShellMesh
-  polyMeshAdder
-  pointPatchDist
-  extrudePatchMesh
   perfectInterface
-  meshCut/directions
-  meshCut/directions/directionInfo
-  meshCut/cellLooper
-  meshCut/meshModifiers/boundaryCutter
-  meshCut/meshModifiers/multiDirRefinement
-  meshCut/meshModifiers/refinementIterator
-  meshCut/meshModifiers/undoableMeshCutter
-  meshCut/meshModifiers/meshCutter
-  meshCut/meshModifiers/meshCutAndRemove
-  meshCut/splitCell
-  meshCut/cellCuts
-  meshCut/wallLayerCells
-  meshCut/wallLayerCells/wallNormalInfo
-  meshCut/edgeVertex
-  meshCut/refineCell
-  layerAdditionRemoval
-  boundaryPatch
-  fvMeshDistribute
+  pointPatchDist
+  polyMeshAdder
   polyMeshFilter
-  setUpdater
   polyTopoChange/attachPolyTopoChanger
   polyTopoChange/polyMeshModifier
+  polyTopoChange/polyTopoChange
+  polyTopoChange/polyTopoChange/hexRef8
+  polyTopoChange/polyTopoChange/pointEdgeCollapse
   polyTopoChange/polyTopoChanger
   polyTopoChange/repatchPolyTopoChanger
-  polyTopoChange/polyTopoChange
-  polyTopoChange/polyTopoChange/pointEdgeCollapse
-  polyTopoChange/polyTopoChange/hexRef8
-  fvMeshAdder
+  setUpdater
+  slidingInterface
+  slidingInterface/enrichedPatch
   zoneSubSet
 )
 install(TARGETS dynamicMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

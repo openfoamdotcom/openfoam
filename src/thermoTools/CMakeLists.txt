@@ -23,23 +23,23 @@ target_compile_features(thermoTools PUBLIC cxx_std_11)
 target_compile_definitions(thermoTools PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(thermoTools PUBLIC incompressibleMultiphaseSystems)
 target_include_directories(thermoTools PUBLIC
+  derivedFvPatchFields/convectiveHeatTransfer
   derivedFvPatchFields/externalWallHeatFluxTemperature
-  derivedFvPatchFields/totalFlowRateAdvectiveDiffusive
-  derivedFvPatchFields/thermalBaffle1D
+  derivedFvPatchFields/fixedIncidentRadiation
   derivedFvPatchFields/humidityTemperatureCoupledMixed
-  derivedFvPatchFields/wallHeatTransfer
-  derivedFvPatchFields/semiPermeableBaffle/semiPermeableBaffleMassFraction
-  derivedFvPatchFields/semiPermeableBaffle/semiPermeableBaffleVelocity
-  derivedFvPatchFields/turbulentTemperatureRadCoupledMixed
-  derivedFvPatchFields/temperatureCoupledBase
   derivedFvPatchFields/lumpedMassWallTemperature
   derivedFvPatchFields/outletMachNumberPressure
   derivedFvPatchFields/outletMappedUniformInletHeatAddition
-  derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatWallFunction
-  derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction
-  derivedFvPatchFields/wallFunctions/sorptionWallFunction
-  derivedFvPatchFields/convectiveHeatTransfer
+  derivedFvPatchFields/semiPermeableBaffle/semiPermeableBaffleMassFraction
+  derivedFvPatchFields/semiPermeableBaffle/semiPermeableBaffleVelocity
+  derivedFvPatchFields/temperatureCoupledBase
+  derivedFvPatchFields/thermalBaffle1D
+  derivedFvPatchFields/totalFlowRateAdvectiveDiffusive
   derivedFvPatchFields/turbulentTemperatureCoupledBaffleMixed
-  derivedFvPatchFields/fixedIncidentRadiation
+  derivedFvPatchFields/turbulentTemperatureRadCoupledMixed
+  derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction
+  derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatWallFunction
+  derivedFvPatchFields/wallFunctions/sorptionWallFunction
+  derivedFvPatchFields/wallHeatTransfer
 )
 install(TARGETS thermoTools DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

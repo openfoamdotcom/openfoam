@@ -61,52 +61,52 @@ target_compile_definitions(radiationModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE}
 target_link_libraries(radiationModels PUBLIC solidThermo SLGThermo thermophysicalProperties distributed)
 target_include_directories(radiationModels PUBLIC
   include
-  fvOptions/radiation
-  derivedFvPatchFields/specularRadiation
-  derivedFvPatchFields/MarshakRadiationFixedTemperature
-  derivedFvPatchFields/wideBandDiffusiveRadiation
   derivedFvPatchFields/MarshakRadiation
-  derivedFvPatchFields/greyDiffusiveViewFactor
+  derivedFvPatchFields/MarshakRadiationFixedTemperature
   derivedFvPatchFields/greyDiffusiveRadiation
-  submodels/scatterModel/scatterModel
-  submodels/scatterModel/noScatter
-  submodels/scatterModel/constantScatter
-  submodels/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel
-  submodels/wallAbsorptionEmissionModel/multiBandAbsorption
-  submodels/wallAbsorptionEmissionModel/constantAbsorption
-  submodels/wallAbsorptionEmissionModel/solidAbsorption
-  submodels/solarCalculator
-  submodels/sootModel/sootModel
-  submodels/sootModel/mixtureFractionSoot
-  submodels/sootModel/noSoot
-  submodels/boundaryRadiationProperties
-  submodels/boundaryRadiationProperties/opaqueReflective
-  submodels/boundaryRadiationProperties/transparent
-  submodels/boundaryRadiationProperties/opaqueDiffusive
-  submodels/boundaryRadiationProperties/lookup
-  submodels/absorptionEmissionModel/multiBandAbsorptionEmission
-  submodels/absorptionEmissionModel/wideBandAbsorptionEmission
+  derivedFvPatchFields/greyDiffusiveViewFactor
+  derivedFvPatchFields/specularRadiation
+  derivedFvPatchFields/wideBandDiffusiveRadiation
+  fvOptions/radiation
+  radiationModels/P1
+  radiationModels/fvDOM/absorptionCoeffs
+  radiationModels/fvDOM/blackBodyEmission
+  radiationModels/fvDOM/fvDOM
+  radiationModels/fvDOM/radiativeIntensityRay
+  radiationModels/noRadiation
+  radiationModels/opaqueSolid
+  radiationModels/radiationModel
+  radiationModels/solarLoad
+  radiationModels/solarLoad/faceReflecting
+  radiationModels/solarLoad/faceShading
+  radiationModels/viewFactor
+  submodels/absorptionEmissionModel/absorptionEmissionModel
+  submodels/absorptionEmissionModel/binaryAbsorptionEmission
   submodels/absorptionEmissionModel/constantAbsorptionEmission
   submodels/absorptionEmissionModel/greyMeanAbsorptionEmission
-  submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission
   submodels/absorptionEmissionModel/greyMeanSolidAbsorptionEmission
-  submodels/absorptionEmissionModel/binaryAbsorptionEmission
-  submodels/absorptionEmissionModel/absorptionEmissionModel
+  submodels/absorptionEmissionModel/multiBandAbsorptionEmission
+  submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission
   submodels/absorptionEmissionModel/noAbsorptionEmission
+  submodels/absorptionEmissionModel/wideBandAbsorptionEmission
+  submodels/boundaryRadiationProperties
+  submodels/boundaryRadiationProperties/lookup
+  submodels/boundaryRadiationProperties/opaqueDiffusive
+  submodels/boundaryRadiationProperties/opaqueReflective
+  submodels/boundaryRadiationProperties/transparent
+  submodels/scatterModel/constantScatter
+  submodels/scatterModel/noScatter
+  submodels/scatterModel/scatterModel
+  submodels/solarCalculator
+  submodels/sootModel/mixtureFractionSoot
+  submodels/sootModel/noSoot
+  submodels/sootModel/sootModel
+  submodels/wallAbsorptionEmissionModel/constantAbsorption
+  submodels/wallAbsorptionEmissionModel/multiBandAbsorption
+  submodels/wallAbsorptionEmissionModel/solidAbsorption
+  submodels/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel
   submodels/wallTransmissivityModel/constantTransmissivity
   submodels/wallTransmissivityModel/multiBandTransmissivity
   submodels/wallTransmissivityModel/wallTransmissivityModel
-  radiationModels/viewFactor
-  radiationModels/opaqueSolid
-  radiationModels/solarLoad
-  radiationModels/solarLoad/faceShading
-  radiationModels/solarLoad/faceReflecting
-  radiationModels/fvDOM/radiativeIntensityRay
-  radiationModels/fvDOM/blackBodyEmission
-  radiationModels/fvDOM/fvDOM
-  radiationModels/fvDOM/absorptionCoeffs
-  radiationModels/noRadiation
-  radiationModels/radiationModel
-  radiationModels/P1
 )
 install(TARGETS radiationModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

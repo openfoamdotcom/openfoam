@@ -9,7 +9,7 @@ target_compile_definitions(multiphaseInterFoam PUBLIC WM_LABEL_SIZE=${WM_LABEL_S
 target_link_libraries(multiphaseInterFoam PUBLIC interfaceProperties incompressibleTransportModels finiteVolume meshTools)
 target_include_directories(multiphaseInterFoam PUBLIC
   .
-  phase
   alphaContactAngle
+  phase
 )
 install(TARGETS multiphaseInterFoam DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

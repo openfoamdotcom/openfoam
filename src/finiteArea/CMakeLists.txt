@@ -115,105 +115,105 @@ target_compile_definitions(finiteArea PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_$
 target_link_libraries(finiteArea PUBLIC meshTools)
 target_include_directories(finiteArea PUBLIC
   include
+  areaMesh
+  distributed
+  edgeMesh
+  faMatrices
+  faMatrices/faMatrix
+  faMatrices/faScalarMatrix
   faMesh
-  faMesh/faGlobalMeshData
-  faMesh/faMeshSubset
   faMesh/faBoundaryMesh
-  faMesh/faMeshTools
+  faMesh/faGlobalMeshData
   faMesh/faMeshMapper
-  faMesh/faPatches/other/ignore
+  faMesh/faMeshSubset
+  faMesh/faMeshTools
   faMesh/faPatches/basic/coupled
-  faMesh/faPatches/faPatch
   faMesh/faPatches/constraint/cyclic
   faMesh/faPatches/constraint/empty
   faMesh/faPatches/constraint/processor
   faMesh/faPatches/constraint/symmetry
   faMesh/faPatches/constraint/wedge
-  distributed
-  finiteArea/ddtSchemes/backwardFaDdtScheme
-  finiteArea/ddtSchemes/boundedBackwardFaDdtScheme
-  finiteArea/ddtSchemes/faDdtScheme
-  finiteArea/ddtSchemes/steadyStateFaDdtScheme
-  finiteArea/ddtSchemes/EulerFaDdtScheme
-  finiteArea/lnGradSchemes/fourthLnGrad
-  finiteArea/lnGradSchemes/limitedLnGrad
-  finiteArea/lnGradSchemes/lnGradScheme
-  finiteArea/lnGradSchemes/uncorrectedLnGrad
-  finiteArea/lnGradSchemes/correctedLnGrad
-  finiteArea/convectionSchemes/gaussFaConvectionScheme
-  finiteArea/convectionSchemes/faConvectionScheme
-  finiteArea/fac
-  finiteArea/fam
-  finiteArea/laplacianSchemes/faLaplacianScheme
-  finiteArea/laplacianSchemes/gaussFaLaplacianScheme
-  finiteArea/faSchemes
-  finiteArea/gradSchemes/limitedGradSchemes/faceLimitedFaGrad
-  finiteArea/gradSchemes/limitedGradSchemes/edgeLimitedFaGrad
-  finiteArea/gradSchemes/gaussFaGrad
-  finiteArea/gradSchemes/faGradScheme
-  finiteArea/gradSchemes/leastSquaresFaGrad
-  finiteArea/d2dt2Schemes/EulerFaD2dt2Scheme
-  finiteArea/d2dt2Schemes/faD2dt2Scheme
-  finiteArea/fa
-  finiteArea/divSchemes/gaussFaDivScheme
-  finiteArea/divSchemes/faDivScheme
-  areaMesh
-  output/ensight
-  edgeMesh
+  faMesh/faPatches/faPatch
+  faMesh/faPatches/other/ignore
   faSolution
-  fields/faePatchFields/basic/calculated
-  fields/faePatchFields/basic/coupled
-  fields/faePatchFields/basic/sliced
-  fields/faePatchFields/basic/fixedValue
-  fields/faePatchFields/faePatchField
-  fields/faePatchFields/constraint/cyclic
-  fields/faePatchFields/constraint/empty
-  fields/faePatchFields/constraint/processor
-  fields/faePatchFields/constraint/symmetry
-  fields/faePatchFields/constraint/wedge
   fields/areaFields
-  fields/faPatchFields/derived/inletOutlet
-  fields/faPatchFields/derived/uniformMixed
-  fields/faPatchFields/derived/uniformFixedGradient
-  fields/faPatchFields/derived/ignore
-  fields/faPatchFields/derived/edgeNormalFixedValue
-  fields/faPatchFields/derived/uniformFixedValue
-  fields/faPatchFields/derived/fixedValueOutflow
-  fields/faPatchFields/derived/clampedPlate
-  fields/faPatchFields/derived/slip
-  fields/faPatchFields/derived/timeVaryingUniformFixedValue
-  fields/faPatchFields/derived/outletInlet
+  fields/edgeFields
   fields/faPatchFields/basic/basicSymmetry
-  fields/faPatchFields/basic/fixedGradient
-  fields/faPatchFields/basic/mixed
-  fields/faPatchFields/basic/extrapolatedCalculated
-  fields/faPatchFields/basic/zeroGradient
   fields/faPatchFields/basic/calculated
   fields/faPatchFields/basic/coupled
+  fields/faPatchFields/basic/extrapolatedCalculated
+  fields/faPatchFields/basic/fixedGradient
+  fields/faPatchFields/basic/fixedValue
+  fields/faPatchFields/basic/mixed
   fields/faPatchFields/basic/sliced
   fields/faPatchFields/basic/transform
-  fields/faPatchFields/basic/fixedValue
-  fields/faPatchFields/faPatchField
+  fields/faPatchFields/basic/zeroGradient
   fields/faPatchFields/constraint/cyclic
   fields/faPatchFields/constraint/empty
   fields/faPatchFields/constraint/processor
   fields/faPatchFields/constraint/symmetry
   fields/faPatchFields/constraint/wedge
-  fields/edgeFields
-  interpolation/mapping/faFieldMappers
+  fields/faPatchFields/derived/clampedPlate
+  fields/faPatchFields/derived/edgeNormalFixedValue
+  fields/faPatchFields/derived/fixedValueOutflow
+  fields/faPatchFields/derived/ignore
+  fields/faPatchFields/derived/inletOutlet
+  fields/faPatchFields/derived/outletInlet
+  fields/faPatchFields/derived/slip
+  fields/faPatchFields/derived/timeVaryingUniformFixedValue
+  fields/faPatchFields/derived/uniformFixedGradient
+  fields/faPatchFields/derived/uniformFixedValue
+  fields/faPatchFields/derived/uniformMixed
+  fields/faPatchFields/faPatchField
+  fields/faePatchFields/basic/calculated
+  fields/faePatchFields/basic/coupled
+  fields/faePatchFields/basic/fixedValue
+  fields/faePatchFields/basic/sliced
+  fields/faePatchFields/constraint/cyclic
+  fields/faePatchFields/constraint/empty
+  fields/faePatchFields/constraint/processor
+  fields/faePatchFields/constraint/symmetry
+  fields/faePatchFields/constraint/wedge
+  fields/faePatchFields/faePatchField
+  finiteArea/convectionSchemes/faConvectionScheme
+  finiteArea/convectionSchemes/gaussFaConvectionScheme
+  finiteArea/d2dt2Schemes/EulerFaD2dt2Scheme
+  finiteArea/d2dt2Schemes/faD2dt2Scheme
+  finiteArea/ddtSchemes/EulerFaDdtScheme
+  finiteArea/ddtSchemes/backwardFaDdtScheme
+  finiteArea/ddtSchemes/boundedBackwardFaDdtScheme
+  finiteArea/ddtSchemes/faDdtScheme
+  finiteArea/ddtSchemes/steadyStateFaDdtScheme
+  finiteArea/divSchemes/faDivScheme
+  finiteArea/divSchemes/gaussFaDivScheme
+  finiteArea/fa
+  finiteArea/faSchemes
+  finiteArea/fac
+  finiteArea/fam
+  finiteArea/gradSchemes/faGradScheme
+  finiteArea/gradSchemes/gaussFaGrad
+  finiteArea/gradSchemes/leastSquaresFaGrad
+  finiteArea/gradSchemes/limitedGradSchemes/edgeLimitedFaGrad
+  finiteArea/gradSchemes/limitedGradSchemes/faceLimitedFaGrad
+  finiteArea/laplacianSchemes/faLaplacianScheme
+  finiteArea/laplacianSchemes/gaussFaLaplacianScheme
+  finiteArea/lnGradSchemes/correctedLnGrad
+  finiteArea/lnGradSchemes/fourthLnGrad
+  finiteArea/lnGradSchemes/limitedLnGrad
+  finiteArea/lnGradSchemes/lnGradScheme
+  finiteArea/lnGradSchemes/uncorrectedLnGrad
   interpolation/edgeInterpolation
-  interpolation/edgeInterpolation/schemes/upwind
-  interpolation/edgeInterpolation/schemes/Gamma
-  interpolation/edgeInterpolation/schemes/linear
-  interpolation/edgeInterpolation/schemes/leastSquares
-  interpolation/edgeInterpolation/schemes/blended
-  interpolation/edgeInterpolation/schemes/skewCorrected
-  interpolation/edgeInterpolation/schemes/linearUpwind
-  interpolation/edgeInterpolation/schemes/NVDscheme
   interpolation/edgeInterpolation/edgeInterpolationScheme
+  interpolation/edgeInterpolation/schemes/Gamma
+  interpolation/edgeInterpolation/schemes/NVDscheme
+  interpolation/edgeInterpolation/schemes/blended
+  interpolation/edgeInterpolation/schemes/leastSquares
+  interpolation/edgeInterpolation/schemes/linear
+  interpolation/edgeInterpolation/schemes/linearUpwind
+  interpolation/edgeInterpolation/schemes/skewCorrected
+  interpolation/edgeInterpolation/schemes/upwind
+  interpolation/mapping/faFieldMappers
   interpolation/volSurfaceMapping
-  faMatrices
-  faMatrices/faMatrix
-  faMatrices/faScalarMatrix
+  output/ensight
 )
 install(TARGETS finiteArea DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -10,9 +10,9 @@ target_compile_features(driftFluxTransportModels PUBLIC cxx_std_11)
 target_compile_definitions(driftFluxTransportModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(driftFluxTransportModels PUBLIC incompressibleTransportModels finiteVolume)
 target_include_directories(driftFluxTransportModels PUBLIC
-  slurry
-  plastic
   BinghamPlastic
   mixtureViscosityModel
+  plastic
+  slurry
 )
 install(TARGETS driftFluxTransportModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

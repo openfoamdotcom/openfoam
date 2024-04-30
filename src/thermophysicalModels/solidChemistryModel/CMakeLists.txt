@@ -11,8 +11,8 @@ target_link_libraries(solidChemistryModel PUBLIC chemistryModel solidThermo reac
 target_include_directories(solidChemistryModel PUBLIC
   .
   basicSolidChemistryModel
-  solidChemistrySolver
-  solidChemistryModel
   pyrolysisChemistryModel
+  solidChemistryModel
+  solidChemistrySolver
 )
 install(TARGETS solidChemistryModel DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -58,58 +58,58 @@ target_compile_features(thermophysicalProperties PUBLIC cxx_std_11)
 target_compile_definitions(thermophysicalProperties PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(thermophysicalProperties PUBLIC specie)
 target_include_directories(thermophysicalProperties PUBLIC
-  solidProperties/solidProperties
-  solidProperties/solidMixtureProperties
+  liquidProperties/Ar
+  liquidProperties/C10H22
+  liquidProperties/C12H26
+  liquidProperties/C13H28
+  liquidProperties/C14H30
+  liquidProperties/C16H34
+  liquidProperties/C2H5OH
+  liquidProperties/C2H6
+  liquidProperties/C2H6O
+  liquidProperties/C3H6O
+  liquidProperties/C3H8
+  liquidProperties/C4H10O
+  liquidProperties/C6H14
+  liquidProperties/C6H6
+  liquidProperties/C7H16
+  liquidProperties/C7H8
+  liquidProperties/C8H10
+  liquidProperties/C8H18
+  liquidProperties/C9H20
+  liquidProperties/CH3OH
+  liquidProperties/CH4N2O
+  liquidProperties/H2O
+  liquidProperties/IC8H18
+  liquidProperties/IDEA
+  liquidProperties/MB
+  liquidProperties/N2
+  liquidProperties/aC10H7CH3
+  liquidProperties/bC10H7CH3
+  liquidProperties/iC3H8O
+  liquidProperties/liquid
+  liquidProperties/liquidMixtureProperties
+  liquidProperties/liquidProperties
+  liquidProperties/nC3H8O
+  solidProperties/C
   solidProperties/CaCO3
   solidProperties/ash
-  solidProperties/C
-  thermophysicalFunctions/thermophysicalFunction
-  thermophysicalFunctions/nonUniformTable
-  thermophysicalFunctions/integratedNonUniformTable
-  thermophysicalFunctions/NSRDSfunctions/NSRDSfunc5
+  solidProperties/solidMixtureProperties
+  solidProperties/solidProperties
+  thermophysicalFunctions/APIfunctions/APIdiffCoefFunc
+  thermophysicalFunctions/NSRDSfunctions/NSRDSfunc0
+  thermophysicalFunctions/NSRDSfunctions/NSRDSfunc1
+  thermophysicalFunctions/NSRDSfunctions/NSRDSfunc14
   thermophysicalFunctions/NSRDSfunctions/NSRDSfunc2
   thermophysicalFunctions/NSRDSfunctions/NSRDSfunc3
   thermophysicalFunctions/NSRDSfunctions/NSRDSfunc4
-  thermophysicalFunctions/NSRDSfunctions/NSRDSfunc1
+  thermophysicalFunctions/NSRDSfunctions/NSRDSfunc5
   thermophysicalFunctions/NSRDSfunctions/NSRDSfunc6
   thermophysicalFunctions/NSRDSfunctions/NSRDSfunc7
-  thermophysicalFunctions/NSRDSfunctions/NSRDSfunc0
-  thermophysicalFunctions/NSRDSfunctions/NSRDSfunc14
-  thermophysicalFunctions/APIfunctions/APIdiffCoefFunc
-  thermophysicalPropertiesSelector
+  thermophysicalFunctions/integratedNonUniformTable
+  thermophysicalFunctions/nonUniformTable
+  thermophysicalFunctions/thermophysicalFunction
   thermophysicalProperties
-  liquidProperties/H2O
-  liquidProperties/C6H6
-  liquidProperties/CH4N2O
-  liquidProperties/C2H6
-  liquidProperties/bC10H7CH3
-  liquidProperties/C6H14
-  liquidProperties/CH3OH
-  liquidProperties/liquid
-  liquidProperties/liquidMixtureProperties
-  liquidProperties/aC10H7CH3
-  liquidProperties/IC8H18
-  liquidProperties/C14H30
-  liquidProperties/nC3H8O
-  liquidProperties/C7H16
-  liquidProperties/C13H28
-  liquidProperties/IDEA
-  liquidProperties/MB
-  liquidProperties/C12H26
-  liquidProperties/Ar
-  liquidProperties/C4H10O
-  liquidProperties/N2
-  liquidProperties/C9H20
-  liquidProperties/C7H8
-  liquidProperties/C16H34
-  liquidProperties/C3H8
-  liquidProperties/C2H5OH
-  liquidProperties/C2H6O
-  liquidProperties/iC3H8O
-  liquidProperties/C8H10
-  liquidProperties/C3H6O
-  liquidProperties/liquidProperties
-  liquidProperties/C8H18
-  liquidProperties/C10H22
+  thermophysicalPropertiesSelector
 )
 install(TARGETS thermophysicalProperties DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -66,185 +66,184 @@ target_compile_definitions(lagrangianIntermediate PUBLIC WM_LABEL_SIZE=${WM_LABE
 target_link_libraries(lagrangianIntermediate PUBLIC surfaceFilmModels dynamicFvMesh regionFaModels finiteArea)
 target_include_directories(lagrangianIntermediate PUBLIC
   include
-  integrationScheme/integrationScheme
-  integrationScheme/analytical
+  clouds/Templates/CollidingCloud
+  clouds/Templates/KinematicCloud
+  clouds/Templates/KinematicCloud/cloudSolution
+  clouds/Templates/MPPICCloud
+  clouds/Templates/ReactingCloud
+  clouds/Templates/ReactingHeterogeneousCloud
+  clouds/Templates/ReactingMultiphaseCloud
+  clouds/Templates/ThermoCloud
+  clouds/baseClasses/kinematicCloud
+  clouds/baseClasses/reactingCloud
+  clouds/baseClasses/reactingHeterogeneousCloud
+  clouds/baseClasses/reactingMultiphaseCloud
+  clouds/baseClasses/thermoCloud
+  clouds/derived/basicHeterogeneousReactingCloud
+  clouds/derived/basicKinematicCloud
+  clouds/derived/basicKinematicCollidingCloud
+  clouds/derived/basicKinematicMPPICCloud
+  clouds/derived/basicReactingCloud
+  clouds/derived/basicReactingMultiphaseCloud
+  clouds/derived/basicThermoCloud
+  conversion/ensight
+  conversion/vtk
   integrationScheme/Euler
-  parcels/derived/basicThermoParcel
-  parcels/derived/basicKinematicCollidingParcel
-  parcels/derived/basicReactingParcel
-  parcels/derived/basicHeterogeneousReactingParcel
-  parcels/derived/basicKinematicMPPICParcel
-  parcels/derived/basicKinematicParcel
-  parcels/derived/basicReactingMultiphaseParcel
-  parcels/include
-  parcels/Templates/KinematicParcel
-  parcels/Templates/ThermoParcel
+  integrationScheme/analytical
+  integrationScheme/integrationScheme
   parcels/Templates/CollidingParcel
   parcels/Templates/CollidingParcel/CollisionRecordList
-  parcels/Templates/CollidingParcel/CollisionRecordList/WallCollisionRecord
   parcels/Templates/CollidingParcel/CollisionRecordList/PairCollisionRecord
-  parcels/Templates/ReactingParcel
+  parcels/Templates/CollidingParcel/CollisionRecordList/WallCollisionRecord
+  parcels/Templates/KinematicParcel
   parcels/Templates/MPPICParcel
   parcels/Templates/ReactingHeterogeneousParcel
   parcels/Templates/ReactingMultiphaseParcel
+  parcels/Templates/ReactingParcel
+  parcels/Templates/ThermoParcel
+  parcels/derived/basicHeterogeneousReactingParcel
+  parcels/derived/basicKinematicCollidingParcel
+  parcels/derived/basicKinematicMPPICParcel
+  parcels/derived/basicKinematicParcel
+  parcels/derived/basicReactingMultiphaseParcel
+  parcels/derived/basicReactingParcel
+  parcels/derived/basicThermoParcel
+  parcels/include
+  phaseProperties/phaseProperties
+  phaseProperties/phasePropertiesList
   submodels
-  submodels/addOns/radiation/absorptionEmission/cloudAbsorptionEmission
-  submodels/addOns/radiation/scatter/cloudScatter
-  submodels/CloudFunctionObjects/ThermoReynoldsNumber
-  submodels/CloudFunctionObjects/VoidFraction
-  submodels/CloudFunctionObjects/KinematicReynoldsNumber
-  submodels/CloudFunctionObjects/HeatTransferCoeff
-  submodels/CloudFunctionObjects/ParticlePostProcessing
-  submodels/CloudFunctionObjects/FaceInteraction
-  submodels/CloudFunctionObjects/ParticleHistogram
+  submodels/CloudFunctionObjects/CloudFunctionObject
   submodels/CloudFunctionObjects/CloudFunctionObjectList
-  submodels/CloudFunctionObjects/KinematicWeberNumber
-  submodels/CloudFunctionObjects/RemoveParcels
-  submodels/CloudFunctionObjects/PatchCollisionDensity
-  submodels/CloudFunctionObjects/ParticleTracks
-  submodels/CloudFunctionObjects/ReactingWeberNumber
-  submodels/CloudFunctionObjects/PatchInteractionFields
+  submodels/CloudFunctionObjects/FaceInteraction
   submodels/CloudFunctionObjects/FacePostProcessing
+  submodels/CloudFunctionObjects/HeatTransferCoeff
+  submodels/CloudFunctionObjects/KinematicReynoldsNumber
+  submodels/CloudFunctionObjects/KinematicWeberNumber
+  submodels/CloudFunctionObjects/NusseltNumber
+  submodels/CloudFunctionObjects/ParticleCollector
   submodels/CloudFunctionObjects/ParticleDose
   submodels/CloudFunctionObjects/ParticleErosion
-  submodels/CloudFunctionObjects/ParticleCollector
-  submodels/CloudFunctionObjects/NusseltNumber
+  submodels/CloudFunctionObjects/ParticleHistogram
+  submodels/CloudFunctionObjects/ParticlePostProcessing
+  submodels/CloudFunctionObjects/ParticleTracks
   submodels/CloudFunctionObjects/ParticleTrap
   submodels/CloudFunctionObjects/ParticleZoneInfo
-  submodels/CloudFunctionObjects/CloudFunctionObject
+  submodels/CloudFunctionObjects/PatchCollisionDensity
+  submodels/CloudFunctionObjects/PatchInteractionFields
+  submodels/CloudFunctionObjects/ReactingWeberNumber
+  submodels/CloudFunctionObjects/RemoveParcels
+  submodels/CloudFunctionObjects/ThermoReynoldsNumber
+  submodels/CloudFunctionObjects/VoidFraction
   submodels/ForceTypes/ParticleForceList
-  submodels/MPPIC/ParticleStressModels/ParticleStressModel
-  submodels/MPPIC/ParticleStressModels/exponential
-  submodels/MPPIC/ParticleStressModels/Lun
-  submodels/MPPIC/ParticleStressModels/HarrisCrighton
-  submodels/MPPIC/CorrectionLimitingMethods/noCorrectionLimiting
-  submodels/MPPIC/CorrectionLimitingMethods/relative
-  submodels/MPPIC/CorrectionLimitingMethods/CorrectionLimitingMethod
-  submodels/MPPIC/CorrectionLimitingMethods/absolute
-  submodels/MPPIC/TimeScaleModels/nonEquilibrium
-  submodels/MPPIC/TimeScaleModels/isotropic
-  submodels/MPPIC/TimeScaleModels/TimeScaleModel
-  submodels/MPPIC/TimeScaleModels/equilibrium
-  submodels/MPPIC/PackingModels/Explicit
-  submodels/MPPIC/PackingModels/NoPacking
-  submodels/MPPIC/PackingModels/Implicit
-  submodels/MPPIC/PackingModels/PackingModel
-  submodels/MPPIC/DampingModels/Relaxation
-  submodels/MPPIC/DampingModels/DampingModel
-  submodels/MPPIC/DampingModels/NoDamping
-  submodels/MPPIC/IsotropyModels/IsotropyModel
-  submodels/MPPIC/IsotropyModels/Stochastic
-  submodels/MPPIC/IsotropyModels/NoIsotropy
-  submodels/MPPIC/AveragingMethods/Moment
-  submodels/MPPIC/AveragingMethods/Basic
-  submodels/MPPIC/AveragingMethods/AveragingMethod
-  submodels/MPPIC/AveragingMethods/Dual
-  submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection
-  submodels/Thermodynamic/HeatTransferModel/RanzMarshall
-  submodels/Thermodynamic/HeatTransferModel/NoHeatTransfer
-  submodels/Thermodynamic/HeatTransferModel/HeatTransferModel
-  submodels/Thermodynamic/SurfaceFilmModel/ThermoSurfaceFilm
-  submodels/HeterogeneousReactingModel/NoheterogeneousReacting
   submodels/HeterogeneousReactingModel/HeterogeneousReactingModel
   submodels/HeterogeneousReactingModel/MUCSheterogeneousRate
-  submodels/Kinematic/InjectionModel/InjectionModel
-  submodels/Kinematic/InjectionModel/InjectedParticleDistributionInjection
-  submodels/Kinematic/InjectionModel/ConeNozzleInjection
-  submodels/Kinematic/InjectionModel/InflationInjection
-  submodels/Kinematic/InjectionModel/PatchInjection
-  submodels/Kinematic/InjectionModel/PatchFlowRateInjection
-  submodels/Kinematic/InjectionModel/CellZoneInjection
-  submodels/Kinematic/InjectionModel/ConeInjection
-  submodels/Kinematic/InjectionModel/NoInjection
-  submodels/Kinematic/InjectionModel/ManualInjection
-  submodels/Kinematic/InjectionModel/KinematicLookupTableInjection
-  submodels/Kinematic/InjectionModel/FieldActivatedInjection
-  submodels/Kinematic/InjectionModel/InjectedParticleInjection
+  submodels/HeterogeneousReactingModel/NoheterogeneousReacting
   submodels/Kinematic/CollisionModel/CollisionModel
   submodels/Kinematic/CollisionModel/NoCollision
   submodels/Kinematic/CollisionModel/PairCollision
-  submodels/Kinematic/CollisionModel/PairCollision/WallSiteData
-  submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel
-  submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallLocalSpringSliderDashpot
-  submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallSpringSliderDashpot
-  submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairSpringSliderDashpot
   submodels/Kinematic/CollisionModel/PairCollision/PairModel/NoPair
   submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel
-  submodels/Kinematic/ParticleForces/Coulomb
-  submodels/Kinematic/ParticleForces/NonInertialFrame
-  submodels/Kinematic/ParticleForces/Interface
-  submodels/Kinematic/ParticleForces/ParticleForce
-  submodels/Kinematic/ParticleForces/Gravity
-  submodels/Kinematic/ParticleForces/PressureGradient
-  submodels/Kinematic/ParticleForces/SRF
-  submodels/Kinematic/ParticleForces/Drag/WenYuDrag
-  submodels/Kinematic/ParticleForces/Drag/ErgunWenYuDrag
-  submodels/Kinematic/ParticleForces/Drag/SphereDrag
-  submodels/Kinematic/ParticleForces/Drag/DistortedSphereDrag
-  submodels/Kinematic/ParticleForces/Drag/NonSphereDrag
-  submodels/Kinematic/ParticleForces/Drag/PlessisMasliyahDrag
-  submodels/Kinematic/ParticleForces/forceSuSp
-  submodels/Kinematic/ParticleForces/VirtualMass
-  submodels/Kinematic/ParticleForces/Paramagnetic
-  submodels/Kinematic/ParticleForces/Lift/TomiyamaLift
-  submodels/Kinematic/ParticleForces/Lift/LiftForce
-  submodels/Kinematic/ParticleForces/Lift/SaffmanMeiLift
-  submodels/Kinematic/PatchInteractionModel/RecycleInteraction
-  submodels/Kinematic/PatchInteractionModel/NoInteraction
-  submodels/Kinematic/PatchInteractionModel/PatchInteractionModel
-  submodels/Kinematic/PatchInteractionModel/StandardWallInteraction
-  submodels/Kinematic/PatchInteractionModel/MultiInteraction
-  submodels/Kinematic/PatchInteractionModel/LocalInteraction
-  submodels/Kinematic/PatchInteractionModel/Rebound
+  submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairSpringSliderDashpot
+  submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallLocalSpringSliderDashpot
+  submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel
+  submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallSpringSliderDashpot
+  submodels/Kinematic/CollisionModel/PairCollision/WallSiteData
   submodels/Kinematic/DispersionModel/DispersionModel
   submodels/Kinematic/DispersionModel/NoDispersion
+  submodels/Kinematic/InjectionModel/CellZoneInjection
+  submodels/Kinematic/InjectionModel/ConeInjection
+  submodels/Kinematic/InjectionModel/ConeNozzleInjection
+  submodels/Kinematic/InjectionModel/FieldActivatedInjection
+  submodels/Kinematic/InjectionModel/InflationInjection
+  submodels/Kinematic/InjectionModel/InjectedParticleDistributionInjection
+  submodels/Kinematic/InjectionModel/InjectedParticleInjection
+  submodels/Kinematic/InjectionModel/InjectionModel
+  submodels/Kinematic/InjectionModel/KinematicLookupTableInjection
+  submodels/Kinematic/InjectionModel/ManualInjection
+  submodels/Kinematic/InjectionModel/NoInjection
+  submodels/Kinematic/InjectionModel/PatchFlowRateInjection
+  submodels/Kinematic/InjectionModel/PatchInjection
+  submodels/Kinematic/ParticleForces/Coulomb
+  submodels/Kinematic/ParticleForces/Drag/DistortedSphereDrag
+  submodels/Kinematic/ParticleForces/Drag/ErgunWenYuDrag
+  submodels/Kinematic/ParticleForces/Drag/NonSphereDrag
+  submodels/Kinematic/ParticleForces/Drag/PlessisMasliyahDrag
+  submodels/Kinematic/ParticleForces/Drag/SphereDrag
+  submodels/Kinematic/ParticleForces/Drag/WenYuDrag
+  submodels/Kinematic/ParticleForces/Gravity
+  submodels/Kinematic/ParticleForces/Interface
+  submodels/Kinematic/ParticleForces/Lift/LiftForce
+  submodels/Kinematic/ParticleForces/Lift/SaffmanMeiLift
+  submodels/Kinematic/ParticleForces/Lift/TomiyamaLift
+  submodels/Kinematic/ParticleForces/NonInertialFrame
+  submodels/Kinematic/ParticleForces/Paramagnetic
+  submodels/Kinematic/ParticleForces/ParticleForce
+  submodels/Kinematic/ParticleForces/PressureGradient
+  submodels/Kinematic/ParticleForces/SRF
+  submodels/Kinematic/ParticleForces/VirtualMass
+  submodels/Kinematic/ParticleForces/forceSuSp
+  submodels/Kinematic/PatchInteractionModel/LocalInteraction
+  submodels/Kinematic/PatchInteractionModel/MultiInteraction
+  submodels/Kinematic/PatchInteractionModel/NoInteraction
+  submodels/Kinematic/PatchInteractionModel/PatchInteractionModel
+  submodels/Kinematic/PatchInteractionModel/Rebound
+  submodels/Kinematic/PatchInteractionModel/RecycleInteraction
+  submodels/Kinematic/PatchInteractionModel/StandardWallInteraction
   submodels/Kinematic/StochasticCollision/NoStochasticCollision
   submodels/Kinematic/StochasticCollision/StochasticCollisionModel
   submodels/Kinematic/SurfaceFilmModel/KinematicSurfaceFilm
   submodels/Kinematic/SurfaceFilmModel/NoSurfaceFilm
   submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel
-  submodels/ReactingMultiphase/InjectionModel/ReactingMultiphaseLookupTableInjection
-  submodels/ReactingMultiphase/SurfaceReactionModel/NoSurfaceReaction
-  submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel
+  submodels/MPPIC/AveragingMethods/AveragingMethod
+  submodels/MPPIC/AveragingMethods/Basic
+  submodels/MPPIC/AveragingMethods/Dual
+  submodels/MPPIC/AveragingMethods/Moment
+  submodels/MPPIC/CorrectionLimitingMethods/CorrectionLimitingMethod
+  submodels/MPPIC/CorrectionLimitingMethods/absolute
+  submodels/MPPIC/CorrectionLimitingMethods/noCorrectionLimiting
+  submodels/MPPIC/CorrectionLimitingMethods/relative
+  submodels/MPPIC/DampingModels/DampingModel
+  submodels/MPPIC/DampingModels/NoDamping
+  submodels/MPPIC/DampingModels/Relaxation
+  submodels/MPPIC/IsotropyModels/IsotropyModel
+  submodels/MPPIC/IsotropyModels/NoIsotropy
+  submodels/MPPIC/IsotropyModels/Stochastic
+  submodels/MPPIC/PackingModels/Explicit
+  submodels/MPPIC/PackingModels/Implicit
+  submodels/MPPIC/PackingModels/NoPacking
+  submodels/MPPIC/PackingModels/PackingModel
+  submodels/MPPIC/ParticleStressModels/HarrisCrighton
+  submodels/MPPIC/ParticleStressModels/Lun
+  submodels/MPPIC/ParticleStressModels/ParticleStressModel
+  submodels/MPPIC/ParticleStressModels/exponential
+  submodels/MPPIC/TimeScaleModels/TimeScaleModel
+  submodels/MPPIC/TimeScaleModels/equilibrium
+  submodels/MPPIC/TimeScaleModels/isotropic
+  submodels/MPPIC/TimeScaleModels/nonEquilibrium
+  submodels/Reacting/CompositionModel/CompositionModel
+  submodels/Reacting/CompositionModel/NoComposition
+  submodels/Reacting/CompositionModel/SingleMixtureFraction
+  submodels/Reacting/CompositionModel/SinglePhaseMixture
+  submodels/Reacting/InjectionModel/ReactingLookupTableInjection
+  submodels/Reacting/PhaseChangeModel/LiquidEvapFuchsKnudsen
+  submodels/Reacting/PhaseChangeModel/LiquidEvaporation
+  submodels/Reacting/PhaseChangeModel/LiquidEvaporationBoil
+  submodels/Reacting/PhaseChangeModel/NoPhaseChange
+  submodels/Reacting/PhaseChangeModel/PhaseChangeModel
   submodels/ReactingMultiphase/DevolatilisationModel/ConstantRateDevolatilisation
   submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel
   submodels/ReactingMultiphase/DevolatilisationModel/NoDevolatilisation
   submodels/ReactingMultiphase/DevolatilisationModel/SingleKineticRateDevolatilisation
+  submodels/ReactingMultiphase/InjectionModel/ReactingMultiphaseLookupTableInjection
   submodels/ReactingMultiphase/StochasticCollision/SuppressionCollision
-  submodels/Reacting/InjectionModel/ReactingLookupTableInjection
-  submodels/Reacting/PhaseChangeModel/NoPhaseChange
-  submodels/Reacting/PhaseChangeModel/LiquidEvapFuchsKnudsen
-  submodels/Reacting/PhaseChangeModel/LiquidEvaporation
-  submodels/Reacting/PhaseChangeModel/LiquidEvaporationBoil
-  submodels/Reacting/PhaseChangeModel/PhaseChangeModel
-  submodels/Reacting/CompositionModel/SinglePhaseMixture
-  submodels/Reacting/CompositionModel/CompositionModel
-  submodels/Reacting/CompositionModel/NoComposition
-  submodels/Reacting/CompositionModel/SingleMixtureFraction
-  phaseProperties/phasePropertiesList
-  phaseProperties/phaseProperties
-  clouds/baseClasses/reactingMultiphaseCloud
-  clouds/baseClasses/reactingCloud
-  clouds/baseClasses/thermoCloud
-  clouds/baseClasses/kinematicCloud
-  clouds/baseClasses/reactingHeterogeneousCloud
-  clouds/derived/basicReactingCloud
-  clouds/derived/basicKinematicCollidingCloud
-  clouds/derived/basicThermoCloud
-  clouds/derived/basicKinematicCloud
-  clouds/derived/basicHeterogeneousReactingCloud
-  clouds/derived/basicKinematicMPPICCloud
-  clouds/derived/basicReactingMultiphaseCloud
-  clouds/Templates/MPPICCloud
-  clouds/Templates/ReactingMultiphaseCloud
-  clouds/Templates/ReactingCloud
-  clouds/Templates/ThermoCloud
-  clouds/Templates/KinematicCloud
-  clouds/Templates/KinematicCloud/cloudSolution
-  clouds/Templates/ReactingHeterogeneousCloud
-  clouds/Templates/CollidingCloud
-  conversion/ensight
-  conversion/vtk
-  ${OPENFOAM_SRC_DIR}/OpenFOAM/fields/Fields/globalFields
+  submodels/ReactingMultiphase/SurfaceReactionModel/NoSurfaceReaction
+  submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel
+  submodels/Thermodynamic/HeatTransferModel/HeatTransferModel
+  submodels/Thermodynamic/HeatTransferModel/NoHeatTransfer
+  submodels/Thermodynamic/HeatTransferModel/RanzMarshall
+  submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection
+  submodels/Thermodynamic/SurfaceFilmModel/ThermoSurfaceFilm
+  submodels/addOns/radiation/absorptionEmission/cloudAbsorptionEmission
+  submodels/addOns/radiation/scatter/cloudScatter
 )
 install(TARGETS lagrangianIntermediate DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

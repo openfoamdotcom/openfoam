@@ -16,7 +16,7 @@ target_include_directories(interfaceProperties PUBLIC
   alphaContactAngle
   interfaceCompression
   surfaceTensionModels/constant
-  surfaceTensionModels/temperatureDependent
   surfaceTensionModels/surfaceTensionModel
+  surfaceTensionModels/temperatureDependent
 )
 install(TARGETS interfaceProperties DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

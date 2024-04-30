@@ -11,10 +11,10 @@ target_compile_features(phaseTemperatureChangeTwoPhaseMixtures PUBLIC cxx_std_11
 target_compile_definitions(phaseTemperatureChangeTwoPhaseMixtures PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(phaseTemperatureChangeTwoPhaseMixtures PUBLIC geometricVoF twoPhaseProperties interfaceProperties incompressibleTransportModels fluidThermophysicalModels)
 target_include_directories(phaseTemperatureChangeTwoPhaseMixtures PUBLIC
-  temperaturePhaseChangeTwoPhaseMixtures
-  twoPhaseMixtureEThermo
-  thermoIncompressibleTwoPhaseMixture
   constant
   interfaceHeatResistance
+  temperaturePhaseChangeTwoPhaseMixtures
+  thermoIncompressibleTwoPhaseMixture
+  twoPhaseMixtureEThermo
 )
 install(TARGETS phaseTemperatureChangeTwoPhaseMixtures DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -9,7 +9,7 @@ target_compile_definitions(solverFunctionObjects PUBLIC WM_LABEL_SIZE=${WM_LABEL
 target_link_libraries(solverFunctionObjects PUBLIC fvOptions incompressibleTurbulenceModels compressibleTurbulenceModels specie)
 target_include_directories(solverFunctionObjects PUBLIC
   electricPotential
-  scalarTransport
   energyTransport
+  scalarTransport
 )
 install(TARGETS solverFunctionObjects DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

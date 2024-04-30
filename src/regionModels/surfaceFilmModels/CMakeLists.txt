@@ -67,55 +67,55 @@ target_link_libraries(surfaceFilmModels PUBLIC SLGThermo distributionModels regi
 target_include_directories(surfaceFilmModels PUBLIC
   derivedFvPatchFields/filmHeightInletVelocity
   derivedFvPatchFields/inclinedFilmNusseltHeight
+  derivedFvPatchFields/inclinedFilmNusseltInletVelocity
   derivedFvPatchFields/wallFunctions/alphatFilmWallFunction
   derivedFvPatchFields/wallFunctions/nutkFilmWallFunction
-  derivedFvPatchFields/inclinedFilmNusseltInletVelocity
-  submodels
-  submodels/thermo/filmRadiationModel/filmRadiationModel
-  submodels/thermo/filmRadiationModel/constantRadiation
-  submodels/thermo/filmRadiationModel/standardRadiation
-  submodels/thermo/filmRadiationModel/primaryRadiation
-  submodels/thermo/filmRadiationModel/noRadiation
-  submodels/thermo/filmViscosityModel/filmViscosityModel
-  submodels/thermo/filmViscosityModel/waxSolventViscosity
-  submodels/thermo/filmViscosityModel/constantViscosity
-  submodels/thermo/filmViscosityModel/ArrheniusViscosity
-  submodels/thermo/filmViscosityModel/thixotropicViscosity
-  submodels/thermo/filmViscosityModel/function1Viscosity
-  submodels/thermo/filmViscosityModel/liquidViscosity
-  submodels/thermo/phaseChangeModel/noPhaseChange
-  submodels/thermo/phaseChangeModel/standardPhaseChange
-  submodels/thermo/phaseChangeModel/waxSolventEvaporation
-  submodels/thermo/phaseChangeModel/phaseChangeModel
-  submodels/thermo/phaseChangeModel/solidification
-  submodels/thermo/heatTransferModel/mappedConvectiveHeatTransfer
-  submodels/thermo/heatTransferModel/constantHeatTransfer
-  submodels/thermo/heatTransferModel/heatTransferModel
-  submodels/kinematic/filmThermoModel/filmThermoModel
-  submodels/kinematic/filmThermoModel/constantFilmThermo
-  submodels/kinematic/filmThermoModel/liquidFilmThermo
-  submodels/kinematic/injectionModel/injectionModel
-  submodels/kinematic/injectionModel/drippingInjection
-  submodels/kinematic/injectionModel/curvatureSeparation
-  submodels/kinematic/injectionModel/patchInjection
-  submodels/kinematic/injectionModel/injectionModelList
-  submodels/kinematic/injectionModel/BrunDrippingInjection
-  submodels/kinematic/filmTurbulenceModel/laminar
-  submodels/kinematic/filmTurbulenceModel/filmTurbulenceModel
-  submodels/kinematic/force/thermocapillaryForce
-  submodels/kinematic/force/contactAngleForces/perturbedTemperatureDependent
-  submodels/kinematic/force/contactAngleForces/distribution
-  submodels/kinematic/force/contactAngleForces/contactAngleForce
-  submodels/kinematic/force/contactAngleForces/temperatureDependent
-  submodels/kinematic/force/forceList
-  submodels/kinematic/force/force
-  submodels/kinematic/transferModels/transferModel
-  submodels/kinematic/transferModels/transferModelList
+  functionObjects/filmFlux
   kinematicSingleLayer
   noFilm
-  functionObjects/filmFlux
+  submodels
+  submodels/kinematic/filmThermoModel/constantFilmThermo
+  submodels/kinematic/filmThermoModel/filmThermoModel
+  submodels/kinematic/filmThermoModel/liquidFilmThermo
+  submodels/kinematic/filmTurbulenceModel/filmTurbulenceModel
+  submodels/kinematic/filmTurbulenceModel/laminar
+  submodels/kinematic/force/contactAngleForces/contactAngleForce
+  submodels/kinematic/force/contactAngleForces/distribution
+  submodels/kinematic/force/contactAngleForces/perturbedTemperatureDependent
+  submodels/kinematic/force/contactAngleForces/temperatureDependent
+  submodels/kinematic/force/force
+  submodels/kinematic/force/forceList
+  submodels/kinematic/force/thermocapillaryForce
+  submodels/kinematic/injectionModel/BrunDrippingInjection
+  submodels/kinematic/injectionModel/curvatureSeparation
+  submodels/kinematic/injectionModel/drippingInjection
+  submodels/kinematic/injectionModel/injectionModel
+  submodels/kinematic/injectionModel/injectionModelList
+  submodels/kinematic/injectionModel/patchInjection
+  submodels/kinematic/transferModels/transferModel
+  submodels/kinematic/transferModels/transferModelList
+  submodels/thermo/filmRadiationModel/constantRadiation
+  submodels/thermo/filmRadiationModel/filmRadiationModel
+  submodels/thermo/filmRadiationModel/noRadiation
+  submodels/thermo/filmRadiationModel/primaryRadiation
+  submodels/thermo/filmRadiationModel/standardRadiation
+  submodels/thermo/filmViscosityModel/ArrheniusViscosity
+  submodels/thermo/filmViscosityModel/constantViscosity
+  submodels/thermo/filmViscosityModel/filmViscosityModel
+  submodels/thermo/filmViscosityModel/function1Viscosity
+  submodels/thermo/filmViscosityModel/liquidViscosity
+  submodels/thermo/filmViscosityModel/thixotropicViscosity
+  submodels/thermo/filmViscosityModel/waxSolventViscosity
+  submodels/thermo/heatTransferModel/constantHeatTransfer
+  submodels/thermo/heatTransferModel/heatTransferModel
+  submodels/thermo/heatTransferModel/mappedConvectiveHeatTransfer
+  submodels/thermo/phaseChangeModel/noPhaseChange
+  submodels/thermo/phaseChangeModel/phaseChangeModel
+  submodels/thermo/phaseChangeModel/solidification
+  submodels/thermo/phaseChangeModel/standardPhaseChange
+  submodels/thermo/phaseChangeModel/waxSolventEvaporation
+  surfaceFilmModel
   surfaceFilmRegionModel
   thermoSingleLayer
-  surfaceFilmModel
 )
 install(TARGETS surfaceFilmModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -34,28 +34,28 @@ target_compile_features(sixDoFRigidBodyMotion PUBLIC cxx_std_11)
 target_compile_definitions(sixDoFRigidBodyMotion PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(sixDoFRigidBodyMotion PUBLIC forces dynamicMesh)
 target_include_directories(sixDoFRigidBodyMotion PUBLIC
-  pointPatchFields/derived/uncoupledSixDoFRigidBodyDisplacement
   pointPatchFields/derived/sixDoFRigidBodyDisplacement
-  sixDoFSolvers/symplectic
-  sixDoFSolvers/sixDoFSolver
-  sixDoFSolvers/Newmark
-  sixDoFSolvers/CrankNicolson
-  sixDoFRigidBodyMotionSolver
+  pointPatchFields/derived/uncoupledSixDoFRigidBodyDisplacement
   sixDoFRigidBodyMotion
-  sixDoFRigidBodyMotion/constraints/orientation
-  sixDoFRigidBodyMotion/constraints/point
-  sixDoFRigidBodyMotion/constraints/line
-  sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint
   sixDoFRigidBodyMotion/constraints/axis
+  sixDoFRigidBodyMotion/constraints/line
+  sixDoFRigidBodyMotion/constraints/orientation
   sixDoFRigidBodyMotion/constraints/plane
-  sixDoFRigidBodyMotion/restraints/tabulatedAxialAngularSpring
+  sixDoFRigidBodyMotion/constraints/point
+  sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint
+  sixDoFRigidBodyMotion/restraints/linearAxialAngularSpring
+  sixDoFRigidBodyMotion/restraints/linearDamper
+  sixDoFRigidBodyMotion/restraints/linearSpring
   sixDoFRigidBodyMotion/restraints/linearSpringDamper
   sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint
-  sixDoFRigidBodyMotion/restraints/linearSpring
-  sixDoFRigidBodyMotion/restraints/linearDamper
-  sixDoFRigidBodyMotion/restraints/linearAxialAngularSpring
   sixDoFRigidBodyMotion/restraints/softWall
   sixDoFRigidBodyMotion/restraints/sphericalAngularDamper
   sixDoFRigidBodyMotion/restraints/sphericalAngularSpring
+  sixDoFRigidBodyMotion/restraints/tabulatedAxialAngularSpring
+  sixDoFRigidBodyMotionSolver
+  sixDoFSolvers/CrankNicolson
+  sixDoFSolvers/Newmark
+  sixDoFSolvers/sixDoFSolver
+  sixDoFSolvers/symplectic
 )
 install(TARGETS sixDoFRigidBodyMotion DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

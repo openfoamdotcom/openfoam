@@ -17,14 +17,14 @@ target_compile_definitions(dynamicFvMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} W
 target_link_libraries(dynamicFvMesh PUBLIC dynamicMesh)
 target_include_directories(dynamicFvMesh PUBLIC
   include
-  dynamicRefineFvMesh
-  dynamicMotionSolverListFvMesh
-  dynamicMotionSolverFvMeshAMI
-  simplifiedDynamicFvMesh
   dynamicFvMesh
   dynamicInkJetFvMesh
-  staticFvMesh
-  dynamicMultiMotionSolverFvMesh
   dynamicMotionSolverFvMesh
+  dynamicMotionSolverFvMeshAMI
+  dynamicMotionSolverListFvMesh
+  dynamicMultiMotionSolverFvMesh
+  dynamicRefineFvMesh
+  simplifiedDynamicFvMesh
+  staticFvMesh
 )
 install(TARGETS dynamicFvMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

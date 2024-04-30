@@ -34,28 +34,28 @@ target_compile_features(regionFaModels PUBLIC cxx_std_11)
 target_compile_definitions(regionFaModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(regionFaModels PUBLIC faOptions distributionModels)
 target_include_directories(regionFaModels PUBLIC
-  thermalShell
-  derivedFvPatchFields/vibrationShell
-  derivedFvPatchFields/thermalShell
-  derivedFvPatchFields/filmShell
-  vibrationShellModel
   KirchhoffShell
+  derivedFvPatchFields/filmShell
+  derivedFvPatchFields/thermalShell
+  derivedFvPatchFields/vibrationShell
   functionObjects/setTimeStep
   liquidFilm
-  liquidFilm/subModels
-  liquidFilm/subModels/kinematic/injectionModel/injectionModel
-  liquidFilm/subModels/kinematic/injectionModel/curvatureSeparation
-  liquidFilm/subModels/kinematic/injectionModel/injectionModelList
-  liquidFilm/subModels/kinematic/injectionModel/BrunDrippingInjection
-  liquidFilm/subModels/kinematic/filmTurbulenceModel/laminar
-  liquidFilm/subModels/kinematic/filmTurbulenceModel/filmTurbulenceModel
-  liquidFilm/subModels/kinematic/force/contactAngleForces/dynamicContactAngleForce
-  liquidFilm/subModels/kinematic/force/contactAngleForces/contactAngleForce
-  liquidFilm/subModels/kinematic/force/forceList
-  liquidFilm/subModels/kinematic/force/force
   liquidFilm/kinematicThinFilm
   liquidFilm/liquidFilmModel
-  thermalShellModel
+  liquidFilm/subModels
+  liquidFilm/subModels/kinematic/filmTurbulenceModel/filmTurbulenceModel
+  liquidFilm/subModels/kinematic/filmTurbulenceModel/laminar
+  liquidFilm/subModels/kinematic/force/contactAngleForces/contactAngleForce
+  liquidFilm/subModels/kinematic/force/contactAngleForces/dynamicContactAngleForce
+  liquidFilm/subModels/kinematic/force/force
+  liquidFilm/subModels/kinematic/force/forceList
+  liquidFilm/subModels/kinematic/injectionModel/BrunDrippingInjection
+  liquidFilm/subModels/kinematic/injectionModel/curvatureSeparation
+  liquidFilm/subModels/kinematic/injectionModel/injectionModel
+  liquidFilm/subModels/kinematic/injectionModel/injectionModelList
   regionFaModel
+  thermalShell
+  thermalShellModel
+  vibrationShellModel
 )
 install(TARGETS regionFaModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

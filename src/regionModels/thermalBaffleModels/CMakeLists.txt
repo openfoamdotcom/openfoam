@@ -12,7 +12,7 @@ target_link_libraries(thermalBaffleModels PUBLIC regionModels thermoTools radiat
 target_include_directories(thermalBaffleModels PUBLIC
   derivedFvPatchFields/thermalBaffle
   noThermo
-  thermalBaffleModel
   thermalBaffle
+  thermalBaffleModel
 )
 install(TARGETS thermalBaffleModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

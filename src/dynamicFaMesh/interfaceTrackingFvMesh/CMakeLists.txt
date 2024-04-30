@@ -12,9 +12,9 @@ target_compile_definitions(interfaceTrackingFvMesh PUBLIC WM_LABEL_SIZE=${WM_LAB
 target_link_libraries(interfaceTrackingFvMesh PUBLIC finiteArea fvMotionSolvers dynamicMesh)
 target_include_directories(interfaceTrackingFvMesh PUBLIC
   .
-  fvPatchFields/freeSurfaceVelocity
-  fvPatchFields/freeSurfacePressure
-  functionObjects/writeFreeSurface
   functionObjects/pointHistory
+  functionObjects/writeFreeSurface
+  fvPatchFields/freeSurfacePressure
+  fvPatchFields/freeSurfaceVelocity
 )
 install(TARGETS interfaceTrackingFvMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

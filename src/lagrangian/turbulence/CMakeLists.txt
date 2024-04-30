@@ -13,9 +13,9 @@ target_compile_definitions(lagrangianTurbulence PUBLIC WM_LABEL_SIZE=${WM_LABEL_
 target_link_libraries(lagrangianTurbulence PUBLIC lagrangianIntermediate surfaceFilmModels dynamicFvMesh regionFaModels finiteArea)
 target_include_directories(lagrangianTurbulence PUBLIC
   parcels/include
-  submodels/Thermodynamic/ParticleForces/BrownianMotion
-  submodels/Kinematic/DispersionModel/StochasticDispersionRAS
   submodels/Kinematic/DispersionModel/DispersionRASModel
   submodels/Kinematic/DispersionModel/GradientDispersionRAS
+  submodels/Kinematic/DispersionModel/StochasticDispersionRAS
+  submodels/Thermodynamic/ParticleForces/BrownianMotion
 )
 install(TARGETS lagrangianTurbulence DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

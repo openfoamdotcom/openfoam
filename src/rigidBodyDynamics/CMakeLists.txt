@@ -49,45 +49,45 @@ target_compile_features(rigidBodyDynamics PUBLIC cxx_std_11)
 target_compile_definitions(rigidBodyDynamics PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(rigidBodyDynamics PUBLIC OpenFOAM)
 target_include_directories(rigidBodyDynamics PUBLIC
-  rigidBodyInertia
-  bodies/subBody
-  bodies/masslessBody
   bodies/compositeBody
-  bodies/sphere
   bodies/cuboid
   bodies/jointBody
+  bodies/masslessBody
   bodies/rigidBody
-  rigidBodyModelState
-  rigidBodyModel
-  joints/Px
-  joints/Rxyz
-  joints/Py
-  joints/Rzyx
-  joints/Ryxz
-  joints/Rs
-  joints/Rz
-  joints/Ra
-  joints/composite
-  joints/Pz
-  joints/null
+  bodies/sphere
+  bodies/subBody
   joints/Pa
-  joints/joint
-  joints/floating
+  joints/Px
   joints/Pxyz
+  joints/Py
+  joints/Pz
+  joints/Ra
+  joints/Rs
   joints/Rx
+  joints/Rxyz
   joints/Ry
-  rigidBodyMotion
-  restraints/restraint
-  restraints/linearSpring
-  restraints/linearDamper
-  restraints/prescribedRotation
+  joints/Ryxz
+  joints/Rz
+  joints/Rzyx
+  joints/composite
+  joints/floating
+  joints/joint
+  joints/null
+  restraints/externalForce
   restraints/linearAxialAngularSpring
+  restraints/linearDamper
+  restraints/linearSpring
+  restraints/prescribedRotation
+  restraints/restraint
   restraints/softWall
   restraints/sphericalAngularDamper
-  restraints/externalForce
-  rigidBodySolvers/symplectic
-  rigidBodySolvers/rigidBodySolver
-  rigidBodySolvers/Newmark
+  rigidBodyInertia
+  rigidBodyModel
+  rigidBodyModelState
+  rigidBodyMotion
   rigidBodySolvers/CrankNicolson
+  rigidBodySolvers/Newmark
+  rigidBodySolvers/rigidBodySolver
+  rigidBodySolvers/symplectic
 )
 install(TARGETS rigidBodyDynamics DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

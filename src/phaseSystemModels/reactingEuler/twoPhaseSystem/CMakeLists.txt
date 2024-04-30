@@ -17,12 +17,12 @@ target_link_libraries(reactingTwoPhaseSystem PUBLIC reactingMultiphaseSystem sat
 target_include_directories(reactingTwoPhaseSystem PUBLIC
   .
   diameterModels/IATE
-  diameterModels/IATE/IATEsources/dummy
   diameterModels/IATE/IATEsources/IATEsource
-  diameterModels/IATE/IATEsources/wallBoiling
-  diameterModels/IATE/IATEsources/turbulentBreakUp
+  diameterModels/IATE/IATEsources/dummy
   diameterModels/IATE/IATEsources/phaseChange
   diameterModels/IATE/IATEsources/randomCoalescence
+  diameterModels/IATE/IATEsources/turbulentBreakUp
   diameterModels/IATE/IATEsources/wakeEntrainmentCoalescence
+  diameterModels/IATE/IATEsources/wallBoiling
 )
 install(TARGETS reactingTwoPhaseSystem DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

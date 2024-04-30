@@ -57,51 +57,51 @@ target_compile_features(conformalVoronoiMesh PUBLIC cxx_std_11)
 target_compile_definitions(conformalVoronoiMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(conformalVoronoiMesh PUBLIC decompose snappyHexMesh)
 target_include_directories(conformalVoronoiMesh PUBLIC
-  pointPairs
-  vectorTools
-  initialPointsMethod/bodyCentredCubic
-  initialPointsMethod/pointFile
-  initialPointsMethod/autoDensity
-  initialPointsMethod/initialPointsMethod
-  initialPointsMethod/faceCentredCubic
-  initialPointsMethod/uniformGrid
-  initialPointsMethod/rayShooting
-  conformationSurfaces
-  cvControls
-  DelaunayMeshTools
   DelaunayMesh
+  DelaunayMeshTools
+  PrintTable
+  backgroundMeshDecomposition
+  cellShapeControl/cellAspectRatioControl
   cellShapeControl/cellShapeControl
-  cellShapeControl/controlMeshRefinement
   cellShapeControl/cellShapeControlMesh
   cellShapeControl/cellSizeAndAlignmentControl
-  cellShapeControl/cellSizeAndAlignmentControl/searchableSurfaceControl
   cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl
   cellShapeControl/cellSizeAndAlignmentControl/fileControl
-  cellShapeControl/cellAspectRatioControl
+  cellShapeControl/cellSizeAndAlignmentControl/searchableSurfaceControl
+  cellShapeControl/controlMeshRefinement
   cellShapeControl/smoothAlignmentSolver
-  backgroundMeshDecomposition
-  cellSizeControlSurfaces/cellSizeFunction/uniform
-  cellSizeControlSurfaces/cellSizeFunction/linearSpatial
-  cellSizeControlSurfaces/cellSizeFunction/linearDistance
-  cellSizeControlSurfaces/cellSizeFunction/uniformDistance
   cellSizeControlSurfaces/cellSizeFunction/cellSizeFunction
+  cellSizeControlSurfaces/cellSizeFunction/linearDistance
+  cellSizeControlSurfaces/cellSizeFunction/linearSpatial
   cellSizeControlSurfaces/cellSizeFunction/surfaceOffsetLinearDistance
-  cellSizeControlSurfaces/surfaceCellSizeFunction/uniformValue
-  cellSizeControlSurfaces/surfaceCellSizeFunction/nonUniformField
-  cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/fieldFromFile
+  cellSizeControlSurfaces/cellSizeFunction/uniform
+  cellSizeControlSurfaces/cellSizeFunction/uniformDistance
   cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/automatic
   cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/cellSizeCalculationType
+  cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/fieldFromFile
+  cellSizeControlSurfaces/surfaceCellSizeFunction/nonUniformField
   cellSizeControlSurfaces/surfaceCellSizeFunction/surfaceCellSizeFunction
-  relaxationModel/adaptiveLinear
-  relaxationModel/relaxationModel
-  relaxationModel/rampHoldFall
+  cellSizeControlSurfaces/surfaceCellSizeFunction/uniformValue
   conformalVoronoiMesh
+  conformalVoronoiMesh/featurePointConformer
   conformalVoronoiMesh/indexedCell
   conformalVoronoiMesh/indexedVertex
-  conformalVoronoiMesh/featurePointConformer
-  faceAreaWeightModel/piecewiseLinearRamp
+  conformationSurfaces
+  cvControls
   faceAreaWeightModel/faceAreaWeightModel
+  faceAreaWeightModel/piecewiseLinearRamp
+  initialPointsMethod/autoDensity
+  initialPointsMethod/bodyCentredCubic
+  initialPointsMethod/faceCentredCubic
+  initialPointsMethod/initialPointsMethod
+  initialPointsMethod/pointFile
+  initialPointsMethod/rayShooting
+  initialPointsMethod/uniformGrid
+  pointPairs
+  relaxationModel/adaptiveLinear
+  relaxationModel/rampHoldFall
+  relaxationModel/relaxationModel
   searchableSurfaceFeatures
-  PrintTable
+  vectorTools
 )
 install(TARGETS conformalVoronoiMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

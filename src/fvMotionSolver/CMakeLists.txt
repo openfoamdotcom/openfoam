@@ -38,38 +38,38 @@ target_compile_features(fvMotionSolvers PUBLIC cxx_std_11)
 target_compile_definitions(fvMotionSolvers PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(fvMotionSolvers PUBLIC fvOptions dynamicMesh)
 target_include_directories(fvMotionSolvers PUBLIC
-  fvPatchFields/derived/surfaceSlipDisplacement
-  fvPatchFields/derived/cellMotion
-  motionInterpolation/patchCorrected
-  motionInterpolation/motionInterpolation
-  motionInterpolation/patchTransformed
-  pointPatchFields/derived/surfaceSlipDisplacement
-  pointPatchFields/derived/angularOscillatingVelocity
-  pointPatchFields/derived/angularOscillatingDisplacement
-  pointPatchFields/derived/timeVaryingMappedFixedValue
-  pointPatchFields/derived/waveDisplacement
-  pointPatchFields/derived/surfaceDisplacement
-  pointPatchFields/derived/uniformInterpolatedDisplacement
-  pointPatchFields/derived/oscillatingVelocity
-  pointPatchFields/derived/oscillatingDisplacement
-  fvMotionSolvers/componentVelocity/componentLaplacian
-  fvMotionSolvers/fvMotionSolver
   fvMotionSolvers/componentDisplacement/componentLaplacian
-  fvMotionSolvers/displacement/laplacian
+  fvMotionSolvers/componentVelocity/componentLaplacian
   fvMotionSolvers/displacement/SBRStress
-  fvMotionSolvers/displacement/surfaceAlignedSBRStress
+  fvMotionSolvers/displacement/laplacian
   fvMotionSolvers/displacement/solidBodyDisplacementLaplacian
+  fvMotionSolvers/displacement/surfaceAlignedSBRStress
+  fvMotionSolvers/fvMotionSolver
   fvMotionSolvers/velocity/laplacian
-  motionDiffusivity/manipulators/quadratic
-  motionDiffusivity/manipulators/exponential
-  motionDiffusivity/motionDirectional
-  motionDiffusivity/inverseFaceDistance
-  motionDiffusivity/file
-  motionDiffusivity/uniform
-  motionDiffusivity/inverseVolume
+  fvPatchFields/derived/cellMotion
+  fvPatchFields/derived/surfaceSlipDisplacement
   motionDiffusivity/directional
-  motionDiffusivity/motionDiffusivity
-  motionDiffusivity/inversePointDistance
+  motionDiffusivity/file
   motionDiffusivity/inverseDistance
+  motionDiffusivity/inverseFaceDistance
+  motionDiffusivity/inversePointDistance
+  motionDiffusivity/inverseVolume
+  motionDiffusivity/manipulators/exponential
+  motionDiffusivity/manipulators/quadratic
+  motionDiffusivity/motionDiffusivity
+  motionDiffusivity/motionDirectional
+  motionDiffusivity/uniform
+  motionInterpolation/motionInterpolation
+  motionInterpolation/patchCorrected
+  motionInterpolation/patchTransformed
+  pointPatchFields/derived/angularOscillatingDisplacement
+  pointPatchFields/derived/angularOscillatingVelocity
+  pointPatchFields/derived/oscillatingDisplacement
+  pointPatchFields/derived/oscillatingVelocity
+  pointPatchFields/derived/surfaceDisplacement
+  pointPatchFields/derived/surfaceSlipDisplacement
+  pointPatchFields/derived/timeVaryingMappedFixedValue
+  pointPatchFields/derived/uniformInterpolatedDisplacement
+  pointPatchFields/derived/waveDisplacement
 )
 install(TARGETS fvMotionSolvers DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

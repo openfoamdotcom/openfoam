@@ -8,25 +8,25 @@ target_compile_features(lagrangianSpray PUBLIC cxx_std_11)
 target_compile_definitions(lagrangianSpray PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(lagrangianSpray PUBLIC lagrangianTurbulence surfaceFilmModels dynamicFvMesh regionFaModels finiteArea)
 target_include_directories(lagrangianSpray PUBLIC
-  parcels/derived/basicSprayParcel
-  parcels/include
-  parcels/Templates/SprayParcel
-  submodels/AtomizationModel/LISAAtomization
-  submodels/AtomizationModel/NoAtomization
-  submodels/AtomizationModel/AtomizationModel
-  submodels/AtomizationModel/BlobsSheetAtomization
-  submodels/BreakupModel/ReitzDiwakar
-  submodels/BreakupModel/PilchErdman
-  submodels/BreakupModel/ETAB
-  submodels/BreakupModel/ReitzKHRT
-  submodels/BreakupModel/TAB
-  submodels/BreakupModel/SHF
-  submodels/BreakupModel/BreakupModel
-  submodels/BreakupModel/NoBreakup
-  submodels/StochasticCollision/TrajectoryCollision
-  submodels/StochasticCollision/ORourkeCollision
+  clouds/Templates/SprayCloud
   clouds/baseClasses/sprayCloud
   clouds/derived/basicSprayCloud
-  clouds/Templates/SprayCloud
+  parcels/Templates/SprayParcel
+  parcels/derived/basicSprayParcel
+  parcels/include
+  submodels/AtomizationModel/AtomizationModel
+  submodels/AtomizationModel/BlobsSheetAtomization
+  submodels/AtomizationModel/LISAAtomization
+  submodels/AtomizationModel/NoAtomization
+  submodels/BreakupModel/BreakupModel
+  submodels/BreakupModel/ETAB
+  submodels/BreakupModel/NoBreakup
+  submodels/BreakupModel/PilchErdman
+  submodels/BreakupModel/ReitzDiwakar
+  submodels/BreakupModel/ReitzKHRT
+  submodels/BreakupModel/SHF
+  submodels/BreakupModel/TAB
+  submodels/StochasticCollision/ORourkeCollision
+  submodels/StochasticCollision/TrajectoryCollision
 )
 install(TARGETS lagrangianSpray DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

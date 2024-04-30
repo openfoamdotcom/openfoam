@@ -31,27 +31,27 @@ target_compile_features(potential PUBLIC cxx_std_11)
 target_compile_definitions(potential PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(potential PUBLIC finiteVolume)
 target_include_directories(potential PUBLIC
-  energyScalingFunction/derived/noScaling
+  electrostaticPotential
+  energyScalingFunction/basic
   energyScalingFunction/derived/doubleSigmoid
+  energyScalingFunction/derived/noScaling
+  energyScalingFunction/derived/shifted
   energyScalingFunction/derived/shiftedForce
   energyScalingFunction/derived/sigmoid
-  energyScalingFunction/derived/shifted
-  energyScalingFunction/basic
-  tetherPotential/derived/restrainedHarmonicSpring
-  tetherPotential/derived/harmonicSpring
-  tetherPotential/derived/pitchForkRing
-  tetherPotential/basic
-  tetherPotential/tetherPotentialList
-  pairPotential/derived/coulomb
+  pairPotential/basic
   pairPotential/derived/azizChen
+  pairPotential/derived/coulomb
+  pairPotential/derived/dampedCoulomb
+  pairPotential/derived/exponentialRepulsion
+  pairPotential/derived/lennardJones
   pairPotential/derived/maitlandSmith
   pairPotential/derived/noInteraction
-  pairPotential/derived/dampedCoulomb
-  pairPotential/derived/lennardJones
-  pairPotential/derived/exponentialRepulsion
   pairPotential/pairPotentialList
-  pairPotential/basic
   potential
-  electrostaticPotential
+  tetherPotential/basic
+  tetherPotential/derived/harmonicSpring
+  tetherPotential/derived/pitchForkRing
+  tetherPotential/derived/restrainedHarmonicSpring
+  tetherPotential/tetherPotentialList
 )
 install(TARGETS potential DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

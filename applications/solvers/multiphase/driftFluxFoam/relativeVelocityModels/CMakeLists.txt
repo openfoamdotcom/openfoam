@@ -9,7 +9,7 @@ target_compile_definitions(driftFluxRelativeVelocityModels PUBLIC WM_LABEL_SIZE=
 target_link_libraries(driftFluxRelativeVelocityModels PUBLIC incompressibleTransportModels finiteVolume meshTools)
 target_include_directories(driftFluxRelativeVelocityModels PUBLIC
   general
-  simple
   relativeVelocityModel
+  simple
 )
 install(TARGETS driftFluxRelativeVelocityModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

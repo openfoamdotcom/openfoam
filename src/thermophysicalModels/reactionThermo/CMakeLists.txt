@@ -26,30 +26,30 @@ target_compile_definitions(reactionThermophysicalModels PUBLIC WM_LABEL_SIZE=${W
 target_link_libraries(reactionThermophysicalModels PUBLIC fluidThermophysicalModels solidSpecie thermophysicalProperties specie)
 target_include_directories(reactionThermophysicalModels PUBLIC
   .
-  derivedFvPatchFields/gradientUnburntEnthalpy
+  chemistryReaders/chemistryReader
+  chemistryReaders/chemkinReader
+  chemistryReaders/foamChemistryReader
   derivedFvPatchFields/boundarySourcePatch
+  derivedFvPatchFields/enthalpySorption
   derivedFvPatchFields/fixedUnburntEnthalpy
+  derivedFvPatchFields/gradientUnburntEnthalpy
   derivedFvPatchFields/mixedUnburntEnthalpy
   derivedFvPatchFields/speciesSorption
-  derivedFvPatchFields/enthalpySorption
-  chemistryReaders/chemistryReader
-  chemistryReaders/foamChemistryReader
-  chemistryReaders/chemkinReader
   functionObjects/moleFractions
-  psiReactionThermo
-  mixtures/basicMultiComponentMixture
-  mixtures/veryInhomogeneousMixture
-  mixtures/multiComponentMixture
-  mixtures/basicCombustionMixture
-  mixtures/basicSpecieMixture
-  mixtures/reactingMixture
   mixtures/SpecieMixture
+  mixtures/basicCombustionMixture
+  mixtures/basicMultiComponentMixture
+  mixtures/basicSpecieMixture
   mixtures/egrMixture
   mixtures/homogeneousMixture
-  mixtures/singleStepReactingMixture
   mixtures/inhomogeneousMixture
+  mixtures/multiComponentMixture
+  mixtures/reactingMixture
   mixtures/singleComponentMixture
-  rhoReactionThermo
+  mixtures/singleStepReactingMixture
+  mixtures/veryInhomogeneousMixture
+  psiReactionThermo
   psiuReactionThermo
+  rhoReactionThermo
 )
 install(TARGETS reactionThermophysicalModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

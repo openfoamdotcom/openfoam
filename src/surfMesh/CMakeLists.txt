@@ -69,52 +69,52 @@ target_compile_features(surfMesh PUBLIC cxx_std_11)
 target_compile_definitions(surfMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(surfMesh PUBLIC fileFormats)
 target_include_directories(surfMesh PUBLIC
+  MeshedSurface
+  MeshedSurfaceAllocator
+  MeshedSurfaceProxy
+  ModifiableMeshedSurface
+  UnsortedMeshedSurface
   mergedSurf
   meshedSurf
-  triSurface
-  triSurface/patches
-  triSurface/fields
-  writers/proxy
-  writers/starcd
-  writers/boundary
-  writers/common
-  writers/ensight
-  writers/null
-  writers/vtk
-  writers/nastran
-  writers/abaqus
-  writers/x3d
-  writers/foam
-  writers/raw
-  writers/debug
-  MeshedSurface
-  surfaceFormats
-  surfaceFormats/obj
-  surfaceFormats/tri
-  surfaceFormats/starcd
-  surfaceFormats/gts
-  surfaceFormats/nas
-  surfaceFormats/stl
-  surfaceFormats/ac3d
-  surfaceFormats/fire
-  surfaceFormats/vtk
-  surfaceFormats/vtp
-  surfaceFormats/smesh
-  surfaceFormats/abaqus
-  surfaceFormats/x3d
-  surfaceFormats/off
-  UnsortedMeshedSurface
   polySurface
   polySurface/fields
-  MeshedSurfaceAllocator
-  surfMesh
-  surfMesh/fields
-  ModifiableMeshedSurface
-  surfZone
   readers/boundary
   readers/common
   readers/ensight
+  surfMesh
+  surfMesh/fields
+  surfZone
+  surfaceFormats
+  surfaceFormats/abaqus
+  surfaceFormats/ac3d
+  surfaceFormats/fire
+  surfaceFormats/gts
+  surfaceFormats/nas
+  surfaceFormats/obj
+  surfaceFormats/off
+  surfaceFormats/smesh
+  surfaceFormats/starcd
+  surfaceFormats/stl
+  surfaceFormats/tri
+  surfaceFormats/vtk
+  surfaceFormats/vtp
+  surfaceFormats/x3d
   surfaceRegistry
-  MeshedSurfaceProxy
+  triSurface
+  triSurface/fields
+  triSurface/patches
+  writers/abaqus
+  writers/boundary
+  writers/common
+  writers/debug
+  writers/ensight
+  writers/foam
+  writers/nastran
+  writers/null
+  writers/proxy
+  writers/raw
+  writers/starcd
+  writers/vtk
+  writers/x3d
 )
 install(TARGETS surfMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -50,86 +50,86 @@ target_compile_definitions(turbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE
 target_link_libraries(turbulenceModels PUBLIC finiteVolume meshTools)
 target_include_directories(turbulenceModels PUBLIC
   .
-  nonlinearEddyViscosity
-  DES/kOmegaSSTDES
-  DES/SpalartAllmarasDDES
-  DES/kOmegaSSTIDDES
+  Base/SpalartAllmaras
+  Base/kOmegaSST
   DES/DESModel
+  DES/SpalartAllmarasDDES
   DES/SpalartAllmarasDES
-  DES/kOmegaSSTDDES
   DES/SpalartAllmarasIDDES
-  ReynoldsStress
-  derivedFvPatchFields/porousBafflePressure
-  derivedFvPatchFields/fixedShearStress
-  derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionCoefficients
-  derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionBlenders
-  derivedFvPatchFields/wallFunctions/epsilonWallFunctions/epsilonWallFunction
-  derivedFvPatchFields/wallFunctions/omegaWallFunctions/omegaWallFunction
-  derivedFvPatchFields/wallFunctions/kqRWallFunctions/kqRWallFunction
-  derivedFvPatchFields/wallFunctions/kqRWallFunctions/kLowReWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUBlendedWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutURoughWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkRoughWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutLowReWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUTabulatedWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUSpaldingWallFunction
-  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUWallFunction
-  TurbulenceModel
+  DES/kOmegaSSTDDES
+  DES/kOmegaSSTDES
+  DES/kOmegaSSTIDDES
+  LES/DeardorffDiffStress
+  LES/LESModel
+  LES/LESdeltas/DeltaOmegaTildeDelta
+  LES/LESdeltas/IDDESDelta
+  LES/LESdeltas/LESdelta
+  LES/LESdeltas/PrandtlDelta
+  LES/LESdeltas/SLADelta
+  LES/LESdeltas/cubeRootVolDelta
+  LES/LESdeltas/maxDeltaxyz
+  LES/LESdeltas/maxDeltaxyzCubeRootLESDelta
+  LES/LESdeltas/smoothDelta
+  LES/LESdeltas/vanDriestDelta
+  LES/LESeddyViscosity
+  LES/LESfilters/LESfilter
+  LES/LESfilters/anisotropicFilter
+  LES/LESfilters/laplaceFilter
+  LES/LESfilters/simpleFilter
+  LES/Smagorinsky
+  LES/WALE
+  LES/dynamicKEqn
+  LES/dynamicLagrangian
+  LES/kEqn
+  LES/sigma
+  RAS/EBRSM
   RAS/LRR
-  RAS/RNGkEpsilon
   RAS/LaunderSharmaKE
+  RAS/RASModel
+  RAS/RNGkEpsilon
+  RAS/SSG
+  RAS/SpalartAllmaras
   RAS/derivedFvPatchFields/turbulentMixingLengthDissipationRateInlet
   RAS/derivedFvPatchFields/turbulentMixingLengthFrequencyInlet
-  RAS/realizableKE
-  RAS/kOmegaSST
-  RAS/kOmega
-  RAS/SSG
-  RAS/RASModel
-  RAS/EBRSM
-  RAS/kOmegaSSTSAS
-  RAS/SpalartAllmaras
   RAS/kEpsilon
-  RAS/kOmegaSSTLM
   RAS/kEpsilonPhitF
+  RAS/kOmega
+  RAS/kOmegaSST
+  RAS/kOmegaSSTLM
+  RAS/kOmegaSSTSAS
+  RAS/realizableKE
+  ReynoldsStress
+  TurbulenceModel
+  derivedFvPatchFields/fixedShearStress
+  derivedFvPatchFields/porousBafflePressure
+  derivedFvPatchFields/wallFunctions/epsilonWallFunctions/epsilonWallFunction
+  derivedFvPatchFields/wallFunctions/kqRWallFunctions/kLowReWallFunction
+  derivedFvPatchFields/wallFunctions/kqRWallFunctions/kqRWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutLowReWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUBlendedWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutURoughWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUSpaldingWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUTabulatedWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkRoughWallFunction
+  derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkWallFunction
+  derivedFvPatchFields/wallFunctions/omegaWallFunctions/omegaWallFunction
+  derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionBlenders
+  derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionCoefficients
+  eddyViscosity
+  laminar/Maxwell
+  laminar/Stokes
   laminar/generalizedNewtonian
-  laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/Casson
-  laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/generalizedNewtonianViscosityModel
   laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/BirdCarreau
-  laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/HerschelBulkley
+  laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/Casson
   laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/CrossPowerLaw
+  laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/HerschelBulkley
+  laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/generalizedNewtonianViscosityModel
   laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/powerLaw
   laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/strainRateFunction
   laminar/laminarModel
-  laminar/Stokes
-  laminar/Maxwell
-  LES/WALE
-  LES/kEqn
-  LES/LESdeltas/IDDESDelta
-  LES/LESdeltas/DeltaOmegaTildeDelta
-  LES/LESdeltas/LESdelta
-  LES/LESdeltas/maxDeltaxyzCubeRootLESDelta
-  LES/LESdeltas/cubeRootVolDelta
-  LES/LESdeltas/vanDriestDelta
-  LES/LESdeltas/SLADelta
-  LES/LESdeltas/PrandtlDelta
-  LES/LESdeltas/maxDeltaxyz
-  LES/LESdeltas/smoothDelta
-  LES/LESfilters/simpleFilter
-  LES/LESfilters/anisotropicFilter
-  LES/LESfilters/laplaceFilter
-  LES/LESfilters/LESfilter
-  LES/LESeddyViscosity
-  LES/DeardorffDiffStress
-  LES/sigma
-  LES/dynamicKEqn
-  LES/Smagorinsky
-  LES/LESModel
-  LES/dynamicLagrangian
-  eddyViscosity
   linearViscousStress
-  Base/kOmegaSST
-  Base/SpalartAllmaras
+  nonlinearEddyViscosity
 )
 install(TARGETS turbulenceModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -69,69 +69,69 @@ target_compile_features(compressibleTwoPhaseSystem PUBLIC cxx_std_11)
 target_compile_definitions(compressibleTwoPhaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(compressibleTwoPhaseSystem PUBLIC incompressibleTransportModels compressibleTurbulenceModels)
 target_include_directories(compressibleTwoPhaseSystem PUBLIC
-  diameterModels/constantDiameter
-  diameterModels/diameterModel
-  diameterModels/isothermalDiameter
-  diameterModels/IATE
-  diameterModels/IATE/IATEsources/dummy
-  diameterModels/IATE/IATEsources/IATEsource
-  diameterModels/IATE/IATEsources/turbulentBreakUp
-  diameterModels/IATE/IATEsources/randomCoalescence
-  diameterModels/IATE/IATEsources/wakeEntrainmentCoalescence
-  turbulence
   BlendedInterfacialModel
+  BlendedInterfacialModel/blendingMethods/blendingMethod
   BlendedInterfacialModel/blendingMethods/hyperbolic
   BlendedInterfacialModel/blendingMethods/linear
   BlendedInterfacialModel/blendingMethods/noBlending
-  BlendedInterfacialModel/blendingMethods/blendingMethod
-  twoPhaseSystem
-  phasePair
-  phaseModel
-  interfacialModels/wallDependentModel
-  interfacialModels/liftModels/liftModel
-  interfacialModels/liftModels/TomiyamaLift
-  interfacialModels/liftModels/noLift
-  interfacialModels/liftModels/constantLiftCoefficient
-  interfacialModels/liftModels/Moraga
-  interfacialModels/liftModels/LegendreMagnaudet
-  interfacialModels/dragModels/SyamlalOBrien
-  interfacialModels/dragModels/IshiiZuber
+  diameterModels/IATE
+  diameterModels/IATE/IATEsources/IATEsource
+  diameterModels/IATE/IATEsources/dummy
+  diameterModels/IATE/IATEsources/randomCoalescence
+  diameterModels/IATE/IATEsources/turbulentBreakUp
+  diameterModels/IATE/IATEsources/wakeEntrainmentCoalescence
+  diameterModels/constantDiameter
+  diameterModels/diameterModel
+  diameterModels/isothermalDiameter
+  interfacialModels/aspectRatioModels/TomiyamaAspectRatio
+  interfacialModels/aspectRatioModels/VakhrushevEfremov
+  interfacialModels/aspectRatioModels/Wellek
+  interfacialModels/aspectRatioModels/aspectRatioModel
+  interfacialModels/aspectRatioModels/constantAspectRatio
   interfacialModels/dragModels/Ergun
-  interfacialModels/dragModels/TomiyamaAnalytic
-  interfacialModels/dragModels/GidaspowSchillerNaumann
   interfacialModels/dragModels/Gibilaro
   interfacialModels/dragModels/GidaspowErgunWenYu
-  interfacialModels/dragModels/dragModel
-  interfacialModels/dragModels/SchillerNaumann
-  interfacialModels/dragModels/WenYu
-  interfacialModels/dragModels/TomiyamaCorrelated
+  interfacialModels/dragModels/GidaspowSchillerNaumann
+  interfacialModels/dragModels/IshiiZuber
   interfacialModels/dragModels/Lain
+  interfacialModels/dragModels/SchillerNaumann
+  interfacialModels/dragModels/SyamlalOBrien
+  interfacialModels/dragModels/TomiyamaAnalytic
+  interfacialModels/dragModels/TomiyamaCorrelated
+  interfacialModels/dragModels/WenYu
+  interfacialModels/dragModels/dragModel
   interfacialModels/dragModels/segregated
   interfacialModels/heatTransferModels/RanzMarshall
-  interfacialModels/heatTransferModels/sphericalHeatTransfer
   interfacialModels/heatTransferModels/heatTransferModel
-  interfacialModels/swarmCorrections/noSwarm
+  interfacialModels/heatTransferModels/sphericalHeatTransfer
+  interfacialModels/liftModels/LegendreMagnaudet
+  interfacialModels/liftModels/Moraga
+  interfacialModels/liftModels/TomiyamaLift
+  interfacialModels/liftModels/constantLiftCoefficient
+  interfacialModels/liftModels/liftModel
+  interfacialModels/liftModels/noLift
   interfacialModels/swarmCorrections/TomiyamaSwarm
+  interfacialModels/swarmCorrections/noSwarm
   interfacialModels/swarmCorrections/swarmCorrection
-  interfacialModels/virtualMassModels/Lamb
-  interfacialModels/virtualMassModels/virtualMassModel
-  interfacialModels/virtualMassModels/noVirtualMass
-  interfacialModels/virtualMassModels/constantVirtualMassCoefficient
-  interfacialModels/turbulentDispersionModels/LopezDeBertodano
-  interfacialModels/turbulentDispersionModels/turbulentDispersionModel
-  interfacialModels/turbulentDispersionModels/Gosman
   interfacialModels/turbulentDispersionModels/Burns
-  interfacialModels/turbulentDispersionModels/noTurbulentDispersion
+  interfacialModels/turbulentDispersionModels/Gosman
+  interfacialModels/turbulentDispersionModels/LopezDeBertodano
   interfacialModels/turbulentDispersionModels/constantTurbulentDispersionCoefficient
-  interfacialModels/wallLubricationModels/wallLubricationModel
+  interfacialModels/turbulentDispersionModels/noTurbulentDispersion
+  interfacialModels/turbulentDispersionModels/turbulentDispersionModel
+  interfacialModels/virtualMassModels/Lamb
+  interfacialModels/virtualMassModels/constantVirtualMassCoefficient
+  interfacialModels/virtualMassModels/noVirtualMass
+  interfacialModels/virtualMassModels/virtualMassModel
+  interfacialModels/wallDependentModel
+  interfacialModels/wallLubricationModels/Antal
   interfacialModels/wallLubricationModels/Frank
   interfacialModels/wallLubricationModels/TomiyamaWallLubrication
   interfacialModels/wallLubricationModels/noWallLubrication
-  interfacialModels/wallLubricationModels/Antal
-  interfacialModels/aspectRatioModels/Wellek
-  interfacialModels/aspectRatioModels/VakhrushevEfremov
-  interfacialModels/aspectRatioModels/constantAspectRatio
-  interfacialModels/aspectRatioModels/TomiyamaAspectRatio
-  interfacialModels/aspectRatioModels/aspectRatioModel
+  interfacialModels/wallLubricationModels/wallLubricationModel
+  phaseModel
+  phasePair
+  turbulence
+  twoPhaseSystem
 )
 install(TARGETS compressibleTwoPhaseSystem DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

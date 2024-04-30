@@ -8,14 +8,14 @@ target_compile_definitions(coalCombustion PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} 
 target_link_libraries(coalCombustion PUBLIC lagrangianTurbulence surfaceFilmModels dynamicFvMesh regionFaModels finiteArea)
 target_include_directories(coalCombustion PUBLIC
   include
-  submodels/surfaceReactionModel/COxidationDiffusionLimitedRate
-  submodels/surfaceReactionModel/COxidationMurphyShaddix
-  submodels/surfaceReactionModel/COxidationKineticDiffusionLimitedRate
-  submodels/surfaceReactionModel/COxidationIntrinsicRate
-  submodels/surfaceReactionModel/COxidationHurtMitchell
-  coalCloudList
-  include
   coalCloud
+  coalCloudList
   coalParcel
+  include
+  submodels/surfaceReactionModel/COxidationDiffusionLimitedRate
+  submodels/surfaceReactionModel/COxidationHurtMitchell
+  submodels/surfaceReactionModel/COxidationIntrinsicRate
+  submodels/surfaceReactionModel/COxidationKineticDiffusionLimitedRate
+  submodels/surfaceReactionModel/COxidationMurphyShaddix
 )
 install(TARGETS coalCombustion DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -22,14 +22,14 @@ target_link_libraries(engine PUBLIC fvMotionSolvers)
 target_include_directories(engine PUBLIC
   include
   engineMesh/engineMesh
-  engineMesh/staticEngineMesh
-  engineMesh/layeredEngineMesh
   engineMesh/fvMotionSolverEngineMesh
+  engineMesh/layeredEngineMesh
+  engineMesh/staticEngineMesh
   enginePiston
-  ignition
-  engineTime/freePiston
-  engineTime/engineTime
   engineTime/crankConRod
+  engineTime/engineTime
+  engineTime/freePiston
   engineValve
+  ignition
 )
 install(TARGETS engine DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

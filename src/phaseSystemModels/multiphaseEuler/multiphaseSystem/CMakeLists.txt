@@ -23,25 +23,23 @@ target_compile_features(multiphaseSystem PUBLIC cxx_std_11)
 target_compile_definitions(multiphaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(multiphaseSystem PUBLIC interfaceProperties incompressibleTransportModels)
 target_include_directories(multiphaseSystem PUBLIC
+  derivedFvPatchFields/alphaContactAngle
   diameterModels/constantDiameter
   diameterModels/diameterModel
   diameterModels/isothermalDiameter
-  derivedFvPatchFields/alphaContactAngle
-  multiphaseSystem
-  phaseModel
-  interfacialModels/dragModels/SyamlalOBrien
-  interfacialModels/dragModels/interface
   interfacialModels/dragModels/Ergun
-  interfacialModels/dragModels/GidaspowSchillerNaumann
-  interfacialModels/dragModels/blended
   interfacialModels/dragModels/Gibilaro
   interfacialModels/dragModels/GidaspowErgunWenYu
-  interfacialModels/dragModels/dragModel
+  interfacialModels/dragModels/GidaspowSchillerNaumann
   interfacialModels/dragModels/SchillerNaumann
+  interfacialModels/dragModels/SyamlalOBrien
   interfacialModels/dragModels/WenYu
+  interfacialModels/dragModels/blended
+  interfacialModels/dragModels/dragModel
+  interfacialModels/dragModels/interface
   interfacialModels/heatTransferModels/RanzMarshall
   interfacialModels/heatTransferModels/heatTransferModel
-  PRIVATE
-  ${OPENFOAM_SRC_DIR}/OpenFOAM/containers/Dictionaries/PtrDictionary
+  multiphaseSystem
+  phaseModel
 )
 install(TARGETS multiphaseSystem DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

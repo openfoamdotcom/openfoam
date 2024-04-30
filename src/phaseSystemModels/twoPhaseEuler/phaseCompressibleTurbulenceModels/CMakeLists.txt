@@ -30,29 +30,29 @@ target_compile_features(phaseCompressibleTurbulenceModels PUBLIC cxx_std_11)
 target_compile_definitions(phaseCompressibleTurbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(phaseCompressibleTurbulenceModels PUBLIC compressibleTwoPhaseSystem)
 target_include_directories(phaseCompressibleTurbulenceModels PUBLIC
-  phasePressureModel
-  kineticTheoryModels/conductivityModel/HrenyaSinclair
-  kineticTheoryModels/conductivityModel/conductivityModel
   kineticTheoryModels/conductivityModel/Gidaspow
+  kineticTheoryModels/conductivityModel/HrenyaSinclair
   kineticTheoryModels/conductivityModel/Syamlal
-  kineticTheoryModels/radialModel/radialModel
-  kineticTheoryModels/radialModel/LunSavage
-  kineticTheoryModels/radialModel/SinclairJackson
-  kineticTheoryModels/radialModel/CarnahanStarling
+  kineticTheoryModels/conductivityModel/conductivityModel
   kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleSlip
   kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta
-  kineticTheoryModels/viscosityModel/HrenyaSinclair
-  kineticTheoryModels/viscosityModel/Gidaspow
-  kineticTheoryModels/viscosityModel/Syamlal
-  kineticTheoryModels/viscosityModel/viscosityModel
-  kineticTheoryModels/viscosityModel/none
-  kineticTheoryModels/kineticTheoryModel
-  kineticTheoryModels/granularPressureModel/SyamlalRogersOBrien
-  kineticTheoryModels/granularPressureModel/Lun
-  kineticTheoryModels/granularPressureModel/granularPressureModel
-  kineticTheoryModels/frictionalStressModel/Schaeffer
-  kineticTheoryModels/frictionalStressModel/JohnsonJacksonSchaeffer
   kineticTheoryModels/frictionalStressModel/JohnsonJackson
+  kineticTheoryModels/frictionalStressModel/JohnsonJacksonSchaeffer
+  kineticTheoryModels/frictionalStressModel/Schaeffer
   kineticTheoryModels/frictionalStressModel/frictionalStressModel
+  kineticTheoryModels/granularPressureModel/Lun
+  kineticTheoryModels/granularPressureModel/SyamlalRogersOBrien
+  kineticTheoryModels/granularPressureModel/granularPressureModel
+  kineticTheoryModels/kineticTheoryModel
+  kineticTheoryModels/radialModel/CarnahanStarling
+  kineticTheoryModels/radialModel/LunSavage
+  kineticTheoryModels/radialModel/SinclairJackson
+  kineticTheoryModels/radialModel/radialModel
+  kineticTheoryModels/viscosityModel/Gidaspow
+  kineticTheoryModels/viscosityModel/HrenyaSinclair
+  kineticTheoryModels/viscosityModel/Syamlal
+  kineticTheoryModels/viscosityModel/none
+  kineticTheoryModels/viscosityModel/viscosityModel
+  phasePressureModel
 )
 install(TARGETS phaseCompressibleTurbulenceModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

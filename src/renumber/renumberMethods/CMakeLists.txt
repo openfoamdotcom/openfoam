@@ -13,10 +13,10 @@ target_compile_definitions(renumberMethods PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE}
 target_link_libraries(renumberMethods PUBLIC finiteVolume meshTools)
 target_include_directories(renumberMethods PUBLIC
   CuthillMcKeeRenumber
-  springRenumber
-  renumberMethod
-  randomRenumber
-  structuredRenumber
   manualRenumber
+  randomRenumber
+  renumberMethod
+  springRenumber
+  structuredRenumber
 )
 install(TARGETS renumberMethods DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

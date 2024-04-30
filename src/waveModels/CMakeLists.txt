@@ -27,26 +27,26 @@ target_compile_features(waveModels PUBLIC cxx_std_11)
 target_compile_definitions(waveModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(waveModels PUBLIC fvOptions)
 target_include_directories(waveModels PUBLIC
-  fvOptions/multiphaseMangrovesSource
-  fvOptions/multiphaseMangrovesTurbulenceModel
   derivedFvPatchFields/waveAlpha
   derivedFvPatchFields/waveVelocity
-  waveAbsorptionModels/derived/shallowWaterAbsorption
+  derivedPointPatchFields/waveMaker
+  fvOptions/multiphaseMangrovesSource
+  fvOptions/multiphaseMangrovesTurbulenceModel
   waveAbsorptionModels/base/waveAbsorptionModel
-  waveGenerationModels/derived/Boussinesq
-  waveGenerationModels/derived/McCowan
-  waveGenerationModels/derived/StokesI
-  waveGenerationModels/derived/streamFunction
-  waveGenerationModels/derived/irregularMultiDirectional
-  waveGenerationModels/derived/cnoidal
-  waveGenerationModels/derived/Grimshaw
-  waveGenerationModels/derived/StokesII
-  waveGenerationModels/derived/StokesV
-  waveGenerationModels/base/regularWaveModel
+  waveAbsorptionModels/derived/shallowWaterAbsorption
   waveGenerationModels/base/irregularWaveModel
+  waveGenerationModels/base/regularWaveModel
   waveGenerationModels/base/solitaryWaveModel
   waveGenerationModels/base/waveGenerationModel
-  derivedPointPatchFields/waveMaker
+  waveGenerationModels/derived/Boussinesq
+  waveGenerationModels/derived/Grimshaw
+  waveGenerationModels/derived/McCowan
+  waveGenerationModels/derived/StokesI
+  waveGenerationModels/derived/StokesII
+  waveGenerationModels/derived/StokesV
+  waveGenerationModels/derived/cnoidal
+  waveGenerationModels/derived/irregularMultiDirectional
+  waveGenerationModels/derived/streamFunction
   waveModel
 )
 install(TARGETS waveModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

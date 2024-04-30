@@ -34,24 +34,24 @@ target_compile_definitions(overset PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM
 target_link_libraries(overset PUBLIC dynamicFvMesh sampling decompositionMethods)
 target_include_directories(overset PUBLIC
   include
-  oversetPolyPatch
+  cellCellStencil/cellCellStencil
+  cellCellStencil/cellVolumeWeight
+  cellCellStencil/inverseDistance
+  cellCellStencil/leastSquares
+  cellCellStencil/trackingInverseDistance
+  fvMeshPrimitiveLduAddressing
+  include
+  lduPrimitiveProcessorInterface/GAMG
+  oversetAdjustPhi
+  oversetCoupledPolyPatch/oversetGAMGInterface
   oversetCoupledPolyPatch/oversetGAMGInterfaceField
   oversetCoupledPolyPatch/oversetLduInterface
   oversetCoupledPolyPatch/oversetLduInterfaceField
-  oversetCoupledPolyPatch/oversetGAMGInterface
-  cellCellStencil/cellCellStencil
-  cellCellStencil/leastSquares
-  cellCellStencil/cellVolumeWeight
-  cellCellStencil/inverseDistance
-  cellCellStencil/trackingInverseDistance
-  lduPrimitiveProcessorInterface/GAMG
-  fvMeshPrimitiveLduAddressing
   oversetFvMesh
   oversetFvMesh/dynamicOversetFvMesh
   oversetFvMesh/staticOversetFvMesh
-  include
   oversetPatchPhiErr
+  oversetPolyPatch
   regionsToCell
-  oversetAdjustPhi
 )
 install(TARGETS overset DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

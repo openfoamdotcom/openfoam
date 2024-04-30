@@ -18,18 +18,18 @@ target_compile_features(incompressibleTransportModels PUBLIC cxx_std_11)
 target_compile_definitions(incompressibleTransportModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(incompressibleTransportModels PUBLIC twoPhaseMixture finiteVolume)
 target_include_directories(incompressibleTransportModels PUBLIC
-  singlePhaseTransportModel
   incompressibleTwoPhaseMixture
+  singlePhaseTransportModel
   transportModel
-  viscosityModels/Casson
-  viscosityModels/Newtonian
-  viscosityModels/BirdCarreau
-  viscosityModels/viscosityModel
   viscosityModels/Arrhenius
-  viscosityModels/HerschelBulkley
+  viscosityModels/BirdCarreau
+  viscosityModels/Casson
   viscosityModels/CrossPowerLaw
+  viscosityModels/HerschelBulkley
+  viscosityModels/Newtonian
   viscosityModels/powerLaw
   viscosityModels/strainRateFunction
+  viscosityModels/viscosityModel
   ../
 )
 install(TARGETS incompressibleTransportModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

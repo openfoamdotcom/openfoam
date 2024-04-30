@@ -29,29 +29,29 @@ target_compile_features(atmosphericModels PUBLIC cxx_std_11)
 target_compile_definitions(atmosphericModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(atmosphericModels PUBLIC fvOptions incompressibleTurbulenceModels compressibleTurbulenceModels)
 target_include_directories(atmosphericModels PUBLIC
-  fvOptions/atmPlantCanopyUSource
-  fvOptions/atmLengthScaleTurbSource
-  fvOptions/atmPlantCanopyTSource
-  fvOptions/atmCoriolisUSource
-  fvOptions/atmAmbientTurbSource
-  fvOptions/atmBuoyancyTurbSource
-  fvOptions/atmPlantCanopyTurbSource
-  fvOptions/atmNutSource
   derivedFvPatchFields/atmBoundaryLayer
+  derivedFvPatchFields/atmBoundaryLayerInletEpsilon
+  derivedFvPatchFields/atmBoundaryLayerInletK
   derivedFvPatchFields/atmBoundaryLayerInletOmega
+  derivedFvPatchFields/atmBoundaryLayerInletVelocity
   derivedFvPatchFields/atmTurbulentHeatFluxTemperature
+  derivedFvPatchFields/wallFunctions/atmAlphatkWallFunction
   derivedFvPatchFields/wallFunctions/atmEpsilonWallFunction
   derivedFvPatchFields/wallFunctions/atmNutUWallFunction
-  derivedFvPatchFields/wallFunctions/atmAlphatkWallFunction
-  derivedFvPatchFields/wallFunctions/atmOmegaWallFunction
-  derivedFvPatchFields/wallFunctions/atmNutkWallFunction
   derivedFvPatchFields/wallFunctions/atmNutWallFunction
-  derivedFvPatchFields/atmBoundaryLayerInletK
-  derivedFvPatchFields/atmBoundaryLayerInletEpsilon
-  derivedFvPatchFields/atmBoundaryLayerInletVelocity
-  turbulenceModels/RAS/kL
-  turbulenceModels/RAS/kEpsilonLopesdaCosta
+  derivedFvPatchFields/wallFunctions/atmNutkWallFunction
+  derivedFvPatchFields/wallFunctions/atmOmegaWallFunction
   functionObjects/ObukhovLength
+  fvOptions/atmAmbientTurbSource
+  fvOptions/atmBuoyancyTurbSource
+  fvOptions/atmCoriolisUSource
+  fvOptions/atmLengthScaleTurbSource
+  fvOptions/atmNutSource
+  fvOptions/atmPlantCanopyTSource
+  fvOptions/atmPlantCanopyTurbSource
+  fvOptions/atmPlantCanopyUSource
   porosityModels/powerLawLopesdaCosta
+  turbulenceModels/RAS/kEpsilonLopesdaCosta
+  turbulenceModels/RAS/kL
 )
 install(TARGETS atmosphericModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -14,28 +14,28 @@ target_link_libraries(chemistryModel PUBLIC ODE reactionThermophysicalModels the
 target_include_directories(chemistryModel PUBLIC
   chemistryModel
   chemistryModel/BasicChemistryModelCaseDir
-  chemistryModel/basicChemistryModel
+  chemistryModel/StandardChemistryModel
   chemistryModel/TDACChemistryModel
+  chemistryModel/TDACChemistryModel/reduction
+  chemistryModel/TDACChemistryModel/reduction/DAC
+  chemistryModel/TDACChemistryModel/reduction/DRG
+  chemistryModel/TDACChemistryModel/reduction/DRGEP
+  chemistryModel/TDACChemistryModel/reduction/EFA
+  chemistryModel/TDACChemistryModel/reduction/PFA
+  chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod
+  chemistryModel/TDACChemistryModel/reduction/noChemistryReduction
   chemistryModel/TDACChemistryModel/tabulation
   chemistryModel/TDACChemistryModel/tabulation/ISAT
   chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryNode
   chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryTree
   chemistryModel/TDACChemistryModel/tabulation/ISAT/chemPointISAT
-  chemistryModel/TDACChemistryModel/tabulation/noChemistryTabulation
   chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod
-  chemistryModel/TDACChemistryModel/reduction
-  chemistryModel/TDACChemistryModel/reduction/DRGEP
-  chemistryModel/TDACChemistryModel/reduction/DRG
-  chemistryModel/TDACChemistryModel/reduction/PFA
-  chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod
-  chemistryModel/TDACChemistryModel/reduction/DAC
-  chemistryModel/TDACChemistryModel/reduction/noChemistryReduction
-  chemistryModel/TDACChemistryModel/reduction/EFA
-  chemistryModel/StandardChemistryModel
-  chemistrySolver/noChemistrySolver
-  chemistrySolver/chemistrySolver
-  chemistrySolver/ode
+  chemistryModel/TDACChemistryModel/tabulation/noChemistryTabulation
+  chemistryModel/basicChemistryModel
   chemistrySolver/EulerImplicit
+  chemistrySolver/chemistrySolver
+  chemistrySolver/noChemistrySolver
+  chemistrySolver/ode
   functionObjects/BilgerMixtureFraction
   functionObjects/specieReactionRates
 )
