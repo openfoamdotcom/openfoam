@@ -6,4 +6,5 @@ target_compile_features(interFoam PUBLIC cxx_std_11)
 target_link_libraries(interFoam PUBLIC incompressibleInterPhaseTransportModels waveModels)
 target_include_directories(interFoam PUBLIC
   .
+  ../VoF
 )
