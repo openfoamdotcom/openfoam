@@ -44,7 +44,7 @@ Description
 #include "radiationModel.H"
 #include "SLGThermo.H"
 #include "pimpleControl.H"
-#include "CorrectPhi.H"
+#include "CorrectPhiPascal.H"
 #include "fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -47,7 +47,7 @@ Description
 #include "fvOptions.H"
 #include "pimpleControl.H"
 #include "pressureControl.H"
-#include "CorrectPhi.H"
+#include "CorrectPhiPascal.H"
 #include "localEulerDdtScheme.H"
 #include "fvcSmooth.H"
 #include "cloudMacros.H"

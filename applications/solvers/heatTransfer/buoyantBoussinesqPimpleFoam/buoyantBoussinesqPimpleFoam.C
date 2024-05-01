@@ -57,7 +57,7 @@ Description
 #include "singlePhaseTransportModel.H"
 #include "turbulentTransportModel.H"
 #include "radiationModel.H"
-#include "CorrectPhi.H"
+#include "CorrectPhiPascal.H"
 #include "fvOptions.H"
 #include "pimpleControl.H"
 

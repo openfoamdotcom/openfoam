@@ -49,7 +49,7 @@ Description
 #include "PhaseCompressibleTurbulenceModel.H"
 #include "pimpleControl.H"
 #include "fvOptions.H"
-#include "CorrectPhi.H"
+#include "CorrectPhiPascal.H"
 #include "fvcSmooth.H"
 
 #include "basicKinematicCloud.H"

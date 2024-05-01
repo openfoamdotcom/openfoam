@@ -63,7 +63,7 @@ Description
 #include "incompressibleInterPhaseTransportModel.H"
 #include "pimpleControl.H"
 #include "fvOptions.H"
-#include "CorrectPhi.H"
+#include "CorrectPhiPascal.H"
 #include "fvcSmooth.H"
 #include "dynamicRefineFvMesh.H"
 

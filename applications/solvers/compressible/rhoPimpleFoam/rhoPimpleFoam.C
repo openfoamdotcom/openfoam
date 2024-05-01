@@ -50,7 +50,7 @@ Note
 #include "bound.H"
 #include "pimpleControl.H"
 #include "pressureControl.H"
-#include "CorrectPhi.H"
+#include "CorrectPhiPascal.H"
 #include "fvOptions.H"
 #include "localEulerDdtScheme.H"
 #include "fvcSmooth.H"

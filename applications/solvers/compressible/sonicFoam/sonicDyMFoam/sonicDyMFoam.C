@@ -40,7 +40,7 @@ Description
 #include "psiThermo.H"
 #include "turbulentFluidThermoModel.H"
 #include "pimpleControl.H"
-#include "CorrectPhi.H"
+#include "CorrectPhiPascal.H"
 #include "fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
