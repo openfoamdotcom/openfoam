@@ -4,3 +4,6 @@ set(_FILES
 add_executable(electrostaticFoam ${_FILES})
 target_compile_features(electrostaticFoam PUBLIC cxx_std_11)
 target_link_libraries(electrostaticFoam PUBLIC finiteVolume meshTools)
+target_include_directories(electrostaticFoam PUBLIC
+  .
+)

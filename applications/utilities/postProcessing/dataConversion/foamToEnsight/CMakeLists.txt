@@ -5,3 +5,6 @@ set(_FILES
 add_executable(foamToEnsight ${_FILES})
 target_compile_features(foamToEnsight PUBLIC cxx_std_11)
 target_link_libraries(foamToEnsight PUBLIC conversion genericPatchFields lagrangianIntermediate)
+target_include_directories(foamToEnsight PUBLIC
+  .
+)

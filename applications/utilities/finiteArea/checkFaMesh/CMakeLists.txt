@@ -4,3 +4,6 @@ set(_FILES
 add_executable(checkFaMesh ${_FILES})
 target_compile_features(checkFaMesh PUBLIC cxx_std_11)
 target_link_libraries(checkFaMesh PUBLIC finiteArea meshTools)
+target_include_directories(checkFaMesh PUBLIC
+  .
+)

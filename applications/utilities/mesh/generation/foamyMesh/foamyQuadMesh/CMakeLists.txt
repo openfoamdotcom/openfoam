@@ -17,3 +17,6 @@ endif()
 if (SCOTCH_FOUND)
   target_link_libraries(foamyQuadMesh PUBLIC scotchDecomp)
 endif()
+target_include_directories(foamyQuadMesh PUBLIC
+  .
+)

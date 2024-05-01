@@ -4,3 +4,6 @@ set(_FILES
 add_executable(computeSensitivities ${_FILES})
 target_compile_features(computeSensitivities PUBLIC cxx_std_11)
 target_link_libraries(computeSensitivities PUBLIC adjointOptimisation)
+target_include_directories(computeSensitivities PUBLIC
+  .
+)

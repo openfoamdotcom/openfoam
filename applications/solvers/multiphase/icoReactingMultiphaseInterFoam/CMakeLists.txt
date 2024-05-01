@@ -4,3 +4,6 @@ set(_FILES
 add_executable(icoReactingMultiphaseInterFoam ${_FILES})
 target_compile_features(icoReactingMultiphaseInterFoam PUBLIC cxx_std_11)
 target_link_libraries(icoReactingMultiphaseInterFoam PUBLIC compressibleMultiPhaseTurbulenceModels dynamicFvMesh fvOptions laserDTRM thermoTools)
+target_include_directories(icoReactingMultiphaseInterFoam PUBLIC
+  .
+)

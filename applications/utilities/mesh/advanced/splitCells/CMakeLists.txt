@@ -4,3 +4,6 @@ set(_FILES
 add_executable(splitCells ${_FILES})
 target_compile_features(splitCells PUBLIC cxx_std_11)
 target_link_libraries(splitCells PUBLIC dynamicMesh)
+target_include_directories(splitCells PUBLIC
+  .
+)

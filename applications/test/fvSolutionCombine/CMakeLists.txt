@@ -3,3 +3,6 @@ set(_FILES
 )
 add_executable(Test-fvSolutionCombine ${_FILES})
 target_compile_features(Test-fvSolutionCombine PUBLIC cxx_std_11)
+target_include_directories(Test-fvSolutionCombine PUBLIC
+  .
+)

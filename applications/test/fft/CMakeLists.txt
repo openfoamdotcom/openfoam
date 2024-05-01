@@ -3,3 +3,6 @@ set(_FILES
 )
 add_executable(Test-fft ${_FILES})
 target_compile_features(Test-fft PUBLIC cxx_std_11)
+target_include_directories(Test-fft PUBLIC
+  .
+)

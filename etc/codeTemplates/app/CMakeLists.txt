@@ -4,3 +4,6 @@ set(_FILES
 add_executable(NAME ${_FILES})
 target_compile_features(NAME PUBLIC cxx_std_11)
 target_link_libraries(NAME PUBLIC finiteVolume meshTools)
+target_include_directories(NAME PUBLIC
+  .
+)

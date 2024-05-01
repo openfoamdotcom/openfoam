@@ -4,3 +4,6 @@ set(_FILES
 add_executable(foamToCcm ${_FILES})
 target_compile_features(foamToCcm PUBLIC cxx_std_11)
 target_link_libraries(foamToCcm PUBLIC ccm genericPatchFields)
+target_include_directories(foamToCcm PUBLIC
+  .
+)

@@ -3,3 +3,6 @@ set(_FILES
 )
 add_executable(Test-edges ${_FILES})
 target_compile_features(Test-edges PUBLIC cxx_std_11)
+target_include_directories(Test-edges PUBLIC
+  .
+)

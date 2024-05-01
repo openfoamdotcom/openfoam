@@ -3,3 +3,6 @@ set(_FILES
 )
 add_executable(Test-fileNameClean ${_FILES})
 target_compile_features(Test-fileNameClean PUBLIC cxx_std_11)
+target_include_directories(Test-fileNameClean PUBLIC
+  .
+)

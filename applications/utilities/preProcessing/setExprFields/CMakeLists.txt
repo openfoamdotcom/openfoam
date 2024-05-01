@@ -4,3 +4,6 @@ set(_FILES
 add_executable(setExprFields ${_FILES})
 target_compile_features(setExprFields PUBLIC cxx_std_11)
 target_link_libraries(setExprFields PUBLIC genericPatchFields)
+target_include_directories(setExprFields PUBLIC
+  .
+)

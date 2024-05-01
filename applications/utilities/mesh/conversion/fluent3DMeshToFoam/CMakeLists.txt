@@ -5,3 +5,6 @@ flex_target(MyFlexName fluent3DMeshToFoam.L "${_flex_src}" COMPILE_FLAGS --c++)
 add_executable(fluent3DMeshToFoam ${_FILES} ${_flex_src})
 target_compile_features(fluent3DMeshToFoam PUBLIC cxx_std_11)
 target_link_libraries(fluent3DMeshToFoam PUBLIC dynamicMesh)
+target_include_directories(fluent3DMeshToFoam PUBLIC
+  .
+)

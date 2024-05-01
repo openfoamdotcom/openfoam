@@ -4,3 +4,6 @@ set(_FILES
 add_executable(magneticFoam ${_FILES})
 target_compile_features(magneticFoam PUBLIC cxx_std_11)
 target_link_libraries(magneticFoam PUBLIC finiteVolume meshTools)
+target_include_directories(magneticFoam PUBLIC
+  .
+)

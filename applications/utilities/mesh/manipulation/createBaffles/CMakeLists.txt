@@ -7,3 +7,6 @@ set(_FILES
 add_executable(createBaffles ${_FILES})
 target_compile_features(createBaffles PUBLIC cxx_std_11)
 target_link_libraries(createBaffles PUBLIC dynamicMesh genericPatchFields reconstruct)
+target_include_directories(createBaffles PUBLIC
+  .
+)

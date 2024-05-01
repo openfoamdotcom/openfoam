@@ -5,3 +5,6 @@ set(_FILES
 add_executable(mapFieldsPar ${_FILES})
 target_compile_features(mapFieldsPar PUBLIC cxx_std_11)
 target_link_libraries(mapFieldsPar PUBLIC genericPatchFields lagrangian sampling)
+target_include_directories(mapFieldsPar PUBLIC
+  .
+)

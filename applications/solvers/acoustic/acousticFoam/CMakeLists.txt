@@ -4,3 +4,6 @@ set(_FILES
 add_executable(acousticFoam ${_FILES})
 target_compile_features(acousticFoam PUBLIC cxx_std_11)
 target_link_libraries(acousticFoam PUBLIC finiteArea fvOptions regionFaModels)
+target_include_directories(acousticFoam PUBLIC
+  .
+)

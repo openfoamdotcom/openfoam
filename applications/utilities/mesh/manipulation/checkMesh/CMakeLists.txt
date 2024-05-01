@@ -9,3 +9,6 @@ set(_FILES
 add_executable(checkMesh ${_FILES})
 target_compile_features(checkMesh PUBLIC cxx_std_11)
 target_link_libraries(checkMesh PUBLIC dynamicMesh)
+target_include_directories(checkMesh PUBLIC
+  .
+)

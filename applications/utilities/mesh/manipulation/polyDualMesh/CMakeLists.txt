@@ -5,3 +5,6 @@ set(_FILES
 add_executable(polyDualMesh ${_FILES})
 target_compile_features(polyDualMesh PUBLIC cxx_std_11)
 target_link_libraries(polyDualMesh PUBLIC dynamicMesh genericPatchFields reconstruct)
+target_include_directories(polyDualMesh PUBLIC
+  .
+)

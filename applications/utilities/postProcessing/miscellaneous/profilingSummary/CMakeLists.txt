@@ -3,3 +3,6 @@ set(_FILES
 )
 add_executable(profilingSummary ${_FILES})
 target_compile_features(profilingSummary PUBLIC cxx_std_11)
+target_include_directories(profilingSummary PUBLIC
+  .
+)

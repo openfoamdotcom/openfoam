@@ -4,3 +4,6 @@ set(_FILES
 add_executable(moveEngineMesh ${_FILES})
 target_compile_features(moveEngineMesh PUBLIC cxx_std_11)
 target_link_libraries(moveEngineMesh PUBLIC engine)
+target_include_directories(moveEngineMesh PUBLIC
+  .
+)

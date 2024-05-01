@@ -797,5 +797,6 @@ target_include_directories(finiteVolume PUBLIC
   lduPrimitiveMeshAssembly/assemblyFaceAreaPairGAMGAgglomeration
   surfaceMesh
   volMesh
+  cfdTools/general/solutionControl
 )
 install(TARGETS finiteVolume DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

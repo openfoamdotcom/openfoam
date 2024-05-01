@@ -16,3 +16,6 @@ endif()
 if (SCOTCH_FOUND)
   target_link_libraries(decomposePar PUBLIC scotchDecomp)
 endif()
+target_include_directories(decomposePar PUBLIC
+  .
+)

@@ -4,3 +4,6 @@ set(_FILES
 add_executable(createPatch ${_FILES})
 target_compile_features(createPatch PUBLIC cxx_std_11)
 target_link_libraries(createPatch PUBLIC dynamicMesh reconstruct)
+target_include_directories(createPatch PUBLIC
+  .
+)

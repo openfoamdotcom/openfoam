@@ -4,3 +4,6 @@ set(_FILES
 add_executable(boxTurb ${_FILES})
 target_compile_features(boxTurb PUBLIC cxx_std_11)
 target_link_libraries(boxTurb PUBLIC randomProcesses)
+target_include_directories(boxTurb PUBLIC
+  .
+)

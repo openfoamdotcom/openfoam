@@ -4,3 +4,6 @@ set(_FILES
 add_executable(createExternalCoupledPatchGeometry ${_FILES})
 target_compile_features(createExternalCoupledPatchGeometry PUBLIC cxx_std_11)
 target_link_libraries(createExternalCoupledPatchGeometry PUBLIC fieldFunctionObjects incompressibleMultiphaseSystems reactingMultiphaseSystem)
+target_include_directories(createExternalCoupledPatchGeometry PUBLIC
+  .
+)

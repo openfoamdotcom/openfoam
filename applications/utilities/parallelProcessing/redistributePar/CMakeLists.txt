@@ -18,3 +18,6 @@ endif()
 if (SCOTCH_FOUND)
   target_link_libraries(redistributePar PUBLIC scotchDecomp)
 endif()
+target_include_directories(redistributePar PUBLIC
+  .
+)

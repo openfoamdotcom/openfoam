@@ -4,3 +4,6 @@ set(_FILES
 add_executable(icoUncoupledKinematicParcelFoam ${_FILES})
 target_compile_features(icoUncoupledKinematicParcelFoam PUBLIC cxx_std_11)
 target_link_libraries(icoUncoupledKinematicParcelFoam PUBLIC faOptions fvOptions lagrangianTurbulence regionFaModels surfaceFilmModels)
+target_include_directories(icoUncoupledKinematicParcelFoam PUBLIC
+  .
+)

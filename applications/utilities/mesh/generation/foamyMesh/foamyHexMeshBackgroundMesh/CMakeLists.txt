@@ -7,3 +7,6 @@ target_link_libraries(foamyHexMeshBackgroundMesh PUBLIC conformalVoronoiMesh dec
 if (SCOTCH_FOUND)
   target_link_libraries(foamyHexMeshBackgroundMesh PUBLIC scotchDecomp)
 endif()
+target_include_directories(foamyHexMeshBackgroundMesh PUBLIC
+  .
+)

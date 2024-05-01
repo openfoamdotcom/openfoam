@@ -4,3 +4,6 @@ set(_FILES
 add_executable(transformPoints ${_FILES})
 target_compile_features(transformPoints PUBLIC cxx_std_11)
 target_link_libraries(transformPoints PUBLIC genericPatchFields)
+target_include_directories(transformPoints PUBLIC
+  .
+)

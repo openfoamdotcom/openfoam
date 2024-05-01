@@ -4,3 +4,6 @@ set(_FILES
 add_executable(surfaceMeshInfo ${_FILES})
 target_compile_features(surfaceMeshInfo PUBLIC cxx_std_11)
 target_link_libraries(surfaceMeshInfo PUBLIC meshTools)
+target_include_directories(surfaceMeshInfo PUBLIC
+  .
+)

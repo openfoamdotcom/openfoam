@@ -4,3 +4,6 @@ set(_FILES
 add_executable(overInterPhaseChangeDyMFoam ${_FILES})
 target_compile_features(overInterPhaseChangeDyMFoam PUBLIC cxx_std_11)
 target_link_libraries(overInterPhaseChangeDyMFoam PUBLIC interfaceProperties phaseChangeTwoPhaseMixtures topoChangerFvMesh twoPhaseProperties waveModels)
+target_include_directories(overInterPhaseChangeDyMFoam PUBLIC
+  .
+)

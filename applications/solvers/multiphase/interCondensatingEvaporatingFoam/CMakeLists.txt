@@ -4,3 +4,6 @@ set(_FILES
 add_executable(interCondensatingEvaporatingFoam ${_FILES})
 target_compile_features(interCondensatingEvaporatingFoam PUBLIC cxx_std_11)
 target_link_libraries(interCondensatingEvaporatingFoam PUBLIC dynamicFvMesh fluidThermophysicalModels fvOptions incompressibleTurbulenceModels interfaceProperties phaseTemperatureChangeTwoPhaseMixtures twoPhaseProperties)
+target_include_directories(interCondensatingEvaporatingFoam PUBLIC
+  .
+)

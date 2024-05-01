@@ -6,3 +6,6 @@ set(_FILES
 add_executable(chtMultiRegionTwoPhaseEulerFoam ${_FILES})
 target_compile_features(chtMultiRegionTwoPhaseEulerFoam PUBLIC cxx_std_11)
 target_link_libraries(chtMultiRegionTwoPhaseEulerFoam PUBLIC fvOptions regionModels sampling twoPhaseReactingTurbulenceModels)
+target_include_directories(chtMultiRegionTwoPhaseEulerFoam PUBLIC
+  .
+)

@@ -3,3 +3,6 @@ set(_FILES
 )
 add_executable(Test-IntRange ${_FILES})
 target_compile_features(Test-IntRange PUBLIC cxx_std_11)
+target_include_directories(Test-IntRange PUBLIC
+  .
+)

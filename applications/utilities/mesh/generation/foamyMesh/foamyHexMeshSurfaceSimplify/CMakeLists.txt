@@ -10,3 +10,6 @@ endif()
 if (SCOTCH_FOUND)
   target_link_libraries(foamyHexMeshSurfaceSimplify PUBLIC scotchDecomp)
 endif()
+target_include_directories(foamyHexMeshSurfaceSimplify PUBLIC
+  .
+)

@@ -4,3 +4,6 @@ set(_FILES
 add_executable(extrude2DMesh ${_FILES})
 target_compile_features(extrude2DMesh PUBLIC cxx_std_11)
 target_link_libraries(extrude2DMesh PUBLIC dynamicMesh extrudeModel reconstruct)
+target_include_directories(extrude2DMesh PUBLIC
+  .
+)

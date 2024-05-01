@@ -5,3 +5,6 @@ set(_FILES
 add_executable(plot3dToFoam ${_FILES})
 target_compile_features(plot3dToFoam PUBLIC cxx_std_11)
 target_link_libraries(plot3dToFoam PUBLIC meshTools)
+target_include_directories(plot3dToFoam PUBLIC
+  .
+)

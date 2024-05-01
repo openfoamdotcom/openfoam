@@ -3,3 +3,6 @@ set(_FILES
 )
 add_executable(Test-coordinateSystem ${_FILES})
 target_compile_features(Test-coordinateSystem PUBLIC cxx_std_11)
+target_include_directories(Test-coordinateSystem PUBLIC
+  .
+)

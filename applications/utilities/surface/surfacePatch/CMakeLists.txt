@@ -7,3 +7,6 @@ set(_FILES
 add_executable(surfacePatch ${_FILES})
 target_compile_features(surfacePatch PUBLIC cxx_std_11)
 target_link_libraries(surfacePatch PUBLIC meshTools)
+target_include_directories(surfacePatch PUBLIC
+  .
+)

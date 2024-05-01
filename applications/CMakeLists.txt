@@ -1,3 +1,4 @@
+add_subdirectory(utilities/surface/surfaceFeatureExtract/extractionMethod)
 add_subdirectory(utilities/mesh/conversion/plot3dToFoam)
 add_subdirectory(utilities/mesh/manipulation/checkMesh)
 add_subdirectory(utilities/mesh/manipulation/createPatch)

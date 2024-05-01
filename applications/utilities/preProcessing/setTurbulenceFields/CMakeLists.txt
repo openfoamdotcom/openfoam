@@ -4,3 +4,6 @@ set(_FILES
 add_executable(setTurbulenceFields ${_FILES})
 target_compile_features(setTurbulenceFields PUBLIC cxx_std_11)
 target_link_libraries(setTurbulenceFields PUBLIC compressibleTransportModels fluidThermophysicalModels fvOptions genericPatchFields incompressibleTransportModels incompressibleTurbulenceModels thermoTools)
+target_include_directories(setTurbulenceFields PUBLIC
+  .
+)
