@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(applyBoundaryLayer ${_FILES})
 target_compile_features(applyBoundaryLayer PUBLIC cxx_std_11)
-target_link_libraries(applyBoundaryLayer PUBLIC finiteVolume)
+target_link_libraries(applyBoundaryLayer PUBLIC fvOptions incompressibleTurbulenceModels thermoTools fluidThermophysicalModels incompressibleTransportModels compressibleTransportModels genericPatchFields)

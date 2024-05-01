@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(kinematicParcelFoam ${_FILES})
 target_compile_features(kinematicParcelFoam PUBLIC cxx_std_11)
-target_link_libraries(kinematicParcelFoam PUBLIC finiteVolume)
+target_link_libraries(kinematicParcelFoam PUBLIC topoChangerFvMesh atmosphericModels surfaceFilmDerivedFvPatchFields lagrangianTurbulence regionFaModels faOptions)

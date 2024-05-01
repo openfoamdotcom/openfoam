@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(buoyantSimpleFoam ${_FILES})
 target_compile_features(buoyantSimpleFoam PUBLIC cxx_std_11)
-target_link_libraries(buoyantSimpleFoam PUBLIC finiteVolume)
+target_link_libraries(buoyantSimpleFoam PUBLIC atmosphericModels regionFaModels finiteArea)

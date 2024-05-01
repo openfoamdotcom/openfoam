@@ -10,4 +10,4 @@ set(_FILES
 )
 add_executable(foamyQuadMesh ${_FILES})
 target_compile_features(foamyQuadMesh PUBLIC cxx_std_11)
-target_link_libraries(foamyQuadMesh PUBLIC finiteVolume)
+target_link_libraries(foamyQuadMesh PUBLIC conformalVoronoiMesh kahipDecomp metisDecomp ptscotchDecomp scotchDecomp)

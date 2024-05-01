@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(DPMFoam ${_FILES})
 target_compile_features(DPMFoam PUBLIC cxx_std_11)
-target_link_libraries(DPMFoam PUBLIC finiteVolume)
+target_link_libraries(DPMFoam PUBLIC fvOptions lagrangianTurbulence DPMTurbulenceModels surfaceFilmModels regionFaModels faOptions)

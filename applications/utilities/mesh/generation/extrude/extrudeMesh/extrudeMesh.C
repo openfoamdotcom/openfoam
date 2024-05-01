@@ -53,7 +53,7 @@ Description
 #include "cellSet.H"
 #include "fvMeshTools.H"
 
-#include "extrudedMesh.H"
+#include "extrudedMesh/extrudedMesh.H"
 #include "extrudeModel.H"
 
 #include "wedge.H"

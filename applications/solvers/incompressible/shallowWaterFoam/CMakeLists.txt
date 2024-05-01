@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(shallowWaterFoam ${_FILES})
 target_compile_features(shallowWaterFoam PUBLIC cxx_std_11)
-target_link_libraries(shallowWaterFoam PUBLIC finiteVolume)
+target_link_libraries(shallowWaterFoam PUBLIC finiteVolume meshTools)

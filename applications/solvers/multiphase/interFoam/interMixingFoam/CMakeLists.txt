@@ -6,4 +6,4 @@ set(_FILES
 )
 add_executable(interMixingFoam ${_FILES})
 target_compile_features(interMixingFoam PUBLIC cxx_std_11)
-target_link_libraries(interMixingFoam PUBLIC finiteVolume)
+target_link_libraries(interMixingFoam PUBLIC twoPhaseProperties waveModels)

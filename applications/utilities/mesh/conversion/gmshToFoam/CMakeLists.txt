@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(gmshToFoam ${_FILES})
 target_compile_features(gmshToFoam PUBLIC cxx_std_11)
-target_link_libraries(gmshToFoam PUBLIC finiteVolume)
+target_link_libraries(gmshToFoam PUBLIC dynamicMesh meshTools)

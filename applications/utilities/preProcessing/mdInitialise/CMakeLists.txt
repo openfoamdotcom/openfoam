@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(mdInitialise ${_FILES})
 target_compile_features(mdInitialise PUBLIC cxx_std_11)
-target_link_libraries(mdInitialise PUBLIC finiteVolume)
+target_link_libraries(mdInitialise PUBLIC dynamicMesh molecule potential molecularMeasurements)

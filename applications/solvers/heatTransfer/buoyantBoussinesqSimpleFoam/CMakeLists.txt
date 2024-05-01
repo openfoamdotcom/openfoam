@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(buoyantBoussinesqSimpleFoam ${_FILES})
 target_compile_features(buoyantBoussinesqSimpleFoam PUBLIC cxx_std_11)
-target_link_libraries(buoyantBoussinesqSimpleFoam PUBLIC finiteVolume)
+target_link_libraries(buoyantBoussinesqSimpleFoam PUBLIC atmosphericModels)

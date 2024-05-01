@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(dnsFoam ${_FILES})
 target_compile_features(dnsFoam PUBLIC cxx_std_11)
-target_link_libraries(dnsFoam PUBLIC finiteVolume)
+target_link_libraries(dnsFoam PUBLIC randomProcesses)

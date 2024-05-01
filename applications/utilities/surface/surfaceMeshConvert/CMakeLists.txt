@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(surfaceMeshConvert ${_FILES})
 target_compile_features(surfaceMeshConvert PUBLIC cxx_std_11)
-target_link_libraries(surfaceMeshConvert PUBLIC finiteVolume)
+target_link_libraries(surfaceMeshConvert PUBLIC meshTools)

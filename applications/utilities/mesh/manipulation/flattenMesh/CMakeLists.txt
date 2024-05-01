@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(flattenMesh ${_FILES})
 target_compile_features(flattenMesh PUBLIC cxx_std_11)
-target_link_libraries(flattenMesh PUBLIC finiteVolume)
+target_link_libraries(flattenMesh PUBLIC dynamicMesh)

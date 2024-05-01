@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(surfaceInertia ${_FILES})
 target_compile_features(surfaceInertia PUBLIC cxx_std_11)
-target_link_libraries(surfaceInertia PUBLIC finiteVolume)
+target_link_libraries(surfaceInertia PUBLIC meshTools)

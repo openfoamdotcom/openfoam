@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(equilibriumFlameT ${_FILES})
 target_compile_features(equilibriumFlameT PUBLIC cxx_std_11)
-target_link_libraries(equilibriumFlameT PUBLIC finiteVolume)
+target_link_libraries(equilibriumFlameT PUBLIC specie)

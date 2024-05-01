@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(overInterDyMFoam ${_FILES})
 target_compile_features(overInterDyMFoam PUBLIC cxx_std_11)
-target_link_libraries(overInterDyMFoam PUBLIC finiteVolume)
+target_link_libraries(overInterDyMFoam PUBLIC immiscibleIncompressibleTwoPhaseMixture twoPhaseProperties topoChangerFvMesh waveModels)

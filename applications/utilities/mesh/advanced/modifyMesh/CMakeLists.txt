@@ -4,4 +4,4 @@ set(_FILES
 )
 add_executable(modifyMesh ${_FILES})
 target_compile_features(modifyMesh PUBLIC cxx_std_11)
-target_link_libraries(modifyMesh PUBLIC finiteVolume)
+target_link_libraries(modifyMesh PUBLIC dynamicMesh reconstruct)

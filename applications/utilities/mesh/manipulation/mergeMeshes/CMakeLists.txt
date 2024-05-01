@@ -4,4 +4,4 @@ set(_FILES
 )
 add_executable(mergeMeshes ${_FILES})
 target_compile_features(mergeMeshes PUBLIC cxx_std_11)
-target_link_libraries(mergeMeshes PUBLIC finiteVolume)
+target_link_libraries(mergeMeshes PUBLIC dynamicMesh reconstruct)

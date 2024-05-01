@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(simpleSprayFoam ${_FILES})
 target_compile_features(simpleSprayFoam PUBLIC cxx_std_11)
-target_link_libraries(simpleSprayFoam PUBLIC finiteVolume)
+target_link_libraries(simpleSprayFoam PUBLIC fvOptions lagrangianSpray lagrangianTurbulence surfaceFilmModels regionFaModels faOptions)

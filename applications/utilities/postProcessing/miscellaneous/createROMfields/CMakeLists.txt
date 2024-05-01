@@ -6,4 +6,4 @@ set(_FILES
 )
 add_executable(createROMfields ${_FILES})
 target_compile_features(createROMfields PUBLIC cxx_std_11)
-target_link_libraries(createROMfields PUBLIC finiteVolume)
+target_link_libraries(createROMfields PUBLIC finiteVolume meshTools)

@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(overPotentialFoam ${_FILES})
 target_compile_features(overPotentialFoam PUBLIC cxx_std_11)
-target_link_libraries(overPotentialFoam PUBLIC finiteVolume)
+target_link_libraries(overPotentialFoam PUBLIC overset)

@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(foamyHexMeshBackgroundMesh ${_FILES})
 target_compile_features(foamyHexMeshBackgroundMesh PUBLIC cxx_std_11)
-target_link_libraries(foamyHexMeshBackgroundMesh PUBLIC finiteVolume)
+target_link_libraries(foamyHexMeshBackgroundMesh PUBLIC conformalVoronoiMesh scotchDecomp decompose dynamicMesh sampling finiteVolume)

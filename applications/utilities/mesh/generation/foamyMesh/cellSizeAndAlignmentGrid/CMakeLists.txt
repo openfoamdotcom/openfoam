@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(cellSizeAndAlignmentGrid ${_FILES})
 target_compile_features(cellSizeAndAlignmentGrid PUBLIC cxx_std_11)
-target_link_libraries(cellSizeAndAlignmentGrid PUBLIC finiteVolume)
+target_link_libraries(cellSizeAndAlignmentGrid PUBLIC conformalVoronoiMesh kahipDecomp metisDecomp ptscotchDecomp scotchDecomp dynamicMesh)

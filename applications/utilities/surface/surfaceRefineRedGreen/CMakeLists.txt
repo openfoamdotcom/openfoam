@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(surfaceRefineRedGreen ${_FILES})
 target_compile_features(surfaceRefineRedGreen PUBLIC cxx_std_11)
-target_link_libraries(surfaceRefineRedGreen PUBLIC finiteVolume)
+target_link_libraries(surfaceRefineRedGreen PUBLIC meshTools)

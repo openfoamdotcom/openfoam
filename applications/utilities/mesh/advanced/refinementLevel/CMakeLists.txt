@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(refinementLevel ${_FILES})
 target_compile_features(refinementLevel PUBLIC cxx_std_11)
-target_link_libraries(refinementLevel PUBLIC finiteVolume)
+target_link_libraries(refinementLevel PUBLIC finiteVolume meshTools)

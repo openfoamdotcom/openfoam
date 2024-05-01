@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(chtMultiRegionSimpleFoam ${_FILES})
 target_compile_features(chtMultiRegionSimpleFoam PUBLIC cxx_std_11)
-target_link_libraries(chtMultiRegionSimpleFoam PUBLIC finiteVolume)
+target_link_libraries(chtMultiRegionSimpleFoam PUBLIC fvOptions regionModels regionFaModels finiteArea)

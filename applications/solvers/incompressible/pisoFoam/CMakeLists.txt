@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(pisoFoam ${_FILES})
 target_compile_features(pisoFoam PUBLIC cxx_std_11)
-target_link_libraries(pisoFoam PUBLIC finiteVolume)
+target_link_libraries(pisoFoam PUBLIC fvOptions sampling incompressibleTurbulenceModels incompressibleTransportModels)

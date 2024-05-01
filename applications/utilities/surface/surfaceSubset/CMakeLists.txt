@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(surfaceSubset ${_FILES})
 target_compile_features(surfaceSubset PUBLIC cxx_std_11)
-target_link_libraries(surfaceSubset PUBLIC finiteVolume)
+target_link_libraries(surfaceSubset PUBLIC meshTools)

@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(reactingHeterogenousParcelFoam ${_FILES})
 target_compile_features(reactingHeterogenousParcelFoam PUBLIC cxx_std_11)
-target_link_libraries(reactingHeterogenousParcelFoam PUBLIC finiteVolume)
+target_link_libraries(reactingHeterogenousParcelFoam PUBLIC fvOptions surfaceFilmDerivedFvPatchFields lagrangianTurbulence regionFaModels faOptions)

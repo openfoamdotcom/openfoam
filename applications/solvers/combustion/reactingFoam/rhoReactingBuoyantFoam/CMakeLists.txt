@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(rhoReactingBuoyantFoam ${_FILES})
 target_compile_features(rhoReactingBuoyantFoam PUBLIC cxx_std_11)
-target_link_libraries(rhoReactingBuoyantFoam PUBLIC finiteVolume)
+target_link_libraries(rhoReactingBuoyantFoam PUBLIC fvOptions thermoTools combustionModels)

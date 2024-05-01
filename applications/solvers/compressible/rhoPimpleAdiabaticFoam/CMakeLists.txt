@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(rhoPimpleAdiabaticFoam ${_FILES})
 target_compile_features(rhoPimpleAdiabaticFoam PUBLIC cxx_std_11)
-target_link_libraries(rhoPimpleAdiabaticFoam PUBLIC finiteVolume)
+target_link_libraries(rhoPimpleAdiabaticFoam PUBLIC fvOptions thermoTools)

@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(surfaceConvert ${_FILES})
 target_compile_features(surfaceConvert PUBLIC cxx_std_11)
-target_link_libraries(surfaceConvert PUBLIC finiteVolume)
+target_link_libraries(surfaceConvert PUBLIC surfMesh)

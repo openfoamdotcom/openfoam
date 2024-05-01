@@ -4,4 +4,4 @@ set(_FILES
 )
 add_executable(foamToGMV ${_FILES})
 target_compile_features(foamToGMV PUBLIC cxx_std_11)
-target_link_libraries(foamToGMV PUBLIC finiteVolume)
+target_link_libraries(foamToGMV PUBLIC lagrangian genericPatchFields)

@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(MPPICInterFoam ${_FILES})
 target_compile_features(MPPICInterFoam PUBLIC cxx_std_11)
-target_link_libraries(MPPICInterFoam PUBLIC finiteVolume)
+target_link_libraries(MPPICInterFoam PUBLIC fvOptions lagrangianIntermediate regionFaModels surfaceFilmModels finiteArea compressibleTwoPhaseMixtureTurbulenceModels)

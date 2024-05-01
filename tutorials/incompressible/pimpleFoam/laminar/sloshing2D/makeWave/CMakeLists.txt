@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(makeWave ${_FILES})
 target_compile_features(makeWave PUBLIC cxx_std_11)
-target_link_libraries(makeWave PUBLIC finiteVolume)
+target_link_libraries(makeWave PUBLIC interfaceTrackingFvMesh)

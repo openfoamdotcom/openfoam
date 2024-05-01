@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(laplacianFoam ${_FILES})
 target_compile_features(laplacianFoam PUBLIC cxx_std_11)
-target_link_libraries(laplacianFoam PUBLIC finiteVolume)
+target_link_libraries(laplacianFoam PUBLIC fvOptions meshTools)

@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(surfaceInflate ${_FILES})
 target_compile_features(surfaceInflate PUBLIC cxx_std_11)
-target_link_libraries(surfaceInflate PUBLIC finiteVolume)
+target_link_libraries(surfaceInflate PUBLIC meshTools)

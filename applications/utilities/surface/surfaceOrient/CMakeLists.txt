@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(surfaceOrient ${_FILES})
 target_compile_features(surfaceOrient PUBLIC cxx_std_11)
-target_link_libraries(surfaceOrient PUBLIC finiteVolume)
+target_link_libraries(surfaceOrient PUBLIC meshTools)

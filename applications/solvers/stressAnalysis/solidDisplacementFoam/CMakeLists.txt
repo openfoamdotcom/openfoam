@@ -4,4 +4,4 @@ set(_FILES
 )
 add_executable(solidDisplacementFoam ${_FILES})
 target_compile_features(solidDisplacementFoam PUBLIC cxx_std_11)
-target_link_libraries(solidDisplacementFoam PUBLIC finiteVolume)
+target_link_libraries(solidDisplacementFoam PUBLIC finiteVolume meshTools)

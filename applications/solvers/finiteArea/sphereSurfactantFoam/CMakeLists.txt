@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(sphereSurfactantFoam ${_FILES})
 target_compile_features(sphereSurfactantFoam PUBLIC cxx_std_11)
-target_link_libraries(sphereSurfactantFoam PUBLIC finiteVolume)
+target_link_libraries(sphereSurfactantFoam PUBLIC finiteArea finiteVolume meshTools)

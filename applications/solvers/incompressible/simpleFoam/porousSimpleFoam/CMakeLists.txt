@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(porousSimpleFoam ${_FILES})
 target_compile_features(porousSimpleFoam PUBLIC cxx_std_11)
-target_link_libraries(porousSimpleFoam PUBLIC finiteVolume)
+target_link_libraries(porousSimpleFoam PUBLIC fvOptions sampling incompressibleTurbulenceModels incompressibleTransportModels)
