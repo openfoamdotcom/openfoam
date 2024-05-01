@@ -31,11 +31,12 @@ set(_FILES
   externalDisplacementMeshMover/zeroFixedValue/zeroFixedValuePointPatchFields.C
   externalDisplacementMeshMover/fieldSmoother/fieldSmoother.C
 )
-add_library(snappyHexMesh ${_FILES})
-target_compile_features(snappyHexMesh PUBLIC cxx_std_11)
-target_compile_definitions(snappyHexMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(snappyHexMesh PUBLIC fvMotionSolvers overset distributed decompositionMethods)
-target_include_directories(snappyHexMesh PUBLIC
+add_library(snappyHexMeshLib ${_FILES})
+target_compile_features(snappyHexMeshLib PUBLIC cxx_std_11)
+target_compile_definitions(snappyHexMeshLib PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
+target_link_libraries(snappyHexMeshLib PUBLIC fvMotionSolvers overset distributed decompositionMethods)
+set_target_properties(snappyHexMeshLib PROPERTIES OUTPUT_NAME snappyHexMesh)
+target_include_directories(snappyHexMeshLib PUBLIC
   externalDisplacementMeshMover
   externalDisplacementMeshMover/fieldSmoother
   externalDisplacementMeshMover/zeroFixedValue
@@ -50,4 +51,4 @@ target_include_directories(snappyHexMesh PUBLIC
   snappyHexMeshDriver/snapParameters
   trackedParticle
 )
-install(TARGETS snappyHexMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
+install(TARGETS snappyHexMeshLib DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
