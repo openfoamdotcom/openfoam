@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(orientFaceZone ${_FILES})
 target_compile_features(orientFaceZone PUBLIC cxx_std_11)
-target_link_libraries(orientFaceZone PUBLIC snappyHexMesh)
+target_link_libraries(orientFaceZone PUBLIC snappyHexMeshLib)
