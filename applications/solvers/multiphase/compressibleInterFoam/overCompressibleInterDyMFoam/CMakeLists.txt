@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(overCompressibleInterDyMFoam ${_FILES})
 target_compile_features(overCompressibleInterDyMFoam PUBLIC cxx_std_11)
-target_link_libraries(overCompressibleInterDyMFoam PUBLIC twoPhaseSurfaceTension VoFphaseCompressibleTurbulenceModels topoChangerFvMesh waveModels)
+target_link_libraries(overCompressibleInterDyMFoam PUBLIC VoFphaseCompressibleTurbulenceModels topoChangerFvMesh twoPhaseSurfaceTension waveModels)

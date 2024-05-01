@@ -3,4 +3,3 @@ set(_FILES
 )
 add_executable(tetgenToFoam ${_FILES})
 target_compile_features(tetgenToFoam PUBLIC cxx_std_11)
-target_link_libraries(tetgenToFoam PUBLIC finiteVolume)

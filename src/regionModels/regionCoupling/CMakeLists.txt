@@ -6,7 +6,7 @@ set(_FILES
 add_library(regionCoupling ${_FILES})
 target_compile_features(regionCoupling PUBLIC cxx_std_11)
 target_compile_definitions(regionCoupling PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(regionCoupling PUBLIC pyrolysisModels surfaceFilmModels solidChemistryModel thermoTools)
+target_link_libraries(regionCoupling PUBLIC pyrolysisModels solidChemistryModel surfaceFilmModels thermoTools)
 target_include_directories(regionCoupling PUBLIC
   derivedFvPatchFields/filmPyrolysisRadiativeCoupledMixed
   derivedFvPatchFields/filmPyrolysisTemperatureCoupled

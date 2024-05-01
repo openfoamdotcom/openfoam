@@ -4,7 +4,7 @@ set(_FILES
 add_library(twoPhaseMixtureThermo ${_FILES})
 target_compile_features(twoPhaseMixtureThermo PUBLIC cxx_std_11)
 target_compile_definitions(twoPhaseMixtureThermo PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(twoPhaseMixtureThermo PUBLIC fluidThermophysicalModels specie interfaceProperties finiteVolume)
+target_link_libraries(twoPhaseMixtureThermo PUBLIC finiteVolume fluidThermophysicalModels interfaceProperties specie)
 target_include_directories(twoPhaseMixtureThermo PUBLIC
   .
 )

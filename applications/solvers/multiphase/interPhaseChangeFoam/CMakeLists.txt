@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(interPhaseChangeFoam ${_FILES})
 target_compile_features(interPhaseChangeFoam PUBLIC cxx_std_11)
-target_link_libraries(interPhaseChangeFoam PUBLIC fvOptions sampling phaseChangeTwoPhaseMixtures twoPhaseProperties interfaceProperties incompressibleTurbulenceModels)
+target_link_libraries(interPhaseChangeFoam PUBLIC fvOptions incompressibleTurbulenceModels interfaceProperties phaseChangeTwoPhaseMixtures sampling twoPhaseProperties)

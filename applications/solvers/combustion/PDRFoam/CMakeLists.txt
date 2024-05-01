@@ -25,4 +25,4 @@ set(_FILES
 )
 add_executable(PDRFoam ${_FILES})
 target_compile_features(PDRFoam PUBLIC cxx_std_11)
-target_link_libraries(PDRFoam PUBLIC engine thermoTools laminarFlameSpeedModels dynamicFvMesh)
+target_link_libraries(PDRFoam PUBLIC dynamicFvMesh engine laminarFlameSpeedModels thermoTools)

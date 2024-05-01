@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(DPMDyMFoam ${_FILES})
 target_compile_features(DPMDyMFoam PUBLIC cxx_std_11)
-target_link_libraries(DPMDyMFoam PUBLIC fvOptions lagrangianTurbulence DPMTurbulenceModels surfaceFilmModels topoChangerFvMesh regionFaModels faOptions)
+target_link_libraries(DPMDyMFoam PUBLIC DPMTurbulenceModels faOptions fvOptions lagrangianTurbulence regionFaModels surfaceFilmModels topoChangerFvMesh)

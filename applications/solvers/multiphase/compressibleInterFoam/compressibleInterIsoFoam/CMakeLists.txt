@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(compressibleInterIsoFoam ${_FILES})
 target_compile_features(compressibleInterIsoFoam PUBLIC cxx_std_11)
-target_link_libraries(compressibleInterIsoFoam PUBLIC fvOptions dynamicFvMesh twoPhaseSurfaceTension VoFphaseCompressibleTurbulenceModels geometricVoF)
+target_link_libraries(compressibleInterIsoFoam PUBLIC VoFphaseCompressibleTurbulenceModels dynamicFvMesh fvOptions geometricVoF twoPhaseSurfaceTension)

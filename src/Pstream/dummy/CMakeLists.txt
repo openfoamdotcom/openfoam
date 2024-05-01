@@ -16,7 +16,7 @@ target_compile_definitions(Pstream PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM
 if (BUILD_SHARED_LIBS)
   target_link_options(Pstream PUBLIC -undefined dynamic_lookup)
 endif()
-target_link_libraries(Pstream PUBLIC OSspecific MPI::MPI_CXX)
+target_link_libraries(Pstream PUBLIC MPI::MPI_CXX OSspecific)
 target_include_directories(Pstream PUBLIC
   PRIVATE
   ${OPENFOAM_SRC_DIR}/OpenFOAM/algorithms/AABBTree

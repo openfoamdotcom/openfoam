@@ -3,4 +3,3 @@ set(_FILES
 )
 add_executable(Test-OCharStream1 ${_FILES})
 target_compile_features(Test-OCharStream1 PUBLIC cxx_std_11)
-target_link_libraries(Test-OCharStream1 PUBLIC finiteVolume)

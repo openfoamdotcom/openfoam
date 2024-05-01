@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(coalChemistryFoam ${_FILES})
 target_compile_features(coalChemistryFoam PUBLIC cxx_std_11)
-target_link_libraries(coalChemistryFoam PUBLIC fvOptions coalCombustion surfaceFilmModels regionFaModels faOptions)
+target_link_libraries(coalChemistryFoam PUBLIC coalCombustion faOptions fvOptions regionFaModels surfaceFilmModels)

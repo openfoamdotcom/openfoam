@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(reactingFoam ${_FILES})
 target_compile_features(reactingFoam PUBLIC cxx_std_11)
-target_link_libraries(reactingFoam PUBLIC fvOptions thermoTools combustionModels)
+target_link_libraries(reactingFoam PUBLIC combustionModels fvOptions thermoTools)

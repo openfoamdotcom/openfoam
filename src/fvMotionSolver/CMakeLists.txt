@@ -36,7 +36,7 @@ set(_FILES
 add_library(fvMotionSolvers ${_FILES})
 target_compile_features(fvMotionSolvers PUBLIC cxx_std_11)
 target_compile_definitions(fvMotionSolvers PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(fvMotionSolvers PUBLIC fvOptions dynamicMesh)
+target_link_libraries(fvMotionSolvers PUBLIC dynamicMesh fvOptions)
 target_include_directories(fvMotionSolvers PUBLIC
   fvMotionSolvers/componentDisplacement/componentLaplacian
   fvMotionSolvers/componentVelocity/componentLaplacian

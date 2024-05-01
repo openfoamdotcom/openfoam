@@ -10,7 +10,7 @@ set(_FILES
 add_library(lagrangianTurbulence ${_FILES})
 target_compile_features(lagrangianTurbulence PUBLIC cxx_std_11)
 target_compile_definitions(lagrangianTurbulence PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(lagrangianTurbulence PUBLIC lagrangianIntermediate surfaceFilmModels dynamicFvMesh regionFaModels finiteArea)
+target_link_libraries(lagrangianTurbulence PUBLIC dynamicFvMesh finiteArea lagrangianIntermediate regionFaModels surfaceFilmModels)
 target_include_directories(lagrangianTurbulence PUBLIC
   parcels/include
   submodels/Kinematic/DispersionModel/DispersionRASModel

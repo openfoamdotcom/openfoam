@@ -58,7 +58,7 @@ set(_FILES
 add_library(radiationModels ${_FILES})
 target_compile_features(radiationModels PUBLIC cxx_std_11)
 target_compile_definitions(radiationModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(radiationModels PUBLIC solidThermo SLGThermo thermophysicalProperties distributed)
+target_link_libraries(radiationModels PUBLIC SLGThermo distributed solidThermo thermophysicalProperties)
 target_include_directories(radiationModels PUBLIC
   include
   derivedFvPatchFields/MarshakRadiation

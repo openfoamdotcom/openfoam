@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(engineFoam ${_FILES})
 target_compile_features(engineFoam PUBLIC cxx_std_11)
-target_link_libraries(engineFoam PUBLIC lagrangianSpray engine surfaceFilmModels regionFaModels faOptions)
+target_link_libraries(engineFoam PUBLIC engine faOptions lagrangianSpray regionFaModels surfaceFilmModels)

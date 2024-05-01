@@ -7,7 +7,7 @@ set(_FILES
 add_library(solidChemistryModel ${_FILES})
 target_compile_features(solidChemistryModel PUBLIC cxx_std_11)
 target_compile_definitions(solidChemistryModel PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(solidChemistryModel PUBLIC chemistryModel solidThermo reactionThermophysicalModels compressibleTransportModels thermophysicalProperties)
+target_link_libraries(solidChemistryModel PUBLIC chemistryModel compressibleTransportModels reactionThermophysicalModels solidThermo thermophysicalProperties)
 target_include_directories(solidChemistryModel PUBLIC
   .
   basicSolidChemistryModel

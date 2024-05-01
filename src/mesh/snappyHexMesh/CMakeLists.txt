@@ -34,7 +34,7 @@ set(_FILES
 add_library(snappyHexMeshLib ${_FILES})
 target_compile_features(snappyHexMeshLib PUBLIC cxx_std_11)
 target_compile_definitions(snappyHexMeshLib PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(snappyHexMeshLib PUBLIC fvMotionSolvers overset distributed decompositionMethods)
+target_link_libraries(snappyHexMeshLib PUBLIC decompositionMethods distributed fvMotionSolvers overset)
 set_target_properties(snappyHexMeshLib PROPERTIES OUTPUT_NAME snappyHexMesh)
 target_include_directories(snappyHexMeshLib PUBLIC
   externalDisplacementMeshMover

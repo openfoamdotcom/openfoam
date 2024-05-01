@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(pimpleFoam ${_FILES})
 target_compile_features(pimpleFoam PUBLIC cxx_std_11)
-target_link_libraries(pimpleFoam PUBLIC topoChangerFvMesh atmosphericModels regionFaModels finiteArea)
+target_link_libraries(pimpleFoam PUBLIC atmosphericModels finiteArea regionFaModels topoChangerFvMesh)

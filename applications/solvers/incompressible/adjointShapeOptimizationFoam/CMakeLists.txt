@@ -5,4 +5,4 @@ set(_FILES
 )
 add_executable(adjointShapeOptimizationFoam ${_FILES})
 target_compile_features(adjointShapeOptimizationFoam PUBLIC cxx_std_11)
-target_link_libraries(adjointShapeOptimizationFoam PUBLIC fvOptions incompressibleTurbulenceModels incompressibleTransportModels)
+target_link_libraries(adjointShapeOptimizationFoam PUBLIC fvOptions incompressibleTransportModels incompressibleTurbulenceModels)

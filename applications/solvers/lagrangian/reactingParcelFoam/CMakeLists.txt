@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(reactingParcelFoam ${_FILES})
 target_compile_features(reactingParcelFoam PUBLIC cxx_std_11)
-target_link_libraries(reactingParcelFoam PUBLIC fvOptions surfaceFilmDerivedFvPatchFields lagrangianTurbulence regionFaModels faOptions)
+target_link_libraries(reactingParcelFoam PUBLIC faOptions fvOptions lagrangianTurbulence regionFaModels surfaceFilmDerivedFvPatchFields)

@@ -34,7 +34,7 @@ set(_FILES
 add_library(utilityFunctionObjects ${_FILES})
 target_compile_features(utilityFunctionObjects PUBLIC cxx_std_11)
 target_compile_definitions(utilityFunctionObjects PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(utilityFunctionObjects PUBLIC dynamicMesh conversion sampling ODE fluidThermophysicalModels compressibleTransportModels)
+target_link_libraries(utilityFunctionObjects PUBLIC ODE compressibleTransportModels conversion dynamicMesh fluidThermophysicalModels sampling)
 target_include_directories(utilityFunctionObjects PUBLIC
   abort
   areaWrite

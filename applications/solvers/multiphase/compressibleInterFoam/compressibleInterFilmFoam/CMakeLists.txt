@@ -6,4 +6,4 @@ set(_FILES
 )
 add_executable(compressibleInterFilmFoam ${_FILES})
 target_compile_features(compressibleInterFilmFoam PUBLIC cxx_std_11)
-target_link_libraries(compressibleInterFilmFoam PUBLIC fvOptions twoPhaseSurfaceTension VoFphaseCompressibleTurbulenceModels surfaceFilmDerivedFvPatchFields dynamicFvMesh)
+target_link_libraries(compressibleInterFilmFoam PUBLIC VoFphaseCompressibleTurbulenceModels dynamicFvMesh fvOptions surfaceFilmDerivedFvPatchFields twoPhaseSurfaceTension)

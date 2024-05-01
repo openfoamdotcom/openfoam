@@ -5,7 +5,7 @@ set(_FILES
 add_library(phaseFunctionObjects ${_FILES})
 target_compile_features(phaseFunctionObjects PUBLIC cxx_std_11)
 target_compile_definitions(phaseFunctionObjects PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(phaseFunctionObjects PUBLIC fieldFunctionObjects reactingMultiphaseSystem dynamicMesh meshTools)
+target_link_libraries(phaseFunctionObjects PUBLIC dynamicMesh fieldFunctionObjects meshTools reactingMultiphaseSystem)
 target_include_directories(phaseFunctionObjects PUBLIC
   phaseForces
   sizeDistribution

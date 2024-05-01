@@ -18,7 +18,7 @@ set(_FILES
 add_library(randomProcesses ${_FILES})
 target_compile_features(randomProcesses PUBLIC cxx_std_11)
 target_compile_definitions(randomProcesses PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(randomProcesses PUBLIC sampling FFTW3::fftw3f)
+target_link_libraries(randomProcesses PUBLIC FFTW3::fftw3f sampling)
 target_include_directories(randomProcesses PUBLIC
   Kmesh
   fft

@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(uncoupledKinematicParcelDyMFoam ${_FILES})
 target_compile_features(uncoupledKinematicParcelDyMFoam PUBLIC cxx_std_11)
-target_link_libraries(uncoupledKinematicParcelDyMFoam PUBLIC fvOptions lagrangianTurbulence surfaceFilmModels topoChangerFvMesh regionFaModels faOptions)
+target_link_libraries(uncoupledKinematicParcelDyMFoam PUBLIC faOptions fvOptions lagrangianTurbulence regionFaModels surfaceFilmModels topoChangerFvMesh)

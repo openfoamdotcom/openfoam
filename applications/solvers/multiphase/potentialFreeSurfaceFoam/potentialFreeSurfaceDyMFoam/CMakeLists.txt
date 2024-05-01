@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(potentialFreeSurfaceDyMFoam ${_FILES})
 target_compile_features(potentialFreeSurfaceDyMFoam PUBLIC cxx_std_11)
-target_link_libraries(potentialFreeSurfaceDyMFoam PUBLIC fvOptions sampling incompressibleTurbulenceModels topoChangerFvMesh)
+target_link_libraries(potentialFreeSurfaceDyMFoam PUBLIC fvOptions incompressibleTurbulenceModels sampling topoChangerFvMesh)

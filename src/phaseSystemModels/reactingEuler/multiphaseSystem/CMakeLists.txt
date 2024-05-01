@@ -153,7 +153,7 @@ set(_FILES
 add_library(reactingMultiphaseSystem ${_FILES})
 target_compile_features(reactingMultiphaseSystem PUBLIC cxx_std_11)
 target_compile_definitions(reactingMultiphaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(reactingMultiphaseSystem PUBLIC combustionModels compressibleTurbulenceModels thermophysicalProperties saturationModel)
+target_link_libraries(reactingMultiphaseSystem PUBLIC combustionModels compressibleTurbulenceModels saturationModel thermophysicalProperties)
 target_include_directories(reactingMultiphaseSystem PUBLIC
   BlendedInterfacialModel
   BlendedInterfacialModel/blendingMethods/blendingMethod

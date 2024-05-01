@@ -9,7 +9,7 @@ set(_FILES
 add_library(pyrolysisModels ${_FILES})
 target_compile_features(pyrolysisModels PUBLIC cxx_std_11)
 target_compile_definitions(pyrolysisModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(pyrolysisModels PUBLIC solidChemistryModel compressibleTurbulenceModels regionModels radiationModels reactionThermophysicalModels)
+target_link_libraries(pyrolysisModels PUBLIC compressibleTurbulenceModels radiationModels reactionThermophysicalModels regionModels solidChemistryModel)
 target_include_directories(pyrolysisModels PUBLIC
   noPyrolysis
   pyrolysisModel

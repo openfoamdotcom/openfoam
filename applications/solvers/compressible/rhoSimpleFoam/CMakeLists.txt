@@ -3,4 +3,4 @@ set(_FILES
 )
 add_executable(rhoSimpleFoam ${_FILES})
 target_compile_features(rhoSimpleFoam PUBLIC cxx_std_11)
-target_link_libraries(rhoSimpleFoam PUBLIC atmosphericModels regionFaModels finiteArea)
+target_link_libraries(rhoSimpleFoam PUBLIC atmosphericModels finiteArea regionFaModels)
