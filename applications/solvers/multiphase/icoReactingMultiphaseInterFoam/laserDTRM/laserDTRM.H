@@ -56,7 +56,7 @@ SourceFiles
 #include "radiationModel.H"
 #include "volFields.H"
 #include "surfaceFields.H"
-#include "Cloud.H"
+#include "CloudPascal.H"
 #include "DTRMParticle.H"
 #include "reflectionModel.H"
 #include "Function1.H"

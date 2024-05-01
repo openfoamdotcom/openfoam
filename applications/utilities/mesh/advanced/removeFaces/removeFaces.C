@@ -44,7 +44,7 @@ Description
 #include "polyTopoChange.H"
 #include "faceSet.H"
 #include "removeFaces.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "processorMeshes.H"

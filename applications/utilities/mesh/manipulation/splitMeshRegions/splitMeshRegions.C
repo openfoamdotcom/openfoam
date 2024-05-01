@@ -111,7 +111,7 @@ Description
 #include "removeCells.H"
 #include "edgeHashes.H"
 #include "syncTools.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "mappedWallPolyPatch.H"
 #include "fvMeshTools.H"
 #include "processorMeshes.H"

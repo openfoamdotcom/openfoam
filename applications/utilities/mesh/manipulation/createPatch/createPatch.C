@@ -58,7 +58,7 @@ Description
 #include "regionProperties.H"
 #include "faceAreaWeightAMI2D.H"
 #include "fvMeshTools.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 
 using namespace Foam;
 

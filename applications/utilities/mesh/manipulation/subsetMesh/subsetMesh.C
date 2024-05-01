@@ -51,7 +51,7 @@ Description
 #include "cellSet.H"
 #include "faceSet.H"
 #include "pointSet.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "processorMeshes.H"
 
 using namespace Foam;

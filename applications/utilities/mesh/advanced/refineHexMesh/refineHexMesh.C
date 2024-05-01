@@ -50,7 +50,7 @@ Description
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "pointFields.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "processorMeshes.H"
 
 using namespace Foam;

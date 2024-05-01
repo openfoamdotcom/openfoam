@@ -44,7 +44,7 @@ Description
 #include "fvMesh.H"
 #include "volFields.H"
 #include "TimeOpenFOAM.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "singleCellFvMesh.H"
 #include "timeSelector.H"
 

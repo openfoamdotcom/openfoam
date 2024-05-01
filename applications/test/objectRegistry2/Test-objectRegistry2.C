@@ -37,7 +37,7 @@ Description
 #include "fvMesh.H"
 #include "volFields.H"
 #include "timeSelector.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "IOstreams.H"
 #include "PtrListOps.H"
 #include "IOobjectList.H"

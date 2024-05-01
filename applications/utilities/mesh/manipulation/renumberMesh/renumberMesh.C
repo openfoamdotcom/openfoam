@@ -43,7 +43,7 @@ Description
 #include "IOobjectList.H"
 #include "fvMesh.H"
 #include "polyTopoChange.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "SortableList.H"

@@ -39,7 +39,7 @@ Description
 #include "fileOperation.H"
 #include "IOstreams.H"
 #include "OSspecific.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "volFields.H"
 
 using namespace Foam;

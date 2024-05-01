@@ -37,7 +37,7 @@ Description
 #include "argList.H"
 #include "profiling.H"
 #include "timeSelector.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "pointFields.H"

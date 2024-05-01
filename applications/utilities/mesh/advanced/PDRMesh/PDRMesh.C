@@ -62,7 +62,7 @@ Description
 #include "cellSet.H"
 #include "pointSet.H"
 #include "syncTools.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "polyTopoChange.H"
 #include "polyModifyFace.H"
 #include "polyAddFace.H"

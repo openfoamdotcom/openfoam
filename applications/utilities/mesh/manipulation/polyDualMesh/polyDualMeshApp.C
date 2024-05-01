@@ -73,7 +73,7 @@ Note
 #include "meshTools.H"
 #include "OFstream.H"
 #include "meshDualiser.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "topoSet.H"

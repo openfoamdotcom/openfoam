@@ -49,7 +49,7 @@ Description
 #include "polyTopoChange.H"
 #include "polyModifyFace.H"
 #include "polyAddFace.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "fvMeshMapper.H"

@@ -34,10 +34,10 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#ifndef Foam_passivePositionParticleCloud_H
-#define Foam_passivePositionParticleCloud_H
+#ifndef Foam_passivePositionParticleCloudPascal_H
+#define Foam_passivePositionParticleCloudPascal_H
 
-#include "Cloud.H"
+#include "CloudPascal.H"
 #include "passivePositionParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

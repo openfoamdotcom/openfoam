@@ -75,7 +75,7 @@ Note
 #include "processorPolyPatch.H"
 #include "localPointRegion.H"
 #include "duplicatePoints.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "volFields.H"
 #include "surfaceFields.H"
 #include "processorMeshes.H"

@@ -40,7 +40,7 @@ Description
 #include "IOstreams.H"
 #include "OSspecific.H"
 #include "profiling.H"
-#include "ReadFields.H"
+#include "ReadFieldsPascal.H"
 #include "volFields.H"
 
 using namespace Foam;
