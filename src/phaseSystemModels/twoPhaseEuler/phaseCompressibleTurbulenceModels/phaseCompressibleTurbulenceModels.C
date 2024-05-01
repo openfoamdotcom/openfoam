@@ -30,7 +30,7 @@ License
 #include "phaseModel.H"
 #include "twoPhaseSystem.H"
 #include "addToRunTimeSelectionTable.H"
-#include "makeTurbulenceModel.H"
+#include "compressible_makeTurbulenceModel.H"
 
 #include "ThermalDiffusivity.H"
 #include "EddyDiffusivity.H"

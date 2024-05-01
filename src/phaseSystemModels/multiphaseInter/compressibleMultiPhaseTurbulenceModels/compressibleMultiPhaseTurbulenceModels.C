@@ -29,7 +29,7 @@ License
 #include "compressibleTurbulenceModel.H"
 #include "multiphaseSystem.H"
 #include "addToRunTimeSelectionTable.H"
-#include "makeTurbulenceModel.H"
+#include "compressible_makeTurbulenceModel.H"
 
 #include "ThermalDiffusivity.H"
 

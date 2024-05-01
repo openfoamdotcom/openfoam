@@ -29,7 +29,7 @@ License
 #include "compressibleTransportModel.H"
 #include "fluidThermo.H"
 #include "addToRunTimeSelectionTable.H"
-#include "makeTurbulenceModel.H"
+#include "compressible_makeTurbulenceModel.H"
 
 #include "ThermalDiffusivity.H"
 #include "EddyDiffusivity.H"

@@ -27,7 +27,7 @@ License
 
 #include "phaseCompressibleTurbulenceModel.H"
 #include "addToRunTimeSelectionTable.H"
-#include "makeTurbulenceModel.H"
+#include "compressible_makeTurbulenceModel.H"
 
 #include "laminarModel.H"
 #include "RASModel.H"
