@@ -3,6 +3,39 @@
 This is an unofficial copy https://develop.openfoam.com/Development/openfoam.
 The main purpose of this copy is so I can play around with building on mac with CMake.
 
+### Building
+
+This repository has added a little thirdparty script to install some of the third party libraries.
+The libraries this script installs are:
+
+* fftw
+* metis
+* scotch/ptscotch
+* GKlib
+
+To use the third party script, create a directory to place all the source code, build files, and installed files into.
+We'll call this directory *third_party_root*.
+This directory must exist for the third party script to work.
+
+Once the *third_party_root* directory has been created, either:
+
+* Set the location in an environment variable: OPENFOAM_THIRD_PARTY_ROOT,
+* Pass a variable: OPENFOAM_THIRD_PARTY_ROOT, through to the build using -DOPENFOAM_THIRD_PARTY_ROOT=<whatever> or similar, or
+* Pass a variable: TP_ROOT, through to the build using -DTP_ROOT=<whatever>.
+
+Then build the third party libraries with the build command for the configured build tool.
+
+Commnds:
+
+ cmake -DOPENFOAM_THIRD_PARTY_ROOT=/absolute/path/to/third_party_root ../openfoam-com/thirdparty
+ make -j8
+
+To build OpenFOAM itself, create a build directory *build-openfoam-release* or similar.
+Configure and build with:
+
+ cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/third_party_root/install ../openfoam-com
+ make -j8
+
 ## About OpenFOAM
 
 OpenFOAM is a free, open source CFD software [released and developed by OpenCFD Ltd since 2004](http://www.openfoam.com/history/).
