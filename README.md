@@ -25,7 +25,7 @@ Once the **third_party_root** directory has been created, either:
 
 Then build the third party libraries with the build command for the configured build tool.
 
-Commnds:
+Commands:
 
 ```
  git clone https://github.com/openfoamdotcom/openfoam openfoam-com
