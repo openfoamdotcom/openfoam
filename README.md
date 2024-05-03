@@ -28,14 +28,21 @@ Then build the third party libraries with the build command for the configured b
 Commnds:
 
 ```
+ git clone https://github.com/openfoamdotcom/openfoam openfoam-com
+ mkdir third_party_root
+ mkdir build-openfoam-third-party-release
+ cd build-openfoam-third-party-release
  cmake -DOPENFOAM_THIRD_PARTY_ROOT=/absolute/path/to/third_party_root ../openfoam-com/thirdparty
  make -j8
+ cd ..
 ```
 
 To build OpenFOAM itself, create a build directory **build-openfoam-release** or similar.
 Configure and build with:
 
 ```
+ mkdir build-openfoam-com-release
+ cd build-openfoam-com-release
  cmake -DCMAKE_PREFIX_PATH=/absolute/path/to/third_party_root/install ../openfoam-com
  make -j8
 ```
