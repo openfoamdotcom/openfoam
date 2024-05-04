@@ -4,7 +4,10 @@ project(OpenFOAM_Third_Party LANGUAGES C CXX)
 
 cmake_policy(SET CMP0057 NEW)
 cmake_policy(SET CMP0054 NEW)
-cmake_policy(SET CMP0135 NEW)
+
+if(POLICY CMP0135)
+  cmake_policy(SET CMP0135 NEW)
+endif()
 
 get_property(IS_MULTI_CONFIG GLOBAL PROPERTY GENERATOR_IS_MULTI_CONFIG)
 
