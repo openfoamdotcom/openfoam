@@ -13,7 +13,7 @@ set(_FILES
 add_library(Pstream ${_FILES})
 target_compile_features(Pstream PUBLIC cxx_std_11)
 target_compile_definitions(Pstream PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-if (BUILD_SHARED_LIBS)
+if (BUILD_SHARED_LIBS AND USING_CLANG)
   target_link_options(Pstream PUBLIC -undefined dynamic_lookup)
 endif()
 target_link_libraries(Pstream PUBLIC MPI::MPI_CXX OSspecific)

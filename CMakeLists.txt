@@ -24,12 +24,16 @@ set(WM_VERSION OPENFOAM=${OPENFOAM_VERSION})
 
 find_package(ZLIB REQUIRED)
 find_package(FLEX REQUIRED)
-find_package(RAGEL REQUIRED)
 find_package(FFTW3f REQUIRED)
 
+find_package(RAGEL)
 find_package(METIS)
 find_package(MPI)
 find_package(SCOTCH)
+
+if (CMAKE_C_COMPILER_ID STREQUAL "AppleClang" OR CMAKE_C_COMPILER_ID STREQUAL "Clang")
+  set(USING_CLANG TRUE)
+endif()
 
 if (TARGET SCOTCH::ptscotch)
   set(PTSCOTCH_FOUND 1)

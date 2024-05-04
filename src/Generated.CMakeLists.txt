@@ -612,6 +612,7 @@ add_subdirectory(tutorials/incompressible/pimpleFoam/laminar/contaminatedDroplet
 add_subdirectory(tutorials/incompressible/lumpedPointMotion/bridge/code)
 add_subdirectory(tutorials/incompressible/lumpedPointMotion/building/code)
 add_subdirectory(cmakemodules/lemon)
+add_subdirectory(thirdparty)
 add_subdirectory(src)
 add_subdirectory(src/renumber/renumberMethods)
 add_subdirectory(src/renumber/SloanRenumber)
