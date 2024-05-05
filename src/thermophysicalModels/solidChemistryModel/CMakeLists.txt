@@ -10,9 +10,5 @@ target_compile_definitions(solidChemistryModel PUBLIC WM_LABEL_SIZE=${WM_LABEL_S
 target_link_libraries(solidChemistryModel PUBLIC chemistryModel compressibleTransportModels reactionThermophysicalModels solidThermo thermophysicalProperties)
 target_include_directories(solidChemistryModel PUBLIC
   .
-  basicSolidChemistryModel
-  pyrolysisChemistryModel
-  solidChemistryModel
-  solidChemistrySolver
 )
 install(TARGETS solidChemistryModel DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

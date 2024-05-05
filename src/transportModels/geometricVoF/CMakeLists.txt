@@ -22,15 +22,6 @@ target_compile_features(geometricVoF PUBLIC cxx_std_11)
 target_compile_definitions(geometricVoF PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(geometricVoF PUBLIC dynamicMesh sampling twoPhaseProperties)
 target_include_directories(geometricVoF PUBLIC
-  advectionSchemes/isoAdvection
-  cellCuts/cutCell
-  cellCuts/cutFace
-  reconstructedDistanceFunction
-  reconstructionSchemes
-  reconstructionSchemes/isoSchemes/isoAlpha
-  reconstructionSchemes/plicSchemes/gradAlpha
-  reconstructionSchemes/plicSchemes/plicRDF
-  sampledInterface
-  surfaceIterators
+  .
 )
 install(TARGETS geometricVoF DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

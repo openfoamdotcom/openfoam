@@ -20,16 +20,6 @@ target_compile_features(randomProcesses PUBLIC cxx_std_11)
 target_compile_definitions(randomProcesses PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(randomProcesses PUBLIC FFTW3::fftw3f sampling)
 target_include_directories(randomProcesses PUBLIC
-  Kmesh
-  fft
-  noise/noiseFFT
-  noise/noiseModels/noiseModel
-  noise/noiseModels/pointNoise
-  noise/noiseModels/surfaceNoise
-  processes/UOprocess
-  turbulence
-  windowModels/Hanning
-  windowModels/uniform
-  windowModels/windowModel
+  .
 )
 install(TARGETS randomProcesses DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -21,24 +21,6 @@ target_compile_features(combustionModels PUBLIC cxx_std_11)
 target_compile_definitions(combustionModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(combustionModels PUBLIC chemistryModel compressibleTurbulenceModels thermophysicalProperties)
 target_include_directories(combustionModels PUBLIC
-  CombustionModelCaseDir/ChemistryCombustion
-  CombustionModelCaseDir/CombustionModel
-  CombustionModelCaseDir/ThermoCombustion
-  EDC
-  FSD
-  FSD/reactionRateFlameAreaModels/consumptionSpeed
-  FSD/reactionRateFlameAreaModels/reactionRateFlameArea
-  FSD/reactionRateFlameAreaModels/relaxation
-  PaSR
-  combustionModel
-  diffusion
-  diffusionMulticomponent
-  eddyDissipationDiffusionModel
-  eddyDissipationModelBase
-  infinitelyFastChemistry
-  laminar
-  noCombustion
-  singleStepCombustion
-  zoneCombustion
+  .
 )
 install(TARGETS combustionModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

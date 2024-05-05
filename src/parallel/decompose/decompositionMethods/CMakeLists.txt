@@ -22,22 +22,6 @@ target_compile_features(decompositionMethods PUBLIC cxx_std_11)
 target_compile_definitions(decompositionMethods PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(decompositionMethods PUBLIC dynamicMesh)
 target_include_directories(decompositionMethods PUBLIC
-  decompositionConstraints/decompositionConstraint
-  decompositionConstraints/geometric
-  decompositionConstraints/preserveBaffles
-  decompositionConstraints/preserveFaceZones
-  decompositionConstraints/preservePatches
-  decompositionConstraints/refinementHistory
-  decompositionConstraints/singleProcessorFaceSets
-  decompositionMethod
-  geomDecomp
-  hierarchGeomDecomp
-  manualDecomp
-  metisLikeDecomp
-  multiLevelDecomp
-  noDecomp
-  randomDecomp
-  simpleGeomDecomp
-  structuredDecomp
+  .
 )
 install(TARGETS decompositionMethods DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

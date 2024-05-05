@@ -60,53 +60,6 @@ target_compile_features(radiationModels PUBLIC cxx_std_11)
 target_compile_definitions(radiationModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(radiationModels PUBLIC SLGThermo distributed solidThermo thermophysicalProperties)
 target_include_directories(radiationModels PUBLIC
-  include
-  derivedFvPatchFields/MarshakRadiation
-  derivedFvPatchFields/MarshakRadiationFixedTemperature
-  derivedFvPatchFields/greyDiffusiveRadiation
-  derivedFvPatchFields/greyDiffusiveViewFactor
-  derivedFvPatchFields/specularRadiation
-  derivedFvPatchFields/wideBandDiffusiveRadiation
-  fvOptions/radiation
-  radiationModels/P1
-  radiationModels/fvDOM/absorptionCoeffs
-  radiationModels/fvDOM/blackBodyEmission
-  radiationModels/fvDOM/fvDOM
-  radiationModels/fvDOM/radiativeIntensityRay
-  radiationModels/noRadiation
-  radiationModels/opaqueSolid
-  radiationModels/radiationModel
-  radiationModels/solarLoad
-  radiationModels/solarLoad/faceReflecting
-  radiationModels/solarLoad/faceShading
-  radiationModels/viewFactor
-  submodels/absorptionEmissionModel/absorptionEmissionModel
-  submodels/absorptionEmissionModel/binaryAbsorptionEmission
-  submodels/absorptionEmissionModel/constantAbsorptionEmission
-  submodels/absorptionEmissionModel/greyMeanAbsorptionEmission
-  submodels/absorptionEmissionModel/greyMeanSolidAbsorptionEmission
-  submodels/absorptionEmissionModel/multiBandAbsorptionEmission
-  submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission
-  submodels/absorptionEmissionModel/noAbsorptionEmission
-  submodels/absorptionEmissionModel/wideBandAbsorptionEmission
-  submodels/boundaryRadiationProperties
-  submodels/boundaryRadiationProperties/lookup
-  submodels/boundaryRadiationProperties/opaqueDiffusive
-  submodels/boundaryRadiationProperties/opaqueReflective
-  submodels/boundaryRadiationProperties/transparent
-  submodels/scatterModel/constantScatter
-  submodels/scatterModel/noScatter
-  submodels/scatterModel/scatterModel
-  submodels/solarCalculator
-  submodels/sootModel/mixtureFractionSoot
-  submodels/sootModel/noSoot
-  submodels/sootModel/sootModel
-  submodels/wallAbsorptionEmissionModel/constantAbsorption
-  submodels/wallAbsorptionEmissionModel/multiBandAbsorption
-  submodels/wallAbsorptionEmissionModel/solidAbsorption
-  submodels/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel
-  submodels/wallTransmissivityModel/constantTransmissivity
-  submodels/wallTransmissivityModel/multiBandTransmissivity
-  submodels/wallTransmissivityModel/wallTransmissivityModel
+  .
 )
 install(TARGETS radiationModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

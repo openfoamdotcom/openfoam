@@ -27,26 +27,6 @@ target_compile_features(waveModels PUBLIC cxx_std_11)
 target_compile_definitions(waveModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(waveModels PUBLIC fvOptions)
 target_include_directories(waveModels PUBLIC
-  derivedFvPatchFields/waveAlpha
-  derivedFvPatchFields/waveVelocity
-  derivedPointPatchFields/waveMaker
-  fvOptions/multiphaseMangrovesSource
-  fvOptions/multiphaseMangrovesTurbulenceModel
-  waveAbsorptionModels/base/waveAbsorptionModel
-  waveAbsorptionModels/derived/shallowWaterAbsorption
-  waveGenerationModels/base/irregularWaveModel
-  waveGenerationModels/base/regularWaveModel
-  waveGenerationModels/base/solitaryWaveModel
-  waveGenerationModels/base/waveGenerationModel
-  waveGenerationModels/derived/Boussinesq
-  waveGenerationModels/derived/Grimshaw
-  waveGenerationModels/derived/McCowan
-  waveGenerationModels/derived/StokesI
-  waveGenerationModels/derived/StokesII
-  waveGenerationModels/derived/StokesV
-  waveGenerationModels/derived/cnoidal
-  waveGenerationModels/derived/irregularMultiDirectional
-  waveGenerationModels/derived/streamFunction
-  waveModel
+  .
 )
 install(TARGETS waveModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

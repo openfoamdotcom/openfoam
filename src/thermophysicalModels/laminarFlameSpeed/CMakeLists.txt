@@ -11,10 +11,6 @@ target_compile_features(laminarFlameSpeedModels PUBLIC cxx_std_11)
 target_compile_definitions(laminarFlameSpeedModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(laminarFlameSpeedModels PUBLIC reactionThermophysicalModels)
 target_include_directories(laminarFlameSpeedModels PUBLIC
-  Gulders
-  GuldersEGR
-  RaviPetersen
-  constant
-  laminarFlameSpeed
+  .
 )
 install(TARGETS laminarFlameSpeedModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

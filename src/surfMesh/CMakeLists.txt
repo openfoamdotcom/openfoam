@@ -69,52 +69,6 @@ target_compile_features(surfMesh PUBLIC cxx_std_11)
 target_compile_definitions(surfMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(surfMesh PUBLIC fileFormats)
 target_include_directories(surfMesh PUBLIC
-  MeshedSurface
-  MeshedSurfaceAllocator
-  MeshedSurfaceProxy
-  ModifiableMeshedSurface
-  UnsortedMeshedSurface
-  mergedSurf
-  meshedSurf
-  polySurface
-  polySurface/fields
-  readers/boundary
-  readers/common
-  readers/ensight
-  surfMesh
-  surfMesh/fields
-  surfZone
-  surfaceFormats
-  surfaceFormats/abaqus
-  surfaceFormats/ac3d
-  surfaceFormats/fire
-  surfaceFormats/gts
-  surfaceFormats/nas
-  surfaceFormats/obj
-  surfaceFormats/off
-  surfaceFormats/smesh
-  surfaceFormats/starcd
-  surfaceFormats/stl
-  surfaceFormats/tri
-  surfaceFormats/vtk
-  surfaceFormats/vtp
-  surfaceFormats/x3d
-  surfaceRegistry
-  triSurface
-  triSurface/fields
-  triSurface/patches
-  writers/abaqus
-  writers/boundary
-  writers/common
-  writers/debug
-  writers/ensight
-  writers/foam
-  writers/nastran
-  writers/null
-  writers/proxy
-  writers/raw
-  writers/starcd
-  writers/vtk
-  writers/x3d
+  .
 )
 install(TARGETS surfMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

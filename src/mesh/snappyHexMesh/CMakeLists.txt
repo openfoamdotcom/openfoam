@@ -37,18 +37,6 @@ target_compile_definitions(snappyHexMeshLib PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE
 target_link_libraries(snappyHexMeshLib PUBLIC decompositionMethods distributed fvMotionSolvers overset)
 set_target_properties(snappyHexMeshLib PROPERTIES OUTPUT_NAME snappyHexMesh)
 target_include_directories(snappyHexMeshLib PUBLIC
-  externalDisplacementMeshMover
-  externalDisplacementMeshMover/fieldSmoother
-  externalDisplacementMeshMover/zeroFixedValue
-  meshRefinement
-  refinementFeatures
-  refinementSurfaces
-  shellSurfaces
-  snappyHexMeshDriver
-  snappyHexMeshDriver/PointIntegrateData
-  snappyHexMeshDriver/layerParameters
-  snappyHexMeshDriver/refinementParameters
-  snappyHexMeshDriver/snapParameters
-  trackedParticle
+  .
 )
 install(TARGETS snappyHexMeshLib DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -36,32 +36,6 @@ target_compile_features(utilityFunctionObjects PUBLIC cxx_std_11)
 target_compile_definitions(utilityFunctionObjects PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(utilityFunctionObjects PUBLIC ODE compressibleTransportModels conversion dynamicMesh fluidThermophysicalModels sampling)
 target_include_directories(utilityFunctionObjects PUBLIC
-  abort
-  areaWrite
-  caseInfo
-  codedFunctionObject
-  ensightWrite
-  multiRegion
-  parProfiling
-  removeRegisteredObject
-  runTimeControl
-  runTimeControl/runTimeCondition/averageCondition
-  runTimeControl/runTimeCondition/equationInitialResidualCondition
-  runTimeControl/runTimeCondition/equationMaxIterCondition
-  runTimeControl/runTimeCondition/maxDurationCondition
-  runTimeControl/runTimeCondition/minMaxCondition
-  runTimeControl/runTimeCondition/minTimeStepCondition
-  runTimeControl/runTimeCondition/noneCondition
-  runTimeControl/runTimeCondition/runTimeCondition
-  setTimeStep
-  solverInfo
-  syncObjects
-  systemCall
-  thermoCoupleProbes
-  timeActivatedFileUpdate
-  timeInfo
-  vtkWrite
-  writeDictionary
-  writeObjects
+  .
 )
 install(TARGETS utilityFunctionObjects DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

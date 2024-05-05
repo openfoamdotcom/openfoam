@@ -16,13 +16,6 @@ target_compile_features(faOptions PUBLIC cxx_std_11)
 target_compile_definitions(faOptions PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(faOptions PUBLIC finiteArea incompressibleTurbulenceModels thermoTools)
 target_include_directories(faOptions PUBLIC
-  corrections/limitHeight
-  corrections/limitVelocity
-  faOption
-  faceSetOption
-  sources/derived/contactHeatFluxSource
-  sources/derived/externalFileSource
-  sources/derived/externalHeatFluxSource
-  sources/derived/jouleHeatingSource
+  .
 )
 install(TARGETS faOptions DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

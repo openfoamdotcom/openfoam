@@ -13,13 +13,6 @@ target_compile_features(lagrangian PUBLIC cxx_std_11)
 target_compile_definitions(lagrangian PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(lagrangian PUBLIC meshTools)
 target_include_directories(lagrangian PUBLIC
-  Cloud
-  IOPosition
-  InteractionLists
-  InteractionLists/referredWallFace
-  indexedParticle
-  injectedParticle
-  particle
-  passiveParticle
+  .
 )
 install(TARGETS lagrangian DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

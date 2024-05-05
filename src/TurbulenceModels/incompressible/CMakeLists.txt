@@ -16,15 +16,5 @@ target_compile_definitions(incompressibleTurbulenceModels PUBLIC WM_LABEL_SIZE=$
 target_link_libraries(incompressibleTurbulenceModels PUBLIC incompressibleTransportModels turbulenceModels)
 target_include_directories(incompressibleTurbulenceModels PUBLIC
   .
-  IncompressibleTurbulenceModel
-  turbulentTransportModels
-  turbulentTransportModels/RAS/LamBremhorstKE
-  turbulentTransportModels/RAS/LienCubicKE
-  turbulentTransportModels/RAS/LienLeschziner
-  turbulentTransportModels/RAS/ShihQuadraticKE
-  turbulentTransportModels/RAS/kkLOmega
-  turbulentTransportModels/RAS/qZeta
-  turbulentTransportModels/derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction
-  ${OPENFOAM_SRC_DIR}/TurbulenceModels/phaseIncompressible/PhaseIncompressibleTurbulenceModel
 )
 install(TARGETS incompressibleTurbulenceModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

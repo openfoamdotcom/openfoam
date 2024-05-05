@@ -44,28 +44,6 @@ target_compile_definitions(blockMeshLib PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM
 target_link_libraries(blockMeshLib PUBLIC meshTools)
 set_target_properties(blockMeshLib PROPERTIES OUTPUT_NAME blockMesh)
 target_include_directories(blockMeshLib PUBLIC
-  PDRblockMesh
-  blockDescriptor
-  blockEdges/BSplineEdge
-  blockEdges/arcEdge
-  blockEdges/bezier
-  blockEdges/blockEdge
-  blockEdges/lineDivide
-  blockEdges/lineEdge
-  blockEdges/polyLineEdge
-  blockEdges/projectCurveEdge
-  blockEdges/projectEdge
-  blockEdges/splineEdge
-  blockFaces/blockFace
-  blockFaces/projectFace
-  blockMesh
-  blockMeshTools
-  blockVertices/blockVertex
-  blockVertices/namedVertex
-  blockVertices/pointVertex
-  blockVertices/projectVertex
-  blocks/block
-  blocks/namedBlock
-  gradingDescriptor
+  .
 )
 install(TARGETS blockMeshLib DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

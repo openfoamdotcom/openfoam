@@ -69,32 +69,6 @@ target_compile_features(fileFormats PUBLIC cxx_std_11)
 target_compile_definitions(fileFormats PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(fileFormats PUBLIC OpenFOAM)
 target_include_directories(fileFormats PUBLIC
-  abaqus
-  colours
-  common
-  ensight/file
-  ensight/mesh
-  ensight/name
-  ensight/output
-  ensight/part/cells
-  ensight/part/faces
-  ensight/part/part
-  ensight/part/surface
-  ensight/read
-  ensight/type
-  fire
-  gltf
-  json
-  nastran
-  obj
-  starcd
-  stl
-  vtk/base
-  vtk/file
-  vtk/format
-  vtk/output
-  vtk/part
-  vtk/read
-  vtk/write
+  .
 )
 install(TARGETS fileFormats DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

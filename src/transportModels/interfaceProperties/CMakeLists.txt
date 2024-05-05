@@ -13,10 +13,5 @@ target_compile_definitions(interfaceProperties PUBLIC WM_LABEL_SIZE=${WM_LABEL_S
 target_link_libraries(interfaceProperties PUBLIC finiteVolume twoPhaseMixture)
 target_include_directories(interfaceProperties PUBLIC
   .
-  alphaContactAngle
-  interfaceCompression
-  surfaceTensionModels/constant
-  surfaceTensionModels/surfaceTensionModel
-  surfaceTensionModels/temperatureDependent
 )
 install(TARGETS interfaceProperties DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

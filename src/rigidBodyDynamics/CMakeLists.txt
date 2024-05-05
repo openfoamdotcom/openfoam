@@ -49,45 +49,6 @@ target_compile_features(rigidBodyDynamics PUBLIC cxx_std_11)
 target_compile_definitions(rigidBodyDynamics PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(rigidBodyDynamics PUBLIC OpenFOAM)
 target_include_directories(rigidBodyDynamics PUBLIC
-  bodies/compositeBody
-  bodies/cuboid
-  bodies/jointBody
-  bodies/masslessBody
-  bodies/rigidBody
-  bodies/sphere
-  bodies/subBody
-  joints/Pa
-  joints/Px
-  joints/Pxyz
-  joints/Py
-  joints/Pz
-  joints/Ra
-  joints/Rs
-  joints/Rx
-  joints/Rxyz
-  joints/Ry
-  joints/Ryxz
-  joints/Rz
-  joints/Rzyx
-  joints/composite
-  joints/floating
-  joints/joint
-  joints/null
-  restraints/externalForce
-  restraints/linearAxialAngularSpring
-  restraints/linearDamper
-  restraints/linearSpring
-  restraints/prescribedRotation
-  restraints/restraint
-  restraints/softWall
-  restraints/sphericalAngularDamper
-  rigidBodyInertia
-  rigidBodyModel
-  rigidBodyModelState
-  rigidBodyMotion
-  rigidBodySolvers/CrankNicolson
-  rigidBodySolvers/Newmark
-  rigidBodySolvers/rigidBodySolver
-  rigidBodySolvers/symplectic
+  .
 )
 install(TARGETS rigidBodyDynamics DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

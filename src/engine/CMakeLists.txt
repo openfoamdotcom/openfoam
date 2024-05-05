@@ -20,16 +20,6 @@ target_compile_features(engine PUBLIC cxx_std_11)
 target_compile_definitions(engine PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(engine PUBLIC fvMotionSolvers)
 target_include_directories(engine PUBLIC
-  include
-  engineMesh/engineMesh
-  engineMesh/fvMotionSolverEngineMesh
-  engineMesh/layeredEngineMesh
-  engineMesh/staticEngineMesh
-  enginePiston
-  engineTime/crankConRod
-  engineTime/engineTime
-  engineTime/freePiston
-  engineValve
-  ignition
+  .
 )
 install(TARGETS engine DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

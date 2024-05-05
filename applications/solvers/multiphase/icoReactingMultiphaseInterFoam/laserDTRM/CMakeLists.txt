@@ -15,11 +15,5 @@ target_compile_definitions(laserDTRM PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${
 target_link_libraries(laserDTRM PUBLIC incompressibleMultiphaseSystems)
 target_include_directories(laserDTRM PUBLIC
   .
-  DTRMParticle
-  localDensityAbsorptionEmission
-  reflectionModel/Fresnel
-  reflectionModel/FresnelLaser
-  reflectionModel/noReflection
-  reflectionModel/reflectionModel
 )
 install(TARGETS laserDTRM DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

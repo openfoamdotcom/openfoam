@@ -20,6 +20,5 @@ target_compile_definitions(pdrFields PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${
 target_link_libraries(pdrFields PUBLIC blockMeshLib finiteVolume)
 target_include_directories(pdrFields PUBLIC
   .
-  obstacles
 )
 install(TARGETS pdrFields DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

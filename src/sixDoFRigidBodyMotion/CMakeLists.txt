@@ -34,28 +34,6 @@ target_compile_features(sixDoFRigidBodyMotion PUBLIC cxx_std_11)
 target_compile_definitions(sixDoFRigidBodyMotion PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(sixDoFRigidBodyMotion PUBLIC dynamicMesh forces)
 target_include_directories(sixDoFRigidBodyMotion PUBLIC
-  pointPatchFields/derived/sixDoFRigidBodyDisplacement
-  pointPatchFields/derived/uncoupledSixDoFRigidBodyDisplacement
-  sixDoFRigidBodyMotion
-  sixDoFRigidBodyMotion/constraints/axis
-  sixDoFRigidBodyMotion/constraints/line
-  sixDoFRigidBodyMotion/constraints/orientation
-  sixDoFRigidBodyMotion/constraints/plane
-  sixDoFRigidBodyMotion/constraints/point
-  sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint
-  sixDoFRigidBodyMotion/restraints/linearAxialAngularSpring
-  sixDoFRigidBodyMotion/restraints/linearDamper
-  sixDoFRigidBodyMotion/restraints/linearSpring
-  sixDoFRigidBodyMotion/restraints/linearSpringDamper
-  sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint
-  sixDoFRigidBodyMotion/restraints/softWall
-  sixDoFRigidBodyMotion/restraints/sphericalAngularDamper
-  sixDoFRigidBodyMotion/restraints/sphericalAngularSpring
-  sixDoFRigidBodyMotion/restraints/tabulatedAxialAngularSpring
-  sixDoFRigidBodyMotionSolver
-  sixDoFSolvers/CrankNicolson
-  sixDoFSolvers/Newmark
-  sixDoFSolvers/sixDoFSolver
-  sixDoFSolvers/symplectic
+  .
 )
 install(TARGETS sixDoFRigidBodyMotion DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

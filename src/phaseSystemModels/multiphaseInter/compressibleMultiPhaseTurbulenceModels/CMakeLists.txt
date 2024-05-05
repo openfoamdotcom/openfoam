@@ -6,6 +6,6 @@ target_compile_features(compressibleMultiPhaseTurbulenceModels PUBLIC cxx_std_11
 target_compile_definitions(compressibleMultiPhaseTurbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(compressibleMultiPhaseTurbulenceModels PUBLIC incompressibleMultiphaseSystems)
 target_include_directories(compressibleMultiPhaseTurbulenceModels PUBLIC
-  
+  .
 )
 install(TARGETS compressibleMultiPhaseTurbulenceModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

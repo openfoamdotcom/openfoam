@@ -26,30 +26,5 @@ target_compile_definitions(reactionThermophysicalModels PUBLIC WM_LABEL_SIZE=${W
 target_link_libraries(reactionThermophysicalModels PUBLIC fluidThermophysicalModels solidSpecie specie thermophysicalProperties)
 target_include_directories(reactionThermophysicalModels PUBLIC
   .
-  chemistryReaders/chemistryReader
-  chemistryReaders/chemkinReader
-  chemistryReaders/foamChemistryReader
-  derivedFvPatchFields/boundarySourcePatch
-  derivedFvPatchFields/enthalpySorption
-  derivedFvPatchFields/fixedUnburntEnthalpy
-  derivedFvPatchFields/gradientUnburntEnthalpy
-  derivedFvPatchFields/mixedUnburntEnthalpy
-  derivedFvPatchFields/speciesSorption
-  functionObjects/moleFractions
-  mixtures/SpecieMixture
-  mixtures/basicCombustionMixture
-  mixtures/basicMultiComponentMixture
-  mixtures/basicSpecieMixture
-  mixtures/egrMixture
-  mixtures/homogeneousMixture
-  mixtures/inhomogeneousMixture
-  mixtures/multiComponentMixture
-  mixtures/reactingMixture
-  mixtures/singleComponentMixture
-  mixtures/singleStepReactingMixture
-  mixtures/veryInhomogeneousMixture
-  psiReactionThermo
-  psiuReactionThermo
-  rhoReactionThermo
 )
 install(TARGETS reactionThermophysicalModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

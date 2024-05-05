@@ -12,10 +12,6 @@ target_compile_features(regionModels PUBLIC cxx_std_11)
 target_compile_definitions(regionModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(regionModels PUBLIC finiteVolume meshTools)
 target_include_directories(regionModels PUBLIC
-  derivedFvPatches/mappedVariableThicknessWall
-  regionModel
-  regionModel1D
-  regionModelFunctionObject/regionModelFunctionObject
-  singleLayerRegion
+  .
 )
 install(TARGETS regionModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

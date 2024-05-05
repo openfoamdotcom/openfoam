@@ -29,29 +29,6 @@ target_compile_features(atmosphericModels PUBLIC cxx_std_11)
 target_compile_definitions(atmosphericModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(atmosphericModels PUBLIC compressibleTurbulenceModels fvOptions incompressibleTurbulenceModels)
 target_include_directories(atmosphericModels PUBLIC
-  derivedFvPatchFields/atmBoundaryLayer
-  derivedFvPatchFields/atmBoundaryLayerInletEpsilon
-  derivedFvPatchFields/atmBoundaryLayerInletK
-  derivedFvPatchFields/atmBoundaryLayerInletOmega
-  derivedFvPatchFields/atmBoundaryLayerInletVelocity
-  derivedFvPatchFields/atmTurbulentHeatFluxTemperature
-  derivedFvPatchFields/wallFunctions/atmAlphatkWallFunction
-  derivedFvPatchFields/wallFunctions/atmEpsilonWallFunction
-  derivedFvPatchFields/wallFunctions/atmNutUWallFunction
-  derivedFvPatchFields/wallFunctions/atmNutWallFunction
-  derivedFvPatchFields/wallFunctions/atmNutkWallFunction
-  derivedFvPatchFields/wallFunctions/atmOmegaWallFunction
-  functionObjects/ObukhovLength
-  fvOptions/atmAmbientTurbSource
-  fvOptions/atmBuoyancyTurbSource
-  fvOptions/atmCoriolisUSource
-  fvOptions/atmLengthScaleTurbSource
-  fvOptions/atmNutSource
-  fvOptions/atmPlantCanopyTSource
-  fvOptions/atmPlantCanopyTurbSource
-  fvOptions/atmPlantCanopyUSource
-  porosityModels/powerLawLopesdaCosta
-  turbulenceModels/RAS/kEpsilonLopesdaCosta
-  turbulenceModels/RAS/kL
+  .
 )
 install(TARGETS atmosphericModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

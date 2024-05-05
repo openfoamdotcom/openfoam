@@ -9,7 +9,5 @@ target_compile_definitions(multiphaseMixtureThermo PUBLIC WM_LABEL_SIZE=${WM_LAB
 target_link_libraries(multiphaseMixtureThermo PUBLIC finiteVolume fluidThermophysicalModels meshTools specie)
 target_include_directories(multiphaseMixtureThermo PUBLIC
   .
-  alphaContactAngle
-  phaseModel
 )
 install(TARGETS multiphaseMixtureThermo DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

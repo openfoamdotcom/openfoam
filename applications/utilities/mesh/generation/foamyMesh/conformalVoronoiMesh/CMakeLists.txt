@@ -57,51 +57,6 @@ target_compile_features(conformalVoronoiMesh PUBLIC cxx_std_11)
 target_compile_definitions(conformalVoronoiMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(conformalVoronoiMesh PUBLIC decompose snappyHexMeshLib)
 target_include_directories(conformalVoronoiMesh PUBLIC
-  DelaunayMesh
-  DelaunayMeshTools
-  PrintTable
-  backgroundMeshDecomposition
-  cellShapeControl/cellAspectRatioControl
-  cellShapeControl/cellShapeControl
-  cellShapeControl/cellShapeControlMesh
-  cellShapeControl/cellSizeAndAlignmentControl
-  cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl
-  cellShapeControl/cellSizeAndAlignmentControl/fileControl
-  cellShapeControl/cellSizeAndAlignmentControl/searchableSurfaceControl
-  cellShapeControl/controlMeshRefinement
-  cellShapeControl/smoothAlignmentSolver
-  cellSizeControlSurfaces/cellSizeFunction/cellSizeFunction
-  cellSizeControlSurfaces/cellSizeFunction/linearDistance
-  cellSizeControlSurfaces/cellSizeFunction/linearSpatial
-  cellSizeControlSurfaces/cellSizeFunction/surfaceOffsetLinearDistance
-  cellSizeControlSurfaces/cellSizeFunction/uniform
-  cellSizeControlSurfaces/cellSizeFunction/uniformDistance
-  cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/automatic
-  cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/cellSizeCalculationType
-  cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/fieldFromFile
-  cellSizeControlSurfaces/surfaceCellSizeFunction/nonUniformField
-  cellSizeControlSurfaces/surfaceCellSizeFunction/surfaceCellSizeFunction
-  cellSizeControlSurfaces/surfaceCellSizeFunction/uniformValue
-  conformalVoronoiMesh
-  conformalVoronoiMesh/featurePointConformer
-  conformalVoronoiMesh/indexedCell
-  conformalVoronoiMesh/indexedVertex
-  conformationSurfaces
-  cvControls
-  faceAreaWeightModel/faceAreaWeightModel
-  faceAreaWeightModel/piecewiseLinearRamp
-  initialPointsMethod/autoDensity
-  initialPointsMethod/bodyCentredCubic
-  initialPointsMethod/faceCentredCubic
-  initialPointsMethod/initialPointsMethod
-  initialPointsMethod/pointFile
-  initialPointsMethod/rayShooting
-  initialPointsMethod/uniformGrid
-  pointPairs
-  relaxationModel/adaptiveLinear
-  relaxationModel/rampHoldFall
-  relaxationModel/relaxationModel
-  searchableSurfaceFeatures
-  vectorTools
+  .
 )
 install(TARGETS conformalVoronoiMesh DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

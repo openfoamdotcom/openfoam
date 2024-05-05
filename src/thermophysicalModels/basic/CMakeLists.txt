@@ -19,18 +19,6 @@ target_compile_features(fluidThermophysicalModels PUBLIC cxx_std_11)
 target_compile_definitions(fluidThermophysicalModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(fluidThermophysicalModels PUBLIC compressibleTransportModels thermophysicalProperties)
 target_include_directories(fluidThermophysicalModels PUBLIC
-  basicThermo
-  derivedFvPatchFields/energyJump/energyJump
-  derivedFvPatchFields/energyJump/energyJumpAMI
-  derivedFvPatchFields/fixedEnergy
-  derivedFvPatchFields/gradientEnergy
-  derivedFvPatchFields/mixedEnergy
-  fluidThermo
-  heThermo
-  mixtures/basicMixture
-  mixtures/pureMixture
-  mixtures/pureZoneMixture
-  psiThermo
-  rhoThermo
+  .
 )
 install(TARGETS fluidThermophysicalModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
