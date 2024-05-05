@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noiseFFT.H"
-#include "IFstream.H"
-#include "DynamicList.H"
-#include "mathematicalConstants.H"
-#include "HashSet.H"
-#include "fft.H"
+#include "noise/noiseFFT/noiseFFT.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "fft/fft.H"
 
 using namespace Foam::constant;
 

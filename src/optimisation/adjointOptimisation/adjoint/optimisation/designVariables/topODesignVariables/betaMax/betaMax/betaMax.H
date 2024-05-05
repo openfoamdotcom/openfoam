@@ -40,7 +40,7 @@ SourceFiles
 #ifndef betaMax_H
 #define betaMax_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

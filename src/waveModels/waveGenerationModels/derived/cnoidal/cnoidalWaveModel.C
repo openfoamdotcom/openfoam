@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cnoidalWaveModel.H"
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Elliptic.H"
+#include "waveGenerationModels/derived/cnoidal/cnoidalWaveModel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "waveGenerationModels/derived/cnoidal/Elliptic.H"
 
 using namespace Foam::constant;
 

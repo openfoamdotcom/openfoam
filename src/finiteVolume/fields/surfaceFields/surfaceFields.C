@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFields.H"
-#include "registerSwitch.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

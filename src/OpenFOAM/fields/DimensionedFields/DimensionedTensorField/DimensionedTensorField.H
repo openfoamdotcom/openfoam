@@ -38,12 +38,12 @@ SourceFiles
 #ifndef DimensionedTensorField_H
 #define DimensionedTensorField_H
 
-#include "DimensionedSphericalTensorField.H"
-#include "DimensionedSymmTensorField.H"
-#include "tensor.H"
+#include "fields/DimensionedFields/DimensionedSphericalTensorField/DimensionedSphericalTensorField.H"
+#include "fields/DimensionedFields/DimensionedSymmTensorField/DimensionedSymmTensorField.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 #define TEMPLATE template<class GeoMesh>
-#include "DimensionedFieldFunctionsM.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -81,10 +81,10 @@ UNARY_OPERATOR(tensor, vector, *, hdual, transform)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 #ifdef NoRepository
-    #include "DimensionedTensorField.C"
+    #include "fields/DimensionedFields/DimensionedTensorField/DimensionedTensorField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -110,9 +110,9 @@ SourceFiles
 #ifndef externalWallHeatFluxTemperatureFvPatchScalarField_H
 #define externalWallHeatFluxTemperatureFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "temperatureCoupledBase.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,10 +37,10 @@ SourceFiles
 #ifndef fvPatchMapper_H
 #define fvPatchMapper_H
 
-#include "fvPatchFieldMapper.H"
-#include "faceMapper.H"
-#include "fvPatch.H"
-#include "primitiveFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -72,9 +72,9 @@ SourceFiles
 #ifndef Foam_fv_patchCellsSource_H
 #define Foam_fv_patchCellsSource_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "cellSetOption.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "cellSetOption/cellSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

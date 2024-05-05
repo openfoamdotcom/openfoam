@@ -40,17 +40,17 @@ SourceFiles
 #ifndef Foam_token_H
 #define Foam_token_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "scalar.H"
-#include "word.H"
-#include "contiguous.H"
-#include "refCount.H"
-#include "InfoProxy.H"
-#include "typeInfo.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/traits/contiguous.H"
+#include "memory/refCount/refCount.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "db/typeInfo/typeInfo.H"
 
 #define NoHashTableC
-#include "runTimeSelectionTables.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 #include <iostream>
 
@@ -939,8 +939,8 @@ Ostream& operator<<(Ostream& os, const InfoProxy<token>& ip);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tokenI.H"
-#include "Istream.H"
+#include "db/IOstreams/token/tokenI.H"
+#include "db/IOstreams/IOstreams/Istream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

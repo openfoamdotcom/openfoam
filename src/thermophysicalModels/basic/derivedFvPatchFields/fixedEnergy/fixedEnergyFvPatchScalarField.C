@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fixedEnergyFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "basicThermo/basicThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/fixedEnergy/fixedEnergyFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

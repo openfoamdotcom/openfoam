@@ -47,7 +47,7 @@ SourceFiles
 #ifndef linearTsubDiameter_H
 #define linearTsubDiameter_H
 
-#include "diameterModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

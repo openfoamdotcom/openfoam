@@ -48,7 +48,7 @@ SourceFiles
 #ifndef RBD_joints_floating_H
 #define RBD_joints_floating_H
 
-#include "compositeJoint.H"
+#include "joints/composite/compositeJoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledFvsPatchFields.H"
-#include "fvsPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvsPatchFields/basic/coupled/coupledFvsPatchFields.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

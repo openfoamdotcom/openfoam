@@ -40,11 +40,11 @@ SourceFiles
 #ifndef StandardChemistryModel_H
 #define StandardChemistryModel_H
 
-#include "BasicChemistryModelPascal.H"
-#include "Reaction.H"
-#include "ODESystem.H"
-#include "volFields.H"
-#include "simpleMatrix.H"
+#include "chemistryModel/BasicChemistryModelCaseDir/BasicChemistryModelPascal.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
+#include "ODESystem/ODESystem.H"
+#include "fields/volFields/volFields.H"
+#include "matrices/simpleMatrix/simpleMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -282,12 +282,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "StandardChemistryModelI.H"
+#include "chemistryModel/StandardChemistryModel/StandardChemistryModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "StandardChemistryModel.C"
+    #include "chemistryModel/StandardChemistryModel/StandardChemistryModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

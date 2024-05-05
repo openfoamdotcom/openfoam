@@ -43,8 +43,8 @@ SourceFiles
 #ifndef topOSource_H
 #define topOSource_H
 
-#include "cellSetOption.H"
-#include "topOInterpolationFunction.H"
+#include "cellSetOption/cellSetOption.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

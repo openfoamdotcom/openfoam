@@ -39,7 +39,7 @@ SourceFiles
 #ifndef incompressible_RASVariables_kOmegaSST_H
 #define incompressible_RASVariables_kOmegaSST_H
 
-#include "RASModelVariables.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/RASModelVariables/RASModelVariables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

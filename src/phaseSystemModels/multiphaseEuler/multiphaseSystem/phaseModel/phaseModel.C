@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseModel.H"
-#include "diameterModel.H"
-#include "fixedValueFvPatchFields.H"
-#include "slipFvPatchFields.H"
-#include "partialSlipFvPatchFields.H"
-#include "surfaceInterpolate.H"
-#include "fvcFlux.H"
+#include "phaseModel/phaseModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/slip/slipFvPatchFields.H"
+#include "fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcFlux.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

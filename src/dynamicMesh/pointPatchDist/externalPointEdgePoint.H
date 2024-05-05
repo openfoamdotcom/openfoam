@@ -41,7 +41,7 @@ SourceFiles
 #ifndef externalPointEdgePoint_H
 #define externalPointEdgePoint_H
 
-#include "pointField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -263,7 +263,7 @@ template<> struct is_contiguous<externalPointEdgePoint> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "externalPointEdgePointI.H"
+#include "pointPatchDist/externalPointEdgePointI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

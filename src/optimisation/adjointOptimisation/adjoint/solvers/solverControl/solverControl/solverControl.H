@@ -37,8 +37,8 @@ Description
 #ifndef solverControl_H
 #define solverControl_H
 
-#include "fvMesh.H"
-#include "solver.H"
+#include "fvMesh/fvMesh.H"
+#include "solvers/solver/solver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 
 } // End namespace Foam
 
-#include "solverControlI.H"
+#include "solvers/solverControl/solverControl/solverControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

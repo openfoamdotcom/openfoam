@@ -57,10 +57,10 @@ SourceFiles
 #ifndef Foam_expressions_exprResult_H
 #define Foam_expressions_exprResult_H
 
-#include "exprTraits.H"
-#include "exprValue.H"
-#include "dimensionedType.H"
-#include "runTimeSelectionTables.H"
+#include "expressions/traits/exprTraits.H"
+#include "expressions/value/exprValue.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -517,7 +517,7 @@ Ostream& operator<<(Ostream& os, const expressions::exprResult& data);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "exprResultI.H"
+#include "expressions/exprResult/exprResultI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ SourceFiles
 #ifndef zeroFixedValuePointPatchFields_H
 #define zeroFixedValuePointPatchFields_H
 
-#include "zeroFixedValuePointPatchField.H"
-#include "fieldTypes.H"
+#include "externalDisplacementMeshMover/zeroFixedValue/zeroFixedValuePointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

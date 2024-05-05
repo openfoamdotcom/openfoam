@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "PstreamReduceOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -18,9 +18,9 @@ Description
 #ifndef Foam_Fstream_H
 #define Foam_Fstream_H
 
-#include "fstreamPointer.H"
-#include "IFstream.H"
-#include "OFstream.H"
+#include "db/IOstreams/Fstreams/fstreamPointer.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 #endif
 

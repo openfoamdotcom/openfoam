@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "colourTable.H"
-#include "etcFiles.H"
-#include "IFstream.H"
-#include "HashSet.H"
+#include "colours/colourTable.H"
+#include "global/etcFiles/etcFiles.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

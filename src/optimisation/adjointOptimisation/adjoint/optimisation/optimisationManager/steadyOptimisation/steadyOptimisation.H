@@ -41,7 +41,7 @@ SourceFiles
 #ifndef steadyOptimisation_H
 #define steadyOptimisation_H
 
-#include "optimisationManager.H"
+#include "optimisation/optimisationManager/optimisationManager/optimisationManager.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

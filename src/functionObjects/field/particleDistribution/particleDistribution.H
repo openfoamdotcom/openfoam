@@ -98,12 +98,12 @@ SourceFiles
 #ifndef functionObjects_particleDistribution_H
 #define functionObjects_particleDistribution_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "scalarField.H"
-#include "Random.H"
-#include "Tuple2.H"
-#include "coordSetWriter.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/random/Random/Random.H"
+#include "primitives/tuples/Tuple2.H"
+#include "coordSet/writers/common/coordSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -210,7 +210,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "particleDistributionTemplates.C"
+    #include "particleDistribution/particleDistributionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

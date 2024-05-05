@@ -76,9 +76,9 @@ SourceFiles
 #define dynamicRefineFvMesh_H
 
 //#include "dynamicFvMesh.H"
-#include "dynamicMotionSolverListFvMesh.H"
-#include "hexRef8.H"
-#include "bitSet.H"
+#include "dynamicMotionSolverListFvMesh/dynamicMotionSolverListFvMesh.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -291,7 +291,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dynamicRefineFvMeshTemplates.C"
+    #include "dynamicRefineFvMesh/dynamicRefineFvMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

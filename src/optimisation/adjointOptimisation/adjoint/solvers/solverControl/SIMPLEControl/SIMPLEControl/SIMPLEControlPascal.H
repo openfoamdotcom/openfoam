@@ -38,8 +38,8 @@ Description
 #ifndef SIMPLEControl_H
 #define SIMPLEControl_H
 
-#include "solverControl.H"
-#include "simpleControl.H"
+#include "solvers/solverControl/solverControl/solverControl.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 
 } // End namespace Foam
 
-#include "SIMPLEControlI.H"
+#include "solvers/solverControl/SIMPLEControl/SIMPLEControl/SIMPLEControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

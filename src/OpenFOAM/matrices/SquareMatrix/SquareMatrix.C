@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SquareMatrix.H"
-#include "RectangularMatrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

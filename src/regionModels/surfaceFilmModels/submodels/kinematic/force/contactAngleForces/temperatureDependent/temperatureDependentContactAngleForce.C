@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "temperatureDependentContactAngleForce.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/kinematic/force/contactAngleForces/temperatureDependent/temperatureDependentContactAngleForce.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

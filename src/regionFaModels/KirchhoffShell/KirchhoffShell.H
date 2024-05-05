@@ -64,10 +64,10 @@ SourceFiles
 #ifndef Foam_regionModels_KirchhoffShell_H
 #define Foam_regionModels_KirchhoffShell_H
 
-#include "volFieldsFwd.H"
-#include "vibrationShellModel.H"
-#include "faMesh.H"
-#include "faCFD.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "vibrationShellModel/vibrationShellModel.H"
+#include "faMesh/faMesh.H"
+#include "include/faCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

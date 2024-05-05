@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nutWallFunctionFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "wallFvPatch.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 #include "turbulenceModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

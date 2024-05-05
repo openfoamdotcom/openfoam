@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_dimensionedScalar_H
 #define Foam_dimensionedScalar_H
 
-#include "dimensionedType.H"
-#include "scalar.H"
-#include "dimensionedScalarFwd.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

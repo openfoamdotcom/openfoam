@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeLimitedFaGrad.H"
-#include "gaussFaGrad.H"
-#include "faMesh.H"
-#include "areaFaMesh.H"
-#include "edgeFaMesh.H"
-#include "areaFields.H"
-#include "fixedValueFaPatchFields.H"
+#include "finiteArea/gradSchemes/limitedGradSchemes/edgeLimitedFaGrad/edgeLimitedFaGrad.H"
+#include "finiteArea/gradSchemes/gaussFaGrad/gaussFaGrad.H"
+#include "faMesh/faMesh.H"
+#include "areaMesh/areaFaMesh.H"
+#include "edgeMesh/edgeFaMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/faPatchFields/basic/fixedValue/fixedValueFaPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

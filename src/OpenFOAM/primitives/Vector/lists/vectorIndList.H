@@ -29,8 +29,8 @@ License
 #define Foam_vectorIndList_H
 
 // Include all normal list typedefs as well
-#include "vectorList.H"
-#include "IndirectList.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

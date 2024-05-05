@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Foam_IOstreamOption_H
 #define Foam_IOstreamOption_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 #include <ios>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

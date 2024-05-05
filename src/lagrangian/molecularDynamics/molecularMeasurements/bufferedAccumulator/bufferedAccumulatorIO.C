@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bufferedAccumulator.H"
-#include "IOstreams.H"
+#include "bufferedAccumulator/bufferedAccumulator.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

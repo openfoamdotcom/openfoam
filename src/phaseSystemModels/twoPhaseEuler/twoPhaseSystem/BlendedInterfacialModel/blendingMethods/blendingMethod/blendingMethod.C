@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blendingMethod.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

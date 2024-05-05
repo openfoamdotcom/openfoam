@@ -101,9 +101,9 @@ SourceFiles
 #ifndef Foam_SpalartAllmaras_H
 #define Foam_SpalartAllmaras_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
-#include "SpalartAllmarasBase.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
+#include "Base/SpalartAllmaras/SpalartAllmarasBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SpalartAllmaras.C"
+    #include "RAS/SpalartAllmaras/SpalartAllmaras.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

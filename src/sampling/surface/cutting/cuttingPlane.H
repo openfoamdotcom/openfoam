@@ -41,8 +41,8 @@ SourceFiles
 #ifndef cuttingPlane_H
 #define cuttingPlane_H
 
-#include "plane.H"
-#include "cuttingSurfaceBase.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "surface/cutting/cuttingSurfaceBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,7 +28,7 @@ License
 #ifndef Foam_inletOutletFaPatchFields_H
 #define Foam_inletOutletFaPatchFields_H
 
-#include "inletOutletFaPatchField.H"
+#include "fields/faPatchFields/derived/inletOutlet/inletOutletFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

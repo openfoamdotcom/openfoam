@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nearWallDistNoSearch.H"
-#include "fvMesh.H"
-#include "wallFvPatch.H"
-#include "surfaceFields.H"
+#include "fvMesh/wallDist/nearWallDist/nearWallDistNoSearch.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

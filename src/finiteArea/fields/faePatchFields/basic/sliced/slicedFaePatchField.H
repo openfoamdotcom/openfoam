@@ -44,8 +44,8 @@ SourceFiles
 #ifndef Foam_slicedFaePatchField_H
 #define Foam_slicedFaePatchField_H
 
-#include "faePatchField.H"
-#include "processorFaPatch.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "slicedFaePatchField.C"
+    #include "fields/faePatchFields/basic/sliced/slicedFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LimitedScheme.H"
-#include "Limited01.H"
-#include "limitedCubic.H"
-#include "limitedCubicV.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/Limited01/Limited01.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/limitedCubic/limitedCubic.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/limitedCubic/limitedCubicV.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

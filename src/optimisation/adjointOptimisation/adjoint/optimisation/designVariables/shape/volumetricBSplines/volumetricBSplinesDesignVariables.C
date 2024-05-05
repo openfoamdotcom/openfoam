@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volumetricBSplinesDesignVariables.H"
-#include "pointVolInterpolation.H"
-#include "displacementMethodvolumetricBSplinesMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/shape/volumetricBSplines/volumetricBSplinesDesignVariables.H"
+#include "interpolation/pointVolInterpolation/pointVolInterpolation.H"
+#include "displacementMethod/displacementMethodvolumetricBSplinesMotionSolver/displacementMethodvolumetricBSplinesMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * * //
 

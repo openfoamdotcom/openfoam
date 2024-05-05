@@ -47,10 +47,10 @@ SourceFiles
 #ifndef patchSeedSet_H
 #define patchSeedSet_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
-#include "HashSet.H"
-#include "Random.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

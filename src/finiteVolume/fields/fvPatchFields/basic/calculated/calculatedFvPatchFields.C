@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calculatedFvPatchFields.H"
-#include "fvPatchFields.H"
-#include "volMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "volMesh/volMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

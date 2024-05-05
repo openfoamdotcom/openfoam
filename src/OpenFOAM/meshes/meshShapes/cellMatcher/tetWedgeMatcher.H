@@ -40,7 +40,7 @@ SourceFiles
 #ifndef tetWedgeMatcher_H
 #define tetWedgeMatcher_H
 
-#include "cellMatcher.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

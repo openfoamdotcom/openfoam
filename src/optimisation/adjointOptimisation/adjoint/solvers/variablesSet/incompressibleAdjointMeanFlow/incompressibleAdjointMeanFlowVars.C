@@ -27,7 +27,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleAdjointMeanFlowVars.H"
+#include "solvers/variablesSet/incompressibleAdjointMeanFlow/incompressibleAdjointMeanFlowVars.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

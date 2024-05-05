@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dlLibraryTable.H"
-#include "dictionary.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

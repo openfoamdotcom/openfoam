@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_polyMeshTools_H
 #define Foam_polyMeshTools_H
 
-#include "polyMesh.H"
-#include "primitiveMeshTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

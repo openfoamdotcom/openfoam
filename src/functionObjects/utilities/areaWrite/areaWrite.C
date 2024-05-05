@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "areaWrite.H"
-#include "polySurface.H"
+#include "areaWrite/areaWrite.H"
+#include "polySurface/polySurface.H"
 
-#include "fvMesh.H"
-#include "mapPolyMesh.H"
-#include "areaFields.H"
-#include "HashOps.H"
-#include "ListOps.H"
-#include "TimeOpenFOAM.H"
-#include "IndirectList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -55,7 +55,7 @@ Foam::scalar Foam::areaWrite::mergeTol_ = 1e-10;
 
 
 // Implementation
-#include "areaWriteImpl.C"
+#include "areaWrite/areaWriteImpl.C"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

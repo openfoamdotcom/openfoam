@@ -48,10 +48,10 @@ SourceFiles
 #ifndef faMeshMapper_H
 #define faMeshMapper_H
 
-#include "faceMapper.H"
-#include "faAreaMapper.H"
-#include "faEdgeMapper.H"
-#include "faBoundaryMeshMapper.H"
+#include "meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.H"
+#include "faMesh/faMeshMapper/faAreaMapper.H"
+#include "faMesh/faMeshMapper/faEdgeMapper.H"
+#include "faMesh/faMeshMapper/faBoundaryMeshMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

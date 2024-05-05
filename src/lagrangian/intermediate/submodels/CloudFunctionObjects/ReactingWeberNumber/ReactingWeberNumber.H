@@ -40,7 +40,7 @@ SourceFiles
 #ifndef ReactingWeberNumber_H
 #define ReactingWeberNumber_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -111,7 +111,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingWeberNumber.C"
+    #include "submodels/CloudFunctionObjects/ReactingWeberNumber/ReactingWeberNumber.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

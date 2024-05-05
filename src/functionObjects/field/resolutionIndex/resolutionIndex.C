@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "resolutionIndex.H"
-#include "resolutionIndexModel.H"
+#include "resolutionIndex/resolutionIndex.H"
+#include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
 #include "turbulenceModel.H"
-#include "RASModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "RAS/RASModel/RASModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "streamLineParticle.H"
-#include "streamLineParticleCloud.H"
-#include "vectorFieldIOField.H"
+#include "streamLine/streamLineParticle.H"
+#include "streamLine/streamLineParticleCloud.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef sphericalAngularDamper_H
 #define sphericalAngularDamper_H
 
-#include "rigidBodyRestraint.H"
+#include "restraints/restraint/rigidBodyRestraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

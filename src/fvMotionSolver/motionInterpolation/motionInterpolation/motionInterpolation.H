@@ -39,7 +39,7 @@ SourceFiles
 #ifndef motionInterpolation_H
 #define motionInterpolation_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

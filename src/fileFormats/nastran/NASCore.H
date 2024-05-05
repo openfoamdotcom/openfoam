@@ -37,11 +37,11 @@ SourceFiles
 #ifndef Foam_fileFormats_NASCore_H
 #define Foam_fileFormats_NASCore_H
 
-#include "scalar.H"
-#include "Enum.H"
-#include "face.H"
-#include "point.H"
-#include "DynamicList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/enums/Enum.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

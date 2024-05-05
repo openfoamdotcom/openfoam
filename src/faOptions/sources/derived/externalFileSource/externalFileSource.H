@@ -72,10 +72,10 @@ SourceFiles
 #ifndef Foam_fa_externalFileSource_H
 #define Foam_fa_externalFileSource_H
 
-#include "faOption.H"
-#include "areaFields.H"
-#include "faceSetOption.H"
-#include "MappedFile.H"
+#include "faOption/faOption.H"
+#include "fields/areaFields/areaFields.H"
+#include "faceSetOption/faceSetOption.H"
+#include "PatchFunction1/MappedFile/MappedFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

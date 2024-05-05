@@ -40,12 +40,12 @@ SourceFiles
 #ifndef divScheme_H
 #define divScheme_H
 
-#include "tmp.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "linear.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "memory/tmp/tmp.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ makeFvDivTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "divScheme.C"
+    #include "finiteVolume/divSchemes/divScheme/divScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

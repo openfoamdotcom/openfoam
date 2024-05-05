@@ -45,8 +45,8 @@ SourceFiles
 #ifndef Foam_heatExchangerModel_H
 #define Foam_heatExchangerModel_H
 
-#include "fvMesh.H"
-#include "writeFile.H"
+#include "fvMesh/fvMesh.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

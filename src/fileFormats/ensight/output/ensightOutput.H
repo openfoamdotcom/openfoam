@@ -38,21 +38,21 @@ SourceFiles
 #ifndef Foam_ensightOutput_H
 #define Foam_ensightOutput_H
 
-#include "ensightOutputFwd.H"
-#include "ensightFile.H"
-#include "ensightGeoFile.H"
-#include "ensightCells.H"
-#include "ensightFaces.H"
-#include "ensightPTraits.H"
+#include "ensight/output/ensightOutputFwd.H"
+#include "ensight/file/ensightFile.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "ensight/part/cells/ensightCells.H"
+#include "ensight/part/faces/ensightFaces.H"
+#include "ensight/type/ensightPTraits.H"
 
-#include "faceListFwd.H"
-#include "cellListFwd.H"
+#include "meshes/meshShapes/face/faceListFwd.H"
+#include "meshes/meshShapes/cell/cellListFwd.H"
 
-#include "ListOps.H"
-#include "ListListOps.H"
-#include "IndirectList.H"
-#include "CompactListList.H"
-#include "DynamicList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -557,7 +557,7 @@ bool writeFaceLocalField
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightOutputTemplates.C"
+    #include "ensight/output/ensightOutputTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

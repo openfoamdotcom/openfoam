@@ -46,8 +46,8 @@ SourceFiles
 #ifndef Foam_processorPointPatch_H
 #define Foam_processorPointPatch_H
 
-#include "coupledFacePointPatch.H"
-#include "processorPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/derived/coupled/coupledFacePointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

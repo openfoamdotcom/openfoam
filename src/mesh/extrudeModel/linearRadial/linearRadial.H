@@ -42,7 +42,7 @@ Description
 #ifndef linearRadial_H
 #define linearRadial_H
 
-#include "extrudeModel.H"
+#include "extrudeModel/extrudeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkWriteTopoSet.H"
-#include "foamVtkIndPatchWriter.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "globalIndex.H"
+#include "output/vtk/topoSet/foamVtkWriteTopoSet.H"
+#include "output/vtk/patch/foamVtkIndPatchWriter.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

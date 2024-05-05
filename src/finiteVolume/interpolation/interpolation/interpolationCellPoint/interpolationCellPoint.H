@@ -35,8 +35,8 @@ Description
 #ifndef Foam_interpolationCellPoint_H
 #define Foam_interpolationCellPoint_H
 
-#include "interpolation.H"
-#include "cellPointWeight.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "interpolation/interpolation/interpolationCellPoint/cellPointWeight.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -105,12 +105,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationCellPointI.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPointI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPoint.C"
+    #include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

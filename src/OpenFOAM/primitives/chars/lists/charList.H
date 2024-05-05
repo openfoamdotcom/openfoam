@@ -28,9 +28,9 @@ License
 #ifndef Foam_charList_H
 #define Foam_charList_H
 
-#include "char.H"
-#include "List.H"
-#include "SubList.H"
+#include "primitives/chars/char/char.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_indexedParticle_H
 #define Foam_indexedParticle_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
+#include "particle/particle.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

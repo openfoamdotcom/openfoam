@@ -131,12 +131,12 @@ SourceFiles
 #ifndef Foam_sampledSurfaces_H
 #define Foam_sampledSurfaces_H
 
-#include "fvMeshFunctionObject.H"
-#include "sampledSurface.H"
-#include "surfaceWriter.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "IOobjectList.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "writers/common/surfaceWriter.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -385,7 +385,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledSurfacesTemplates.C"
+    #include "sampledSurface/sampledSurfaces/sampledSurfacesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

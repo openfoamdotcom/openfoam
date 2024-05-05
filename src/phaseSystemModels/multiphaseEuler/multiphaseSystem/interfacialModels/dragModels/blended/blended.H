@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_multiphaseEuler_dragModels_blended_H
 #define Foam_multiphaseEuler_dragModels_blended_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

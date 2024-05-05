@@ -71,8 +71,8 @@ SourceFiles
 #ifndef weightedFlux_H
 #define weightedFlux_H
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

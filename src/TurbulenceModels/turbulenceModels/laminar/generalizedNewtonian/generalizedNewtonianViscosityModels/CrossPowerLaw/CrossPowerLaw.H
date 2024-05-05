@@ -65,8 +65,8 @@ SourceFiles
 #ifndef CrossPowerLaw_H
 #define CrossPowerLaw_H
 
-#include "generalizedNewtonianViscosityModel.H"
-#include "dimensionedScalar.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/generalizedNewtonianViscosityModel/generalizedNewtonianViscosityModel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

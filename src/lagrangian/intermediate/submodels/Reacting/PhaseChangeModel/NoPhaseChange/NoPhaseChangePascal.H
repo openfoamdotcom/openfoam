@@ -38,7 +38,7 @@ Description
 #ifndef NoPhaseChange_H
 #define NoPhaseChange_H
 
-#include "PhaseChangeModelPascal.H"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -115,7 +115,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoPhaseChangePascal.C"
+    #include "submodels/Reacting/PhaseChangeModel/NoPhaseChange/NoPhaseChangePascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

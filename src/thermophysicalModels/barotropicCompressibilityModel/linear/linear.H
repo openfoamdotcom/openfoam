@@ -37,8 +37,8 @@ SourceFiles
 #ifndef linear_H
 #define linear_H
 
-#include "barotropicCompressibilityModel.H"
-#include "dimensionedScalar.H"
+#include "barotropicCompressibilityModel/barotropicCompressibilityModel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

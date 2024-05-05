@@ -41,7 +41,7 @@ SourceFiles
 #ifndef topoSetFaceSource_H
 #define topoSetFaceSource_H
 
-#include "topoSetSource.H"
+#include "topoSet/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

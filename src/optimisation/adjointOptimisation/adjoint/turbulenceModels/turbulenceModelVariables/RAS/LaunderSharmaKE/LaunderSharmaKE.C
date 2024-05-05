@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LaunderSharmaKE.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/LaunderSharmaKE/LaunderSharmaKE.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

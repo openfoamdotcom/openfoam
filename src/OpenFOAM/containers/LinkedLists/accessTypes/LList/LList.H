@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_LList_H
 #define Foam_LList_H
 
-#include "label.H"
-#include "stdFoam.H"
+#include "primitives/ints/label/label.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -615,8 +615,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LList.C"
-    #include "LListIO.C"
+    #include "containers/LinkedLists/accessTypes/LList/LList.C"
+    #include "containers/LinkedLists/accessTypes/LList/LListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

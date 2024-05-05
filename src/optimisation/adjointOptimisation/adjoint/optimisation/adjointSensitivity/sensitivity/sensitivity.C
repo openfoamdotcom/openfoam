@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "runTimeSelectionTables.H"
-#include "sensitivity.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "optimisation/adjointSensitivity/sensitivity/sensitivity.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

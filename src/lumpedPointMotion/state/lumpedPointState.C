@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lumpedPointState.H"
-#include "unitConversion.H"
-#include "EulerCoordinateRotation.H"
-#include "IFstream.H"
+#include "state/lumpedPointState.H"
+#include "global/constants/unitConversion.H"
+#include "primitives/coordinate/rotation/EulerCoordinateRotation.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

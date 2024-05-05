@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointNoise.H"
-#include "argList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "noise/noiseModels/pointNoise/pointNoise.H"
+#include "global/argList/argList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

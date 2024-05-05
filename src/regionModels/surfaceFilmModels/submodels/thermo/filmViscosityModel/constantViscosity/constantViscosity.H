@@ -37,7 +37,7 @@ SourceFiles
 #ifndef constantViscosity_H
 #define constantViscosity_H
 
-#include "filmViscosityModel.H"
+#include "submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

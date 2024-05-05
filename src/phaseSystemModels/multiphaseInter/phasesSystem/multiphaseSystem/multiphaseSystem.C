@@ -25,24 +25,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiphaseSystem.H"
+#include "multiphaseSystem/multiphaseSystem.H"
 
-#include "fixedValueFvsPatchFields.H"
-#include "TimeOpenFOAM.H"
-#include "subCycle.H"
-#include "fvcMeshPhi.H"
+#include "fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "algorithms/subCycle/subCycle.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
 
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
-#include "fvcDiv.H"
-#include "fvcDdt.H"
-#include "fvcFlux.H"
-#include "fvmDdt.H"
-#include "fvcAverage.H"
-#include "fvMatrix.H"
-#include "fvmSup.H"
-#include "CMULES.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvc/fvcAverage.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "multivariateUpwind.H"
-#include "fvMesh.H"
+#include "interpolation/surfaceInterpolation/multivariateSchemes/upwind/multivariateUpwind.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

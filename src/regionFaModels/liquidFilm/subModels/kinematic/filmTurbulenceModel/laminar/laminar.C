@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminar.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/laminar/laminar.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

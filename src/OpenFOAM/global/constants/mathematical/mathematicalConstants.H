@@ -35,7 +35,7 @@ Description
 #ifndef mathematicalConstants_H
 #define mathematicalConstants_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

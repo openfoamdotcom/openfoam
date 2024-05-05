@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "parallelFvGeometryScheme.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "syncTools.H"
-#include "primitiveMeshTools.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvGeometryScheme/parallel/parallelFvGeometryScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

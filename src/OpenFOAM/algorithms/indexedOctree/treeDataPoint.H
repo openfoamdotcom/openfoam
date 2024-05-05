@@ -43,10 +43,10 @@ SourceFiles
 #ifndef Foam_treeDataPoint_H
 #define Foam_treeDataPoint_H
 
-#include "pointField.H"
-#include "treeBoundBox.H"
-#include "line.H"
-#include "volumeType.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "meshes/primitiveShapes/line/line.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

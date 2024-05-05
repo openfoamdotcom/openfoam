@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "linearEdgeInterpolation.H"
+#include "faMesh/faMesh.H"
+#include "interpolation/edgeInterpolation/schemes/linear/linearEdgeInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

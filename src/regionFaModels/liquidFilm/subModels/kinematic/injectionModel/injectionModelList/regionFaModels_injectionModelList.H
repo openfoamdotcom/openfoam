@@ -37,10 +37,10 @@ SourceFiles
 #ifndef regionFaModels_injectionModelList_H
 #define regionFaModels_injectionModelList_H
 
-#include "PtrList.H"
-#include "regionFaModels_injectionModel.H"
-#include "regionFaModels_filmSubModelBase.H"
-#include "scalarField.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "liquidFilm/subModels/kinematic/injectionModel/injectionModel/regionFaModels_injectionModel.H"
+#include "liquidFilm/subModels/regionFaModels_filmSubModelBase.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

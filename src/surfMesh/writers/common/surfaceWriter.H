@@ -106,18 +106,18 @@ SourceFiles
 #ifndef Foam_surfaceWriter_H
 #define Foam_surfaceWriter_H
 
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "tmp.H"
-#include "cartesianCS.H"
-#include "Field.H"
-#include "fileName.H"
-#include "instant.H"
-#include "mergedSurf.H"
-#include "meshedSurfRef.H"
-#include "UPstream.H"
-#include "InfoProxy.H"
-#include "runTimeSelectionTables.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/tmp/tmp.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "fields/Fields/Field/Field.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/Time/instant/instant.H"
+#include "mergedSurf/mergedSurf.H"
+#include "meshedSurf/meshedSurfRef.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // Deprecated methods
 // #define Foam_surfaceWriter_directAccess
@@ -655,7 +655,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "surfaceWriterI.H"
+#include "writers/common/surfaceWriterI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

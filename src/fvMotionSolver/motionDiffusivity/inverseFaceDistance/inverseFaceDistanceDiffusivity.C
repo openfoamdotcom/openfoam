@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inverseFaceDistanceDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
-#include "HashSet.H"
-#include "wallPoint.H"
-#include "MeshWave.H"
+#include "motionDiffusivity/inverseFaceDistance/inverseFaceDistanceDiffusivity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "cellDist/wallPoint/wallPoint.H"
+#include "algorithms/MeshWave/MeshWave.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

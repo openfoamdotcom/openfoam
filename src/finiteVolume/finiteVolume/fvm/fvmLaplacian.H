@@ -37,10 +37,10 @@ SourceFiles
 #ifndef fvmLaplacian_H
 #define fvmLaplacian_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "fvMatrix.H"
-#include "one.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "primitives/traits/one.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ namespace fvm
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvmLaplacian.C"
+    #include "finiteVolume/fvm/fvmLaplacian.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

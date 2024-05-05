@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallModel.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel/WallModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -85,6 +85,6 @@ Foam::WallModel<CloudType>::coeffDict() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallModelNew.C"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel/WallModelNew.C"
 
 // ************************************************************************* //

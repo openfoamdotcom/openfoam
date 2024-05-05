@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Foam_meshState_H
 #define Foam_meshState_H
 
-#include "IOdictionary.H"
-#include "solverPerformance.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/solverPerformance.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -191,7 +191,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "meshStateTemplates.C"
+    #include "meshes/meshState/meshStateTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

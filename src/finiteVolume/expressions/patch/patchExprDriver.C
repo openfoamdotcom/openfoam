@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchExprDriver.H"
-#include "patchExprScanner.H"
-#include "error.H"
-#include "fvMesh.H"
-#include "fvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/patch/patchExprDriver.H"
+#include "expressions/patch/patchExprScanner.H"
+#include "db/error/error.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

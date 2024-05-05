@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "XiReactionRate.H"
-#include "volFields.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "XiReactionRate/XiReactionRate.H"
+#include "fields/volFields/volFields.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmBuoyancyTurbSource.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/atmBuoyancyTurbSource/atmBuoyancyTurbSource.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

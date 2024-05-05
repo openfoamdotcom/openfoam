@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchInterpolationDeCased.H"
+#include "interpolations/primitivePatchInterpolation/PrimitivePatchInterpolationDeCased.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

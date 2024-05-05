@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noChemistryTabulation.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/noChemistryTabulation/noChemistryTabulation.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

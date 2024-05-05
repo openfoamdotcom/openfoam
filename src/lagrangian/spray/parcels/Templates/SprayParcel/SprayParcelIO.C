@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SprayParcel.H"
-#include "IOstreams.H"
+#include "parcels/Templates/SprayParcel/SprayParcel.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ Description
 #ifndef waveModels_waveGenerationModel_H
 #define waveModels_waveGenerationModel_H
 
-#include "waveModel.H"
+#include "waveModel/waveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

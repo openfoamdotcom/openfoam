@@ -35,12 +35,12 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 #ifndef Foam_IPstream_H
 #define Foam_IPstream_H
 
-#include "UIPstream.H"
+#include "db/IOstreams/Pstreams/UIPstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

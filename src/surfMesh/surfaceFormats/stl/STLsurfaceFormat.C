@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLsurfaceFormat.H"
-#include "triangle.H"
-#include "ListOps.H"
+#include "surfaceFormats/stl/STLsurfaceFormat.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

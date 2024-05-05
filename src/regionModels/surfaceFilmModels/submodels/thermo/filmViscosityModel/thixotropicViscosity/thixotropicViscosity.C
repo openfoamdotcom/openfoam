@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thixotropicViscosity.H"
-#include "kinematicSingleLayer.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/filmViscosityModel/thixotropicViscosity/thixotropicViscosity.H"
+#include "kinematicSingleLayer/kinematicSingleLayer.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvcDiv.H"
-#include "fvmSup.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "alphatPhaseChangeWallFunctionFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/alphatPhaseChangeWallFunction/alphatPhaseChangeWallFunctionFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

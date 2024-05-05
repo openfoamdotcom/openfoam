@@ -36,10 +36,10 @@ Description
 #ifndef Foam_ensightFile_H
 #define Foam_ensightFile_H
 
-#include "OFstream.H"
-#include "ensightFileName.H"
-#include "ensightVarName.H"
-#include "IndirectListBase.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "ensight/name/ensightFileName.H"
+#include "ensight/name/ensightVarName.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -283,7 +283,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightFileTemplates.C"
+    #include "ensight/file/ensightFileTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

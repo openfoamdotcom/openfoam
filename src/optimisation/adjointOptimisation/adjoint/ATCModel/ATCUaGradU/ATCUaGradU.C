@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ATCUaGradU.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ATCModel/ATCUaGradU/ATCUaGradU.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

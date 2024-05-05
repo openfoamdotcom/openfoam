@@ -61,12 +61,12 @@ Random extension (not sure where this arises)
 
 \*---------------------------------------------------------------------------*/
 
-#include "NASsurfaceFormat.H"
-#include "ListOps.H"
-#include "Fstream.H"
-#include "IOmanip.H"
-#include "faceTraits.H"
-#include "stringOps.H"
+#include "surfaceFormats/nas/NASsurfaceFormat.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polynomialSolidTransport.H"
-#include "IOstreams.H"
+#include "transport/polynomial/polynomialSolidTransport.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

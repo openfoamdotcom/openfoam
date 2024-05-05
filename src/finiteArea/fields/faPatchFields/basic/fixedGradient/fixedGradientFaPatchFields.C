@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatchFields.H"
-#include "fixedGradientFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "areaFaMesh.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "fields/faPatchFields/basic/fixedGradient/fixedGradientFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

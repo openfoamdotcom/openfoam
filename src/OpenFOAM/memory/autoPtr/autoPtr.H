@@ -54,7 +54,7 @@ See also
 #define Foam_autoPtr_castOperator
 // #define Foam_autoPtr_nodeprecate_setMethod
 
-#include "stdFoam.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -345,7 +345,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "autoPtrI.H"
+#include "memory/autoPtr/autoPtrI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

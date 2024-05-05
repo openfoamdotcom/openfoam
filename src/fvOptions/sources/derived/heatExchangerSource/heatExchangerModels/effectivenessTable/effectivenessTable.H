@@ -177,9 +177,9 @@ SourceFiles
 #ifndef Foam_heatExchangerModels_effectivenessTable_H
 #define Foam_heatExchangerModels_effectivenessTable_H
 
-#include "heatExchangerModel.H"
-#include "interpolation2DTable.H"
-#include "Function1Pascal.H"
+#include "sources/derived/heatExchangerSource/heatExchangerModels/heatExchangerModel/heatExchangerModel.H"
+#include "interpolations/interpolation2DTable/interpolation2DTable.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

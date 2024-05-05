@@ -104,7 +104,7 @@ SourceFiles
 #ifndef cellToCell_H
 #define cellToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

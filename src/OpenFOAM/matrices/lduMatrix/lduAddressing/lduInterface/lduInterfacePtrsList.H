@@ -34,8 +34,8 @@ Description
 #ifndef Foam_lduInterfacePtrsList_H
 #define Foam_lduInterfacePtrsList_H
 
-#include "lduInterface.H"
-#include "UPtrList.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

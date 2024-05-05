@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantDrift.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/driftModels/constantDrift/constantDrift.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -95,18 +95,18 @@ SourceFiles
 #ifndef lumpedPointMovement_H
 #define lumpedPointMovement_H
 
-#include "dictionary.H"
-#include "scalarList.H"
-#include "primitiveFields.H"
-#include "IOobject.H"
-#include "tmp.H"
-#include "Tuple2.H"
-#include "HashPtrTable.H"
-#include "externalFileCoupler.H"
-#include "lumpedPointController.H"
-#include "lumpedPointInterpolator.H"
-#include "lumpedPointState.H"
-#include "Enum.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "fields/Fields/primitiveFields.H"
+#include "db/IOobject/IOobject.H"
+#include "memory/tmp/tmp.H"
+#include "primitives/tuples/Tuple2.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "coupling/externalFileCoupler.H"
+#include "controller/lumpedPointController.H"
+#include "interpolation/lumpedPointInterpolator.H"
+#include "state/lumpedPointState.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -491,7 +491,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "lumpedPointMovementI.H"
+#include "movement/lumpedPointMovementI.H"
 
 #endif
 

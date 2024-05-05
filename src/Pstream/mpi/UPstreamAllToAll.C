@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "Map.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/HashTables/Map/Map.H"
 #include "UPstreamWrapping.H"
 
 #include <cinttypes>

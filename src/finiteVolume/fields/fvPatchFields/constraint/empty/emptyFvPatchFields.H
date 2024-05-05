@@ -28,8 +28,8 @@ License
 #ifndef emptyFvPatchFields_H
 #define emptyFvPatchFields_H
 
-#include "emptyFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

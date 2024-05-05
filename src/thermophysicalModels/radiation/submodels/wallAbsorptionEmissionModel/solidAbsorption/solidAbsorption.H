@@ -51,8 +51,8 @@ SourceFiles
 #ifndef radiation_solidAbsorption_H
 #define radiation_solidAbsorption_H
 
-#include "wallAbsorptionEmissionModel.H"
-#include "fvMesh.H"
+#include "submodels/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

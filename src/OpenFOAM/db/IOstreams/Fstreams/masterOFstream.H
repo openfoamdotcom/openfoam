@@ -41,8 +41,8 @@ SourceFiles
 #ifndef Foam_masterOFstream_H
 #define Foam_masterOFstream_H
 
-#include "StringStream.H"
-#include "UPstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

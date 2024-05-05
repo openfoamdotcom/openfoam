@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Foam_resolutionIndexModel_H
 #define Foam_resolutionIndexModel_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "resolutionIndexModelTemplates.C"
+    #include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModelTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

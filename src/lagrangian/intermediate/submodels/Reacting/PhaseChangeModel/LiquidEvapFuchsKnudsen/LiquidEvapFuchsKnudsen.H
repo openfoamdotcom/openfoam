@@ -52,8 +52,8 @@ Description
 #ifndef LiquidEvapFuchsKnudsen_H
 #define LiquidEvapFuchsKnudsen_H
 
-#include "PhaseChangeModelPascal.H"
-#include "liquidMixtureProperties.H"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModelPascal.H"
+#include "liquidProperties/liquidMixtureProperties/liquidMixtureProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -204,7 +204,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LiquidEvapFuchsKnudsen.C"
+    #include "submodels/Reacting/PhaseChangeModel/LiquidEvapFuchsKnudsen/LiquidEvapFuchsKnudsen.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

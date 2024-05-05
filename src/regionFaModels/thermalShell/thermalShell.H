@@ -74,11 +74,11 @@ SourceFiles
 #ifndef Foam_regionModels_thermalShell_H
 #define Foam_regionModels_thermalShell_H
 
-#include "volFieldsFwd.H"
-#include "thermalShellModel.H"
-#include "solidProperties.H"
-#include "faMesh.H"
-#include "faCFD.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "thermalShellModel/thermalShellModel.H"
+#include "solidProperties/solidProperties/solidProperties.H"
+#include "faMesh/faMesh.H"
+#include "include/faCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

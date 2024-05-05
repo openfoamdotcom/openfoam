@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "forceCoeffs.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "Pstream.H"
-#include "IOmanip.H"
-#include "fvMesh.H"
-#include "dimensionedTypes.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "forceCoeffs/forceCoeffs.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "fvMesh/fvMesh.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

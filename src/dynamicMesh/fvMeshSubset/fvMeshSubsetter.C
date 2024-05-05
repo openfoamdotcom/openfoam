@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubsetter.H"
-#include "mapPolyMesh.H"
-#include "polyTopoChange.H"
-#include "removeCells.H"
+#include "fvMeshSubset/fvMeshSubsetter.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

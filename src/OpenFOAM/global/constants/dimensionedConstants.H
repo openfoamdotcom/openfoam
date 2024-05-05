@@ -42,8 +42,8 @@ SourceFiles
 #ifndef dimensionedConstants_H
 #define dimensionedConstants_H
 
-#include "dictionary.H"
-#include "dimensionedScalar.H"
+#include "db/dictionary/dictionary.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

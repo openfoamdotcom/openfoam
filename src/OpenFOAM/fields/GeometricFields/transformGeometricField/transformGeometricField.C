@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformGeometricField.H"
-#include "transformField.H"
-#include "transformFieldField.H"
-#include "GeometricField.H"
+#include "fields/GeometricFields/transformGeometricField/transformGeometricField.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "fields/FieldFields/transformFieldField/transformFieldField.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
 
 // * * * * * * * * * * * * Transform Global Functions  * * * * * * * * * * * //
 

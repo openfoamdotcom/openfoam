@@ -81,7 +81,7 @@ SourceFiles
 #ifndef faceZoneToFaceZone_H
 #define faceZoneToFaceZone_H
 
-#include "topoSetFaceZoneSource.H"
+#include "topoSet/faceZoneSources/topoSetFaceZoneSource/topoSetFaceZoneSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

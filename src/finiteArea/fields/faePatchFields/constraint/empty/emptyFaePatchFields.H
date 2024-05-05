@@ -28,7 +28,7 @@ License
 #ifndef Foam_emptyFaePatchFields_H
 #define Foam_emptyFaePatchFields_H
 
-#include "emptyFaePatchField.H"
+#include "fields/faePatchFields/constraint/empty/emptyFaePatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

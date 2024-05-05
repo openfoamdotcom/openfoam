@@ -38,7 +38,7 @@ SourceFiles
 #ifndef velocityDisplacementMotionSolver_H
 #define velocityDisplacementMotionSolver_H
 
-#include "velocityMotionSolver.H"
+#include "motionSolvers/velocity/velocityMotionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

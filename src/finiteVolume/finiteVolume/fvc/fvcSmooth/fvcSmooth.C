@@ -27,16 +27,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcSmooth.H"
-#include "volFields.H"
-#include "FaceCellWave.H"
-#include "smoothData.H"
-#include "sweepData.H"
-#include "fvMatrices.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
-#include "zeroGradientFvPatchField.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
+#include "fields/volFields/volFields.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "finiteVolume/fvc/fvcSmooth/smoothData.H"
+#include "finiteVolume/fvc/fvcSmooth/sweepData.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

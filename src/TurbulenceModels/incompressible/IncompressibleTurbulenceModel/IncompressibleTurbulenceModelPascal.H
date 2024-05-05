@@ -39,9 +39,9 @@ SourceFiles
 #ifndef IncompressibleTurbulenceModel_H
 #define IncompressibleTurbulenceModel_H
 
-#include "TurbulenceModelPascal.H"
+#include "TurbulenceModel/TurbulenceModelPascal.H"
 #include "incompressibleTurbulenceModel.H"
-#include "fvMatrix.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,7 +145,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IncompressibleTurbulenceModelPascal.C"
+    #include "IncompressibleTurbulenceModel/IncompressibleTurbulenceModelPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

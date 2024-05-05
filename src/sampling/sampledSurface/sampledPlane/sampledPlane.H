@@ -77,8 +77,8 @@ SourceFiles
 #ifndef Foam_sampledPlane_H
 #define Foam_sampledPlane_H
 
-#include "sampledSurface.H"
-#include "cuttingPlane.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "surface/cutting/cuttingPlane.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -304,7 +304,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledPlaneTemplates.C"
+    #include "sampledSurface/sampledPlane/sampledPlaneTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

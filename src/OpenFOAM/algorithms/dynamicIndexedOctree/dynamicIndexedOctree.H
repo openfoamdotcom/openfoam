@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_dynamicIndexedOctree_H
 #define Foam_dynamicIndexedOctree_H
 
-#include "indexedOctree.H"
-#include "DynamicList.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -566,7 +566,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dynamicIndexedOctree.C"
+    #include "algorithms/dynamicIndexedOctree/dynamicIndexedOctree.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

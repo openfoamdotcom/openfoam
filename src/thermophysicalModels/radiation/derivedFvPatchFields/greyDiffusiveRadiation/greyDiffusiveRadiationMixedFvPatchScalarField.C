@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "greyDiffusiveRadiationMixedFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "boundaryRadiationProperties.H"
+#include "derivedFvPatchFields/greyDiffusiveRadiation/greyDiffusiveRadiationMixedFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationProperties.H"
 
-#include "fvDOM.H"
-#include "constants.H"
-#include "unitConversion.H"
+#include "radiationModels/fvDOM/fvDOM/fvDOM.H"
+#include "global/constants/constants.H"
+#include "global/constants/unitConversion.H"
 
 using namespace Foam::constant;
 using namespace Foam::constant::mathematical;

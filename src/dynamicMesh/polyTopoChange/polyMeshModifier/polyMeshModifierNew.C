@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshModifier.H"
-#include "dictionary.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

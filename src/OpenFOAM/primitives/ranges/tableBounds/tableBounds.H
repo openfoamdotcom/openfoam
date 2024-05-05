@@ -38,7 +38,7 @@ SourceFiles
 #ifndef tableBounds_H
 #define tableBounds_H
 
-#include "Enum.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

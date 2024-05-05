@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "expressionEntryDimensioned.H"
-#include "primitiveEntry.H"
-#include "dimensionedScalar.H"
-#include "dimensionedVector.H"
-#include "dimensionedTensor.H"
-#include "dimensionedSymmTensor.H"
-#include "dimensionedSphericalTensor.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/exprEntry/expressionEntryDimensioned.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
+#include "dimensionedTypes/dimensionedTensor/dimensionedTensor.H"
+#include "dimensionedTypes/dimensionedSymmTensor/dimensionedSymmTensor.H"
+#include "dimensionedTypes/dimensionedSphericalTensor/dimensionedSphericalTensor.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

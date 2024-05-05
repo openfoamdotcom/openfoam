@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "viscosityModel.H"
+#include "kineticTheoryModels/viscosityModel/viscosityModel/viscosityModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

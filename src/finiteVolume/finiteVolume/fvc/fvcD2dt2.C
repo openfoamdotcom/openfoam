@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcD2dt2.H"
-#include "fvMesh.H"
-#include "d2dt2Scheme.H"
+#include "finiteVolume/fvc/fvcD2dt2.H"
+#include "fvMesh/fvMesh.H"
+#include "finiteVolume/d2dt2Schemes/d2dt2Scheme/d2dt2Scheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantTransmissivity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/wallTransmissivityModel/constantTransmissivity/constantTransmissivity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -103,8 +103,8 @@ SourceFiles
 #ifndef patchToCell_H
 #define patchToCell_H
 
-#include "topoSetCellSource.H"
-#include "wordRes.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

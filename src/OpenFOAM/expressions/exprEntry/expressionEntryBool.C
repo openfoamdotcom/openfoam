@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "expressionEntryBool.H"
-#include "Switch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/exprEntry/expressionEntryBool.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

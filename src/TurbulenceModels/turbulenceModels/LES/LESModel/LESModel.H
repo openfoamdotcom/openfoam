@@ -44,8 +44,8 @@ SourceFiles
 #ifndef LESModel_H
 #define LESModel_H
 
-#include "TurbulenceModelPascal.H"
-#include "LESdelta.H"
+#include "TurbulenceModel/TurbulenceModelPascal.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -247,7 +247,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LESModel.C"
+    #include "LES/LESModel/LESModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

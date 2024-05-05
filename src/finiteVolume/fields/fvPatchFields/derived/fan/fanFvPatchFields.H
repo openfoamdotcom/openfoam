@@ -28,8 +28,8 @@ License
 #ifndef fanFvPatchFields_H
 #define fanFvPatchFields_H
 
-#include "fanFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/fan/fanFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

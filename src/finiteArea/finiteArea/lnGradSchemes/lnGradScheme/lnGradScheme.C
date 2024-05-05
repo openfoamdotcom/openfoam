@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fa.H"
-#include "lnGradScheme.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "HashTable.H"
+#include "finiteArea/fa/fa.H"
+#include "finiteArea/lnGradSchemes/lnGradScheme/lnGradScheme.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

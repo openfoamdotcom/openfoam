@@ -43,13 +43,13 @@ SourceFiles
 #ifndef Foam_isoSurfaceBase_H
 #define Foam_isoSurfaceBase_H
 
-#include "isoSurfaceParams.H"
-#include "bitSet.H"
-#include "scalarField.H"
-#include "volumeType.H"
-#include "volFieldsFwd.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfacesFwd.H"
+#include "surface/isoSurface/isoSurfaceParams.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurface/MeshedSurfacesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

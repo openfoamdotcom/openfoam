@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LambVector.H"
-#include "fvcCurl.H"
-#include "fvcDiv.H"
-#include "addToRunTimeSelectionTable.H"
+#include "LambVector/LambVector.H"
+#include "finiteVolume/fvc/fvcCurl.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

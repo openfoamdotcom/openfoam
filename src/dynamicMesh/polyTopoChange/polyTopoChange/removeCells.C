@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "removeCells.H"
-#include "bitSet.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyRemoveCell.H"
-#include "polyRemoveFace.H"
-#include "polyModifyFace.H"
-#include "polyRemovePoint.H"
-#include "syncTools.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/removeObject/polyRemoveCell.H"
+#include "polyTopoChange/removeObject/polyRemoveFace.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/removeObject/polyRemovePoint.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

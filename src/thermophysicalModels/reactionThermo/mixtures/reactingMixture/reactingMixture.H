@@ -41,9 +41,9 @@ SourceFiles
 #ifndef reactingMixture_H
 #define reactingMixture_H
 
-#include "speciesTable.H"
-#include "chemistryReader.H"
-#include "multiComponentMixture.H"
+#include "speciesTable/speciesTable.H"
+#include "chemistryReaders/chemistryReader/chemistryReader.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "reactingMixture.C"
+    #include "mixtures/reactingMixture/reactingMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

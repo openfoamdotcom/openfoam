@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointSet.H"
-#include "mapPolyMesh.H"
-#include "polyMesh.H"
-#include "syncTools.H"
-#include "mapDistributePolyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

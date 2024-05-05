@@ -44,9 +44,9 @@ SourceFiles
 #ifndef Foam_globalIndex_H
 #define Foam_globalIndex_H
 
-#include "Pstream.H"
-#include "CompactListList.H"
-#include "DynamicList.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1063,12 +1063,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "globalIndexI.H"
+#include "parallel/globalIndex/globalIndexI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "globalIndexTemplates.C"
+    #include "parallel/globalIndex/globalIndexTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

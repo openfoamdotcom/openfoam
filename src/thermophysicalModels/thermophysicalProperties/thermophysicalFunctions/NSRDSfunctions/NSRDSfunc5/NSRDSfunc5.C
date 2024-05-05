@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NSRDSfunc5.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc5/NSRDSfunc5.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

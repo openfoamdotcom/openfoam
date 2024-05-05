@@ -28,14 +28,14 @@ License
 #ifndef makeChemistryReductionMethods_H
 #define makeChemistryReductionMethods_H
 
-#include "chemistryReductionMethod.H"
+#include "chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
 
-#include "noChemistryReduction.H"
-#include "DAC.H"
-#include "DRG.H"
-#include "DRGEP.H"
-#include "EFA.H"
-#include "PFA.H"
+#include "chemistryModel/TDACChemistryModel/reduction/noChemistryReduction/noChemistryReduction.H"
+#include "chemistryModel/TDACChemistryModel/reduction/DAC/DAC.H"
+#include "chemistryModel/TDACChemistryModel/reduction/DRG/DRG.H"
+#include "chemistryModel/TDACChemistryModel/reduction/DRGEP/DRGEP.H"
+#include "chemistryModel/TDACChemistryModel/reduction/EFA/EFA.H"
+#include "chemistryModel/TDACChemistryModel/reduction/PFA/PFA.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

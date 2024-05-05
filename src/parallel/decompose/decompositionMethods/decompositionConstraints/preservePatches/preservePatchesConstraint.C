@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "preservePatchesConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
+#include "decompositionConstraints/preservePatches/preservePatchesConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,8 +41,8 @@ SourceFiles
 #ifndef rigidBodyMeshMotionSolver_H
 #define rigidBodyMeshMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "rigidBodyMotion.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
+#include "rigidBodyMotion/rigidBodyMotion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

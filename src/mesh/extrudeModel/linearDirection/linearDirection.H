@@ -43,8 +43,8 @@ Description
 #ifndef linearDirection_H
 #define linearDirection_H
 
-#include "point.H"
-#include "extrudeModel.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "extrudeModel/extrudeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

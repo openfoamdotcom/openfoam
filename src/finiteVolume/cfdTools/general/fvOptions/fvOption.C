@@ -28,8 +28,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvOption.H"
-#include "volFields.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

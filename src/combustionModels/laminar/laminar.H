@@ -40,7 +40,7 @@ SourceFiles
 #ifndef combustionModels_laminar_H
 #define combustionModels_laminar_H
 
-#include "ChemistryCombustion.H"
+#include "CombustionModelCaseDir/ChemistryCombustion/ChemistryCombustion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -128,7 +128,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "laminar.C"
+    #include "laminar/laminar.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

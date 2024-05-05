@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyPointPatch.H"
-#include "pointConstraint.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointPatches/constraint/empty/emptyPointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

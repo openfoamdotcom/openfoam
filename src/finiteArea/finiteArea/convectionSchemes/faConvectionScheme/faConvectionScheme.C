@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fa.H"
-#include "faConvectionScheme.H"
+#include "finiteArea/fa/fa.H"
+#include "finiteArea/convectionSchemes/faConvectionScheme/faConvectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * //
 

@@ -150,16 +150,16 @@ SourceFiles
 #ifndef ccmReader_H
 #define ccmReader_H
 
-#include "ccmBase.H"
-#include "STARCDCore.H"
+#include "common/ccmBase.H"
+#include "starcd/STARCDCore.H"
 
-#include "labelList.H"
-#include "ListOps.H"
-#include "polyMesh.H"
-#include "boundaryRegion.H"
-#include "cellTable.H"
-#include "ccmInterfaceDefinitions.H"
-#include "ccmSolutionTable.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "common/tables/boundaryRegion.H"
+#include "common/tables/cellTable.H"
+#include "reader/ccmInterfaceDefinitions.H"
+#include "reader/ccmSolutionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

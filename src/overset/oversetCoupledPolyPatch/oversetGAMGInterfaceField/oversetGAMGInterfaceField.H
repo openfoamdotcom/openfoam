@@ -37,9 +37,9 @@ SourceFiles
 #ifndef oversetGAMGInterfaceField_H
 #define oversetGAMGInterfaceField_H
 
-#include "GAMGInterfaceField.H"
-#include "oversetGAMGInterface.H"
-#include "oversetLduInterfaceField.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.H"
+#include "oversetCoupledPolyPatch/oversetGAMGInterface/oversetGAMGInterface.H"
+#include "oversetCoupledPolyPatch/oversetLduInterfaceField/oversetLduInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

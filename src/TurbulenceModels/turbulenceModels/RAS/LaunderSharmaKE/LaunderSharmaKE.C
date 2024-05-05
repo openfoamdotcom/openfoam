@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LaunderSharmaKE.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/LaunderSharmaKE/LaunderSharmaKE.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

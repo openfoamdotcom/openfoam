@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkPolyWriter.H"
-#include "foamVtkOutput.H"
-#include "globalIndex.H"
+#include "vtk/write/foamVtkPolyWriter.H"
+#include "vtk/output/foamVtkOutput.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

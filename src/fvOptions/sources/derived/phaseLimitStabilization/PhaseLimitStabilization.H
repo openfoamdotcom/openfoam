@@ -92,7 +92,7 @@ SourceFiles
 #ifndef PhaseLimitStabilization_H
 #define PhaseLimitStabilization_H
 
-#include "fvOption.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -174,7 +174,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PhaseLimitStabilizationDeCased.C"
+    #include "sources/derived/phaseLimitStabilization/PhaseLimitStabilizationDeCased.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

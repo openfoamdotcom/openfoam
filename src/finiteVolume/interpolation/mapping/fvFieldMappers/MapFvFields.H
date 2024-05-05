@@ -30,10 +30,10 @@ Description
 #ifndef MapFvFields_H
 #define MapFvFields_H
 
-#include "MapGeometricFields.H"
-#include "MapFvSurfaceField.H"
-#include "MapFvVolField.H"
-#include "MapDimensionedFields.H"
+#include "fields/GeometricFields/GeometricField/MapGeometricFields.H"
+#include "interpolation/mapping/fvFieldMappers/MapFvSurfaceField.H"
+#include "interpolation/mapping/fvFieldMappers/MapFvVolField.H"
+#include "fields/DimensionedFields/DimensionedField/MapDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudSolution.H"
-#include "TimeOpenFOAM.H"
-#include "localEulerDdtScheme.H"
+#include "clouds/Templates/KinematicCloud/cloudSolution/cloudSolution.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

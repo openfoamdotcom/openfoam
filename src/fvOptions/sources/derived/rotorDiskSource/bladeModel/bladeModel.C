@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bladeModel.H"
-#include "unitConversion.H"
-#include "Tuple2.H"
-#include "vector.H"
-#include "IFstream.H"
+#include "sources/derived/rotorDiskSource/bladeModel/bladeModel.H"
+#include "global/constants/unitConversion.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

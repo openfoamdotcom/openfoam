@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noRadiation.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/filmRadiationModel/noRadiation/noRadiation.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

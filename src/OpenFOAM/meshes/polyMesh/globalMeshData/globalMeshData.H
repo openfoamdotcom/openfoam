@@ -84,9 +84,9 @@ SourceFiles
 #ifndef Foam_globalMeshData_H
 #define Foam_globalMeshData_H
 
-#include "processorTopology.H"
-#include "labelPair.H"
-#include "indirectPrimitivePatch.H"
+#include "parallel/processorTopology/processorTopology.H"
+#include "primitives/tuples/labelPair.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -651,7 +651,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "globalMeshDataTemplates.C"
+    #include "meshes/polyMesh/globalMeshData/globalMeshDataTemplates.C"
 #endif
 
 

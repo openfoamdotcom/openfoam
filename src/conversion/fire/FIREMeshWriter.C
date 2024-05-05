@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FIREMeshWriter.H"
-#include "TimeOpenFOAM.H"
-#include "Map.H"
-#include "OFstream.H"
-#include "processorPolyPatch.H"
+#include "fire/FIREMeshWriter.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

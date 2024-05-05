@@ -40,9 +40,9 @@ SourceFiles
 #ifndef upwind_H
 #define upwind_H
 
-#include "limitedSurfaceInterpolationScheme.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

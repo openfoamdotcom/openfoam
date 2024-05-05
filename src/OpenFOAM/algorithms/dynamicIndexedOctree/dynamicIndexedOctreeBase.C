@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicIndexedOctree.H"
+#include "algorithms/dynamicIndexedOctree/dynamicIndexedOctree.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

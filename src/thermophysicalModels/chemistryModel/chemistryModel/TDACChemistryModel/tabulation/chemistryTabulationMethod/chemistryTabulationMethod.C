@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryTabulationMethod.H"
-#include "TDACChemistryModel.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
+#include "chemistryModel/TDACChemistryModel/TDACChemistryModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

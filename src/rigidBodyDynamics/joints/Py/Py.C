@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Py.H"
-#include "rigidBodyModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "joints/Py/Py.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

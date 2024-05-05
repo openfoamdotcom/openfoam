@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_SphericalTensor_H
 #define Foam_SphericalTensor_H
 
-#include "contiguous.H"
-#include "VectorSpace.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SphericalTensorI.H"
+#include "primitives/SphericalTensor/SphericalTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

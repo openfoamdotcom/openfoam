@@ -34,8 +34,8 @@ Description
 #ifndef Foam_directFaPatchFieldMapper_H
 #define Foam_directFaPatchFieldMapper_H
 
-#include "directFieldMapper.H"
-#include "faPatchFieldMapper.H"
+#include "fields/Fields/Field/directFieldMapper.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

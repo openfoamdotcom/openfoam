@@ -84,7 +84,7 @@ SourceFiles
 #ifndef KinematicWeberNumber_H
 #define KinematicWeberNumber_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "KinematicWeberNumber.C"
+    #include "submodels/CloudFunctionObjects/KinematicWeberNumber/KinematicWeberNumber.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -69,10 +69,10 @@ SourceFiles
 #ifndef interRegionOption_H
 #define interRegionOption_H
 
-#include "fvOption.H"
-#include "volFields.H"
-#include "autoPtr.H"
-#include "meshToMesh.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "fields/volFields/volFields.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshToMesh/meshToMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interRegionOptionI.H"
+#include "interRegionOption/interRegionOptionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

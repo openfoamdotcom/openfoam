@@ -40,10 +40,10 @@ SourceFiles
 #ifndef wallNormalInfo_H
 #define wallNormalInfo_H
 
-#include "point.H"
-#include "label.H"
-#include "scalar.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -219,7 +219,7 @@ template<> struct is_contiguous<wallNormalInfo> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallNormalInfoI.H"
+#include "meshCut/wallLayerCells/wallNormalInfo/wallNormalInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentDigitalFilterInletFvPatchFields.H"
-#include "volMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/turbulentDigitalFilterInlet/turbulentDigitalFilterInletFvPatchFields.H"
+#include "volMesh/volMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

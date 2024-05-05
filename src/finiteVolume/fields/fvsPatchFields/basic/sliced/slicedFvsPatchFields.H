@@ -36,8 +36,8 @@ SourceFiles
 #ifndef slicedFvsPatchFields_H
 #define slicedFvsPatchFields_H
 
-#include "slicedFvsPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvsPatchFields/basic/sliced/slicedFvsPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

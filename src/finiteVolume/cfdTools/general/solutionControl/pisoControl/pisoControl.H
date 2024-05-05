@@ -34,7 +34,7 @@ Description
 #ifndef pisoControl_H
 #define pisoControl_H
 
-#include "pimpleControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
 
 //- Declare that pisoControl will be used
 #define PISO_CONTROL
@@ -94,7 +94,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pisoControlI.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_expressions_exprResultStoredStack_H
 #define Foam_expressions_exprResultStoredStack_H
 
-#include "exprResultStack.H"
+#include "expressions/exprResult/exprResultStack.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

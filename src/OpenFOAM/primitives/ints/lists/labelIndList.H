@@ -29,8 +29,8 @@ License
 #define Foam_labelIndList_H
 
 // Include all normal list typedefs as well
-#include "labelList.H"
-#include "IndirectList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

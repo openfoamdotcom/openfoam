@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MultiComponentPhaseModel.H"
+#include "phaseModel/MultiComponentPhaseModel/MultiComponentPhaseModel.H"
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "fvmLaplacian.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvMatrix.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

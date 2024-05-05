@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellToCell.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/cellToCell/cellToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

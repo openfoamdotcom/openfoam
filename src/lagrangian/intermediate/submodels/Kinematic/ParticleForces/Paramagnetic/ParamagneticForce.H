@@ -41,8 +41,8 @@ SourceFiles
 #ifndef Foam_ParamagneticForce_H
 #define Foam_ParamagneticForce_H
 
-#include "ParticleForce.H"
-#include "interpolation.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -142,7 +142,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParamagneticForce.C"
+    #include "submodels/Kinematic/ParticleForces/Paramagnetic/ParamagneticForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

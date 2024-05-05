@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "virtualMassModel.H"
-#include "phasePair.H"
-#include "surfaceInterpolate.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "phasePair/phasePair.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

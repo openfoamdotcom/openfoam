@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitVelocity.H"
-#include "areaFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "corrections/limitVelocity/limitVelocity.H"
+#include "fields/areaFields/areaFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

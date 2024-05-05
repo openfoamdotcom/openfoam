@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFaModels_force.H"
+#include "liquidFilm/subModels/kinematic/force/force/regionFaModels_force.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

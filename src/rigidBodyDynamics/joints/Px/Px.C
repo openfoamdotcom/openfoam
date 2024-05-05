@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Px.H"
-#include "rigidBodyModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "joints/Px/Px.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

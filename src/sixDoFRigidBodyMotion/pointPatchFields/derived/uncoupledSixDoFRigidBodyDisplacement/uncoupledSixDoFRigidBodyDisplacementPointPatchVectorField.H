@@ -37,8 +37,8 @@ SourceFiles
 #ifndef uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField_H
 #define uncoupledSixDoFRigidBodyDisplacementPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
-#include "sixDoFRigidBodyMotion.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

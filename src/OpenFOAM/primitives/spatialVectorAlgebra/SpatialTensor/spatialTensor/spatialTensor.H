@@ -38,7 +38,7 @@ SourceFiles
 #ifndef spatialTensor_H
 #define spatialTensor_H
 
-#include "SpatialTensorPascal.H"
+#include "primitives/spatialVectorAlgebra/SpatialTensor/SpatialTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

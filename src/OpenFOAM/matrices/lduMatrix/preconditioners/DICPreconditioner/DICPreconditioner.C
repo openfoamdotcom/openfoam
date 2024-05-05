@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DICPreconditioner.H"
+#include "matrices/lduMatrix/preconditioners/DICPreconditioner/DICPreconditioner.H"
 #include <algorithm>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

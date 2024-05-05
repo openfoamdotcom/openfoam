@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyFaPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "faMesh/faPatches/constraint/empty/emptyFaPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

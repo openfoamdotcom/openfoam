@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantAspectRatio.H"
-#include "reactingEuler_phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/aspectRatioModels/constantAspectRatio/constantAspectRatio.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

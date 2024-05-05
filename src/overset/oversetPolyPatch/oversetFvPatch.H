@@ -37,12 +37,12 @@ SourceFiles
 #ifndef oversetFvPatch_H
 #define oversetFvPatch_H
 
-#include "coupledFvPatch.H"
-#include "oversetLduInterface.H"
-#include "lduInterface.H"
-#include "fvPatch.H"
-#include "oversetPolyPatch.H"
-#include "fvBoundaryMesh.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "oversetCoupledPolyPatch/oversetLduInterface/oversetLduInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "oversetPolyPatch/oversetPolyPatch.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

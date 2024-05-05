@@ -28,9 +28,9 @@ License
 #ifndef mappedMixedFieldFvPatchFields_H
 #define mappedMixedFieldFvPatchFields_H
 
-#include "mappedMixedFieldFvPatchField.H"
-#include "fieldTypes.H"
-#include "fvPatchFields.H"
+#include "fields/fvPatchFields/derived/mappedField/mappedMixedFieldFvPatchField/mappedMixedFieldFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

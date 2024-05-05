@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_pointBoundaryMesh_H
 #define Foam_pointBoundaryMesh_H
 
-#include "pointPatch.H"
+#include "meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

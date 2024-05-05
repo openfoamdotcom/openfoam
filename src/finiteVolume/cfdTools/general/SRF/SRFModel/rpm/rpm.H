@@ -39,7 +39,7 @@ SourceFiles
 #ifndef SRF_rpm_H
 #define SRF_rpm_H
 
-#include "SRFModel.H"
+#include "cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

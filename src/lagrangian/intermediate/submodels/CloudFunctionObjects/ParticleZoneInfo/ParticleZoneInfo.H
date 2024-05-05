@@ -103,9 +103,9 @@ SourceFiles
 #ifndef ParticleZoneInfo_H
 #define ParticleZoneInfo_H
 
-#include "CloudFunctionObject.H"
-#include "writeFile.H"
-#include "coordSetWriter.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "coordSet/writers/common/coordSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -321,7 +321,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticleZoneInfo.C"
+    #include "submodels/CloudFunctionObjects/ParticleZoneInfo/ParticleZoneInfo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

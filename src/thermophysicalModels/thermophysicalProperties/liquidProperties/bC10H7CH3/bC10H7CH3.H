@@ -37,17 +37,17 @@ SourceFiles
 #ifndef bC10H7CH3_H
 #define bC10H7CH3_H
 
-#include "liquidProperties.H"
-#include "NSRDSfunc0.H"
-#include "NSRDSfunc1.H"
-#include "NSRDSfunc2.H"
-#include "NSRDSfunc3.H"
-#include "NSRDSfunc4.H"
-#include "NSRDSfunc5.H"
-#include "NSRDSfunc6.H"
-#include "NSRDSfunc7.H"
-#include "NSRDSfunc14.H"
-#include "APIdiffCoefFunc.H"
+#include "liquidProperties/liquidProperties/liquidProperties.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc0/NSRDSfunc0.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc1/NSRDSfunc1.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc2/NSRDSfunc2.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc3/NSRDSfunc3.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc4/NSRDSfunc4.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc5/NSRDSfunc5.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc6/NSRDSfunc6.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc7/NSRDSfunc7.H"
+#include "thermophysicalFunctions/NSRDSfunctions/NSRDSfunc14/NSRDSfunc14.H"
+#include "thermophysicalFunctions/APIfunctions/APIdiffCoefFunc/APIdiffCoefFunc.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ Ostream& operator<<(Ostream& os, const bC10H7CH3& l);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "bC10H7CH3I.H"
+#include "liquidProperties/bC10H7CH3/bC10H7CH3I.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

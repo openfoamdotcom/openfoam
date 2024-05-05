@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformFvPatchField.H"
-#include "IOstreams.H"
-#include "transformField.H"
+#include "fields/fvPatchFields/basic/transform/transformFvPatchField.H"
+#include "db/IOstreams/IOstreams.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

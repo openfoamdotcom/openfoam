@@ -41,7 +41,7 @@ SourceFiles
 #ifndef adiabaticPerfectFluid_H
 #define adiabaticPerfectFluid_H
 
-#include "autoPtr.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -233,10 +233,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "adiabaticPerfectFluidI.H"
+#include "equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluidI.H"
 
 #ifdef NoRepository
-    #include "adiabaticPerfectFluid.C"
+    #include "equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

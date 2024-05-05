@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vanDriestDelta.H"
-#include "wallFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "wallDistAddressing.H"
+#include "LES/LESdeltas/vanDriestDelta/vanDriestDelta.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/wallDist/wallDistAddressing/wallDistAddressing.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

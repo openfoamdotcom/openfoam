@@ -41,8 +41,8 @@ SourceFiles
 #ifndef MomentumTransferPhaseSystem_H
 #define MomentumTransferPhaseSystem_H
 
-#include "phaseSystem.H"
-#include "HashPtrTable.H"
+#include "phaseSystem/phaseSystem.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -291,7 +291,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MomentumTransferPhaseSystem.C"
+    #include "PhaseSystems/MomentumTransferPhaseSystem/MomentumTransferPhaseSystem.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

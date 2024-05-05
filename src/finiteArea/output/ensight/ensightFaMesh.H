@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Foam_fa_ensightMesh_H
 #define Foam_fa_ensightMesh_H
 
-#include "ensightFaces.H"
+#include "ensight/part/faces/ensightFaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ensightFaMeshI.H"
+#include "output/ensight/ensightFaMeshI.H"
 
 #endif
 

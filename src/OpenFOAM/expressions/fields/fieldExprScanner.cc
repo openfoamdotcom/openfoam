@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprScanToken.H"
-#include "fieldExprScanner.H"
-#include "fieldExprDriver.H"
-#include "fieldExprLemonParser.h"
-#include "fieldExprParser.H"
-#include "Enum.H"
+#include "expressions/scanToken/exprScanToken.H"
+#include "expressions/fields/fieldExprScanner.H"
+#include "expressions/fields/fieldExprDriver.H"
+#include "expressions/fields/fieldExprLemonParser.h"
+#include "expressions/fields/fieldExprParser.H"
+#include "primitives/enums/Enum.H"
 //#include "macros.H"
 
 #pragma GCC diagnostic ignored "-Wimplicit-fallthrough"

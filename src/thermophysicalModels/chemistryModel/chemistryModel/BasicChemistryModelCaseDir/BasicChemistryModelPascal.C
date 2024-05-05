@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BasicChemistryModelPascal.H"
+#include "chemistryModel/BasicChemistryModelCaseDir/BasicChemistryModelPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

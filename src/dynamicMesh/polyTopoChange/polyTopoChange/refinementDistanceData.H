@@ -40,8 +40,8 @@ SourceFiles
 #ifndef refinementDistanceData_H
 #define refinementDistanceData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -258,7 +258,7 @@ template<> struct is_contiguous<refinementDistanceData> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "refinementDistanceDataI.H"
+#include "polyTopoChange/polyTopoChange/refinementDistanceDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

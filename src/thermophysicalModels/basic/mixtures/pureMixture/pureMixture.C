@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pureMixture.H"
-#include "fvMesh.H"
+#include "mixtures/pureMixture/pureMixture.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

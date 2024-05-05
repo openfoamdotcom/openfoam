@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CloudSubModelBase.H"
-#include "cloud.H"
+#include "submodels/CloudSubModelBase.H"
+#include "fields/cloud/cloud.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

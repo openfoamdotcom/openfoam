@@ -37,9 +37,9 @@ Description
 #ifndef incompressibleAdjointVars_H
 #define incompressibleAdjointVars_H
 
-#include "incompressibleAdjointMeanFlowVars.H"
-#include "objectiveManager.H"
-#include "adjointRASModel.H"
+#include "solvers/variablesSet/incompressibleAdjointMeanFlow/incompressibleAdjointMeanFlowVars.H"
+#include "objectiveManager/objectiveManager.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointRASModel/adjointRASModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "incompressibleAdjointVarsI.H"
+#include "solvers/variablesSet/incompressibleAdjoint/incompressibleAdjointVarsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

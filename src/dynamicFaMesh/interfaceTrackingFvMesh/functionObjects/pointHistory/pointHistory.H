@@ -36,10 +36,10 @@ SourceFiles
 #ifndef pointHistory_H
 #define pointHistory_H
 
-#include "functionObject.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "OFstream.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

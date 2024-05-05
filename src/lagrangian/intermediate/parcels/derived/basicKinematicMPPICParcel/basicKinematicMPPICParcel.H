@@ -38,10 +38,10 @@ SourceFiles
 #ifndef basicKinematicMPPICParcel_H
 #define basicKinematicMPPICParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "KinematicParcel.H"
-#include "MPPICParcel.H"
+#include "primitives/traits/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/KinematicParcel/KinematicParcel.H"
+#include "parcels/Templates/MPPICParcel/MPPICParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

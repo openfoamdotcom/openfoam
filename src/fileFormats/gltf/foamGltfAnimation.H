@@ -40,9 +40,9 @@ SourceFiles
 #ifndef foam_gltf_animation_H
 #define foam_gltf_animation_H
 
-#include "foamGltfBase.H"
-#include "DynamicList.H"
-#include "Tuple2.H"
+#include "gltf/foamGltfBase.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

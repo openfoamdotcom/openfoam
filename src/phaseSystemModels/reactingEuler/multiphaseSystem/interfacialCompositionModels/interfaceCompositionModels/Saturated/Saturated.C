@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Saturated.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/Saturated/Saturated.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

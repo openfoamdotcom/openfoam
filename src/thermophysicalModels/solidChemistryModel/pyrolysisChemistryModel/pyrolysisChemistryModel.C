@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pyrolysisChemistryModel.H"
-#include "solidReaction.H"
-#include "basicThermo.H"
+#include "pyrolysisChemistryModel/pyrolysisChemistryModel.H"
+#include "reaction/ReactionsCaseDir/solidReaction/solidReaction.H"
+#include "basicThermo/basicThermo.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

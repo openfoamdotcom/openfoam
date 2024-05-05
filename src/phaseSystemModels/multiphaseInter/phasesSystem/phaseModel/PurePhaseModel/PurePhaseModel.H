@@ -38,9 +38,9 @@ SourceFiles
 #ifndef PurePhaseModel_H
 #define PurePhaseModel_H
 
-#include "PtrList.H"
-#include "volFields.H"
-#include "fvMatricesFwd.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

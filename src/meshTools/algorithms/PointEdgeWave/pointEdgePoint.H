@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_pointEdgePoint_H
 #define Foam_pointEdgePoint_H
 
-#include "label.H"
-#include "scalar.H"
-#include "point.H"
-#include "tensor.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -251,7 +251,7 @@ template<> struct is_contiguous_scalar<pointEdgePoint> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointEdgePointI.H"
+#include "algorithms/PointEdgeWave/pointEdgePointI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

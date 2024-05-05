@@ -38,7 +38,7 @@ SourceFiles
 #ifndef fvcSup_H
 #define fvcSup_H
 
-#include "volFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcSup.C"
+    #include "finiteVolume/fvc/fvcSup.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

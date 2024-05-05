@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LeidenfrostModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/LeidenfrostModels/LeidenfrostModel/LeidenfrostModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

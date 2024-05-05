@@ -35,8 +35,8 @@ Description
 #ifndef Foam_products_H
 #define Foam_products_H
 
-#include "direction.H"
-#include "pTraits.H"
+#include "primitives/direction/direction.H"
+#include "primitives/traits/pTraits.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

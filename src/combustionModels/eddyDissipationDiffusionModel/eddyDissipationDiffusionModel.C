@@ -24,7 +24,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eddyDissipationDiffusionModel.H"
+#include "eddyDissipationDiffusionModel/eddyDissipationDiffusionModel.H"
 
 namespace Foam
 {

@@ -47,7 +47,7 @@ SourceFiles
 #ifndef CoEulerDdtScheme_H
 #define CoEulerDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -252,7 +252,7 @@ tmp<surfaceScalarField> CoEulerDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CoEulerDdtScheme.C"
+    #include "finiteVolume/ddtSchemes/CoEulerDdtScheme/CoEulerDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVersion.H"
-#include "foamEndianFwd.H"  // For big/little endian defines
-#include "labelFwd.H"
-#include "scalarFwd.H"
+#include "include/foamVersion.H"
+#include "primitives/endian/foamEndianFwd.H"  // For big/little endian defines
+#include "primitives/ints/label/labelFwd.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

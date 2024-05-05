@@ -41,7 +41,7 @@ SourceFiles
 #ifndef LBFGS_H
 #define LBFGS_H
 
-#include "quasiNewton.H"
+#include "optimisation/updateMethod/quasiNewton/quasiNewton.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef fixedValueOutflowFaPatchField_H
 #define fixedValueOutflowFaPatchField_H
 
-#include "faPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -191,7 +191,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedValueOutflowFaPatchField.C"
+    #include "fields/faPatchFields/derived/fixedValueOutflow/fixedValueOutflowFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

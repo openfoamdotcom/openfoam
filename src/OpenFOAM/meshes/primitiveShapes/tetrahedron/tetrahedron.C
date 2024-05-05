@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetrahedron.H"
-#include "scalarField.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

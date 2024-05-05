@@ -81,7 +81,7 @@ SourceFiles
 #ifndef waveTransmissiveFvPatchField_H
 #define waveTransmissiveFvPatchField_H
 
-#include "advectiveFvPatchFields.H"
+#include "fields/fvPatchFields/derived/advective/advectiveFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -210,7 +210,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "waveTransmissiveFvPatchField.C"
+    #include "fields/fvPatchFields/derived/waveTransmissive/waveTransmissiveFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

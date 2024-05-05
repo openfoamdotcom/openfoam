@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "box.H"
-#include "mapDistribute.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "processorLOD/box/box.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
 
 const Foam::label Foam::processorLODs::box::DROP = 0;
 const Foam::label Foam::processorLODs::box::REFINE = 1;

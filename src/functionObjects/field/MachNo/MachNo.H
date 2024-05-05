@@ -85,7 +85,7 @@ SourceFiles
 #ifndef functionObjects_MachNo_H
 #define functionObjects_MachNo_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

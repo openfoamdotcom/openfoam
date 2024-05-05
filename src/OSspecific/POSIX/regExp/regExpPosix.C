@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regExpPosix.H"
-#include "SubStrings.H"
-#include "error.H"
+#include "regExp/regExpPosix.H"
+#include "primitives/strings/lists/SubStrings.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

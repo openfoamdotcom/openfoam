@@ -44,12 +44,12 @@ SourceFiles
 #ifndef cellCellStencils_inverseDistance_H
 #define cellCellStencils_inverseDistance_H
 
-#include "cellCellStencil.H"
-#include "volFields.H"
-#include "labelVector.H"
-#include "treeBoundBoxList.H"
-#include "pointList.H"
-#include "globalIndex.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencil.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/Vector/ints/labelVector.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

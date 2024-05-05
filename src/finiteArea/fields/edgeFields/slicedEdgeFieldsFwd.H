@@ -31,7 +31,7 @@ Description
 #ifndef Foam_slicedEdgeFieldsFwd_H
 #define Foam_slicedEdgeFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

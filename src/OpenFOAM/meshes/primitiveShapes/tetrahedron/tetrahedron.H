@@ -42,15 +42,15 @@ SourceFiles
 #ifndef Foam_tetrahedron_H
 #define Foam_tetrahedron_H
 
-#include "point.H"
-#include "pointHit.H"
-#include "primitiveFieldsFwd.H"
-#include "Random.H"
-#include "FixedList.H"
-#include "UList.H"
-#include "triangle.H"
-#include "treeBoundBox.H"
-#include "barycentric.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "primitives/random/Random/Random.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/List/UList.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -442,12 +442,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetrahedronI.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedronI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "tetrahedron.C"
+    #include "meshes/primitiveShapes/tetrahedron/tetrahedron.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

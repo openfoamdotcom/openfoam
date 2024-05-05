@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EulerImplicit.H"
-#include "addToRunTimeSelectionTable.H"
-#include "simpleMatrix.H"
-#include "Reaction.H"
+#include "chemistrySolver/EulerImplicit/EulerImplicit.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "matrices/simpleMatrix/simpleMatrix.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

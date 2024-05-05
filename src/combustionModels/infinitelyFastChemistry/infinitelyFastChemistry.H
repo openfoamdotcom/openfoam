@@ -42,7 +42,7 @@ SourceFiles
 #ifndef infinitelyFastChemistry_H
 #define infinitelyFastChemistry_H
 
-#include "singleStepCombustion.H"
+#include "singleStepCombustion/singleStepCombustion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "infinitelyFastChemistry.C"
+    #include "infinitelyFastChemistry/infinitelyFastChemistry.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

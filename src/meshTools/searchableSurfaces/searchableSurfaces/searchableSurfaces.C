@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaces.H"
-#include "searchableSurfacesQueries.H"
-#include "ListOps.H"
-#include "TimeOpenFOAM.H"
-#include "DynamicField.H"
-#include "PatchTools.H"
-#include "coordSetWriter.H"
-#include "triSurfaceMesh.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

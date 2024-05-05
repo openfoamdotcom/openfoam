@@ -40,8 +40,8 @@ SourceFiles
 #ifndef foam_gltf_list_H
 #define foam_gltf_list_H
 
-#include "DynamicList.H"
-#include "Ostream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -115,7 +115,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamGltfList.C"
+    #include "gltf/foamGltfList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

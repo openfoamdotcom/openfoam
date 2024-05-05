@@ -39,10 +39,10 @@ SourceFiles
 #ifndef Foam_STLReader_H
 #define Foam_STLReader_H
 
-#include "STLCore.H"
-#include "labelledTri.H"
-#include "IFstream.H"
-#include "Ostream.H"
+#include "stl/STLCore.H"
+#include "meshes/meshShapes/labelledTri/labelledTri.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

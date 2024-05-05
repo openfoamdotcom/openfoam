@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightOutputSurface.H"
-#include "ensightOutput.H"
+#include "ensight/part/surface/ensightOutputSurface.H"
+#include "ensight/output/ensightOutput.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

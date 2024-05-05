@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointBoundaryMesh.H"
-#include "polyBoundaryMesh.H"
-#include "facePointPatch.H"
-#include "pointMesh.H"
-#include "PstreamBuffers.H"
-#include "lduSchedule.H"
-#include "globalMeshData.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "edgeHashes.H"
-#include "HashOps.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "containers/HashTables/HashOps/HashOps.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

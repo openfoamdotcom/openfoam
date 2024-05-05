@@ -48,7 +48,7 @@ Usage
 #ifndef lookup_H
 #define lookup_H
 
-#include "boundaryRadiationPropertiesPatch.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationPropertiesPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

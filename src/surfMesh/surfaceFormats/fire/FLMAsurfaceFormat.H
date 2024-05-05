@@ -48,9 +48,9 @@ SourceFiles
 #ifndef FLMAsurfaceFormat_H
 #define FLMAsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "FIRECore.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "fire/FIRECore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

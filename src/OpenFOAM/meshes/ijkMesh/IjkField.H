@@ -38,8 +38,8 @@ SourceFiles
 #ifndef IjkField_H
 #define IjkField_H
 
-#include "ijkAddressing.H"
-#include "Field.H"
+#include "meshes/ijkMesh/ijkAddressing.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,10 +172,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IjkFieldI.H"
+#include "meshes/ijkMesh/IjkFieldI.H"
 
 #ifdef NoRepository
-    #include "IjkField.C"
+    #include "meshes/ijkMesh/IjkField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

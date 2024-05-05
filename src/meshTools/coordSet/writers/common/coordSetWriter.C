@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordSet.H"
-#include "coordSetWriter.H"
-#include "fileFormats.H"
-#include "TimeOpenFOAM.H"
+#include "coordSet/coordSet.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "common/fileFormats.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

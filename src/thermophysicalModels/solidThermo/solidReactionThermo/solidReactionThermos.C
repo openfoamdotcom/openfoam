@@ -25,23 +25,23 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeReactingSolidThermo.H"
-#include "solidReactionThermo.H"
-#include "heSolidThermo.H"
+#include "solidReactionThermo/makeReactingSolidThermo.H"
+#include "solidReactionThermo/solidReactionThermo.H"
+#include "solidThermo/heSolidThermo.H"
 
-#include "specie.H"
-#include "rhoConst.H"
-#include "hConstThermo.H"
-#include "hPowerThermo.H"
-#include "constIsoSolidTransport.H"
-#include "constAnIsoSolidTransport.H"
-#include "exponentialSolidTransport.H"
+#include "specie/specie.H"
+#include "equationOfState/rhoConst/rhoConst.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/hPower/hPowerThermo.H"
+#include "transport/const/constIsoSolidTransport.H"
+#include "transport/const/constAnIsoSolidTransport.H"
+#include "transport/exponential/exponentialSolidTransport.H"
 
-#include "reactingMixture.H"
-#include "multiComponentMixture.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
 
-#include "sensibleEnthalpy.H"
-#include "thermo.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/thermo.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

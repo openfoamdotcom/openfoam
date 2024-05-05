@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "conductivityModel.H"
+#include "kineticTheoryModels/conductivityModel/conductivityModel/conductivityModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

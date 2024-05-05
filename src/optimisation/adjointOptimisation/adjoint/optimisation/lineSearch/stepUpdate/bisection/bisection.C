@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bisection.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/lineSearch/stepUpdate/bisection/bisection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -63,8 +63,8 @@ SourceFiles
 #ifndef rPolynomial_H
 #define rPolynomial_H
 
-#include "autoPtr.H"
-#include "VectorSpace.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -257,10 +257,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rPolynomialI.H"
+#include "equationOfState/rPolynomial/rPolynomialI.H"
 
 #ifdef NoRepository
-    #include "rPolynomial.C"
+    #include "equationOfState/rPolynomial/rPolynomial.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -120,7 +120,7 @@ SourceFiles
 #ifndef functionObjects_log_H
 #define functionObjects_log_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

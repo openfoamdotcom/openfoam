@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noCorrectionLimiting.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/MPPIC/CorrectionLimitingMethods/noCorrectionLimiting/noCorrectionLimiting.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 namespace Foam
 {

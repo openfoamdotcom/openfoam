@@ -34,7 +34,7 @@ Description
 #ifndef waveModels_shallowWaterAbsorption_H
 #define waveModels_shallowWaterAbsorption_H
 
-#include "waveAbsorptionModel.H"
+#include "waveAbsorptionModels/base/waveAbsorptionModel/waveAbsorptionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gnuplotGraphWriter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "graph/writers/gnuplot/gnuplotGraphWriter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

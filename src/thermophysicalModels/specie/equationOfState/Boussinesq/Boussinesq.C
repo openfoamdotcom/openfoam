@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Boussinesq.H"
-#include "IOstreams.H"
+#include "equationOfState/Boussinesq/Boussinesq.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

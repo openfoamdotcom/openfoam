@@ -70,9 +70,9 @@ SourceFiles
 #ifndef omegaWallFunctionFvPatchScalarField_H
 #define omegaWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
-#include "wallFunctionCoefficients.H"
-#include "wallFunctionBlenders.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionCoefficients/wallFunctionCoefficients.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionBlenders/wallFunctionBlenders.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

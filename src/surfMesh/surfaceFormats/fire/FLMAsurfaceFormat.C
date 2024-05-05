@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FLMAsurfaceFormat.H"
+#include "surfaceFormats/fire/FLMAsurfaceFormat.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

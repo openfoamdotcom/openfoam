@@ -113,8 +113,8 @@ SourceFiles
 #ifndef variableHeatTransfer_H
 #define variableHeatTransfer_H
 
-#include "interRegionHeatTransferModel.H"
-#include "autoPtr.H"
+#include "sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel/interRegionHeatTransferModel.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

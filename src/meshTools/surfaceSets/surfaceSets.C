@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceSets.H"
-#include "polyMesh.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "pointSet.H"
-#include "cellSet.H"
-#include "surfaceToCell.H"
-#include "cellToPoint.H"
-#include "cellToCell.H"
-#include "pointToCell.H"
-#include "meshSearch.H"
-#include "cellClassification.H"
+#include "surfaceSets/surfaceSets.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/cellSources/surfaceToCell/surfaceToCell.H"
+#include "topoSet/pointSources/cellToPoint/cellToPoint.H"
+#include "topoSet/cellSources/cellToCell/cellToCell.H"
+#include "topoSet/cellSources/pointToCell/pointToCell.H"
+#include "meshSearch/meshSearch.H"
+#include "cellClassification/cellClassification.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

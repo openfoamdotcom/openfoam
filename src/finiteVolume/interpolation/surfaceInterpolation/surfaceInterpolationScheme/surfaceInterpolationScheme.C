@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "geometricOneField.H"
-#include "coupledFvPatchField.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * //
 

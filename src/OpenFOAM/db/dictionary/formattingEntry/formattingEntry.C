@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "formattingEntry.H"
-#include "IOstreams.H"
+#include "db/dictionary/formattingEntry/formattingEntry.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

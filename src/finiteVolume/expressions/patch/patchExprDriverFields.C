@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchExprDriver.H"
-#include "fvPatch.H"
-#include "error.H"
+#include "expressions/patch/patchExprDriver.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * Template Specializations  * * * * * * * * * * * * //
 

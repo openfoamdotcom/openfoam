@@ -34,8 +34,8 @@ Description
 #ifndef blockFaceList_H
 #define blockFaceList_H
 
-#include "blockFace.H"
-#include "PtrList.H"
+#include "blockFaces/blockFace/blockFace.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

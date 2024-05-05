@@ -51,9 +51,9 @@ Description
 #ifndef Foam_CStringList_H
 #define Foam_CStringList_H
 
-#include "fileNameList.H"
-#include "stringList.H"
-#include "wordList.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "primitives/strings/lists/stringList.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -217,7 +217,7 @@ Ostream& operator<<(Ostream& os, const CStringList& list);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CStringListI.H"
+#include "primitives/strings/lists/CStringListI.H"
 
 #ifdef NoRepository
 #   include "CStringListTemplates.C"

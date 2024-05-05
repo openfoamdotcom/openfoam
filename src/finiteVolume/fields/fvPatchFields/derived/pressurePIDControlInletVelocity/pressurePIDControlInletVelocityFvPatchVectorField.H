@@ -100,8 +100,8 @@ SourceFiles
 #ifndef pressurePIDControlInletVelocityFvPatchVectorField_H
 #define pressurePIDControlInletVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "Switch.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

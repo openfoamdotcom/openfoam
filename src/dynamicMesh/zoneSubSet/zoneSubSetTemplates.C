@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 

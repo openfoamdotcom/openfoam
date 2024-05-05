@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "enthalpySorptionFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "rhoReactionThermo.H"
-#include "speciesSorptionFvPatchScalarField.H"
+#include "derivedFvPatchFields/enthalpySorption/enthalpySorptionFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "derivedFvPatchFields/speciesSorption/speciesSorptionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -128,14 +128,14 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 #ifndef Foam_PstreamBuffers_H
 #define Foam_PstreamBuffers_H
 
-#include "DynamicList.H"
-#include "UPstream.H"
-#include "IOstream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CelikEtaIndex.H"
-#include "resolutionIndexModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "resolutionIndex/resolutionIndexModels/CelikEtaIndex/CelikEtaIndex.H"
+#include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

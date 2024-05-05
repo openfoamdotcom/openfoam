@@ -37,9 +37,9 @@ Description
 #ifndef primalSolver_H
 #define primalSolver_H
 
-#include "fvMesh.H"
-#include "solver.H"
-#include "runTimeSelectionTables.H"
+#include "fvMesh/fvMesh.H"
+#include "solvers/solver/solver.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorFvPatchField.H"
-#include "processorFvPatch.H"
-#include "demandDrivenData.H"
-#include "transformField.H"
+#include "fields/fvPatchFields/constraint/processor/processorFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "include/demandDrivenData.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

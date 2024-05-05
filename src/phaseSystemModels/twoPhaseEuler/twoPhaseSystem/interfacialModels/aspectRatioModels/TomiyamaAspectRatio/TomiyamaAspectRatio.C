@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TomiyamaAspectRatio.H"
-#include "phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/aspectRatioModels/TomiyamaAspectRatio/TomiyamaAspectRatio.H"
+#include "phasePair/phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

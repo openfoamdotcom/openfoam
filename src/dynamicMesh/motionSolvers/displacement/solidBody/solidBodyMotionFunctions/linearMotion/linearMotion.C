@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearMotion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/linearMotion/linearMotion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

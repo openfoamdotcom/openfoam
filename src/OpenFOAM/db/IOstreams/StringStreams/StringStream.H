@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_StringStream_H
 #define Foam_StringStream_H
 
-#include "ISstream.H"
-#include "OSstream.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
 #include <sstream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

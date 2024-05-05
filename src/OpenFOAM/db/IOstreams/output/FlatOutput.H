@@ -35,7 +35,7 @@ Description
 #ifndef FlatOutput_H
 #define FlatOutput_H
 
-#include "Ostream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

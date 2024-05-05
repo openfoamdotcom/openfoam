@@ -65,7 +65,7 @@ SourceFiles
 #ifndef Lavieville_H
 #define Lavieville_H
 
-#include "partitioningModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

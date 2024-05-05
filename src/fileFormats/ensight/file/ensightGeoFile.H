@@ -35,7 +35,7 @@ Description
 #ifndef Foam_ensightGeoFile_H
 #define Foam_ensightGeoFile_H
 
-#include "ensightFile.H"
+#include "ensight/file/ensightFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

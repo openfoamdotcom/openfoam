@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedMixedFvPatchField.H"
-#include "volFields.H"
-#include "interpolationCell.H"
-#include "mappedFixedValueFvPatchField.H"
+#include "fields/fvPatchFields/derived/mappedMixed/mappedMixedFvPatchField.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/interpolation/interpolationCell/interpolationCell.H"
+#include "fields/fvPatchFields/derived/mappedFixedValue/mappedFixedValueFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

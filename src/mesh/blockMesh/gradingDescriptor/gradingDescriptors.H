@@ -39,8 +39,8 @@ SourceFiles
 #ifndef gradingDescriptors_H
 #define gradingDescriptors_H
 
-#include "gradingDescriptor.H"
-#include "List.H"
+#include "gradingDescriptor/gradingDescriptor.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,8 +34,8 @@ Description
 #ifndef Foam_cpuTime_H
 #define Foam_cpuTime_H
 
-#include "cpuTimeCxx.H"
-#include "cpuTimeFwd.H"
+#include "global/cpuTime/cpuTimeCxx.H"
+#include "cpuTime/cpuTimeFwd.H"
 
 #endif
 

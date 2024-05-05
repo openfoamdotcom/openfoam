@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgeFvPatch.H"
-#include "wedgeFvPatchField.H"
-#include "transformField.H"
-#include "symmTransform.H"
-#include "diagTensor.H"
+#include "fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.H"
+#include "fields/fvPatchFields/constraint/wedge/wedgeFvPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "primitives/transform/symmTransform.H"
+#include "primitives/DiagTensor/diagTensor/diagTensor.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

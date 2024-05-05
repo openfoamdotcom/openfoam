@@ -53,7 +53,7 @@ SourceFiles
 #ifndef pressureInletUniformVelocityFvPatchVectorField_H
 #define pressureInletUniformVelocityFvPatchVectorField_H
 
-#include "pressureInletVelocityFvPatchVectorField.H"
+#include "fields/fvPatchFields/derived/pressureInletVelocity/pressureInletVelocityFvPatchVectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussFaConvectionScheme.H"
-#include "facEdgeIntegrate.H"
-#include "faMatrices.H"
+#include "finiteArea/convectionSchemes/gaussFaConvectionScheme/gaussFaConvectionScheme.H"
+#include "finiteArea/fac/facEdgeIntegrate.H"
+#include "faMatrices/faMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

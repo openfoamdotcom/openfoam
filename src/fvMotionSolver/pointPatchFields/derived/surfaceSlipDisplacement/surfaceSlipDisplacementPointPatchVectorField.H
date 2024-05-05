@@ -55,8 +55,8 @@ SourceFiles
 #ifndef surfaceSlipDisplacementPointPatchVectorField_H
 #define surfaceSlipDisplacementPointPatchVectorField_H
 
-#include "pointPatchFields.H"
-#include "searchableSurfaces.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFields.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PstreamReduceOps.H"
-#include "FieldReuseFunctions.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "fields/Fields/Field/FieldReuseFunctions.H"
 
 #define TEMPLATE template<class Type>
-#include "FieldFunctionsM.C"
+#include "fields/Fields/Field/FieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -913,6 +913,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

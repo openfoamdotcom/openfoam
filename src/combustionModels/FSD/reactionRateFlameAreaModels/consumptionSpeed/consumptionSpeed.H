@@ -38,8 +38,8 @@ SourceFiles
 #ifndef consumptionSpeed_H
 #define consumptionSpeed_H
 
-#include "IOdictionary.H"
-#include "volFields.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/volFields/volFields.H"
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

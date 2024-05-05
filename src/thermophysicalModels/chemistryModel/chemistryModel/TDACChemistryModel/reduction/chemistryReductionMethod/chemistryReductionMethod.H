@@ -37,9 +37,9 @@ SourceFiles
 #ifndef chemistryReductionMethod_H
 #define chemistryReductionMethod_H
 
-#include "IOdictionary.H"
-#include "Switch.H"
-#include "scalarField.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,13 +163,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "chemistryReductionMethodI.H"
+#include "chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethodI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "chemistryReductionMethod.C"
-    #include "chemistryReductionMethodNew.C"
+    #include "chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.C"
+    #include "chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethodNew.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

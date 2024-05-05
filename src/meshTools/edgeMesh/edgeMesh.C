@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMesh.H"
-#include "bitSet.H"
-#include "edgeHashes.H"
-#include "mergePoints.H"
-#include "ListOps.H"
-#include "addToRunTimeSelectionTable.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "edgeMesh/edgeMesh.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

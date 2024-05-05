@@ -120,11 +120,11 @@ SourceFiles
 #ifndef regionSplit_H
 #define regionSplit_H
 
-#include "globalIndex.H"
-#include "labelPair.H"
-#include "bitSet.H"
-#include "boolList.H"
-#include "MeshObject.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "primitives/tuples/labelPair.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/MeshObject/MeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

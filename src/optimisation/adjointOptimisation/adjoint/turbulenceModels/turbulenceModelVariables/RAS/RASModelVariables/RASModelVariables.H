@@ -40,11 +40,11 @@ SourceFiles
 #ifndef RASModelVariables_H
 #define RASModelVariables_H
 
-#include "solverControl.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "runTimeSelectionTables.H"
-#include "refPtr.H"
+#include "solvers/solverControl/solverControl/solverControl.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/refPtr/refPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -262,7 +262,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RASModelVariablesI.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/RASModelVariables/RASModelVariablesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashSet.H"
-#include "MinMax.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

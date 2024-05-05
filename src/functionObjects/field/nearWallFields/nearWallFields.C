@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nearWallFields.H"
-#include "wordRes.H"
-#include "findCellParticle.H"
-#include "mappedPatchBase.H"
-#include "OBJstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "nearWallFields/nearWallFields.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "nearWallFields/findCellParticle.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "obj/OBJstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -41,9 +41,9 @@ Author
 #ifndef facDdt_H
 #define facDdt_H
 
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -92,7 +92,7 @@ namespace fac
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "facDdt.C"
+    #include "finiteArea/fac/facDdt.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

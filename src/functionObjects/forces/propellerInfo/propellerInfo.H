@@ -164,9 +164,9 @@ SourceFiles
 #ifndef functionObjects_propellerInfo_H
 #define functionObjects_propellerInfo_H
 
-#include "forces.H"
-#include "Enum.H"
-#include "faceList.H"
+#include "forces/forces.H"
+#include "primitives/enums/Enum.H"
+#include "meshes/meshShapes/face/faceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

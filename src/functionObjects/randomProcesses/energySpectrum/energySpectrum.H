@@ -66,10 +66,10 @@ SourceFiles
 #ifndef functionObjects_energySpectrum_H
 #define functionObjects_energySpectrum_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "VectorPascal.H"
-#include "vectorField.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/Vector/VectorPascal.H"
+#include "fields/Fields/vectorField/vectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

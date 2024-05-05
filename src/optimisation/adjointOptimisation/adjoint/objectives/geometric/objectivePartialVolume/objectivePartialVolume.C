@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectivePartialVolume.H"
-#include "createZeroField.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/geometric/objectivePartialVolume/objectivePartialVolume.H"
+#include "global/createZeroField.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

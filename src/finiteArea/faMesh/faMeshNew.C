@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "polyMesh.H"
-#include "fileOperation.H"
+#include "faMesh/faMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

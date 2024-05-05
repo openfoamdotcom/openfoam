@@ -36,7 +36,7 @@ Description
 #ifndef GradientDispersionRAS_H
 #define GradientDispersionRAS_H
 
-#include "DispersionRASModel.H"
+#include "submodels/Kinematic/DispersionModel/DispersionRASModel/DispersionRASModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GradientDispersionRAS.C"
+    #include "submodels/Kinematic/DispersionModel/GradientDispersionRAS/GradientDispersionRAS.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeDataFace.H"
-#include "polyMesh.H"
-#include "triangle.H"
+#include "indexedOctree/treeDataFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

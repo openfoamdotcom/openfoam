@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionEntry.H"
-#include "IOstreams.H"
-#include "ISstream.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

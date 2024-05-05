@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightWrite.H"
-#include "dictionary.H"
-#include "cellBitSet.H"
+#include "ensightWrite/ensightWrite.H"
+#include "db/dictionary/dictionary.H"
+#include "topoSet/topoSets/cellBitSet.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

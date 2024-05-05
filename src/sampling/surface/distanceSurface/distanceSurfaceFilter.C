@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distanceSurface.H"
-#include "regionSplit.H"
-#include "syncTools.H"
-#include "ListOps.H"
-#include "vtkSurfaceWriter.H"
+#include "surface/distanceSurface/distanceSurface.H"
+#include "regionSplit/regionSplit.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "writers/vtk/vtkSurfaceWriter.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

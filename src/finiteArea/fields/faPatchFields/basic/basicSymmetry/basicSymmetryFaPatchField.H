@@ -41,8 +41,8 @@ SourceFiles
 #ifndef basicSymmetryFaPatchField_H
 #define basicSymmetryFaPatchField_H
 
-#include "transformFaPatchField.H"
-#include "symmetryFaPatch.H"
+#include "fields/faPatchFields/basic/transform/transformFaPatchField.H"
+#include "faMesh/faPatches/constraint/symmetry/symmetryFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ void basicSymmetryFaPatchField<scalar>::evaluate
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "basicSymmetryFaPatchField.C"
+    #include "fields/faPatchFields/basic/basicSymmetry/basicSymmetryFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

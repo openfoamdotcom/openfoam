@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CFCCellToCellStencil.H"
-#include "syncTools.H"
-#include "emptyPolyPatch.H"
+#include "fvMesh/extendedStencil/cellToCell/globalIndexStencils/CFCCellToCellStencil.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

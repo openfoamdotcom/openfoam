@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "curve.H"
-#include "Ostream.H"
+#include "graph/curve.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

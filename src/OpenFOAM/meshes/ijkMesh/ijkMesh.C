@@ -24,8 +24,8 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 \*---------------------------------------------------------------------------*/
 
-#include "ijkMesh.H"
-#include "hexCell.H"
+#include "meshes/ijkMesh/ijkMesh.H"
+#include "meshes/meshShapes/hexCell/hexCell.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

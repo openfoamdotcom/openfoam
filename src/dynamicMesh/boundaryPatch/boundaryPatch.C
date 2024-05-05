@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryPatch.H"
-#include "dictionary.H"
-#include "Ostream.H"
+#include "boundaryPatch/boundaryPatch.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -227,9 +227,9 @@ SourceFiles
 #ifndef Foam_functionObjects_forceCoeffs_H
 #define Foam_functionObjects_forceCoeffs_H
 
-#include "forces.H"
-#include "HashSet.H"
-#include "Enum.H"
+#include "forces/forces.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

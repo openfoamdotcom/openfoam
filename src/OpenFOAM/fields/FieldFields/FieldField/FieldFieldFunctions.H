@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarFieldField.H"
+#include "fields/FieldFields/scalarFieldField/scalarFieldField.H"
 
 #define TEMPLATE template<template<class> class Field, class Type>
-#include "FieldFieldFunctionsM.H"
+#include "fields/FieldFields/FieldField/FieldFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -499,6 +499,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

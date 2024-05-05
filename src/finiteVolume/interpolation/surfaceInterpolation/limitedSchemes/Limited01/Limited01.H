@@ -37,7 +37,7 @@ Description
 #ifndef Limited01_H
 #define Limited01_H
 
-#include "Limited.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/Limited/Limited.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

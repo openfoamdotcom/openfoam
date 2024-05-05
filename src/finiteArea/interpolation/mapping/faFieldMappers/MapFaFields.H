@@ -31,9 +31,9 @@ Description
 #ifndef MapFaFields_H
 #define MapFaFields_H
 
-#include "MapGeometricFields.H"
-#include "MapFaEdgeField.H"
-#include "MapFaAreaField.H"
+#include "fields/GeometricFields/GeometricField/MapGeometricFields.H"
+#include "interpolation/mapping/faFieldMappers/MapFaEdgeField.H"
+#include "interpolation/mapping/faFieldMappers/MapFaAreaField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

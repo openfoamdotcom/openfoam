@@ -38,7 +38,7 @@ SourceFiles
 #ifndef hydrodynamic_H
 #define hydrodynamic_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

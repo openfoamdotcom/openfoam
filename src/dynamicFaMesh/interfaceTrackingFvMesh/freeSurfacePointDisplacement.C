@@ -26,15 +26,15 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "interfaceTrackingFvMesh.H"
-#include "primitivePatchInterpolation.H"
-#include "emptyFaPatch.H"
-#include "processorFaPatch.H"
-#include "wedgeFaPatch.H"
-#include "wallFvPatch.H"
-#include "coordinateSystem.H"
-#include "unitConversion.H"
-#include "scalarMatrices.H"
-#include "tensor2D.H"
+#include "interpolations/primitivePatchInterpolation/primitivePatchInterpolation.H"
+#include "faMesh/faPatches/constraint/empty/emptyFaPatch.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "faMesh/faPatches/constraint/wedge/wedgeFaPatch.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "global/constants/unitConversion.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

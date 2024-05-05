@@ -39,8 +39,8 @@ SourceFiles
 #define AssemblyFvPatch_H
 
 
-#include "cyclicFvPatch.H"
-#include "cyclicAMIFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

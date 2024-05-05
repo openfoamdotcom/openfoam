@@ -37,8 +37,8 @@ SourceFiles
 #ifndef dsmcParcel_H
 #define dsmcParcel_H
 
-#include "particle.H"
-#include "DSMCParcelPascal.H"
+#include "particle/particle.H"
+#include "parcels/Templates/DSMCParcel/DSMCParcelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

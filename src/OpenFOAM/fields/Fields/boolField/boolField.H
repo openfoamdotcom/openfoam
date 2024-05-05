@@ -37,11 +37,11 @@ SourceFiles
 #ifndef boolField_H
 #define boolField_H
 
-#include "bool.H"
-#include "Field.H"
+#include "primitives/bools/bool/bool.H"
+#include "fields/Fields/Field/Field.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "fields/Fields/Field/FieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -65,7 +65,7 @@ tmp<boolField> boolField::component(const direction) const;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

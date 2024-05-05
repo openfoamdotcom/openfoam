@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpanStream.H"
-#include "ensightPTraits.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "ensight/type/ensightPTraits.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

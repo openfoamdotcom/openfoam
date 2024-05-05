@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIFvPatchFields.H"
-#include "cyclicAMIPolyPatch.H"
-#include "mapDistributeBase.H"
-#include "AMIInterpolation.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchFields.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

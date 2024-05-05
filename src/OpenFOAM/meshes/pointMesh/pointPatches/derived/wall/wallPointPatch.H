@@ -37,8 +37,8 @@ SourceFiles
 #ifndef wallPointPatch_H
 #define wallPointPatch_H
 
-#include "facePointPatch.H"
-#include "wallPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

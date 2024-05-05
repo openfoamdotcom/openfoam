@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wordRe.H"
-#include "keyType.H"
-#include "token.H"
-#include "IOstreams.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "primitives/strings/keyType/keyType.H"
+#include "db/IOstreams/token/token.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimePaths.H"
-#include "argList.H"
-#include "fileOperation.H"
-#include "IOstreams.H"
+#include "db/Time/TimePaths.H"
+#include "global/argList/argList.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

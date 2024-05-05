@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KirchhoffShell.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFields.H"
-#include "zeroGradientFaPatchFields.H"
-#include "subCycle.H"
+#include "KirchhoffShell/KirchhoffShell.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchFields.H"
+#include "algorithms/subCycle/subCycle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

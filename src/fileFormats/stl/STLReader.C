@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLReader.H"
-#include "STLAsciiParse.H"
-#include "Map.H"
-#include "IFstream.H"
-#include "mergePoints.H"
+#include "stl/STLReader.H"
+#include "stl/STLAsciiParse.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/meshTools/mergePoints.H"
 
 #undef DEBUG_STLBINARY
 

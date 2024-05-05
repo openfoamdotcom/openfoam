@@ -28,7 +28,7 @@ License
 #ifndef makeCombustionTypes_H
 #define makeCombustionTypes_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

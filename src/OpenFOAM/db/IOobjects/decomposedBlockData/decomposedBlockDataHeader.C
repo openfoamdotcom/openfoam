@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "decomposedBlockData.H"
-#include "dictionary.H"
-#include "foamVersion.H"
-#include "objectRegistry.H"
-#include "SpanStream.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "db/dictionary/dictionary.H"
+#include "include/foamVersion.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOstreams/memory/SpanStream.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

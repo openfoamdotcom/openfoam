@@ -37,8 +37,8 @@ SourceFiles
 #ifndef ThermoCombustion_H
 #define ThermoCombustion_H
 
-#include "autoPtr.H"
-#include "CombustionModelPascal.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "CombustionModelCaseDir/CombustionModel/CombustionModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -105,7 +105,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoCombustion.C"
+    #include "CombustionModelCaseDir/ThermoCombustion/ThermoCombustion.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

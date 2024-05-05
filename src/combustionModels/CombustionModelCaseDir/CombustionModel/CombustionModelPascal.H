@@ -39,9 +39,9 @@ SourceFiles
 #ifndef CombustionModel_H
 #define CombustionModel_H
 
-#include "combustionModel.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "combustionModel/combustionModel.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,7 +140,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CombustionModelPascal.C"
+    #include "CombustionModelCaseDir/CombustionModel/CombustionModelPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

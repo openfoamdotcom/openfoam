@@ -86,7 +86,7 @@ SourceFiles
 #ifndef Foam_functionObjects_reactingEulerHtcModel_H
 #define Foam_functionObjects_reactingEulerHtcModel_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceMesh.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
-#include "edgeHashes.H"
-#include "triSurfaceFields.H"
-#include "TimeOpenFOAM.H"
-#include "PatchTools.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "primitives/random/Random/Random.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

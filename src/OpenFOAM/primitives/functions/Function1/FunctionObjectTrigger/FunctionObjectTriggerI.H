@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FunctionObjectTrigger.H"
+#include "primitives/functions/Function1/FunctionObjectTrigger/FunctionObjectTrigger.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ABAQUSsurfaceFormatCore.H"
+#include "surfaceFormats/abaqus/ABAQUSsurfaceFormatCore.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

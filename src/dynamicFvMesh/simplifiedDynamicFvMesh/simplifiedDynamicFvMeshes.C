@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "simplifiedDynamicFvMesh.H"
-#include "staticFvMesh.H"
-#include "dynamicMotionSolverFvMesh.H"
-#include "motionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "simplifiedDynamicFvMesh/simplifiedDynamicFvMesh.H"
+#include "staticFvMesh/staticFvMesh.H"
+#include "dynamicMotionSolverFvMesh/dynamicMotionSolverFvMesh.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
 
 namespace Foam
 {

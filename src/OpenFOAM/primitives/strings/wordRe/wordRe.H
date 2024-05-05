@@ -54,9 +54,9 @@ SourceFiles
 #ifndef Foam_wordRe_H
 #define Foam_wordRe_H
 
-#include "word.H"
-#include "regExp.H"
-#include "stdFoam.H"
+#include "primitives/strings/word/word.H"
+#include "regExp/regExp.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -270,7 +270,7 @@ Ostream& operator<<(Ostream& os, const wordRe& val);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordReI.H"
+#include "primitives/strings/wordRe/wordReI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

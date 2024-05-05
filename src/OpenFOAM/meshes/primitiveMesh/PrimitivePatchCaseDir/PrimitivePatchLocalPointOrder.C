@@ -29,8 +29,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "boolList.H"
-#include "CircularBuffer.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Buffers/CircularBuffer.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

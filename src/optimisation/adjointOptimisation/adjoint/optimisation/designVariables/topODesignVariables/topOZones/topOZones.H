@@ -38,8 +38,8 @@ SourceFiles
 #ifndef topOZones_H
 #define topOZones_H
 
-#include "fvMesh.H"
-#include "betaMax.H"
+#include "fvMesh/fvMesh.H"
+#include "optimisation/designVariables/topODesignVariables/betaMax/betaMax/betaMax.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -42,10 +42,10 @@ SourceFiles
 #ifndef constrainedOptimisationMethod_H
 #define constrainedOptimisationMethod_H
 
-#include "runTimeSelectionTables.H"
-#include "fvMesh.H"
-#include "dictionary.H"
-#include "designVariables.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fvMesh/fvMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "backwardFaDdtScheme.H"
-#include "facDiv.H"
-#include "faMatrices.H"
+#include "finiteArea/ddtSchemes/backwardFaDdtScheme/backwardFaDdtScheme.H"
+#include "finiteArea/fac/facDiv.H"
+#include "faMatrices/faMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Random.H"
-#include "PstreamReduceOps.H"
+#include "primitives/random/Random/Random.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

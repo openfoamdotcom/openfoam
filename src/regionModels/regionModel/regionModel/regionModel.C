@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionModel.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "mappedWallPolyPatch.H"
-#include "zeroGradientFvPatchFields.H"
-#include "faceAreaWeightAMI.H"
+#include "regionModel/regionModel.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "AMIInterpolation/AMIInterpolation/faceAreaWeightAMI/faceAreaWeightAMI.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

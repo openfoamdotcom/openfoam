@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FixedList.H"
-#include "Tuple2.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

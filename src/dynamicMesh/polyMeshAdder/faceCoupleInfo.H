@@ -136,9 +136,9 @@ SourceFiles
 #ifndef Foam_faceCoupleInfo_H
 #define Foam_faceCoupleInfo_H
 
-#include "edgeHashes.H"
-#include "indirectPrimitivePatch.H"
-#include "primitivePatch.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -511,7 +511,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faceCoupleInfoTemplates.C"
+    #include "polyMeshAdder/faceCoupleInfoTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

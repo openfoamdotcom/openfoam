@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedMixedFieldFvPatchField.H"
-#include "volFields.H"
-#include "interpolationCell.H"
+#include "fields/fvPatchFields/derived/mappedField/mappedMixedFieldFvPatchField/mappedMixedFieldFvPatchField.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/interpolation/interpolationCell/interpolationCell.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

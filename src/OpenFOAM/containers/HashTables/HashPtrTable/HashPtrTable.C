@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashPtrTable.H"
-#include "autoPtr.H"
-#include "error.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -224,6 +224,6 @@ void Foam::HashPtrTable<T, Key, Hash>::operator=
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 
-#include "HashPtrTableIO.C"
+#include "containers/HashTables/HashPtrTable/HashPtrTableIO.C"
 
 // ************************************************************************* //

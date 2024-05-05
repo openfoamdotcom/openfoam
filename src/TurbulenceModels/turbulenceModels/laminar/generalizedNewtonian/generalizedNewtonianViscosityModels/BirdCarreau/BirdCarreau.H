@@ -48,8 +48,8 @@ SourceFiles
 #ifndef BirdCarreau_H
 #define BirdCarreau_H
 
-#include "generalizedNewtonianViscosityModel.H"
-#include "dimensionedScalar.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/generalizedNewtonianViscosityModel/generalizedNewtonianViscosityModel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,9 +40,9 @@ SourceFiles
 #ifndef reactingOneDim_H
 #define reactingOneDim_H
 
-#include "pyrolysisModel.H"
-#include "basicSolidChemistryModel.H"
-#include "radiationModel.H"
+#include "pyrolysisModel/pyrolysisModel.H"
+#include "basicSolidChemistryModel/basicSolidChemistryModel.H"
+#include "radiationModels/radiationModel/radiationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -302,7 +302,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reactingOneDimI.H"
+#include "reactingOneDim/reactingOneDimI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

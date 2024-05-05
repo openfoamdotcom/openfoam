@@ -38,7 +38,7 @@ SourceFiles
 #ifndef functionObjects_runTimeConditions_maxDurationCondition_H
 #define functionObjects_runTimeConditions_maxDurationCondition_H
 
-#include "runTimeCondition.H"
+#include "runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

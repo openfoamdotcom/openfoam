@@ -166,9 +166,9 @@ SourceFiles
 #ifndef electrostaticDepositionFvPatchScalarField_H
 #define electrostaticDepositionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "Enum.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/enums/Enum.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

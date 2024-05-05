@@ -41,7 +41,7 @@ SourceFiles
 #ifndef oldCyclicPolyPatch_H
 #define oldCyclicPolyPatch_H
 
-#include "coupledPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

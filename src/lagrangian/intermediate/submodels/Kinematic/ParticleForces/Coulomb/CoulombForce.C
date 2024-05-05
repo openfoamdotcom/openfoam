@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CoulombForce.H"
-#include "demandDrivenData.H"
+#include "submodels/Kinematic/ParticleForces/Coulomb/CoulombForce.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

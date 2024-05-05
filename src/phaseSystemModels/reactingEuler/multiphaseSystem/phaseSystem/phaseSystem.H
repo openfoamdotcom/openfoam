@@ -39,20 +39,20 @@ SourceFiles
 #ifndef phaseSystem_H
 #define phaseSystem_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
-#include "reactingEuler_phaseModel.H"
-#include "reactingEuler_phasePair.H"
-#include "reactingEuler_orderedPhasePair.H"
-#include "HashPtrTable.H"
-#include "PtrListDictionary.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "phasePair/reactingEuler_orderedPhasePair.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.H"
 
-#include "IOMRFZoneList.H"
-#include "fvOptions.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatricesFwd.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -562,12 +562,12 @@ tmp<surfaceScalarField> byDt(const surfaceScalarField& sf);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "phaseSystemI.H"
+#include "phaseSystem/phaseSystemI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "phaseSystemTemplates.C"
+    #include "phaseSystem/phaseSystemTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

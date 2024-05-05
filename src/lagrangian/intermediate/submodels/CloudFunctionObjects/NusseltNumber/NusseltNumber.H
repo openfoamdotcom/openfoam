@@ -67,7 +67,7 @@ SourceFiles
 #ifndef NusseltNumber_H
 #define NusseltNumber_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NusseltNumber.C"
+    #include "submodels/CloudFunctionObjects/NusseltNumber/NusseltNumber.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

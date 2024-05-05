@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussConvectionScheme.H"
-#include "boundedConvectionScheme.H"
-#include "blendedSchemeBase.H"
-#include "fvcCellReduce.H"
-#include "DEShybrid.H"
+#include "finiteVolume/convectionSchemes/gaussConvectionScheme/gaussConvectionScheme.H"
+#include "finiteVolume/convectionSchemes/boundedConvectionScheme/boundedConvectionScheme.H"
+#include "interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.H"
+#include "finiteVolume/fvc/fvcCellReduce.H"
+#include "DEShybrid/DEShybrid.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

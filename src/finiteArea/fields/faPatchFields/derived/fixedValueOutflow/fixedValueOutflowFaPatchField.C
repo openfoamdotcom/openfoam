@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedValueOutflowFaPatchField.H"
+#include "fields/faPatchFields/derived/fixedValueOutflow/fixedValueOutflowFaPatchField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

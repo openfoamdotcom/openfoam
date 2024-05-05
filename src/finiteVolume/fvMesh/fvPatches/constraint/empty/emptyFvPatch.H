@@ -38,8 +38,8 @@ SourceFiles
 #ifndef emptyFvPatch_H
 #define emptyFvPatch_H
 
-#include "fvPatch.H"
-#include "emptyPolyPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

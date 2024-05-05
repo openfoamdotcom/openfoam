@@ -28,7 +28,7 @@ License
 #ifndef makeArrheniusTypes_H
 #define makeArrheniusTypes_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

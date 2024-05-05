@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OBJstream.H"
-#include "primitivePatch.H"
-#include "treeBoundBox.H"
+#include "obj/OBJstream.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedUpwindCellToFaceStencil.H"
-#include "cellToFaceStencil.H"
-#include "syncTools.H"
-#include "SortableList.H"
-#include "dummyTransform.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencil.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/cellToFaceStencil.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "meshes/polyMesh/syncTools/dummyTransform.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

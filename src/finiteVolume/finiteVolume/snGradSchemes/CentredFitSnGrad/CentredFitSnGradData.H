@@ -38,7 +38,7 @@ SourceFiles
 #ifndef CentredFitSnGradData_H
 #define CentredFitSnGradData_H
 
-#include "FitData.H"
+#include "interpolation/surfaceInterpolation/schemes/FitData/FitData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CentredFitSnGradData.C"
+    #include "finiteVolume/snGradSchemes/CentredFitSnGrad/CentredFitSnGradData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -64,8 +64,8 @@ SourceFiles
 #ifndef lumpedMassWallTemperatureFvPatchScalarField_H
 #define lumpedMassWallTemperatureFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "temperatureCoupledBase.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ Description
 #ifndef atomicConstants_H
 #define atomicConstants_H
 
-#include "dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

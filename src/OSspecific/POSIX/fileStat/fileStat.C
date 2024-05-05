@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileStat.H"
-#include "IOstreams.H"
-#include "timer.H"
+#include "fileStat/fileStat.H"
+#include "db/IOstreams/IOstreams.H"
+#include "signals/timer.H"
 
 #include <unistd.h>
 #ifndef __APPLE__

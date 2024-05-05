@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompactListList.H"
-#include "labelRange.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "primitives/ranges/labelRange/labelRange.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

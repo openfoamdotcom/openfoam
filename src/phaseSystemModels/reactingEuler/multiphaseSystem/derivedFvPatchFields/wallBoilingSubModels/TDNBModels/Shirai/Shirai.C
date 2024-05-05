@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Shirai.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/TDNBModels/Shirai/Shirai.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockMesh.H"
-#include "cellModel.H"
-#include "emptyPolyPatch.H"
+#include "blockMesh/blockMesh.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

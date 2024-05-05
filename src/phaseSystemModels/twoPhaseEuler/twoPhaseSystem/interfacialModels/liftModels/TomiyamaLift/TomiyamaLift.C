@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TomiyamaLift.H"
-#include "phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/liftModels/TomiyamaLift/TomiyamaLift.H"
+#include "phasePair/phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

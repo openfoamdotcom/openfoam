@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedFeatureEdgeMeshFormat.H"
-#include "edgeMeshFormat.H"
-#include "IFstream.H"
+#include "edgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMeshFormat.H"
+#include "edgeMesh/edgeFormats/edgeMesh/edgeMeshFormat.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

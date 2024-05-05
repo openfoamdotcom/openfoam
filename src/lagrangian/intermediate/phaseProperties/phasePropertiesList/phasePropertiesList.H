@@ -37,10 +37,10 @@ SourceFiles
 #ifndef phasePropertiesList_H
 #define phasePropertiesList_H
 
-#include "Istream.H"
-#include "volFields.H"
-#include "wordList.H"
-#include "phaseProperties.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/strings/lists/wordList.H"
+#include "phaseProperties/phaseProperties/phaseProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FixedList.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "token.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

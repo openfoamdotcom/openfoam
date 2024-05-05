@@ -47,7 +47,7 @@ SourceFiles
 #ifndef limitedLnGrad_H
 #define limitedLnGrad_H
 
-#include "lnGradScheme.H"
+#include "finiteArea/lnGradSchemes/lnGradScheme/lnGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -151,7 +151,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "limitedLnGrad.C"
+    #include "finiteArea/lnGradSchemes/limitedLnGrad/limitedLnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

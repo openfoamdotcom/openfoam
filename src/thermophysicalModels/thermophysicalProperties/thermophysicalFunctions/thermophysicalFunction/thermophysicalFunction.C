@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermophysicalFunction.H"
-#include "HashTable.H"
+#include "thermophysicalFunctions/thermophysicalFunction/thermophysicalFunction.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

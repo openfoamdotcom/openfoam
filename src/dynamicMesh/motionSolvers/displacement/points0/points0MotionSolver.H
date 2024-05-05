@@ -39,10 +39,10 @@ SourceFiles
 #ifndef Foam_points0MotionSolver_H
 #define Foam_points0MotionSolver_H
 
-#include "motionSolver.H"
-#include "pointFields.H"
-#include "pointIOField.H"
-#include "zoneMotion.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "motionSolvers/displacement/displacement/zoneMotion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

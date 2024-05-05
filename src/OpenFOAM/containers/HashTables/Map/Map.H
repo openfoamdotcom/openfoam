@@ -43,7 +43,7 @@ See also
 #ifndef Foam_Map_H
 #define Foam_Map_H
 
-#include "HashTable.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

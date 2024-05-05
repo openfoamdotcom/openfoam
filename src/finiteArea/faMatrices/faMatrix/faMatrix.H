@@ -43,13 +43,13 @@ Author
 #ifndef Foam_faMatrix_H
 #define Foam_faMatrix_H
 
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "lduMatrix.H"
-#include "tmp.H"
-#include "autoPtr.H"
-#include "dimensionedTypes.H"
-#include "className.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "memory/tmp/tmp.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1097,7 +1097,7 @@ tmp<faMatrix<Type>> operator*
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faMatrix.C"
+    #include "faMatrices/faMatrix/faMatrix.C"
 #endif
 
 // Specialisation for scalars

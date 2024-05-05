@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldExprFwd.H"
-#include "defineDebugSwitch.H"
+#include "expressions/fields/fieldExprFwd.H"
+#include "global/debug/defineDebugSwitch.H"
 
 // * * * * * * * * * * * * * * * * Globals * * * * * * * * * * * * * * * * * //
 

@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Foam_dimensionedMinMax_H
 #define Foam_dimensionedMinMax_H
 
-#include "dimensionedType.H"
-#include "MinMax.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ dimensioned<MinMax<T>> makeDimensionedMinMax
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dimensionedMinMaxTemplates.C"
+    #include "dimensionedTypes/dimensionedMinMax/dimensionedMinMaxTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

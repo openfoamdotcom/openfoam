@@ -34,7 +34,7 @@ Description
 #ifndef Foam_edgeFieldsFwd_H
 #define Foam_edgeFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

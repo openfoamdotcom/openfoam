@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "smoothDelta.H"
-#include "addToRunTimeSelectionTable.H"
-#include "FaceCellWave.H"
+#include "LES/LESdeltas/smoothDelta/smoothDelta.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

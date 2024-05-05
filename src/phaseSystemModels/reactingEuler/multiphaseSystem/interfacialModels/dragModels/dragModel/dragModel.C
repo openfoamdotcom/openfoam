@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dragModel.H"
-#include "reactingEuler_phasePair.H"
-#include "swarmCorrection.H"
-#include "surfaceInterpolate.H"
-#include "BlendedInterfacialModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "interfacialModels/swarmCorrections/swarmCorrection/swarmCorrection.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

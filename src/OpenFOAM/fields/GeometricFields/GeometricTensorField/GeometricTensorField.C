@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricTensorField.H"
-#include "tensorFieldField.H"
+#include "fields/GeometricFields/GeometricTensorField/GeometricTensorField.H"
+#include "fields/FieldFields/tensorFieldField/tensorFieldField.H"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
-#include "GeometricFieldFunctionsM.C"
+#include "fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 
@@ -289,6 +289,6 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, '|', divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

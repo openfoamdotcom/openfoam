@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liftModel.H"
-#include "reactingEuler_phasePair.H"
-#include "fvcCurl.H"
-#include "fvcFlux.H"
-#include "surfaceInterpolate.H"
-#include "BlendedInterfacialModel.H"
+#include "interfacialModels/liftModels/liftModel/liftModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "finiteVolume/fvc/fvcCurl.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

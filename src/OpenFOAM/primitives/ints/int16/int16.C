@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "int16.H"
-#include "int32.H"
-#include "IOstreams.H"
+#include "primitives/ints/int16/int16.H"
+#include "primitives/ints/int32/int32.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

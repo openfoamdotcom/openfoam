@@ -35,9 +35,9 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "contiguous.H"
-#include "PstreamReduceOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/traits/contiguous.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 // * * * * * * * * * * * * * * * * * Details * * * * * * * * * * * * * * * * //
 

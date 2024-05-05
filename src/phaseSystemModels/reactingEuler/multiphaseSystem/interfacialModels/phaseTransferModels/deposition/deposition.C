@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "deposition.H"
-#include "reactingEuler_phasePair.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/phaseTransferModels/deposition/deposition.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correlationFunction.H"
-#include "IOstreams.H"
+#include "correlationFunction/correlationFunction.H"
+#include "db/IOstreams/IOstreams.H"
 
 template<class Type>
 bool Foam::correlationFunction<Type>::writeAveraged(Ostream& os) const

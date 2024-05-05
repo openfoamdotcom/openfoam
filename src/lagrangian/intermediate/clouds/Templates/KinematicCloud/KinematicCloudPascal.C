@@ -26,23 +26,23 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicCloudPascal.H"
-#include "integrationScheme.H"
-#include "interpolation.H"
-#include "subCycleTime.H"
+#include "clouds/Templates/KinematicCloud/KinematicCloudPascal.H"
+#include "integrationScheme/integrationScheme/integrationScheme.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "db/Time/subCycleTime.H"
 
-#include "InjectionModelListPascal.H"
-#include "DispersionModel.H"
-#include "PatchInteractionModel.H"
-#include "StochasticCollisionModel.H"
-#include "SurfaceFilmModelPascal.H"
-#include "profiling.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelListPascal.H"
+#include "submodels/Kinematic/DispersionModel/DispersionModel/DispersionModel.H"
+#include "submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
+#include "submodels/Kinematic/StochasticCollision/StochasticCollisionModel/StochasticCollisionModel.H"
+#include "submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelPascal.H"
+#include "global/profiling/profiling.H"
 
-#include "PackingModel.H"
-#include "ParticleStressModel.H"
-#include "DampingModel.H"
-#include "IsotropyModel.H"
-#include "TimeScaleModel.H"
+#include "submodels/MPPIC/PackingModels/PackingModel/PackingModel.H"
+#include "submodels/MPPIC/ParticleStressModels/ParticleStressModel/ParticleStressModel.H"
+#include "submodels/MPPIC/DampingModels/DampingModel/DampingModel.H"
+#include "submodels/MPPIC/IsotropyModels/IsotropyModel/IsotropyModel.H"
+#include "submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

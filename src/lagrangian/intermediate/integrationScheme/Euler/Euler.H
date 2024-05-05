@@ -38,7 +38,7 @@ Description
 #ifndef Euler_H
 #define Euler_H
 
-#include "integrationScheme.H"
+#include "integrationScheme/integrationScheme/integrationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

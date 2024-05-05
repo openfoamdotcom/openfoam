@@ -79,10 +79,10 @@ SourceFiles
 #ifndef globalPoints_H
 #define globalPoints_H
 
-#include "DynamicList.H"
-#include "indirectPrimitivePatch.H"
-#include "globalIndex.H"
-#include "globalIndexAndTransform.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "primitives/globalIndexAndTransform/globalIndexAndTransform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

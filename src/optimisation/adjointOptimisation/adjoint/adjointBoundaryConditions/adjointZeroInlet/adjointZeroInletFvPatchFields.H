@@ -31,8 +31,8 @@ License
 #ifndef adjointZeroInletFvPatchFields_H
 #define adjointZeroInletFvPatchFields_H
 
-#include "adjointZeroInletFvPatchField.H"
-#include "fieldTypes.H"
+#include "adjointBoundaryConditions/adjointZeroInlet/adjointZeroInletFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

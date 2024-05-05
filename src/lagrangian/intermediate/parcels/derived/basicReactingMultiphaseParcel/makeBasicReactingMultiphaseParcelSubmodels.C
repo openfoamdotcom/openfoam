@@ -26,33 +26,33 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicReactingMultiphaseCloud.H"
+#include "clouds/derived/basicReactingMultiphaseCloud/basicReactingMultiphaseCloud.H"
 
-#include "makeReactingParcelCloudFunctionObjects.H"
+#include "parcels/include/makeReactingParcelCloudFunctionObjects.H"
 
 // Kinematic
-#include "makeThermoParcelForces.H" // thermo variant
-#include "makeParcelDispersionModels.H"
-#include "makeReactingMultiphaseParcelInjectionModels.H" // MP variant
-#include "makeParcelPatchInteractionModels.H"
-#include "makeReactingMultiphaseParcelStochasticCollisionModels.H" // MP variant
-#include "makeReactingParcelSurfaceFilmModels.H" // Reacting variant
+#include "parcels/include/makeThermoParcelForces.H" // thermo variant
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelInjectionModels.H" // MP variant
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelStochasticCollisionModels.H" // MP variant
+#include "parcels/include/makeReactingParcelSurfaceFilmModels.H" // Reacting variant
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
+#include "parcels/include/makeParcelHeatTransferModels.H"
 
 // Reacting
-#include "makeReactingMultiphaseParcelCompositionModels.H" // MP Variant
-#include "makeReactingParcelPhaseChangeModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelCompositionModels.H" // MP Variant
+#include "parcels/include/makeReactingParcelPhaseChangeModels.H"
 
 // Reacting multiphase
-#include "makeReactingMultiphaseParcelDevolatilisationModels.H"
-#include "makeReactingMultiphaseParcelSurfaceReactionModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelDevolatilisationModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelSurfaceReactionModels.H"
 
 // MPPIC sub-models
-#include "makeMPPICParcelDampingModels.H"
-#include "makeMPPICParcelIsotropyModels.H"
-#include "makeMPPICParcelPackingModels.H"
+#include "parcels/include/makeMPPICParcelDampingModels.H"
+#include "parcels/include/makeMPPICParcelIsotropyModels.H"
+#include "parcels/include/makeMPPICParcelPackingModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -100,9 +100,9 @@ SourceFiles
 #ifndef Foam_functionObjects_yPlus_H
 #define Foam_functionObjects_yPlus_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

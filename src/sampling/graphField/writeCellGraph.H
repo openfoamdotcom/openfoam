@@ -36,7 +36,7 @@ SourceFiles
 #ifndef writeCellGraph_H
 #define writeCellGraph_H
 
-#include "volFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

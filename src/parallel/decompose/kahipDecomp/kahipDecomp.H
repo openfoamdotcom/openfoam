@@ -62,8 +62,8 @@ SourceFiles
 #ifndef Foam_kahipDecomp_H
 #define Foam_kahipDecomp_H
 
-#include "metisLikeDecomp.H"
-#include "Enum.H"
+#include "metisLikeDecomp/metisLikeDecomp.H"
+#include "primitives/enums/Enum.H"
 
 namespace Foam
 {

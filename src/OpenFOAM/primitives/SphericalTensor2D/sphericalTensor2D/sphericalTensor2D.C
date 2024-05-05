@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalTensor2D.H"
+#include "primitives/SphericalTensor2D/sphericalTensor2D/sphericalTensor2D.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

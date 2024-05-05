@@ -69,8 +69,8 @@ SourceFiles
 #ifndef pressureInletOutletVelocityFvPatchVectorField_H
 #define pressureInletOutletVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "directionMixedFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

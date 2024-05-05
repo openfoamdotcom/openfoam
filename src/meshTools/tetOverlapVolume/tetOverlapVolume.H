@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Foam_tetOverlapVolume_H
 #define Foam_tetOverlapVolume_H
 
-#include "FixedList.H"
-#include "labelList.H"
-#include "treeBoundBox.H"
-#include "Tuple2.H"
-#include "tetrahedron.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "primitives/tuples/Tuple2.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
 
 namespace Foam
 {

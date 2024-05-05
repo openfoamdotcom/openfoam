@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpanStream.H"
-#include "OCountStream.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "db/IOstreams/memory/OCountStream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

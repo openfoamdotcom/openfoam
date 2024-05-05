@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heSolidThermo.H"
-#include "volFields.H"
+#include "solidThermo/heSolidThermo.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

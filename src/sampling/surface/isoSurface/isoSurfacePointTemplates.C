@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfacePoint.H"
-#include "polyMesh.H"
-#include "syncTools.H"
-#include "surfaceFields.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "surface/isoSurface/isoSurfacePoint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

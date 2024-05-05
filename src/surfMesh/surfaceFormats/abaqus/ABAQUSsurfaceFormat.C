@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ABAQUSsurfaceFormat.H"
-#include "ListOps.H"
-#include "IFstream.H"
-#include "IOmanip.H"
-#include "faceTraits.H"
+#include "surfaceFormats/abaqus/ABAQUSsurfaceFormat.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

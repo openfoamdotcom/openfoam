@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timer.H"
-#include "error.H"
-#include "defineDebugSwitch.H"
+#include "signals/timer.H"
+#include "db/error/error.H"
+#include "global/debug/defineDebugSwitch.H"
 
 #include <unistd.h>
 
 // File-local functions
-#include "signalMacros.C"
+#include "signals/signalMacros.C"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

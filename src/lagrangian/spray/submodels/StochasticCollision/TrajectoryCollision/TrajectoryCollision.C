@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TrajectoryCollision.H"
+#include "submodels/StochasticCollision/TrajectoryCollision/TrajectoryCollision.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

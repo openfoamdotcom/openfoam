@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "memInfo.H"
-#include "IOstreams.H"
-#include "OSspecific.H"  // For pid()
+#include "memInfo/memInfo.H"
+#include "db/IOstreams/IOstreams.H"
+#include "include/OSspecific.H"  // For pid()
 
 #include <cstdlib>
 #include <fstream>

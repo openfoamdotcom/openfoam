@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyPatches/basic/generic/genericPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

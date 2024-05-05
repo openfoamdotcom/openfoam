@@ -40,7 +40,7 @@ SourceFiles
 #ifndef objectiveGeometric_H
 #define objectiveGeometric_H
 
-#include "objective.H"
+#include "objectives/objective/objective.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

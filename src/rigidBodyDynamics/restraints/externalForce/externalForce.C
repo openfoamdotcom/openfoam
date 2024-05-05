@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalForce.H"
-#include "rigidBodyModel.H"
-#include "rigidBodyModelState.H"
-#include "addToRunTimeSelectionTable.H"
+#include "restraints/externalForce/externalForce.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

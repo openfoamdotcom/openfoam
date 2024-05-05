@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingHeterogeneousParcel.H"
-#include "mathematicalConstants.H"
+#include "parcels/Templates/ReactingHeterogeneousParcel/ReactingHeterogeneousParcel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;
 
@@ -454,6 +454,6 @@ Foam::ReactingHeterogeneousParcel<ParcelType>::ReactingHeterogeneousParcel
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "ReactingHeterogeneousParcelIO.C"
+#include "parcels/Templates/ReactingHeterogeneousParcel/ReactingHeterogeneousParcelIO.C"
 
 // ************************************************************************* //

@@ -40,10 +40,10 @@ SourceFiles
 #ifndef Foam_PatchEdgeFaceWave_H
 #define Foam_PatchEdgeFaceWave_H
 
-#include "bitSet.H"
-#include "scalarField.H"
-#include "primitivePatch.H"
-#include "vectorTensorTransform.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -403,7 +403,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchEdgeFaceWave.C"
+    #include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

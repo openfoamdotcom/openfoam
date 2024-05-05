@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointEdgeStructuredWalk.H"
+#include "motionSolvers/displacement/layeredSolver/pointEdgeStructuredWalk.H"
 
 // * * * * * * * * * * * * * * * Friend Operators  * * * * * * * * * * * * * //
 

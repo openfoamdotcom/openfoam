@@ -37,7 +37,7 @@ SourceFiles
 #ifndef colourTools_H
 #define colourTools_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

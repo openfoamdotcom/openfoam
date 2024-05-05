@@ -152,7 +152,7 @@ SourceFiles
 #ifndef Foam_functionObjects_streamLine_H
 #define Foam_functionObjects_streamLine_H
 
-#include "streamLineBase.H"
+#include "streamLine/streamLineBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

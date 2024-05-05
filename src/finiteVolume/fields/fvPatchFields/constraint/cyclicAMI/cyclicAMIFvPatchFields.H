@@ -28,8 +28,8 @@ License
 #ifndef Foam_cyclicAMIFvPatchFields_H
 #define Foam_cyclicAMIFvPatchFields_H
 
-#include "cyclicAMIFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

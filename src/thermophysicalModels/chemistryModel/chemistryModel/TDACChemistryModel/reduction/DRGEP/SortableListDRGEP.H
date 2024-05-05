@@ -38,7 +38,7 @@ SourceFiles
 #ifndef SortableListDRGEP_H
 #define SortableListDRGEP_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SortableListDRGEP.C"
+    #include "chemistryModel/TDACChemistryModel/reduction/DRGEP/SortableListDRGEP.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

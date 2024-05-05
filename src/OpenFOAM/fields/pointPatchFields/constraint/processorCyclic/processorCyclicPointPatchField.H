@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_processorCyclicPointPatchField_H
 #define Foam_processorCyclicPointPatchField_H
 
-#include "coupledPointPatchField.H"
-#include "processorCyclicPointPatch.H"
+#include "fields/pointPatchFields/basic/coupled/coupledPointPatchField.H"
+#include "meshes/pointMesh/pointPatches/constraint/processorCyclic/processorCyclicPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorCyclicPointPatchField.C"
+    #include "fields/pointPatchFields/constraint/processorCyclic/processorCyclicPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

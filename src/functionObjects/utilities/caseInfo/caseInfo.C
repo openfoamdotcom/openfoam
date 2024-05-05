@@ -22,15 +22,15 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "caseInfo.H"
-#include "OFstream.H"
-#include "fvMesh.H"
-#include "cloud.H"
-#include "globalMeshData.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "processorFvPatch.H"
-#include "JSONformatter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/cloud/cloud.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "json/JSONformatter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

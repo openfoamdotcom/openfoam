@@ -28,8 +28,8 @@ License
 #ifndef emptyPointPatchFields_H
 #define emptyPointPatchFields_H
 
-#include "emptyPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/constraint/empty/emptyPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

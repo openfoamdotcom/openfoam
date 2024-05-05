@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeSurface.H"
-#include "triSurface.H"
-#include "surfaceIntersection.H"
-#include "meshTools.H"
-#include "OBJstream.H"
+#include "triSurface/booleanOps/intersectedSurface/edgeSurface.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "meshTools/meshTools.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

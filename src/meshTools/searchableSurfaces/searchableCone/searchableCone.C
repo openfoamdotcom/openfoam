@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableCone.H"
-#include "addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchableCone/searchableCone.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

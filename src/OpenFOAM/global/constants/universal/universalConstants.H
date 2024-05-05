@@ -35,7 +35,7 @@ Description
 #ifndef universalConstants_H
 #define universalConstants_H
 
-#include "dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

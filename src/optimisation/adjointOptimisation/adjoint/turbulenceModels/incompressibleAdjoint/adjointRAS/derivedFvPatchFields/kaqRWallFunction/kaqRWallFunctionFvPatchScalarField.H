@@ -38,8 +38,8 @@ SourceFiles
 #ifndef kaqRWallFunctionFvPatchScalarField_H
 #define kaqRWallFunctionFvPatchScalarField_H
 
-#include "kqRWallFunctionFvPatchField.H"
-#include "adjointBoundaryConditions.H"
+#include "derivedFvPatchFields/wallFunctions/kqRWallFunctions/kqRWallFunction/kqRWallFunctionFvPatchField.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryConditions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

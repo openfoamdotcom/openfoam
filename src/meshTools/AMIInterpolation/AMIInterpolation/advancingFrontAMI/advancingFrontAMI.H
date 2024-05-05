@@ -38,11 +38,11 @@ SourceFiles
 #ifndef advancingFrontAMI_H
 #define advancingFrontAMI_H
 
-#include "className.H"
-#include "DynamicList.H"
-#include "faceAreaIntersect.H"
-#include "pointList.H"
-#include "AMIInterpolation.H"
+#include "db/typeInfo/className.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "AMIInterpolation/faceAreaIntersect/faceAreaIntersect.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -291,7 +291,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "advancingFrontAMII.H"
+#include "AMIInterpolation/AMIInterpolation/advancingFrontAMI/advancingFrontAMII.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

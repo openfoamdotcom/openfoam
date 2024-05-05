@@ -52,13 +52,13 @@ SourceFiles
 #ifndef plicRDF_H
 #define plicRDF_H
 
-#include "typeInfo.H"
-#include "reconstructionSchemes.H"
-#include "volFields.H"
-#include "dimensionedScalar.H"
-#include "autoPtr.H"
-#include "surfaceIteratorPLIC.H"
-#include "reconstructedDistanceFunction.H"
+#include "db/typeInfo/typeInfo.H"
+#include "reconstructionSchemes/reconstructionSchemes.H"
+#include "fields/volFields/volFields.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "surfaceIterators/surfaceIteratorPLIC.H"
+#include "reconstructedDistanceFunction/reconstructedDistanceFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

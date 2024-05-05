@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "icoPolynomial.H"
+#include "equationOfState/icoPolynomial/icoPolynomial.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

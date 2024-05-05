@@ -40,8 +40,8 @@ SourceFiles
 #ifndef SQP_H
 #define SQP_H
 
-#include "quasiNewton.H"
-#include "SQPBase.H"
+#include "optimisation/updateMethod/quasiNewton/quasiNewton.H"
+#include "optimisation/updateMethod/SQPBase/SQPBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -50,11 +50,11 @@ SourceFiles
 #ifndef Foam_FaceCellWave_H
 #define Foam_FaceCellWave_H
 
-#include "bitSet.H"
-#include "labelPair.H"
-#include "DynamicList.H"
-#include "primitiveFieldsFwd.H"
-#include "PstreamBuffers.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/tuples/labelPair.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -440,7 +440,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FaceCellWave.C"
+    #include "algorithms/MeshWave/FaceCellWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

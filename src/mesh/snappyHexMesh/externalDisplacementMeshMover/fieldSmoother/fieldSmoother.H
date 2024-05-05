@@ -37,7 +37,7 @@ SourceFiles
 #ifndef fieldSmoother_H
 #define fieldSmoother_H
 
-#include "meshRefinement.H"
+#include "meshRefinement/meshRefinement.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

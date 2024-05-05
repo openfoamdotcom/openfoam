@@ -43,11 +43,11 @@ SourceFiles
 #ifndef Foam_faFieldReconstructor_H
 #define Foam_faFieldReconstructor_H
 
-#include "PtrList.H"
-#include "faMesh.H"
-#include "IOobjectList.H"
-#include "faPatchFieldMapper.H"
-#include "labelIOList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "faMesh/faMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
+#include "primitives/ints/lists/labelIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

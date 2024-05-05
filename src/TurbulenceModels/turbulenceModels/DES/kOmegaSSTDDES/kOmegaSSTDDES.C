@@ -27,7 +27,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTDDES.H"
+#include "DES/kOmegaSSTDDES/kOmegaSSTDDES.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

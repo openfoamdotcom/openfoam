@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectiveUniformityPatch.H"
-#include "createZeroField.H"
-#include "coupledFvPatch.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/incompressible/objectiveUniformityPatch/objectiveUniformityPatch.H"
+#include "global/createZeroField.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

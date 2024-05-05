@@ -37,10 +37,10 @@ SourceFiles
 #ifndef basicKinematicCollidingParcel_H
 #define basicKinematicCollidingParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "KinematicParcel.H"
-#include "CollidingParcel.H"
+#include "primitives/traits/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/KinematicParcel/KinematicParcel.H"
+#include "parcels/Templates/CollidingParcel/CollidingParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -45,14 +45,14 @@ SourceFiles
 #ifndef Foam_IOstream_H
 #define Foam_IOstream_H
 
-#include "char.H"
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "scalar.H"
-#include "fileName.H"
-#include "InfoProxy.H"
-#include "IOstreamOption.H"
+#include "primitives/chars/char/char.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "db/options/IOstreamOption.H"
 
 #include <iostream>
 

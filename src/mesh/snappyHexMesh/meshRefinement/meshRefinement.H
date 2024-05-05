@@ -47,20 +47,20 @@ SourceFiles
 #ifndef Foam_meshRefinement_H
 #define Foam_meshRefinement_H
 
-#include "hexRef8.H"
-#include "mapPolyMesh.H"
-#include "autoPtr.H"
-#include "labelPairHashes.H"
-#include "indirectPrimitivePatch.H"
-#include "pointFieldsFwd.H"
-#include "Tuple2.H"
-#include "pointIndexHit.H"
-#include "wordPairHashes.H"
-#include "surfaceZonesInfo.H"
-#include "volumeType.H"
-#include "DynamicField.H"
-#include "coordSetWriter.H"
-#include "surfaceWriter.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/tuples/labelPairHashes.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
+#include "primitives/tuples/Tuple2.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "primitives/tuples/wordPairHashes.H"
+#include "refinementSurfaces/surfaceZonesInfo.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "writers/common/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1890,7 +1890,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "meshRefinementTemplates.C"
+    #include "meshRefinement/meshRefinementTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

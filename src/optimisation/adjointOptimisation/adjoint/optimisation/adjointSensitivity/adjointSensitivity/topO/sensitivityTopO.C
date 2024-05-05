@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointSensitivity.H"
-#include "sensitivityTopO.H"
-#include "adjointSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/topO/sensitivityTopO.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

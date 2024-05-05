@@ -37,7 +37,7 @@ SourceFiles
 #ifndef CECCellToFaceStencil_H
 #define CECCellToFaceStencil_H
 
-#include "cellToFaceStencil.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/cellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

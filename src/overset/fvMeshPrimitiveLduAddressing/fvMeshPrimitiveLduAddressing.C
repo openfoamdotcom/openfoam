@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshPrimitiveLduAddressing.H"
-#include "lduPrimitiveMesh.H"
-#include "processorLduInterface.H"
-#include "globalIndex.H"
+#include "fvMeshPrimitiveLduAddressing/fvMeshPrimitiveLduAddressing.H"
+#include "meshes/lduMesh/lduPrimitiveMesh.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

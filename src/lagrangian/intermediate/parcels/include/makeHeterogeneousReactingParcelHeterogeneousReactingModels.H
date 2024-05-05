@@ -30,8 +30,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoheterogeneousReacting.H"
-#include "MUCSheterogeneousRate.H"
+#include "submodels/HeterogeneousReactingModel/NoheterogeneousReacting/NoheterogeneousReacting.H"
+#include "submodels/HeterogeneousReactingModel/MUCSheterogeneousRate/MUCSheterogeneousRate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

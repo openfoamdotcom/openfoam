@@ -38,7 +38,7 @@ SourceFiles
 #ifndef InterfaceCompositionModelPascal1_H
 #define InterfaceCompositionModelPascal1_H
 
-#include "interfaceCompositionModel.H"
+#include "interfaceCompositionModel/interfaceCompositionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "InterfaceCompositionModel.C"
+    #include "interfacialCompositionModels/interfaceCompositionModels/InterfaceCompositionModelCaseDir/InterfaceCompositionModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

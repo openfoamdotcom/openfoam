@@ -31,8 +31,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoSurfaceFilm.H"
-#include "KinematicSurfaceFilm.H"
+#include "submodels/Kinematic/SurfaceFilmModel/NoSurfaceFilm/NoSurfaceFilm.H"
+#include "submodels/Kinematic/SurfaceFilmModel/KinematicSurfaceFilm/KinematicSurfaceFilm.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

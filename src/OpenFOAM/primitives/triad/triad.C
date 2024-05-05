@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triad.H"
-#include "transform.H"
-#include "quaternion.H"
+#include "primitives/triad/triad.H"
+#include "primitives/transform/transform.H"
+#include "primitives/quaternion/quaternion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

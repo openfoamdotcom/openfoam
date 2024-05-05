@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
-#include "IOstreams.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -373,11 +373,11 @@ Foam::Ostream& Foam::operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LduMatrixOperationsPascal.C"
-#include "LduMatrixATmulPascal.C"
-#include "LduMatrixUpdateMatrixInterfacesPascal.C"
-#include "LduMatrixPreconditionerPascal.C"
-#include "LduMatrixSmootherPascal.C"
-#include "LduMatrixSolverPascal.C"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixOperationsPascal.C"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixATmulPascal.C"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixUpdateMatrixInterfacesPascal.C"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPreconditionerPascal.C"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixSmootherPascal.C"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixSolverPascal.C"
 
 // ************************************************************************* //

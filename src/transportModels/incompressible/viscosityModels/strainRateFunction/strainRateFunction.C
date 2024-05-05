@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "strainRateFunction.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/strainRateFunction/strainRateFunction.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

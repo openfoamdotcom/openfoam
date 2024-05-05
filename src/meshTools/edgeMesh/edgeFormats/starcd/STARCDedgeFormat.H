@@ -44,11 +44,11 @@ SourceFiles
 #ifndef STARCDedgeFormat_H
 #define STARCDedgeFormat_H
 
-#include "edgeMesh.H"
-#include "STARCDCore.H"
+#include "edgeMesh/edgeMesh.H"
+#include "starcd/STARCDCore.H"
 
-#include "Fstream.H"
-#include "Ostream.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

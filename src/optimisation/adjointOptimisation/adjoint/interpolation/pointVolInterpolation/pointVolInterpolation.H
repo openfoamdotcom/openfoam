@@ -39,14 +39,14 @@ SourceFiles
 #ifndef pointVolInterpolation_H
 #define pointVolInterpolation_H
 
-#include "primitiveFieldsFwd.H"
-#include "primitivePatchInterpolation.H"
-#include "volFieldsFwd.H"
-#include "pointFieldsFwd.H"
-#include "scalarList.H"
-#include "tmp.H"
-#include "className.H"
-#include "FieldFields.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "interpolations/primitivePatchInterpolation/primitivePatchInterpolation.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "memory/tmp/tmp.H"
+#include "db/typeInfo/className.H"
+#include "fields/FieldFields/FieldField/FieldFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

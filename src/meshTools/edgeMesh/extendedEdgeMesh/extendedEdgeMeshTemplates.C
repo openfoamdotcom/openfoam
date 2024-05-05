@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedEdgeMesh.H"
-#include "ListListOps.H"
-#include "unitConversion.H"
-#include "bitSet.H"
-#include "PatchTools.H"
-#include "searchableBox.H"
+#include "edgeMesh/extendedEdgeMesh/extendedEdgeMesh.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "global/constants/unitConversion.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "searchableSurfaces/searchableBox/searchableBox.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

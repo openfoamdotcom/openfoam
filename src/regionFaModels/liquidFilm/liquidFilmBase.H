@@ -37,13 +37,13 @@ SourceFiles
 #ifndef Foam_liquidFilmBase_H
 #define Foam_liquidFilmBase_H
 
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "faCFD.H"
-#include "volFieldsFwd.H"
-#include "uniformDimensionedFields.H"
-#include "regionFaModel.H"
-#include "faOptions.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "include/faCFD.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "regionFaModel/regionFaModel.H"
+#include "faOption/faOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CodedFvSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
+#include "sources/general/codedSource/CodedFvSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

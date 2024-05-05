@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Distribution_H
 #define Distribution_H
 
-#include "List.H"
-#include "Pair.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,12 +194,12 @@ Distribution<Type> operator+
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DistributionIPascal.H"
+#include "containers/Lists/Distribution/DistributionIPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DistributionPascal.C"
+    #include "containers/Lists/Distribution/DistributionPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

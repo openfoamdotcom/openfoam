@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FDICSmoother.H"
-#include "DICPreconditioner.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/smoothers/FDIC/FDICSmoother.H"
+#include "matrices/lduMatrix/preconditioners/DICPreconditioner/DICPreconditioner.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -114,8 +114,8 @@ SourceFiles
 #ifndef atmNutkWallFunctionFvPatchScalarField_H
 #define atmNutkWallFunctionFvPatchScalarField_H
 
-#include "nutkWallFunctionFvPatchScalarField.H"
-#include "PatchFunction1.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkWallFunction/nutkWallFunctionFvPatchScalarField.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

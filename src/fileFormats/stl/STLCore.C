@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLCore.H"
-#include "OSspecific.H"
-#include "IFstream.H"
+#include "stl/STLCore.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

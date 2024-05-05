@@ -36,10 +36,10 @@ SourceFiles:
 #ifndef levelSet_H
 #define levelSet_H
 
-#include "DimensionedField.H"
-#include "fvMesh.H"
-#include "pointMesh.H"
-#include "volMesh.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "volMesh/volMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -102,7 +102,7 @@ tmp<scalarField> levelSetFraction
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "levelSetTemplates.C"
+    #include "cfdTools/general/levelSet/levelSetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

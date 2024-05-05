@@ -62,7 +62,7 @@ See also
 #ifndef tabulatedSolidTransport_H
 #define tabulatedSolidTransport_H
 
-#include "nonUniformTableThermophysicalFunction.H"
+#include "thermophysicalFunctions/nonUniformTable/nonUniformTableThermophysicalFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,10 +164,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tabulatedSolidTransportI.H"
+#include "transport/tabulated/tabulatedSolidTransportI.H"
 
 #ifdef NoRepository
-    #include "tabulatedSolidTransport.C"
+    #include "transport/tabulated/tabulatedSolidTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_multiphaseEuler_dragModels_SchillerNaumann_H
 #define Foam_multiphaseEuler_dragModels_SchillerNaumann_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

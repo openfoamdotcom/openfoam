@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LarsenBorgnakkeVariableHardSphere.H"
-#include "constants.H"
+#include "submodels/BinaryCollisionModel/LarsenBorgnakkeVariableHardSphere/LarsenBorgnakkeVariableHardSphere.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant::mathematical;
 

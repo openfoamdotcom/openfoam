@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_cyclicACMILduInterface_H
 #define Foam_cyclicACMILduInterface_H
 
-#include "cyclicAMILduInterface.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

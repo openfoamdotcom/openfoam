@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordSet.H"
-#include "coordSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "coordSet/writers/common/coordSetWriter.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

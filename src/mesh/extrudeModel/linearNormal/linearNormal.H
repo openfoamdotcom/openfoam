@@ -42,9 +42,9 @@ Description
 #ifndef linearNormal_H
 #define linearNormal_H
 
-#include "point.H"
-#include "extrudeModel.H"
-#include "scalarList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "extrudeModel/extrudeModel.H"
+#include "primitives/Scalar/lists/scalarList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

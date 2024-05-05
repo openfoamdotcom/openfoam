@@ -86,7 +86,7 @@ SourceFiles
 #ifndef sphereToPoint_H
 #define sphereToPoint_H
 
-#include "topoSetPointSource.H"
+#include "topoSet/pointSources/topoSetPointSource/topoSetPointSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

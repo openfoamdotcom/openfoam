@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "xmgraceGraphWriter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "graph/writers/xmgrace/xmgraceGraphWriter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

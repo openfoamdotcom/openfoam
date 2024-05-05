@@ -37,10 +37,10 @@ SourceFiles
 #ifndef engineValve_H
 #define engineValve_H
 
-#include "word.H"
-#include "coordinateSystem.H"
-#include "polyPatchID.H"
-#include "graph.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "meshes/Identifiers/patch/polyPatchID.H"
+#include "graph/graph.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

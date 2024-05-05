@@ -69,7 +69,7 @@ SourceFiles
 #ifndef Foam_fixedGradientFvPatchField_H
 #define Foam_fixedGradientFvPatchField_H
 
-#include "fvPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -254,7 +254,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedGradientFvPatchField.C"
+    #include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

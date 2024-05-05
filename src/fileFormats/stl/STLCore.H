@@ -37,8 +37,8 @@ SourceFiles
 #ifndef STLCore_H
 #define STLCore_H
 
-#include "STLpoint.H"
-#include "STLtriangle.H"
+#include "stl/STLpoint.H"
+#include "stl/STLtriangle.H"
 #include <memory>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

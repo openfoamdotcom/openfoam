@@ -36,7 +36,7 @@ SourceFiles
 #ifndef Foam_slicedFaePatchFields_H
 #define Foam_slicedFaePatchFields_H
 
-#include "slicedFaePatchField.H"
+#include "fields/faePatchFields/basic/sliced/slicedFaePatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

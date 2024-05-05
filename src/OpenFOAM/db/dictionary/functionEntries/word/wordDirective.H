@@ -50,7 +50,7 @@ SourceFiles
 #ifndef functionEntries_wordDirective_H
 #define functionEntries_wordDirective_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

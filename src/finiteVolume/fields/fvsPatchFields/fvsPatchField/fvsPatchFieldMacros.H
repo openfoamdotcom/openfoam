@@ -32,8 +32,8 @@ Description
 #ifndef Foam_fvsPatchFieldMacros_H
 #define Foam_fvsPatchFieldMacros_H
 
-#include "fieldTypes.H"
-#include "fvsPatchField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Runtime selection macros

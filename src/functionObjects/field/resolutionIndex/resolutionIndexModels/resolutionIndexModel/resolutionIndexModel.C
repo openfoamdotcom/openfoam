@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "resolutionIndexModel.H"
-#include "fvMesh.H"
-#include "ListOps.H"
-#include "turbulenceFields.H"
+#include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
+#include "fvMesh/fvMesh.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "turbulenceFields/turbulenceFields.H"
 #include "turbulenceModel.H"
-#include "zeroGradientFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

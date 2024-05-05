@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "findCellParticle.H"
-#include "CloudPascal.H"
+#include "nearWallFields/findCellParticle.H"
+#include "Cloud/CloudPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

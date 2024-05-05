@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_cellZoneSet_H
 #define Foam_cellZoneSet_H
 
-#include "cellSet.H"
+#include "topoSet/topoSets/cellSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoSurfaceFilm.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/Kinematic/SurfaceFilmModel/NoSurfaceFilm/NoSurfaceFilm.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

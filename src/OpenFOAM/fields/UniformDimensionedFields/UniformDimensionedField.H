@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_UniformDimensionedField_H
 #define Foam_UniformDimensionedField_H
 
-#include "regIOobject.H"
-#include "dimensionedType.H"
+#include "db/regIOobject/regIOobject.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ struct is_globalIOobject<UniformDimensionedField<Type>> : std::true_type {};
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UniformDimensionedField.C"
+    #include "fields/UniformDimensionedFields/UniformDimensionedField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

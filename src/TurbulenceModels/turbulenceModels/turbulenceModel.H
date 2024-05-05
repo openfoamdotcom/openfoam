@@ -41,13 +41,13 @@ SourceFiles
 #ifndef Foam_turbulenceModel_H
 #define Foam_turbulenceModel_H
 
-#include "IOdictionary.H"
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "fvMatricesFwd.H"
-#include "nearWallDist.H"
-#include "geometricOneField.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "fvMesh/wallDist/nearWallDist/nearWallDist.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

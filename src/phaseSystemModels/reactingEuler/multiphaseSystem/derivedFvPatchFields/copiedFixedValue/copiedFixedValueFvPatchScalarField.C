@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "copiedFixedValueFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/copiedFixedValue/copiedFixedValueFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

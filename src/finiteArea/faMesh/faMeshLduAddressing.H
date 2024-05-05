@@ -42,8 +42,8 @@ Author
 #ifndef faMeshLduAddressing_H
 #define faMeshLduAddressing_H
 
-#include "lduAddressing.H"
-#include "faMesh.H"
+#include "matrices/lduMatrix/lduAddressing/lduAddressing.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

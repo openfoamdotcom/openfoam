@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFaModels_filmTurbulenceModel.H"
+#include "liquidFilm/subModels/kinematic/filmTurbulenceModel/filmTurbulenceModel/regionFaModels_filmTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

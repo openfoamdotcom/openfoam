@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eddy.H"
-#include "IOstreams.H"
+#include "fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddy.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

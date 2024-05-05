@@ -41,13 +41,13 @@ SourceFiles
 #ifndef Foam_areaFields_H
 #define Foam_areaFields_H
 
-#include "objectRegistry.H"
-#include "GeometricFields.H"
-#include "areaFaMesh.H"
-#include "faMesh.H"
-#include "faPatchFields.H"
-#include "areaFieldsFwd.H"
-#include "calculatedFaPatchFields.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "fields/GeometricFields/GeometricField/GeometricFields.H"
+#include "areaMesh/areaFaMesh.H"
+#include "faMesh/faMesh.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/faPatchFields/basic/calculated/calculatedFaPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

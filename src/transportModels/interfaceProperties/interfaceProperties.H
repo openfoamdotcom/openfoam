@@ -51,10 +51,10 @@ SourceFiles
 #ifndef interfaceProperties_H
 #define interfaceProperties_H
 
-#include "IOdictionary.H"
-#include "surfaceTensionModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

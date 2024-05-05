@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricVectorField.H"
-#include "vectorFieldField.H"
+#include "fields/GeometricFields/GeometricVectorField/GeometricVectorField.H"
+#include "fields/FieldFields/vectorFieldField/vectorFieldField.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

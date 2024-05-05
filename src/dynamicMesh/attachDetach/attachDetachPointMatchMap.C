@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "attachDetach.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "primitivePatch.H"
-#include "polyTopoChanger.H"
+#include "attachDetach/attachDetach.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

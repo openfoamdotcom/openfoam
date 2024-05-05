@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "histogram.H"
-#include "histogramModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "histogram/histogram.H"
+#include "histogram/histogramModels/histogramModel/histogramModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

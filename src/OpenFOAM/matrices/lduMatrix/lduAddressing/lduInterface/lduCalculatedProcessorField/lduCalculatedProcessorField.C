@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduCalculatedProcessorField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduCalculatedProcessorField/lduCalculatedProcessorField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -28,7 +28,7 @@ License
 #ifndef makeSootTypes_H
 #define makeSootTypes_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "planeToFaceZone.H"
-#include "polyMesh.H"
-#include "faceZoneSet.H"
-#include "indirectPrimitivePatch.H"
-#include "PatchTools.H"
-#include "syncTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/faceZoneSources/planeToFaceZone/planeToFaceZone.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/faceZoneSet.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

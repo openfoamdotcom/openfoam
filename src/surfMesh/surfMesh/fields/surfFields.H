@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_surfFields_H
 #define Foam_surfFields_H
 
-#include "DimensionedField.H"
-#include "surfGeoMesh.H"
-#include "surfPointGeoMesh.H"
-#include "surfFieldsFwd.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "surfMesh/fields/surfGeoMesh.H"
+#include "surfMesh/fields/surfPointGeoMesh.H"
+#include "surfMesh/fields/surfFieldsFwd.H"
 
 #endif
 

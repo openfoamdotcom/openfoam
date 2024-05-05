@@ -75,9 +75,9 @@ SourceFiles
 #ifndef rotatingPressureInletOutletVelocityFvPatchVectorField_H
 #define rotatingPressureInletOutletVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "pressureInletOutletVelocityFvPatchVectorField.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/derived/pressureInletOutletVelocity/pressureInletOutletVelocityFvPatchVectorField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -54,16 +54,16 @@ SourceFiles
 #ifndef Foam_PrimitivePatch_H
 #define Foam_PrimitivePatch_H
 
-#include "boolList.H"
-#include "labelList.H"
-#include "edgeList.H"
-#include "face.H"
-#include "pointField.H"
-#include "intersection.H"
-#include "HashSet.H"
-#include "SubList.H"
-#include "objectHit.H"
-#include "PrimitivePatchBase.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Lists/List/SubList.H"
+#include "meshes/primitiveShapes/objectHit/objectHit.H"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -586,7 +586,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PrimitivePatch.C"
+    #include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatch.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

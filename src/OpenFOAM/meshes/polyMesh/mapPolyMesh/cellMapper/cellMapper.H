@@ -39,7 +39,7 @@ SourceFiles
 #ifndef cellMapper_H
 #define cellMapper_H
 
-#include "morphFieldMapper.H"
+#include "meshes/polyMesh/mapPolyMesh/morphFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

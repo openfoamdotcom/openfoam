@@ -28,14 +28,14 @@ License
 #ifndef makeChemistrySolverTypes_H
 #define makeChemistrySolverTypes_H
 
-#include "chemistrySolver.H"
+#include "chemistrySolver/chemistrySolver/chemistrySolver.H"
 
-#include "StandardChemistryModel.H"
-#include "TDACChemistryModel.H"
+#include "chemistryModel/StandardChemistryModel/StandardChemistryModel.H"
+#include "chemistryModel/TDACChemistryModel/TDACChemistryModel.H"
 
-#include "noChemistrySolver.H"
-#include "EulerImplicit.H"
-#include "ode.H"
+#include "chemistrySolver/noChemistrySolver/noChemistrySolver.H"
+#include "chemistrySolver/EulerImplicit/EulerImplicit.H"
+#include "chemistrySolver/ode/ode.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

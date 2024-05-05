@@ -3,7 +3,7 @@
 #ifndef FoamCompat_UListStream_H
 #define FoamCompat_UListStream_H
 
-#include "SpanStream.H"
+#include "db/IOstreams/memory/SpanStream.H"
 
 #endif
 

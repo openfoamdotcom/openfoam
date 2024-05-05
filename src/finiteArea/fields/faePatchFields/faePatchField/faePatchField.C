@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faePatchField.H"
-#include "faPatchFieldMapper.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

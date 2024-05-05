@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Hanning.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mathematicalConstants.H"
+#include "windowModels/Hanning/Hanning.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

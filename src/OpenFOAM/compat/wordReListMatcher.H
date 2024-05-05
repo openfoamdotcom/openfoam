@@ -3,7 +3,7 @@
 #ifndef FoamCompat_wordReListMatcher_H
 #define FoamCompat_wordReListMatcher_H
 
-#include "wordRes.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Matrix.H"
+#include "matrices/Matrix/Matrix.H"
 #include <functional>
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

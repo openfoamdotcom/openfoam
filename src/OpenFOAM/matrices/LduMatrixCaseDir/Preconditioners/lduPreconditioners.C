@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoPreconditionerPascal.H"
-#include "DiagonalPreconditionerPascal.H"
-#include "TDILUPreconditioner.H"
-#include "fieldTypes.H"
+#include "matrices/LduMatrixCaseDir/Preconditioners/NoPreconditioner/NoPreconditionerPascal.H"
+#include "matrices/LduMatrixCaseDir/Preconditioners/DiagonalPreconditioner/DiagonalPreconditionerPascal.H"
+#include "matrices/LduMatrixCaseDir/Preconditioners/DILUPreconditioner/TDILUPreconditioner.H"
+#include "fields/Fields/fieldTypes.H"
 
 #define makeLduPreconditioners(Type, DType, LUType)                            \
                                                                                \

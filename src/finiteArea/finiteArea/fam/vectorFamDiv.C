@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vectorFamDiv.H"
-#include "faMesh.H"
-#include "faMatrix.H"
-#include "faConvectionScheme.H"
+#include "finiteArea/fam/vectorFamDiv.H"
+#include "faMesh/faMesh.H"
+#include "faMatrices/faMatrix/faMatrix.H"
+#include "finiteArea/convectionSchemes/faConvectionScheme/faConvectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

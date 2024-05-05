@@ -73,7 +73,7 @@ SourceFiles
 #ifndef Foam_patchProbes_H
 #define Foam_patchProbes_H
 
-#include "probes.H"
+#include "probes/probes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -195,7 +195,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "patchProbesTemplates.C"
+    #include "probes/patchProbesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

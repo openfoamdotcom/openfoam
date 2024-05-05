@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectiveGeometric.H"
-#include "createZeroField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/geometric/objectiveGeometric/objectiveGeometric.H"
+#include "global/createZeroField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

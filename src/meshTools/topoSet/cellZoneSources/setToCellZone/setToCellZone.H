@@ -82,7 +82,7 @@ SourceFiles
 #ifndef setToCellZone_H
 #define setToCellZone_H
 
-#include "topoSetCellZoneSource.H"
+#include "topoSet/cellZoneSources/topoSetCellZoneSource/topoSetCellZoneSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

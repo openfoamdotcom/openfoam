@@ -93,7 +93,7 @@ SourceFiles
 #ifndef functionObjects_enstrophy_H
 #define functionObjects_enstrophy_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

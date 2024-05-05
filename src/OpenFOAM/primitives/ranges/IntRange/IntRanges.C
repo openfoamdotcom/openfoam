@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "token.H"
-#include "List.H"
-#include "Istream.H"
-#include "Ostream.H"
+#include "db/IOstreams/token/token.H"
+#include "containers/Lists/List/List.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 #include <numeric>
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

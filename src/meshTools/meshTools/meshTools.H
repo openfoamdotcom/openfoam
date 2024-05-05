@@ -37,13 +37,13 @@ SourceFiles
 #ifndef Foam_meshTools_H
 #define Foam_meshTools_H
 
-#include "label.H"
-#include "vector.H"
-#include "triad.H"
-#include "labelList.H"
-#include "faceList.H"
-#include "cellList.H"
-#include "primitivePatch.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/triad/triad.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/cell/cellList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -362,7 +362,7 @@ namespace meshTools
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "meshToolsTemplates.C"
+    #include "meshTools/meshToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

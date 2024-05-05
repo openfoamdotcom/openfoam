@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicSlipFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvPatches/constraint/cyclicSlip/cyclicSlipFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

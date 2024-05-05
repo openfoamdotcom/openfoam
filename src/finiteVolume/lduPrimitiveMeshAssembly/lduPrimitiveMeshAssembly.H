@@ -38,8 +38,8 @@ SourceFiles
 #ifndef lduPrimitiveMeshAssembly_H
 #define lduPrimitiveMeshAssembly_H
 
-#include "fvMesh.H"
-#include "lduPrimitiveMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/lduMesh/lduPrimitiveMesh.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -233,7 +233,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lduPrimitiveMeshAssemblyTemplates.C"
+    #include "lduPrimitiveMeshAssembly/lduPrimitiveMeshAssemblyTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

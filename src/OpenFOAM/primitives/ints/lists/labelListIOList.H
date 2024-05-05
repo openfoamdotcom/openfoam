@@ -28,8 +28,8 @@ License
 #ifndef Foam_labelListIOList_H
 #define Foam_labelListIOList_H
 
-#include "labelList.H"
-#include "CompactIOList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

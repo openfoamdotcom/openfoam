@@ -37,7 +37,7 @@ SourceFiles
 #ifndef constantLiftCoefficient_H
 #define constantLiftCoefficient_H
 
-#include "liftModel.H"
+#include "interfacialModels/liftModels/liftModel/liftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

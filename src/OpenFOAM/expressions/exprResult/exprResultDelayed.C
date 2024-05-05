@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprResultDelayed.H"
-#include "vector.H"
-#include "tensor.H"
-#include "symmTensor.H"
-#include "sphericalTensor.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/exprResult/exprResultDelayed.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // #include <cassert>
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmPyrolysisVelocityCoupledFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
-#include "pyrolysisModel.H"
-#include "surfaceFilmRegionModel.H"
+#include "derivedFvPatchFields/filmPyrolysisVelocityCoupled/filmPyrolysisVelocityCoupledFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "pyrolysisModel/pyrolysisModel.H"
+#include "surfaceFilmRegionModel/surfaceFilmRegionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

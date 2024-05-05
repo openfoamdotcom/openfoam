@@ -43,8 +43,8 @@ SourceFiles
 #ifndef forceSuSp_H
 #define forceSuSp_H
 
-#include "Tuple2.H"
-#include "vector.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "forceSuSpI.H"
+#include "submodels/Kinematic/ParticleForces/forceSuSp/forceSuSpI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

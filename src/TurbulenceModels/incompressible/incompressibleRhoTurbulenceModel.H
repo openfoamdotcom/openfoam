@@ -38,7 +38,7 @@ SourceFiles
 #define incompressibleRhoTurbulenceModel_H
 
 #include "turbulenceModel.H"
-#include "geometricOneField.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_GlobalIOField_H
 #define Foam_GlobalIOField_H
 
-#include "IOField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

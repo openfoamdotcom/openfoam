@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "randomise.H"
-#include "volFields.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
+#include "randomise/randomise.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/random/Random/Random.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

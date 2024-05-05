@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoBitSet.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
+#include "topoSet/topoSets/topoBitSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyMotion.H"
-#include "IOstreams.H"
-#include "sixDoFSolver.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
+#include "db/IOstreams/IOstreams.H"
+#include "sixDoFSolvers/sixDoFSolver/sixDoFSolver.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

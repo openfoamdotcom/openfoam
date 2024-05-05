@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IshiiZuber.H"
-#include "phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/IshiiZuber/IshiiZuber.H"
+#include "phasePair/phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

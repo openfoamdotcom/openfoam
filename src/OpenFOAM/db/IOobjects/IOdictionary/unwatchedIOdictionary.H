@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_unwatchedIOdictionary_H
 #define Foam_unwatchedIOdictionary_H
 
-#include "baseIOdictionary.H"
+#include "db/IOobjects/IOdictionary/baseIOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

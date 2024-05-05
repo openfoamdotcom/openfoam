@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeNormalFixedValueFaPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "areaFields.H"
-#include "faPatchFieldMapper.H"
+#include "fields/faPatchFields/derived/edgeNormalFixedValue/edgeNormalFixedValueFaPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

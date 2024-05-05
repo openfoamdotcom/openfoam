@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UList.H"
-#include "Ostream.H"
-#include "token.H"
+#include "containers/Lists/List/UList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/token/token.H"
 #include <vector>
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FitData.H"
-#include "surfaceFields.H"
-#include "volFields.H"
-#include "SVD.H"
+#include "interpolation/surfaceInterpolation/schemes/FitData/FitData.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

@@ -39,7 +39,7 @@ Author
 #ifndef Foam_faGlobalMeshData_H
 #define Foam_faGlobalMeshData_H
 
-#include "processorTopology.H"
+#include "parallel/processorTopology/processorTopology.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

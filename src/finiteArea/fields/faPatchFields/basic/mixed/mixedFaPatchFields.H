@@ -28,7 +28,7 @@ License
 #ifndef Foam_mixedFaPatchFields_H
 #define Foam_mixedFaPatchFields_H
 
-#include "mixedFaPatchField.H"
+#include "fields/faPatchFields/basic/mixed/mixedFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

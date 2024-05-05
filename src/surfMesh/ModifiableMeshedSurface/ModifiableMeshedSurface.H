@@ -38,7 +38,7 @@ Description
 #ifndef ModifiableMeshedSurface_H
 #define ModifiableMeshedSurface_H
 
-#include "MeshedSurface.H"
+#include "MeshedSurface/MeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

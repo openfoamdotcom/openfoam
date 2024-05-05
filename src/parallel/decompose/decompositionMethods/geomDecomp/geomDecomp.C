@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geomDecomp.H"
-#include "specifiedRotation.H"
+#include "geomDecomp/geomDecomp.H"
+#include "primitives/coordinate/rotation/specifiedRotation.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

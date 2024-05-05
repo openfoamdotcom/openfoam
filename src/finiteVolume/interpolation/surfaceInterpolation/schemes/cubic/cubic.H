@@ -41,8 +41,8 @@ SourceFiles
 #ifndef cubic_H
 #define cubic_H
 
-#include "linear.H"
-#include "gaussGrad.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

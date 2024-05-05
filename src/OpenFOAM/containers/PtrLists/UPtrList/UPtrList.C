@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPtrList.H"
-#include "PtrList.H"
-#include "Ostream.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

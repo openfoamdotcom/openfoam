@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TDACChemistryModel.H"
-#include "UniformField.H"
-#include "localEulerDdtScheme.H"
-#include "clockTime.H"
+#include "chemistryModel/TDACChemistryModel/TDACChemistryModel.H"
+#include "fields/Fields/UniformField/UniformField.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "global/clockTime/clockTime.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

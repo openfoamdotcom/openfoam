@@ -38,8 +38,8 @@ SourceFiles
 #ifndef fluidThermo_H
 #define fluidThermo_H
 
-#include "basicThermo.H"
-#include "compressibleTransportModel.H"
+#include "basicThermo/basicThermo.H"
+#include "compressibleTransportModel/compressibleTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

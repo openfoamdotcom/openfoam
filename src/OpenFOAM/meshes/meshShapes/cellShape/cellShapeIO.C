@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellShape.H"
-#include "token.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

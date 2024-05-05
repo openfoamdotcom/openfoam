@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatchFields.H"
-#include "wedgeFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "fields/faPatchFields/constraint/wedge/wedgeFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "relaxedSnGrad.H"
-#include "fvMesh.H"
+#include "finiteVolume/snGradSchemes/relaxedSnGrad/relaxedSnGrad.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

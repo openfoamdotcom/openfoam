@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "betaMaxStepRamp.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/betaMax/stepRamp/betaMaxStepRamp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * * * //
 

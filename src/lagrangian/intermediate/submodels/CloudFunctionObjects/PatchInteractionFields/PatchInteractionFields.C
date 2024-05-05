@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchInteractionFields.H"
+#include "submodels/CloudFunctionObjects/PatchInteractionFields/PatchInteractionFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

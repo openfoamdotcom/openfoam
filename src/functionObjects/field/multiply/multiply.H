@@ -91,7 +91,7 @@ SourceFiles
 #ifndef functionObjects_multiply_H
 #define functionObjects_multiply_H
 
-#include "fieldsExpression.H"
+#include "fieldsExpression/fieldsExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "multiplyTemplates.C"
+    #include "multiply/multiplyTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

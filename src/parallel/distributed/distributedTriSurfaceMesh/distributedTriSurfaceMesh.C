@@ -26,24 +26,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributedTriSurfaceMesh.H"
-#include "mapDistribute.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triangle.H"
-#include "matchPoints.H"
-#include "globalIndex.H"
-#include "TimeOpenFOAM.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "primitives/random/Random/Random.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/meshTools/matchPoints.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "db/Time/TimeOpenFOAM.H"
 
-#include "IFstream.H"
-#include "decompositionMethod.H"
-#include "geomDecomp.H"
-#include "vectorList.H"
-#include "bitSet.H"
-#include "PatchTools.H"
-#include "OBJstream.H"
-#include "labelBits.H"
-#include "profiling.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "geomDecomp/geomDecomp.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "obj/OBJstream.H"
+#include "algorithms/indexedOctree/labelBits.H"
+#include "global/profiling/profiling.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

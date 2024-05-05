@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseSystem.H"
-#include "phasePairKey.H"
+#include "diameterModels/IATE/IATEsources/phaseChange/phaseChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "phaseSystem/phaseSystem.H"
+#include "phasePair/phasePairKey.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

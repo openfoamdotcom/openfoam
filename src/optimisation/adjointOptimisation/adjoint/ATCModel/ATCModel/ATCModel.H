@@ -42,12 +42,12 @@ SourceFiles
 #ifndef ATCModel_H
 #define ATCModel_H
 
-#include "regIOobject.H"
-#include "autoPtr.H"
-#include "zeroATCcells.H"
-#include "incompressibleVars.H"
-#include "incompressibleAdjointVars.H"
-#include "runTimeSelectionTables.H"
+#include "db/regIOobject/regIOobject.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "ATCModel/zeroATCcells/zeroATCcells/zeroATCcells.H"
+#include "solvers/variablesSet/incompressible/incompressibleVars.H"
+#include "solvers/variablesSet/incompressibleAdjoint/incompressibleAdjointVars.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

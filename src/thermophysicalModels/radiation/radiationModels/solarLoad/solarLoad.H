@@ -98,13 +98,13 @@ SourceFiles
 #ifndef radiation_solarLoad_H
 #define radiation_solarLoad_H
 
-#include "radiationModel.H"
-#include "solarLoadBase.H"
-#include "volFields.H"
-#include "faceShading.H"
-#include "faceReflecting.H"
-#include "solarCalculator.H"
-#include "Function1Pascal.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "radiationModels/solarLoad/solarLoadBase.H"
+#include "fields/volFields/volFields.H"
+#include "radiationModels/solarLoad/faceShading/faceShading.H"
+#include "radiationModels/solarLoad/faceReflecting/faceReflecting.H"
+#include "submodels/solarCalculator/solarCalculator.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

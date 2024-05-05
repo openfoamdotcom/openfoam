@@ -70,7 +70,7 @@ SourceFiles
 #ifndef Foam_ParticleDose_H
 #define Foam_ParticleDose_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -151,7 +151,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticleDose.C"
+    #include "submodels/CloudFunctionObjects/ParticleDose/ParticleDose.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

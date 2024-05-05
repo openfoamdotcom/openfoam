@@ -28,9 +28,9 @@ License
 #ifndef Foam_vectorList_H
 #define Foam_vectorList_H
 
-#include "vector.H"
-#include "List.H"
-#include "SubList.H"
+#include "primitives/Vector/floats/vector.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

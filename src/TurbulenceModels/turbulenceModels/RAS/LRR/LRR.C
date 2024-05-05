@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LRR.H"
-#include "fvOptions.H"
-#include "wallFvPatch.H"
+#include "RAS/LRR/LRR.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

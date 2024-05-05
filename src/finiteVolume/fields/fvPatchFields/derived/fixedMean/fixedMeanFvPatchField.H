@@ -61,8 +61,8 @@ SourceFiles
 #ifndef fixedMeanFvPatchField_H
 #define fixedMeanFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedMeanFvPatchField.C"
+    #include "fields/fvPatchFields/derived/fixedMean/fixedMeanFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

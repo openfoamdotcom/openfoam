@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Function1Types_TableBase_H
 #define Function1Types_TableBase_H
 
-#include "tableBounds.H"
-#include "Function1Pascal.H"
-#include "Tuple2.H"
+#include "primitives/ranges/tableBounds/tableBounds.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TableBase.C"
+    #include "primitives/functions/Function1/Table/TableBase.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

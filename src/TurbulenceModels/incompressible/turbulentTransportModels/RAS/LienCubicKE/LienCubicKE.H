@@ -62,8 +62,8 @@ SourceFiles
 #ifndef LienCubicKE_H
 #define LienCubicKE_H
 
-#include "turbulentTransportModel.H"
-#include "nonlinearEddyViscosity.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "nonlinearEddyViscosity/nonlinearEddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

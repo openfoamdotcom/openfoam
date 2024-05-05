@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Function1Expression.H"
-#include "fieldTypes.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/Function1/Function1Expression.H"
+#include "fields/Fields/fieldTypes.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 namespace Foam
 {

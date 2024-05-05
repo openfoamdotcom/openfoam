@@ -27,12 +27,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ptscotchDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "floatScalar.H"
-#include "globalMeshData.H"
-#include "TimeOpenFOAM.H"
-#include "PrecisionAdaptor.H"
-#include "OFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 #include <cstdio>
 #include <limits>
 

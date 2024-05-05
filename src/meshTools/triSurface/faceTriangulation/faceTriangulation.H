@@ -51,8 +51,8 @@ SourceFiles
 #ifndef faceTriangulation_H
 #define faceTriangulation_H
 
-#include "triFaceList.H"
-#include "pointField.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

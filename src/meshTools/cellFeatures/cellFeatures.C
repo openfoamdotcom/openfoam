@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellFeatures.H"
-#include "primitiveMesh.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "ListOps.H"
-#include "meshTools.H"
+#include "cellFeatures/cellFeatures.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef noCombustion_H
 #define noCombustion_H
 
-#include "ThermoCombustion.H"
+#include "CombustionModelCaseDir/ThermoCombustion/ThermoCombustion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "noCombustion.C"
+    #include "noCombustion/noCombustion.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

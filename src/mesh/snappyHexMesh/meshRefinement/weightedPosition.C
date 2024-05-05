@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "weightedPosition.H"
-#include "vectorTensorTransform.H"
-#include "coupledPolyPatch.H"
-#include "polyMesh.H"
-#include "syncTools.H"
+#include "meshRefinement/weightedPosition.H"
+#include "primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

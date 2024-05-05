@@ -36,7 +36,7 @@ Description
 #ifndef Foam_SlicedDimensionedField_H
 #define Foam_SlicedDimensionedField_H
 
-#include "DimensionedField.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

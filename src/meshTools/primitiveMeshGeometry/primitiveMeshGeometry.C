@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMeshGeometry.H"
-#include "pyramid.H"
-#include "unitConversion.H"
-#include "triangle.H"
+#include "primitiveMeshGeometry/primitiveMeshGeometry.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
+#include "global/constants/unitConversion.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

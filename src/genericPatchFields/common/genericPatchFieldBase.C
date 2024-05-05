@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericPatchFieldBase.H"
-#include "error.H"
+#include "common/genericPatchFieldBase.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_HashTableDetail_H
 #define Foam_HashTableDetail_H
 
-#include "zero.H"
+#include "primitives/traits/zero.H"
 #include <memory>
 #include <utility>
 #include <type_traits>

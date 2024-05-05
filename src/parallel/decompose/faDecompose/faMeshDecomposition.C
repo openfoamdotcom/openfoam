@@ -27,15 +27,15 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "faMeshDecomposition.H"
-#include "TimeOpenFOAM.H"
-#include "dictionary.H"
-#include "labelIOList.H"
-#include "processorFaPatch.H"
-#include "faMesh.H"
-#include "OSspecific.H"
-#include "Map.H"
-#include "SLList.H"
-#include "globalMeshData.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "faMesh/faMesh.H"
+#include "include/OSspecific.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

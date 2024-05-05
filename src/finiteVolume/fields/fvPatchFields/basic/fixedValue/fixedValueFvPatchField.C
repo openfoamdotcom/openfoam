@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedValueFvPatchField.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

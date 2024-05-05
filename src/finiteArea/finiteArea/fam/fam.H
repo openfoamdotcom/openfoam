@@ -35,12 +35,12 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "famDdt.H"
-#include "famD2dt2.H"
-#include "famDiv.H"
-#include "famLaplacian.H"
-#include "famSup.H"
-#include "famNDiv.H"
+#include "finiteArea/fam/famDdt.H"
+#include "finiteArea/fam/famD2dt2.H"
+#include "finiteArea/fam/famDiv.H"
+#include "finiteArea/fam/famLaplacian.H"
+#include "finiteArea/fam/famSup.H"
+#include "finiteArea/fam/famNDiv.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

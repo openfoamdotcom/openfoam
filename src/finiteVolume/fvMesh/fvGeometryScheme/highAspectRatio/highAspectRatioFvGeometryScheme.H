@@ -38,7 +38,7 @@ SourceFiles
 #ifndef highAspectRatioFvGeometryScheme_H
 #define highAspectRatioFvGeometryScheme_H
 
-#include "basicFvGeometryScheme.H"
+#include "fvMesh/fvGeometryScheme/basic/basicFvGeometryScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

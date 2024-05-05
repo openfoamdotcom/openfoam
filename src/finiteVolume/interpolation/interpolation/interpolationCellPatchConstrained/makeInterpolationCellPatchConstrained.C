@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCellPatchConstrained.H"
+#include "interpolation/interpolation/interpolationCellPatchConstrained/interpolationCellPatchConstrained.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

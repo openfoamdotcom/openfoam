@@ -74,9 +74,9 @@ SourceFiles
 #ifndef Foam_Function1_H
 #define Foam_Function1_H
 
-#include "function1Base.H"
-#include "Field.H"
-#include "HashPtrTable.H"
+#include "primitives/functions/Function1/Function1/function1Base.H"
+#include "fields/Fields/Field/Field.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -393,7 +393,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Function1Pascal.C"
+    #include "primitives/functions/Function1/Function1/Function1Pascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

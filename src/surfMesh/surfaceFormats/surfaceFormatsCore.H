@@ -38,12 +38,12 @@ SourceFiles
 #ifndef surfaceFormatsCore_H
 #define surfaceFormatsCore_H
 
-#include "Map.H"
-#include "HashSet.H"
-#include "wordRes.H"
-#include "labelList.H"
-#include "surfZoneList.H"
-#include "surfZoneIdentifierList.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/ints/lists/labelList.H"
+#include "surfZone/surfZoneList.H"
+#include "meshes/Identifiers/surface/surfZoneIdentifierList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

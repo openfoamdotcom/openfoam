@@ -28,8 +28,8 @@ License
 #ifndef Foam_faceList_H
 #define Foam_faceList_H
 
-#include "face.H"
-#include "faceListFwd.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/meshShapes/face/faceListFwd.H"
 
 #endif
 

@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightOutput.H"
-#include "cell.H"
-#include "cellShape.H"
-#include "face.H"
-#include "polyMesh.H"
-#include "ListOps.H"
-#include "manifoldCellsMeshObject.H"
-#include "debug.H"
-#include "defineDebugSwitch.H"
-#include "registerSwitch.H"
+#include "ensight/output/ensightOutput.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "common/manifoldCellsMeshObject.H"
+#include "global/debug/debug.H"
+#include "global/debug/defineDebugSwitch.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * * * Globals * * * * * * * * * * * * * * * * * //
 

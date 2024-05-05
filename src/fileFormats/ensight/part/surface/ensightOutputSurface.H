@@ -45,7 +45,7 @@ SourceFiles
 #ifndef ensightOutputSurface_H
 #define ensightOutputSurface_H
 
-#include "ensightFaces.H"
+#include "ensight/part/faces/ensightFaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightOutputSurfaceTemplates.C"
+    #include "ensight/part/surface/ensightOutputSurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

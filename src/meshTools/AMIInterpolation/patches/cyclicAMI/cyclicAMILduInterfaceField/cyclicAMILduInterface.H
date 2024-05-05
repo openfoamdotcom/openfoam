@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_cyclicAMILduInterface_H
 #define Foam_cyclicAMILduInterface_H
 
-#include "primitiveFieldsFwd.H"
-#include "AMIPatchToPatchInterpolation.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

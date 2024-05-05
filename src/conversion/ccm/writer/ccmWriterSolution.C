@@ -25,13 +25,13 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "ccmWriter.H"
-#include "dictionary.H"
-#include "IFstream.H"
-#include "StringStream.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "ccmInternal.H"  // include last to avoid any strange interactions
+#include "writer/ccmWriter.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "common/ccmInternal.H"  // include last to avoid any strange interactions
 
 
 // * * * * * * * * * * * * * * * Static Data Member  * * * * * * * * * * * * //

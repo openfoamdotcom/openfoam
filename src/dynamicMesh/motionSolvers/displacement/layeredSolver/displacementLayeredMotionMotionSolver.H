@@ -63,9 +63,9 @@ SourceFiles
 #ifndef displacementLayeredMotionMotionSolver_H
 #define displacementLayeredMotionMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "cylindricalCS.H"
-#include "PtrMap.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
+#include "primitives/coordinate/systems/cylindricalCS.H"
+#include "containers/HashTables/PtrMap/PtrMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,11 +37,11 @@ SourceFiles
 #ifndef layerParameters_H
 #define layerParameters_H
 
-#include "dictionary.H"
-#include "scalarField.H"
-#include "labelList.H"
-#include "Switch.H"
-#include "Enum.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

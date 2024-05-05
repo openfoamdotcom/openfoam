@@ -102,9 +102,9 @@ SourceFiles
 #ifndef Foam_functionObjects_fieldExtents_H
 #define Foam_functionObjects_fieldExtents_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "volFieldSelection.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "functionObjects/fieldSelections/volFieldSelection/volFieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -219,7 +219,7 @@ tmp<volScalarField> fieldExtents::calcMask
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldExtentsTemplates.C"
+    #include "fieldExtents/fieldExtentsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

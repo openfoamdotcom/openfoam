@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericPatchFieldBase.H"
+#include "common/genericPatchFieldBase.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

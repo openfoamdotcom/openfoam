@@ -41,9 +41,9 @@ SourceFiles
 #ifndef Foam_coupledFaPatchField_H
 #define Foam_coupledFaPatchField_H
 
-#include "lduInterfaceField.H"
-#include "faPatchField.H"
-#include "coupledFaPatch.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceField.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
+#include "faMesh/faPatches/basic/coupled/coupledFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -240,7 +240,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledFaPatchField.C"
+    #include "fields/faPatchFields/basic/coupled/coupledFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

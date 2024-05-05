@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "plane.H"
-#include "tensor.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

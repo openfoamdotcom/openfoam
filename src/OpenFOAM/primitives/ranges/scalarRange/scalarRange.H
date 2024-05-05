@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Foam_scalarRange_H
 #define Foam_scalarRange_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,7 +243,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "scalarRangeI.H"
+#include "primitives/ranges/scalarRange/scalarRangeI.H"
 
 #endif
 

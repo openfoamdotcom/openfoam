@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isothermalDiameter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/isothermalDiameter/isothermalDiameter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

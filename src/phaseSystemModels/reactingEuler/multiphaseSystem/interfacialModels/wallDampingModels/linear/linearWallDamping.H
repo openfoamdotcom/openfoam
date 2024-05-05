@@ -36,7 +36,7 @@ SourceFiles
 #ifndef linearWallDamping_H
 #define linearWallDamping_H
 
-#include "interpolatedWallDamping.H"
+#include "interfacialModels/wallDampingModels/interpolated/interpolatedWallDamping.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

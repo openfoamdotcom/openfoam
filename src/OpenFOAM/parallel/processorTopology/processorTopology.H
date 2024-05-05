@@ -49,10 +49,10 @@ SourceFiles
 #ifndef Foam_processorTopology_H
 #define Foam_processorTopology_H
 
-#include "labelList.H"
-#include "lduSchedule.H"
-#include "Map.H"
-#include "UPstream.H"
+#include "primitives/ints/lists/labelList.H"
+#include "matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

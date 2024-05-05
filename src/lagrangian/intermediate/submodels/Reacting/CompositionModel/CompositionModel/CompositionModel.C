@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompositionModel.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -602,6 +602,6 @@ Foam::scalar Foam::CompositionModel<CloudType>::rho
 }
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CompositionModelNew.C"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModelNew.C"
 
 // ************************************************************************* //

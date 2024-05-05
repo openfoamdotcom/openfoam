@@ -172,13 +172,13 @@ SourceFiles
 #ifndef Foam_functionObjects_regionSizeDistribution_H
 #define Foam_functionObjects_regionSizeDistribution_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "coordSetWriter.H"
-#include "Map.H"
-#include "volFieldsFwd.H"
-#include "wordRes.H"
-#include "coordinateSystem.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "containers/HashTables/Map/Map.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -61,10 +61,10 @@ SourceFiles
 #ifndef Foam_PointEdgeWave_H
 #define Foam_PointEdgeWave_H
 
-#include "bitSet.H"
-#include "scalarField.H"
-#include "tensorField.H"
-#include "PstreamBuffers.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -399,7 +399,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PointEdgeWave.C"
+    #include "algorithms/PointEdgeWave/PointEdgeWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

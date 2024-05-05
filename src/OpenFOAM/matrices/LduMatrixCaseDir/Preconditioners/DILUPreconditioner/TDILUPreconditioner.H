@@ -42,7 +42,7 @@ SourceFiles
 #ifndef TDILUPreconditioner_H
 #define TDILUPreconditioner_H
 
-#include "LduMatrixPascal.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TDILUPreconditioner.C"
+    #include "matrices/LduMatrixCaseDir/Preconditioners/DILUPreconditioner/TDILUPreconditioner.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

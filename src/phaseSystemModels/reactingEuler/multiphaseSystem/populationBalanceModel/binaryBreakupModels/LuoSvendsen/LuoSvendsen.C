@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LuoSvendsen.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "tableBounds.H"
-#include "MathFunctions.H"
+#include "populationBalanceModel/binaryBreakupModels/LuoSvendsen/LuoSvendsen.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "primitives/ranges/tableBounds/tableBounds.H"
+#include "primitives/functions/Math/MathFunctions.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

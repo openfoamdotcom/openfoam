@@ -37,7 +37,7 @@ Description
 #ifndef Foam_FIFOStack_H
 #define Foam_FIFOStack_H
 
-#include "SLList.H"
+#include "containers/LinkedLists/user/SLList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

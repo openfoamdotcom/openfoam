@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Foam_coordSetWriters_rawWriter_H
 #define Foam_coordSetWriters_rawWriter_H
 
-#include "coordSetWriter.H"
+#include "coordSet/writers/common/coordSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

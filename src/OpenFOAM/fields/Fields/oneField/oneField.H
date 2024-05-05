@@ -39,8 +39,8 @@ Description
 #ifndef Foam_oneField_H
 #define Foam_oneField_H
 
-#include "one.H"
-#include "scalarFwd.H"
+#include "primitives/traits/one.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -86,7 +86,7 @@ public:
 
 // Global Operators
 
-#include "oneFieldI.H"
+#include "fields/Fields/oneField/oneFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

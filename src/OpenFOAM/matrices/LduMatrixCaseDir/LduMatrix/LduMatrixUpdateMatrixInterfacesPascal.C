@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduMatrixPascal.H"
-#include "lduInterfaceField.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef expressions_fvExprDriverWriter_H
 #define expressions_fvExprDriverWriter_H
 
-#include "fvExprDriver.H"
-#include "regIOobject.H"
+#include "expressions/base/fvExprDriver.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

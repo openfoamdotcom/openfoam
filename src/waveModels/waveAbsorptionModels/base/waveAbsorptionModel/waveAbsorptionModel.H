@@ -34,7 +34,7 @@ Description
 #ifndef waveModels_waveAbsorptionModel_H
 #define waveModels_waveAbsorptionModel_H
 
-#include "waveModel.H"
+#include "waveModel/waveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

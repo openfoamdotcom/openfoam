@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylinderAnnulusToCell.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/cylinderAnnulusToCell/cylinderAnnulusToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

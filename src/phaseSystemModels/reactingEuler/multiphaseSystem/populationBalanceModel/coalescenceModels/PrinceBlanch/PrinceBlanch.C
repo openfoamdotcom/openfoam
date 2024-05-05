@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrinceBlanch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mathematicalConstants.H"
-#include "phaseCompressibleTurbulenceModel.H"
+#include "populationBalanceModel/coalescenceModels/PrinceBlanch/PrinceBlanch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

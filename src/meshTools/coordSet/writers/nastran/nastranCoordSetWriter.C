@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nastranCoordSetWriter.H"
-#include "coordSet.H"
-#include "IOmanip.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "coordSetWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "coordSet/writers/nastran/nastranCoordSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "coordSet/writers/common/coordSetWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

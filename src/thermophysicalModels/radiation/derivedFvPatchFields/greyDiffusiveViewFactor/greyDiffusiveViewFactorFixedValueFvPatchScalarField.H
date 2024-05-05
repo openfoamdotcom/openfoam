@@ -63,7 +63,7 @@ SourceFiles
 #ifndef greyDiffusiveViewFactorFixedValueFvPatchScalarField_H
 #define greyDiffusiveViewFactorFixedValueFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

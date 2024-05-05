@@ -77,8 +77,8 @@ SourceFiles
 #ifndef saturationModels_function1_H
 #define saturationModels_function1_H
 
-#include "saturationModel.H"
-#include "Function1Pascal.H"
+#include "saturationModel/saturationModel.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

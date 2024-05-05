@@ -35,8 +35,8 @@ SourceFiles
 #ifndef matchPoints_H
 #define matchPoints_H
 
-#include "scalarField.H"
-#include "pointField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

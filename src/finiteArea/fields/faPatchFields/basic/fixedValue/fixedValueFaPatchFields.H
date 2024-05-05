@@ -28,7 +28,7 @@ License
 #ifndef Foam_fixedValueFaPatchFields_H
 #define Foam_fixedValueFaPatchFields_H
 
-#include "fixedValueFaPatchField.H"
+#include "fields/faPatchFields/basic/fixedValue/fixedValueFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "makeReactionThermo.H"
-#include "thermoPhysicsTypes.H"
-#include "solidThermoPhysicsTypes.H"
+#include "include/thermoPhysicsTypes.H"
+#include "include/solidThermoPhysicsTypes.H"
 
-#include "chemistryReader.H"
-#include "foamChemistryReader.H"
+#include "chemistryReaders/chemistryReader/chemistryReader.H"
+#include "chemistryReaders/foamChemistryReader/foamChemistryReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

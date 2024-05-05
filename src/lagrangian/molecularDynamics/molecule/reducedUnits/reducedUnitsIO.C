@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reducedUnits.H"
-#include "IOstreams.H"
+#include "reducedUnits/reducedUnits.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef shifted_H
 #define shifted_H
 
-#include "energyScalingFunction.H"
+#include "energyScalingFunction/basic/energyScalingFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

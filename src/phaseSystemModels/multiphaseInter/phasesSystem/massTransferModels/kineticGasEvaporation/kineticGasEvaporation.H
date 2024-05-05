@@ -115,7 +115,7 @@ SourceFiles
 #ifndef meltingEvaporationModels_kineticGasEvaporation_H
 #define meltingEvaporationModels_kineticGasEvaporation_H
 
-#include "InterfaceCompositionModelPascal2.H"
+#include "InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal2.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * *//
 

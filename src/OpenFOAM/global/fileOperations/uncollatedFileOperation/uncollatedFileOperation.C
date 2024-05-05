@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uncollatedFileOperation.H"
-#include "fileOperationInitialise.H"
-#include "TimeOpenFOAM.H"
-#include "Fstream.H"
-#include "addToRunTimeSelectionTable.H"
-#include "decomposedBlockData.H"
-#include "dummyISstream.H"
+#include "global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.H"
+#include "global/fileOperations/fileOperation/fileOperationInitialise.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "db/IOstreams/dummy/dummyISstream.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

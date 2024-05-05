@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_manualRenumber_H
 #define Foam_manualRenumber_H
 
-#include "renumberMethod.H"
+#include "renumberMethod/renumberMethod.H"
 
 namespace Foam
 {

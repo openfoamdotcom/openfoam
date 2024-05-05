@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleForce.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

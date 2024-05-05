@@ -46,7 +46,7 @@ Description
 #ifndef SHF_H
 #define SHF_H
 
-#include "BreakupModelPascal.H"
+#include "submodels/BreakupModel/BreakupModel/BreakupModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -175,7 +175,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SHF.C"
+    #include "submodels/BreakupModel/SHF/SHF.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

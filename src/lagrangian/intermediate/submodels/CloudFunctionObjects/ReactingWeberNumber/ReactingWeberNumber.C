@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingWeberNumber.H"
-#include "SLGThermo.H"
+#include "submodels/CloudFunctionObjects/ReactingWeberNumber/ReactingWeberNumber.H"
+#include "SLGThermo/SLGThermo.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

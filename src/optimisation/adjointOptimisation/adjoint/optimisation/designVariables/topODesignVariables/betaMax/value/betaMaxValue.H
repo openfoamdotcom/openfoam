@@ -39,7 +39,7 @@ SourceFiles
 #ifndef betaMaxValue_H
 #define betaMaxValue_H
 
-#include "betaMax.H"
+#include "optimisation/designVariables/topODesignVariables/betaMax/betaMax/betaMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

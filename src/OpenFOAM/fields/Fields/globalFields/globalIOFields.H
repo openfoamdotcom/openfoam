@@ -35,8 +35,8 @@ Description
 #ifndef Foam_globalIOFields_H
 #define Foam_globalIOFields_H
 
-#include "primitiveFields.H"
-#include "GlobalIOField.H"
+#include "fields/Fields/primitiveFields.H"
+#include "db/IOobjects/GlobalIOField/GlobalIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

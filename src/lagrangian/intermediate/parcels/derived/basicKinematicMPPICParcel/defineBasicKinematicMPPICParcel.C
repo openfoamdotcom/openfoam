@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicKinematicMPPICParcel.H"
-#include "CloudPascal.H"
+#include "parcels/derived/basicKinematicMPPICParcel/basicKinematicMPPICParcel.H"
+#include "Cloud/CloudPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radialActuationDiskSource.H"
-#include "volFields.H"
-#include "fvMatrix.H"
-#include "fvm.H"
-#include "mathematicalConstants.H"
+#include "sources/derived/radialActuationDiskSource/radialActuationDiskSource.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

@@ -102,9 +102,9 @@ SourceFiles
 #ifndef functionObjects_fieldCoordinateSystemTransform_H
 #define functionObjects_fieldCoordinateSystemTransform_H
 
-#include "fvMeshFunctionObject.H"
-#include "coordinateSystem.H"
-#include "volFieldSelection.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "functionObjects/fieldSelections/volFieldSelection/volFieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -218,7 +218,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldCoordinateSystemTransformTemplates.C"
+    #include "fieldCoordinateSystemTransform/fieldCoordinateSystemTransformTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "porousBafflePressureFvPatchField.H"
-#include "surfaceFields.H"
+#include "derivedFvPatchFields/porousBafflePressure/porousBafflePressureFvPatchField.H"
+#include "fields/surfaceFields/surfaceFields.H"
 #include "turbulenceModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

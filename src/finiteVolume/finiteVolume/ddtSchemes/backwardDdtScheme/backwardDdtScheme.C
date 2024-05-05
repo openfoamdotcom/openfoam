@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "backwardDdtScheme.H"
-#include "surfaceInterpolate.H"
-#include "fvcDiv.H"
-#include "fvMatrices.H"
+#include "finiteVolume/ddtSchemes/backwardDdtScheme/backwardDdtScheme.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

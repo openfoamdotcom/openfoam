@@ -40,8 +40,8 @@ SourceFiles
 #ifndef DILUGaussSeidelSmoother_H
 #define DILUGaussSeidelSmoother_H
 
-#include "DILUSmoother.H"
-#include "GaussSeidelSmoother.H"
+#include "matrices/lduMatrix/smoothers/DILU/DILUSmoother.H"
+#include "matrices/lduMatrix/smoothers/GaussSeidel/GaussSeidelSmoother.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

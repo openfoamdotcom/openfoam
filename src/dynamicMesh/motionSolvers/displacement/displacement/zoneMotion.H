@@ -53,7 +53,7 @@ SourceFiles
 #ifndef Foam_zoneMotion_H
 #define Foam_zoneMotion_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

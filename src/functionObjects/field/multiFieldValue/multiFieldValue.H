@@ -115,9 +115,9 @@ SourceFiles
 #ifndef Foam_functionObjects_multiFieldValue_H
 #define Foam_functionObjects_multiFieldValue_H
 
-#include "stateFunctionObject.H"
-#include "writeFile.H"
-#include "Enum.H"
+#include "db/functionObjects/stateFunctionObject/stateFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

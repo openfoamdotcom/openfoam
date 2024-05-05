@@ -63,8 +63,8 @@ SourceFiles
 #ifndef singleProcessorFaceSetsConstraint_H
 #define singleProcessorFaceSetsConstraint_H
 
-#include "decompositionConstraint.H"
-#include "Tuple2.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

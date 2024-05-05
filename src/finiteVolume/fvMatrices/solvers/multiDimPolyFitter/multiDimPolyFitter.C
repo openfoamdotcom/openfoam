@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiDimPolyFitter.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/multiDimPolyFitter.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

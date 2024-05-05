@@ -38,9 +38,9 @@ SourceFiles
 #ifndef oscillatingRotatingMotion_H
 #define oscillatingRotatingMotion_H
 
-#include "solidBodyMotionFunction.H"
-#include "primitiveFields.H"
-#include "point.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.H"
+#include "fields/Fields/primitiveFields.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

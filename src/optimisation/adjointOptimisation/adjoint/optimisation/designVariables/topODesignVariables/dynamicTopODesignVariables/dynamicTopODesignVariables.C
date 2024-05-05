@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicTopODesignVariables.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/dynamicTopODesignVariables/dynamicTopODesignVariables.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

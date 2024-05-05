@@ -49,7 +49,7 @@ SourceFiles
 #ifndef Foam_springRenumber_H
 #define Foam_springRenumber_H
 
-#include "renumberMethod.H"
+#include "renumberMethod/renumberMethod.H"
 
 namespace Foam
 {

@@ -44,9 +44,9 @@ SourceFiles
 #ifndef MPPICParcel_H
 #define MPPICParcel_H
 
-#include "particle.H"
-#include "labelFieldIOField.H"
-#include "vectorFieldIOField.H"
+#include "particle/particle.H"
+#include "fields/Fields/labelField/labelFieldIOField.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -342,13 +342,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MPPICParcelI.H"
-#include "MPPICParcelTrackingDataI.H"
+#include "parcels/Templates/MPPICParcel/MPPICParcelI.H"
+#include "parcels/Templates/MPPICParcel/MPPICParcelTrackingDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MPPICParcel.C"
+    #include "parcels/Templates/MPPICParcel/MPPICParcel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

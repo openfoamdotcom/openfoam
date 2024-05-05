@@ -38,8 +38,8 @@ SourceFiles
 #ifndef ParticleForceList_H
 #define ParticleForceList_H
 
-#include "ParticleForce.H"
-#include "forceSuSp.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
+#include "submodels/Kinematic/ParticleForces/forceSuSp/forceSuSp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,10 +163,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleForceListI.H"
+#include "submodels/ForceTypes/ParticleForceList/ParticleForceListI.H"
 
 #ifdef NoRepository
-    #include "ParticleForceList.C"
+    #include "submodels/ForceTypes/ParticleForceList/ParticleForceList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

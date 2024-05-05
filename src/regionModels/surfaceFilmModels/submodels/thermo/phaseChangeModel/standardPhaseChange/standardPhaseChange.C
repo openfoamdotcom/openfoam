@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "standardPhaseChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "thermoSingleLayer.H"
-#include "zeroField.H"
+#include "submodels/thermo/phaseChangeModel/standardPhaseChange/standardPhaseChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "thermoSingleLayer/thermoSingleLayer.H"
+#include "fields/Fields/zeroField/zeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

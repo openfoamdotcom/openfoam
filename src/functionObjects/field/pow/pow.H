@@ -113,7 +113,7 @@ SourceFiles
 #ifndef functionObjects_pow_H
 #define functionObjects_pow_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

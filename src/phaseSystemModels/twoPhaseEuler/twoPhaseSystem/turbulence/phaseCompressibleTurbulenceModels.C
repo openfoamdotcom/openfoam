@@ -25,18 +25,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "phaseModel.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "phaseModel/phaseModel.H"
 #include "twoPhaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
-#include "compressible_makeTurbulenceModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulentFluidThermoModels/compressible_makeTurbulenceModel.H"
 
-#include "ThermalDiffusivity.H"
-#include "EddyDiffusivity.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "EddyDiffusivity/EddyDiffusivity.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -71,7 +71,7 @@ makeBaseTurbulenceModel
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Stokes.H"
+#include "laminar/Stokes/Stokes.H"
 makeLaminarModel(Stokes);
 
 

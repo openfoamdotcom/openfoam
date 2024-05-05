@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelRange.H"
-#include "List.H"
-#include "MinMax.H"
-#include "Pair.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "primitives/tuples/Pair.H"
 #include <numeric>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

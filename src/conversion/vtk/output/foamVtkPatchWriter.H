@@ -50,10 +50,10 @@ SourceFiles
 #ifndef Foam_vtk_patchWriter_H
 #define Foam_vtk_patchWriter_H
 
-#include "foamVtkPatchMeshWriter.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "primitivePatchInterpolation.H"
+#include "output/vtk/patch/foamVtkPatchMeshWriter.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "interpolations/primitivePatchInterpolation/primitivePatchInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -202,7 +202,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkPatchWriterTemplates.C"
+    #include "vtk/output/foamVtkPatchWriterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

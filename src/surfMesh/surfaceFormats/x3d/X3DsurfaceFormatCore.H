@@ -37,7 +37,7 @@ SourceFiles
 #ifndef X3DsurfaceFormatCore_H
 #define X3DsurfaceFormatCore_H
 
-#include "pointField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "walkPatch.H"
-#include "ListOps.H"
+#include "meshes/primitiveMesh/primitivePatch/walkPatch.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

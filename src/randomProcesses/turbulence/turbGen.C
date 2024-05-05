@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fft.H"
-#include "turbGen.H"
-#include "Kmesh.H"
-#include "primitiveFields.H"
-#include "Ek.H"
-#include "mathematicalConstants.H"
+#include "fft/fft.H"
+#include "turbulence/turbGen.H"
+#include "Kmesh/Kmesh.H"
+#include "fields/Fields/primitiveFields.H"
+#include "turbulence/Ek.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

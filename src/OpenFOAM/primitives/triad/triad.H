@@ -43,9 +43,9 @@ SourceFiles
 #ifndef Foam_triad_H
 #define Foam_triad_H
 
-#include "vector.H"
-#include "tensor.H"
-#include "contiguous.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/traits/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ scalar diff(const triad& A, const triad& B);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triadI.H"
+#include "primitives/triad/triadI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

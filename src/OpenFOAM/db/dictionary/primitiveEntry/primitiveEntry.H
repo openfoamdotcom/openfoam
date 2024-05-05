@@ -45,9 +45,9 @@ SourceFiles
 #ifndef Foam_primitiveEntry_H
 #define Foam_primitiveEntry_H
 
-#include "entry.H"
-#include "ITstream.H"
-#include "InfoProxy.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -220,7 +220,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "primitiveEntryTemplates.C"
+    #include "db/dictionary/primitiveEntry/primitiveEntryTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

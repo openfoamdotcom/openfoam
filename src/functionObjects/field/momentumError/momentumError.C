@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "momentumError.H"
-#include "fvcDiv.H"
-#include "fvcGrad.H"
-#include "fvcLaplacian.H"
+#include "momentumError/momentumError.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
 #include "turbulenceModel.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

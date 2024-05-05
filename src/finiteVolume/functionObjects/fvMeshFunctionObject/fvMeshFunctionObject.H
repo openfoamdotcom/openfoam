@@ -45,7 +45,7 @@ SourceFiles
 #ifndef functionObjects_fvMeshFunctionObject_H
 #define functionObjects_fvMeshFunctionObject_H
 
-#include "regionFunctionObject.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

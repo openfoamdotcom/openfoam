@@ -44,7 +44,7 @@ SourceFiles
 #ifndef preserveBafflesConstraint_H
 #define preserveBafflesConstraint_H
 
-#include "decompositionConstraint.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boxToPoint.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/pointSources/boxToPoint/boxToPoint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

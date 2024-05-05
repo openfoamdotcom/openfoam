@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_pairPatchAgglomeration_H
 #define Foam_pairPatchAgglomeration_H
 
-#include "mathematicalConstants.H"
-#include "indirectPrimitivePatch.H"
-#include "List.H"
-#include "edgeHashes.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "containers/Lists/List/List.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

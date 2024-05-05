@@ -36,13 +36,13 @@ SourceFiles
 #ifndef thermalBaffleModel_H
 #define thermalBaffleModel_H
 
-#include "runTimeSelectionTables.H"
-#include "scalarIOField.H"
-#include "autoPtr.H"
-#include "volFieldsFwd.H"
-#include "solidThermo.H"
-#include "regionModel1D.H"
-#include "radiationModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "solidThermo/solidThermo.H"
+#include "regionModel1D/regionModel1D.H"
+#include "radiationModels/radiationModel/radiationModel.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

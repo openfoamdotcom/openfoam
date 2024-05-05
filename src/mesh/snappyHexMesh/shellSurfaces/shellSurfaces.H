@@ -39,10 +39,10 @@ SourceFiles
 #ifndef shellSurfaces_H
 #define shellSurfaces_H
 
-#include "searchableSurface.H"
-#include "Enum.H"
-#include "Tuple2.H"
-#include "labelVector.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/Vector/ints/labelVector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

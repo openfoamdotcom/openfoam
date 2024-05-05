@@ -41,8 +41,8 @@ SourceFiles
 #ifndef limitWith_H
 #define limitWith_H
 
-#include "surfaceInterpolationScheme.H"
-#include "limitedSurfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkPTraits.H"
-#include "foamEndianFwd.H"  // For big/little endian defines
+#include "vtk/base/foamVtkPTraits.H"
+#include "primitives/endian/foamEndianFwd.H"  // For big/little endian defines
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

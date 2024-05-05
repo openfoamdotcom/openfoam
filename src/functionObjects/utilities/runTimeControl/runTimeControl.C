@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "runTimeControl.H"
-#include "dictionary.H"
-#include "runTimeCondition.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "addToRunTimeSelectionTable.H"
+#include "runTimeControl/runTimeControl.H"
+#include "db/dictionary/dictionary.H"
+#include "runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

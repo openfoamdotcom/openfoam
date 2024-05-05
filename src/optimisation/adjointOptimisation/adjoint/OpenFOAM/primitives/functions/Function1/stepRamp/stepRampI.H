@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stepRamp.H"
+#include "OpenFOAM/primitives/functions/Function1/stepRamp/stepRamp.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

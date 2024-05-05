@@ -40,8 +40,8 @@ SourceFiles
 #ifndef refinementData_H
 #define refinementData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,7 +229,7 @@ template<> struct is_contiguous_label<refinementData> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "refinementDataI.H"
+#include "polyTopoChange/polyTopoChange/refinementDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

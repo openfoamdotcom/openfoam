@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmarasIDDES.H"
+#include "DES/SpalartAllmarasIDDES/SpalartAllmarasIDDES.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

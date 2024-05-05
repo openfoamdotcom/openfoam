@@ -36,10 +36,10 @@ SourceFiles
 #ifndef CPCCellToCellStencil_H
 #define CPCCellToCellStencil_H
 
-#include "cellToCellStencil.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "Map.H"
+#include "fvMesh/extendedStencil/cellToCell/globalIndexStencils/cellToCellStencil.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

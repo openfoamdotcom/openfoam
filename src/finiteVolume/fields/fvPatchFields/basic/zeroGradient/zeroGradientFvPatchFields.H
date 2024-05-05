@@ -28,8 +28,8 @@ License
 #ifndef zeroGradientFvPatchFields_H
 #define zeroGradientFvPatchFields_H
 
-#include "zeroGradientFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

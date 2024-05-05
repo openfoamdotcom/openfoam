@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringOpenFOAM.H"
-#include "token.H"
-#include "IOstreams.H"
+#include "primitives/strings/string/stringOpenFOAM.H"
+#include "db/IOstreams/token/token.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

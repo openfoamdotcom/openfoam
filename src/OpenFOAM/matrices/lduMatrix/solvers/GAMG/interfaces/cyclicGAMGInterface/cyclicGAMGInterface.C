@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicGAMGInterface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "labelPairHashes.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/cyclicGAMGInterface/cyclicGAMGInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/tuples/labelPairHashes.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

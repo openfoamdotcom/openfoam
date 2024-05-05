@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_OSspecific_H
 #define Foam_OSspecific_H
 
-#include "fileNameList.H"
-#include "stringList.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "primitives/strings/lists/stringList.H"
 
 #include <sys/types.h>
 

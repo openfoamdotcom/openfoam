@@ -29,10 +29,10 @@ License
 #ifndef Foam_HashTable_C
 #define Foam_HashTable_C
 
-#include "HashTable.H"
-#include "List.H"
-#include "FixedList.H"
-#include "UPtrList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -1029,8 +1029,8 @@ Foam::HashTable<T, Key, Hash>& Foam::HashTable<T, Key, Hash>::operator+=
 
 // Iterators, Friend Operators
 
-#include "HashTableIter.C"
-#include "HashTableIO.C"
+#include "containers/HashTables/HashTable/HashTableIter.C"
+#include "containers/HashTables/HashTable/HashTableIO.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

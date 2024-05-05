@@ -39,7 +39,7 @@ Description
 #ifndef pimpleControl_H
 #define pimpleControl_H
 
-#include "solutionControl.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControl.H"
 
 //- Declare that pimpleControl will be used
 #define PIMPLE_CONTROL
@@ -196,7 +196,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pimpleControlI.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

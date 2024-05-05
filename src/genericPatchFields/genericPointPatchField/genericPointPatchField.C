@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericPointPatchField.H"
-#include "pointPatchFieldMapper.H"
+#include "genericPointPatchField/genericPointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

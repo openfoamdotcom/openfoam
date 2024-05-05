@@ -140,10 +140,10 @@ SourceFiles
 #ifndef Foam_EigenMatrix_H
 #define Foam_EigenMatrix_H
 
-#include "scalarMatrices.H"
-#include "DiagonalMatrix.H"
-#include "SquareMatrix.H"
-#include "complex.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "matrices/DiagonalMatrix/DiagonalMatrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "primitives/complex/complex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -256,7 +256,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EigenMatrix.C"
+    #include "matrices/EigenMatrix/EigenMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

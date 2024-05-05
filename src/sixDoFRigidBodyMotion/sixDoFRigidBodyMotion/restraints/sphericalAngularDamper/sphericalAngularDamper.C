@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalAngularDamper.H"
-#include "addToRunTimeSelectionTable.H"
-#include "sixDoFRigidBodyMotion.H"
+#include "sixDoFRigidBodyMotion/restraints/sphericalAngularDamper/sphericalAngularDamper.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

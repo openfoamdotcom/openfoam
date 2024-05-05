@@ -55,8 +55,8 @@ SourceFiles
 #ifndef ISQP_H
 #define ISQP_H
 
-#include "LBFGS.H"
-#include "SQPBase.H"
+#include "optimisation/updateMethod/LBFGS/LBFGS.H"
+#include "optimisation/updateMethod/SQPBase/SQPBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

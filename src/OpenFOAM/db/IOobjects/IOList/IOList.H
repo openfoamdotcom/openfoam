@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_IOList_H
 #define Foam_IOList_H
 
-#include "List.H"
-#include "regIOobject.H"
+#include "containers/Lists/List/List.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOList.C"
+    #include "db/IOobjects/IOList/IOList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

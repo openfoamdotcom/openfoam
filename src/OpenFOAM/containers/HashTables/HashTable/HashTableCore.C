@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashTableCore.H"
-#include "uLabel.H"
+#include "containers/HashTables/HashTable/HashTableCore.H"
+#include "primitives/ints/uLabel/uLabel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

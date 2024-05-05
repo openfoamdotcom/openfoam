@@ -38,12 +38,12 @@ SourceFiles
 #ifndef Foam_tensorFieldField_H
 #define Foam_tensorFieldField_H
 
-#include "sphericalTensorFieldField.H"
-#include "symmTensorFieldField.H"
-#include "tensor.H"
+#include "fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.H"
+#include "fields/FieldFields/symmTensorFieldField/symmTensorFieldField.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.H"
+#include "fields/FieldFields/FieldField/FieldFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,10 +187,10 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 #ifdef NoRepository
-    #include "tensorFieldField.C"
+    #include "fields/FieldFields/tensorFieldField/tensorFieldField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

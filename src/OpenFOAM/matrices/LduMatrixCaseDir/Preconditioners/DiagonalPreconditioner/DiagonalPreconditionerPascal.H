@@ -41,7 +41,7 @@ SourceFiles
 #ifndef DiagonalPreconditioner_H
 #define DiagonalPreconditioner_H
 
-#include "LduMatrixPascal.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -126,7 +126,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DiagonalPreconditionerPascal.C"
+    #include "matrices/LduMatrixCaseDir/Preconditioners/DiagonalPreconditioner/DiagonalPreconditionerPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

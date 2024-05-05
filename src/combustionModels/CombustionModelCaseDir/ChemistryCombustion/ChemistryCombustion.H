@@ -37,9 +37,9 @@ SourceFiles
 #ifndef ChemistryCombustion_H
 #define ChemistryCombustion_H
 
-#include "autoPtr.H"
-#include "CombustionModelPascal.H"
-#include "BasicChemistryModelPascal.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "CombustionModelCaseDir/CombustionModel/CombustionModelPascal.H"
+#include "chemistryModel/BasicChemistryModelCaseDir/BasicChemistryModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -110,7 +110,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ChemistryCombustion.C"
+    #include "CombustionModelCaseDir/ChemistryCombustion/ChemistryCombustion.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

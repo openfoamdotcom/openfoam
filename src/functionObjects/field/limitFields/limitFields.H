@@ -102,9 +102,9 @@ SourceFiles
 #ifndef functionObjects_limitFields_H
 #define functionObjects_limitFields_H
 
-#include "Enum.H"
-#include "fvMeshFunctionObject.H"
-#include "volFieldSelection.H"
+#include "primitives/enums/Enum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "functionObjects/fieldSelections/volFieldSelection/volFieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "limitFieldsTemplates.C"
+    #include "limitFields/limitFieldsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

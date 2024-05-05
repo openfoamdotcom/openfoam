@@ -49,10 +49,10 @@ SourceFiles
 #ifndef ManualInjection_H
 #define ManualInjection_H
 
-#include "InjectionModelPascal.H"
-#include "distributionModel.H"
-#include "Switch.H"
-#include "globalIOFields.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "distributionModel/distributionModel.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "fields/Fields/globalFields/globalIOFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ManualInjection.C"
+    #include "submodels/Kinematic/InjectionModel/ManualInjection/ManualInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,15 +38,15 @@ SourceFiles
 #ifndef hexRef8_H
 #define hexRef8_H
 
-#include "labelIOList.H"
-#include "HashSet.H"
-#include "DynamicList.H"
-#include "primitivePatch.H"
-#include "removeFaces.H"
-#include "refinementHistory.H"
-#include "bitSet.H"
-#include "uniformDimensionedFields.H"
-#include "cellShapeList.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "polyTopoChange/polyTopoChange/removeFaces.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/refinementHistory.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "meshes/meshShapes/cellShape/cellShapeList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

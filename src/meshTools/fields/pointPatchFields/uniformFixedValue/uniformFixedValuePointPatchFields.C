@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedValuePointPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointPatchFields.H"
+#include "fields/pointPatchFields/uniformFixedValue/uniformFixedValuePointPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyMotionPointConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "sixDoFRigidBodyMotion.H"
+#include "sixDoFRigidBodyMotion/constraints/point/sixDoFRigidBodyMotionPointConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

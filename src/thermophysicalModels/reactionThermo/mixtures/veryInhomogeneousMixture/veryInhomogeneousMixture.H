@@ -41,7 +41,7 @@ SourceFiles
 #ifndef veryInhomogeneousMixture_H
 #define veryInhomogeneousMixture_H
 
-#include "basicCombustionMixture.H"
+#include "mixtures/basicCombustionMixture/basicCombustionMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -212,7 +212,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "veryInhomogeneousMixture.C"
+    #include "mixtures/veryInhomogeneousMixture/veryInhomogeneousMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

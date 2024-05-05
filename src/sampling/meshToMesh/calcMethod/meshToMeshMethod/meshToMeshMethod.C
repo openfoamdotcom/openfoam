@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMeshMethod.H"
-#include "tetOverlapVolume.H"
-#include "OFstream.H"
-#include "TimeOpenFOAM.H"
-#include "treeBoundBox.H"
+#include "meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.H"
+#include "tetOverlapVolume/tetOverlapVolume.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

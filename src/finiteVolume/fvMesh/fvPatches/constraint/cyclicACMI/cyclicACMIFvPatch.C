@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicACMIFvPatch.H"
-#include "fvMesh.H"
-#include "transform.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvPatches/constraint/cyclicACMI/cyclicACMIFvPatch.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/transform/transform.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ Description
 #ifndef barycentric2D_H
 #define barycentric2D_H
 
-#include "scalar.H"
-#include "Barycentric2DPascal.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Barycentric2D/Barycentric2DPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

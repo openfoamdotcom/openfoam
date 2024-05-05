@@ -51,8 +51,8 @@ SourceFiles
 #ifndef Foam_vtk_PatchMeshWriter_H
 #define Foam_vtk_PatchMeshWriter_H
 
-#include "foamVtkFileWriter.H"
-#include "polyMesh.H"
+#include "vtk/file/foamVtkFileWriter.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -234,7 +234,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkPatchMeshWriterTemplates.C"
+    #include "output/vtk/patch/foamVtkPatchMeshWriterTemplates.C"
 #endif
 
 

@@ -87,8 +87,8 @@ SourceFiles
 #ifndef mappedMixedFvPatchField_H
 #define mappedMixedFvPatchField_H
 
-#include "mappedPatchFieldBase.H"
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -222,7 +222,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedMixedFvPatchField.C"
+    #include "fields/fvPatchFields/derived/mappedMixed/mappedMixedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

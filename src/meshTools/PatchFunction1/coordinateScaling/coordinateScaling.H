@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_coordinateScaling_H
 #define Foam_coordinateScaling_H
 
-#include "coordinateSystem.H"
-#include "Function1Pascal.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ tmp<Field<label>> coordinateScaling<label>::transform
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coordinateScaling.C"
+    #include "PatchFunction1/coordinateScaling/coordinateScaling.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

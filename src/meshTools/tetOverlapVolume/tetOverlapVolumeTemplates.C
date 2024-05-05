@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetOverlapVolume.H"
-#include "primitiveMesh.H"
+#include "tetOverlapVolume/tetOverlapVolume.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
 
 // * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * * //
 

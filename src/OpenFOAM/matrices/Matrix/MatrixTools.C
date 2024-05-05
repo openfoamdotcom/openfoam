@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MatrixTools.H"
+#include "matrices/Matrix/MatrixTools.H"
 
 // * * * * * * * * * * * * * * * Global Functions * * * * * * * * * * * * * * //
 

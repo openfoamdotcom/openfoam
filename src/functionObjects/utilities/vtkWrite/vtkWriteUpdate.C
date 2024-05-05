@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkWrite.H"
-#include "cellBitSet.H"
-#include "processorPolyPatch.H"
+#include "vtkWrite/vtkWrite.H"
+#include "topoSet/topoSets/cellBitSet.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

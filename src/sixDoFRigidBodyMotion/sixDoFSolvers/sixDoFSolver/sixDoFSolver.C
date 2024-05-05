@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFSolver.H"
-#include "IOstreams.H"
+#include "sixDoFSolvers/sixDoFSolver/sixDoFSolver.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

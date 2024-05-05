@@ -44,10 +44,10 @@ SourceFiles
 #ifndef Foam_entry_H
 #define Foam_entry_H
 
-#include "keyType.H"
-#include "IDLList.H"
-#include "fileName.H"
-#include "autoPtr.H"
+#include "primitives/strings/keyType/keyType.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

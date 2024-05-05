@@ -37,12 +37,12 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "boolField.H"
-#include "labelField.H"
-#include "scalarField.H"
-#include "vectorField.H"
-#include "tensorField.H"
-#include "sphericalTensorField.H"
+#include "fields/Fields/boolField/boolField.H"
+#include "fields/Fields/labelField/labelField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

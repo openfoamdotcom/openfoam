@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eddy.H"
-#include "mathematicalConstants.H"
+#include "fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddy.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant;
 

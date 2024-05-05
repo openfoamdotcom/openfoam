@@ -42,11 +42,11 @@ SourceFiles
 #ifndef Foam_IOobjectList_H
 #define Foam_IOobjectList_H
 
-#include "HashPtrTable.H"
-#include "HashSet.H"
-#include "IOobject.H"
-#include "UPtrList.H"
-#include "wordRes.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOobject/IOobject.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -868,12 +868,12 @@ Ostream& operator<<(Ostream& os, const IOobjectList& list);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IOobjectListI.H"
+#include "db/IOobjectList/IOobjectListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOobjectListTemplates.C"
+    #include "db/IOobjectList/IOobjectListTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

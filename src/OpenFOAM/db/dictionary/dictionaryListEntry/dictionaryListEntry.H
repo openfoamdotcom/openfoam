@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Foam_dictionaryListEntry_H
 #define Foam_dictionaryListEntry_H
 
-#include "dictionaryEntry.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

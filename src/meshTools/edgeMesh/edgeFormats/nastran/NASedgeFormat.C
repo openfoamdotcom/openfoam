@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NASedgeFormat.H"
-#include "IFstream.H"
-#include "StringStream.H"
-#include "bitSet.H"
+#include "edgeMesh/edgeFormats/nastran/NASedgeFormat.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

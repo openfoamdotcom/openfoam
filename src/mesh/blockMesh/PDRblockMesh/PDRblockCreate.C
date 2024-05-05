@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRblock.H"
-#include "polyMesh.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

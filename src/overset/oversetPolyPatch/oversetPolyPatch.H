@@ -37,7 +37,7 @@ SourceFiles
 #ifndef oversetPolyPatch_H
 #define oversetPolyPatch_H
 
-#include "polyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

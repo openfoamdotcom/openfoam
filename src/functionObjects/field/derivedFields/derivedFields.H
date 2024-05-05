@@ -93,8 +93,8 @@ SourceFiles
 #ifndef functionObjects_derivedFields_H
 #define functionObjects_derivedFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "Enum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

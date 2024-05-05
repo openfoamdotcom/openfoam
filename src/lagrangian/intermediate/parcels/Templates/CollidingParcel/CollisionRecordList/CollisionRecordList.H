@@ -39,9 +39,9 @@ SourceFiles
 #ifndef CollisionRecordList_H
 #define CollisionRecordList_H
 
-#include "DynamicList.H"
-#include "PairCollisionRecord.H"
-#include "WallCollisionRecord.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/PairCollisionRecord/PairCollisionRecord.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/WallCollisionRecord/WallCollisionRecord.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -234,12 +234,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CollisionRecordListI.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CollisionRecordList.C"
+    #include "parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

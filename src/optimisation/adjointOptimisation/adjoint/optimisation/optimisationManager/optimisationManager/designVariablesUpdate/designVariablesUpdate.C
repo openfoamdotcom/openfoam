@@ -27,12 +27,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointSolverManager.H"
-#include "designVariablesUpdate.H"
-#include "constrainedOptimisationMethod.H"
-#include "adjointNull.H"
-#include "IOmanip.H"
-#include "runTimeSelectionTables.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
+#include "optimisation/optimisationManager/optimisationManager/designVariablesUpdate/designVariablesUpdate.H"
+#include "optimisation/updateMethod/constrainedOptimisationMethod/constrainedOptimisationMethod.H"
+#include "solvers/adjointSolvers/null/adjointNull.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

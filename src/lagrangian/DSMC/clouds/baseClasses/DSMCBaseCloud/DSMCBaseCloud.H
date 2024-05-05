@@ -37,7 +37,7 @@ SourceFiles
 #ifndef DSMCBaseCloud_H
 #define DSMCBaseCloud_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

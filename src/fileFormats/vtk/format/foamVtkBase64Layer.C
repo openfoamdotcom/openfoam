@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkBase64Layer.H"
+#include "vtk/format/foamVtkBase64Layer.H"
 #include <limits>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

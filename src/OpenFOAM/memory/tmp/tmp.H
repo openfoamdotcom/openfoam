@@ -50,9 +50,9 @@ See also
 #ifndef Foam_tmp_H
 #define Foam_tmp_H
 
-#include "autoPtr.H"
-#include "refCount.H"
-#include "word.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/refCount/refCount.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -367,7 +367,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tmpI.H"
+#include "memory/tmp/tmpI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ License
 #ifndef Foam_tensorFieldIOField_H
 #define Foam_tensorFieldIOField_H
 
-#include "tensorField.H"
-#include "CompactIOField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

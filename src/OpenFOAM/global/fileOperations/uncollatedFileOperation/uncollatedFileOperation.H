@@ -35,8 +35,8 @@ Description
 #ifndef Foam_fileOperations_uncollatedFileOperation_H
 #define Foam_fileOperations_uncollatedFileOperation_H
 
-#include "fileOperation.H"
-#include "OSspecific.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

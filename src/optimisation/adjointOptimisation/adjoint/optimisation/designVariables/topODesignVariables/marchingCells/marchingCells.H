@@ -42,9 +42,9 @@ SourceFiles
 #ifndef marchingCells_H
 #define marchingCells_H
 
-#include "fvMesh.H"
-#include "wallPointData.H"
-#include "FaceCellWave.H"
+#include "fvMesh/fvMesh.H"
+#include "cellDist/wallPoint/wallPointData.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

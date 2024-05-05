@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "face.H"
-#include "pointHit.H"
-#include "triangle.H"
-#include "line.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/primitiveShapes/line/line.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

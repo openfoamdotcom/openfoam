@@ -76,7 +76,7 @@ SourceFiles
 #ifndef cosine_H
 #define cosine_H
 
-#include "partitioningModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

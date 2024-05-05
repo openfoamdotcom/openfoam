@@ -42,9 +42,9 @@ SourceFiles
 #ifndef polyDualMesh_H
 #define polyDualMesh_H
 
-#include "polyMesh.H"
-#include "labelIOList.H"
-#include "typeInfo.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

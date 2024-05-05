@@ -59,7 +59,7 @@ SourceFiles
 #ifndef CrankNicolson_H
 #define CrankNicolson_H
 
-#include "sixDoFSolver.H"
+#include "sixDoFSolvers/sixDoFSolver/sixDoFSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

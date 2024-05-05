@@ -46,7 +46,7 @@ SourceFiles
 #ifndef TomiyamaKataokaZunSakaguchi_H
 #define TomiyamaKataokaZunSakaguchi_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

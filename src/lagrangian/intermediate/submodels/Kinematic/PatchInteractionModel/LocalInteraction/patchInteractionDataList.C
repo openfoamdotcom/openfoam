@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchInteractionDataList.H"
-#include "emptyPolyPatch.H"
+#include "submodels/Kinematic/PatchInteractionModel/LocalInteraction/patchInteractionDataList.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

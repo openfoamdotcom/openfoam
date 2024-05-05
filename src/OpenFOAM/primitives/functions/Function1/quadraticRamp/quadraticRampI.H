@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quadraticRamp.H"
+#include "primitives/functions/Function1/quadraticRamp/quadraticRamp.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

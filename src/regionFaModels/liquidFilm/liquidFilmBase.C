@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liquidFilmBase.H"
-#include "faMesh.H"
-#include "gravityMeshObject.H"
-#include "movingWallVelocityFvPatchVectorField.H"
-#include "turbulentFluidThermoModel.H"
-#include "turbulentTransportModel.H"
-#include "calculatedFvPatchFields.H"
+#include "liquidFilm/liquidFilmBase.H"
+#include "faMesh/faMesh.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "fields/fvPatchFields/derived/movingWallVelocity/movingWallVelocityFvPatchVectorField.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,9 +28,9 @@ License
 #ifndef Foam_edgeList_H
 #define Foam_edgeList_H
 
-#include "edge.H"
-#include "List.H"
-#include "SubList.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

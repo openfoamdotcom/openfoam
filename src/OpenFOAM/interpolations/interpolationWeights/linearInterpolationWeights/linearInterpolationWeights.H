@@ -37,7 +37,7 @@ SourceFiles
 #ifndef linearInterpolationWeights_H
 #define linearInterpolationWeights_H
 
-#include "interpolationWeights.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

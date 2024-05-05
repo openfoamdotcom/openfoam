@@ -78,10 +78,10 @@ SourceFiles
 #ifndef Foam_sampledCuttingPlane_H
 #define Foam_sampledCuttingPlane_H
 
-#include "sampledSurface.H"
-#include "plane.H"
-#include "fvMeshSubset.H"
-#include "isoSurfaceBase.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "surface/isoSurface/isoSurfaceBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -379,7 +379,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledCuttingPlaneTemplates.C"
+    #include "sampledSurface/sampledCuttingPlane/sampledCuttingPlaneTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

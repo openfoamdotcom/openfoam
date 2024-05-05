@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "face.H"
+#include "db/IOstreams/IOstreams.H"
+#include "meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

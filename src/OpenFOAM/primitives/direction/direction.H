@@ -71,7 +71,7 @@ std::ostream& operator<<(std::ostream& os, const direction val);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pTraits.H"
+#include "primitives/traits/pTraits.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

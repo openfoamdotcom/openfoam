@@ -43,9 +43,9 @@ Warning
 #ifndef Foam_processorTopologyNew_H
 #define Foam_processorTopologyNew_H
 
-#include "processorTopology.H"
-#include "commSchedule.H"
-#include "DynamicList.H"
+#include "parallel/processorTopology/processorTopology.H"
+#include "parallel/commSchedule/commSchedule.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

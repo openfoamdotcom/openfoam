@@ -38,7 +38,7 @@ SourceFiles
 #ifndef deposition_H
 #define deposition_H
 
-#include "phaseTransferModel.H"
+#include "interfacialModels/phaseTransferModels/phaseTransferModel/phaseTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

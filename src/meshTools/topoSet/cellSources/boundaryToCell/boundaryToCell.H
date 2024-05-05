@@ -79,7 +79,7 @@ SourceFiles
 #ifndef boundaryToCell_H
 #define boundaryToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

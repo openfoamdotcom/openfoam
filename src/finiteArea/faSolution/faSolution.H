@@ -44,7 +44,7 @@ SeeAlso
 #ifndef Foam_faSolution_H
 #define Foam_faSolution_H
 
-#include "solution.H"
+#include "matrices/solution/solution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

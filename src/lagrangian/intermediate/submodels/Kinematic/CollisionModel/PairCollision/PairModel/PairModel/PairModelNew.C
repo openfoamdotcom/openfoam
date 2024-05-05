@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PairModel.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel/PairModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

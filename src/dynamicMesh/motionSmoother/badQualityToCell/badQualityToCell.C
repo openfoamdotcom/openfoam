@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "badQualityToCell.H"
-#include "polyMesh.H"
-#include "motionSmoother.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faceSet.H"
+#include "motionSmoother/badQualityToCell/badQualityToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "motionSmoother/motionSmoother.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "topoSet/topoSets/faceSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

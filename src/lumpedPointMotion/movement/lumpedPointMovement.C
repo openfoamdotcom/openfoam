@@ -25,19 +25,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lumpedPointMovement.H"
-#include "lumpedPointIOMovement.H"
-#include "Fstream.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "PtrMap.H"
-#include "triFace.H"
-#include "labelPair.H"
-#include "indexedOctree.H"
-#include "treeDataPoint.H"
-#include "pointIndexHit.H"
-#include "pointPatch.H"
-#include "PstreamReduceOps.H"
+#include "movement/lumpedPointMovement.H"
+#include "movement/lumpedPointIOMovement.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "containers/HashTables/PtrMap/PtrMap.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "primitives/tuples/labelPair.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataPoint.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

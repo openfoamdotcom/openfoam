@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleFractionsFunctionObjects.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/moleFractions/moleFractionsFunctionObjects.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

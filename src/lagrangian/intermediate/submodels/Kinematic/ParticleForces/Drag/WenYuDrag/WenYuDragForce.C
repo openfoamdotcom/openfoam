@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WenYuDragForce.H"
-#include "volFields.H"
+#include "submodels/Kinematic/ParticleForces/Drag/WenYuDrag/WenYuDragForce.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

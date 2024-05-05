@@ -38,7 +38,7 @@ InterpolationFiles
 #ifndef sinhInterpolation_H
 #define sinhInterpolation_H
 
-#include "topOInterpolationFunction.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

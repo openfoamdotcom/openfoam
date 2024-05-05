@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFieldSelection.H"
-#include "volMesh.H"
-#include "fvPatchField.H"
+#include "functionObjects/fieldSelections/volFieldSelection/volFieldSelection.H"
+#include "volMesh/volMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

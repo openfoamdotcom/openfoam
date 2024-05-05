@@ -37,7 +37,7 @@ SourceFiles
 #ifndef noInteraction_H
 #define noInteraction_H
 
-#include "pairPotential.H"
+#include "pairPotential/basic/pairPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

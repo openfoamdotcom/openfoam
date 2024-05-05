@@ -104,9 +104,9 @@ SourceFiles
 #ifndef Foam_surfaceWriters_nastranWriter_H
 #define Foam_surfaceWriters_nastranWriter_H
 
-#include "surfaceWriter.H"
-#include "NASCore.H"
-#include "HashTable.H"
+#include "writers/common/surfaceWriter.H"
+#include "nastran/NASCore.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

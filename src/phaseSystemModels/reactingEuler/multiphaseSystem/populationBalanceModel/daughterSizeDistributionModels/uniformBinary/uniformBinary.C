@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformBinary.H"
-#include "addToRunTimeSelectionTable.H"
-#include "breakupModel.H"
+#include "populationBalanceModel/daughterSizeDistributionModels/uniformBinary/uniformBinary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

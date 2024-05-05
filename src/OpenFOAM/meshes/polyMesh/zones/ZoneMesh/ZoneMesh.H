@@ -38,13 +38,13 @@ SourceFiles
 #ifndef Foam_ZoneMesh_H
 #define Foam_ZoneMesh_H
 
-#include "regIOobject.H"
-#include "pointField.H"
-#include "Map.H"
-#include "HashSet.H"
-#include "PtrList.H"
-#include "bitSet.H"
-#include "wordRes.H"
+#include "db/regIOobject/regIOobject.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -396,7 +396,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ZoneMesh.C"
+    #include "meshes/polyMesh/zones/ZoneMesh/ZoneMesh.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

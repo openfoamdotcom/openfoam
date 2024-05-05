@@ -28,8 +28,8 @@ License
 #ifndef Foam_vector2DFieldIOField_H
 #define Foam_vector2DFieldIOField_H
 
-#include "vector2DField.H"
-#include "CompactIOField.H"
+#include "fields/Fields/vector2DField/vector2DField.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

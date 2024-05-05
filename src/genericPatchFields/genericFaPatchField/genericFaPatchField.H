@@ -43,8 +43,8 @@ SourceFiles
 #ifndef genericFaPatchField_H
 #define genericFaPatchField_H
 
-#include "calculatedFaPatchField.H"
-#include "genericPatchFieldBase.H"
+#include "fields/faPatchFields/basic/calculated/calculatedFaPatchField.H"
+#include "common/genericPatchFieldBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "genericFaPatchField.C"
+    #include "genericFaPatchField/genericFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockMesh.H"
-#include "blockMeshTools.H"
-#include "TimeOpenFOAM.H"
-#include "preservePatchTypes.H"
-#include "emptyPolyPatch.H"
-#include "cyclicPolyPatch.H"
+#include "blockMesh/blockMesh.H"
+#include "blockMeshTools/blockMeshTools.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

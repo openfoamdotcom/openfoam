@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "advancingFrontAMI.H"
-#include "meshTools.H"
-#include "mapDistribute.H"
-#include "unitConversion.H"
+#include "AMIInterpolation/AMIInterpolation/advancingFrontAMI/advancingFrontAMI.H"
+#include "meshTools/meshTools.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "global/constants/unitConversion.H"
 
-#include "findNearestMaskedOp.H"
+#include "AMIInterpolation/AMIInterpolation/findNearestMaskedOp.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

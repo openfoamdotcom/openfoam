@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extractEulerianParticles.H"
-#include "regionSplit2D.H"
-#include "mathematicalConstants.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "surfaceInterpolate.H"
+#include "extractEulerianParticles/extractEulerianParticles/extractEulerianParticles.H"
+#include "regionSplit2D/regionSplit2D.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 #include "pairPatchAgglomeration.H"
-#include "emptyPolyPatch.H"
-#include "coupledPolyPatch.H"
-#include "binned.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "binned/binned.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

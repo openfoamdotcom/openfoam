@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DSMCBaseCloud.H"
+#include "clouds/baseClasses/DSMCBaseCloud/DSMCBaseCloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

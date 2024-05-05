@@ -147,11 +147,11 @@ SourceFiles
 #ifndef Foam_SemiImplicitSource_H
 #define Foam_SemiImplicitSource_H
 
-#include "cellSetOption.H"
-#include "Enum.H"
-#include "Function1Pascal.H"
-#include "HashPtrTable.H"
-#include "volumeExprDriver.H"
+#include "cellSetOption/cellSetOption.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "expressions/volume/volumeExprDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -296,7 +296,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SemiImplicitSource.C"
+    #include "sources/general/semiImplicitSource/SemiImplicitSource.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

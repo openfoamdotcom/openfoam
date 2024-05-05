@@ -51,10 +51,10 @@ SourceFiles
 #ifndef ConeInjection_H
 #define ConeInjection_H
 
-#include "InjectionModelPascal.H"
-#include "distributionModel.H"
-#include "vectorList.H"
-#include "Function1Pascal.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "distributionModel/distributionModel.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ConeInjection.C"
+    #include "submodels/Kinematic/InjectionModel/ConeInjection/ConeInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

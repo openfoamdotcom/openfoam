@@ -38,8 +38,8 @@ SourceFiles
 #ifndef cyclicACMIGAMGInterface_H
 #define cyclicACMIGAMGInterface_H
 
-#include "GAMGInterface.H"
-#include "cyclicACMILduInterface.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.H"
+#include "AMIInterpolation/patches/cyclicACMI/cyclicACMILduInterfaceField/cyclicACMILduInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

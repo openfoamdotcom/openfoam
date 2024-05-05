@@ -37,9 +37,9 @@ SourceFiles
 #ifndef decompositionInformation_H
 #define decompositionInformation_H
 
-#include "polyMesh.H"
-#include "CompactListList.H"
-#include "IOstreams.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "db/IOstreams/IOstreams.H"
 
 namespace Foam
 {

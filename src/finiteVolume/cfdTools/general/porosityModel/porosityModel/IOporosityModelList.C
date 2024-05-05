@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOporosityModelList.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "cfdTools/general/porosityModel/porosityModel/IOporosityModelList.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

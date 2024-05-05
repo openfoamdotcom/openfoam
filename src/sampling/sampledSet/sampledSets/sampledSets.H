@@ -106,15 +106,15 @@ SourceFiles
 #ifndef Foam_sampledSets_H
 #define Foam_sampledSets_H
 
-#include "fvMeshFunctionObject.H"
-#include "HashPtrTable.H"
-#include "OFstream.H"
-#include "sampledSet.H"
-#include "meshSearch.H"
-#include "coordSet.H"
-#include "coordSetWriter.H"
-#include "volFieldsFwd.H"
-#include "IOobjectList.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "meshSearch/meshSearch.H"
+#include "coordSet/coordSet.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

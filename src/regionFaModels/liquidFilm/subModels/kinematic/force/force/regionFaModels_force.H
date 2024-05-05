@@ -38,8 +38,8 @@ SourceFiles
 #ifndef regionFaModels_force_H
 #define regionFaModels_force_H
 
-#include "regionFaModels_filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
+#include "liquidFilm/subModels/regionFaModels_filmSubModelBase.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

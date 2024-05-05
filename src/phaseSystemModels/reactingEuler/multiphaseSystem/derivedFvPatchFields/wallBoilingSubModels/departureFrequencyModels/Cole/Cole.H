@@ -64,7 +64,7 @@ SourceFiles
 #ifndef Cole_H
 #define Cole_H
 
-#include "departureFrequencyModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureFrequencyModels/departureFrequencyModel/departureFrequencyModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

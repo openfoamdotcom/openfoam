@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedValueFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
+#include "fields/fvPatchFields/derived/uniformFixedValue/uniformFixedValueFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

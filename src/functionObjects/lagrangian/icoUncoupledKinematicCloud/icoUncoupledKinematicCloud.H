@@ -75,10 +75,10 @@ SourceFiles
 #ifndef functionObjects_icoUncoupledKinematicCloud_H
 #define functionObjects_icoUncoupledKinematicCloud_H
 
-#include "fvMeshFunctionObject.H"
-#include "basicKinematicCollidingCloud.H"
-#include "volFields.H"
-#include "uniformDimensionedFields.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "clouds/derived/basicKinematicCollidingCloud/basicKinematicCollidingCloud.H"
+#include "fields/volFields/volFields.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

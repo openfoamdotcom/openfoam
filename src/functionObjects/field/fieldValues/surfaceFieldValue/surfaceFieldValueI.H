@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "sampledSurface.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ignoreFaPatchField.H"
-#include "faPatchFieldMapper.H"
+#include "fields/faPatchFields/derived/ignore/ignoreFaPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

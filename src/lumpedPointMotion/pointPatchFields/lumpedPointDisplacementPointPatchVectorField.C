@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lumpedPointDisplacementPointPatchVectorField.H"
-#include "lumpedPointMovement.H"
-#include "lumpedPointIOMovement.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointFields.H"
-#include "surfaceFields.H"
-#include "volFields.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "displacementMotionSolver.H"
+#include "pointPatchFields/lumpedPointDisplacementPointPatchVectorField.H"
+#include "movement/lumpedPointMovement.H"
+#include "movement/lumpedPointIOMovement.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

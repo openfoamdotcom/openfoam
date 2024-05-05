@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BirdCarreau.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/BirdCarreau/BirdCarreau.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -40,11 +40,11 @@ SourceFiles
 #ifndef removeFaces_H
 #define removeFaces_H
 
-#include "Pstream.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "boolList.H"
-#include "indirectPrimitivePatch.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

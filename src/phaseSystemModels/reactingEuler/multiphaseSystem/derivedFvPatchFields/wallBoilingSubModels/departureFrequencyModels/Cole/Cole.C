@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Cole.H"
-#include "addToRunTimeSelectionTable.H"
-#include "uniformDimensionedFields.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureFrequencyModels/Cole/Cole.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 #include "compressibleTurbulenceModel.H"
-#include "ThermalDiffusivity.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

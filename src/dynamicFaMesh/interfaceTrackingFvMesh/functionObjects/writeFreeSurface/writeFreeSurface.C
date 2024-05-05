@@ -25,9 +25,9 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "writeFreeSurface.H"
+#include "functionObjects/writeFreeSurface/writeFreeSurface.H"
 #include "interfaceTrackingFvMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

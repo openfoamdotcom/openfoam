@@ -39,7 +39,7 @@ SourceFiles
 #ifndef objectivePtLosses_H
 #define objectivePtLosses_H
 
-#include "objectiveIncompressible.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

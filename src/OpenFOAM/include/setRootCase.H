@@ -17,4 +17,4 @@ if (!args.checkRootCase())
 //  }
 
 // Force dlOpen of FOAM_DLOPEN_LIBS (principally for Windows applications)
-#include "foamDlOpenLibs.H"
+#include "include/foamDlOpenLibs.H"

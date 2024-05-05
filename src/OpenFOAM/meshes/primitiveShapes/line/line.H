@@ -38,14 +38,14 @@ SourceFiles
 #ifndef Foam_line_H
 #define Foam_line_H
 
-#include "point.H"
-#include "point2D.H"
-#include "vector.H"
-#include "pointHit.H"
-#include "FixedList.H"
-#include "UList.H"
-#include "Pair.H"
-#include "Tuple2.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/primitiveShapes/point2D/point2D.H"
+#include "primitives/Vector/floats/vector.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/List/UList.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -261,7 +261,7 @@ scalar line<point2D, const point2D&>::nearestDist
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "lineI.H"
+#include "meshes/primitiveShapes/line/lineI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

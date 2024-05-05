@@ -28,8 +28,8 @@ License
 #ifndef Foam_geometricSurfacePatchList_H
 #define Foam_geometricSurfacePatchList_H
 
-#include "geometricSurfacePatch.H"
-#include "List.H"
+#include "meshes/Identifiers/surface/geometricSurfacePatch.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

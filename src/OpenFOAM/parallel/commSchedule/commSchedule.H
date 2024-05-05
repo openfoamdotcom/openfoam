@@ -53,8 +53,8 @@ SourceFiles
 #ifndef Foam_commSchedule_H
 #define Foam_commSchedule_H
 
-#include "labelPair.H"
-#include "labelList.H"
+#include "primitives/tuples/labelPair.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

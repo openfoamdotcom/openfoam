@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_pointFieldsFwd_H
 #define Foam_pointFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

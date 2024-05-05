@@ -42,11 +42,11 @@ SourceFiles
 #ifndef SurfaceReactionModel_H
 #define SurfaceReactionModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "CloudSubModelBase.H"
-#include "scalarField.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "submodels/CloudSubModelBase.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SurfaceReactionModel.C"
+    #include "submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel/SurfaceReactionModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -27,10 +27,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "sixDoFRigidBodyState.H"
-#include "dynamicMotionSolverFvMesh.H"
-#include "sixDoFRigidBodyMotionSolver.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dynamicMotionSolverFvMesh/dynamicMotionSolverFvMesh.H"
+#include "sixDoFRigidBodyMotionSolver/sixDoFRigidBodyMotionSolver.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

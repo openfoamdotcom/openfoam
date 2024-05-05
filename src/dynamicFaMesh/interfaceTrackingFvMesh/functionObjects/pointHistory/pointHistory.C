@@ -25,9 +25,9 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "pointHistory.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IOmanip.H"
+#include "functionObjects/pointHistory/pointHistory.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

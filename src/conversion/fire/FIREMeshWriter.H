@@ -48,9 +48,9 @@ SourceFiles
 #ifndef FIREMeshWriter_H
 #define FIREMeshWriter_H
 
-#include "meshWriter.H"
-#include "FIRECore.H"
-#include "IOstream.H"
+#include "common/writer/meshWriter.H"
+#include "fire/FIRECore.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

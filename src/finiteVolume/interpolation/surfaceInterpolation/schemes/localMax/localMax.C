@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "localMax.H"
-#include "fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/localMax/localMax.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

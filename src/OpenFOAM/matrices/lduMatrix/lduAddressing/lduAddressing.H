@@ -99,9 +99,9 @@ SourceFiles
 #ifndef lduAddressing_H
 #define lduAddressing_H
 
-#include "labelList.H"
-#include "lduSchedule.H"
-#include "Tuple2.H"
+#include "primitives/ints/lists/labelList.H"
+#include "matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

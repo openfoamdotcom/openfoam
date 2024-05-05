@@ -40,9 +40,9 @@ SourceFiles
 #ifndef singleStepCombustion_H
 #define singleStepCombustion_H
 
-#include "singleStepReactingMixture.H"
-#include "ThermoCombustion.H"
-#include "fvScalarMatrix.H"
+#include "mixtures/singleStepReactingMixture/singleStepReactingMixture.H"
+#include "CombustionModelCaseDir/ThermoCombustion/ThermoCombustion.H"
+#include "fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "singleStepCombustion.C"
+    #include "singleStepCombustion/singleStepCombustion.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef faceAreaWeightAMI2D_H
 #define faceAreaWeightAMI2D_H
 
-#include "advancingFrontAMI.H"
-#include "AABBTree.H"
+#include "AMIInterpolation/AMIInterpolation/advancingFrontAMI/advancingFrontAMI.H"
+#include "algorithms/AABBTree/AABBTree.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

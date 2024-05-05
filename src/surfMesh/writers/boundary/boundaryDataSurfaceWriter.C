@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryDataSurfaceWriter.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "IOmanip.H"
-#include "TimeOpenFOAM.H"
-#include "pointIOField.H"
-#include "primitivePatch.H"
-#include "surfaceWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writers/boundary/boundaryDataSurfaceWriter.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

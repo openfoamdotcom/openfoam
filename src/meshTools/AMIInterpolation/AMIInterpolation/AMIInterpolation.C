@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AMIInterpolation.H"
-#include "meshTools.H"
-#include "mapDistribute.H"
-#include "flipOp.H"
-#include "profiling.H"
-#include "triangle.H"
-#include "OFstream.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
+#include "meshTools/meshTools.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "primitives/ops/flipOp.H"
+#include "global/profiling/profiling.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 #include <numeric>  // For std::iota
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

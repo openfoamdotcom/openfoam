@@ -1,11 +1,11 @@
 #ifndef curveTools_H
 #define curveTools_H
 
-#include "scalar.H"
-#include "vector.H"
-#include "curve.H"
-#include "char.H"
-#include "List.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "graph/curve.H"
+#include "primitives/chars/char/char.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

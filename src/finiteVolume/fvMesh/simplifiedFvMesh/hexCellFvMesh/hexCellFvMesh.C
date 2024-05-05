@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hexCellFvMesh.H"
-#include "hexCell.H"
-#include "emptyPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/simplifiedFvMesh/hexCellFvMesh/hexCellFvMesh.H"
+#include "meshes/meshShapes/hexCell/hexCell.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //
 

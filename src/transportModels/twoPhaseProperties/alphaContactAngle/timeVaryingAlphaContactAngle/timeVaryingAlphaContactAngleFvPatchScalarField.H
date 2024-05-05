@@ -39,7 +39,7 @@ SourceFiles
 #ifndef timeVaryingAlphaContactAngleFvPatchScalarField_H
 #define timeVaryingAlphaContactAngleFvPatchScalarField_H
 
-#include "alphaContactAngleTwoPhaseFvPatchScalarField.H"
+#include "alphaContactAngle/alphaContactAngleTwoPhaseFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

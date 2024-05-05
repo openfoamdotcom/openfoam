@@ -37,7 +37,7 @@ SourceFiles
 #ifndef exprOps_H
 #define exprOps_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

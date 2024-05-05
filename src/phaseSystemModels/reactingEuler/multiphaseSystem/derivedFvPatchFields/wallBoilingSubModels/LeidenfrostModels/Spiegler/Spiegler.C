@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Spiegler.H"
-#include "addToRunTimeSelectionTable.H"
-#include "uniformDimensionedFields.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/LeidenfrostModels/Spiegler/Spiegler.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

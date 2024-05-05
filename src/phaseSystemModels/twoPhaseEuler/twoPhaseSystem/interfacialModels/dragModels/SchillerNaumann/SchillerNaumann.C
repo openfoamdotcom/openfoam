@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SchillerNaumann.H"
-#include "phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/SchillerNaumann/SchillerNaumann.H"
+#include "phasePair/phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

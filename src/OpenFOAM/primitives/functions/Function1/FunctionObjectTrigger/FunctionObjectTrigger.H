@@ -61,8 +61,8 @@ SourceFiles
 #ifndef Function1Types_FunctionObjectTrigger_H
 #define Function1Types_FunctionObjectTrigger_H
 
-#include "Function1Pascal.H"
-#include "labelList.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,10 +165,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FunctionObjectTriggerI.H"
+#include "primitives/functions/Function1/FunctionObjectTrigger/FunctionObjectTriggerI.H"
 
 #ifdef NoRepository
-    #include "FunctionObjectTrigger.C"
+    #include "primitives/functions/Function1/FunctionObjectTrigger/FunctionObjectTrigger.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

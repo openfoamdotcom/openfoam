@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "maitlandSmith.H"
-#include "addToRunTimeSelectionTable.H"
+#include "pairPotential/derived/maitlandSmith/maitlandSmith.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

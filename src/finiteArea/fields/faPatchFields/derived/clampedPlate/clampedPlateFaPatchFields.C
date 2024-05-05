@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "clampedPlateFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "areaFields.H"
+#include "fields/faPatchFields/derived/clampedPlate/clampedPlateFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

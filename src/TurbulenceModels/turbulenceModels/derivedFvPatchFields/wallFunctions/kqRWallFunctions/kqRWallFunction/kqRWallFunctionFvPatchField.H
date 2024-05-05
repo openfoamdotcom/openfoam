@@ -67,7 +67,7 @@ SourceFiles
 #ifndef kqRWallFunctionFvPatchField_H
 #define kqRWallFunctionFvPatchField_H
 
-#include "zeroGradientFvPatchField.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kqRWallFunctionFvPatchField.C"
+    #include "derivedFvPatchFields/wallFunctions/kqRWallFunctions/kqRWallFunction/kqRWallFunctionFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

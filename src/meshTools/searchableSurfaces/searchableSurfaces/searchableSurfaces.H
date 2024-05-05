@@ -60,8 +60,8 @@ SourceFiles
 #ifndef Foam_searchableSurfaces_H
 #define Foam_searchableSurfaces_H
 
-#include "searchableSurface.H"
-#include "labelPair.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "primitives/tuples/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

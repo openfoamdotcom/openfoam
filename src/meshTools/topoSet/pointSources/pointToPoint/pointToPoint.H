@@ -104,7 +104,7 @@ SourceFiles
 #ifndef pointToPoint_H
 #define pointToPoint_H
 
-#include "topoSetPointSource.H"
+#include "topoSet/pointSources/topoSetPointSource/topoSetPointSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

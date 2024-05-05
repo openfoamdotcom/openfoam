@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "arcEdge.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "blockEdges/arcEdge/arcEdge.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

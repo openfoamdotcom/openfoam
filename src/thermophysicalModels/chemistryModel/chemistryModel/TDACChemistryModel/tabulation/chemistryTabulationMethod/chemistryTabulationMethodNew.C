@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemistryTabulationMethod.H"
-#include "TimeOpenFOAM.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

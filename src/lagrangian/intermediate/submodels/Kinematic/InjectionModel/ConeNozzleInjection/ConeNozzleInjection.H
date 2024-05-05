@@ -67,8 +67,8 @@ SourceFiles
 #ifndef ConeNozzleInjection_H
 #define ConeNozzleInjection_H
 
-#include "InjectionModelPascal.H"
-#include "Enum.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -292,7 +292,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ConeNozzleInjection.C"
+    #include "submodels/Kinematic/InjectionModel/ConeNozzleInjection/ConeNozzleInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

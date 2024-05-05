@@ -39,8 +39,8 @@ SourceFiles
 #ifndef breakupModel_H
 #define breakupModel_H
 
-#include "populationBalanceModel.H"
-#include "daughterSizeDistributionModel.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
+#include "populationBalanceModel/daughterSizeDistributionModels/daughterSizeDistributionModel/daughterSizeDistributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,8 +41,8 @@ SourceFiles
 #ifndef polyLine_H
 #define polyLine_H
 
-#include "pointField.H"
-#include "scalarList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/Scalar/lists/scalarList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundBox.H"
-#include "FixedList.H"
+#include "meshes/boundBox/boundBox.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "wallTransmissivityModel.H"
+#include "db/error/error.H"
+#include "submodels/wallTransmissivityModel/wallTransmissivityModel/wallTransmissivityModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

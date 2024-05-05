@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_dimensionedTensor_H
 #define Foam_dimensionedTensor_H
 
-#include "dimensionedVector.H"
-#include "dimensionedSymmTensor.H"
-#include "tensor.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
+#include "dimensionedTypes/dimensionedSymmTensor/dimensionedSymmTensor.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

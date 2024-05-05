@@ -99,14 +99,14 @@ SourceFiles
 #ifndef Foam_argList_H
 #define Foam_argList_H
 
-#include "stringList.H"
-#include "SLList.H"
-#include "HashSet.H"
-#include "fileName.H"
-#include "parRun.H"  // "ParRunControl"
-#include "ITstream.H"
-#include "dlLibraryTable.H"
-#include "OSspecific.H"
+#include "primitives/strings/lists/stringList.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "global/argList/parRun.H"  // "ParRunControl"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "include/OSspecific.H"
 
 // Transitional features - older style access (including 1712 release)
 #define Foam_argList_1712
@@ -878,7 +878,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "argListI.H"
+#include "global/argList/argListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

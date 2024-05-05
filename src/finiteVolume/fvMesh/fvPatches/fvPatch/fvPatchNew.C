@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatch.H"
-#include "HashTable.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

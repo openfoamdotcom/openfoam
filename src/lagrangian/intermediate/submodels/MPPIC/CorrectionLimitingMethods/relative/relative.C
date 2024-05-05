@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "relative.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/MPPIC/CorrectionLimitingMethods/relative/relative.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 namespace Foam
 {

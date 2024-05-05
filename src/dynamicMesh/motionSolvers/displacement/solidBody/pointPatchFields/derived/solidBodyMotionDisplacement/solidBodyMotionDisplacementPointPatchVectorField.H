@@ -39,8 +39,8 @@ SourceFiles
 #ifndef solidBodyMotionDisplacementPointPatchVectorField_H
 #define solidBodyMotionDisplacementPointPatchVectorField_H
 
-#include "solidBodyMotionFunction.H"
-#include "fixedValuePointPatchFields.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

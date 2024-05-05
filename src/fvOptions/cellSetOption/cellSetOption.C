@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellSetOption.H"
-#include "cellSet.H"
-#include "cellBitSet.H"
-#include "volFields.H"
-#include "cellCellStencilObject.H"
+#include "cellSetOption/cellSetOption.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/cellBitSet.H"
+#include "fields/volFields/volFields.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

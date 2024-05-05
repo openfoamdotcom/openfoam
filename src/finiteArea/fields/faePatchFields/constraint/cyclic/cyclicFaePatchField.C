@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicFaePatchField.H"
+#include "fields/faePatchFields/constraint/cyclic/cyclicFaePatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

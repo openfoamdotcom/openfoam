@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingEuler_orderedPhasePair.H"
-#include "phaseSystem.H"
+#include "phasePair/reactingEuler_orderedPhasePair.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

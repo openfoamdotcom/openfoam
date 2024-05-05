@@ -36,7 +36,7 @@ SourceFiles
 #ifndef extendedCentredFaceToCellStencil_H
 #define extendedCentredFaceToCellStencil_H
 
-#include "extendedFaceToCellStencil.H"
+#include "fvMesh/extendedStencil/faceToCell/extendedFaceToCellStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

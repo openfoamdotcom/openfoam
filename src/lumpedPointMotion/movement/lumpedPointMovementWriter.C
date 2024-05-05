@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lumpedPointMovement.H"
-#include "polyMesh.H"
-#include "pointMesh.H"
-#include "OFstream.H"
-#include "foamVtkOutput.H"
-#include "foamVtkSurfaceWriter.H"
+#include "movement/lumpedPointMovement.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "vtk/output/foamVtkOutput.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

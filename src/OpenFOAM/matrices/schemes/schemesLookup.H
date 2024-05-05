@@ -66,7 +66,7 @@ SourceFiles
 #ifndef Foam_schemesLookup_H
 #define Foam_schemesLookup_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

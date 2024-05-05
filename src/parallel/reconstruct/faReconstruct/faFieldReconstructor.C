@@ -27,8 +27,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "faFieldReconstructor.H"
-#include "areaFields.H"
-#include "edgeFields.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "Istream.H"
-#include "token.H"
-#include "contiguous.H"
+#include "containers/Lists/List/List.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/token/token.H"
+#include "primitives/traits/contiguous.H"
 #include <memory>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

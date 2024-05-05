@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceCollection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
-#include "ListOps.H"
+#include "searchableSurfaces/searchableSurfaceCollection/searchableSurfaceCollection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

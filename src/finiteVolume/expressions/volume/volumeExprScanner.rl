@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "volumeExprScanner.H"
-#include "volumeExprDriver.H"
-#include "volumeExprLemonParser.h"
-#include "volumeExprParser.H"
-#include "Enum.H"
+#include "expressions/volume/volumeExprScanner.H"
+#include "expressions/volume/volumeExprDriver.H"
+#include "expressions/volume/volumeExprLemonParser.h"
+#include "expressions/volume/volumeExprParser.H"
+#include "primitives/enums/Enum.H"
 //#include "macros.H"
 
 #pragma GCC diagnostic ignored "-Wimplicit-fallthrough"

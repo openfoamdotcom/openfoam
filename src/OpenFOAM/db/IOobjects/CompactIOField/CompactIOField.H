@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Foam_CompactIOField_H
 #define Foam_CompactIOField_H
 
-#include "IOField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CompactIOField.C"
+    #include "db/IOobjects/CompactIOField/CompactIOField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

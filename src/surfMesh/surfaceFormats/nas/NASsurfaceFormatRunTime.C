@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NASsurfaceFormat.H"
-#include "addToRunTimeSelectionTable.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "surfaceFormats/nas/NASsurfaceFormat.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

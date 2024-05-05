@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AABBTree.H"
-#include "bitSet.H"
+#include "algorithms/AABBTree/AABBTree.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef NoPair_H
 #define NoPair_H
 
-#include "PairModel.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel/PairModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -95,7 +95,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoPair.C"
+    #include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/NoPair/NoPair.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HeatTransferModelPascal.H"
+#include "submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModelPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -93,6 +93,6 @@ Foam::scalar Foam::HeatTransferModel<CloudType>::htc
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "HeatTransferModelNewPascal.C"
+#include "submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModelNewPascal.C"
 
 // ************************************************************************* //

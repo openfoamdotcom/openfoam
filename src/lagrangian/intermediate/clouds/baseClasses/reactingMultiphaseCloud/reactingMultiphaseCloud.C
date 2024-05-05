@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingMultiphaseCloud.H"
+#include "clouds/baseClasses/reactingMultiphaseCloud/reactingMultiphaseCloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

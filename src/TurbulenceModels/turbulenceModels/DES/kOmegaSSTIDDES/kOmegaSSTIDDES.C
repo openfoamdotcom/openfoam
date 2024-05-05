@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTIDDES.H"
+#include "DES/kOmegaSSTIDDES/kOmegaSSTIDDES.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

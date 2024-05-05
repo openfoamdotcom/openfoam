@@ -46,8 +46,8 @@ SourceFiles
 #ifndef Foam_pointZone_H
 #define Foam_pointZone_H
 
-#include "zone.H"
-#include "pointZoneMeshFwd.H"
+#include "meshes/polyMesh/zones/zone/zone.H"
+#include "meshes/polyMesh/zones/ZoneMesh/pointZoneMeshFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

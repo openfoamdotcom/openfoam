@@ -79,13 +79,13 @@ SourceFiles
 #ifndef Foam_PatchFunction1Types_MappedFile_H
 #define Foam_PatchFunction1Types_MappedFile_H
 
-#include "PatchFunction1.H"
-#include "Function1Pascal.H"
-#include "Pair.H"
-#include "instantList.H"
-#include "surfaceReader.H"
-#include "MappedFileFilterField.H"
-#include "pointToPointPlanarInterpolation.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/tuples/Pair.H"
+#include "db/Time/instant/instantList.H"
+#include "readers/common/surfaceReader.H"
+#include "PatchFunction1/MappedFile/MappedFileFilterField.H"
+#include "triSurface/triSurfaceTools/pointToPointPlanarInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -311,7 +311,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MappedFile.C"
+    #include "PatchFunction1/MappedFile/MappedFile.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

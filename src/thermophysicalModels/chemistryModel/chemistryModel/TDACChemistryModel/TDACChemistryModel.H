@@ -66,10 +66,10 @@ SourceFiles
 #ifndef TDACChemistryModel_H
 #define TDACChemistryModel_H
 
-#include "StandardChemistryModel.H"
-#include "chemistryReductionMethod.H"
-#include "chemistryTabulationMethod.H"
-#include "OFstream.H"
+#include "chemistryModel/StandardChemistryModel/StandardChemistryModel.H"
+#include "chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -298,12 +298,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "TDACChemistryModelI.H"
+#include "chemistryModel/TDACChemistryModel/TDACChemistryModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TDACChemistryModel.C"
+    #include "chemistryModel/TDACChemistryModel/TDACChemistryModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

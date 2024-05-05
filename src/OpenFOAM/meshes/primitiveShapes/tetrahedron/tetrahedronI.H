@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triangle.H"
-#include "IOstreams.H"
-#include "plane.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "db/IOstreams/IOstreams.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

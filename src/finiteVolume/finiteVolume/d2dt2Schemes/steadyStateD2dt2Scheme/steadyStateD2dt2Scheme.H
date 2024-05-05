@@ -37,7 +37,7 @@ SourceFiles
 #ifndef steadyStateD2dt2Scheme_H
 #define steadyStateD2dt2Scheme_H
 
-#include "d2dt2Scheme.H"
+#include "finiteVolume/d2dt2Schemes/d2dt2Scheme/d2dt2Scheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -137,7 +137,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "steadyStateD2dt2Scheme.C"
+    #include "finiteVolume/d2dt2Schemes/steadyStateD2dt2Scheme/steadyStateD2dt2Scheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

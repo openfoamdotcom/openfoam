@@ -38,8 +38,8 @@ SourceFiles
 #ifndef adjointFarFieldTMVar2FvPatchScalarField_H
 #define adjointFarFieldTMVar2FvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "adjointBoundaryConditions.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryConditions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

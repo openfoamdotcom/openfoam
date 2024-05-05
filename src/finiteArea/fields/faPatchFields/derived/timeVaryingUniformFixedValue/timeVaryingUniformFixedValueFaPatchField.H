@@ -76,8 +76,8 @@ SourceFiles
 #ifndef timeVaryingUniformFixedValueFaPatchField_H
 #define timeVaryingUniformFixedValueFaPatchField_H
 
-#include "fixedValueFaPatchField.H"
-#include "interpolationTable.H"
+#include "fields/faPatchFields/basic/fixedValue/fixedValueFaPatchField.H"
+#include "interpolations/interpolationTable/interpolationTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "timeVaryingUniformFixedValueFaPatchField.C"
+    #include "fields/faPatchFields/derived/timeVaryingUniformFixedValue/timeVaryingUniformFixedValueFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

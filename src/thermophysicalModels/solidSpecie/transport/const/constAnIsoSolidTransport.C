@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constAnIsoSolidTransport.H"
-#include "IOstreams.H"
+#include "transport/const/constAnIsoSolidTransport.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

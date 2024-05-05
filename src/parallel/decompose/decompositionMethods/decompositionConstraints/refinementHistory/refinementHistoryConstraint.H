@@ -45,7 +45,7 @@ SourceFiles
 #ifndef refinementHistoryConstraint_H
 #define refinementHistoryConstraint_H
 
-#include "decompositionConstraint.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

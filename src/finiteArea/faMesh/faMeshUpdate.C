@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "mapPolyMesh.H"
-#include "MapFaFields.H"
-#include "faMeshMapper.H"
-#include "areaFields.H"
-#include "edgeFields.H"
+#include "faMesh/faMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "interpolation/mapping/faFieldMappers/MapFaFields.H"
+#include "faMesh/faMeshMapper/faMeshMapper.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

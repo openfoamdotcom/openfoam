@@ -48,9 +48,9 @@ SourceFiles
 #ifndef Foam_vtk_lagrangianWriter_H
 #define Foam_vtk_lagrangianWriter_H
 
-#include "fvMesh.H"
-#include "pointField.H"
-#include "foamVtkFileWriter.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "vtk/file/foamVtkFileWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,7 +229,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkLagrangianWriterTemplates.C"
+    #include "conversion/vtk/foamVtkLagrangianWriterTemplates.C"
 #endif
 
 

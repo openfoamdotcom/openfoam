@@ -36,7 +36,7 @@ Description
 #ifndef Foam_formattingEntry_H
 #define Foam_formattingEntry_H
 
-#include "primitiveEntry.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

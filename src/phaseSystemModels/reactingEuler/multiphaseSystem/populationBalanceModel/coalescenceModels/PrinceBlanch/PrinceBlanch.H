@@ -128,7 +128,7 @@ SourceFiles
 #ifndef PrinceBlanch_H
 #define PrinceBlanch_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

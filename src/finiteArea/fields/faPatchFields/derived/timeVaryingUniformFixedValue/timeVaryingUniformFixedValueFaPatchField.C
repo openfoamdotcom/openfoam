@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeVaryingUniformFixedValueFaPatchField.H"
-#include "TimeOpenFOAM.H"
+#include "fields/faPatchFields/derived/timeVaryingUniformFixedValue/timeVaryingUniformFixedValueFaPatchField.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

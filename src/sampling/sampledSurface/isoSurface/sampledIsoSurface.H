@@ -83,9 +83,9 @@ SourceFiles
 #ifndef sampledIsoSurface_H
 #define sampledIsoSurface_H
 
-#include "sampledSurface.H"
-#include "fvMeshSubset.H"
-#include "isoSurfaceBase.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "surface/isoSurface/isoSurfaceBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -397,7 +397,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledIsoSurfaceTemplates.C"
+    #include "sampledSurface/isoSurface/sampledIsoSurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

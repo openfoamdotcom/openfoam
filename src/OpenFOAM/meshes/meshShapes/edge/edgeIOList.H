@@ -28,8 +28,8 @@ License
 #ifndef Foam_edgeIOList_H
 #define Foam_edgeIOList_H
 
-#include "edge.H"
-#include "CompactIOList.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

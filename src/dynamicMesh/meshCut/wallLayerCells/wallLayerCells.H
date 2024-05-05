@@ -38,9 +38,9 @@ SourceFiles
 #ifndef wallLayerCells_H
 #define wallLayerCells_H
 
-#include "edgeVertex.H"
-#include "refineCell.H"
-#include "typeInfo.H"
+#include "meshCut/edgeVertex/edgeVertex.H"
+#include "meshCut/refineCell/refineCell.H"
+#include "db/typeInfo/typeInfo.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

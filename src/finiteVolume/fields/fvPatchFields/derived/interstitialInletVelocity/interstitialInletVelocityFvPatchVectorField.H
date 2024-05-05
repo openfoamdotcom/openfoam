@@ -49,7 +49,7 @@ SourceFiles
 #ifndef interstitialInletVelocityFvPatchVectorField_H
 #define interstitialInletVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

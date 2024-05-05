@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointMesh.H"
-#include "globalMeshData.H"
-#include "pointMeshMapper.H"
-#include "pointFields.H"
-#include "MapGeometricFields.H"
-#include "MapPointField.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/pointMesh/pointMeshMapper/pointMeshMapper.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/GeometricFields/GeometricField/MapGeometricFields.H"
+#include "meshes/pointMesh/pointMeshMapper/MapPointField.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

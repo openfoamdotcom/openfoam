@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "resolutionIndexModel.H"
-#include "fvMesh.H"
+#include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

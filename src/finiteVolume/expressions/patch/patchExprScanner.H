@@ -37,8 +37,8 @@ Note
 #ifndef expressions_patchExprScanner_H
 #define expressions_patchExprScanner_H
 
-#include "exprScanToken.H"
-#include "patchExprFwd.H"
+#include "expressions/scanToken/exprScanToken.H"
+#include "expressions/patch/patchExprFwd.H"
 
 namespace Foam
 {

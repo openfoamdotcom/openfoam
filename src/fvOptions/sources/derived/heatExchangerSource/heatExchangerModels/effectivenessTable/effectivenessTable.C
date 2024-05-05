@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "effectivenessTable.H"
-#include "basicThermo.H"
-#include "surfaceInterpolate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/heatExchangerSource/heatExchangerModels/effectivenessTable/effectivenessTable.H"
+#include "basicThermo/basicThermo.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

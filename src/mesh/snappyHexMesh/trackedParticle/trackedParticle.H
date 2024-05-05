@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_trackedParticle_H
 #define Foam_trackedParticle_H
 
-#include "bitSet.H"
-#include "particle.H"
-#include "autoPtr.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "particle/particle.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

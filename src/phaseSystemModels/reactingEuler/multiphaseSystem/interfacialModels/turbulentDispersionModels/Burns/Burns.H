@@ -53,7 +53,7 @@ SourceFiles
 #ifndef Burns_H
 #define Burns_H
 
-#include "turbulentDispersionModel.H"
+#include "interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

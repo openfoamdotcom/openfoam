@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
-#include "PatchToolsCheck.C"
-#include "PatchToolsEdgeOwner.C"
-#include "PatchToolsGatherAndMerge.C"
-#include "PatchToolsSearch.C"
-#include "PatchToolsSortEdges.C"
-#include "PatchToolsSortPoints.C"
-#include "PatchToolsNormals.C"
-#include "PatchToolsMatch.C"
+#include "meshes/primitiveMesh/PatchTools/PatchToolsCheck.C"
+#include "meshes/primitiveMesh/PatchTools/PatchToolsEdgeOwner.C"
+#include "meshes/primitiveMesh/PatchTools/PatchToolsGatherAndMerge.C"
+#include "meshes/primitiveMesh/PatchTools/PatchToolsSearch.C"
+#include "meshes/primitiveMesh/PatchTools/PatchToolsSortEdges.C"
+#include "meshes/primitiveMesh/PatchTools/PatchToolsSortPoints.C"
+#include "meshes/primitiveMesh/PatchTools/PatchToolsNormals.C"
+#include "meshes/primitiveMesh/PatchTools/PatchToolsMatch.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

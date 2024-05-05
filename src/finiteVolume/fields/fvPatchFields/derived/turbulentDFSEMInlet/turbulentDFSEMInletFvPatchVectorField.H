@@ -141,11 +141,11 @@ SourceFiles
 #ifndef turbulentDFSEMInletFvPatchVectorField_H
 #define turbulentDFSEMInletFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "Random.H"
-#include "eddy.H"
-#include "pointIndexHit.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/random/Random/Random.H"
+#include "fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddy.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Antal_H
 #define Antal_H
 
-#include "wallLubricationModel.H"
+#include "interfacialModels/wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

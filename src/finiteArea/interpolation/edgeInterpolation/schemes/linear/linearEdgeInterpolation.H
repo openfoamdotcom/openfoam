@@ -37,8 +37,8 @@ SourceFiles
 #ifndef linearEdgeInterpolation_H
 #define linearEdgeInterpolation_H
 
-#include "edgeInterpolationScheme.H"
-#include "areaFields.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "expInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/exp/expInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

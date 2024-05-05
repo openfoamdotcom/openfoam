@@ -98,8 +98,8 @@ SeeAlso
 #ifndef kEpsilonPhitF_H
 #define kEpsilonPhitF_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -300,7 +300,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kEpsilonPhitF.C"
+    #include "RAS/kEpsilonPhitF/kEpsilonPhitF.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

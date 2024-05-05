@@ -38,11 +38,11 @@ SourceFiles
 #ifndef skewCorrectedEdgeInterpolation_H
 #define skewCorrectedEdgeInterpolation_H
 
-#include "edgeInterpolationScheme.H"
-#include "linearEdgeInterpolation.H"
-#include "gaussFaGrad.H"
-#include "areaFields.H"
-#include "zeroGradientFaPatchFields.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
+#include "interpolation/edgeInterpolation/schemes/linear/linearEdgeInterpolation.H"
+#include "finiteArea/gradSchemes/gaussFaGrad/gaussFaGrad.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

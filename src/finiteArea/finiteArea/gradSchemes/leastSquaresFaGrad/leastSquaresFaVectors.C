@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "leastSquaresFaVectors.H"
-#include "edgeFields.H"
-#include "areaFields.H"
-#include "mapPolyMesh.H"
-#include "demandDrivenData.H"
+#include "finiteArea/gradSchemes/leastSquaresFaGrad/leastSquaresFaVectors.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "fields/areaFields/areaFields.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

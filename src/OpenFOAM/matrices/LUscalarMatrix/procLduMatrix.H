@@ -37,10 +37,10 @@ SourceFiles
 #ifndef procLduMatrix_H
 #define procLduMatrix_H
 
-#include "labelList.H"
-#include "scalarField.H"
-#include "FieldField.H"
-#include "lduInterfaceFieldPtrsList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

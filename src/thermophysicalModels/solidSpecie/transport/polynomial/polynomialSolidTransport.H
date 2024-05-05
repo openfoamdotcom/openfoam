@@ -67,7 +67,7 @@ See also
 #ifndef polynomialSolidTransport_H
 #define polynomialSolidTransport_H
 
-#include "PolynomialPascal.H"
+#include "primitives/functions/Polynomial/PolynomialPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -224,10 +224,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "polynomialSolidTransportI.H"
+#include "transport/polynomial/polynomialSolidTransportI.H"
 
 #ifdef NoRepository
-    #include "polynomialSolidTransport.C"
+    #include "transport/polynomial/polynomialSolidTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

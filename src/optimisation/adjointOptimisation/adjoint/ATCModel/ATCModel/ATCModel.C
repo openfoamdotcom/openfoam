@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ATCModel.H"
-#include "localMin.H"
+#include "ATCModel/ATCModel/ATCModel.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

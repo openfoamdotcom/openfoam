@@ -70,7 +70,7 @@ See also
 #ifndef tabulatedTransport_H
 #define tabulatedTransport_H
 
-#include "nonUniformTableThermophysicalFunction.H"
+#include "thermophysicalFunctions/nonUniformTable/nonUniformTableThermophysicalFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,10 +170,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tabulatedTransportI.H"
+#include "transport/tabulated/tabulatedTransportI.H"
 
 #ifdef NoRepository
-    #include "tabulatedTransport.C"
+    #include "transport/tabulated/tabulatedTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

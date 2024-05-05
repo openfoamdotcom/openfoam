@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cuttingPlane.H"
-#include "polyMesh.H"
+#include "surface/cutting/cuttingPlane.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

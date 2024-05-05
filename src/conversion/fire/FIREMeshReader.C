@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FIREMeshReader.H"
-#include "wallPolyPatch.H"
-#include "ListOps.H"
-#include "IFstream.H"
+#include "fire/FIREMeshReader.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

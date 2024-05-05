@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurface.H"
-#include "ListOps.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

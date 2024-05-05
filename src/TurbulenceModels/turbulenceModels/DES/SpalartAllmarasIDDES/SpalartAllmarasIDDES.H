@@ -51,8 +51,8 @@ SourceFiles
 #ifndef Foam_SpalartAllmarasIDDES_H
 #define Foam_SpalartAllmarasIDDES_H
 
-#include "SpalartAllmarasDES.H"
-#include "IDDESDelta.H"
+#include "DES/SpalartAllmarasDES/SpalartAllmarasDES.H"
+#include "LES/LESdeltas/IDDESDelta/IDDESDelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,7 +168,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SpalartAllmarasIDDES.C"
+    #include "DES/SpalartAllmarasIDDES/SpalartAllmarasIDDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

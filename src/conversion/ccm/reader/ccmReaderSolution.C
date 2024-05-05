@@ -25,8 +25,8 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "ccmReader.H"
-#include "ccmInternal.H" // include last to avoid any strange interactions
+#include "reader/ccmReader.H"
+#include "common/ccmInternal.H" // include last to avoid any strange interactions
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

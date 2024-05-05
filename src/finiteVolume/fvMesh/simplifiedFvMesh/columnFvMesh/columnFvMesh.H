@@ -38,7 +38,7 @@ SourceFiles
 #ifndef simplifiedMeshes_columnFvMesh_H
 #define simplifiedMeshes_columnFvMesh_H
 
-#include "simplifiedFvMesh.H"
+#include "fvMesh/simplifiedFvMesh/simplifiedFvMesh/simplifiedFvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -160,7 +160,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "columnFvMeshTemplates.C"
+    #include "fvMesh/simplifiedFvMesh/columnFvMesh/columnFvMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellAspectRatio.H"
+#include "fvMesh/fvGeometryScheme/highAspectRatio/cellAspectRatio.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

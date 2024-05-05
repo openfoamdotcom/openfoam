@@ -35,7 +35,7 @@ Description
 #ifndef waveModels_StokesII_H
 #define waveModels_StokesII_H
 
-#include "StokesIWaveModel.H"
+#include "waveGenerationModels/derived/StokesI/StokesIWaveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binField.H"
-#include "binModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "binField/binField.H"
+#include "binField/binModels/binModel/binModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

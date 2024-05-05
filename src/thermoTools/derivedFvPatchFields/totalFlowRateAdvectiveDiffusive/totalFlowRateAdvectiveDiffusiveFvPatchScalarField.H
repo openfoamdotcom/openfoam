@@ -40,7 +40,7 @@ SourceFiles
 #ifndef totalFlowRateAdvectiveDiffusiveFvPatchScalarField_H
 #define totalFlowRateAdvectiveDiffusiveFvPatchScalarField_H
 
-#include "mixedFvPatchField.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

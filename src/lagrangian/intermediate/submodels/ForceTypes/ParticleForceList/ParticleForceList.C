@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleForceList.H"
-#include "entry.H"
+#include "submodels/ForceTypes/ParticleForceList/ParticleForceList.H"
+#include "db/dictionary/entry/entry.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

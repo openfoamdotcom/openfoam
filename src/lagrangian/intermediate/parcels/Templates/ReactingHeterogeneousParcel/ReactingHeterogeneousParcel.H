@@ -42,7 +42,7 @@ SourceFiles
 #ifndef ReactingHeterogeneousParcel_H
 #define ReactingHeterogeneousParcel_H
 
-#include "demandDrivenEntry.H"
+#include "primitives/demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -443,12 +443,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingHeterogeneousParcelI.H"
+#include "parcels/Templates/ReactingHeterogeneousParcel/ReactingHeterogeneousParcelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingHeterogeneousParcel.C"
+    #include "parcels/Templates/ReactingHeterogeneousParcel/ReactingHeterogeneousParcel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

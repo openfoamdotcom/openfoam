@@ -48,7 +48,7 @@ SourceFiles
 #ifndef Foam_multiphaseEuler_dragModels_GidaspowSchillerNaumann_H
 #define Foam_multiphaseEuler_dragModels_GidaspowSchillerNaumann_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

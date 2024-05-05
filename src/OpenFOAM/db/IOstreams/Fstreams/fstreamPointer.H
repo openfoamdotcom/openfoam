@@ -56,8 +56,8 @@ SourceFiles
 #ifndef Foam_fstreamPointer_H
 #define Foam_fstreamPointer_H
 
-#include "IOstreamOption.H"
-#include "fileName.H"
+#include "db/options/IOstreamOption.H"
+#include "primitives/strings/fileName/fileName.H"
 #include <fstream>
 #include <memory>
 

@@ -25,20 +25,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "emptyFaPatchField.H"
-#include "emptyFaePatchField.H"
-#include "IOobjectList.H"
-#include "polyMesh.H"
-#include "polyPatch.H"
-#include "processorFaPatch.H"
-#include "mapDistribute.H"
-#include "mapDistributePolyMesh.H"
-#include "areaFields.H"
-#include "edgeFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/faPatchFields/constraint/empty/emptyFaPatchField.H"
+#include "fields/faePatchFields/constraint/empty/emptyFaePatchField.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
 
-#include "distributedFieldMapper.H"
-#include "distributedFaPatchFieldMapper.H"
+#include "fields/Fields/Field/distributedFieldMapper.H"
+#include "fields/faPatchFields/faPatchField/distributedFaPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

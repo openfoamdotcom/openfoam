@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inverseDistanceDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
-#include "patchWave.H"
-#include "HashSet.H"
-#include "surfaceInterpolate.H"
-#include "zeroGradientFvPatchFields.H"
-#include "wallDist.H"
-#include "meshWavePatchDistMethod.H"
+#include "motionDiffusivity/inverseDistance/inverseDistanceDiffusivity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "cellDist/patchWave/patchWave.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "fvMesh/wallDist/patchDistMethods/meshWave/meshWavePatchDistMethod.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

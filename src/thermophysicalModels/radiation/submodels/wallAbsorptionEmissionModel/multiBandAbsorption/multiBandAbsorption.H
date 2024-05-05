@@ -52,7 +52,7 @@ SourceFiles
 #ifndef multiBandAbsorption_H
 #define multiBandAbsorption_H
 
-#include "wallAbsorptionEmissionModel.H"
+#include "submodels/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

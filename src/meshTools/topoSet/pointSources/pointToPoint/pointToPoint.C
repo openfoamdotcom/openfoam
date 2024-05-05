@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointToPoint.H"
-#include "polyMesh.H"
-#include "pointSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/pointSources/pointToPoint/pointToPoint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

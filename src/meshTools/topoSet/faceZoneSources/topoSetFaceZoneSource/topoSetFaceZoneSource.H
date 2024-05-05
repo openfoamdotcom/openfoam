@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_topoSetFaceZoneSource_H
 #define Foam_topoSetFaceZoneSource_H
 
-#include "topoSetSource.H"
+#include "topoSet/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef fourthLnGrad_H
 #define fourthLnGrad_H
 
-#include "lnGradScheme.H"
+#include "finiteArea/lnGradSchemes/lnGradScheme/lnGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fourthLnGrad.C"
+    #include "finiteArea/lnGradSchemes/fourthLnGrad/fourthLnGrad.C"
 #else
     #ifdef xlC
     #pragma implementation("fourthLnGrad.C")

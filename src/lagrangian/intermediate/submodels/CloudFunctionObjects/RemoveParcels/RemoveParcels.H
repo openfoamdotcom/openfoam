@@ -52,7 +52,7 @@ SourceFiles
 #ifndef RemoveParcels_H
 #define RemoveParcels_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -178,7 +178,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "RemoveParcels.C"
+    #include "submodels/CloudFunctionObjects/RemoveParcels/RemoveParcels.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

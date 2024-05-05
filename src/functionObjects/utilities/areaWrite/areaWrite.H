@@ -78,12 +78,12 @@ SourceFiles
 #ifndef Foam_areaWrite_H
 #define Foam_areaWrite_H
 
-#include "fvMeshFunctionObject.H"
-#include "polyMesh.H"
-#include "areaFieldsFwd.H"
-#include "surfaceWriter.H"
-#include "HashPtrTable.H"
-#include "IOobjectList.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "writers/common/surfaceWriter.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

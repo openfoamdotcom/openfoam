@@ -61,7 +61,7 @@ See also
 #ifndef icoTabulated_H
 #define icoTabulated_H
 
-#include "nonUniformTableThermophysicalFunction.H"
+#include "thermophysicalFunctions/nonUniformTable/nonUniformTableThermophysicalFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,12 +182,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "icoTabulatedI.H"
+#include "equationOfState/icoTabulated/icoTabulatedI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "icoTabulated.C"
+    #include "equationOfState/icoTabulated/icoTabulated.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

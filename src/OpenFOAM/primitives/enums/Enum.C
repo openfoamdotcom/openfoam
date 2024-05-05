@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Enum.H"
-#include "dictionary.H"
+#include "primitives/enums/Enum.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

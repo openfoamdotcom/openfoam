@@ -39,7 +39,7 @@ Description
 #ifndef Foam_pTraits_H
 #define Foam_pTraits_H
 
-#include "direction.H"
+#include "primitives/direction/direction.H"
 #include <type_traits>  // For std::integral_constant, std::void_t (C++17)
 #include <utility>      // For declval
 

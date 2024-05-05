@@ -153,9 +153,9 @@ SourceFiles
 #ifndef functionObjects_norm_H
 #define functionObjects_norm_H
 
-#include "fieldExpression.H"
-#include "Function1Pascal.H"
-#include "polySurfaceFields.H"
+#include "fieldExpression/fieldExpression.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "polySurface/fields/polySurfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

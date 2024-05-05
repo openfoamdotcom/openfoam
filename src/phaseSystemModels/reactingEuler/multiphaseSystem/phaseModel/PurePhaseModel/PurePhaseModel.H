@@ -38,7 +38,7 @@ SourceFiles
 #ifndef PurePhaseModel_H
 #define PurePhaseModel_H
 
-#include "reactingEuler_phaseModel.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PurePhaseModel.C"
+    #include "phaseModel/PurePhaseModel/PurePhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

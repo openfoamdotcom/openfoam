@@ -121,7 +121,7 @@ SourceFiles
 #ifndef RanzMarshall_H
 #define RanzMarshall_H
 
-#include "HeatTransferModelPascal.H"
+#include "submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -206,7 +206,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "RanzMarshall.C"
+    #include "submodels/Thermodynamic/HeatTransferModel/RanzMarshall/RanzMarshall.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

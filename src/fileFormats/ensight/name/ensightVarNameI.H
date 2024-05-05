@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 #include <cctype>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

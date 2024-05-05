@@ -38,7 +38,7 @@ SourceFiles
 #define Foam_vtk_core_H
 
 #include <cstdint>
-#include "Enum.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

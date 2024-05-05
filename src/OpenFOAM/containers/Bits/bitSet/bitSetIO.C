@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bitSet.H"
-#include "IOstreams.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Ostream Operators * * * * * * * * * * * * * * //
 

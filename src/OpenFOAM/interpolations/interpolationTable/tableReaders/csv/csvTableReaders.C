@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "csvTableReader.H"
-#include "tableReaders.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interpolations/interpolationTable/tableReaders/csv/csvTableReader.H"
+#include "interpolations/interpolationTable/tableReaders/tableReaders.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef steadyStateFaDdtScheme_H
 #define steadyStateFaDdtScheme_H
 
-#include "faDdtScheme.H"
+#include "finiteArea/ddtSchemes/faDdtScheme/faDdtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,7 +170,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "steadyStateFaDdtScheme.C"
+    #include "finiteArea/ddtSchemes/steadyStateFaDdtScheme/steadyStateFaDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

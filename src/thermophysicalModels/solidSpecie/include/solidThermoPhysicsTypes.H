@@ -35,22 +35,22 @@ Description
 #ifndef solidThermoPhysicsTypes_H
 #define solidThermoPhysicsTypes_H
 
-#include "specie.H"
-#include "rhoConst.H"
-#include "icoPolynomial.H"
-#include "icoTabulated.H"
-#include "hConstThermo.H"
-#include "hPolynomialThermo.H"
-#include "hPowerThermo.H"
-#include "hTabulatedThermo.H"
-#include "constIsoSolidTransport.H"
-#include "constAnIsoSolidTransport.H"
-#include "exponentialSolidTransport.H"
-#include "polynomialSolidTransport.H"
-#include "tabulatedSolidTransport.H"
+#include "specie/specie.H"
+#include "equationOfState/rhoConst/rhoConst.H"
+#include "equationOfState/icoPolynomial/icoPolynomial.H"
+#include "equationOfState/icoTabulated/icoTabulated.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/hPolynomial/hPolynomialThermo.H"
+#include "thermo/hPower/hPowerThermo.H"
+#include "thermo/hTabulated/hTabulatedThermo.H"
+#include "transport/const/constIsoSolidTransport.H"
+#include "transport/const/constAnIsoSolidTransport.H"
+#include "transport/exponential/exponentialSolidTransport.H"
+#include "transport/polynomial/polynomialSolidTransport.H"
+#include "transport/tabulated/tabulatedSolidTransport.H"
 
-#include "sensibleEnthalpy.H"
-#include "thermo.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/thermo.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

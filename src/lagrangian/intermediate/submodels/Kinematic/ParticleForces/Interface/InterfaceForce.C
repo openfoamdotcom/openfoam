@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InterfaceForce.H"
-#include "fvcGrad.H"
+#include "submodels/Kinematic/ParticleForces/Interface/InterfaceForce.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

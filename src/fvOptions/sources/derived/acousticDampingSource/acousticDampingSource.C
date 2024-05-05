@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "acousticDampingSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mathematicalConstants.H"
-#include "zeroGradientFvPatchFields.H"
+#include "sources/derived/acousticDampingSource/acousticDampingSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -79,8 +79,8 @@ See also
 #ifndef hPolynomialThermo_H
 #define hPolynomialThermo_H
 
-#include "scalar.H"
-#include "PolynomialPascal.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/functions/Polynomial/PolynomialPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -228,7 +228,7 @@ public:
             inline scalar Gstd(const scalar T) const;
 
 
-            #include "HtoEthermo.H"
+            #include "thermo/thermo/HtoEthermo.H"
 
 
         // Derivative term used for Jacobian
@@ -288,10 +288,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hPolynomialThermoI.H"
+#include "thermo/hPolynomial/hPolynomialThermoI.H"
 
 #ifdef NoRepository
-    #include "hPolynomialThermo.C"
+    #include "thermo/hPolynomial/hPolynomialThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

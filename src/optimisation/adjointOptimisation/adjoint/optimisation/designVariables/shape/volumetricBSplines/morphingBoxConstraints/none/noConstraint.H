@@ -39,7 +39,7 @@ SourceFiles
 #ifndef noConstraint_H
 #define noConstraint_H
 
-#include "morphingBoxConstraint.H"
+#include "optimisation/designVariables/shape/volumetricBSplines/morphingBoxConstraints/morphingBoxConstaint/morphingBoxConstraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

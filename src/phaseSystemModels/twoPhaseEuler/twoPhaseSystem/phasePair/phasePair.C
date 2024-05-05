@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phasePair.H"
+#include "phasePair/phasePair.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

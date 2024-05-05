@@ -44,7 +44,7 @@ SourceFiles
 #ifndef GAMGPreconditioner_H
 #define GAMGPreconditioner_H
 
-#include "GAMGSolver.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

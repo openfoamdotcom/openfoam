@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OBJsurfaceFormat.H"
-#include "clock.H"
-#include "Fstream.H"
-#include "stringOps.H"
-#include "faceTraits.H"
+#include "surfaceFormats/obj/OBJsurfaceFormat.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

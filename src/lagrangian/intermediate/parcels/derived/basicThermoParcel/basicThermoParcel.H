@@ -38,10 +38,10 @@ SourceFiles
 #ifndef basicThermoParcel_H
 #define basicThermoParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "KinematicParcel.H"
-#include "ThermoParcel.H"
+#include "primitives/traits/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/KinematicParcel/KinematicParcel.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

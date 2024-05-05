@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ATCstandard.H"
-#include "addToRunTimeSelectionTable.H"
-#include "wallFvPatch.H"
+#include "ATCModel/ATCstandard/ATCstandard.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -44,9 +44,9 @@ SeeAlso
 #ifndef Foam_injectedParticle_H
 #define Foam_injectedParticle_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
+#include "particle/particle.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -267,7 +267,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "injectedParticleI.H"
+#include "injectedParticle/injectedParticleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef facAverage_H
 #define facAverage_H
 
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -90,7 +90,7 @@ namespace fac
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "facAverage.C"
+    #include "finiteArea/fac/facAverage.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

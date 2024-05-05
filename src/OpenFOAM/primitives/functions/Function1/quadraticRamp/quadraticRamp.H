@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Function1Types_quadraticRamp_H
 #define Function1Types_quadraticRamp_H
 
-#include "ramp.H"
+#include "primitives/functions/Function1/ramp/ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -94,7 +94,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quadraticRampI.H"
+#include "primitives/functions/Function1/quadraticRamp/quadraticRampI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

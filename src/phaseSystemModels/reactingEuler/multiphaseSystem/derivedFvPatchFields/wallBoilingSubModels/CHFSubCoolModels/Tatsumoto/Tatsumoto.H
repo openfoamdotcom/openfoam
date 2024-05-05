@@ -57,7 +57,7 @@ SourceFiles
 #ifndef Tatsumoto_H
 #define Tatsumoto_H
 
-#include "CHFSubCoolModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/CHFSubCoolModels/CHFSubCoolModel/CHFSubCoolModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -72,8 +72,8 @@ SourceFiles
 #ifndef functionObjects_setTimeStepFaRegionsFunctionObject_H
 #define functionObjects_setTimeStepFaRegionsFunctionObject_H
 
-#include "timeFunctionObject.H"
-#include "regionFaModel.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "regionFaModel/regionFaModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,9 +37,9 @@ SourceFiles
 #ifndef maxDeltaxyzCubeRootLESDelta_H
 #define maxDeltaxyzCubeRootLESDelta_H
 
-#include "LESdelta.H"
-#include "maxDeltaxyz.H"
-#include "cubeRootVolDelta.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
+#include "LES/LESdeltas/maxDeltaxyz/maxDeltaxyz.H"
+#include "LES/LESdeltas/cubeRootVolDelta/cubeRootVolDelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

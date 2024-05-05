@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoSurfaceFilm.H"
+#include "submodels/Thermodynamic/SurfaceFilmModel/ThermoSurfaceFilm/ThermoSurfaceFilm.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BitOps.H"
-#include "bitSet.H"
-#include "HashSet.H"
-#include "List.H"
-#include "labelRange.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/ranges/labelRange/labelRange.H"
 
 // * * * * * * * * * * * * * * * * * BitOps  * * * * * * * * * * * * * * * * //
 

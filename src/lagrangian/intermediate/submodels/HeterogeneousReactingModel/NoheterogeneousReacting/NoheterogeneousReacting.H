@@ -37,7 +37,7 @@ Description
 #ifndef NoheterogeneousReacting_H
 #define NoheterogeneousReacting_H
 
-#include "HeterogeneousReactingModel.H"
+#include "submodels/HeterogeneousReactingModel/HeterogeneousReactingModel/HeterogeneousReactingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoheterogeneousReacting.C"
+    #include "submodels/HeterogeneousReactingModel/NoheterogeneousReacting/NoheterogeneousReacting.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

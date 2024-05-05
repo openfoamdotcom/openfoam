@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkWriteTopoSet.H"
-#include "polyMesh.H"
-#include "topoSet.H"
-#include "faceSet.H"
-#include "cellSet.H"
-#include "pointSet.H"
+#include "output/vtk/topoSet/foamVtkWriteTopoSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/topoSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/pointSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

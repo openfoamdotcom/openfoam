@@ -54,8 +54,8 @@ SourceFiles
 #ifndef Foam_kOmegaSSTDES_H
 #define Foam_kOmegaSSTDES_H
 
-#include "DESModel.H"
-#include "kOmegaSSTBase.H"
+#include "DES/DESModel/DESModel.H"
+#include "Base/kOmegaSST/kOmegaSSTBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #ifdef NoRepository
-    #include "kOmegaSSTDES.C"
+    #include "DES/kOmegaSSTDES/kOmegaSSTDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

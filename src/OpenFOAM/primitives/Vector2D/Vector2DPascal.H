@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_Vector2D_H
 #define Foam_Vector2D_H
 
-#include "contiguous.H"
-#include "VectorSpace.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ struct is_contiguous_scalar<Vector2D<Cmpt>> : is_contiguous_scalar<Cmpt> {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Vector2DI.H"
+#include "primitives/Vector2D/Vector2DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchFunction1Base.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "polyPatch.H"
-#include "objectRegistry.H"
-#include "TimeOpenFOAM.H"
+#include "PatchFunction1/PatchFunction1/patchFunction1Base.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "turbulentFluidThermoModel.H"
-#include "mapDistribute.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

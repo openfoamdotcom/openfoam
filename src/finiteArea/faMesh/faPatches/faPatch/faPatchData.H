@@ -36,8 +36,8 @@ Description
 #ifndef Foam_faPatchData_H
 #define Foam_faPatchData_H
 
-#include "labelList.H"
-#include "labelPair.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/tuples/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

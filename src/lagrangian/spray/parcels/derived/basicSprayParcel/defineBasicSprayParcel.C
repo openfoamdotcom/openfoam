@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSprayParcel.H"
-#include "CloudPascal.H"
+#include "parcels/derived/basicSprayParcel/basicSprayParcel.H"
+#include "Cloud/CloudPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

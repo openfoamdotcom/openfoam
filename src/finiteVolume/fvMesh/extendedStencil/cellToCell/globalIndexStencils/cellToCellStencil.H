@@ -38,10 +38,10 @@ SourceFiles
 #ifndef cellToCellStencil_H
 #define cellToCellStencil_H
 
-#include "globalIndex.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "indirectPrimitivePatch.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "instant.H"
-#include "TimeOpenFOAM.H"
-#include "Pair.H"
-#include "UList.H"
+#include "db/Time/instant/instant.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/tuples/Pair.H"
+#include "containers/Lists/List/UList.H"
 #include <cstdlib>  // std::atof
 #include <utility>  // std::move
 

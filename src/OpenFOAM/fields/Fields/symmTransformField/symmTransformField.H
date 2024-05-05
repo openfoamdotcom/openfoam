@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_symmTransformField_H
 #define Foam_symmTransformField_H
 
-#include "symmTransform.H"
-#include "symmTensorField.H"
-#include "sphericalTensor.H"
+#include "primitives/transform/symmTransform.H"
+#include "fields/Fields/symmTensorField/symmTensorField.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -148,7 +148,7 @@ transformFieldMask<tensor>(const tmp<symmTensorField>&);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "symmTransformField.C"
+    #include "fields/Fields/symmTransformField/symmTransformField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

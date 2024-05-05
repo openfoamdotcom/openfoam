@@ -28,8 +28,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointPatches/derived/wall/wallPointPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

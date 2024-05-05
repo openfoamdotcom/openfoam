@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamGltfObject.H"
-#include "foamEndianFwd.H"  // For big/little endian defines
+#include "gltf/foamGltfObject.H"
+#include "primitives/endian/foamEndianFwd.H"  // For big/little endian defines
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

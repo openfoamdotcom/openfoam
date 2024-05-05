@@ -29,7 +29,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EigenMatrix.H"
+#include "matrices/EigenMatrix/EigenMatrix.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

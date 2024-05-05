@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorFaPatch.H"
-#include "processorPolyPatch.H"  // For newName()
-#include "addToRunTimeSelectionTable.H"
-#include "transformField.H"
-#include "faBoundaryMesh.H"
-#include "faMesh.H"
-#include "globalMeshData.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"  // For newName()
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMesh.H"
+#include "faMesh/faMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

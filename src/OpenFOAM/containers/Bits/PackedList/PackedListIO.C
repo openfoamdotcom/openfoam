@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PackedList.H"
-#include "IOstreams.H"
+#include "containers/Bits/PackedList/PackedList.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

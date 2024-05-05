@@ -26,10 +26,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "pointFieldDecomposer.H"
-#include "fieldsDistributor.H"
-#include "pointFields.H"
-#include "IOobjectList.H"
-#include "PtrListOps.H"
+#include "parallel/fieldsDistributor/fieldsDistributor.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
 
 // * * * * * * * * * * * * * * * * Declarations  * * * * * * * * * * * * * * //
 

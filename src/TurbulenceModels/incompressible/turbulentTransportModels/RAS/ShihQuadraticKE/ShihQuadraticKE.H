@@ -54,8 +54,8 @@ SourceFiles
 #ifndef ShihQuadraticKE_H
 #define ShihQuadraticKE_H
 
-#include "turbulentTransportModel.H"
-#include "nonlinearEddyViscosity.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "nonlinearEddyViscosity/nonlinearEddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

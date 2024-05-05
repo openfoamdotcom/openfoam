@@ -83,10 +83,10 @@ SourceFiles
 #ifndef turbulentTemperatureCoupledBaffleMixedFvPatchScalarField_H
 #define turbulentTemperatureCoupledBaffleMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "temperatureCoupledBase.H"
-#include "mappedPatchFieldBase.H"
-#include "scalarField.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
+#include "fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

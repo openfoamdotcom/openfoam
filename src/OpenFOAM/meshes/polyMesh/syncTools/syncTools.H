@@ -45,12 +45,12 @@ SourceFiles
 #ifndef Foam_syncTools_H
 #define Foam_syncTools_H
 
-#include "Pstream.H"
-#include "edgeHashes.H"
-#include "bitSet.H"
-#include "polyMesh.H"
-#include "coupledPolyPatch.H"
-#include "mapDistribute.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -697,7 +697,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "syncToolsTemplates.C"
+    #include "meshes/polyMesh/syncTools/syncToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

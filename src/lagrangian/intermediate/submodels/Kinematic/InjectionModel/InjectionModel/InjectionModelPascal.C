@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InjectionModelPascal.H"
-#include "mathematicalConstants.H"
-#include "meshTools.H"
-#include "volFields.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "meshTools/meshTools.H"
+#include "fields/volFields/volFields.H"
 
 using namespace Foam::constant::mathematical;
 
@@ -687,6 +687,6 @@ void Foam::InjectionModel<CloudType>::info()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "InjectionModelNewPascal.C"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelNewPascal.C"
 
 // ************************************************************************* //

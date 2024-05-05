@@ -37,8 +37,8 @@ SourceFiles
 #ifndef dynamicOversetFvMesh_H
 #define dynamicOversetFvMesh_H
 
-#include "dynamicMotionSolverListFvMesh.H"
-#include "oversetFvMeshBase.H"
+#include "dynamicMotionSolverListFvMesh/dynamicMotionSolverListFvMesh.H"
+#include "oversetFvMesh/oversetFvMeshBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -9,7 +9,7 @@ Description
 #ifndef Foam_vtk_UIndPatchWriter_H
 #define Foam_vtk_UIndPatchWriter_H
 
-#include "foamVtkIndPatchWriter.H"
+#include "output/vtk/patch/foamVtkIndPatchWriter.H"
 
 #endif
 

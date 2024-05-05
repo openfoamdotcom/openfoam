@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SprayCloudPascal.H"
-#include "AtomizationModel.H"
-#include "BreakupModelPascal.H"
+#include "clouds/Templates/SprayCloud/SprayCloudPascal.H"
+#include "submodels/AtomizationModel/AtomizationModel/AtomizationModel.H"
+#include "submodels/BreakupModel/BreakupModel/BreakupModelPascal.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

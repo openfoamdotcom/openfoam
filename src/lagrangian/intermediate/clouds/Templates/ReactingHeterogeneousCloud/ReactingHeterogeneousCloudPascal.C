@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingHeterogeneousCloudPascal.H"
-#include "HeterogeneousReactingModel.H"
+#include "clouds/Templates/ReactingHeterogeneousCloud/ReactingHeterogeneousCloudPascal.H"
+#include "submodels/HeterogeneousReactingModel/HeterogeneousReactingModel/HeterogeneousReactingModel.H"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 

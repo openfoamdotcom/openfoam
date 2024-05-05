@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DictionaryBase.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

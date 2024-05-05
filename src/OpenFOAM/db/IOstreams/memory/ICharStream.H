@@ -41,9 +41,9 @@ See Also
 #ifndef Foam_ICharStream_H
 #define Foam_ICharStream_H
 
-#include "ISpanStream.H"
-#include "List.H"
-#include "DynamicList.H"
+#include "db/IOstreams/memory/ISpanStream.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

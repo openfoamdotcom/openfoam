@@ -37,10 +37,10 @@ SourceFiles
 #ifndef pairPotentialList_H
 #define pairPotentialList_H
 
-#include "PtrList.H"
-#include "word.H"
-#include "pairPotential.H"
-#include "polyMesh.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "primitives/strings/word/word.H"
+#include "pairPotential/basic/pairPotential.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -171,7 +171,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pairPotentialListI.H"
+#include "pairPotential/pairPotentialList/pairPotentialListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,9 +42,9 @@ SourceFiles
 #ifndef Foam_SymmTensor2D_H
 #define Foam_SymmTensor2D_H
 
-#include "contiguous.H"
-#include "Vector2DPascal.H"
-#include "SphericalTensor2DPascal.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/Vector2D/Vector2DPascal.H"
+#include "primitives/SphericalTensor2D/SphericalTensor2DPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,7 +193,7 @@ struct is_contiguous_scalar<SymmTensor2D<Cmpt>> : is_contiguous_scalar<Cmpt> {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SymmTensor2DI.H"
+#include "primitives/SymmTensor2D/SymmTensor2DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

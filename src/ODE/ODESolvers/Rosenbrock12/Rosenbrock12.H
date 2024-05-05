@@ -49,8 +49,8 @@ SourceFiles
 #ifndef Rosenbrock12_H
 #define Rosenbrock12_H
 
-#include "ODESolver.H"
-#include "adaptiveSolver.H"
+#include "ODESolvers/ODESolver/ODESolver.H"
+#include "ODESolvers/adaptiveSolver/adaptiveSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

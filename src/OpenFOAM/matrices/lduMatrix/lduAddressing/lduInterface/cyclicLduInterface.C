@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicLduInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -50,8 +50,8 @@ SourceFiles
 #ifndef JobInfo_H
 #define JobInfo_H
 
-#include "dictionary.H"
-#include "cpuTime.H"
+#include "db/dictionary/dictionary.H"
+#include "cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

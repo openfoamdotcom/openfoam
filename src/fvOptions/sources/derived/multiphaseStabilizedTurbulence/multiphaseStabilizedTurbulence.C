@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiphaseStabilizedTurbulence.H"
-#include "fvMatrices.H"
-#include "turbulentTransportModel.H"
-#include "gravityMeshObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/multiphaseStabilizedTurbulence/multiphaseStabilizedTurbulence.H"
+#include "fvMatrices/fvMatrices.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

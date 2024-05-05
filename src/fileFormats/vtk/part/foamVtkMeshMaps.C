@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkMeshMaps.H"
-#include "ListOps.H"
+#include "vtk/part/foamVtkMeshMaps.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

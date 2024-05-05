@@ -40,7 +40,7 @@ SourceFiles
 #ifndef limitedSurfaceInterpolationScheme_H
 #define limitedSurfaceInterpolationScheme_H
 
-#include "surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -234,7 +234,7 @@ makelimitedSurfaceInterpolationTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "limitedSurfaceInterpolationScheme.C"
+    #include "interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

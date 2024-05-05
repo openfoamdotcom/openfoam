@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryFaPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "faMesh/faPatches/constraint/symmetry/symmetryFaPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

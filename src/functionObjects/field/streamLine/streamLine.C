@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "streamLine.H"
-#include "streamLineParticleCloud.H"
-#include "sampledSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "streamLine/streamLine.H"
+#include "streamLine/streamLineParticleCloud.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

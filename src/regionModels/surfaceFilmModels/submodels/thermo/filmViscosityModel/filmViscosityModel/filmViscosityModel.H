@@ -38,9 +38,9 @@ SourceFiles
 #ifndef filmViscosityModel_H
 #define filmViscosityModel_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
-#include "scalarField.H"
+#include "submodels/filmSubModelBase.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

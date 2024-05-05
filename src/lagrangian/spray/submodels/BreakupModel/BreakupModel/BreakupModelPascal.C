@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BreakupModelPascal.H"
+#include "submodels/BreakupModel/BreakupModel/BreakupModelPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -100,6 +100,6 @@ Foam::BreakupModel<CloudType>::~BreakupModel()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BreakupModelNew.C"
+#include "submodels/BreakupModel/BreakupModel/BreakupModelNew.C"
 
 // ************************************************************************* //

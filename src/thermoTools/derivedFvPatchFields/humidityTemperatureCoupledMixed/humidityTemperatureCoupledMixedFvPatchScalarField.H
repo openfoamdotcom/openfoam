@@ -169,10 +169,10 @@ SourceFiles
 #ifndef humidityTemperatureCoupledMixedFvPatchScalarField_H
 #define humidityTemperatureCoupledMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "temperatureCoupledBase.H"
-#include "liquidProperties.H"
-#include "autoPtr.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
+#include "liquidProperties/liquidProperties/liquidProperties.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

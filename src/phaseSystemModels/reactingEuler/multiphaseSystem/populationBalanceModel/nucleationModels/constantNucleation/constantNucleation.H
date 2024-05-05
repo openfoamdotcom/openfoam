@@ -39,7 +39,7 @@ SourceFiles
 #ifndef constantNucleation_H
 #define constantNucleation_H
 
-#include "nucleationModel.H"
+#include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

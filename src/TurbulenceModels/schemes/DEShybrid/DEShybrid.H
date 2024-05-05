@@ -117,10 +117,10 @@ SourceFiles
 #ifndef Foam_DEShybrid_H
 #define Foam_DEShybrid_H
 
-#include "surfaceInterpolationScheme.H"
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "blendedSchemeBase.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.H"
 #include "turbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

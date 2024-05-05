@@ -37,7 +37,7 @@ SourceFiles
 #ifndef LindemannFallOffFunction_H
 #define LindemannFallOffFunction_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LindemannFallOffFunctionI.H"
+#include "reaction/reactionRate/fallOffFunctions/LindemannFallOffFunction/LindemannFallOffFunctionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

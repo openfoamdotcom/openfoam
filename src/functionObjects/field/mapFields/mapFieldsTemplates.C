@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "polyPatch.H"
-#include "lduSchedule.H"
-#include "meshToMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.H"
+#include "meshToMesh/meshToMesh.H"
 
 template<class Type>
 void Foam::functionObjects::mapFields::evaluateConstraintTypes

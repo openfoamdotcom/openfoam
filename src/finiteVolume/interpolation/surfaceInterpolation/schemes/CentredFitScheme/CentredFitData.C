@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CentredFitData.H"
-#include "surfaceFields.H"
-#include "volFields.H"
-#include "SVD.H"
-#include "syncTools.H"
-#include "extendedCentredCellToFaceStencil.H"
+#include "interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitData.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedCentredCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

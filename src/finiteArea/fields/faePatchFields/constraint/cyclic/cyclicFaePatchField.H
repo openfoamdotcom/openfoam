@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_cyclicFaePatchField_H
 #define Foam_cyclicFaePatchField_H
 
-#include "coupledFaePatchField.H"
-#include "cyclicFaPatch.H"
+#include "fields/faePatchFields/basic/coupled/coupledFaePatchField.H"
+#include "faMesh/faPatches/constraint/cyclic/cyclicFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicFaePatchField.C"
+    #include "fields/faePatchFields/constraint/cyclic/cyclicFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

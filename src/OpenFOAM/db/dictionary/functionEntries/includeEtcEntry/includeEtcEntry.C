@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "includeEtcEntry.H"
-#include "etcFiles.H"
-#include "stringOps.H"
-#include "IFstream.H"
-#include "IOstreams.H"
-#include "UPstream.H"
-#include "fileOperation.H"
-#include "regIOobject.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/includeEtcEntry/includeEtcEntry.H"
+#include "global/etcFiles/etcFiles.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

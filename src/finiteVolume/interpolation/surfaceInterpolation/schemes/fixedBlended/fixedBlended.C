@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "fixedBlended.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/fixedBlended/fixedBlended.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

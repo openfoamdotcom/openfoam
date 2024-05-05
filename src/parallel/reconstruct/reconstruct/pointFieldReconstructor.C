@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "pointFieldReconstructor.H"
-#include "pointFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

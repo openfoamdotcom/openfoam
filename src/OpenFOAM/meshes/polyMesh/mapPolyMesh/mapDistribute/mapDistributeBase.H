@@ -74,12 +74,12 @@ SourceFiles
 #ifndef Foam_mapDistributeBase_H
 #define Foam_mapDistributeBase_H
 
-#include "boolList.H"
-#include "labelList.H"
-#include "labelPair.H"
-#include "Pstream.H"
-#include "Map.H"
-#include "InfoProxy.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/tuples/labelPair.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1219,7 +1219,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mapDistributeBaseTemplates.C"
+    #include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

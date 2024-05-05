@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMeshMethod.H"
+#include "meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

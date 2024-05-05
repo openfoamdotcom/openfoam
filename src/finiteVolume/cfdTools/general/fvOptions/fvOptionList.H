@@ -40,11 +40,11 @@ SourceFile
 #ifndef Foam_fvOptionList_H
 #define Foam_fvOptionList_H
 
-#include "fvOption.H"
-#include "PtrList.H"
-#include "GeometricField.H"
-#include "geometricOneField.H"
-#include "fvPatchField.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -295,7 +295,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvOptionListTemplates.C"
+    #include "cfdTools/general/fvOptions/fvOptionListTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

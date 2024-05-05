@@ -72,8 +72,8 @@ SourceFiles
 #ifndef functionObjects_timeActivatedFileUpdate_H
 #define functionObjects_timeActivatedFileUpdate_H
 
-#include "timeFunctionObject.H"
-#include "Tuple2.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

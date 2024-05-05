@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "veryInhomogeneousMixture.H"
-#include "fvMesh.H"
+#include "mixtures/veryInhomogeneousMixture/veryInhomogeneousMixture.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

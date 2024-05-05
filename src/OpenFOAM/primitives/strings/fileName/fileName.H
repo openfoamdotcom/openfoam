@@ -49,7 +49,7 @@ SourceFiles
 #ifndef Foam_fileName_H
 #define Foam_fileName_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -478,7 +478,7 @@ fileName search(const word& file, const fileName& directory);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fileNameI.H"
+#include "primitives/strings/fileName/fileNameI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

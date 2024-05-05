@@ -44,9 +44,9 @@ SourceFiles
 #ifndef cutCell_H
 #define cutCell_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

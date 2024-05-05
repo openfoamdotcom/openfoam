@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "blendedEdgeInterpolation.H"
+#include "faMesh/faMesh.H"
+#include "interpolation/edgeInterpolation/schemes/blended/blendedEdgeInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

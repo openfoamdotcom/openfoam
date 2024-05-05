@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_ijkAddressing_H
 #define Foam_ijkAddressing_H
 
-#include "labelVector.H"
-#include "vector.H"
+#include "primitives/Vector/ints/labelVector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ijkAddressingI.H"
+#include "meshes/ijkMesh/ijkAddressingI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

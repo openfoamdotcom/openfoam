@@ -64,9 +64,9 @@ SourceFiles
 #ifndef intersectedSurface_H
 #define intersectedSurface_H
 
-#include "triSurface.H"
-#include "Map.H"
-#include "typeInfo.H"
+#include "triSurface/triSurface.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

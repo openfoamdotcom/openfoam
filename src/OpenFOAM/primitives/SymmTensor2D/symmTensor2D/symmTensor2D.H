@@ -53,8 +53,8 @@ SourceFiles
 #ifndef symmTensor2D_H
 #define symmTensor2D_H
 
-#include "SymmTensor2DPascal.H"
-#include "vector2D.H"
+#include "primitives/SymmTensor2D/SymmTensor2DPascal.H"
+#include "primitives/Vector2D/floats/vector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

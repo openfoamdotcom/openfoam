@@ -84,7 +84,7 @@ SourceFiles
 #ifndef KinematicReynoldsNumber_H
 #define KinematicReynoldsNumber_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "KinematicReynoldsNumber.C"
+    #include "submodels/CloudFunctionObjects/KinematicReynoldsNumber/KinematicReynoldsNumber.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

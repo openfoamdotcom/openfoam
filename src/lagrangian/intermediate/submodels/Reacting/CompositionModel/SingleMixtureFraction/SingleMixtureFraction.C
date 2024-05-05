@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SingleMixtureFraction.H"
+#include "submodels/Reacting/CompositionModel/SingleMixtureFraction/SingleMixtureFraction.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -42,7 +42,7 @@ SourceFiles
 #ifndef transformBox_H
 #define transformBox_H
 
-#include "controlPointsDefinition.H"
+#include "parameterization/NURBS/NURBS3DVolume/controlPointsDefinition/controlPointsDefinition/controlPointsDefinition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

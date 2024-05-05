@@ -114,9 +114,9 @@ SeeAlso
 #ifndef Foam_noiseModels_surfaceNoise_H
 #define Foam_noiseModels_surfaceNoise_H
 
-#include "noiseModel.H"
-#include "scalarField.H"
-#include "UPstream.H"
+#include "noise/noiseModels/noiseModel/noiseModel.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

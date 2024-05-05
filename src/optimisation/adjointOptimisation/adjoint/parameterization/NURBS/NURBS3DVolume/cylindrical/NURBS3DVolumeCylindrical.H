@@ -40,7 +40,7 @@ SourceFiles
 #ifndef NURBS3DVolumeCylindrical_H
 #define NURBS3DVolumeCylindrical_H
 
-#include "NURBS3DVolume.H"
+#include "parameterization/NURBS/NURBS3DVolume/NURBS3DVolume/NURBS3DVolume.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

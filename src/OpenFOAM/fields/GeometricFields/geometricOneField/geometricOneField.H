@@ -40,8 +40,8 @@ Description
 #ifndef Foam_geometricOneField_H
 #define Foam_geometricOneField_H
 
-#include "oneFieldField.H"
-#include "dimensionSet.H"
+#include "fields/FieldFields/oneFieldField/oneFieldField.H"
+#include "dimensionSet/dimensionSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -133,7 +133,7 @@ public:
 
 // Global Operators
 
-#include "geometricOneFieldI.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

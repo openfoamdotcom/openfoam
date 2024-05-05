@@ -40,13 +40,13 @@ SourceFiles
 #ifndef Foam_UPstream_H
 #define Foam_UPstream_H
 
-#include "wordList.H"
-#include "labelList.H"
-#include "DynamicList.H"
-#include "HashTable.H"
-#include "Map.H"
-#include "Enum.H"
-#include "ListOps.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/enums/Enum.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1335,7 +1335,7 @@ UList<UPstream::commsStruct>::operator[](const label procID) const;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UPstreamTemplates.C"
+    #include "db/IOstreams/Pstreams/UPstreamTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

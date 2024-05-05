@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeInterpolationScheme.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "faPatchFields.H"
-#include "coupledFaPatchField.H"
-#include "transform.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "fields/faPatchFields/basic/coupled/coupledFaPatchField.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * //
 

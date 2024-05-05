@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoPhaseChangePascal.H"
+#include "submodels/Reacting/PhaseChangeModel/NoPhaseChange/NoPhaseChangePascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

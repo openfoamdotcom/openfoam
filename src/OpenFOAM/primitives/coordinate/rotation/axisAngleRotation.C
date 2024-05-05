@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "axisAngleRotation.H"
-#include "dictionary.H"
-#include "quaternion.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/coordinate/rotation/axisAngleRotation.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/quaternion/quaternion.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

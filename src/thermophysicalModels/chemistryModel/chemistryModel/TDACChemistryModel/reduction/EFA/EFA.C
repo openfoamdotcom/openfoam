@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EFA.H"
-#include "SortableListEFA.H"
+#include "chemistryModel/TDACChemistryModel/reduction/EFA/EFA.H"
+#include "chemistryModel/TDACChemistryModel/reduction/EFA/SortableListEFA.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

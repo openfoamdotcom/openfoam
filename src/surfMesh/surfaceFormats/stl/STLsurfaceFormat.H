@@ -47,10 +47,10 @@ SourceFiles
 #ifndef STLsurfaceFormat_H
 #define STLsurfaceFormat_H
 
-#include "STLReader.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
+#include "stl/STLReader.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "STLsurfaceFormat.C"
+    #include "surfaceFormats/stl/STLsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

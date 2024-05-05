@@ -27,18 +27,18 @@ License
 
 #include "lagrangianFieldDecomposer.H"
 
-#include "labelIOField.H"
-#include "labelFieldIOField.H"
-#include "scalarIOField.H"
-#include "scalarFieldIOField.H"
-#include "vectorIOField.H"
-#include "vectorFieldIOField.H"
-#include "sphericalTensorIOField.H"
-#include "sphericalTensorFieldIOField.H"
-#include "symmTensorIOField.H"
-#include "symmTensorFieldIOField.H"
-#include "tensorIOField.H"
-#include "tensorFieldIOField.H"
+#include "fields/Fields/labelField/labelIOField.H"
+#include "fields/Fields/labelField/labelFieldIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/scalarField/scalarFieldIOField.H"
+#include "fields/Fields/vectorField/vectorIOField.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorIOField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorFieldIOField.H"
+#include "fields/Fields/symmTensorField/symmTensorIOField.H"
+#include "fields/Fields/symmTensorField/symmTensorFieldIOField.H"
+#include "fields/Fields/tensorField/tensorIOField.H"
+#include "fields/Fields/tensorField/tensorFieldIOField.H"
 
 // * * * * * * * * * * * * * * * * Declarations  * * * * * * * * * * * * * * //
 

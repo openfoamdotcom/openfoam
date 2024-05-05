@@ -45,11 +45,11 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionRestraint_H
 #define sixDoFRigidBodyMotionRestraint_H
 
-#include "TimeOpenFOAM.H"
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "vector.H"
-#include "runTimeSelectionTables.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

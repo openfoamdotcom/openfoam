@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurface.H"
-#include "UnsortedMeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "mergePoints.H"
-#include "TimeOpenFOAM.H"
-#include "ListOps.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "surfMesh.H"
-#include "primitivePatch.H"
-#include "faceTraits.H"
-#include "addToRunTimeSelectionTable.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "surfMesh/surfMesh.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 
@@ -1501,8 +1501,8 @@ Foam::MeshedSurface<Face>::operator Foam::MeshedSurfaceProxy<Face>() const
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MeshedSurfaceZones.C"
-#include "MeshedSurfaceIO.C"
-#include "MeshedSurfaceNew.C"
+#include "MeshedSurface/MeshedSurfaceZones.C"
+#include "MeshedSurface/MeshedSurfaceIO.C"
+#include "MeshedSurface/MeshedSurfaceNew.C"
 
 // ************************************************************************* //

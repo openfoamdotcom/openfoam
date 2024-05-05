@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "foamVersion.H"
-#include "stringOps.H"
-#include "IOmanip.H"
+#include "global/argList/argList.H"
+#include "include/foamVersion.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

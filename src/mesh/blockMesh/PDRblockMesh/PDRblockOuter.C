@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRblock.H"
-#include "dictionary.H"
-#include "Switch.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

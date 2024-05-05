@@ -177,10 +177,10 @@ SourceFiles
 #ifndef functionObjects_pressure_H
 #define functionObjects_pressure_H
 
-#include "fieldExpression.H"
-#include "volFieldsFwd.H"
-#include "dimensionedVector.H"
-#include "dimensionedScalar.H"
+#include "fieldExpression/fieldExpression.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

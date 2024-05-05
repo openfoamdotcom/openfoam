@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_GAMGProcAgglomeration_H
 #define Foam_GAMGProcAgglomeration_H
 
-#include "runTimeSelectionTables.H"
-#include "labelList.H"
-#include "DynamicList.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

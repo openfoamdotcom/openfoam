@@ -28,9 +28,9 @@ License
 #ifndef turbulentDigitalFilterInletFvPatchFields_H
 #define turbulentDigitalFilterInletFvPatchFields_H
 
-#include "turbulentDigitalFilterInletFvPatchField.H"
-#include "fieldTypes.H"
-#include "fvPatchFields.H"
+#include "fields/fvPatchFields/derived/turbulentDigitalFilterInlet/turbulentDigitalFilterInletFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

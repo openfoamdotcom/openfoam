@@ -37,8 +37,8 @@ SourceFiles
 #ifndef infiniteReactionRate_H
 #define infiniteReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -109,7 +109,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "infiniteReactionRateI.H"
+#include "reaction/reactionRate/infiniteReactionRate/infiniteReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

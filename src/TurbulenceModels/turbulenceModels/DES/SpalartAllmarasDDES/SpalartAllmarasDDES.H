@@ -53,7 +53,7 @@ SourceFiles
 #ifndef Foam_SpalartAllmarasDDES_H
 #define Foam_SpalartAllmarasDDES_H
 
-#include "SpalartAllmarasBase.H"
+#include "Base/SpalartAllmaras/SpalartAllmarasBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SpalartAllmarasDDES.C"
+    #include "DES/SpalartAllmarasDDES/SpalartAllmarasDDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

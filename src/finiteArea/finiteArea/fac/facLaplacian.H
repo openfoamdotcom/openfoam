@@ -38,9 +38,9 @@ SourceFiles
 #ifndef facLaplacian_H
 #define facLaplacian_H
 
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -304,7 +304,7 @@ namespace fac
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "facLaplacian.C"
+    #include "finiteArea/fac/facLaplacian.C"
 #else
     #ifdef xlC
     #pragma implementation("facLaplacian.C")

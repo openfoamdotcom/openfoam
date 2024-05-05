@@ -38,8 +38,8 @@ SourceFiles
 #ifndef filmSubModelBase_H
 #define filmSubModelBase_H
 
-#include "surfaceFilmRegionModel.H"
-#include "subModelBase.H"
+#include "surfaceFilmRegionModel/surfaceFilmRegionModel.H"
+#include "primitives/subModelBase/subModelBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,12 +124,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "filmSubModelBaseI.H"
+#include "submodels/filmSubModelBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "filmSubModelBaseTemplates.C"
+    #include "submodels/filmSubModelBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

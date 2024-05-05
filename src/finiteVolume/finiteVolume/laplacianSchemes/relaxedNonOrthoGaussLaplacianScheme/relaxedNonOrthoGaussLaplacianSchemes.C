@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "relaxedNonOrthoGaussLaplacianScheme.H"
-#include "fvMesh.H"
+#include "finiteVolume/laplacianSchemes/relaxedNonOrthoGaussLaplacianScheme/relaxedNonOrthoGaussLaplacianScheme.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

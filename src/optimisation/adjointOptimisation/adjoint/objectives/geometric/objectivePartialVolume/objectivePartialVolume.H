@@ -39,7 +39,7 @@ SourceFiles
 #ifndef objectivePartialVolume_H
 #define objectivePartialVolume_H
 
-#include "objectiveGeometric.H"
+#include "objectives/geometric/objectiveGeometric/objectiveGeometric.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

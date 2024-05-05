@@ -136,10 +136,10 @@ SourceFiles
 #ifndef Foam_mapDistribute_H
 #define Foam_mapDistribute_H
 
-#include "mapDistributeBase.H"
-#include "transformList.H"
-#include "vectorTensorTransform.H"
-#include "coupledPolyPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"
+#include "fields/Fields/transformList/transformList.H"
+#include "primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -769,7 +769,7 @@ void mapDistribute::transform::operator()
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mapDistributeTemplates.C"
+    #include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -45,7 +45,7 @@ SourceFiles
 #ifndef VakhrushevEfremov_H
 #define VakhrushevEfremov_H
 
-#include "aspectRatioModel.H"
+#include "interfacialModels/aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

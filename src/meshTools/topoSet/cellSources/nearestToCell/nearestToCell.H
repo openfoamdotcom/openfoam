@@ -86,7 +86,7 @@ SourceFiles
 #ifndef nearestToCell_H
 #define nearestToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

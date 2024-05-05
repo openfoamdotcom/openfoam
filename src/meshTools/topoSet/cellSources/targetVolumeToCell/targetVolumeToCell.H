@@ -87,7 +87,7 @@ SourceFiles
 #ifndef targetVolumeToCell_H
 #define targetVolumeToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

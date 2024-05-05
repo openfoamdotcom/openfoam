@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OneResistanceHeatTransferPhaseSystem.H"
-#include "fvmSup.H"
+#include "PhaseSystems/OneResistanceHeatTransferPhaseSystem/OneResistanceHeatTransferPhaseSystem.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

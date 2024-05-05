@@ -40,10 +40,10 @@ SourceFiles
 #ifndef radiation_blackBodyEmission_H
 #define radiation_blackBodyEmission_H
 
-#include "volFields.H"
-#include "dimensionedScalar.H"
-#include "interpolationTable.H"
-#include "Vector2DPascal.H"
+#include "fields/volFields/volFields.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "interpolations/interpolationTable/interpolationTable.H"
+#include "primitives/Vector2D/Vector2DPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

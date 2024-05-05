@@ -37,9 +37,9 @@ SourceFiles
 #ifndef uniform_H
 #define uniform_H
 
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "windowModel.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "windowModels/windowModel/windowModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

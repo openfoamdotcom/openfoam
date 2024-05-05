@@ -36,11 +36,11 @@ SourceFiles
 #ifndef CECCellToCellStencil_H
 #define CECCellToCellStencil_H
 
-#include "cellToCellStencil.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "edgeHashes.H"
+#include "fvMesh/extendedStencil/cellToCell/globalIndexStencils/cellToCellStencil.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

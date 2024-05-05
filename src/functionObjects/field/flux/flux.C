@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "flux.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "geometricOneField.H"
+#include "flux/flux.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

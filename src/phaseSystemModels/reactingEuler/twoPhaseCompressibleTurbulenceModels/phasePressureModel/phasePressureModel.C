@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phasePressureModel.H"
+#include "phasePressureModel/phasePressureModel.H"
 #include "twoPhaseSystem.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

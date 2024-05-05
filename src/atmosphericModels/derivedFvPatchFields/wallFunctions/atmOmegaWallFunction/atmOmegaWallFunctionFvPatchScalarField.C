@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmOmegaWallFunctionFvPatchScalarField.H"
-#include "nutWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallFunctions/atmOmegaWallFunction/atmOmegaWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
 #include "turbulenceModel.H"
-#include "fvMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

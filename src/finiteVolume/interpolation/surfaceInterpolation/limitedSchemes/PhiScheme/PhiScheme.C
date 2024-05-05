@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvcGrad.H"
-#include "coupledFvPatchFields.H"
-#include "surfaceInterpolate.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

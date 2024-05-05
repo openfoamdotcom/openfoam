@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UniformValueField.H"
-#include "Field.H"
+#include "PatchFunction1/UniformValueField/UniformValueField.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

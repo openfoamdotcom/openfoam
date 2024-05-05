@@ -79,9 +79,9 @@ SourceFiles
 #ifndef epsilonWallFunctionFvPatchScalarField_H
 #define epsilonWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
-#include "wallFunctionCoefficients.H"
-#include "wallFunctionBlenders.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionCoefficients/wallFunctionCoefficients.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionBlenders/wallFunctionBlenders.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

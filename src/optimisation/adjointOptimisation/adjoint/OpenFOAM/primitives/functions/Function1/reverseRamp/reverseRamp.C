@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reverseRamp.H"
-#include "addToRunTimeSelectionTable.H"
+#include "OpenFOAM/primitives/functions/Function1/reverseRamp/reverseRamp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

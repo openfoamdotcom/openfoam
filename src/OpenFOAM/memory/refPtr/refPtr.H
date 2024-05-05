@@ -42,8 +42,8 @@ See also
 #ifndef Foam_refPtr_H
 #define Foam_refPtr_H
 
-#include "autoPtr.H"
-#include "tmp.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/tmp/tmp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -378,7 +378,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "refPtrI.H"
+#include "memory/refPtr/refPtrI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primaryRadiation.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/filmRadiationModel/primaryRadiation/primaryRadiation.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "coupledFvPatchField.H"
-#include "registerSwitch.H"
+#include "fields/volFields/volFields.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "targetVolumeToCell.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "plane.H"
-#include "bitSet.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/targetVolumeToCell/targetVolumeToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

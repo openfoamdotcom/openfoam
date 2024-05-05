@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussFaDivScheme.H"
-#include "facEdgeIntegrate.H"
-#include "faMatrices.H"
+#include "finiteArea/divSchemes/gaussFaDivScheme/gaussFaDivScheme.H"
+#include "finiteArea/fac/facEdgeIntegrate.H"
+#include "faMatrices/faMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

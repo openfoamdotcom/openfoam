@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_BiIndirectList_H
 #define Foam_BiIndirectList_H
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BiIndirectListI.H"
+#include "containers/IndirectLists/BiIndirectList/BiIndirectListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

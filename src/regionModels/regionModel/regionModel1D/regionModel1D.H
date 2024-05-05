@@ -37,9 +37,9 @@ SourceFiles
 #ifndef regionModel1D_H
 #define regionModel1D_H
 
-#include "regionModel.H"
-#include "surfaceFields.H"
-#include "labelList.H"
+#include "regionModel/regionModel.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -189,7 +189,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regionModel1DI.H"
+#include "regionModel1D/regionModel1DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

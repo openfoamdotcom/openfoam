@@ -38,10 +38,10 @@ SourceFiles
 #ifndef filmTurbulenceModel_H
 #define filmTurbulenceModel_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
-#include "fvMatricesFwd.H"
-#include "volFieldsFwd.H"
+#include "submodels/filmSubModelBase.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

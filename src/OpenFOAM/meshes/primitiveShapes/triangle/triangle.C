@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triangle.H"
-#include "plane.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

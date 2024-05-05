@@ -42,11 +42,11 @@ SourceFiles
 #ifndef Foam_faMeshDecomposition_H
 #define Foam_faMeshDecomposition_H
 
-#include "polyMesh.H"
-#include "faMesh.H"
-#include "labelList.H"
-#include "PtrList.H"
-#include "point.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "faMesh/faMesh.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 namespace Foam
 {

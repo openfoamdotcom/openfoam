@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "procLduInterface.H"
-#include "lduInterfaceField.H"
-#include "cyclicLduInterface.H"
-#include "processorLduInterface.H"
+#include "matrices/LUscalarMatrix/procLduInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_ITstream_H
 #define Foam_ITstream_H
 
-#include "Istream.H"
-#include "tokenList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/token/tokenList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

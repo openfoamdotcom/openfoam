@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchPascal.H"
-#include "HashSet.H"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchPascal.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoSetPointZoneSource.H"
-#include "polyMesh.H"
+#include "topoSet/pointZoneSources/topoSetPointZoneSource/topoSetPointZoneSource.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

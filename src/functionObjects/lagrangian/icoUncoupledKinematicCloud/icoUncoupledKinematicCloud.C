@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "icoUncoupledKinematicCloud.H"
-#include "singlePhaseTransportModel.H"
-#include "gravityMeshObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "icoUncoupledKinematicCloud/icoUncoupledKinematicCloud.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

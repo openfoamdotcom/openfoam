@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sizeDistribution.H"
-#include "sizeGroup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sizeDistribution/sizeDistribution.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

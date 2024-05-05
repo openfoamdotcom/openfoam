@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallSpringSliderDashpot.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallSpringSliderDashpot/WallSpringSliderDashpot.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

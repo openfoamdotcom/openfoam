@@ -34,8 +34,8 @@ Description
 #ifndef Foam_vtk_base64Layer_H
 #define Foam_vtk_base64Layer_H
 
-#include "foamVtkFormatter.H"
-#include "base64Layer.H"
+#include "vtk/format/foamVtkFormatter.H"
+#include "db/IOstreams/hashes/base64Layer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

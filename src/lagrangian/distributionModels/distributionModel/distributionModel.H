@@ -57,9 +57,9 @@ SourceFiles
 #ifndef distributionModel_H
 #define distributionModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "Random.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

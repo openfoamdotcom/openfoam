@@ -47,9 +47,9 @@ SourceFiles
 #ifndef Foam_calculatedProcessorFvPatchField_H
 #define Foam_calculatedProcessorFvPatchField_H
 
-#include "lduPrimitiveProcessorInterface.H"
-#include "coupledFvPatchField.H"
-#include "processorLduInterfaceField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduPrimitiveProcessorInterface.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -294,7 +294,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "calculatedProcessorFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/calculatedProcessor/calculatedProcessorFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

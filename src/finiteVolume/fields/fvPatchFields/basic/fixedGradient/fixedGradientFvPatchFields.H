@@ -28,8 +28,8 @@ License
 #ifndef fixedGradientFvPatchFields_H
 #define fixedGradientFvPatchFields_H
 
-#include "fixedGradientFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

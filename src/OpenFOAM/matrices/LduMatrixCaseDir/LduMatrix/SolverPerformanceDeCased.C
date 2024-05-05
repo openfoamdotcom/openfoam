@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SolverPerformanceDeCased.H"
-#include "IOstreams.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/SolverPerformanceDeCased.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

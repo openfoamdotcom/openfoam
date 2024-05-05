@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_topoBitSet_H
 #define Foam_topoBitSet_H
 
-#include "topoSet.H"
-#include "bitSet.H"
+#include "topoSet/topoSets/topoSet.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

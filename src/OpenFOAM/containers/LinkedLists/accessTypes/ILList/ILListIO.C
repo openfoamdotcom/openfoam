@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ILList.H"
-#include "Istream.H"
-#include "INew.H"
+#include "containers/LinkedLists/accessTypes/ILList/ILList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/INew.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

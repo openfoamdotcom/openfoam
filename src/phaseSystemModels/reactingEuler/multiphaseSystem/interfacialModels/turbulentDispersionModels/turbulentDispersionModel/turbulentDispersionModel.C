@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentDispersionModel.H"
-#include "reactingEuler_phasePair.H"
-#include "fvcGrad.H"
-#include "surfaceInterpolate.H"
-#include "fvcSnGrad.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "BlendedInterfacialModel.H"
+#include "interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

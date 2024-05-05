@@ -38,9 +38,9 @@ SourceFiles
 #ifndef regionModelFunctionObject_H
 #define regionModelFunctionObject_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

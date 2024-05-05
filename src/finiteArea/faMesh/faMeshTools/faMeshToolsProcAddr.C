@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshTools.H"
-#include "BitOps.H"
-#include "fileOperation.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "IOmapDistributePolyMesh.H"
+#include "faMesh/faMeshTools/faMeshTools.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/IOmapDistributePolyMesh.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceOnlySet.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
+#include "sampledSet/face/faceOnlySet.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/polyMesh/polyMesh.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

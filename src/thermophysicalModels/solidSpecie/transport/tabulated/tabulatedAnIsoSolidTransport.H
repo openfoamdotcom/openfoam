@@ -62,7 +62,7 @@ SourceFiles
 #ifndef Foam_tabulatedAnIsoSolidTransport_H
 #define Foam_tabulatedAnIsoSolidTransport_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,10 +168,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tabulatedAnIsoSolidTransportI.H"
+#include "transport/tabulated/tabulatedAnIsoSolidTransportI.H"
 
 #ifdef NoRepository
-    #include "tabulatedAnIsoSolidTransport.C"
+    #include "transport/tabulated/tabulatedAnIsoSolidTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

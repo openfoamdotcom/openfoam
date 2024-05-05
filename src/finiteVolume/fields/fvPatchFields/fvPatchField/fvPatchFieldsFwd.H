@@ -28,7 +28,7 @@ License
 #ifndef Foam_fvPatchFieldsFwd_H
 #define Foam_fvPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

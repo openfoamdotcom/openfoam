@@ -94,8 +94,8 @@ SourceFiles
 #ifndef functionObjects_age_H
 #define functionObjects_age_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFields.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

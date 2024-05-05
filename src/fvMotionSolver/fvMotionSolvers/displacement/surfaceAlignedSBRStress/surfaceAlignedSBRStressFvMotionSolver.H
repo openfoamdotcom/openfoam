@@ -84,9 +84,9 @@ SourceFiles
 #ifndef surfaceAlignedSBRStressFvMotionSolver_H
 #define surfaceAlignedSBRStressFvMotionSolver_H
 
-#include "triSurfaceMesh.H"
-#include "vectorList.H"
-#include "displacementSBRStressFvMotionSolver.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "fvMotionSolvers/displacement/SBRStress/displacementSBRStressFvMotionSolver.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

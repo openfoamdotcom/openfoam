@@ -27,13 +27,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sensitivitySurface.H"
-#include "volPointInterpolationAdjoint.H"
-#include "faMatrices.H"
-#include "famSup.H"
-#include "famLaplacian.H"
-#include "volSurfaceMapping.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/surface/sensitivitySurface.H"
+#include "interpolation/volPointInterpolation/volPointInterpolationAdjoint.H"
+#include "faMatrices/faMatrices.H"
+#include "finiteArea/fam/famSup.H"
+#include "finiteArea/fam/famLaplacian.H"
+#include "interpolation/volSurfaceMapping/volSurfaceMapping.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

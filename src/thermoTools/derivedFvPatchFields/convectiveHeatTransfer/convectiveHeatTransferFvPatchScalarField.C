@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "convectiveHeatTransferFvPatchScalarField.H"
-#include "turbulentFluidThermoModel.H"
-#include "fvPatchFieldMapper.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/convectiveHeatTransfer/convectiveHeatTransferFvPatchScalarField.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,8 +41,8 @@ SourceFiles
 #ifndef Foam_GeometricField_H
 #define Foam_GeometricField_H
 
-#include "regIOobject.H"
-#include "GeometricBoundaryField.H"
+#include "db/regIOobject/regIOobject.H"
+#include "fields/GeometricFields/GeometricField/GeometricBoundaryField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -972,13 +972,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GeometricFieldI.H"
+#include "fields/GeometricFields/GeometricField/GeometricFieldI.H"
 
 #ifdef NoRepository
-    #include "GeometricField.C"
+    #include "fields/GeometricFields/GeometricField/GeometricField.C"
 #endif
 
-#include "GeometricFieldFunctions.H"
+#include "fields/GeometricFields/GeometricField/GeometricFieldFunctions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

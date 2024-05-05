@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvExprDriver.H"
-#include "fvExprDriverWriter.H"
-#include "expressionEntry.H"
-#include "exprResultGlobals.H"
+#include "expressions/base/fvExprDriver.H"
+#include "expressions/base/fvExprDriverWriter.H"
+#include "expressions/exprEntry/expressionEntry.H"
+#include "expressions/exprResult/exprResultGlobals.H"
 
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "stringOps.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

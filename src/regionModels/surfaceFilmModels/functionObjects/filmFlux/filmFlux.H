@@ -83,8 +83,8 @@ SourceFiles
 #ifndef functionObjects_filmFlux_H
 #define functionObjects_filmFlux_H
 
-#include "stateFunctionObject.H"
-#include "kinematicSingleLayer.H"
+#include "db/functionObjects/stateFunctionObject/stateFunctionObject.H"
+#include "kinematicSingleLayer/kinematicSingleLayer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

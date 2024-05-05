@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveModel.H"
-#include "fvMesh.H"
+#include "waveModel/waveModel.H"
+#include "fvMesh/fvMesh.H"
 
 Foam::autoPtr<Foam::waveModel> Foam::waveModel::New
 (

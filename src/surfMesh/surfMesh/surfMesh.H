@@ -41,11 +41,11 @@ SourceFiles
 #ifndef Foam_surfMesh_H
 #define Foam_surfMesh_H
 
-#include "surfaceRegistry.H"
-#include "MeshedSurfaceIOAllocator.H"
-#include "primitivePatch.H"
-#include "surfZoneIOList.H"
-#include "surfFieldsFwd.H"
+#include "surfaceRegistry/surfaceRegistry.H"
+#include "MeshedSurfaceAllocator/MeshedSurfaceIOAllocator.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "surfZone/surfZoneIOList.H"
+#include "surfMesh/fields/surfFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -400,7 +400,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "surfMeshTemplates.C"
+    #include "surfMesh/surfMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

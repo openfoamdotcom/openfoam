@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSurface.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

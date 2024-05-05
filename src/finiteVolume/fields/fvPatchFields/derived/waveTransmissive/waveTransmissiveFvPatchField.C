@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveTransmissiveFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "EulerDdtScheme.H"
-#include "CrankNicolsonDdtScheme.H"
-#include "backwardDdtScheme.H"
+#include "fields/fvPatchFields/derived/waveTransmissive/waveTransmissiveFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/CrankNicolsonDdtScheme/CrankNicolsonDdtScheme.H"
+#include "finiteVolume/ddtSchemes/backwardDdtScheme/backwardDdtScheme.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

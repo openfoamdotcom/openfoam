@@ -79,7 +79,7 @@ SourceFiles
 #ifndef LaakkonenAlopaeusAittamaa_H
 #define LaakkonenAlopaeusAittamaa_H
 
-#include "breakupModel.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

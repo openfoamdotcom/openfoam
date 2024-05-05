@@ -39,12 +39,12 @@ SourceFiles
 #ifndef Foam_topoSet_H
 #define Foam_topoSet_H
 
-#include "HashSet.H"
-#include "regIOobject.H"
-#include "labelList.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "pointField.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/regIOobject/regIOobject.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -403,7 +403,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "topoSetTemplates.C"
+    #include "topoSet/topoSets/topoSetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

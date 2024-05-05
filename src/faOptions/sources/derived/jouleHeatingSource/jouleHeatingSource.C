@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jouleHeatingSource.H"
-#include "fam.H"
-#include "faScalarMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/jouleHeatingSource/jouleHeatingSource.H"
+#include "finiteArea/fam/fam.H"
+#include "faMatrices/faScalarMatrix/faScalarMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

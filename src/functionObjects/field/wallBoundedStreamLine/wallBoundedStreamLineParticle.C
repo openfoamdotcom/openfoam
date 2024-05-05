@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoundedStreamLineParticle.H"
-#include "vectorFieldIOField.H"
+#include "wallBoundedStreamLine/wallBoundedStreamLineParticle.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fa.H"
-#include "HashTable.H"
-#include "objectRegistry.H"
-#include "solution.H"
+#include "finiteArea/fa/fa.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "matrices/solution/solution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

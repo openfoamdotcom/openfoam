@@ -28,8 +28,8 @@ License
 #ifndef makeFaOption_H
 #define makeFaOption_H
 
-#include "faOption.H"
-#include "addToRunTimeSelectionTable.H"
+#include "faOption/faOption.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

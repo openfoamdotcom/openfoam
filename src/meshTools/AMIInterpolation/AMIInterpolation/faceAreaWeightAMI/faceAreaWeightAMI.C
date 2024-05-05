@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceAreaWeightAMI.H"
-#include "profiling.H"
-#include "OBJstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "AMIInterpolation/AMIInterpolation/faceAreaWeightAMI/faceAreaWeightAMI.H"
+#include "global/profiling/profiling.H"
+#include "obj/OBJstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

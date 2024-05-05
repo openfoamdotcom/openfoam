@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diffusionGasEvaporation.H"
-#include "constants.H"
-#include "cutCellIso.H"
-#include "volPointInterpolation.H"
-#include "fvcGrad.H"
+#include "massTransferModels/diffusionGasEvaporation/diffusionGasEvaporation.H"
+#include "global/constants/constants.H"
+#include "cellCuts/cutCell/cutCellIso.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 using namespace Foam::constant;
 

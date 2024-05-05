@@ -37,12 +37,12 @@ SourceFiles
 #ifndef surfaceZonesInfo_H
 #define surfaceZonesInfo_H
 
-#include "Enum.H"
-#include "pointField.H"
-#include "word.H"
-#include "PtrList.H"
-#include "labelList.H"
-#include "boolList.H"
+#include "primitives/enums/Enum.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/strings/word/word.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

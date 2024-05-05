@@ -37,9 +37,9 @@ SourceFiles
 #ifndef regionFaModels_forceList_H
 #define regionFaModels_forceList_H
 
-#include "PtrList.H"
-#include "regionFaModels_force.H"
-#include "faCFD.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "liquidFilm/subModels/kinematic/force/force/regionFaModels_force.H"
+#include "include/faCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

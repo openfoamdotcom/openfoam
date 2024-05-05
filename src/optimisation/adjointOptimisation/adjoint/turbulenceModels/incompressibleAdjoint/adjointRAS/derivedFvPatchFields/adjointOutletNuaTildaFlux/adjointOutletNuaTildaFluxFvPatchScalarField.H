@@ -39,8 +39,8 @@ SourceFiles
 #ifndef adjointOutletNuaTildaFluxFvPatchScalarField_H
 #define adjointOutletNuaTildaFluxFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "adjointBoundaryConditions.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryConditions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

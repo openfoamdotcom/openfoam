@@ -37,8 +37,8 @@ SourceFiles
 #ifndef EulerImplicit_H
 #define EulerImplicit_H
 
-#include "chemistrySolver.H"
-#include "Switch.H"
+#include "chemistrySolver/chemistrySolver/chemistrySolver.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EulerImplicit.C"
+    #include "chemistrySolver/EulerImplicit/EulerImplicit.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

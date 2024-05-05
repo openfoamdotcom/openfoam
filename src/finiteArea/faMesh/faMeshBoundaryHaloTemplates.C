@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshBoundaryHalo.H"
-#include "IndirectList.H"
-#include "Pstream.H"
+#include "faMesh/faMeshBoundaryHalo.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

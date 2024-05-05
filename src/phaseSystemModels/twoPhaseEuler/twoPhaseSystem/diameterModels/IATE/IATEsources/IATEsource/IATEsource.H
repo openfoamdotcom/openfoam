@@ -39,8 +39,8 @@ SourceFiles
 #ifndef IATEsource_H
 #define IATEsource_H
 
-#include "IATE.H"
-#include "mathematicalConstants.H"
+#include "diameterModels/IATE/IATE.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

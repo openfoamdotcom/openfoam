@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitHeight.H"
-#include "areaFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "corrections/limitHeight/limitHeight.H"
+#include "fields/areaFields/areaFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

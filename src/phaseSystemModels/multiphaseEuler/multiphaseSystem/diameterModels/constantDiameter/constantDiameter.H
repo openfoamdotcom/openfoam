@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_multiphaseEuler_diameterModels_constant_H
 #define Foam_multiphaseEuler_diameterModels_constant_H
 
-#include "diameterModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

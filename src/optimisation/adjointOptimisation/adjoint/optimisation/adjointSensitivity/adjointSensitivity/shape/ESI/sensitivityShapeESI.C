@@ -27,12 +27,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryFieldsFwd.H"
-#include "sensitivityShapeESI.H"
-#include "adjointSolver.H"
-#include "ShapeSensitivitiesBase.H"
-#include "fvOptions.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/boundaryFieldsFwd.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/ESI/sensitivityShapeESI.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/shapeSensitivityBase/ShapeSensitivitiesBase.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

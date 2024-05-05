@@ -42,12 +42,12 @@ SourceFiles
 #ifndef degenerateMatcher_H
 #define degenerateMatcher_H
 
-#include "hexMatcher.H"
-#include "wedgeMatcher.H"
-#include "prismMatcher.H"
-#include "tetWedgeMatcher.H"
-#include "pyrMatcher.H"
-#include "tetMatcher.H"
+#include "meshes/meshShapes/cellMatcher/hexMatcher.H"
+#include "meshes/meshShapes/cellMatcher/wedgeMatcher.H"
+#include "meshes/meshShapes/cellMatcher/prismMatcher.H"
+#include "meshes/meshShapes/cellMatcher/tetWedgeMatcher.H"
+#include "meshes/meshShapes/cellMatcher/pyrMatcher.H"
+#include "meshes/meshShapes/cellMatcher/tetMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

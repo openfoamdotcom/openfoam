@@ -66,7 +66,7 @@ SourceFiles
 #ifndef Zuber_H
 #define Zuber_H
 
-#include "CHFModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/CHFModels/CHFModel/CHFModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_lduPrimitiveProcessorInterface_H
 #define Foam_lduPrimitiveProcessorInterface_H
 
-#include "GAMGInterface.H"
-#include "processorLduInterface.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

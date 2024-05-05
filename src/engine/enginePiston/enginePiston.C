@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "enginePiston.H"
-#include "engineTime.H"
-#include "polyMesh.H"
-#include "interpolateXY.H"
+#include "enginePiston/enginePiston.H"
+#include "engineTime/engineTime/engineTime.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "interpolations/interpolateXY/interpolateXY.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

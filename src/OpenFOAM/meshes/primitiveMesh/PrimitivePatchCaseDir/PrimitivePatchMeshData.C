@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchPascal.H"
-#include "Map.H"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchPascal.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

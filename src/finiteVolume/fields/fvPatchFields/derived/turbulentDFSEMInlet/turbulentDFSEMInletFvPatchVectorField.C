@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentDFSEMInletFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "momentOfInertia.H"
-#include "OFstream.H"
+#include "fields/fvPatchFields/derived/turbulentDFSEMInlet/turbulentDFSEMInletFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "momentOfInertia/momentOfInertia.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

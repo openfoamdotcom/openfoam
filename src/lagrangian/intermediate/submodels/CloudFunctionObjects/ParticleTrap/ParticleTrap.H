@@ -52,8 +52,8 @@ SourceFiles
 #ifndef ParticleTrap_H
 #define ParticleTrap_H
 
-#include "CloudFunctionObject.H"
-#include "volFields.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,7 +157,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticleTrap.C"
+    #include "submodels/CloudFunctionObjects/ParticleTrap/ParticleTrap.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

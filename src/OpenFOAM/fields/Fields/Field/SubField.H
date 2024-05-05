@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_SubField_H
 #define Foam_SubField_H
 
-#include "Field.H"
-#include "SubList.H"
+#include "fields/Fields/Field/Field.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,7 +170,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SubFieldI.H"
+#include "fields/Fields/Field/SubFieldI.H"
 
 // * * * * * * * * * * * * * * * Implementations * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "profilingInformation.H"
-#include "IOstreams.H"
-#include "Switch.H"
+#include "global/profiling/profilingInformation.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

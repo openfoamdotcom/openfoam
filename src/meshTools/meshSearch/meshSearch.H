@@ -39,9 +39,9 @@ SourceFiles
 #ifndef meshSearch_H
 #define meshSearch_H
 
-#include "pointIndexHit.H"
-#include "pointField.H"
-#include "polyMesh.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

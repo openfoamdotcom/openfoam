@@ -35,8 +35,8 @@ Description
 #ifndef Foam_distributedPointPatchFieldMapper_H
 #define Foam_distributedPointPatchFieldMapper_H
 
-#include "distributedFieldMapper.H"
-#include "directPointPatchFieldMapper.H"
+#include "fields/Fields/Field/distributedFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/directPointPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

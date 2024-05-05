@@ -28,8 +28,8 @@ License
 #ifndef makeFvOption_H
 #define makeFvOption_H
 
-#include "fvOption.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

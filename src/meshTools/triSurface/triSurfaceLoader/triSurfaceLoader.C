@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceLoader.H"
-#include "fileNameList.H"
-#include "TimeOpenFOAM.H"
-#include "OSspecific.H"
+#include "triSurface/triSurfaceLoader/triSurfaceLoader.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

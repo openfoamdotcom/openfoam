@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Dual.H"
-#include "coupledPointPatchField.H"
+#include "submodels/MPPIC/AveragingMethods/Dual/Dual.H"
+#include "fields/pointPatchFields/basic/coupled/coupledPointPatchField.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

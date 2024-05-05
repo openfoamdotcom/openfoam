@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Bromley.H"
-#include "addToRunTimeSelectionTable.H"
-#include "uniformDimensionedFields.H"
-#include "constants.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/filmBoilingModels/Bromley/Bromley.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant;
 

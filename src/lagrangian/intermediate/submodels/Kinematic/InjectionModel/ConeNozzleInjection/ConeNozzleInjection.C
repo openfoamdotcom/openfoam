@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ConeNozzleInjection.H"
-#include "Function1Pascal.H"
-#include "unitConversion.H"
-#include "distributionModel.H"
+#include "submodels/Kinematic/InjectionModel/ConeNozzleInjection/ConeNozzleInjection.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "global/constants/unitConversion.H"
+#include "distributionModel/distributionModel.H"
 
 using namespace Foam::constant;
 

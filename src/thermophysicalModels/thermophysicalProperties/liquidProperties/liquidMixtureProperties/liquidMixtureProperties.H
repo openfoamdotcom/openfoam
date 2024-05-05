@@ -53,9 +53,9 @@ See also
 #ifndef liquidMixtureProperties_H
 #define liquidMixtureProperties_H
 
-#include "liquidProperties.H"
-#include "PtrList.H"
-#include "scalarField.H"
+#include "liquidProperties/liquidProperties/liquidProperties.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

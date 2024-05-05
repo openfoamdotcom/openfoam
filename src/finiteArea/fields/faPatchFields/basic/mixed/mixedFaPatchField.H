@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Foam_mixedFaPatchField_H
 #define Foam_mixedFaPatchField_H
 
-#include "faPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -298,7 +298,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mixedFaPatchField.C"
+    #include "fields/faPatchFields/basic/mixed/mixedFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

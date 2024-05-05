@@ -37,10 +37,10 @@ SourceFiles
 #ifndef pointPatchMapper_H
 #define pointPatchMapper_H
 
-#include "pointMapper.H"
-#include "pointPatchFieldMapper.H"
-#include "pointPatch.H"
-#include "primitiveFields.H"
+#include "meshes/pointMesh/pointMeshMapper/pointMapper.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

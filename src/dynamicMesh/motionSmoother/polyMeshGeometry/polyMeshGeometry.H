@@ -41,8 +41,8 @@ SourceFiles
 #ifndef polyMeshGeometry_H
 #define polyMeshGeometry_H
 
-#include "pointFields.H"
-#include "HashSet.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "alphatWallBoilingWallFunctionFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 #include "compressibleTurbulenceModel.H"
-#include "ThermalDiffusivity.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "saturationModel.H"
-#include "wallFvPatch.H"
-#include "uniformDimensionedFields.H"
-#include "mathematicalConstants.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "saturationModel/saturationModel.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;
 

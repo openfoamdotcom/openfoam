@@ -42,7 +42,7 @@ SourceFiles
 #ifndef NonEquilibriumReversibleReaction_H
 #define NonEquilibriumReversibleReaction_H
 
-#include "Reaction.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NonEquilibriumReversibleReaction.C"
+    #include "reaction/ReactionsCaseDir/NonEquilibriumReversibleReaction/NonEquilibriumReversibleReaction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

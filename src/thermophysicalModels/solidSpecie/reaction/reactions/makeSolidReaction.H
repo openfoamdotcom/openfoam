@@ -35,11 +35,11 @@ Description
 #ifndef makeSolidReaction_H
 #define makeSolidReaction_H
 
-#include "solidReaction.H"
-#include "IrreversibleReaction.H"
-#include "Reaction.H"
+#include "reaction/ReactionsCaseDir/solidReaction/solidReaction.H"
+#include "reaction/ReactionsCaseDir/IrreversibleReaction/IrreversibleReaction.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprDriver.H"
-#include "exprTools.H"
-#include "stringOps.H"
+#include "expressions/exprDriver/exprDriver.H"
+#include "expressions/exprTools/exprTools.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

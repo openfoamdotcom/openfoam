@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactionsSensitivityAnalysis.H"
-#include "dictionary.H"
+#include "reactionSensitivityAnalysis/reactionsSensitivityAnalysis.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

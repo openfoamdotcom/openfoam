@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "cellCellStencil.H"
-#include "cellCellStencilObject.H"
-#include "oversetFvMeshBase.H"
-#include "syncTools.H"
+#include "fields/volFields/volFields.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencil.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "oversetFvMesh/oversetFvMeshBase.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

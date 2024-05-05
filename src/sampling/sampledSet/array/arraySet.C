@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "arraySet.H"
-#include "sampledSet.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "word.H"
+#include "sampledSet/array/arraySet.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

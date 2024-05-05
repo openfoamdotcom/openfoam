@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "irregularWaveModel.H"
+#include "waveGenerationModels/base/irregularWaveModel/irregularWaveModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

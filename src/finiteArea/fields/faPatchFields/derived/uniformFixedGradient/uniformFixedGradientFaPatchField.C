@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedGradientFaPatchField.H"
+#include "fields/faPatchFields/derived/uniformFixedGradient/uniformFixedGradientFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

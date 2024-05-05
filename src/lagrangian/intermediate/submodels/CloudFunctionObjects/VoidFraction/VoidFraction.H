@@ -41,8 +41,8 @@ SourceFiles
 #ifndef VoidFraction_H
 #define VoidFraction_H
 
-#include "CloudFunctionObject.H"
-#include "volFields.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,7 +145,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "VoidFraction.C"
+    #include "submodels/CloudFunctionObjects/VoidFraction/VoidFraction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

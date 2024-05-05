@@ -102,9 +102,9 @@ SourceFiles
 #ifndef fixedTemperatureConstraint_H
 #define fixedTemperatureConstraint_H
 
-#include "cellSetOption.H"
-#include "Enum.H"
-#include "Function1Pascal.H"
+#include "cellSetOption/cellSetOption.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

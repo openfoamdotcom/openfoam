@@ -46,7 +46,7 @@ SourceFiles
 #ifndef ArrheniusViscosity_H
 #define ArrheniusViscosity_H
 
-#include "filmViscosityModel.H"
+#include "submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

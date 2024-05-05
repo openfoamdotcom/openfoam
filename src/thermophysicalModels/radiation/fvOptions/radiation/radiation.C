@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radiation.H"
-#include "fluidThermo.H"
-#include "fvMatrices.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/radiation/radiation.H"
+#include "fluidThermo/fluidThermo.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

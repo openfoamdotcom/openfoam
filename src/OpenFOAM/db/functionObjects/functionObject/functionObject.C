@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionObject.H"
-#include "dictionary.H"
-#include "dlLibraryTable.H"
-#include "TimeOpenFOAM.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "db/dictionary/dictionary.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

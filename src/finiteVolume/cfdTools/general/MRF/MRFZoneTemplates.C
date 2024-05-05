@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MRFZone.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatrices.H"
+#include "cfdTools/general/MRF/MRFZone.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

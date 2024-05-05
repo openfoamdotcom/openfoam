@@ -53,7 +53,7 @@ SourceFiles
 #ifndef Foam_extrapolatedCalculatedFaPatchField_H
 #define Foam_extrapolatedCalculatedFaPatchField_H
 
-#include "calculatedFaPatchField.H"
+#include "fields/faPatchFields/basic/calculated/calculatedFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -154,7 +154,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "extrapolatedCalculatedFaPatchField.C"
+    #include "fields/faPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -28,9 +28,9 @@ License
 #ifndef coupledPointPatchFields_H
 #define coupledPointPatchFields_H
 
-#include "coupledPointPatchField.H"
-#include "coupledPointPatch.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/basic/coupled/coupledPointPatchField.H"
+#include "meshes/pointMesh/pointPatches/basic/coupled/coupledPointPatch.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

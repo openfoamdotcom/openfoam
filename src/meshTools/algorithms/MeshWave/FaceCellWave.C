@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FaceCellWave.H"
-#include "polyMesh.H"
-#include "processorPolyPatch.H"
-#include "cyclicPolyPatch.H"
-#include "cyclicAMIPolyPatch.H"
-#include "UIPstream.H"
-#include "UOPstream.H"
-#include "PstreamReduceOps.H"
-#include "debug.H"
-#include "typeInfo.H"
-#include "SubField.H"
-#include "globalMeshData.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "db/IOstreams/Pstreams/UIPstream.H"
+#include "db/IOstreams/Pstreams/UOPstream.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "global/debug/debug.H"
+#include "db/typeInfo/typeInfo.H"
+#include "fields/Fields/Field/SubField.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

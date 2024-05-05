@@ -44,7 +44,7 @@ SeeAlso
 #ifndef Foam_fvSchemes_H
 #define Foam_fvSchemes_H
 
-#include "schemesLookup.H"
+#include "matrices/schemes/schemesLookup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -49,8 +49,8 @@ SourceFiles
 #ifndef rodas34_H
 #define rodas34_H
 
-#include "ODESolver.H"
-#include "adaptiveSolver.H"
+#include "ODESolvers/ODESolver/ODESolver.H"
+#include "ODESolvers/adaptiveSolver/adaptiveSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

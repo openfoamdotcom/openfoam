@@ -177,10 +177,10 @@ SourceFiles
 #ifndef Foam_turbulentDigitalFilterInletFvPatchField_H
 #define Foam_turbulentDigitalFilterInletFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "PatchFunction1.H"
-#include "IntegralScaleBox.H"
-#include "AMIPatchToPatchInterpolation.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "fields/fvPatchFields/derived/turbulentDigitalFilterInlet/IntegralScaleBox/IntegralScaleBox.H"
+#include "AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -362,7 +362,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "turbulentDigitalFilterInletFvPatchField.C"
+    #include "fields/fvPatchFields/derived/turbulentDigitalFilterInlet/turbulentDigitalFilterInletFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "edgeFields.H"
-#include "registerSwitch.H"
+#include "faMesh/faMesh.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

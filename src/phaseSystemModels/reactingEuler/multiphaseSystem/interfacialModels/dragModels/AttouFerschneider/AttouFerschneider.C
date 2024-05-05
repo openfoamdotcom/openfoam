@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AttouFerschneider.H"
-#include "reactingEuler_phasePair.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/AttouFerschneider/AttouFerschneider.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

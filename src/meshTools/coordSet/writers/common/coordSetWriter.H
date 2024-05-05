@@ -54,20 +54,20 @@ SourceFiles
 #ifndef Foam_coordSetWriter_H
 #define Foam_coordSetWriter_H
 
-#include "coordSet.H"
-#include "typeInfo.H"
-#include "vector.H"
-#include "tensor.H"
-#include "fileName.H"
-#include "wordList.H"
-#include "Field.H"
-#include "DynamicList.H"
-#include "PtrDynList.H"
-#include "UPtrList.H"
-#include "instant.H"
-#include "InfoProxy.H"
-#include "cartesianCS.H"
-#include "runTimeSelectionTables.H"
+#include "coordSet/coordSet.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/strings/lists/wordList.H"
+#include "fields/Fields/Field/Field.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/PtrLists/PtrDynList/PtrDynList.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "db/Time/instant/instant.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -628,10 +628,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "coordSetWriterI.H"
+#include "coordSet/writers/common/coordSetWriterI.H"
 
 #ifdef NoRepository
-    #include "coordSetWriterTemplates.C"
+    #include "coordSet/writers/common/coordSetWriterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,9 +38,9 @@ SourceFields
 #ifndef Foam_polyMeshFields_H
 #define Foam_polyMeshFields_H
 
-#include "DimensionedField.H"
-#include "polyGeoMesh.H"
-#include "polyMeshFieldsFwd.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/volume/polyGeoMesh.H"
+#include "fields/volume/polyMeshFieldsFwd.H"
 
 #endif
 

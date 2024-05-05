@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixedFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "areaFields.H"
+#include "fields/faPatchFields/basic/mixed/mixedFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

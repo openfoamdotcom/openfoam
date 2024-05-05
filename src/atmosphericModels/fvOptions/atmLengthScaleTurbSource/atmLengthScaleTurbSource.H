@@ -117,8 +117,8 @@ SourceFiles
 #ifndef fv_atmLengthScaleTurbSource_H
 #define fv_atmLengthScaleTurbSource_H
 
-#include "cellSetOption.H"
-#include "turbulentTransportModel.H"
+#include "cellSetOption/cellSetOption.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -264,7 +264,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "atmLengthScaleTurbSourceTemplates.C"
+    #include "fvOptions/atmLengthScaleTurbSource/atmLengthScaleTurbSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

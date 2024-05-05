@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorTopology.H"
-#include "Pstream.H"
+#include "parallel/processorTopology/processorTopology.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

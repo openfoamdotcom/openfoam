@@ -143,11 +143,11 @@ SourceFiles
 #ifndef functionObjects_turbulenceFields_H
 #define functionObjects_turbulenceFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "HashSet.H"
-#include "Enum.H"
-#include "volFieldsFwd.H"
-#include "Switch.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/enums/Enum.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -306,7 +306,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "turbulenceFieldsTemplates.C"
+    #include "turbulenceFields/turbulenceFieldsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Foam_SquareMatrix_H
 #define Foam_SquareMatrix_H
 
-#include "Matrix.H"
-#include "Identity.H"
+#include "matrices/Matrix/Matrix.H"
+#include "primitives/SphericalTensor/Identity.H"
 #include <numeric>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -203,12 +203,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SquareMatrixI.H"
+#include "matrices/SquareMatrix/SquareMatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SquareMatrix.C"
+    #include "matrices/SquareMatrix/SquareMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faScalarMatrix.H"
-#include "extrapolatedCalculatedFaPatchFields.H"
-#include "profiling.H"
-#include "PrecisionAdaptor.H"
+#include "faMatrices/faScalarMatrix/faScalarMatrix.H"
+#include "fields/faPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFaPatchFields.H"
+#include "global/profiling/profiling.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

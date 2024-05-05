@@ -28,7 +28,7 @@ License
 #ifndef Foam_wedgeFaePatchFields_H
 #define Foam_wedgeFaePatchFields_H
 
-#include "wedgeFaePatchField.H"
+#include "fields/faePatchFields/constraint/wedge/wedgeFaePatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

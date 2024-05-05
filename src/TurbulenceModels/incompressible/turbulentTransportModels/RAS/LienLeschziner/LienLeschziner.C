@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LienLeschziner.H"
-#include "wallDist.H"
-#include "bound.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulentTransportModels/RAS/LienLeschziner/LienLeschziner.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "cfdTools/general/bound/bound.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zoneMotion.H"
-#include "syncTools.H"
-#include "bitSet.H"
-#include "cellSet.H"
-#include "cellZoneMesh.H"
-#include "dictionary.H"
+#include "motionSolvers/displacement/displacement/zoneMotion.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshes/polyMesh/zones/ZoneMesh/cellZoneMesh.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

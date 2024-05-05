@@ -36,7 +36,7 @@ SourceFiles
 #ifndef reactingEuler_orderedPhasePair_H
 #define reactingEuler_orderedPhasePair_H
 
-#include "reactingEuler_phasePair.H"
+#include "phasePair/reactingEuler_phasePair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faBoundaryMesh.H"
-#include "faMesh.H"
-#include "globalIndex.H"
-#include "primitiveMesh.H"
-#include "processorFaPatch.H"
-#include "wordRes.H"
-#include "PtrListOps.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMesh.H"
+#include "faMesh/faMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "face.H"
-#include "triFace.H"
-#include "triangle.H"
-#include "mathematicalConstants.H"
-#include "Circulator.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "containers/Circulators/Circulator.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

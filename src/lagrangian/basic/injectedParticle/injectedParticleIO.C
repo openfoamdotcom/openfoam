@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "injectedParticle.H"
-#include "IOstreams.H"
-#include "IOField.H"
-#include "CloudPascal.H"
+#include "injectedParticle/injectedParticle.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "Cloud/CloudPascal.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

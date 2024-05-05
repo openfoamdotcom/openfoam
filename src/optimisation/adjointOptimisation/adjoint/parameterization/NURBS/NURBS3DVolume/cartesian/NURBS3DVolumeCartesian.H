@@ -40,7 +40,7 @@ SourceFiles
 #ifndef NURBS3DVolumeCartesian_H
 #define NURBS3DVolumeCartesian_H
 
-#include "NURBS3DVolume.H"
+#include "parameterization/NURBS/NURBS3DVolume/NURBS3DVolume/NURBS3DVolume.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

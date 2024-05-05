@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatchDist.H"
-#include "externalPointEdgePoint.H"
-#include "pointMesh.H"
-#include "PointEdgeWave.H"
+#include "pointPatchDist/pointPatchDist.H"
+#include "pointPatchDist/externalPointEdgePoint.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

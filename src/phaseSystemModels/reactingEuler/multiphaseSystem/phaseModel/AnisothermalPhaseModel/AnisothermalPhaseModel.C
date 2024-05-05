@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AnisothermalPhaseModel.H"
-#include "phaseSystem.H"
+#include "phaseModel/AnisothermalPhaseModel/AnisothermalPhaseModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //
 

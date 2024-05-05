@@ -38,9 +38,9 @@ SourceFiles
 #ifndef edgeMeshFormatsCore_H
 #define edgeMeshFormatsCore_H
 
-#include "Map.H"
-#include "HashSet.H"
-#include "labelList.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

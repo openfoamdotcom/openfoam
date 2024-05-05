@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radiationModel.H"
-#include "fvDOM.H"
-#include "specularRadiationMixedFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "wedgePolyPatch.H"
-#include "symmetryPlanePolyPatch.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "radiationModels/fvDOM/fvDOM/fvDOM.H"
+#include "derivedFvPatchFields/specularRadiation/specularRadiationMixedFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetryPlane/symmetryPlanePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Raoult.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/Raoult/Raoult.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

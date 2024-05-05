@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "particle.H"
-#include "transform.H"
-#include "treeDataCell.H"
-#include "cubicEqn.H"
-#include "registerSwitch.H"
-#include "indexedOctree.H"
+#include "particle/particle.H"
+#include "primitives/transform/transform.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
+#include "global/debug/registerSwitch.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

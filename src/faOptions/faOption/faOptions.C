@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faOptions.H"
-#include "faMesh.H"
-#include "TimeOpenFOAM.H"
+#include "faOption/faOptions.H"
+#include "faMesh/faMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

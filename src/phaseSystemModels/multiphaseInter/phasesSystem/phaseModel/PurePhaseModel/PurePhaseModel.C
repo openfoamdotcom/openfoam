@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PurePhaseModel.H"
-#include "multiphaseInterSystem.H"
-#include "basicThermo.H"
+#include "phaseModel/PurePhaseModel/PurePhaseModel.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
+#include "basicThermo/basicThermo.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

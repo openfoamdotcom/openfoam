@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stabilityBlendingFactor.H"
-#include "addToRunTimeSelectionTable.H"
-#include "zeroGradientFvPatchFields.H"
-#include "fvcGrad.H"
-#include "surfaceInterpolate.H"
+#include "stabilityBlendingFactor/stabilityBlendingFactor.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

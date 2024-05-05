@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmega.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "RAS/kOmega/kOmega.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

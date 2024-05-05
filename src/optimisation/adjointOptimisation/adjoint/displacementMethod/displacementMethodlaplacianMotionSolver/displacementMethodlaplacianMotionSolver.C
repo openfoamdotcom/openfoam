@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementMethodlaplacianMotionSolver.H"
-#include "laplacianMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "displacementMethod/displacementMethodlaplacianMotionSolver/displacementMethodlaplacianMotionSolver.H"
+#include "dynamicMesh/motionSolver/laplacianMotionSolver/laplacianMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

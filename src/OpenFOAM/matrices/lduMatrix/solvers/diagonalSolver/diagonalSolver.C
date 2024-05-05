@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diagonalSolver.H"
+#include "matrices/lduMatrix/solvers/diagonalSolver/diagonalSolver.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

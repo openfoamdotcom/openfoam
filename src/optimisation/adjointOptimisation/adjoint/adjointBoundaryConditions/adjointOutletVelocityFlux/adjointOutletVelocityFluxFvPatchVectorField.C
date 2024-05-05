@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointOutletVelocityFluxFvPatchVectorField.H"
-#include "emptyFvPatch.H"
-#include "fvMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "adjointBoundaryConditions/adjointOutletVelocityFlux/adjointOutletVelocityFluxFvPatchVectorField.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

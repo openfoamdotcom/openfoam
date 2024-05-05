@@ -62,7 +62,7 @@ SourceFiles
 #ifndef NicenoKEqn_H
 #define NicenoKEqn_H
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NicenoKEqn.C"
+    #include "TurbulenceModels/phaseCompressible/LES/Niceno/NicenoKEqn.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

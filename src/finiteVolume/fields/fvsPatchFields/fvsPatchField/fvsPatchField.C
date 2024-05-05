@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "surfaceMesh.H"
-#include "fvPatchFieldMapper.H"
+#include "db/IOobject/IOobject.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

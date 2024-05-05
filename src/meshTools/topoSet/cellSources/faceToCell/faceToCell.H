@@ -117,8 +117,8 @@ SourceFiles
 #ifndef faceToCell_H
 #define faceToCell_H
 
-#include "topoSetCellSource.H"
-#include "Enum.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

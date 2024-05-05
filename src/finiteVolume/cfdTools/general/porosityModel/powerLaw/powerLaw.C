@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "powerLaw.H"
-#include "geometricOneField.H"
-#include "fvMatrices.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "cfdTools/general/porosityModel/powerLaw/powerLaw.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -106,7 +106,7 @@ SourceFiles
 #ifndef Foam_functionObjects_components_H
 #define Foam_functionObjects_components_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

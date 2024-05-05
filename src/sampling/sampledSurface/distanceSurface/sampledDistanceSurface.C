@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledDistanceSurface.H"
-#include "dictionary.H"
-#include "volFields.H"
-#include "volPointInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "volumeType.H"
+#include "sampledSurface/distanceSurface/sampledDistanceSurface.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

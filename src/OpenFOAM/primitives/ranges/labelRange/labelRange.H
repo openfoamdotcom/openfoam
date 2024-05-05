@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_labelRange_H
 #define Foam_labelRange_H
 
-#include "IntRange.H"
+#include "primitives/ranges/IntRange/IntRange.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -199,7 +199,7 @@ template<class> struct labelRangeOp;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelRangeI.H"
+#include "primitives/ranges/labelRange/labelRangeI.H"
 
 #endif
 

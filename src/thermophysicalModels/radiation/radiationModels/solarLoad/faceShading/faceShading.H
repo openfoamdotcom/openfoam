@@ -42,9 +42,9 @@ SourceFiles
 #ifndef faceShading_H
 #define faceShading_H
 
-#include "boundaryRadiationProperties.H"
-#include "DynamicField.H"
-#include "triSurface.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationProperties.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

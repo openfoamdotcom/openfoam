@@ -36,8 +36,8 @@ SourceFiles
 #ifndef reactingParcelInjectionDataIOList_H
 #define reactingParcelInjectionDataIOList_H
 
-#include "GlobalIOList.H"
-#include "reactingParcelInjectionData.H"
+#include "db/IOobjects/GlobalIOList/GlobalIOList.H"
+#include "submodels/Reacting/InjectionModel/ReactingLookupTableInjection/reactingParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

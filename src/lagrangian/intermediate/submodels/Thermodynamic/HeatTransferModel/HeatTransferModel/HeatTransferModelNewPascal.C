@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HeatTransferModelPascal.H"
+#include "submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDsurfaceFormatCore.H"
-#include "clock.H"
-#include "regExp.H"
-#include "IFstream.H"
-#include "SubStrings.H"
+#include "surfaceFormats/starcd/STARCDsurfaceFormatCore.H"
+#include "global/clock/clock.H"
+#include "regExp/regExp.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "primitives/strings/lists/SubStrings.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

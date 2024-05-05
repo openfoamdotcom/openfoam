@@ -41,13 +41,13 @@ SourceFiles
 #ifndef Foam_PatchToPatchInterpolation_H
 #define Foam_PatchToPatchInterpolation_H
 
-#include "className.H"
-#include "labelList.H"
-#include "scalarField.H"
-#include "pointField.H"
-#include "FieldFields.H"
-#include "faceList.H"
-#include "intersection.H"
+#include "db/typeInfo/className.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/FieldFields/FieldField/FieldFields.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -249,7 +249,7 @@ public:
 } // End namespace Foam
 
 #ifdef NoRepository
-    #include "PatchToPatchInterpolation.C"
+    #include "interpolations/patchToPatchInterpolation/PatchToPatchInterpolation.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

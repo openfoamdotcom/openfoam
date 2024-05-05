@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ManualInjection.H"
-#include "mathematicalConstants.H"
-#include "bitSet.H"
+#include "submodels/Kinematic/InjectionModel/ManualInjection/ManualInjection.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 using namespace Foam::constant::mathematical;
 

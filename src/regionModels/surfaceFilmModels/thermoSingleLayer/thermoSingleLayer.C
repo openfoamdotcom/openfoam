@@ -26,25 +26,25 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoSingleLayer.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcLaplacian.H"
-#include "fvcFlux.H"
-#include "fvm.H"
-#include "zeroGradientFvPatchFields.H"
-#include "mixedFvPatchFields.H"
-#include "mappedFieldFvPatchField.H"
-#include "mapDistribute.H"
-#include "constants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermoSingleLayer/thermoSingleLayer.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "fields/fvPatchFields/derived/mappedField/mappedFieldFvPatchField.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "global/constants/constants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // Sub-models
-#include "filmThermoModel.H"
-#include "filmViscosityModel.H"
-#include "heatTransferModel.H"
-#include "phaseChangeModel.H"
-#include "filmRadiationModel.H"
+#include "submodels/kinematic/filmThermoModel/filmThermoModel/filmThermoModel.H"
+#include "submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.H"
+#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "submodels/thermo/phaseChangeModel/phaseChangeModel/phaseChangeModel.H"
+#include "submodels/thermo/filmRadiationModel/filmRadiationModel/filmRadiationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

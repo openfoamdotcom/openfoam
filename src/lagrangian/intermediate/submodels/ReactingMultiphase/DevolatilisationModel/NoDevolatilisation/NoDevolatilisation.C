@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoDevolatilisation.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/NoDevolatilisation/NoDevolatilisation.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

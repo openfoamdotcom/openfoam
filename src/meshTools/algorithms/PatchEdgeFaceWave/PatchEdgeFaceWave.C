@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchEdgeFaceWave.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "PatchTools.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

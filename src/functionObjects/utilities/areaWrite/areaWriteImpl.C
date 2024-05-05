@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "areaWrite.H"
-#include "areaFields.H"
-#include "faMesh.H"
+#include "areaWrite/areaWrite.H"
+#include "fields/areaFields/areaFields.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

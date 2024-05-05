@@ -40,8 +40,8 @@ SourceFiles
 #ifndef combustionModel_H
 #define combustionModel_H
 
-#include "IOdictionary.H"
-#include "turbulentFluidThermoModel.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,10 +169,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "combustionModelI.H"
+#include "combustionModel/combustionModelI.H"
 
 #ifdef NoRepository
-    #include "combustionModelTemplates.C"
+    #include "combustionModel/combustionModelTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

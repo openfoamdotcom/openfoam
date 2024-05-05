@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cuttingPlane.H"
-#include "volFields.H"
+#include "surface/cutting/cuttingPlane.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

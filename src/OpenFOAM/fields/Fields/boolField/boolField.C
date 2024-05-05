@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "boolField.H"
-#include "unitConversion.H"
+#include "fields/Fields/boolField/boolField.H"
+#include "global/constants/unitConversion.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.C"
+#include "fields/Fields/Field/FieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -69,6 +69,6 @@ void boolField::replace(const direction, const boolUList& bf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

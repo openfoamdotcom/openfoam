@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseSystemModels_linear.H"
-#include "addToRunTimeSelectionTable.H"
+#include "BlendedInterfacialModel/blendingMethods/linear/phaseSystemModels_linear.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

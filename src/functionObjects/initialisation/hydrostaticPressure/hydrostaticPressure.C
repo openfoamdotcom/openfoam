@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hydrostaticPressure.H"
-#include "basicThermo.H"
-#include "uniformDimensionedFields.H"
-#include "volFields.H"
-#include "surfaceInterpolate.H"
-#include "fvcDiv.H"
-#include "fvmLaplacian.H"
-#include "fvcSnGrad.H"
-#include "constrainPressure.H"
+#include "hydrostaticPressure/hydrostaticPressure.H"
+#include "basicThermo/basicThermo.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

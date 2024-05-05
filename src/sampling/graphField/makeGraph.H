@@ -36,8 +36,8 @@ SourceFiles
 #ifndef makeGraph_H
 #define makeGraph_H
 
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

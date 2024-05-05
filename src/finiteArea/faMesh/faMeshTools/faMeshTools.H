@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_faMeshTools_H
 #define Foam_faMeshTools_H
 
-#include "faMesh.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
+#include "faMesh/faMesh.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faMeshToolsTemplates.C"
+    #include "faMesh/faMeshTools/faMeshToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

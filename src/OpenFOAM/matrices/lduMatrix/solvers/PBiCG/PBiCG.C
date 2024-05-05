@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PBiCG.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/solvers/PBiCG/PBiCG.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

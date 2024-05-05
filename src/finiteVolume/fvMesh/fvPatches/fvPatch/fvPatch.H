@@ -41,17 +41,17 @@ SourceFiles
 #ifndef Foam_fvPatch_H
 #define Foam_fvPatch_H
 
-#include "polyPatch.H"
-#include "labelList.H"
-#include "SubList.H"
-#include "SubField.H"
-#include "PtrList.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "tmp.H"
-#include "primitiveFields.H"
-#include "fvPatchFieldsFwd.H"
-#include "runTimeSelectionTables.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/List/SubList.H"
+#include "fields/Fields/Field/SubField.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/tmp/tmp.H"
+#include "fields/Fields/primitiveFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldsFwd.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -347,7 +347,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvPatchTemplates.C"
+    #include "fvMesh/fvPatches/fvPatch/fvPatchTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

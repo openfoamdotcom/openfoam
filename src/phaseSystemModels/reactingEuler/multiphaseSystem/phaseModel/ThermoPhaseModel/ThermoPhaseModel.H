@@ -41,7 +41,7 @@ SourceFiles
 #ifndef ThermoPhaseModel_H
 #define ThermoPhaseModel_H
 
-#include "reactingEuler_phaseModel.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -181,7 +181,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoPhaseModel.C"
+    #include "phaseModel/ThermoPhaseModel/ThermoPhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

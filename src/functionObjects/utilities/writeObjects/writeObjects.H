@@ -86,9 +86,9 @@ SourceFiles
 #ifndef Foam_functionObjects_writeObjects_H
 #define Foam_functionObjects_writeObjects_H
 
-#include "functionObject.H"
-#include "wordRes.H"
-#include "Enum.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

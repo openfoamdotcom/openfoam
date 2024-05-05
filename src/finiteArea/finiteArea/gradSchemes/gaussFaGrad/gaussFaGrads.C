@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussFaGrad.H"
-#include "faMesh.H"
+#include "finiteArea/gradSchemes/gaussFaGrad/gaussFaGrad.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

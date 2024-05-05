@@ -27,11 +27,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointSensitivity.H"
-#include "sensitivityShapeFI.H"
-#include "adjointSolver.H"
-#include "fvOptions.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/FI/sensitivityShapeFI.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

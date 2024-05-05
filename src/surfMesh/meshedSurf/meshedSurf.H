@@ -34,9 +34,9 @@ Description
 #ifndef Foam_meshedSurf_H
 #define Foam_meshedSurf_H
 
-#include "pointField.H"
-#include "faceList.H"
-#include "labelList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

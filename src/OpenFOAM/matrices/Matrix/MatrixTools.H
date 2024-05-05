@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_MatrixTools_H
 #define Foam_MatrixTools_H
 
-#include "Matrix.H"
+#include "matrices/Matrix/Matrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -80,7 +80,7 @@ Ostream& printMatrix(Ostream& os, const Container& mat);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MatrixTools.C"
+    #include "matrices/Matrix/MatrixTools.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

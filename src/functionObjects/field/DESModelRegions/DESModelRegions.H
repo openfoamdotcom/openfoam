@@ -95,10 +95,10 @@ SourceFiles
 #ifndef functionObjects_DESModelRegions_H
 #define functionObjects_DESModelRegions_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "volFieldsFwd.H"
-#include "OFstream.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

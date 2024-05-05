@@ -41,8 +41,8 @@ SourceFiles
 #ifndef sphericalTensor_H
 #define sphericalTensor_H
 
-#include "SphericalTensorPascal.H"
-#include "Identity.H"
+#include "primitives/SphericalTensor/SphericalTensorPascal.H"
+#include "primitives/SphericalTensor/Identity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

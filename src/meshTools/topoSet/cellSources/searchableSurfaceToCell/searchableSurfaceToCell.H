@@ -85,8 +85,8 @@ SourceFiles
 #ifndef Foam_searchableSurfaceToCell_H
 #define Foam_searchableSurfaceToCell_H
 
-#include "topoSetCellSource.H"
-#include "searchableSurface.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "demandDrivenEntry.H"
+#include "primitives/demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * * //
 

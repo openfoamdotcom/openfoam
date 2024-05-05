@@ -71,8 +71,8 @@ SourceFiles
 #ifndef RNGkEpsilon_H
 #define RNGkEpsilon_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -215,7 +215,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "RNGkEpsilon.C"
+    #include "RAS/RNGkEpsilon/RNGkEpsilon.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

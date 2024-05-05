@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_zeroGradientFaPatchField_H
 #define Foam_zeroGradientFaPatchField_H
 
-#include "faPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zeroGradientFaPatchField.C"
+    #include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

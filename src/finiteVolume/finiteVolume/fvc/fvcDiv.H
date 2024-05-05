@@ -38,8 +38,8 @@ SourceFiles
 #ifndef fvcDiv_H
 #define fvcDiv_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -179,7 +179,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcDiv.C"
+    #include "finiteVolume/fvc/fvcDiv.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

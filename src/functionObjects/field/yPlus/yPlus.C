@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "yPlus.H"
-#include "volFields.H"
+#include "yPlus/yPlus.H"
+#include "fields/volFields/volFields.H"
 #include "turbulenceModel.H"
-#include "nutWallFunctionFvPatchScalarField.H"
-#include "wallFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

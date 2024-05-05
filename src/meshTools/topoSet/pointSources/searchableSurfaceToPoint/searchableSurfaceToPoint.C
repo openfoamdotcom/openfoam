@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceToPoint.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/pointSources/searchableSurfaceToPoint/searchableSurfaceToPoint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

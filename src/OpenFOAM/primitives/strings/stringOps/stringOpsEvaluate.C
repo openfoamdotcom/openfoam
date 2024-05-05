@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringOpsEvaluate.H"
-#include "stringOps.H"
-#include "StringStream.H"
-#include "fieldExprDriver.H"
-#include "error.H"
+#include "primitives/strings/stringOps/stringOpsEvaluate.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "expressions/fields/fieldExprDriver.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef Foam_faePatchFieldMacros_H
 #define Foam_faePatchFieldMacros_H
 
-#include "fieldTypes.H"
-#include "faePatchField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Runtime selection macros

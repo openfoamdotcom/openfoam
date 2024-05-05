@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentDispersionModel.H"
-#include "phasePair.H"
-#include "fvcGrad.H"
+#include "interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
+#include "phasePair/phasePair.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

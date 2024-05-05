@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "openFoamTableReader.H"
-#include "fileOperation.H"
+#include "interpolations/interpolationTable/tableReaders/openFoam/openFoamTableReader.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

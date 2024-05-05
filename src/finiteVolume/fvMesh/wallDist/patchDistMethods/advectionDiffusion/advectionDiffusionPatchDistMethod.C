@@ -28,18 +28,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "advectionDiffusionPatchDistMethod.H"
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "fvcDiv.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
-#include "fvOptions.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/wallDist/patchDistMethods/advectionDiffusion/advectionDiffusionPatchDistMethod.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

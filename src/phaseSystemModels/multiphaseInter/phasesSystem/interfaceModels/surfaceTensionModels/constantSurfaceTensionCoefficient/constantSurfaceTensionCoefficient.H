@@ -37,8 +37,8 @@ SourceFiles
 #ifndef surfaceTensionModels_constantSurfaceTensionCoefficient_H
 #define surfaceTensionModels_constantSurfaceTensionCoefficient_H
 
-#include "surfaceTensionModel.H"
-#include "phasePair.H"
+#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "phasePair/phasePair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

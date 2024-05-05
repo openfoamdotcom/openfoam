@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundBox.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * Geometrical Information * * * * * * * * * * * * //
 

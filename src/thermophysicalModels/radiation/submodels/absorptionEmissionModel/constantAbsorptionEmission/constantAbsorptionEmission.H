@@ -41,7 +41,7 @@ SourceFiles
 #ifndef radiation_constantAbsorptionEmission_H
 #define radiation_constantAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

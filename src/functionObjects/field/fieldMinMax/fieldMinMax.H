@@ -101,12 +101,12 @@ SourceFiles
 #ifndef functionObjects_fieldMinMax_H
 #define functionObjects_fieldMinMax_H
 
-#include "Switch.H"
-#include "Enum.H"
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "vector.H"
-#include "volFieldSelection.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/enums/Enum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/Vector/floats/vector.H"
+#include "functionObjects/fieldSelections/volFieldSelection/volFieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -240,7 +240,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldMinMaxTemplates.C"
+    #include "fieldMinMax/fieldMinMaxTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

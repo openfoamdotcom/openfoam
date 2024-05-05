@@ -39,7 +39,7 @@ SourceFiles
 #ifndef nonuniformTransformCyclicPolyPatch_H
 #define nonuniformTransformCyclicPolyPatch_H
 
-#include "cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef IOporosityModelList_H
 #define IOporosityModelList_H
 
-#include "IOdictionary.H"
-#include "porosityModelList.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

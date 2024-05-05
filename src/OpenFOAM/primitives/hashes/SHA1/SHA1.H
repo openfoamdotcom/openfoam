@@ -47,7 +47,7 @@ SourceFiles
 
 #include <string>
 #include <cstdint>
-#include "SHA1Digest.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -195,7 +195,7 @@ inline Ostream& operator<<(Ostream& os, const SHA1& sha);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SHA1I.H"
+#include "primitives/hashes/SHA1/SHA1I.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

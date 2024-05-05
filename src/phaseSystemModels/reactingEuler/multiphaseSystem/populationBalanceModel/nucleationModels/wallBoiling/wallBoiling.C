@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoiling.H"
-#include "alphatWallBoilingWallFunctionFvPatchScalarField.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/IATE/IATEsources/wallBoiling/wallBoiling.H"
+#include "derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

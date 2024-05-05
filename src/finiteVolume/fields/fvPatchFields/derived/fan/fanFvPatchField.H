@@ -114,8 +114,8 @@ SourceFiles
 #ifndef fanFvPatchField_H
 #define fanFvPatchField_H
 
-#include "uniformJumpFvPatchField.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/derived/uniformJump/uniformJumpFvPatchField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -247,7 +247,7 @@ void fanFvPatchField<scalar>::calcFanJump();
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fanFvPatchField.C"
+    #include "fields/fvPatchFields/derived/fan/fanFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

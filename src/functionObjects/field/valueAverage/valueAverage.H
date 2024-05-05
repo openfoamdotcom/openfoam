@@ -96,9 +96,9 @@ SourceFiles
 #ifndef functionObjects_valueAverage_H
 #define functionObjects_valueAverage_H
 
-#include "regionFunctionObject.H"
-#include "valueAverageBase.H"
-#include "writeFile.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "db/functionObjects/valueAverageBase/valueAverageBase.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

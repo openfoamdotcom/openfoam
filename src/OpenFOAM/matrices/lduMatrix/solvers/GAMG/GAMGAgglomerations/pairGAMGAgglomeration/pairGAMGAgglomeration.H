@@ -39,7 +39,7 @@ SourceFiles
 #ifndef pairGAMGAgglomeration_H
 #define pairGAMGAgglomeration_H
 
-#include "GAMGAgglomeration.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

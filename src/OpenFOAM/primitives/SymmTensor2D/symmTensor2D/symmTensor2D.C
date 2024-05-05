@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensor2D.H"
+#include "primitives/SymmTensor2D/symmTensor2D/symmTensor2D.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef searchableSurfacesQueries_H
 #define searchableSurfacesQueries_H
 
-#include "searchableSurface.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

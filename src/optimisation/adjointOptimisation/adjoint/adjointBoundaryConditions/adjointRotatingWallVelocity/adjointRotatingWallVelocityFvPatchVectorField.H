@@ -41,8 +41,8 @@ SourceFiles
 #ifndef adjointRotatingWallVelocityFvPatchVectorField_H
 #define adjointRotatingWallVelocityFvPatchVectorField_H
 
-#include "adjointWallVelocityFvPatchVectorField.H"
-#include "Function1Pascal.H"
+#include "adjointBoundaryConditions/adjointWallVelocity/adjointWallVelocityFvPatchVectorField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

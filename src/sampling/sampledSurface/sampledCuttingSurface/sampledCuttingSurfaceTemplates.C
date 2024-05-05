@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledCuttingSurface.H"
+#include "sampledSurface/sampledCuttingSurface/sampledCuttingSurface.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

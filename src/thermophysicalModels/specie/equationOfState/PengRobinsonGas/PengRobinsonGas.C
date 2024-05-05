@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PengRobinsonGas.H"
-#include "IOstreams.H"
+#include "equationOfState/PengRobinsonGas/PengRobinsonGas.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

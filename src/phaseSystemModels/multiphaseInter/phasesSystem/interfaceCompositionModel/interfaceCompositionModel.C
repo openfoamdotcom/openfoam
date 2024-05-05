@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceCompositionModel.H"
-#include "phaseModel.H"
-#include "phasePair.H"
+#include "interfaceCompositionModel/interfaceCompositionModel.H"
+#include "phaseModel/phaseModel.H"
+#include "phasePair/phasePair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

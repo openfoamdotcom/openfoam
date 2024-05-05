@@ -37,7 +37,7 @@ SourceFiles
 #ifndef solverPerformance_H
 #define solverPerformance_H
 
-#include "SolverPerformanceDeCased.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/SolverPerformanceDeCased.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

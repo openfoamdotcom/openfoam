@@ -110,9 +110,9 @@ SourceFiles
 #ifndef Foam_enthalpySorptionFvPatchScalarField_H
 #define Foam_enthalpySorptionFvPatchScalarField_H
 
-#include "boundarySourcePatch.H"
-#include "zeroGradientFvPatchFields.H"
-#include "Function1Pascal.H"
+#include "derivedFvPatchFields/boundarySourcePatch/boundarySourcePatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

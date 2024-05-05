@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PolynomialEntry.H"
+#include "primitives/functions/Function1/Polynomial/PolynomialEntry.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jouleHeatingSource.H"
-#include "fvMatrices.H"
-#include "fvmLaplacian.H"
-#include "fvcGrad.H"
-#include "zeroGradientFvPatchField.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/jouleHeatingSource/jouleHeatingSource.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "basicThermo/basicThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

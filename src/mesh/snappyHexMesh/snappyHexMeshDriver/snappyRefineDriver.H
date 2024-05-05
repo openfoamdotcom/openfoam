@@ -37,14 +37,14 @@ SourceFiles
 #ifndef snappyRefineDriver_H
 #define snappyRefineDriver_H
 
-#include "wordPairHashes.H"
-#include "labelList.H"
-#include "scalarField.H"
-#include "Tuple2.H"
-#include "coordSetWriter.H"
-#include "DynamicList.H"
-#include "labelVector.H"
-#include "meshRefinement.H"
+#include "primitives/tuples/wordPairHashes.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/tuples/Tuple2.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/Vector/ints/labelVector.H"
+#include "meshRefinement/meshRefinement.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

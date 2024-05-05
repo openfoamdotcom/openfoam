@@ -53,7 +53,7 @@ SourceFiles
 #ifndef Foam_coordSetWriters_csvWriter_H
 #define Foam_coordSetWriters_csvWriter_H
 
-#include "coordSetWriter.H"
+#include "coordSet/writers/common/coordSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

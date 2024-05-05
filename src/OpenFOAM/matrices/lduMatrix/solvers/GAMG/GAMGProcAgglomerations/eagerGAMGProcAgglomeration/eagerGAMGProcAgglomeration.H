@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_eagerGAMGProcAgglomeration_H
 #define Foam_eagerGAMGProcAgglomeration_H
 
-#include "GAMGProcAgglomeration.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -53,15 +53,15 @@ SourceFiles
 #ifndef Foam_LduMatrix_H
 #define Foam_LduMatrix_H
 
-#include "lduMesh.H"
-#include "lduMatrix.H"
-#include "Field.H"
-#include "FieldField.H"
-#include "LduInterfaceFieldPtrsListPascal.H"
-#include "SolverPerformanceDeCased.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "fields/Fields/Field/Field.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduInterfaceField/LduInterfaceFieldPtrsListPascal.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/SolverPerformanceDeCased.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -808,7 +808,7 @@ LduMatrix<Type, DType, LUType>::solver::                                       \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LduMatrixPascal.C"
+    #include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

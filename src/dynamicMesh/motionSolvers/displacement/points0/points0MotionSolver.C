@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "points0MotionSolver.H"
-#include "mapPolyMesh.H"
+#include "motionSolvers/displacement/points0/points0MotionSolver.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

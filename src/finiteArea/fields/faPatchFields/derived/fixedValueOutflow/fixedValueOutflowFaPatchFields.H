@@ -28,7 +28,7 @@ License
 #ifndef Foam_fixedValueOutflowFaPatchFields_H
 #define Foam_fixedValueOutflowFaPatchFields_H
 
-#include "fixedValueOutflowFaPatchField.H"
+#include "fields/faPatchFields/derived/fixedValueOutflow/fixedValueOutflowFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

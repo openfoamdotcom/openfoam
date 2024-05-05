@@ -35,7 +35,7 @@ Description
 #ifndef Identity_H
 #define Identity_H
 
-#include "SphericalTensorPascal.H"
+#include "primitives/SphericalTensor/SphericalTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

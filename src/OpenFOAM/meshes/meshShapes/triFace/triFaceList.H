@@ -28,8 +28,8 @@ License
 #ifndef Foam_triFaceList_H
 #define Foam_triFaceList_H
 
-#include "triFace.H"
-#include "List.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

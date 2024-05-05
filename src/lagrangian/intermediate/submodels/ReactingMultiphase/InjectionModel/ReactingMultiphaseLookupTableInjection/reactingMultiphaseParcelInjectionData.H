@@ -38,7 +38,7 @@ SourceFiles
 #ifndef reactingMultiphaseParcelInjectionData_H
 #define reactingMultiphaseParcelInjectionData_H
 
-#include "reactingParcelInjectionData.H"
+#include "submodels/Reacting/InjectionModel/ReactingLookupTableInjection/reactingParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reactingMultiphaseParcelInjectionDataI.H"
+#include "submodels/ReactingMultiphase/InjectionModel/ReactingMultiphaseLookupTableInjection/reactingMultiphaseParcelInjectionDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

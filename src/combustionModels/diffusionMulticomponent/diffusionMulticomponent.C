@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diffusionMulticomponent.H"
-#include "fvcGrad.H"
-#include "reactingMixture.H"
-#include "fvCFD.H"
-#include "mathematicalConstants.H"
+#include "diffusionMulticomponent/diffusionMulticomponent.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * //
 

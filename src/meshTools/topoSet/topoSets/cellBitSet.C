@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellBitSet.H"
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "topoSetCellSource.H"
+#include "topoSet/topoSets/cellBitSet.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReitzKHRT.H"
+#include "submodels/BreakupModel/ReitzKHRT/ReitzKHRT.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef smoothDelta_H
 #define smoothDelta_H
 
-#include "LESdelta.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -303,7 +303,7 @@ struct is_contiguous<LESModels::smoothDelta::deltaData> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "smoothDeltaDeltaDataI.H"
+#include "LES/LESdeltas/smoothDelta/smoothDeltaDeltaDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

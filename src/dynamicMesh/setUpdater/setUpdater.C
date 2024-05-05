@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setUpdater.H"
-#include "polyTopoChanger.H"
-#include "polyTopoChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mapPolyMesh.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
+#include "setUpdater/setUpdater.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

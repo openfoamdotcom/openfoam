@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_labelledTri_H
 #define Foam_labelledTri_H
 
-#include "triFace.H"
-#include "ListListOps.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ struct offsetOp<labelledTri>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelledTriI.H"
+#include "meshes/meshShapes/labelledTri/labelledTriI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

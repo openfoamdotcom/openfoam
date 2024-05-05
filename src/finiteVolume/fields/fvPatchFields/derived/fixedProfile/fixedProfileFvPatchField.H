@@ -96,8 +96,8 @@ SourceFiles
 #ifndef fixedProfileFvPatchField_H
 #define fixedProfileFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -221,7 +221,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedProfileFvPatchField.C"
+    #include "fields/fvPatchFields/derived/fixedProfile/fixedProfileFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

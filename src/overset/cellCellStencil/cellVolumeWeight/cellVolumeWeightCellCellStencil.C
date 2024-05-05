@@ -25,20 +25,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellVolumeWeightCellCellStencil.H"
-#include "addToRunTimeSelectionTable.H"
-#include "OBJstream.H"
-#include "TimeOpenFOAM.H"
-#include "meshToMesh.H"
-#include "cellVolumeWeightMethod.H"
-#include "fvMeshSubset.H"
-#include "regionSplit.H"
-#include "globalIndex.H"
-#include "oversetFvPatch.H"
-#include "zeroGradientFvPatchFields.H"
-#include "syncTools.H"
-#include "oversetFvMeshBase.H"
-#include "oversetFvPatchField.H"
+#include "cellCellStencil/cellVolumeWeight/cellVolumeWeightCellCellStencil.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "obj/OBJstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshToMesh/meshToMesh.H"
+#include "meshToMesh/calcMethod/cellVolumeWeight/cellVolumeWeightMethod.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "regionSplit/regionSplit.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "oversetPolyPatch/oversetFvPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "oversetFvMesh/oversetFvMeshBase.H"
+#include "oversetPolyPatch/oversetFvPatchField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

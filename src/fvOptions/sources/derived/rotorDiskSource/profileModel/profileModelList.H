@@ -37,8 +37,8 @@ SourceFiles
 #ifndef profileModelList_H
 #define profileModelList_H
 
-#include "PtrList.H"
-#include "profileModel.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "sources/derived/rotorDiskSource/profileModel/profileModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

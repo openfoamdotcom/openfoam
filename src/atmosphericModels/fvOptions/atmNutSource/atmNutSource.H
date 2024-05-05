@@ -86,8 +86,8 @@ SourceFiles
 #ifndef fv_atmNutSource_H
 #define fv_atmNutSource_H
 
-#include "cellSetOption.H"
-#include "turbulentTransportModel.H"
+#include "cellSetOption/cellSetOption.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

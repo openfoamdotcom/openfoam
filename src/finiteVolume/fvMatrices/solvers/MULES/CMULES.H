@@ -47,10 +47,10 @@ SourceFiles
 #ifndef CMULES_H
 #define CMULES_H
 
-#include "MULES.H"
-#include "EulerDdtScheme.H"
-#include "localEulerDdtScheme.H"
-#include "gaussConvectionScheme.H"
+#include "fvMatrices/solvers/MULES/MULES.H"
+#include "finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/convectionSchemes/gaussConvectionScheme/gaussConvectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -176,7 +176,7 @@ void limitCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CMULESTemplates.C"
+    #include "fvMatrices/solvers/MULES/CMULESTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

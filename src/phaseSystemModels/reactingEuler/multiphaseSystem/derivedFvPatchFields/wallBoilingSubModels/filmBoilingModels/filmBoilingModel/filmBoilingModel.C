@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmBoilingModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/filmBoilingModels/filmBoilingModel/filmBoilingModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

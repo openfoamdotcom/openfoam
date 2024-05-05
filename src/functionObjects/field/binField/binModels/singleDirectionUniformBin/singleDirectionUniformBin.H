@@ -82,8 +82,8 @@ SourceFiles
 #ifndef Foam_binModels_singleDirectionUniformBin_H
 #define Foam_binModels_singleDirectionUniformBin_H
 
-#include "binModel.H"
-#include "writeFile.H"
+#include "binField/binModels/binModel/binModel.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "singleDirectionUniformBinTemplates.C"
+    #include "binField/binModels/singleDirectionUniformBin/singleDirectionUniformBinTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

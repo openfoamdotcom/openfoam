@@ -26,20 +26,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "calculatedFvPatchFields.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "coupledFvPatchFields.H"
-#include "IndirectList.H"
-#include "UniformList.H"
-#include "demandDrivenData.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchFields.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/Lists/UniformList/UniformList.H"
+#include "include/demandDrivenData.H"
 
-#include "cyclicFvPatchField.H"
-#include "cyclicAMIFvPatchField.H"
-#include "cyclicACMIFvPatchField.H"
+#include "fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.H"
+#include "fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchField.H"
+#include "fields/fvPatchFields/constraint/cyclicACMI/cyclicACMIFvPatchField.H"
 
-#include "processorLduInterfaceField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 
@@ -2998,6 +2998,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const fvMatrix<Type>& fvm)
 
 // * * * * * * * * * * * * * * * * Solvers * * * * * * * * * * * * * * * * * //
 
-#include "fvMatrixSolve.C"
+#include "fvMatrices/fvMatrix/fvMatrixSolve.C"
 
 // ************************************************************************* //

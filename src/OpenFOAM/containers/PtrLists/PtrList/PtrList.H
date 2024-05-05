@@ -46,8 +46,8 @@ SourceFiles
 #ifndef Foam_PtrList_H
 #define Foam_PtrList_H
 
-#include "UPtrList.H"
-#include "SLPtrListFwd.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "containers/LinkedLists/user/SLPtrListFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -290,13 +290,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PtrListI.H"
+#include "containers/PtrLists/PtrList/PtrListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PtrList.C"
-    #include "PtrListIO.C"
+    #include "containers/PtrLists/PtrList/PtrList.C"
+    #include "containers/PtrLists/PtrList/PtrListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slicedFaePatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faePatchFields.H"
+#include "fields/faePatchFields/basic/sliced/slicedFaePatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/faePatchFields/faePatchField/faePatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

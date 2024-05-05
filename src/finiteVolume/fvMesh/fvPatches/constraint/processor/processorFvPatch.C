@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "transformField.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

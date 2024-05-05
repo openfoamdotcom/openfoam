@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstream.H"
-#include "error.H"
-#include "argList.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "db/error/error.H"
+#include "global/argList/argList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

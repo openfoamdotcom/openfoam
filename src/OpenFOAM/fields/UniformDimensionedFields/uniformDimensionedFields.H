@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_uniformDimensionedFields_H
 #define Foam_uniformDimensionedFields_H
 
-#include "UniformDimensionedField.H"
-#include "uniformDimensionedFieldsFwd.H"
+#include "fields/UniformDimensionedFields/UniformDimensionedField.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFieldsFwd.H"
 
 #endif
 

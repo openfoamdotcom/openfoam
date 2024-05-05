@@ -33,7 +33,7 @@ Description
 #ifndef faPatchFieldMapperPatchRef_H
 #define faPatchFieldMapperPatchRef_H
 
-#include "faPatchFieldMapper.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

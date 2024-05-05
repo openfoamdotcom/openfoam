@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedWallPointPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedPointPatch/mappedWallPointPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -63,7 +63,7 @@ SourceFiles
 #ifndef BSpline_H
 #define BSpline_H
 
-#include "polyLinePascal.H"
+#include "blockEdges/polyLineEdge/polyLinePascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_symmetryFaePatchField_H
 #define Foam_symmetryFaePatchField_H
 
-#include "faePatchField.H"
-#include "symmetryFaPatch.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
+#include "faMesh/faPatches/constraint/symmetry/symmetryFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "symmetryFaePatchField.C"
+    #include "fields/faePatchFields/constraint/symmetry/symmetryFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

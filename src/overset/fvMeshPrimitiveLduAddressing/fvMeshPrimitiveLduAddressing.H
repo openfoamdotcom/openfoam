@@ -41,10 +41,10 @@ SourceFiles
 #ifndef fvMeshPrimitiveLduAddressing_H
 #define fvMeshPrimitiveLduAddressing_H
 
-#include "lduPrimitiveMesh.H"
-#include "lduAddressing.H"
-#include "fvMesh.H"
-#include "globalMeshData.H"
+#include "meshes/lduMesh/lduPrimitiveMesh.H"
+#include "matrices/lduMatrix/lduAddressing/lduAddressing.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

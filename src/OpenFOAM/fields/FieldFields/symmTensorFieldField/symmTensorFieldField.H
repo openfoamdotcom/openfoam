@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Foam_symmTensorFieldField_H
 #define Foam_symmTensorFieldField_H
 
-#include "FieldField.H"
-#include "symmTensor.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.H"
+#include "fields/FieldFields/FieldField/FieldFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -178,10 +178,10 @@ BINARY_TYPE_OPERATOR(tensor, symmTensor, symmTensor, &, dot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 #ifdef NoRepository
-    #include "symmTensorFieldField.C"
+    #include "fields/FieldFields/symmTensorFieldField/symmTensorFieldField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

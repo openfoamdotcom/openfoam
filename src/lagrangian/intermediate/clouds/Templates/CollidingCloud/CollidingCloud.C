@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CollidingCloud.H"
-#include "CollisionModel.H"
-#include "NoCollision.H"
+#include "clouds/Templates/CollidingCloud/CollidingCloud.H"
+#include "submodels/Kinematic/CollisionModel/CollisionModel/CollisionModel.H"
+#include "submodels/Kinematic/CollisionModel/NoCollision/NoCollision.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -79,8 +79,8 @@ SourceFiles
 #ifndef Foam_solution_H
 #define Foam_solution_H
 
-#include "IOdictionary.H"
-#include "HashPtrTable.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -262,7 +262,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solutionTemplates.C"
+    #include "matrices/solution/solutionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

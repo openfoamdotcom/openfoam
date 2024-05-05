@@ -44,8 +44,8 @@ SourceFiles
 #ifndef wallDistData_H
 #define wallDistData_H
 
-#include "cellDistFuncs.H"
-#include "volFields.H"
+#include "cellDist/cellDistFuncs.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wallDistData.C"
+    #include "fvMesh/wallDist/patchDistMethods/meshWave/wallDistData/wallDistData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

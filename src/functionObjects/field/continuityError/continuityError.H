@@ -108,9 +108,9 @@ SourceFiles
 #ifndef functionObjects_continuityError_H
 #define functionObjects_continuityError_H
 
-#include "Switch.H"
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellSet.H"
-#include "mapPolyMesh.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mapDistributePolyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

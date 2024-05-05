@@ -70,8 +70,8 @@ SourceFiles
 #ifndef functionObjects_hydrostaticPressure_H
 #define functionObjects_hydrostaticPressure_H
 
-#include "fvMeshFunctionObject.H"
-#include "uniformDimensionedFields.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

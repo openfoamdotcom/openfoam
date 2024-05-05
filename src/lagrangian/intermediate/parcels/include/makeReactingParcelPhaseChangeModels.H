@@ -31,10 +31,10 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoPhaseChangePascal.H"
-#include "LiquidEvaporation.H"
-#include "LiquidEvaporationBoil.H"
-#include "LiquidEvapFuchsKnudsen.H"
+#include "submodels/Reacting/PhaseChangeModel/NoPhaseChange/NoPhaseChangePascal.H"
+#include "submodels/Reacting/PhaseChangeModel/LiquidEvaporation/LiquidEvaporation.H"
+#include "submodels/Reacting/PhaseChangeModel/LiquidEvaporationBoil/LiquidEvaporationBoil.H"
+#include "submodels/Reacting/PhaseChangeModel/LiquidEvapFuchsKnudsen/LiquidEvapFuchsKnudsen.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

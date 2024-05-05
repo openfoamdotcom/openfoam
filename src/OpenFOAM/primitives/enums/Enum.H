@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_Enum_H
 #define Foam_Enum_H
 
-#include "wordList.H"
+#include "primitives/strings/lists/wordList.H"
 #include <ostream>
 #include <utility>
 
@@ -387,10 +387,10 @@ inline std::ostream& operator<<(std::ostream& os, const Enum<EnumType>& list);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "EnumI.H"
+#include "primitives/enums/EnumI.H"
 
 #ifdef NoRepository
-    #include "Enum.C"
+    #include "primitives/enums/Enum.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

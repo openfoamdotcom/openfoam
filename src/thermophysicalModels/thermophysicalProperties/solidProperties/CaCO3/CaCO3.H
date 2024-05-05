@@ -37,7 +37,7 @@ SourceFiles
 #ifndef solid_CaCO3_H
 #define solid_CaCO3_H
 
-#include "solidProperties.H"
+#include "solidProperties/solidProperties/solidProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

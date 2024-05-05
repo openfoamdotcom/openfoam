@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nullSurfaceWriter.H"
-#include "surfaceWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writers/null/nullSurfaceWriter.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

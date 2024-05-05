@@ -39,9 +39,9 @@ SourceFiles
 #ifndef rigidBodyModelState_H
 #define rigidBodyModelState_H
 
-#include "rigidBodyModel.H"
-#include "scalarField.H"
-#include "dictionary.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -154,7 +154,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyModelStateI.H"
+#include "rigidBodyModelState/rigidBodyModelStateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

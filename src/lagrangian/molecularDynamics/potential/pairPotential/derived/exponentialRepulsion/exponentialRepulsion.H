@@ -36,7 +36,7 @@ SourceFiles
 #ifndef exponentialRepulsion_H
 #define exponentialRepulsion_H
 
-#include "pairPotential.H"
+#include "pairPotential/basic/pairPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_threadedCollatedOFstream_H
 #define Foam_threadedCollatedOFstream_H
 
-#include "dictionary.H"
-#include "StringStream.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

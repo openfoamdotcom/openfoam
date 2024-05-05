@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "staticFvMesh.H"
-#include "simplifiedDynamicFvMesh.H"
-#include "argList.H"
+#include "staticFvMesh/staticFvMesh.H"
+#include "simplifiedDynamicFvMesh/simplifiedDynamicFvMesh.H"
+#include "global/argList/argList.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

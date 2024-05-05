@@ -46,9 +46,9 @@ SourceFiles
 #ifndef Foam_SLListBase_H
 #define Foam_SLListBase_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "stdFoam.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -332,7 +332,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SLListBaseI.H"
+#include "containers/LinkedLists/linkTypes/SLListBase/SLListBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectiveManager.H"
-#include "IOmanip.H"
+#include "objectiveManager/objectiveManager.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

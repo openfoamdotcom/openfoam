@@ -49,7 +49,7 @@ SourceFiles
 #ifndef hPowerThermo_H
 #define hPowerThermo_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -178,7 +178,7 @@ public:
             inline scalar Gstd(const scalar T) const;
 
 
-            #include "HtoEthermo.H"
+            #include "thermo/thermo/HtoEthermo.H"
 
 
         // Derivative term used for Jacobian
@@ -233,8 +233,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "hPowerThermoI.H"
-    #include "hPowerThermo.C"
+    #include "thermo/hPower/hPowerThermoI.H"
+    #include "thermo/hPower/hPowerThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

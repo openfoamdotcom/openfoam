@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RanzMarshall.H"
-#include "phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/Thermodynamic/HeatTransferModel/RanzMarshall/RanzMarshall.H"
+#include "phasePair/phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

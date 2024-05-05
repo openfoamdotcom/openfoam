@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_wedgeFaPatch_H
 #define Foam_wedgeFaPatch_H
 
-#include "faPatch.H"
-#include "wedgePolyPatch.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

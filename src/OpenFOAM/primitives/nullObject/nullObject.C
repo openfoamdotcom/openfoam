@@ -28,7 +28,7 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "nullObject.H"
+#include "primitives/nullObject/nullObject.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

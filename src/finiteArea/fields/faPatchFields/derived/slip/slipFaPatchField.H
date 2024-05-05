@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Foam_slipFaPatchField_H
 #define Foam_slipFaPatchField_H
 
-#include "basicSymmetryFaPatchField.H"
+#include "fields/faPatchFields/basic/basicSymmetry/basicSymmetryFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "slipFaPatchField.C"
+    #include "fields/faPatchFields/derived/slip/slipFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

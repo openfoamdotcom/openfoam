@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DevolatilisationModel.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel/DevolatilisationModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -103,6 +103,6 @@ void Foam::DevolatilisationModel<CloudType>::info()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DevolatilisationModelNew.C"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel/DevolatilisationModelNew.C"
 
 // ************************************************************************* //

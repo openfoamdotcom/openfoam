@@ -70,8 +70,8 @@ SourceFiles
 #ifndef outletMappedUniformInletHeatAdditionFvPatchField_H
 #define outletMappedUniformInletHeatAdditionFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

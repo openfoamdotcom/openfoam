@@ -40,7 +40,7 @@ SourceFiles
 #ifndef dynamicMotionSolverListFvMesh_H
 #define dynamicMotionSolverListFvMesh_H
 
-#include "dynamicFvMesh.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "token.H"
+#include "db/IOstreams/token/token.H"
 
 #ifndef Foam_runTimeSelectionTables_H
 #define Foam_runTimeSelectionTables_H
@@ -43,8 +43,8 @@ Description
 #include <memory>   // For std::unique_ptr
 #include <utility>  // For std::pair
 
-#include "autoPtr.H"
-#include "HashTable.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

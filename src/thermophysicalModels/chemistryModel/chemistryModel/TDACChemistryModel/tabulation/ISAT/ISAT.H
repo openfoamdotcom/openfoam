@@ -43,7 +43,7 @@ Description
 #ifndef ISAT_H
 #define ISAT_H
 
-#include "binaryTree.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryTree/binaryTree.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -253,7 +253,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ISAT.C"
+    #include "chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

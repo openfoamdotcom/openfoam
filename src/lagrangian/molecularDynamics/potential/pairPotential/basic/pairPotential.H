@@ -38,13 +38,13 @@ SourceFiles
 #ifndef pairPotential_H
 #define pairPotential_H
 
-#include "IOdictionary.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "List.H"
-#include "Pair.H"
-#include "Switch.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -188,7 +188,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pairPotentialI.H"
+#include "pairPotential/basic/pairPotentialI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

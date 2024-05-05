@@ -28,8 +28,8 @@ License
 #ifndef processorPointPatchFields_H
 #define processorPointPatchFields_H
 
-#include "processorPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/constraint/processor/processorPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

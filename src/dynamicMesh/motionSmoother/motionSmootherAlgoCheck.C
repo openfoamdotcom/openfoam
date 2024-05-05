@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSmootherAlgo.H"
-#include "polyMeshGeometry.H"
-#include "IOmanip.H"
-#include "pointSet.H"
+#include "motionSmoother/motionSmootherAlgo.H"
+#include "motionSmoother/polyMeshGeometry/polyMeshGeometry.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "topoSet/topoSets/pointSet.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

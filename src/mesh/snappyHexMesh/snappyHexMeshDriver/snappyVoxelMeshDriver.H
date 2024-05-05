@@ -39,10 +39,10 @@ SourceFiles
 #ifndef snappyVoxelMeshDriver_H
 #define snappyVoxelMeshDriver_H
 
-#include "labelList.H"
-#include "DynamicList.H"
-#include "labelVector.H"
-#include "boundBox.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/Vector/ints/labelVector.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "faNVDscheme.H"
-#include "linearUpwind.H"
+#include "faMesh/faMesh.H"
+#include "interpolation/edgeInterpolation/schemes/NVDscheme/faNVDscheme.H"
+#include "interpolation/surfaceInterpolation/schemes/linearUpwind/linearUpwind.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

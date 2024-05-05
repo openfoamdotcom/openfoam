@@ -93,16 +93,16 @@ SourceFiles
 #ifndef Foam_probes_H
 #define Foam_probes_H
 
-#include "fvMeshFunctionObject.H"
-#include "HashPtrTable.H"
-#include "OFstream.H"
-#include "polyMesh.H"
-#include "pointField.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "surfaceMesh.H"
-#include "wordRes.H"
-#include "IOobjectList.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -363,7 +363,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "probesTemplates.C"
+    #include "probes/probesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

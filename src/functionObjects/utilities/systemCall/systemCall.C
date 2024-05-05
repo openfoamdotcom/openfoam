@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "systemCall.H"
-#include "TimeOpenFOAM.H"
-#include "dynamicCode.H"
-#include "foamVersion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "systemCall/systemCall.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "include/foamVersion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

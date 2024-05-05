@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_coordSetWriters_nullWriter_H
 #define Foam_coordSetWriters_nullWriter_H
 
-#include "coordSetWriter.H"
+#include "coordSet/writers/common/coordSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

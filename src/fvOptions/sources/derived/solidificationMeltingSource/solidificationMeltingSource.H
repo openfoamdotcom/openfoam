@@ -135,10 +135,10 @@ SourceFiles
 #ifndef solidificationMeltingSource_H
 #define solidificationMeltingSource_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "cellSetOption.H"
-#include "Enum.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "cellSetOption/cellSetOption.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -302,7 +302,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solidificationMeltingSourceTemplates.C"
+    #include "sources/derived/solidificationMeltingSource/solidificationMeltingSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

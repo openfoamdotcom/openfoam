@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TableBase.H"
-#include "TimeOpenFOAM.H"
-#include "interpolationWeights.H"
+#include "primitives/functions/Function1/Table/TableBase.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

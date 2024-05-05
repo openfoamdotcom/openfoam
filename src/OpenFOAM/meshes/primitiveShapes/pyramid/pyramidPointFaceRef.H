@@ -4,7 +4,7 @@
 #ifndef FoamCompat_pyramidPointFaceRef_H
 #define FoamCompat_pyramidPointFaceRef_H
 
-#include "pyramid.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
 
 #endif
 

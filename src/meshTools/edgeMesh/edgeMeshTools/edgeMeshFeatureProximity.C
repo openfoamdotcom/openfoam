@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMeshTools.H"
+#include "edgeMesh/edgeMeshTools/edgeMeshTools.H"
 
-#include "extendedEdgeMesh.H"
-#include "triSurface.H"
-#include "triSurfaceFields.H"
-#include "pointIndexHit.H"
-#include "MeshedSurface.H"
-#include "OFstream.H"
+#include "edgeMesh/extendedEdgeMesh/extendedEdgeMesh.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

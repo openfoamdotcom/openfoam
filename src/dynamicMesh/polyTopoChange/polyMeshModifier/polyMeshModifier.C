@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshModifier.H"
-#include "dictionary.H"
-#include "polyTopoChanger.H"
-#include "polyMesh.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
+#include "db/dictionary/dictionary.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

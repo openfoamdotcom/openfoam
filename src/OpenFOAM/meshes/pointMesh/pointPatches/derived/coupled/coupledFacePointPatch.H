@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_coupledFacePointPatch_H
 #define Foam_coupledFacePointPatch_H
 
-#include "coupledPointPatch.H"
-#include "facePointPatch.H"
-#include "coupledPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/basic/coupled/coupledPointPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

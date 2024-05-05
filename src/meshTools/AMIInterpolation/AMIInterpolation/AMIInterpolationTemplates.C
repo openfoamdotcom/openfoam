@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "profiling.H"
-#include "mapDistribute.H"
+#include "global/profiling/profiling.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

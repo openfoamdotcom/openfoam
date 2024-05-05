@@ -41,15 +41,15 @@ SourceFiles
 #ifndef Foam_vtk_formatter_H
 #define Foam_vtk_formatter_H
 
-#include "int.H"
-#include "label.H"
-#include "uint64.H"
-#include "direction.H"
-#include "word.H"
-#include "List.H"
-#include "DynamicList.H"
-#include "foamVtkCore.H"
-#include "foamVtkPTraits.H"
+#include "primitives/ints/int/int.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uint64/uint64.H"
+#include "primitives/direction/direction.H"
+#include "primitives/strings/word/word.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "vtk/base/foamVtkCore.H"
+#include "vtk/base/foamVtkPTraits.H"
 
 #include <iostream>
 
@@ -560,10 +560,10 @@ inline uint64_t sizeofData(label count)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtkFormatterI.H"
+#include "vtk/format/foamVtkFormatterI.H"
 
 #ifdef NoRepository
-    #include "foamVtkFormatterTemplates.C"
+    #include "vtk/format/foamVtkFormatterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

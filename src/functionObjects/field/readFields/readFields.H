@@ -92,9 +92,9 @@ SourceFiles
 #ifndef functionObjects_readFields_H
 #define functionObjects_readFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "readFieldsTemplates.C"
+    #include "readFields/readFieldsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

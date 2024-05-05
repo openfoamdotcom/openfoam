@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Foam_complexField_H
 #define Foam_complexField_H
 
-#include "complex.H"
-#include "scalarField.H"
+#include "primitives/complex/complex.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "fields/Fields/Field/FieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ UNARY_FUNCTION(complex, complex, atanh)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

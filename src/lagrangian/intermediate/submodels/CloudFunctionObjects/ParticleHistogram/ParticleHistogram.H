@@ -100,10 +100,10 @@ SourceFiles
 #ifndef Foam_ParticleHistogram_H
 #define Foam_ParticleHistogram_H
 
-#include "CloudFunctionObject.H"
-#include "writeFile.H"
-#include "MinMax.H"
-#include "cloudFunctionObjectTools.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/cloudFunctionObjectTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -230,7 +230,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticleHistogram.C"
+    #include "submodels/CloudFunctionObjects/ParticleHistogram/ParticleHistogram.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

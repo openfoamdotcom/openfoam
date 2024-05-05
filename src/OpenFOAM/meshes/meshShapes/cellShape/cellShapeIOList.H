@@ -28,8 +28,8 @@ License
 #ifndef Foam_cellShapeIOList_H
 #define Foam_cellShapeIOList_H
 
-#include "cellShape.H"
-#include "IOList.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

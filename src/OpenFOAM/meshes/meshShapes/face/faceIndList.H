@@ -29,8 +29,8 @@ License
 #define Foam_faceIndList_H
 
 // Include all normal list typedefs as well
-#include "faceList.H"
-#include "IndirectList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

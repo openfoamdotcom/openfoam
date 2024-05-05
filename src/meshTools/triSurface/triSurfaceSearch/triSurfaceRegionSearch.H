@@ -39,13 +39,13 @@ SourceFiles
 #ifndef triSurfaceRegionSearch_H
 #define triSurfaceRegionSearch_H
 
-#include "pointField.H"
-#include "pointIndexHit.H"
-#include "triSurfaceSearch.H"
-#include "labelledTri.H"
-#include "IndirectList.H"
-#include "PtrList.H"
-#include "indexedOctree.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "meshes/meshShapes/labelledTri/labelledTri.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

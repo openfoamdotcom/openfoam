@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectRegistry.H"
-#include "predicates.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "primitives/predicates/predicates.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

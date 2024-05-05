@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjustPhi.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "inletOutletFvPatchFields.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

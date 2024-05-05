@@ -27,17 +27,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointEikonalSolver.H"
-#include "adjointSolver.H"
-#include "fvc.H"
-#include "fvm.H"
-#include "surfaceInterpolation.H"
-#include "volFieldsFwd.H"
-#include "wallFvPatch.H"
-#include "patchDistMethod.H"
-#include "fvOptions.H"
-#include "zeroGradientFvPatchField.H"
-#include "sensitivityTopO.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointEikonalSolver/adjointEikonalSolver.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolation.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/topO/sensitivityTopO.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantAbsorption.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/wallAbsorptionEmissionModel/constantAbsorption/constantAbsorption.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef coulomb_H
 #define coulomb_H
 
-#include "pairPotential.H"
+#include "pairPotential/basic/pairPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

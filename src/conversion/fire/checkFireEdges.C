@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "checkFireEdges.H"
-#include "polyMesh.H"
-#include "edgeHashes.H"
-#include "ListOps.H"
+#include "fire/checkFireEdges.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

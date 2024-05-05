@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SLADelta.H"
-#include "wallDist.H"
-#include "maxDeltaxyz.H"
-#include "fvcGrad.H"
-#include "fvcCurl.H"
-#include "addToRunTimeSelectionTable.H"
+#include "LES/LESdeltas/SLADelta/SLADelta.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "LES/LESdeltas/maxDeltaxyz/maxDeltaxyz.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcCurl.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "oneField.H"
+#include "fields/Fields/oneField/oneField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

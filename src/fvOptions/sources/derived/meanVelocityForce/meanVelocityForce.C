@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meanVelocityForce.H"
-#include "fvMatrices.H"
-#include "DimensionedField.H"
-#include "IFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/meanVelocityForce/meanVelocityForce.H"
+#include "fvMatrices/fvMatrices.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -40,9 +40,9 @@ SourceFiles
 #ifndef meshObjects_multiWorldConnections_H
 #define meshObjects_multiWorldConnections_H
 
-#include "MeshObject.H"
-#include "edgeHashes.H"
-#include "TimeOpenFOAM.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

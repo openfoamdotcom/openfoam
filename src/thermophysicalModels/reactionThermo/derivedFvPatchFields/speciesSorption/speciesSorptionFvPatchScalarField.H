@@ -121,9 +121,9 @@ SourceFiles
 #ifndef Foam_speciesSorptionFvPatchScalarField_H
 #define Foam_speciesSorptionFvPatchScalarField_H
 
-#include "boundarySourcePatch.H"
-#include "zeroGradientFvPatchFields.H"
-#include "PatchFunction1.H"
+#include "derivedFvPatchFields/boundarySourcePatch/boundarySourcePatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regExpCxx.H"
-#include "debug.H"
-#include "error.H"
+#include "primitives/strings/regex/regExpCxx.H"
+#include "global/debug/debug.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

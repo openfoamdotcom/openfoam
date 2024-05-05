@@ -251,7 +251,7 @@ template<> struct is_contiguous<smoothData> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "smoothDataI.H"
+#include "finiteVolume/fvc/fvcSmooth/smoothDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

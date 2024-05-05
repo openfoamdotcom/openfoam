@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyPolyPatch.H"
-#include "reconstructedDistanceFunction.H"
-#include "processorPolyPatch.H"
-#include "syncTools.H"
-#include "unitConversion.H"
-#include "wedgePolyPatch.H"
-#include "alphaContactAngleTwoPhaseFvPatchScalarField.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "reconstructedDistanceFunction/reconstructedDistanceFunction.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "global/constants/unitConversion.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "alphaContactAngle/alphaContactAngleTwoPhaseFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

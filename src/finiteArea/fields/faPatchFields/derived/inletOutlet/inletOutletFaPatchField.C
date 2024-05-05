@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inletOutletFaPatchField.H"
+#include "fields/faPatchFields/derived/inletOutlet/inletOutletFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

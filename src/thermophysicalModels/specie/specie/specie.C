@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specie.H"
-#include "constants.H"
+#include "specie/specie.H"
+#include "global/constants/constants.H"
 
 /* * * * * * * * * * * * * * * public constants  * * * * * * * * * * * * * * */
 

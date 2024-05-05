@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inclinedFilmNusseltHeightFvPatchScalarField.H"
-#include "volFields.H"
-#include "kinematicSingleLayer.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/inclinedFilmNusseltHeight/inclinedFilmNusseltHeightFvPatchScalarField.H"
+#include "fields/volFields/volFields.H"
+#include "kinematicSingleLayer/kinematicSingleLayer.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

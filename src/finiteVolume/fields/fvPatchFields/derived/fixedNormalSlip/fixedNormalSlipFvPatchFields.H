@@ -28,8 +28,8 @@ License
 #ifndef fixedNormalSlipFvPatchFields_H
 #define fixedNormalSlipFvPatchFields_H
 
-#include "fixedNormalSlipFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/fixedNormalSlip/fixedNormalSlipFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "localPointRegion.H"
-#include "syncTools.H"
-#include "polyMesh.H"
-#include "mapPolyMesh.H"
-#include "globalIndex.H"
-#include "indirectPrimitivePatch.H"
-#include "dummyTransform.H"
+#include "regionSplit/localPointRegion.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/polyMesh/syncTools/dummyTransform.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

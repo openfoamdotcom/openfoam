@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightWrite.H"
-#include "ensightOutput.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ensightWrite/ensightWrite.H"
+#include "ensight/output/ensightOutput.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -49,7 +49,7 @@ namespace functionObjects
 }
 
 // Implementation
-#include "ensightWriteImpl.C"
+#include "ensightWrite/ensightWriteImpl.C"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

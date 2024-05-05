@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceMesh.H"
-#include "fvsPatchField.H"
-#include "pointPatchField.H"
-#include "typeInfo.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

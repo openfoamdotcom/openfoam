@@ -37,7 +37,7 @@ SourceFiles
 #ifndef lennardJones_H
 #define lennardJones_H
 
-#include "pairPotential.H"
+#include "pairPotential/basic/pairPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

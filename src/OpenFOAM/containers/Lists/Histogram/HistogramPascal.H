@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Histogram_H
 #define Histogram_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -127,7 +127,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HistogramPascal.C"
+    #include "containers/Lists/Histogram/HistogramPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

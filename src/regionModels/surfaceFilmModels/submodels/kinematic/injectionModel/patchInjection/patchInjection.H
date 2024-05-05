@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_patchInjection_H
 #define Foam_patchInjection_H
 
-#include "injectionModel.H"
+#include "submodels/kinematic/injectionModel/injectionModel/injectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "meshStructure.H"
-#include "globalIndex.H"
+#include "fields/volFields/volFields.H"
+#include "meshStructure/meshStructure.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

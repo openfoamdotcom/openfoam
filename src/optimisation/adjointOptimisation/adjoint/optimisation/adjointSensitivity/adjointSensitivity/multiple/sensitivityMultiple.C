@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointSensitivity.H"
-#include "sensitivityMultiple.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/multiple/sensitivityMultiple.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

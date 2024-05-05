@@ -101,9 +101,9 @@ SourceFiles
 #ifndef Foam_coordSetWriters_abaqusWriter_H
 #define Foam_coordSetWriters_abaqusWriter_H
 
-#include "coordSetWriter.H"
-#include "Enum.H"
-#include "HashTable.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "primitives/enums/Enum.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

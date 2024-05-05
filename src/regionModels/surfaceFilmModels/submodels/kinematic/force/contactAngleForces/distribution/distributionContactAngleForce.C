@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributionContactAngleForce.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/kinematic/force/contactAngleForces/distribution/distributionContactAngleForce.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

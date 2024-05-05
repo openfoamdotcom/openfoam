@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapDistribute.H"
-#include "globalIndexAndTransform.H"
-#include "transformField.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "primitives/globalIndexAndTransform/globalIndexAndTransform.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

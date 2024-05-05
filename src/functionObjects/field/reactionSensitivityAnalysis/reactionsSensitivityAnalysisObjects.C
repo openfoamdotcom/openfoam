@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactionsSensitivityAnalysis.H"
-#include "BasicChemistryModelPascal.H"
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "reactionSensitivityAnalysis/reactionsSensitivityAnalysis.H"
+#include "chemistryModel/BasicChemistryModelCaseDir/BasicChemistryModelPascal.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

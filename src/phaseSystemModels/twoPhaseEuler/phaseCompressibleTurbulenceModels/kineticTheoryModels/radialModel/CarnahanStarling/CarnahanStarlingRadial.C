@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CarnahanStarlingRadial.H"
-#include "addToRunTimeSelectionTable.H"
+#include "kineticTheoryModels/radialModel/CarnahanStarling/CarnahanStarlingRadial.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

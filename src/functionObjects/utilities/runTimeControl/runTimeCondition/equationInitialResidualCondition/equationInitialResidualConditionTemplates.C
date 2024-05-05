@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 template<class Type>
 void Foam::functionObjects::runTimeControls::

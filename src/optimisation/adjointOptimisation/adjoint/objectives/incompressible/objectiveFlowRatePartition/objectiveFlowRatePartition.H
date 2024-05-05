@@ -39,7 +39,7 @@ SourceFiles
 #ifndef objectiveFlowRatePartition_H
 #define objectiveFlowRatePartition_H
 
-#include "objectiveIncompressible.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

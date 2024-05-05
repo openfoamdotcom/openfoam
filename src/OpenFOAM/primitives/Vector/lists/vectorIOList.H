@@ -28,8 +28,8 @@ License
 #ifndef Foam_vectorIOList_H
 #define Foam_vectorIOList_H
 
-#include "vector.H"
-#include "IOList.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

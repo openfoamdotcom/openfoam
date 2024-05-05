@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointOutletFluxFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "fvPatchFieldMapper.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletFlux/adjointOutletFluxFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

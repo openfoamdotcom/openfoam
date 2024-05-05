@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellLooper.H"
-#include "polyMesh.H"
-#include "ListOps.H"
-#include "meshTools.H"
+#include "meshCut/cellLooper/cellLooper.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

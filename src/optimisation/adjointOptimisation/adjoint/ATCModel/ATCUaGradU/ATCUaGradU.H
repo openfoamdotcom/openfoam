@@ -41,7 +41,7 @@ SourceFiles
 #ifndef ATCUaGradU_H
 #define ATCUaGradU_H
 
-#include "ATCModel.H"
+#include "ATCModel/ATCModel/ATCModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

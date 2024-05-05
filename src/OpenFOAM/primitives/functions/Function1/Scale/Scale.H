@@ -75,7 +75,7 @@ SourceFiles
 #ifndef Function1Types_Scale_H
 #define Function1Types_Scale_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,10 +164,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ScaleI.H"
+#include "primitives/functions/Function1/Scale/ScaleI.H"
 
 #ifdef NoRepository
-    #include "Scale.C"
+    #include "primitives/functions/Function1/Scale/Scale.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

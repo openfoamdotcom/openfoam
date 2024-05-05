@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Luo.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mathematicalConstants.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "virtualMassModel.H"
-#include "phaseSystem.H"
+#include "populationBalanceModel/coalescenceModels/Luo/Luo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

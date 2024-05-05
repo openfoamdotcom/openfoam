@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatchFields.H"
-#include "coupledFaPatchFields.H"
-#include "areaFields.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "fields/faPatchFields/basic/coupled/coupledFaPatchFields.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

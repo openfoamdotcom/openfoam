@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_dynamicCode_H
 #define Foam_dynamicCode_H
 
-#include "fileName.H"
-#include "DynamicList.H"
-#include "HashTable.H"
-#include "Tuple2.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

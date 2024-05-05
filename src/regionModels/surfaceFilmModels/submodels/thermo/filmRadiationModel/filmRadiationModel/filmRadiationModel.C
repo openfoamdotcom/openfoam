@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmRadiationModel.H"
+#include "submodels/thermo/filmRadiationModel/filmRadiationModel/filmRadiationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkInternalMeshWriter.H"
-#include "foamVtkOutput.H"
+#include "output/vtk/mesh/foamVtkInternalMeshWriter.H"
+#include "vtk/output/foamVtkOutput.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

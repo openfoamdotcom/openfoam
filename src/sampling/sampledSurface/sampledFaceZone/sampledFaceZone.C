@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledFaceZone.H"
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "polyPatch.H"
-#include "processorPolyPatch.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "volPointInterpolation.H"
-#include "indirectPrimitivePatch.H"
+#include "sampledSurface/sampledFaceZone/sampledFaceZone.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

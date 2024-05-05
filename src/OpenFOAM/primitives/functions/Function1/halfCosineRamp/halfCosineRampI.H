@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "halfCosineRamp.H"
-#include "mathematicalConstants.H"
+#include "primitives/functions/Function1/halfCosineRamp/halfCosineRamp.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

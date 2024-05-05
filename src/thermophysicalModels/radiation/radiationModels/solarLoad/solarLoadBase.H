@@ -37,10 +37,10 @@ Description
 #ifndef radiation_solarLoadBase_H
 #define radiation_solarLoadBase_H
 
-#include "regIOobject.H"
-#include "fvMesh.H"
-#include "solarCalculator.H"
-#include "faceShading.H"
+#include "db/regIOobject/regIOobject.H"
+#include "fvMesh/fvMesh.H"
+#include "submodels/solarCalculator/solarCalculator.H"
+#include "radiationModels/solarLoad/faceShading/faceShading.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

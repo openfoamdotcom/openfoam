@@ -86,7 +86,7 @@ SourceFiles
 #ifndef sphereToFace_H
 #define sphereToFace_H
 
-#include "topoSetFaceSource.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

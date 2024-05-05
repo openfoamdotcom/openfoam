@@ -38,7 +38,7 @@ SourceFiles
 #ifndef immiscibleIncompressibleTwoPhaseMixture_H
 #define immiscibleIncompressibleTwoPhaseMixture_H
 
-#include "incompressibleTwoPhaseMixture.H"
+#include "incompressibleTwoPhaseMixture/incompressibleTwoPhaseMixture.H"
 #include "interfaceProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

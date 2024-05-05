@@ -37,7 +37,7 @@ SourceFiles
 #ifndef inverseVolumeDiffusivity_H
 #define inverseVolumeDiffusivity_H
 
-#include "uniformDiffusivity.H"
+#include "motionDiffusivity/uniform/uniformDiffusivity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

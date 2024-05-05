@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "token.H"
-#include "IOstreams.H"
+#include "db/error/error.H"
+#include "db/IOstreams/token/token.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

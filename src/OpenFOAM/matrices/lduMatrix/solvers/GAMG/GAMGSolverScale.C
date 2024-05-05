@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
-#include "FixedList.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGSolver.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

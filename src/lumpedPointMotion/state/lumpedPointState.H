@@ -63,14 +63,14 @@ SourceFiles
 #ifndef lumpedPointState_H
 #define lumpedPointState_H
 
-#include "dictionary.H"
-#include "scalarList.H"
-#include "pointField.H"
-#include "scalarField.H"
-#include "vectorField.H"
-#include "tensorField.H"
-#include "quaternion.H"
-#include "Enum.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "primitives/quaternion/quaternion.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -288,7 +288,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "lumpedPointStateI.H"
+#include "state/lumpedPointStateI.H"
 
 #endif
 

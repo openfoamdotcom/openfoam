@@ -94,9 +94,9 @@ SourceFiles
 #ifndef Foam_geometricConstraint_H
 #define Foam_geometricConstraint_H
 
-#include "decompositionConstraint.H"
-#include "PtrList.H"
-#include "topoSetFaceSource.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "primitiveEntry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

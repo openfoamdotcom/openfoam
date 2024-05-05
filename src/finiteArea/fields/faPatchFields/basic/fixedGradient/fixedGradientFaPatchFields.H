@@ -28,7 +28,7 @@ License
 #ifndef Foam_fixedGradientFaPatchFields_H
 #define Foam_fixedGradientFaPatchFields_H
 
-#include "fixedGradientFaPatchField.H"
+#include "fields/faPatchFields/basic/fixedGradient/fixedGradientFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

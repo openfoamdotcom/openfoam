@@ -39,8 +39,8 @@ Description
 #ifndef Foam_zeroField_H
 #define Foam_zeroField_H
 
-#include "zero.H"
-#include "scalarFwd.H"
+#include "primitives/traits/zero.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ public:
 
 // Global Operators
 
-#include "zeroFieldI.H"
+#include "fields/Fields/zeroField/zeroFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef interpolatePointToCell_H
 #define interpolatePointToCell_H
 
-#include "GeometricField.H"
-#include "pointMesh.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "meshes/pointMesh/pointMesh.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -64,7 +64,7 @@ Type interpolatePointToCell
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolatePointToCell.C"
+    #include "interpolations/interpolatePointToCell/interpolatePointToCell.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

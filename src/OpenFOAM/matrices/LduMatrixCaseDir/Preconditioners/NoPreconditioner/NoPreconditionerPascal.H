@@ -38,7 +38,7 @@ SourceFiles
 #ifndef NoPreconditioner_H
 #define NoPreconditioner_H
 
-#include "LduMatrixPascal.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -117,7 +117,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoPreconditionerPascal.C"
+    #include "matrices/LduMatrixCaseDir/Preconditioners/NoPreconditioner/NoPreconditionerPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

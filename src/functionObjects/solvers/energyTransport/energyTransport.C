@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "energyTransport.H"
-#include "surfaceFields.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "energyTransport/energyTransport.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

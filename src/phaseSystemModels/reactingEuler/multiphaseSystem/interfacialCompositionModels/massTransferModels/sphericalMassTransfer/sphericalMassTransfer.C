@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphericalMassTransfer.H"
-#include "reactingEuler_phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialCompositionModels/massTransferModels/sphericalMassTransfer/sphericalMassTransfer.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

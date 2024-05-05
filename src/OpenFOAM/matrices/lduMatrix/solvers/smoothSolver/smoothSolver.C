@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "smoothSolver.H"
-#include "profiling.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/solvers/smoothSolver/smoothSolver.H"
+#include "global/profiling/profiling.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

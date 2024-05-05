@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvOptions.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

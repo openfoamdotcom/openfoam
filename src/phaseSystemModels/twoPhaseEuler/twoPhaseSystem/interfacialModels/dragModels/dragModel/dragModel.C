@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dragModel.H"
-#include "phasePair.H"
-#include "swarmCorrection.H"
-#include "surfaceInterpolate.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "phasePair/phasePair.H"
+#include "interfacialModels/swarmCorrections/swarmCorrection/swarmCorrection.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef badQualityToFace_H
 #define badQualityToFace_H
 
-#include "topoSetFaceSource.H"
-#include "bitSet.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

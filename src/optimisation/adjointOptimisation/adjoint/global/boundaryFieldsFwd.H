@@ -39,9 +39,9 @@ SourceFiles
 #ifndef boundaryFieldsFwd_H
 #define boundaryFieldsFwd_H
 
-#include "fieldTypes.H"
-#include "volFields.H"
-#include "List.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/volFields/volFields.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

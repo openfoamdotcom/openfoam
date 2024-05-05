@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vector.H"
-#include "tensor.H"
-#include "symmTensor.H"
-#include "sphericalTensor.H"
-#include "expressionEntryVectors.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "expressions/exprEntry/expressionEntryVectors.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

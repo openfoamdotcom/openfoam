@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonuniformTransformCyclicPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

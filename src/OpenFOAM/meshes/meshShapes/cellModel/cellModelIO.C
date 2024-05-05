@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellModel.H"
-#include "dictionaryEntry.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

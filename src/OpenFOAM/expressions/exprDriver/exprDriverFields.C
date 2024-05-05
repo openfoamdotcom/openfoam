@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprDriver.H"
-#include "FieldOps.H"
-#include "Random.H"
-#include "TimeState.H"
+#include "expressions/exprDriver/exprDriver.H"
+#include "fields/Fields/Field/FieldOps.H"
+#include "primitives/random/Random/Random.H"
+#include "db/Time/TimeState.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

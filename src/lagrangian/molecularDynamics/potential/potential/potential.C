@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "potential.H"
+#include "potential/potential.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

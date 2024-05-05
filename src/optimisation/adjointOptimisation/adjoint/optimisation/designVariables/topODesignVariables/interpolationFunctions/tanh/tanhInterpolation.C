@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tanhInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/tanh/tanhInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

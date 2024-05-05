@@ -38,7 +38,7 @@ SourceFiles
 #ifndef gaussFaLaplacianScheme_H
 #define gaussFaLaplacianScheme_H
 
-#include "faLaplacianScheme.H"
+#include "finiteArea/laplacianSchemes/faLaplacianScheme/faLaplacianScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -121,7 +121,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gaussFaLaplacianScheme.C"
+    #include "finiteArea/laplacianSchemes/gaussFaLaplacianScheme/gaussFaLaplacianScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

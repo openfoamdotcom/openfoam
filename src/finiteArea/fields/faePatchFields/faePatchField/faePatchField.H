@@ -49,9 +49,9 @@ SourceFiles
 #ifndef Foam_faePatchField_H
 #define Foam_faePatchField_H
 
-#include "faPatch.H"
-#include "DimensionedField.H"
-#include "fieldTypes.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -555,13 +555,13 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faePatchField.C"
-    #include "faePatchFieldNew.C"
-    #include "calculatedFaePatchField.H"
+    #include "fields/faePatchFields/faePatchField/faePatchField.C"
+    #include "fields/faePatchFields/faePatchField/faePatchFieldNew.C"
+    #include "fields/faePatchFields/basic/calculated/calculatedFaePatchField.H"
 #endif
 
 // Runtime selection macros
-#include "faePatchFieldMacros.H"
+#include "fields/faePatchFields/faePatchField/faePatchFieldMacros.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

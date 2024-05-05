@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linear.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

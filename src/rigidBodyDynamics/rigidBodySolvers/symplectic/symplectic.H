@@ -61,7 +61,7 @@ SourceFiles
 #ifndef symplectic_H
 #define symplectic_H
 
-#include "rigidBodySolver.H"
+#include "rigidBodySolvers/rigidBodySolver/rigidBodySolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -31,22 +31,22 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FaceInteraction.H"
-#include "FacePostProcessing.H"
-#include "ParticleCollector.H"
-#include "ParticleErosion.H"
-#include "ParticleTracks.H"
-#include "ParticleTrap.H"
-#include "ParticleZoneInfo.H"
-#include "ParticleHistogram.H"
-#include "ParticlePostProcessing.H"
-#include "PatchCollisionDensity.H"
-#include "PatchInteractionFields.H"
-#include "RemoveParcels.H"
-#include "VoidFraction.H"
-#include "KinematicReynoldsNumber.H"
-#include "KinematicWeberNumber.H"
-#include "ParticleDose.H"
+#include "submodels/CloudFunctionObjects/FaceInteraction/FaceInteraction.H"
+#include "submodels/CloudFunctionObjects/FacePostProcessing/FacePostProcessing.H"
+#include "submodels/CloudFunctionObjects/ParticleCollector/ParticleCollector.H"
+#include "submodels/CloudFunctionObjects/ParticleErosion/ParticleErosion.H"
+#include "submodels/CloudFunctionObjects/ParticleTracks/ParticleTracks.H"
+#include "submodels/CloudFunctionObjects/ParticleTrap/ParticleTrap.H"
+#include "submodels/CloudFunctionObjects/ParticleZoneInfo/ParticleZoneInfo.H"
+#include "submodels/CloudFunctionObjects/ParticleHistogram/ParticleHistogram.H"
+#include "submodels/CloudFunctionObjects/ParticlePostProcessing/ParticlePostProcessing.H"
+#include "submodels/CloudFunctionObjects/PatchCollisionDensity/PatchCollisionDensity.H"
+#include "submodels/CloudFunctionObjects/PatchInteractionFields/PatchInteractionFields.H"
+#include "submodels/CloudFunctionObjects/RemoveParcels/RemoveParcels.H"
+#include "submodels/CloudFunctionObjects/VoidFraction/VoidFraction.H"
+#include "submodels/CloudFunctionObjects/KinematicReynoldsNumber/KinematicReynoldsNumber.H"
+#include "submodels/CloudFunctionObjects/KinematicWeberNumber/KinematicWeberNumber.H"
+#include "submodels/CloudFunctionObjects/ParticleDose/ParticleDose.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

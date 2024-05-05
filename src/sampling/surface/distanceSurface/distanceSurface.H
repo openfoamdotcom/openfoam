@@ -133,10 +133,10 @@ SourceFiles
 #ifndef Foam_distanceSurface_H
 #define Foam_distanceSurface_H
 
-#include "sampledSurface.H"
-#include "searchableSurface.H"
-#include "isoSurfaceBase.H"
-#include "pointIndexHit.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "surface/isoSurface/isoSurfaceBase.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

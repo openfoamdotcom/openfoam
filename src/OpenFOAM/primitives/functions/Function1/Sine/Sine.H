@@ -101,7 +101,7 @@ SourceFiles
 #ifndef Function1Types_Sine_H
 #define Function1Types_Sine_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,10 +229,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SineI.H"
+#include "primitives/functions/Function1/Sine/SineI.H"
 
 #ifdef NoRepository
-    #include "Sine.C"
+    #include "primitives/functions/Function1/Sine/Sine.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

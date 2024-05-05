@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tabulatedAccelerationSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "geometricOneField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/tabulatedAccelerationSource/tabulatedAccelerationSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

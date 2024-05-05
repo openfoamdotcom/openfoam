@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectRegistry.H"
-#include "cartesianCS.H"
-#include "indirectCS.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "primitives/coordinate/systems/indirectCS.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

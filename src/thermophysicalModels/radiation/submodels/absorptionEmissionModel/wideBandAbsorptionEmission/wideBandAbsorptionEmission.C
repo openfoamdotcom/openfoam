@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wideBandAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
-#include "basicSpecieMixture.H"
-#include "unitConversion.H"
+#include "submodels/absorptionEmissionModel/wideBandAbsorptionEmission/wideBandAbsorptionEmission.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "global/constants/unitConversion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

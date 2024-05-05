@@ -65,7 +65,7 @@ SourceFiles
 #ifndef continuousGasKEpsilon_H
 #define continuousGasKEpsilon_H
 
-#include "kEpsilon.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -174,7 +174,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "continuousGasKEpsilon.C"
+    #include "TurbulenceModels/phaseCompressible/RAS/continuousGasKEpsilon/continuousGasKEpsilon.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

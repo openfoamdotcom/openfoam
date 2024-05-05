@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "radialActuationDiskSource.H"
-#include "geometricOneField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/radialActuationDiskSource/radialActuationDiskSource.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

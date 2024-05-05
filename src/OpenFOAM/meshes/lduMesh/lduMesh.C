@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMesh.H"
-#include "objectRegistry.H"
-#include "processorLduInterface.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

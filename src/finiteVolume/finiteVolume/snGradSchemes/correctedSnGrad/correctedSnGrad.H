@@ -50,7 +50,7 @@ SourceFiles
 #ifndef correctedSnGrad_H
 #define correctedSnGrad_H
 
-#include "snGradScheme.H"
+#include "finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ tmp<surfaceVectorField> correctedSnGrad<vector>::correction
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "correctedSnGrad.C"
+    #include "finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

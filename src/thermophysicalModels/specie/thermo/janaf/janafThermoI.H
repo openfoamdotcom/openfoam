@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "janafThermo.H"
-#include "specie.H"
+#include "thermo/janaf/janafThermo.H"
+#include "specie/specie.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

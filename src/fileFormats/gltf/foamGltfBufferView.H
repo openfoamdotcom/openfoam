@@ -40,8 +40,8 @@ SourceFiles
 #ifndef foam_gltf_bufferview_H
 #define foam_gltf_bufferview_H
 
-#include "foamGltfBase.H"
-#include "Ostream.H"
+#include "gltf/foamGltfBase.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

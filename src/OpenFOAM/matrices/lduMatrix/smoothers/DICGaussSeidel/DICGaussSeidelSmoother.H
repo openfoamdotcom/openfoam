@@ -43,8 +43,8 @@ SourceFiles
 #ifndef DICGaussSeidelSmoother_H
 #define DICGaussSeidelSmoother_H
 
-#include "DICSmoother.H"
-#include "GaussSeidelSmoother.H"
+#include "matrices/lduMatrix/smoothers/DIC/DICSmoother.H"
+#include "matrices/lduMatrix/smoothers/GaussSeidel/GaussSeidelSmoother.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef PointIntegrateData_H
 #define PointIntegrateData_H
 
-#include "UList.H"
+#include "containers/Lists/List/UList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -246,7 +246,7 @@ struct is_contiguous<PointIntegrateData<DataType>>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PointIntegrateDataI.H"
+#include "snappyHexMeshDriver/PointIntegrateData/PointIntegrateDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

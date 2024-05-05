@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonuniformTransformCyclicPointPatchField.H"
-#include "transformField.H"
-#include "symmTransformField.H"
+#include "fields/pointPatchFields/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPointPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "fields/Fields/symmTransformField/symmTransformField.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

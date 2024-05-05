@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryToCell.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/boundaryToCell/boundaryToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

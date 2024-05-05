@@ -41,7 +41,7 @@ SourceFiles
 #ifndef fourthGrad_H
 #define fourthGrad_H
 
-#include "gradScheme.H"
+#include "finiteVolume/gradSchemes/gradScheme/gradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fourthGrad.C"
+    #include "finiteVolume/gradSchemes/fourthGrad/fourthGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

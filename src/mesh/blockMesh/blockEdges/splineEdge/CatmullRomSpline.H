@@ -65,7 +65,7 @@ SourceFiles
 #ifndef CatmullRomSpline_H
 #define CatmullRomSpline_H
 
-#include "polyLinePascal.H"
+#include "blockEdges/polyLineEdge/polyLinePascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

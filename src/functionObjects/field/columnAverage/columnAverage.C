@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "columnAverage.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "meshStructure.H"
-#include "globalIndex.H"
+#include "columnAverage/columnAverage.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshStructure/meshStructure.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

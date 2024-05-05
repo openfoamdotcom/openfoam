@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashPtrTable.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "INew.H"
-#include "dictionary.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/IOstreams/INew.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

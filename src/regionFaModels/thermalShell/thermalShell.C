@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalShell.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFields.H"
-#include "zeroGradientFaPatchFields.H"
+#include "thermalShell/thermalShell.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

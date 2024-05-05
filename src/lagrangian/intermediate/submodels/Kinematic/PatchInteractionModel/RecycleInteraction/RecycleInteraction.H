@@ -91,10 +91,10 @@ SourceFiles
 #ifndef RecycleInteraction_H
 #define RecycleInteraction_H
 
-#include "patchInjectionBase.H"
-#include "IDLList.H"
-#include "PtrList.H"
-#include "PatchInteractionModel.H"
+#include "submodels/Kinematic/InjectionModel/PatchInjection/patchInjectionBase.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -216,7 +216,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "RecycleInteraction.C"
+    #include "submodels/Kinematic/PatchInteractionModel/RecycleInteraction/RecycleInteraction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

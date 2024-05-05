@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Function1Types_stepFunction_H
 #define Function1Types_stepFunction_H
 
-#include "ramp.H"
+#include "primitives/functions/Function1/ramp/ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -93,7 +93,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "stepFunctionI.H"
+#include "primitives/functions/Function1/step/stepFunctionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

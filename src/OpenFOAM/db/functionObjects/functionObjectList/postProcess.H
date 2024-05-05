@@ -73,13 +73,13 @@ Foam::argList::addBoolOption
 if (argList::postProcess(argc, argv))
 {
     Foam::timeSelector::addOptions();
-    #include "addRegionOption.H"
-    #include "addFunctionObjectOptions.H"
+    #include "include/addRegionOption.H"
+    #include "include/addFunctionObjectOptions.H"
 
     // Set functionObject post-processing mode
     functionObject::postProcess = true;
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (args.found("list"))
     {

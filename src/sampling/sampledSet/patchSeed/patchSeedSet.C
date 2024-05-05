@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchSeedSet.H"
-#include "polyMesh.H"
-#include "treeBoundBox.H"
-#include "treeDataFace.H"
-#include "mappedPatchBase.H"
-#include "indirectPrimitivePatch.H"
-#include "triangulatedPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/patchSeed/patchSeedSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "indexedOctree/treeDataFace.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "triangulatedPatch/triangulatedPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

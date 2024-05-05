@@ -45,7 +45,7 @@ SourceFiles
 #ifndef turbulentBreakUp_H
 #define turbulentBreakUp_H
 
-#include "IATEsource.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

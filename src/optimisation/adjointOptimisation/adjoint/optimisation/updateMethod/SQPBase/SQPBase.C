@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SQPBase.H"
-#include "IOmanip.H"
-#include "updateMethod.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/updateMethod/SQPBase/SQPBase.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "optimisation/updateMethod/updateMethod/updateMethod.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

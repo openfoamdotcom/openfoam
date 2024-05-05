@@ -29,7 +29,7 @@ License
 #ifndef Foam_surfFieldsFwd_H
 #define Foam_surfFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

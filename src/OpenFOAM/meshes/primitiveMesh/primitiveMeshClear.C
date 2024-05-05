@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "demandDrivenData.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

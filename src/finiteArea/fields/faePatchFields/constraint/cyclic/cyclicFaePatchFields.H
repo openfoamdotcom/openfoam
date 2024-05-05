@@ -28,7 +28,7 @@ License
 #ifndef Foam_cyclicFaePatchFields_H
 #define Foam_cyclicFaePatchFields_H
 
-#include "cyclicFaePatchField.H"
+#include "fields/faePatchFields/constraint/cyclic/cyclicFaePatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

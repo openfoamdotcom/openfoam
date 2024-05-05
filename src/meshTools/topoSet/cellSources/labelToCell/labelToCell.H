@@ -86,7 +86,7 @@ SourceFiles
 #ifndef labelToCell_H
 #define labelToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

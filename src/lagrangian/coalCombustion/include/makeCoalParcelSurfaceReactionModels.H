@@ -30,12 +30,12 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoSurfaceReaction.H"
-#include "COxidationDiffusionLimitedRate.H"
-#include "COxidationIntrinsicRate.H"
-#include "COxidationKineticDiffusionLimitedRate.H"
-#include "COxidationHurtMitchell.H"
-#include "COxidationMurphyShaddix.H"
+#include "submodels/ReactingMultiphase/SurfaceReactionModel/NoSurfaceReaction/NoSurfaceReaction.H"
+#include "submodels/surfaceReactionModel/COxidationDiffusionLimitedRate/COxidationDiffusionLimitedRate.H"
+#include "submodels/surfaceReactionModel/COxidationIntrinsicRate/COxidationIntrinsicRate.H"
+#include "submodels/surfaceReactionModel/COxidationKineticDiffusionLimitedRate/COxidationKineticDiffusionLimitedRate.H"
+#include "submodels/surfaceReactionModel/COxidationHurtMitchell/COxidationHurtMitchell.H"
+#include "submodels/surfaceReactionModel/COxidationMurphyShaddix/COxidationMurphyShaddix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

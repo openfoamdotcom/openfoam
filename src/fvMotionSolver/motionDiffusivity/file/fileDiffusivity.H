@@ -37,8 +37,8 @@ SourceFiles
 #ifndef fileDiffusivity_H
 #define fileDiffusivity_H
 
-#include "motionDiffusivity.H"
-#include "surfaceFields.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef interpolation2DTable_H
 #define interpolation2DTable_H
 
-#include "interpolationTable.H"
+#include "interpolations/interpolationTable/interpolationTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,7 +157,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolation2DTable.C"
+    #include "interpolations/interpolation2DTable/interpolation2DTable.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

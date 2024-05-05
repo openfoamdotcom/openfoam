@@ -62,10 +62,10 @@ Description
 #ifndef Foam_fileOperations_masterUncollatedFileOperation_H
 #define Foam_fileOperations_masterUncollatedFileOperation_H
 
-#include "fileOperation.H"
-#include "OSspecific.H"
-#include "HashPtrTable.H"
-#include "DynamicList.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "include/OSspecific.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -793,7 +793,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "masterUncollatedFileOperationTemplates.C"
+    #include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heThermo.H"
-#include "gradientEnergyFvPatchScalarField.H"
-#include "mixedEnergyFvPatchScalarField.H"
+#include "heThermo/heThermo.H"
+#include "derivedFvPatchFields/gradientEnergy/gradientEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/mixedEnergy/mixedEnergyFvPatchScalarField.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

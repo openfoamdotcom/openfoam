@@ -46,10 +46,10 @@ SourceFiles
 #ifndef Foam_vtk_vtkTools_H
 #define Foam_vtk_vtkTools_H
 
-#include "faceList.H"
-#include "pointField.H"
-#include "symmTensor.H"
-#include "MinMax.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // VTK includes
 #include "vtkCellArray.h"
@@ -353,12 +353,12 @@ void Foam::vtk::Tools::remapTuple<Foam::symmTensor>(double data[])
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtkToolsI.H"
+#include "vtk/adaptor/foamVtkToolsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkToolsTemplates.C"
+    #include "vtk/adaptor/foamVtkToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

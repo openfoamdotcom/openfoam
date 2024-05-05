@@ -94,9 +94,9 @@ SourceFiles
 #ifndef functionObjects_AMIWeights_H
 #define functionObjects_AMIWeights_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "cyclicAMIPolyPatch.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolateXY.H"
-#include "primitiveFields.H"
+#include "interpolations/interpolateXY/interpolateXY.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

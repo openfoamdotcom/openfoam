@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformInterpolationTable.H"
-#include "TimeOpenFOAM.H"
-#include "IOstream.H"
-#include "IOdictionary.H"
+#include "interpolations/uniformInterpolationTable/uniformInterpolationTable.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * *  Private Member Functions * * * * * * * * * * * * //
 

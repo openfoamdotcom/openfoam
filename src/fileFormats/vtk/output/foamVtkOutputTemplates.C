@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndex.H"
-#include "Pstream.H"
-#include "ListOps.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

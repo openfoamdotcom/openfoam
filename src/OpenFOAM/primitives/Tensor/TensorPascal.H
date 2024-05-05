@@ -42,9 +42,9 @@ See also
 #ifndef Foam_Tensor_H
 #define Foam_Tensor_H
 
-#include "MatrixSpace.H"
-#include "VectorPascal.H"
-#include "SphericalTensorPascal.H"
+#include "primitives/MatrixSpace/MatrixSpace.H"
+#include "primitives/Vector/VectorPascal.H"
+#include "primitives/SphericalTensor/SphericalTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -394,7 +394,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "TensorI.H"
+#include "primitives/Tensor/TensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

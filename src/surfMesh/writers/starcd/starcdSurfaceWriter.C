@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "starcdSurfaceWriter.H"
-#include "ListOps.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "MeshedSurfaceProxy.H"
-#include "surfaceWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writers/starcd/starcdSurfaceWriter.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

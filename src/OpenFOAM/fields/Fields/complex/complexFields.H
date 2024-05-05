@@ -36,8 +36,8 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "complexField.H"
-#include "complexVectorField.H"
+#include "fields/Fields/complex/complexField.H"
+#include "fields/Fields/complex/complexVectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

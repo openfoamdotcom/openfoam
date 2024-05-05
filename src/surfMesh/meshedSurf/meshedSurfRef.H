@@ -38,8 +38,8 @@ Description
 #ifndef Foam_meshedSurfRef_H
 #define Foam_meshedSurfRef_H
 
-#include "meshedSurf.H"
-#include "refPtr.H"
+#include "meshedSurf/meshedSurf.H"
+#include "memory/refPtr/refPtr.H"
 #include <functional>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

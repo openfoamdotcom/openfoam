@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightFaMesh.H"
-#include "ensightGeoFile.H"
-#include "faMesh.H"
+#include "output/ensight/ensightFaMesh.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

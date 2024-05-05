@@ -25,19 +25,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shortestPathSet.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "topoDistanceData.H"
-#include "addToRunTimeSelectionTable.H"
-#include "FaceCellWave.H"
-#include "syncTools.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "OBJstream.H"
-#include "PatchTools.H"
-#include "foamVtkSurfaceWriter.H"
-#include "indirectPrimitivePatch.H"
+#include "sampledSet/shortestPath/shortestPathSet.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshStructure/topoDistanceData.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "obj/OBJstream.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

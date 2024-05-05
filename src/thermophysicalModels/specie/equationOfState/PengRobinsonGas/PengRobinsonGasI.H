@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PengRobinsonGas.H"
-#include "mathematicalConstants.H"
+#include "equationOfState/PengRobinsonGas/PengRobinsonGas.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

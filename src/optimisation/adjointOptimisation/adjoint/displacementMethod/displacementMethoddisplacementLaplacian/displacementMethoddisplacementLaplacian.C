@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementMethoddisplacementLaplacian.H"
-#include "displacementLaplacianFvMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "displacementMethod/displacementMethoddisplacementLaplacian/displacementMethoddisplacementLaplacian.H"
+#include "fvMotionSolvers/displacement/laplacian/displacementLaplacianFvMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

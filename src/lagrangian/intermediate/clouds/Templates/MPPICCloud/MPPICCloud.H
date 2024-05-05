@@ -41,12 +41,12 @@ SourceFiles
 #ifndef MPPICCloud_H
 #define MPPICCloud_H
 
-#include "particle.H"
-#include "CloudPascal.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "fvMesh.H"
-#include "volFields.H"
+#include "particle/particle.H"
+#include "Cloud/CloudPascal.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,12 +243,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MPPICCloudI.H"
+#include "clouds/Templates/MPPICCloud/MPPICCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MPPICCloud.C"
+    #include "clouds/Templates/MPPICCloud/MPPICCloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

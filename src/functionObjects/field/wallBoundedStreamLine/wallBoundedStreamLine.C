@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoundedStreamLine.H"
-#include "wallBoundedStreamLineParticleCloud.H"
-#include "sampledSet.H"
-#include "faceSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "wallBoundedStreamLine/wallBoundedStreamLine.H"
+#include "wallBoundedStreamLine/wallBoundedStreamLineParticleCloud.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pyrolysisModelCollection.H"
-#include "volFields.H"
+#include "pyrolysisModel/pyrolysisModelCollection.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

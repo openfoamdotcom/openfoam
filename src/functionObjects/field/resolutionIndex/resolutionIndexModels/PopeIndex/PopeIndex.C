@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PopeIndex.H"
-#include "resolutionIndexModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "resolutionIndex/resolutionIndexModels/PopeIndex/PopeIndex.H"
+#include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

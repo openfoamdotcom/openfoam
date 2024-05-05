@@ -40,8 +40,8 @@ SourceFiles
 #ifndef functionObjects_timeFunctionObject_H
 #define functionObjects_timeFunctionObject_H
 
-#include "functionObject.H"
-#include "TimeOpenFOAM.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

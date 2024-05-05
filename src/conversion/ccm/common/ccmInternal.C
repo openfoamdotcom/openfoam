@@ -25,8 +25,8 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "ccmInternal.H" // include last to avoid any strange interactions
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "common/ccmInternal.H" // include last to avoid any strange interactions
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

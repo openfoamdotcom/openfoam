@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceCompositionModel.H"
-#include "reactingEuler_phaseModel.H"
-#include "reactingEuler_phasePair.H"
+#include "interfaceCompositionModel/interfaceCompositionModel.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

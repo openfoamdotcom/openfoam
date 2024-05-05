@@ -44,7 +44,7 @@ SourceFiles
 #ifndef segregated_H
 #define segregated_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

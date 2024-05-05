@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_fvMeshSubsetter_H
 #define Foam_fvMeshSubsetter_H
 
-#include "fvMeshSubset.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

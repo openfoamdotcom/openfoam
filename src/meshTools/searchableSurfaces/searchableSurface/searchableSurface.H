@@ -44,14 +44,14 @@ SourceFiles
 #ifndef Foam_searchableSurface_H
 #define Foam_searchableSurface_H
 
-#include "pointField.H"
-#include "boundBox.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "pointIndexHit.H"
-#include "line.H"
-#include "objectRegistry.H"
-#include "volumeType.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/boundBox/boundBox.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/primitiveShapes/line/line.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

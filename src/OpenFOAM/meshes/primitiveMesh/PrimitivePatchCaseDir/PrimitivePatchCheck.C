@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchPascal.H"
-#include "Map.H"
-#include "DynamicList.H"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchPascal.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

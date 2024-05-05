@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "floatScalar.H"
-#include "error.H"
-#include "parsing.H"
-#include "IOstreams.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
+#include "db/error/error.H"
+#include "primitives/strings/parsing/parsing.H"
+#include "db/IOstreams/IOstreams.H"
 
 #include <sstream>
 
@@ -46,7 +46,7 @@ License
 // Convert using larger representation to properly capture underflow
 #define ScalarConvert ::strtod
 
-#include "ScalarPascal.C"
+#include "primitives/Scalar/ScalarPascal.C"
 
 #undef Scalar
 #undef ScalarVGREAT

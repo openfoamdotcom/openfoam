@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionToFace.H"
-#include "polyMesh.H"
-#include "faceSet.H"
-#include "mappedPatchBase.H"
-#include "indirectPrimitivePatch.H"
-#include "PatchTools.H"
-#include "addToRunTimeSelectionTable.H"
-#include "PatchEdgeFaceWave.H"
-#include "edgeTopoDistanceData.H"
+#include "topoSet/faceSources/regionToFace/regionToFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "algorithms/PatchEdgeFaceWave/edgeTopoDistanceData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_valuePointPatchField_H
 #define Foam_valuePointPatchField_H
 
-#include "pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -268,7 +268,7 @@ tmp<Field<Type>> operator+
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "valuePointPatchField.C"
+    #include "fields/pointPatchFields/basic/value/valuePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeInterpolationScheme.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

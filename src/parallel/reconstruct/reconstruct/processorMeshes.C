@@ -27,10 +27,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "processorMeshes.H"
-#include "TimeOpenFOAM.H"
-#include "IndirectList.H"
-#include "primitiveMesh.H"
-#include "OSspecific.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

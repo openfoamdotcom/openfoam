@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TRIReader.H"
-#include "surfaceFormatsCore.H"
-#include "IFstream.H"
-#include "IOmanip.H"
-#include "StringStream.H"
-#include "DynamicList.H"
-#include "mergePoints.H"
-#include "Map.H"
+#include "surfaceFormats/tri/TRIReader.H"
+#include "surfaceFormats/surfaceFormatsCore.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

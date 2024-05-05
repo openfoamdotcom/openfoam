@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_JSONformatter_H
 #define Foam_JSONformatter_H
 
-#include "Ostream.H"
-#include "dictionary.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

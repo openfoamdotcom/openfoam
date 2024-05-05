@@ -37,8 +37,8 @@ SourceFiles
 #ifndef ode_H
 #define ode_H
 
-#include "chemistrySolver.H"
-#include "ODESolver.H"
+#include "chemistrySolver/chemistrySolver/chemistrySolver.H"
+#include "ODESolvers/ODESolver/ODESolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ode.C"
+    #include "chemistrySolver/ode/ode.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

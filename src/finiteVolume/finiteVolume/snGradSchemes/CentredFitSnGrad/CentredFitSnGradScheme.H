@@ -38,8 +38,8 @@ Description
 #ifndef CentredFitSnGradScheme_H
 #define CentredFitSnGradScheme_H
 
-#include "CentredFitSnGradData.H"
-#include "snGradScheme.H"
+#include "finiteVolume/snGradSchemes/CentredFitSnGrad/CentredFitSnGradData.H"
+#include "finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

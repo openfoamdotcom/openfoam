@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminarModel.H"
-#include "Stokes.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "laminar/Stokes/Stokes.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmPlantCanopyTurbSource.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/atmPlantCanopyTurbSource/atmPlantCanopyTurbSource.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

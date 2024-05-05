@@ -27,11 +27,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NURBS3DVolumeCylindrical.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointMesh.H"
-#include "pointPatchField.H"
-#include "pointPatchFieldsFwd.H"
+#include "parameterization/NURBS/NURBS3DVolume/cylindrical/NURBS3DVolumeCylindrical.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

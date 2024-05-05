@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_MeshWave_H
 #define Foam_MeshWave_H
 
-#include "FaceCellWave.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MeshWave.C"
+    #include "algorithms/MeshWave/MeshWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -45,8 +45,8 @@ Description
 #ifndef offsetSurface_H
 #define offsetSurface_H
 
-#include "point.H"
-#include "extrudeModel.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "extrudeModel/extrudeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

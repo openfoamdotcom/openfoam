@@ -156,9 +156,9 @@ SourceFiles
 #ifndef targetCoeffTrim_H
 #define targetCoeffTrim_H
 
-#include "trimModel.H"
-#include "tensor.H"
-#include "vector.H"
+#include "sources/derived/rotorDiskSource/trimModel/trimModel/trimModel.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -116,8 +116,8 @@ SourceFiles
 #ifndef boxToFace_H
 #define boxToFace_H
 
-#include "topoSetFaceSource.H"
-#include "treeBoundBoxList.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

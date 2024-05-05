@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "spatialTransform.H"
-#include "transform.H"
-#include "dictionary.H"
+#include "primitives/spatialVectorAlgebra/spatialTransform/spatialTransform.H"
+#include "primitives/transform/transform.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_edgeMeshTools_H
 #define Foam_edgeMeshTools_H
 
-#include "tmp.H"
-#include "scalarField.H"
+#include "memory/tmp/tmp.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

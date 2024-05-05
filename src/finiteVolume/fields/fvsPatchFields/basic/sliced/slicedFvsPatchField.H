@@ -44,8 +44,8 @@ SourceFiles
 #ifndef Foam_slicedFvsPatchField_H
 #define Foam_slicedFvsPatchField_H
 
-#include "fvsPatchField.H"
-#include "processorFvPatch.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "slicedFvsPatchField.C"
+    #include "fields/fvsPatchFields/basic/sliced/slicedFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

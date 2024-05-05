@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noChemistryReduction.H"
+#include "chemistryModel/TDACChemistryModel/reduction/noChemistryReduction/noChemistryReduction.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

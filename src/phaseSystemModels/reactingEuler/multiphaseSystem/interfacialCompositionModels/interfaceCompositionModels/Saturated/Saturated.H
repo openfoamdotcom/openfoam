@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Saturated_H
 #define Saturated_H
 
-#include "InterfaceCompositionModelPascal1.H"
-#include "saturationModel.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal1.H"
+#include "saturationModel/saturationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Saturated.C"
+    #include "interfacialCompositionModels/interfaceCompositionModels/Saturated/Saturated.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

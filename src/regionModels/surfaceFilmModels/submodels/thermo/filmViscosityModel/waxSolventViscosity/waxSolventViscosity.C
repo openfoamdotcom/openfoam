@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waxSolventViscosity.H"
-#include "kinematicSingleLayer.H"
-#include "waxSolventEvaporation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/filmViscosityModel/waxSolventViscosity/waxSolventViscosity.H"
+#include "kinematicSingleLayer/kinematicSingleLayer.H"
+#include "submodels/thermo/phaseChangeModel/waxSolventEvaporation/waxSolventEvaporation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

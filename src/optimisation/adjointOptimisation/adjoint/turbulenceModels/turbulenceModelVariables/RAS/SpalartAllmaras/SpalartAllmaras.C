@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmaras.H"
-#include "wallDist.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/SpalartAllmaras/SpalartAllmaras.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

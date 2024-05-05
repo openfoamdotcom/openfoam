@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hostCollatedFileOperation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/fileOperations/collatedFileOperation/hostCollatedFileOperation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

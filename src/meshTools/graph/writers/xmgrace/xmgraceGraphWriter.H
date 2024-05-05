@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_xmgraceGraphWriter_H
 #define Foam_xmgraceGraphWriter_H
 
-#include "graph.H"
+#include "graph/graph.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

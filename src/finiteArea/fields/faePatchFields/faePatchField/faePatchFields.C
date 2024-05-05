@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faePatchFields.H"
-#include "edgeFaMesh.H"
+#include "fields/faePatchFields/faePatchField/faePatchFields.H"
+#include "edgeMesh/edgeFaMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

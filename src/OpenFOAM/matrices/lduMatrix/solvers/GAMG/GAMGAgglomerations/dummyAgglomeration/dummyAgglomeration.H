@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_dummyAgglomeration_H
 #define Foam_dummyAgglomeration_H
 
-#include "GAMGAgglomeration.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

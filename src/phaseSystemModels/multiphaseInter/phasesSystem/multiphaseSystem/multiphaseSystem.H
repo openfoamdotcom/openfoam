@@ -37,9 +37,9 @@ SourceFiles
 #ifndef multiphaseInter_multiphaseSystem_H
 #define multiphaseInter_multiphaseSystem_H
 
-#include "multiphaseInterSystem.H"
-#include "UPtrList.H"
-#include "phasePairKey.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "phasePair/phasePairKey.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

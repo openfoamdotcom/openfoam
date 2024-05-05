@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicFvMesh.H"
-#include "profiling.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "global/profiling/profiling.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

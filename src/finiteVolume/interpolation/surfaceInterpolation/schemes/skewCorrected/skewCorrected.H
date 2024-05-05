@@ -41,10 +41,10 @@ SourceFiles
 #ifndef skewCorrected_H
 #define skewCorrected_H
 
-#include "surfaceInterpolationScheme.H"
-#include "skewCorrectionVectors.H"
-#include "linear.H"
-#include "gaussGrad.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrectionVectors.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

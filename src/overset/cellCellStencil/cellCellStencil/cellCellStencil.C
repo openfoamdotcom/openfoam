@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellCellStencil.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "syncTools.H"
-#include "globalIndex.H"
-#include "oversetFvPatchFields.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencil.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "oversetPolyPatch/oversetFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

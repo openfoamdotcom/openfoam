@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slidingInterface.H"
-#include "polyTopoChanger.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "plane.H"
+#include "slidingInterface/slidingInterface.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 // Index of debug signs:
 // p - adjusting a projection point

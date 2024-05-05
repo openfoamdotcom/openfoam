@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/linear/linearInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

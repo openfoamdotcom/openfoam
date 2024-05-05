@@ -47,8 +47,8 @@ Description
 #ifndef adjointSimple_H
 #define adjointSimple_H
 
-#include "incompressibleAdjointSolver.H"
-#include "SIMPLEControlPascal.H"
+#include "solvers/adjointSolvers/incompressible/incompressibleAdjointSolver/incompressibleAdjointSolver.H"
+#include "solvers/solverControl/SIMPLEControl/SIMPLEControl/SIMPLEControlPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

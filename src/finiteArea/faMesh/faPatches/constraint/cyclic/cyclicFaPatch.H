@@ -42,9 +42,9 @@ SourceFiles
 #ifndef Foam_cyclicFaPatch_H
 #define Foam_cyclicFaPatch_H
 
-#include "coupledFaPatch.H"
-#include "cyclicLduInterface.H"
-#include "cyclicPolyPatch.H"
+#include "faMesh/faPatches/basic/coupled/coupledFaPatch.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

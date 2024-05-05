@@ -39,8 +39,8 @@ SourceFiles
 #ifndef surfaceFilmModel_H
 #define surfaceFilmModel_H
 
-#include "runTimeSelectionTables.H"
-#include "volFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -43,10 +43,10 @@ SourceFiles
 #ifndef ABAQUSsurfaceFormat_H
 #define ABAQUSsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
-#include "ABAQUSsurfaceFormatCore.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "surfaceFormats/abaqus/ABAQUSsurfaceFormatCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ABAQUSsurfaceFormat.C"
+    #include "surfaceFormats/abaqus/ABAQUSsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

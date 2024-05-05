@@ -86,8 +86,8 @@ SourceFiles
 #ifndef LRR_H
 #define LRR_H
 
-#include "RASModel.H"
-#include "ReynoldsStress.H"
+#include "RAS/RASModel/RASModel.H"
+#include "ReynoldsStress/ReynoldsStress.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -219,7 +219,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LRR.C"
+    #include "RAS/LRR/LRR.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

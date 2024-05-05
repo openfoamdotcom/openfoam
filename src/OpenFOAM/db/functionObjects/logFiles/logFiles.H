@@ -43,8 +43,8 @@ SourceFiles
 #ifndef functionObjects_logFiles_H
 #define functionObjects_logFiles_H
 
-#include "writeFile.H"
-#include "PtrList.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

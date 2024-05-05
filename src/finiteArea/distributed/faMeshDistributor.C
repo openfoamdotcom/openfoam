@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshDistributor.H"
-#include "BitOps.H"
-#include "fileOperation.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "faMeshTools.H"
+#include "distributed/faMeshDistributor.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "faMesh/faMeshTools/faMeshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

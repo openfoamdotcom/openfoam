@@ -38,7 +38,7 @@ SourceFiles
 #ifndef phaseFraction_H
 #define phaseFraction_H
 
-#include "partitioningModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

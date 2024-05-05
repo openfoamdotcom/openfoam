@@ -38,14 +38,14 @@ SourceFiles
 #ifndef interfaceTrackingFvMesh_H
 #define interfaceTrackingFvMesh_H
 
-#include "dynamicMotionSolverFvMesh.H"
-#include "regIOobject.H"
-#include "faCFD.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "dynamicMotionSolverFvMesh/dynamicMotionSolverFvMesh.H"
+#include "db/regIOobject/regIOobject.H"
+#include "include/faCFD.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 #include "surfactantProperties.H"
-#include "singlePhaseTransportModel.H"
-#include "demandDrivenData.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

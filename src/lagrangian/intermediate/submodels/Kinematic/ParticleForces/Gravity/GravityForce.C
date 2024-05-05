@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GravityForce.H"
+#include "submodels/Kinematic/ParticleForces/Gravity/GravityForce.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

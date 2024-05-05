@@ -68,9 +68,9 @@ SourceFiles
 #ifndef Foam_exprTools_expressionEntry_H
 #define Foam_exprTools_expressionEntry_H
 
-#include "exprString.H"
-#include "primitiveEntry.H"
-#include "runTimeSelectionTables.H"
+#include "expressions/exprString/exprString.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "expressionEntryI.H"
+#include "expressions/exprEntry/expressionEntryI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

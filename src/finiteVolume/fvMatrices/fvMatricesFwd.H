@@ -31,7 +31,7 @@ Description
 #ifndef Foam_fvMatricesFwd_H
 #define Foam_fvMatricesFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

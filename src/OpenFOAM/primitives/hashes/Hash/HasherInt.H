@@ -37,7 +37,7 @@ See also
 #ifndef HasherInt_H
 #define HasherInt_H
 
-#include "Hasher.H"
+#include "primitives/hashes/Hash/Hasher.H"
 #include <cstdint>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

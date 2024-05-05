@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shallowWaterAbsorption.H"
-#include "volFields.H"
-#include "fvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "waveAbsorptionModels/derived/shallowWaterAbsorption/shallowWaterAbsorption.H"
+#include "fields/volFields/volFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

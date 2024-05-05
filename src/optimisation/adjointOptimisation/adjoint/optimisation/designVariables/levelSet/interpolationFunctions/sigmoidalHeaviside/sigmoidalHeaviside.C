@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigmoidalHeaviside.H"
-#include "mathematicalConstants.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/levelSet/interpolationFunctions/sigmoidalHeaviside/sigmoidalHeaviside.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

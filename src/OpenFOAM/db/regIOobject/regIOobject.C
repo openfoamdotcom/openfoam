@@ -29,11 +29,11 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "regIOobject.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "dictionary.H"
-#include "fileOperation.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

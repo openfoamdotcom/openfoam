@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exponential.H"
-#include "addToRunTimeSelectionTable.H"
-#include "uniformDimensionedFields.H"
-#include "phasePairKey.H"
-#include "phaseSystem.H"
+#include "submodels/MPPIC/ParticleStressModels/exponential/exponential.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "phasePair/phasePairKey.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

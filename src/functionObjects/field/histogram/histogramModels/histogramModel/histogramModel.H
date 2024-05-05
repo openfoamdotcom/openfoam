@@ -44,8 +44,8 @@ SourceFiles
 #ifndef Foam_histogramModel_H
 #define Foam_histogramModel_H
 
-#include "writeFile.H"
-#include "volFields.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

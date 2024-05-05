@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmarasBase.H"
-#include "wallDist.H"
-#include "bound.H"
-#include "fvOptions.H"
+#include "Base/SpalartAllmaras/SpalartAllmarasBase.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "cfdTools/general/bound/bound.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

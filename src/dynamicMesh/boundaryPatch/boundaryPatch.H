@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_boundaryPatch_H
 #define Foam_boundaryPatch_H
 
-#include "patchIdentifier.H"
-#include "labelRange.H"
-#include "autoPtr.H"
+#include "meshes/Identifiers/patch/patchIdentifier.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

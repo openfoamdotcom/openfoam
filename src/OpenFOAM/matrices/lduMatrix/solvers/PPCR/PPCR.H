@@ -53,7 +53,7 @@ SourceFiles
 #ifndef PPCR_H
 #define PPCR_H
 
-#include "PPCG.H"
+#include "matrices/lduMatrix/solvers/PPCG/PPCG.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

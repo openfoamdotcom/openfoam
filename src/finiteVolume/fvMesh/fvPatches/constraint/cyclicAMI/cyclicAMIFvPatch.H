@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_cyclicAMIFvPatch_H
 #define Foam_cyclicAMIFvPatch_H
 
-#include "cyclicAMIPolyPatch.H"
-#include "coupledFvPatch.H"
-#include "cyclicAMILduInterface.H"
-#include "fvBoundaryMesh.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterface.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

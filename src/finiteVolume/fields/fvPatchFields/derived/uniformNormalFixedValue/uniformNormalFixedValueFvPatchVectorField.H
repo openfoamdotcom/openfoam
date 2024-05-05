@@ -67,9 +67,9 @@ SourceFiles
 #ifndef Foam_uniformNormalFixedValueFvPatchVectorField_H
 #define Foam_uniformNormalFixedValueFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "fixedValueFvPatchFields.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

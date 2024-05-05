@@ -79,12 +79,12 @@ SourceFiles
 #ifndef Foam_ABAQUSCore_H
 #define Foam_ABAQUSCore_H
 
-#include "Fstream.H"
-#include "Enum.H"
-#include "Map.H"
-#include "face.H"
-#include "point.H"
-#include "DynamicList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "primitives/enums/Enum.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

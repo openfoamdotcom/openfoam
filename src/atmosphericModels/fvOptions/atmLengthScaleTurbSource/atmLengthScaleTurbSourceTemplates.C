@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmLengthScaleTurbSource.H"
-#include "volFields.H"
+#include "fvOptions/atmLengthScaleTurbSource/atmLengthScaleTurbSource.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

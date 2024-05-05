@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshStructure.H"
-#include "FaceCellWave.H"
-#include "topoDistanceData.H"
-#include "pointTopoDistanceData.H"
-#include "PointEdgeWave.H"
-#include "globalIndex.H"
+#include "meshStructure/meshStructure.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "meshStructure/topoDistanceData.H"
+#include "meshStructure/pointTopoDistanceData.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

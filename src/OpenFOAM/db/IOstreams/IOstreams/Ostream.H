@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_Ostream_H
 #define Foam_Ostream_H
 
-#include "IOstream.H"
-#include "keyType.H"
-#include "stdFoam.H"  // For span etc.
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "primitives/strings/keyType/keyType.H"
+#include "include/stdFoam.H"  // For span etc.
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

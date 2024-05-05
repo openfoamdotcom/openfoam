@@ -32,9 +32,9 @@ Description
 #ifndef Foam_defineDebugSwitch_H
 #define Foam_defineDebugSwitch_H
 
-#include "simpleRegIOobject.H"
-#include "debug.H"
-#include "label.H"  // Also for defining Foam::word etc.
+#include "global/debug/simpleRegIOobject.H"
+#include "global/debug/debug.H"
+#include "primitives/ints/label/label.H"  // Also for defining Foam::word etc.
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

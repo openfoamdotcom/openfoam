@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FieldM.H"
-#include "FieldReuseFunctions.H"
+#include "fields/Fields/Field/FieldM.H"
+#include "fields/Fields/Field/FieldReuseFunctions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

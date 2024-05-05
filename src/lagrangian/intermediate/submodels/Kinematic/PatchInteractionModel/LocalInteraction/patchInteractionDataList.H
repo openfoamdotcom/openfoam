@@ -34,10 +34,10 @@ Description
 #ifndef patchInteractionDataList_H
 #define patchInteractionDataList_H
 
-#include "patchInteractionData.H"
-#include "polyMesh.H"
-#include "dictionary.H"
-#include "labelList.H"
+#include "submodels/Kinematic/PatchInteractionModel/LocalInteraction/patchInteractionData.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

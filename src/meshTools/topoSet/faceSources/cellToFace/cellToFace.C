@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellToFace.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "TimeOpenFOAM.H"
-#include "syncTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/faceSources/cellToFace/cellToFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

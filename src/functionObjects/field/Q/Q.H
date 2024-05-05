@@ -97,7 +97,7 @@ SourceFiles
 #ifndef functionObjects_Q_H
 #define functionObjects_Q_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

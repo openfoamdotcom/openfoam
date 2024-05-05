@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
-#include "SortableList.H"
-#include "transform.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

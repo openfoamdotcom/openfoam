@@ -40,8 +40,8 @@ SourceFiles
 #ifndef volumetricBSplinesMotionSolver_H
 #define volumetricBSplinesMotionSolver_H
 
-#include "motionSolver.H"
-#include "volBSplinesBase.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "parameterization/NURBS/NURBS3DVolume/volBSplinesBase/volBSplinesBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

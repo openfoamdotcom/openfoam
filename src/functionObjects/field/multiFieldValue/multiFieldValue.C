@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiFieldValue.H"
-#include "addToRunTimeSelectionTable.H"
+#include "multiFieldValue/multiFieldValue.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -64,7 +64,7 @@ Foam::functionObjects::fieldValues::multiFieldValue::operationTypeNames_
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Implementation
-#include "multiFieldValueImpl.C"
+#include "multiFieldValue/multiFieldValueImpl.C"
 
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //

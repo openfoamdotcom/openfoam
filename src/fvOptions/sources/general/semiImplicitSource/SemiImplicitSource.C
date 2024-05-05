@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SemiImplicitSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
-#include "Constant.H"
-#include "Tuple2.H"
+#include "sources/general/semiImplicitSource/SemiImplicitSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "primitives/functions/Function1/Constant/Constant.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * * //
 

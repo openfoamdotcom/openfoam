@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOPosition.H"
+#include "IOPosition/IOPosition.H"
 
-#include "cyclicPolyPatch.H"
-#include "cyclicAMIPolyPatch.H"
-#include "cyclicACMIPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "symmetryPlanePolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "wedgePolyPatch.H"
-#include "meshTools.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetryPlane/symmetryPlanePolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

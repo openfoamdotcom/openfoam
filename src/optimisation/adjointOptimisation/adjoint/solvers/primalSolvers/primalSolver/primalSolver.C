@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primalSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "solvers/primalSolvers/primalSolver/primalSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

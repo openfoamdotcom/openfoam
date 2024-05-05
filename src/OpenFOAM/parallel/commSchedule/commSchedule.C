@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "commSchedule.H"
-#include "IOstreams.H"
-#include "IOmanip.H"
-#include "StringStream.H"
-#include "Pstream.H"
+#include "parallel/commSchedule/commSchedule.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

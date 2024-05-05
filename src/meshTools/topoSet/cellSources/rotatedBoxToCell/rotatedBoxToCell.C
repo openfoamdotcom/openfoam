@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rotatedBoxToCell.H"
-#include "polyMesh.H"
-#include "hexCell.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/rotatedBoxToCell/rotatedBoxToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/hexCell/hexCell.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

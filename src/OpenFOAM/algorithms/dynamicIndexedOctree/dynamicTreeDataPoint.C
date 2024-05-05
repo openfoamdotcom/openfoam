@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicTreeDataPoint.H"
-#include "dynamicIndexedOctree.H"
+#include "algorithms/dynamicIndexedOctree/dynamicTreeDataPoint.H"
+#include "algorithms/dynamicIndexedOctree/dynamicIndexedOctree.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

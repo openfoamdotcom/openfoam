@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMeshTools.H"
-#include "primitiveMesh.H"
-#include "syncTools.H"
-#include "pyramid.H"
-#include "tetrahedron.H"
-#include "PrecisionAdaptor.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

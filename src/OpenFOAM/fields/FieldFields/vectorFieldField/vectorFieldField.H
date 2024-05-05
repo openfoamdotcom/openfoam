@@ -37,8 +37,8 @@ SourceFiles
 #ifndef vectorFieldField_H
 #define vectorFieldField_H
 
-#include "scalarFieldField.H"
-#include "vectorField.H"
+#include "fields/FieldFields/scalarFieldField/scalarFieldField.H"
+#include "fields/Fields/vectorField/vectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -75,7 +75,7 @@ void unzip
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "vectorFieldField.C"
+    #include "fields/FieldFields/vectorFieldField/vectorFieldField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

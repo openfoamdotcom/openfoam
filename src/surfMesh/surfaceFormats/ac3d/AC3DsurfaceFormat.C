@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AC3DsurfaceFormat.H"
-#include "StringStream.H"
-#include "primitivePatch.H"
-#include "faceTraits.H"
+#include "surfaceFormats/ac3d/AC3DsurfaceFormat.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ https://www.geometrictools.com/Documentation/DistancePointEllipseEllipsoid.pdf
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSphere.H"
-#include "addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchableSphere/searchableSphere.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include <array>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

@@ -38,14 +38,14 @@ SourceFiles
 #ifndef surfaceSets_H
 #define surfaceSets_H
 
-#include "label.H"
-#include "scalar.H"
-#include "fileName.H"
-#include "pointField.H"
-#include "polyMesh.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "pointSet.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "topoSet/topoSets/pointSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

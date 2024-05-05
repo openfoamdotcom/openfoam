@@ -59,9 +59,9 @@ SourceFiles
 #ifndef Foam_coordSetWriters_ensightWriter_H
 #define Foam_coordSetWriters_ensightWriter_H
 
-#include "coordSetWriter.H"
-#include "ensightCase.H"
-#include "ensightWriterCaching.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "ensight/file/ensightCase.H"
+#include "ensight/file/ensightWriterCaching.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

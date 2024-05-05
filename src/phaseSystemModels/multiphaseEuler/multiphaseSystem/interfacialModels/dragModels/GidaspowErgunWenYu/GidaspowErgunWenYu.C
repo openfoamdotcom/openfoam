@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GidaspowErgunWenYu.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/GidaspowErgunWenYu/GidaspowErgunWenYu.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -39,8 +39,8 @@ SourceFiles
 #ifndef snappySnapDriver_H
 #define snappySnapDriver_H
 
-#include "meshRefinement.H"
-#include "DynamicField.H"
+#include "meshRefinement/meshRefinement.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

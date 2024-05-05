@@ -59,7 +59,7 @@ SourceFiles
 #ifndef SmagorinskyZhang_H
 #define SmagorinskyZhang_H
 
-#include "Smagorinsky.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SmagorinskyZhang.C"
+    #include "TurbulenceModels/phaseCompressible/LES/SmagorinskyZhang/SmagorinskyZhang.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

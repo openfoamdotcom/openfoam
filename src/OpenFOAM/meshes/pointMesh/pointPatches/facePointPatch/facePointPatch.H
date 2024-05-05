@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_facePointPatch_H
 #define Foam_facePointPatch_H
 
-#include "pointPatch.H"
-#include "polyPatch.H"
-#include "autoPtr.H"
+#include "meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

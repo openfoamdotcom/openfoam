@@ -38,11 +38,11 @@ SourceFiles
 #ifndef patchEdgeFaceInfo_H
 #define patchEdgeFaceInfo_H
 
-#include "label.H"
-#include "scalar.H"
-#include "point.H"
-#include "tensor.H"
-#include "primitivePatch.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ template<> struct is_contiguous_scalar<patchEdgeFaceInfo> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchEdgeFaceInfoI.H"
+#include "algorithms/PatchEdgeFaceWave/patchEdgeFaceInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -127,8 +127,8 @@ SourceFiles
 #ifndef functionObjects_mapFields_H
 #define functionObjects_mapFields_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,7 +229,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mapFieldsTemplates.C"
+    #include "mapFields/mapFieldsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

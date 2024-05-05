@@ -72,7 +72,7 @@ SourceFiles
 #ifndef thixotropicViscosity_H
 #define thixotropicViscosity_H
 
-#include "filmViscosityModel.H"
+#include "submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

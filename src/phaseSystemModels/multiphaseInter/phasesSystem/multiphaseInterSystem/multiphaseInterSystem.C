@@ -25,22 +25,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiphaseInterSystem.H"
-#include "surfaceTensionModel.H"
-#include "porousModel.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
+#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "interfaceModels/porousModels/porousModel/porousModel.H"
 
-#include "HashPtrTable.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
-#include "fvcDiv.H"
-#include "fvMatrix.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
-#include "zeroGradientFvPatchFields.H"
-#include "fixedEnergyFvPatchScalarField.H"
-#include "gradientEnergyFvPatchScalarField.H"
-#include "mixedEnergyFvPatchScalarField.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "derivedFvPatchFields/fixedEnergy/fixedEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/gradientEnergy/gradientEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/mixedEnergy/mixedEnergyFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

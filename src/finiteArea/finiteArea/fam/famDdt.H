@@ -37,8 +37,8 @@ SourceFiles
 #ifndef famDdt_H
 #define famDdt_H
 
-#include "areaFieldsFwd.H"
-#include "faMatrix.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "faMatrices/faMatrix/faMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -80,7 +80,7 @@ namespace fam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "famDdt.C"
+    #include "finiteArea/fam/famDdt.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

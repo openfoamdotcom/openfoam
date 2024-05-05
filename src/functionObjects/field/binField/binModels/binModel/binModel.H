@@ -39,13 +39,13 @@ SourceFiles
 #ifndef Foam_binModel_H
 #define Foam_binModel_H
 
-#include "dictionary.H"
-#include "HashSet.H"
-#include "volFields.H"
-#include "runTimeSelectionTables.H"
-#include "OFstream.H"
-#include "coordinateSystem.H"
-#include "writeFile.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -233,7 +233,7 @@ bool binModel::decomposePatchValues
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "binModelTemplates.C"
+    #include "binField/binModels/binModel/binModelTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

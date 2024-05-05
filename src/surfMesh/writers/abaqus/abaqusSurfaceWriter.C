@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "abaqusSurfaceWriter.H"
-#include "ABAQUSCore.H"
-#include "IOmanip.H"
-#include "ListOps.H"
-#include "OSspecific.H"
-#include "surfaceWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writers/abaqus/abaqusSurfaceWriter.H"
+#include "abaqus/ABAQUSCore.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "include/OSspecific.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -48,7 +48,7 @@ namespace surfaceWriters
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Field writing implementation
-#include "abaqusSurfaceWriterImpl.C"
+#include "writers/abaqus/abaqusSurfaceWriterImpl.C"
 
 // Field writing methods
 defineSurfaceWriterWriteFields(Foam::surfaceWriters::abaqusWriter);

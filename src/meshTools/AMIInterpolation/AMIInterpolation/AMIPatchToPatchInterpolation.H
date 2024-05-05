@@ -35,7 +35,7 @@ Description
 #ifndef Foam_AMIPatchToPatchInterpolation_H
 #define Foam_AMIPatchToPatchInterpolation_H
 
-#include "AMIInterpolation.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -21,7 +21,7 @@ Description
 #ifndef FoamCompat_PackedBoolList_H
 #define FoamCompat_PackedBoolList_H
 
-#include "bitSet.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

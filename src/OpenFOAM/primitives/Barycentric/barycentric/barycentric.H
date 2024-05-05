@@ -35,8 +35,8 @@ Description
 #ifndef barycentric_H
 #define barycentric_H
 
-#include "scalar.H"
-#include "BarycentricPascal.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Barycentric/BarycentricPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

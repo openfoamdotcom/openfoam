@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiphaseMangrovesSource.H"
-#include "mathematicalConstants.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "fvmDdt.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/multiphaseMangrovesSource/multiphaseMangrovesSource.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

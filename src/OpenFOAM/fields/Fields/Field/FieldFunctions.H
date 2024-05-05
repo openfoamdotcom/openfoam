@@ -27,9 +27,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #define TEMPLATE template<class Type>
-#include "FieldFunctionsM.H"
-#include "UPstream.H"
-#include "MinMax.H"
+#include "fields/Fields/Field/FieldFunctionsM.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -414,7 +414,7 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
-#include "scalarField.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // ************************************************************************* //

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Schroeder.H"
-#include "addToRunTimeSelectionTable.H"
-#include "physicoChemicalConstants.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/TDNBModels/Schroeder/Schroeder.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
 
 using Foam::constant::physicoChemical::R;
 

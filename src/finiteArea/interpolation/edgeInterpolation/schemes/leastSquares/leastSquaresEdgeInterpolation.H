@@ -48,10 +48,10 @@ SourceFiles
 #ifndef Foam_leastSquaresEdgeInterpolation_H
 #define Foam_leastSquaresEdgeInterpolation_H
 
-#include "edgeInterpolationScheme.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "leastSquaresFaGrad.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "finiteArea/gradSchemes/leastSquaresFaGrad/leastSquaresFaGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

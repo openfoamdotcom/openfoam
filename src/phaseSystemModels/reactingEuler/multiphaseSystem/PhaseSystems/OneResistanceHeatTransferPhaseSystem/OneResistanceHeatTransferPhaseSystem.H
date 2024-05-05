@@ -41,7 +41,7 @@ SourceFiles
 #ifndef OneResistanceHeatTransferPhaseSystem_H
 #define OneResistanceHeatTransferPhaseSystem_H
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -110,7 +110,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "OneResistanceHeatTransferPhaseSystem.C"
+    #include "PhaseSystems/OneResistanceHeatTransferPhaseSystem/OneResistanceHeatTransferPhaseSystem.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

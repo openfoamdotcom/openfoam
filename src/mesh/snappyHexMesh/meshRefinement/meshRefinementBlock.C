@@ -25,33 +25,33 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshRefinement.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "refinementSurfaces.H"
-#include "removeCells.H"
-#include "unitConversion.H"
-#include "bitSet.H"
-#include "volFields.H"
+#include "meshRefinement/meshRefinement.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
+#include "global/constants/unitConversion.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "fields/volFields/volFields.H"
 
 // Leak path
-#include "shortestPathSet.H"
-#include "meshSearch.H"
-#include "topoDistanceData.H"
-#include "FaceCellWave.H"
-#include "removeCells.H"
-#include "regionSplit.H"
+#include "sampledSet/shortestPath/shortestPathSet.H"
+#include "meshSearch/meshSearch.H"
+#include "meshStructure/topoDistanceData.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
+#include "regionSplit/regionSplit.H"
 
-#include "volFields.H"
-#include "wallPoints.H"
-#include "searchableSurfaces.H"
-#include "distributedTriSurfaceMesh.H"
+#include "fields/volFields/volFields.H"
+#include "meshRefinement/wallPoints.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
 
-#include "holeToFace.H"
-#include "refinementParameters.H"
-#include "indirectPrimitivePatch.H"
-#include "OBJstream.H"
-#include "PatchTools.H"
+#include "topoSet/faceSources/holeToFace/holeToFace.H"
+#include "snappyHexMeshDriver/refinementParameters/refinementParameters.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "obj/OBJstream.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

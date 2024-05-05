@@ -38,11 +38,11 @@ SourceFiles
 #ifndef refinementParameters_H
 #define refinementParameters_H
 
-#include "dictionary.H"
-#include "pointField.H"
-#include "Switch.H"
-#include "wordPairHashes.H"
-#include "surfaceZonesInfo.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/tuples/wordPairHashes.H"
+#include "refinementSurfaces/surfaceZonesInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

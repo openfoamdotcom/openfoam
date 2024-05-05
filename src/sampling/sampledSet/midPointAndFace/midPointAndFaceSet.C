@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "midPointAndFaceSet.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/midPointAndFace/midPointAndFaceSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

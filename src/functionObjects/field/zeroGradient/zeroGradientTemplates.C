@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyPatch.H"
-#include "TimeOpenFOAM.H"
-#include "zeroGradientFvPatchField.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

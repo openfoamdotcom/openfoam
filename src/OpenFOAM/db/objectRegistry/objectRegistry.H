@@ -39,17 +39,17 @@ SourceFiles
 #ifndef Foam_objectRegistry_H
 #define Foam_objectRegistry_H
 
-#include "HashTable.H"
-#include "HashSet.H"
-#include "UPtrList.H"
-#include "regIOobject.H"
-#include "wordRes.H"
-#include "Pair.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "db/regIOobject/regIOobject.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/tuples/Pair.H"
 
 // Historically included by objectRegistryTemplates (until NOV-2018),
 // but not used by objectRegistry directly.
 // Leave here for now to avoid a missing include in other bits of code.
-#include "stringListOps.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -756,7 +756,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "objectRegistryTemplates.C"
+    #include "db/objectRegistry/objectRegistryTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

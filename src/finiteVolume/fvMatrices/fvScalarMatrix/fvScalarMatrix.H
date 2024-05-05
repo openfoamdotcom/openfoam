@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_fvScalarMatrix_H
 #define Foam_fvScalarMatrix_H
 
-#include "fvMatrix.H"
-#include "fvMatricesFwd.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fvMatrices/fvMatricesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

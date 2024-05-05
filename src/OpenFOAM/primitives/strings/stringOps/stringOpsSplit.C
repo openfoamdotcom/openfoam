@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringOps.H"
-#include "Pair.H"
-#include "Tuple2.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
 #include <vector>
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

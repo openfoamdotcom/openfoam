@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ZoneMesh.H"
-#include "entry.H"
-#include "DynamicList.H"
-#include "Pstream.H"
-#include "PtrListOps.H"
-#include "globalIndex.H"
+#include "meshes/polyMesh/zones/ZoneMesh/ZoneMesh.H"
+#include "db/dictionary/entry/entry.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

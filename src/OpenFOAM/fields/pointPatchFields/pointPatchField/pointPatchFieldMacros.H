@@ -32,8 +32,8 @@ Description
 #ifndef Foam_pointPatchFieldMacros_H
 #define Foam_pointPatchFieldMacros_H
 
-#include "fieldTypes.H"
-#include "pointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Runtime selection macros

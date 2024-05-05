@@ -36,9 +36,9 @@ Description
 #ifndef Foam_expressions_scanToken_H
 #define Foam_expressions_scanToken_H
 
-#include "scalar.H"
-#include "vector.H"
-#include "word.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

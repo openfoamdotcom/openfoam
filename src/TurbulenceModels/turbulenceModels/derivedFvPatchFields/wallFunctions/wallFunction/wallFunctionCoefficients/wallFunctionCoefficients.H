@@ -64,7 +64,7 @@ SourceFiles
 #ifndef Foam_wallFunctionCoefficients_H
 #define Foam_wallFunctionCoefficients_H
 
-#include "scalarFwd.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

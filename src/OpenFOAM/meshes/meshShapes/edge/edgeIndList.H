@@ -29,8 +29,8 @@ License
 #define Foam_edgeIndList_H
 
 // Include all normal list typedefs as well
-#include "edgeList.H"
-#include "IndirectList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

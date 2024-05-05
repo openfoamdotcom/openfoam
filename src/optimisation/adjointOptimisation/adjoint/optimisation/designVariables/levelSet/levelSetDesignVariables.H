@@ -61,12 +61,12 @@ SourceFiles
 #ifndef levelSetDesignVariables_H
 #define levelSetDesignVariables_H
 
-#include "topOVariablesBase.H"
-#include "designVariables.H"
-#include "regularisationRadius.H"
-#include "regularisationPDE.H"
-#include "topOInterpolationFunction.H"
-#include "adjointSensitivity.H"
+#include "optimisation/designVariables/topODesignVariables/topOVariablesBase/topOVariablesBase.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationRadius/regularisationRadius/regularisationRadius.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationPDE/regularisationPDE/regularisationPDE.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

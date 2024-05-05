@@ -37,10 +37,10 @@ SourceFiles
 #ifndef LUscalarMatrix_H
 #define LUscalarMatrix_H
 
-#include "scalarMatrices.H"
-#include "labelList.H"
-#include "FieldField.H"
-#include "lduInterfaceFieldPtrsList.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LUscalarMatrixTemplates.C"
+    #include "matrices/LUscalarMatrix/LUscalarMatrixTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

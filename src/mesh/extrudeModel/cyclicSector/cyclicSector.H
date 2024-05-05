@@ -39,7 +39,7 @@ See also
 #ifndef cyclicSector_H
 #define cyclicSector_H
 
-#include "sector.H"
+#include "sector/sector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ Description
 #ifndef scalarOps_H
 #define scalarOps_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

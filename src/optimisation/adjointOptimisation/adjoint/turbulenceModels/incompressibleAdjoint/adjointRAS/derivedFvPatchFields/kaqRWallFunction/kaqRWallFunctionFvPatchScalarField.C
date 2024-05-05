@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kaqRWallFunctionFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "nutkWallFunctionFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/kaqRWallFunction/kaqRWallFunctionFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkWallFunction/nutkWallFunctionFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

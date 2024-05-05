@@ -39,9 +39,9 @@ SourceFiles
 #ifndef inclinedFilmNusseltHeightFvPatchScalarField_H
 #define inclinedFilmNusseltHeightFvPatchScalarField_H
 
-#include "fvPatchFields.H"
-#include "fixedValueFvPatchFields.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

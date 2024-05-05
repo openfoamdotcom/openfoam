@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DistributionPascal.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "containers/Lists/Distribution/DistributionPascal.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

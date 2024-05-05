@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PointEdgeWave.H"
-#include "polyMesh.H"
-#include "processorPolyPatch.H"
-#include "cyclicPolyPatch.H"
-#include "UIPstream.H"
-#include "UOPstream.H"
-#include "debug.H"
-#include "typeInfo.H"
-#include "globalMeshData.H"
-#include "pointFields.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "db/IOstreams/Pstreams/UIPstream.H"
+#include "db/IOstreams/Pstreams/UOPstream.H"
+#include "global/debug/debug.H"
+#include "db/typeInfo/typeInfo.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

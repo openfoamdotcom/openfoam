@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tabulatedAccelerationSource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "uniformDimensionedFields.H"
+#include "sources/derived/tabulatedAccelerationSource/tabulatedAccelerationSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

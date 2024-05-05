@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oversetPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyBoundaryMesh.H"
-#include "processorPolyPatch.H"
+#include "oversetPolyPatch/oversetPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

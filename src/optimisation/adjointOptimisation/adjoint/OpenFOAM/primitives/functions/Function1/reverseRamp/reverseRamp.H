@@ -44,7 +44,7 @@ SourceFiles
 #ifndef reverseRamp_H
 #define reverseRamp_H
 
-#include "ramp.H"
+#include "primitives/functions/Function1/ramp/ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "reverseRampI.H"
+#include "OpenFOAM/primitives/functions/Function1/reverseRamp/reverseRampI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

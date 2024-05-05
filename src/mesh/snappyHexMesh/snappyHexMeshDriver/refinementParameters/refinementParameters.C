@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementParameters.H"
-#include "unitConversion.H"
-#include "polyMesh.H"
-#include "globalIndex.H"
-#include "Tuple2.H"
-#include "wallPolyPatch.H"
-#include "meshRefinement.H"
+#include "snappyHexMeshDriver/refinementParameters/refinementParameters.H"
+#include "global/constants/unitConversion.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "primitives/tuples/Tuple2.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshRefinement/meshRefinement.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

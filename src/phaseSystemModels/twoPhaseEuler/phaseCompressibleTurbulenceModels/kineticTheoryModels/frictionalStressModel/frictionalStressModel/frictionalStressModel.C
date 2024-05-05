@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "frictionalStressModel.H"
+#include "kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

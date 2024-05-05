@@ -38,7 +38,7 @@ SourceFiles
 #ifndef CentredFitData_H
 #define CentredFitData_H
 
-#include "FitData.H"
+#include "interpolation/surfaceInterpolation/schemes/FitData/FitData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CentredFitData.C"
+    #include "interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

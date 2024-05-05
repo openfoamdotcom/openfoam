@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "iterativeGaussGrad.H"
+#include "finiteVolume/gradSchemes/iterativeGaussGrad/iterativeGaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

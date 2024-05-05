@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "steadyStateFaDdtScheme.H"
-#include "faMesh.H"
+#include "finiteArea/ddtSchemes/steadyStateFaDdtScheme/steadyStateFaDdtScheme.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StochasticDispersionRAS.H"
-#include "constants.H"
+#include "submodels/Kinematic/DispersionModel/StochasticDispersionRAS/StochasticDispersionRAS.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant::mathematical;
 

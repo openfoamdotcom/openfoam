@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FunctionObjectValue.H"
+#include "primitives/functions/Function1/FunctionObjectValue/FunctionObjectValue.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

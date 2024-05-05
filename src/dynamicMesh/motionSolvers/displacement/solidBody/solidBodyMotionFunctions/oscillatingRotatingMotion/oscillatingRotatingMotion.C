@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oscillatingRotatingMotion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "unitConversion.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/oscillatingRotatingMotion/oscillatingRotatingMotion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/unitConversion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "ccmWriter.H"
-#include "ccmInternal.H"  // include last to avoid any strange interactions
+#include "writer/ccmWriter.H"
+#include "common/ccmInternal.H"  // include last to avoid any strange interactions
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

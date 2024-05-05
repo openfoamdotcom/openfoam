@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceIntersection.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "edgeHashes.H"
-#include "labelPairHashes.H"
-#include "OFstream.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "primitives/tuples/labelPairHashes.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

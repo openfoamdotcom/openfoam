@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "profilingPstream.H"
-#include "List.H"
-#include "Tuple2.H"
-#include "UPstream.H"
+#include "global/profiling/profilingPstream.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -31,8 +31,8 @@ Description
 #ifndef ccmInternal_H
 #define ccmInternal_H
 
-#include "className.H"
-#include "List.H"
+#include "db/typeInfo/className.H"
+#include "containers/Lists/List/List.H"
 
 // Headers and definitions for using libccmio
 #include "libccmio/ccmio.h"

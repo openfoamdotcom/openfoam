@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_prefixOSstream_H
 #define Foam_prefixOSstream_H
 
-#include "OSstream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef tolerances_H
 #define tolerances_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

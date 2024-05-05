@@ -123,7 +123,7 @@ SourceFiles
 #ifndef totalPressureFvPatchScalarField_H
 #define totalPressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

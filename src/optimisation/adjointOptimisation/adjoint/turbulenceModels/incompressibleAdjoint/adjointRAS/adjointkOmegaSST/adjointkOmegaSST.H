@@ -53,8 +53,8 @@ SourceFiles
 #ifndef Foam_adjointkOmegaSST_H
 #define Foam_adjointkOmegaSST_H
 
-#include "adjointRASModel.H"
-#include "wallDist.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointRASModel/adjointRASModel.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -647,7 +647,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "adjointkOmegaSSTTemplates.C"
+    #include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointkOmegaSST/adjointkOmegaSSTTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

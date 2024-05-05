@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "argList.H"
-#include "Pstream.H"
-#include "simpleObjectRegistry.H"
-#include "dimensionedConstants.H"
-#include "profiling.H"
-#include "IOdictionary.H"
-#include "fileOperation.H"
-#include "fstreamPointer.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "global/debug/simpleObjectRegistry.H"
+#include "global/constants/dimensionedConstants.H"
+#include "global/profiling/profiling.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/IOstreams/Fstreams/fstreamPointer.H"
 
 #include <iomanip>
 

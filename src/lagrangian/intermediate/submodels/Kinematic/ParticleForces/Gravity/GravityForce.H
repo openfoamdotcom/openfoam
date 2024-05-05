@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_GravityForce_H
 #define Foam_GravityForce_H
 
-#include "ParticleForce.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GravityForce.C"
+    #include "submodels/Kinematic/ParticleForces/Gravity/GravityForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

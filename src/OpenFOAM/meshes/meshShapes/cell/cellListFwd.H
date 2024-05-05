@@ -34,8 +34,8 @@ Description
 #ifndef Foam_cellListFwd_H
 #define Foam_cellListFwd_H
 
-#include "List.H"
-#include "SubList.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

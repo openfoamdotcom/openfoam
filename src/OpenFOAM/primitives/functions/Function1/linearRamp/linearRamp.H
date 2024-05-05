@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Function1Types_linearRamp_H
 #define Function1Types_linearRamp_H
 
-#include "ramp.H"
+#include "primitives/functions/Function1/ramp/ramp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -94,7 +94,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "linearRampI.H"
+#include "primitives/functions/Function1/linearRamp/linearRampI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

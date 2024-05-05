@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicFvGeometryScheme.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "fvMesh/fvGeometryScheme/basic/basicFvGeometryScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

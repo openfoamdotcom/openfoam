@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeCombustionTypes.H"
+#include "combustionModel/makeCombustionTypes.H"
 
-#include "thermoPhysicsTypes.H"
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
-#include "infinitelyFastChemistry.H"
+#include "include/thermoPhysicsTypes.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "infinitelyFastChemistry/infinitelyFastChemistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGPreconditioner.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/preconditioners/GAMGPreconditioner/GAMGPreconditioner.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

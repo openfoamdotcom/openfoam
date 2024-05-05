@@ -41,8 +41,8 @@ SourceFiles
 #ifndef freeSurfaceVelocityFvPatchVectorField_H
 #define freeSurfaceVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "fixedGradientFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

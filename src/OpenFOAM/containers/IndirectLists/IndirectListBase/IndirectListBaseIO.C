@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IndirectListBase.H"
-#include "Ostream.H"
-#include "token.H"
-#include "contiguous.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListBase.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/token/token.H"
+#include "primitives/traits/contiguous.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

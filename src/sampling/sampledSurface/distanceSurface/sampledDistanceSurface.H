@@ -74,8 +74,8 @@ SourceFiles
 #ifndef sampledDistanceSurface_H
 #define sampledDistanceSurface_H
 
-#include "sampledSurface.H"
-#include "distanceSurface.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "surface/distanceSurface/distanceSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -288,7 +288,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledDistanceSurfaceTemplates.C"
+    #include "sampledSurface/distanceSurface/sampledDistanceSurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

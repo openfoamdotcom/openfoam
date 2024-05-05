@@ -41,11 +41,11 @@ SourceFiles
 #ifndef psiReactionThermo_H
 #define psiReactionThermo_H
 
-#include "psiThermo.H"
-#include "basicSpecieMixture.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "specieElement.H"
+#include "psiThermo/psiThermo.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "specieElement/specieElement.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

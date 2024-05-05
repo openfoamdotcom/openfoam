@@ -28,7 +28,7 @@ License
 #ifndef Foam_transformFaPatchFields_H
 #define Foam_transformFaPatchFields_H
 
-#include "transformFaPatchField.H"
+#include "fields/faPatchFields/basic/transform/transformFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_GlobalIOList_H
 #define Foam_GlobalIOList_H
 
-#include "IOList.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

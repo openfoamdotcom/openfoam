@@ -96,9 +96,9 @@ SourceFiles
 #ifndef functionObjects_columnAverage_H
 #define functionObjects_columnAverage_H
 
-#include "volFieldsFwd.H"
-#include "fvMeshFunctionObject.H"
-#include "volFieldSelection.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "functionObjects/fieldSelections/volFieldSelection/volFieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "columnAverageTemplates.C"
+    #include "columnAverage/columnAverageTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

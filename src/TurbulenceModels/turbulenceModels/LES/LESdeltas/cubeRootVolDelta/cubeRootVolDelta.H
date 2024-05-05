@@ -38,7 +38,7 @@ SourceFiles
 #ifndef cubeRootVolDelta_H
 #define cubeRootVolDelta_H
 
-#include "LESdelta.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceMeshPointSet.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triSurfaceMesh.H"
-#include "TimeOpenFOAM.H"
+#include "sampledSet/triSurfaceMeshPointSet/triSurfaceMeshPointSet.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ConeInjection.H"
-#include "Function1Pascal.H"
-#include "mathematicalConstants.H"
-#include "unitConversion.H"
+#include "submodels/Kinematic/InjectionModel/ConeInjection/ConeInjection.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "global/constants/unitConversion.H"
 
 using namespace Foam::constant::mathematical;
 

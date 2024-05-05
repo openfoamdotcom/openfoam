@@ -121,7 +121,7 @@ SourceFiles
 #ifndef meltingEvaporationModels_interfaceOxideRate_H
 #define meltingEvaporationModels_interfaceOxideRate_H
 
-#include "InterfaceCompositionModelPascal2.H"
+#include "InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal2.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * *//
 

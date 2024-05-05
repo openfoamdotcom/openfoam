@@ -38,7 +38,7 @@ SourceFiles
 #ifndef wallBoiling_H
 #define wallBoiling_H
 
-#include "IATEsource.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

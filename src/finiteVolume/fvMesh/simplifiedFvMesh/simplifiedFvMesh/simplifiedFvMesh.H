@@ -37,9 +37,9 @@ SourceFiles
 #ifndef simplifiedFvMesh_H
 #define simplifiedFvMesh_H
 
-#include "runTimeSelectionTables.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

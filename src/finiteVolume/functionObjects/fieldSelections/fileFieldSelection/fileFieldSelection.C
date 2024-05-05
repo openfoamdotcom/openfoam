@@ -25,18 +25,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileFieldSelection.H"
-#include "objectRegistry.H"
-#include "IOobjectList.H"
-#include "fvMesh.H"
-#include "volMesh.H"
-#include "fvPatchField.H"
-#include "surfaceMesh.H"
-#include "fvsPatchField.H"
-#include "pointMesh.H"
-#include "pointPatchField.H"
-#include "GeometricField.H"
-#include "UniformDimensionedField.H"
+#include "functionObjects/fieldSelections/fileFieldSelection/fileFieldSelection.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fvMesh/fvMesh.H"
+#include "volMesh/volMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "fields/UniformDimensionedFields/UniformDimensionedField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

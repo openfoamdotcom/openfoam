@@ -29,13 +29,13 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPstream.H"
-#include "debug.H"
-#include "registerSwitch.H"
-#include "dictionary.H"
-#include "SHA1.H"
-#include "OSspecific.H"  // for hostName()
-#include "IOstreams.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "global/debug/debug.H"
+#include "global/debug/registerSwitch.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/hashes/SHA1/SHA1.H"
+#include "include/OSspecific.H"  // for hostName()
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

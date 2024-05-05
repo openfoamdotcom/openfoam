@@ -39,8 +39,8 @@ SourceFiles
 #ifndef multiDimPolyFitter_H
 #define multiDimPolyFitter_H
 
-#include "simpleMatrix.H"
-#include "multiDimPolyFunctions.H"
+#include "matrices/simpleMatrix/simpleMatrix.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/multiDimPolyFunctions/multiDimPolyFunctions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

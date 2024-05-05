@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Foam_vtk_outputOptions_H
 #define Foam_vtk_outputOptions_H
 
-#include "foamVtkOutput.H"
-#include "word.H"
+#include "vtk/output/foamVtkOutput.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtkOutputOptionsI.H"
+#include "vtk/output/foamVtkOutputOptionsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

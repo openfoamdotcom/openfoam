@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicFaPatch.H"
-#include "coupledPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "transform.H"
-#include "faMesh.H"
+#include "faMesh/faPatches/constraint/cyclic/cyclicFaPatch.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/transform/transform.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

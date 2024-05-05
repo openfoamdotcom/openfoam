@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_oversetLduInterface_H
 #define Foam_oversetLduInterface_H
 
-#include "typeInfo.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

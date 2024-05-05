@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WenYu.H"
-#include "reactingEuler_phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/WenYu/WenYu.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

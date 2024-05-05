@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentFluidThermoModels.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModels.H"
 
 // -------------------------------------------------------------------------- //
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "kEpsilonLopesdaCosta.H"
+#include "turbulenceModels/RAS/kEpsilonLopesdaCosta/kEpsilonLopesdaCosta.H"
 makeRASModel(kEpsilonLopesdaCosta);
 
-#include "kL.H"
+#include "turbulenceModels/RAS/kL/kL.H"
 makeRASModel(kL);
 
 // ************************************************************************* //

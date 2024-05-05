@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solarLoad.H"
-#include "surfaceFields.H"
-#include "vectorList.H"
-#include "addToRunTimeSelectionTable.H"
-#include "boundaryRadiationProperties.H"
-#include "gravityMeshObject.H"
-#include "cyclicAMIPolyPatch.H"
-#include "mappedPatchBase.H"
-#include "wallPolyPatch.H"
-#include "constants.H"
+#include "radiationModels/solarLoad/solarLoad.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationProperties.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant;
 

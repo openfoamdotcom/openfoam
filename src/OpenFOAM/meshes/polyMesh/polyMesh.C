@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "cellIOList.H"
-#include "wedgePolyPatch.H"
-#include "emptyPolyPatch.H"
-#include "globalMeshData.H"
-#include "processorPolyPatch.H"
-#include "polyMeshTetDecomposition.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "MeshObject.H"
-#include "pointMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/meshShapes/cell/cellIOList.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "meshes/pointMesh/pointMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

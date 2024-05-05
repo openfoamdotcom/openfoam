@@ -38,9 +38,9 @@ SourceFiles
 #ifndef fvcMeshPhi_H
 #define fvcMeshPhi_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileOperation.H"
-#include "dummyFileOperation.H"
-#include "uncollatedFileOperation.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "global/fileOperations/dummyFileOperation/dummyFileOperation.H"
+#include "global/fileOperations/uncollatedFileOperation/uncollatedFileOperation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

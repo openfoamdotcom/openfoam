@@ -3,7 +3,7 @@
 #ifndef FoamCompat_UIListStream_H
 #define FoamCompat_UIListStream_H
 
-#include "SpanStream.H"
+#include "db/IOstreams/memory/SpanStream.H"
 
 #endif
 

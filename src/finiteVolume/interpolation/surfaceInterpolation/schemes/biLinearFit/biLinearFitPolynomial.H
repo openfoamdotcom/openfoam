@@ -37,7 +37,7 @@ Description
 #ifndef biLinearFitPolynomial_H
 #define biLinearFitPolynomial_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

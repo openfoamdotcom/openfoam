@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Foam_kOmegaSSTDDES_H
 #define Foam_kOmegaSSTDDES_H
 
-#include "kOmegaSSTDES.H"
+#include "DES/kOmegaSSTDES/kOmegaSSTDES.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

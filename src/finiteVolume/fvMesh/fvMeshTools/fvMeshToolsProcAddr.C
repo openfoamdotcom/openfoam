@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshTools.H"
-#include "fileOperation.H"
-#include "IndirectList.H"
-#include "labelRange.H"
-#include "IOmapDistributePolyMesh.H"
-#include "OSspecific.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/IOmapDistributePolyMesh.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

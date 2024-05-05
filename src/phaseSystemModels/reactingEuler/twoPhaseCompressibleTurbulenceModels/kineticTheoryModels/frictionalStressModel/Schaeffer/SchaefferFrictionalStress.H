@@ -36,7 +36,7 @@ SourceFiles
 #ifndef SchaefferFrictionalStress_H
 #define SchaefferFrictionalStress_H
 
-#include "frictionalStressModel.H"
+#include "kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

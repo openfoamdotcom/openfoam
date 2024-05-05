@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTLM.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "RAS/kOmegaSSTLM/kOmegaSSTLM.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

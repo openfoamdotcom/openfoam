@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kkLOmega.H"
-#include "bound.H"
-#include "wallDist.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulentTransportModels/RAS/kkLOmega/kkLOmega.H"
+#include "cfdTools/general/bound/bound.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -63,12 +63,12 @@ SourceFiles
 #ifndef mixtureFractionSoot_H
 #define mixtureFractionSoot_H
 
-#include "interpolationLookUpTable.H"
-#include "sootModel.H"
-#include "HashTable.H"
+#include "interpolations/interpolationLookUpTable/interpolationLookUpTable.H"
+#include "submodels/sootModel/sootModel/sootModel.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
-#include "fluidThermo.H"
-#include "singleStepReactingMixture.H"
+#include "fluidThermo/fluidThermo.H"
+#include "mixtures/singleStepReactingMixture/singleStepReactingMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -174,7 +174,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mixtureFractionSoot.C"
+    #include "submodels/sootModel/mixtureFractionSoot/mixtureFractionSoot.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

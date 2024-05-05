@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSymmetryFaPatchField.H"
-#include "areaFields.H"
+#include "fields/faPatchFields/basic/basicSymmetry/basicSymmetryFaPatchField.H"
+#include "fields/areaFields/areaFields.H"
 
 // No run-time selection
 

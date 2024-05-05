@@ -54,11 +54,11 @@ SourceFiles
 #ifndef VoFphaseTurbulentTransportModel_H
 #define VoFphaseTurbulentTransportModel_H
 
-#include "PhaseIncompressibleTurbulenceModel.H"
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
-#include "incompressible/transportModel/transportModel.H"
+#include "TurbulenceModels/phaseIncompressible/PhaseIncompressibleTurbulenceModel/PhaseIncompressibleTurbulenceModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
+#include "transportModel/transportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

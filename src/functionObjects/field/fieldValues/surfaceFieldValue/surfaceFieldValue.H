@@ -216,13 +216,13 @@ SourceFiles
 #ifndef functionObjects_surfaceFieldValue_H
 #define functionObjects_surfaceFieldValue_H
 
-#include "fieldValue.H"
-#include "Enum.H"
-#include "surfaceMesh.H"
-#include "polySurface.H"
-#include "fvsPatchField.H"
-#include "volFieldsFwd.H"
-#include "polySurfaceFieldsFwd.H"
+#include "fieldValues/fieldValue/fieldValue.H"
+#include "primitives/enums/Enum.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "polySurface/polySurface.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "polySurface/fields/polySurfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -713,12 +713,12 @@ tmp<scalarField> surfaceFieldValue::areaWeightingFactor
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "surfaceFieldValueI.H"
+#include "fieldValues/surfaceFieldValue/surfaceFieldValueI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "surfaceFieldValueTemplates.C"
+    #include "fieldValues/surfaceFieldValue/surfaceFieldValueTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

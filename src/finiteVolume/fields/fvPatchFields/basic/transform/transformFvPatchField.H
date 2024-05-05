@@ -40,7 +40,7 @@ SourceFiles
 #ifndef transformFvPatchField_H
 #define transformFvPatchField_H
 
-#include "fvPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -175,7 +175,7 @@ tmp<scalarField> transformFvPatchField<scalar>::gradientInternalCoeffs() const;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformFvPatchField.C"
+    #include "fields/fvPatchFields/basic/transform/transformFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -102,9 +102,9 @@ SourceFiles
 #ifndef interfaceHeight_H
 #define interfaceHeight_H
 
-#include "fvMeshFunctionObject.H"
-#include "logFiles.H"
-#include "point.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

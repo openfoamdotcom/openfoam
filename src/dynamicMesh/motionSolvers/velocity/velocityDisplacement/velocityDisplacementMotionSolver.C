@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityDisplacementMotionSolver.H"
-#include "displacementMotionSolver.H"
-#include "fixedValuePointPatchField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionSolvers/velocity/velocityDisplacement/velocityDisplacementMotionSolver.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

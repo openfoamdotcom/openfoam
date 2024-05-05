@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryPlanePointPatch.H"
-#include "pointConstraint.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointPatches/constraint/symmetryPlane/symmetryPlanePointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

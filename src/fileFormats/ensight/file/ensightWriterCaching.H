@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_ensightOutput_writerCaching_H
 #define Foam_ensightOutput_writerCaching_H
 
-#include "bitSet.H"
-#include "dictionary.H"
-#include "scalarList.H"
-#include "DynamicList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

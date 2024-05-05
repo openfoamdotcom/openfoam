@@ -62,10 +62,10 @@ SourceFiles
 #ifndef sampledInterface_H
 #define sampledInterface_H
 
-#include "sampledSurface.H"
-#include "ZoneIDs.H"
-#include "fvMeshSubset.H"
-#include "reconstructionSchemes.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "meshes/Identifiers/zone/ZoneIDs.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "reconstructionSchemes/reconstructionSchemes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -279,7 +279,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledInterfaceTemplates.C"
+    #include "sampledInterface/sampledInterfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

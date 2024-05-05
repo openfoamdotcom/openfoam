@@ -49,8 +49,8 @@ Description
 #ifndef LiquidEvaporationBoil_H
 #define LiquidEvaporationBoil_H
 
-#include "PhaseChangeModelPascal.H"
-#include "liquidMixtureProperties.H"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModelPascal.H"
+#include "liquidProperties/liquidMixtureProperties/liquidMixtureProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LiquidEvaporationBoil.C"
+    #include "submodels/Reacting/PhaseChangeModel/LiquidEvaporationBoil/LiquidEvaporationBoil.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

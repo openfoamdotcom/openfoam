@@ -98,21 +98,21 @@ SeeAlso
 #define Foam_dictionary_H
 
 #include <type_traits>
-#include "entry.H"
-#include "IDLList.H"
-#include "DLList.H"
-#include "fileName.H"
-#include "ITstream.H"
-#include "HashTable.H"
-#include "wordList.H"
-#include "className.H"
-#include "refPtr.H"
-#include "IOobjectOption.H"
+#include "db/dictionary/entry/entry.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "containers/LinkedLists/user/DLList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/strings/lists/wordList.H"
+#include "db/typeInfo/className.H"
+#include "memory/refPtr/refPtr.H"
+#include "db/options/IOobjectOption.H"
 
 // Some common data types
-#include "label.H"
-#include "scalar.H"
-#include "regExpFwd.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "regExp/regExpFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1545,12 +1545,12 @@ dictionary operator|(const dictionary& dict1, const dictionary& dict2);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dictionaryI.H"
+#include "db/dictionary/dictionaryI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dictionaryTemplates.C"
+    #include "db/dictionary/dictionaryTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

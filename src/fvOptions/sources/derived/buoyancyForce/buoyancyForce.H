@@ -94,8 +94,8 @@ SourceFiles
 #ifndef buoyancyForce_H
 #define buoyancyForce_H
 
-#include "fvOption.H"
-#include "uniformDimensionedFields.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

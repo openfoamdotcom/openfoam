@@ -43,10 +43,10 @@ SourceFiles
 #ifndef polyDegree1_H
 #define polyDegree1_H
 
-#include "vector.H"
-#include "vector2D.H"
-#include "scalarField.H"
-#include "multiDimPolyFunctions.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Vector2D/floats/vector2D.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/multiDimPolyFunctions/multiDimPolyFunctions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

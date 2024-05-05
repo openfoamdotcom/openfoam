@@ -126,12 +126,12 @@ SourceFiles
 #ifndef adjointEikonalSolver_H
 #define adjointEikonalSolver_H
 
-#include "IOdictionary.H"
-#include "volFieldsFwd.H"
-#include "fvMesh.H"
-#include "calculatedFvPatchField.H"
-#include "createZeroField.H"
-#include "boundaryFieldsFwd.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H"
+#include "global/createZeroField.H"
+#include "global/boundaryFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

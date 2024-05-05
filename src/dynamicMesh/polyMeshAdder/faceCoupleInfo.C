@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceCoupleInfo.H"
-#include "polyMesh.H"
-#include "matchPoints.H"
-#include "indirectPrimitivePatch.H"
-#include "meshTools.H"
-#include "treeDataFace.H"
-#include "indexedOctree.H"
-#include "OFstream.H"
+#include "polyMeshAdder/faceCoupleInfo.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshTools/matchPoints.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshTools/meshTools.H"
+#include "indexedOctree/treeDataFace.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

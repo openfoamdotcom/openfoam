@@ -89,8 +89,8 @@ SourceFiles
 #ifndef functionObjects_PecletNo_H
 #define functionObjects_PecletNo_H
 
-#include "fieldExpression.H"
-#include "surfaceFieldsFwd.H"
+#include "fieldExpression/fieldExpression.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

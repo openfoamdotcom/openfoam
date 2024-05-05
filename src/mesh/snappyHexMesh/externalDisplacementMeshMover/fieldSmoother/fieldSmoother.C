@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldSmoother.H"
-#include "pointFields.H"
+#include "externalDisplacementMeshMover/fieldSmoother/fieldSmoother.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

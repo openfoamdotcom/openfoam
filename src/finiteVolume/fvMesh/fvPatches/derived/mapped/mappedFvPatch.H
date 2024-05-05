@@ -37,8 +37,8 @@ SourceFiles
 #ifndef mappedFvPatch_H
 #define mappedFvPatch_H
 
-#include "fvPatch.H"
-#include "mappedPolyPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

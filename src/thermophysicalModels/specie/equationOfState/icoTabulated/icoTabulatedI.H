@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "icoTabulated.H"
+#include "equationOfState/icoTabulated/icoTabulated.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

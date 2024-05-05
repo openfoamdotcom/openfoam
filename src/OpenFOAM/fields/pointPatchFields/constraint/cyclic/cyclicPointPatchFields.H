@@ -28,8 +28,8 @@ License
 #ifndef cyclicPointPatchFields_H
 #define cyclicPointPatchFields_H
 
-#include "cyclicPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/constraint/cyclic/cyclicPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

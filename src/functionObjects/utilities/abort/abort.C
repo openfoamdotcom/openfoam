@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "abort.H"
-#include "dictionary.H"
-#include "error.H"
-#include "TimeOpenFOAM.H"
-#include "OSspecific.H"
-#include "PstreamReduceOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "abort/abort.H"
+#include "db/dictionary/dictionary.H"
+#include "db/error/error.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include <fstream>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

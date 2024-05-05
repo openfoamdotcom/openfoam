@@ -53,7 +53,7 @@ SourceFiles
 #ifndef objectiveNutSqr_H
 #define objectiveNutSqr_H
 
-#include "objectiveIncompressible.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingHeterogeneousParcel.H"
-#include "IOstreams.H"
-#include "HeterogeneousReactingModel.H"
+#include "parcels/Templates/ReactingHeterogeneousParcel/ReactingHeterogeneousParcel.H"
+#include "db/IOstreams/IOstreams.H"
+#include "submodels/HeterogeneousReactingModel/HeterogeneousReactingModel/HeterogeneousReactingModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

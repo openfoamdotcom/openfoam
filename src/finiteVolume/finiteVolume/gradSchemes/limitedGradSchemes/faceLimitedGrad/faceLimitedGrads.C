@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceLimitedGrad.H"
-#include "gaussGrad.H"
-#include "fvMesh.H"
-#include "volMesh.H"
-#include "surfaceMesh.H"
-#include "volFields.H"
-#include "fixedValueFvPatchFields.H"
+#include "finiteVolume/gradSchemes/limitedGradSchemes/faceLimitedGrad/faceLimitedGrad.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
+#include "fvMesh/fvMesh.H"
+#include "volMesh/volMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

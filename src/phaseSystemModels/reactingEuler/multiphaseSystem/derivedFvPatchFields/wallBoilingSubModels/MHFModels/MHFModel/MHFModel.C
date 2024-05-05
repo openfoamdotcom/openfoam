@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MHFModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/MHFModels/MHFModel/MHFModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

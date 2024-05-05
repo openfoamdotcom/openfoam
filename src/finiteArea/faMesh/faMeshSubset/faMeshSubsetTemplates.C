@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshSubset.H"
-#include "areaFaMesh.H"
-#include "edgeFaMesh.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "emptyFaPatchFields.H"
-#include "directFaPatchFieldMapper.H"
-#include "flipOp.H"
+#include "faMesh/faMeshSubset/faMeshSubset.H"
+#include "areaMesh/areaFaMesh.H"
+#include "edgeMesh/edgeFaMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "fields/faPatchFields/constraint/empty/emptyFaPatchFields.H"
+#include "fields/faPatchFields/faPatchField/directFaPatchFieldMapper.H"
+#include "primitives/ops/flipOp.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

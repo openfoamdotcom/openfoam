@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heatTransferCoeff.H"
-#include "heatTransferCoeffModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "heatTransferCoeff/heatTransferCoeff.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

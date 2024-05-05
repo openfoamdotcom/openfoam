@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightWriterCaching.H"
-#include "ListOps.H"
-#include "OTstream.H"
-#include "Fstream.H"
+#include "ensight/file/ensightWriterCaching.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Tstreams/OTstream.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

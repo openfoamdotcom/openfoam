@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
-#include "IOstreams.H"
-#include "Switch.H"
-#include "objectRegistry.H"
-#include "scalarIOField.H"
-#include "TimeOpenFOAM.H"
-#include "meshState.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/meshState/meshState.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

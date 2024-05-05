@@ -46,7 +46,7 @@ SourceFiles
 #ifndef TomiyamaCorrelated_H
 #define TomiyamaCorrelated_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

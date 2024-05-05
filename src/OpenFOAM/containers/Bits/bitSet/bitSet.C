@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bitSet.H"
-#include "labelRange.H"
-#include "IOstreams.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

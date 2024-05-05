@@ -76,8 +76,8 @@ SeeAlso
 #ifndef noiseModels_pointNoise_H
 #define noiseModels_pointNoise_H
 
-#include "noiseModel.H"
-#include "CSV.H"
+#include "noise/noiseModels/noiseModel/noiseModel.H"
+#include "primitives/functions/Function1/CSV/CSV.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

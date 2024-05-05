@@ -38,9 +38,9 @@ SourceFiles
 #ifndef diameterModel_H
 #define diameterModel_H
 
-#include "dictionary.H"
-#include "reactingEuler_phaseModel.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

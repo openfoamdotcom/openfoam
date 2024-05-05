@@ -41,8 +41,8 @@ SourceFiles
 #ifndef localBlended_H
 #define localBlended_H
 
-#include "surfaceInterpolationScheme.H"
-#include "blendedSchemeBase.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

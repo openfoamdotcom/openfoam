@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPeriodicAMIPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "AMIInterpolation/patches/cyclicPeriodicAMI/cyclicPeriodicAMIPolyPatch/cyclicPeriodicAMIPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // For debugging
-#include "OBJstream.H"
-#include "PatchTools.H"
-#include "TimeOpenFOAM.H"
+#include "obj/OBJstream.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "db/Time/TimeOpenFOAM.H"
 // Note: cannot use vtkSurfaceWriter here - circular linkage
 // but foamVtkSurfaceWriter (vtk::surfaceWriter) would be okay.
 //

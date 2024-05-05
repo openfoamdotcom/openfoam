@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprValuePointPatchField.H"
-#include "pointPatchFieldMapper.H"
-#include "facePointPatch.H"
-#include "dictionaryContent.H"
+#include "expressions/fields/pointPatchFields/exprValuePointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "db/dictionary/dictionaryContent/dictionaryContent.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

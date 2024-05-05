@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOdictionary.H"
-#include "objectRegistry.H"
-#include "Pstream.H"
-#include "TimeOpenFOAM.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

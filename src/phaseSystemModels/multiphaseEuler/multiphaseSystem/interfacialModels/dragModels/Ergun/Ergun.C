@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Ergun.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/Ergun/Ergun.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

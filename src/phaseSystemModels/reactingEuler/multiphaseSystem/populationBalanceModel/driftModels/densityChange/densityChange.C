@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "densityChange.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseSystem.H"
-#include "fvcDdt.H"
-#include "fvcGrad.H"
+#include "populationBalanceModel/driftModels/densityChange/densityChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "phaseSystem/phaseSystem.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

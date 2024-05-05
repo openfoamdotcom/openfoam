@@ -51,9 +51,9 @@ SourceFiles
 #define Foam_vtk_fileWriter_H
 
 #include <fstream>
-#include "Enum.H"
-#include "UPstream.H"
-#include "foamVtkOutputOptions.H"
+#include "primitives/enums/Enum.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "vtk/output/foamVtkOutputOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -347,10 +347,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtkFileWriterI.H"
+#include "vtk/file/foamVtkFileWriterI.H"
 
 #ifdef NoRepository
-    #include "foamVtkFileWriterTemplates.C"
+    #include "vtk/file/foamVtkFileWriterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

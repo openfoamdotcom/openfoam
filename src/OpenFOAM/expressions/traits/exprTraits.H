@@ -52,14 +52,14 @@ Description
 #define Foam_expressions_exprTraits_H
 
 // Regular field types
-#include "label.H"
-#include "scalar.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
 //TBD: #include "complex.H"
-#include "vector.H"
-#include "sphericalTensor.H"
-#include "symmTensor.H"
-#include "tensor.H"
-#include "word.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

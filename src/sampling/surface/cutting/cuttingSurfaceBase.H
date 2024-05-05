@@ -41,10 +41,10 @@ SourceFiles
 #ifndef cuttingSurfaceBase_H
 #define cuttingSurfaceBase_H
 
-#include "bitSet.H"
-#include "faceList.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfacesFwd.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurface/MeshedSurfacesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -226,7 +226,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cuttingSurfaceBaseTemplates.C"
+    #include "surface/cutting/cuttingSurfaceBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

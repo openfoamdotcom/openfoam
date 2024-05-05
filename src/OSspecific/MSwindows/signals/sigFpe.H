@@ -58,7 +58,7 @@ SourceFiles
 #define Foam_sigFpe_H
 
 #include <cstddef>  // For std::size_t
-#include "scalarFwd.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryFaePatchFields.H"
-#include "faePatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/faePatchFields/constraint/symmetry/symmetryFaePatchFields.H"
+#include "fields/faePatchFields/faePatchField/faePatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

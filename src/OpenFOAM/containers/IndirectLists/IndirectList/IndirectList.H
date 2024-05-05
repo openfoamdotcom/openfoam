@@ -52,9 +52,9 @@ SourceFiles
 #ifndef Foam_IndirectList_H
 #define Foam_IndirectList_H
 
-#include "List.H"
-#include "IndirectListAddressing.H"
-#include "IndirectListBase.H"
+#include "containers/Lists/List/List.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListAddressing.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IndirectListI.H"
+#include "containers/IndirectLists/IndirectList/IndirectListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

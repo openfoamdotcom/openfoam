@@ -74,9 +74,9 @@ SourceFiles
 #ifndef PatchFunction1Types_Sampled_H
 #define PatchFunction1Types_Sampled_H
 
-#include "PatchFunction1.H"
-#include "mappedPatchBase.H"
-#include "volFieldsFwd.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -227,7 +227,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Sampled.C"
+    #include "fields/fvPatchFields/derived/mappedField/Sampled/Sampled.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

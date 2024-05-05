@@ -35,7 +35,7 @@ Description
 #ifndef waveModels_StokesI_H
 #define waveModels_StokesI_H
 
-#include "regularWaveModel.H"
+#include "waveGenerationModels/base/regularWaveModel/regularWaveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

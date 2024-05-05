@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cell.H"
-#include "oppositeFace.H"
-#include "bitSet.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "meshes/meshShapes/face/oppositeFace.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

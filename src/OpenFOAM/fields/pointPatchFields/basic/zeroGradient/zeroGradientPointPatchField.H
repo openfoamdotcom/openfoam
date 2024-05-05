@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_zeroGradientPointPatchField_H
 #define Foam_zeroGradientPointPatchField_H
 
-#include "pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zeroGradientPointPatchField.C"
+    #include "fields/pointPatchFields/basic/zeroGradient/zeroGradientPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

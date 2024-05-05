@@ -44,8 +44,8 @@ SourceFiles
 #ifndef solidBodyDisplacementLaplacianFvMotionSolver_H
 #define solidBodyDisplacementLaplacianFvMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "fvMotionSolver.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
+#include "fvMotionSolvers/fvMotionSolver/fvMotionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

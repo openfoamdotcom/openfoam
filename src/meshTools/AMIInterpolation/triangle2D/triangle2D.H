@@ -38,8 +38,8 @@ SourceFiles
 #ifndef triangle2D_H
 #define triangle2D_H
 
-#include "vector.H"
-#include "vector2D.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Vector2D/floats/vector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,7 +198,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triangle2DI.H"
+#include "AMIInterpolation/triangle2D/triangle2DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

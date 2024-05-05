@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermophysicalPropertiesSelector.H"
+#include "thermophysicalPropertiesSelector/thermophysicalPropertiesSelector.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

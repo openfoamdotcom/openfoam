@@ -50,9 +50,9 @@ SourceFiles
 #ifndef seulex_H
 #define seulex_H
 
-#include "ODESolver.H"
-#include "scalarMatrices.H"
-#include "labelField.H"
+#include "ODESolvers/ODESolver/ODESolver.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "fields/Fields/labelField/labelField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

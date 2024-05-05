@@ -28,8 +28,8 @@ License
 #ifndef Foam_quaternionIOField_H
 #define Foam_quaternionIOField_H
 
-#include "quaternionField.H"
-#include "IOField.H"
+#include "fields/Fields/quaternionField/quaternionField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

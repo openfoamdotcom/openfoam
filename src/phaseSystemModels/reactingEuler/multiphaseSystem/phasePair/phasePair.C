@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingEuler_phasePair.H"
-#include "phaseSystem.H"
-#include "surfaceTensionModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "phaseSystem/phaseSystem.H"
+#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

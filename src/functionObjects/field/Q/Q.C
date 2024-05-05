@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Q.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "Q/Q.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -43,9 +43,9 @@ SourceFiles
 #ifndef Foam_PtrListOps_H
 #define Foam_PtrListOps_H
 
-#include "predicates.H"
-#include "PtrList.H"
-#include "ListOps.H"
+#include "primitives/predicates/predicates.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ labelList findMatching
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PtrListOpsTemplates.C"
+    #include "containers/PtrLists/PtrListOps/PtrListOpsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

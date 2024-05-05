@@ -56,7 +56,7 @@ SourceFiles
 #ifndef CrankNicolson_H
 #define CrankNicolson_H
 
-#include "rigidBodySolver.H"
+#include "rigidBodySolvers/rigidBodySolver/rigidBodySolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

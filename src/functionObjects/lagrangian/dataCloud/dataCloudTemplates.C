@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloud.H"
-#include "IOField.H"
-#include "OFstream.H"
-#include "ListOps.H"
-#include "pointField.H"
-#include "vectorField.H"
+#include "fields/cloud/cloud.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/Fields/vectorField/vectorField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

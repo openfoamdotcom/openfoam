@@ -31,10 +31,10 @@ Description
 #ifndef Foam_SpanStream_H
 #define Foam_SpanStream_H
 
-#include "ISpanStream.H"
-#include "ICharStream.H"
-#include "OSpanStream.H"
-#include "OCharStream.H"
+#include "db/IOstreams/memory/ISpanStream.H"
+#include "db/IOstreams/memory/ICharStream.H"
+#include "db/IOstreams/memory/OSpanStream.H"
+#include "db/IOstreams/memory/OCharStream.H"
 
 #endif
 

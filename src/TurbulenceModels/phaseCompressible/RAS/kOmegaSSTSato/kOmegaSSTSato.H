@@ -107,7 +107,7 @@ SourceFiles
 #ifndef kOmegaSSTSato_H
 #define kOmegaSSTSato_H
 
-#include "kOmegaSST.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kOmegaSST/kOmegaSST.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kOmegaSSTSato.C"
+    #include "TurbulenceModels/phaseCompressible/RAS/kOmegaSSTSato/kOmegaSSTSato.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -50,21 +50,21 @@ SourceFiles
 #ifndef Foam_fvMesh_H
 #define Foam_fvMesh_H
 
-#include "polyMesh.H"
-#include "lduMesh.H"
-#include "primitiveMesh.H"
-#include "fvBoundaryMesh.H"
-#include "surfaceInterpolation.H"
-#include "fvSchemes.H"
-#include "fvSolution.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "pointFieldsFwd.H"
-#include "SlicedDimensionedField.H"
-#include "slicedVolFieldsFwd.H"
-#include "slicedSurfaceFieldsFwd.H"
-#include "className.H"
-#include "SolverPerformanceDeCased.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolation.H"
+#include "finiteVolume/fvSchemes/fvSchemes.H"
+#include "finiteVolume/fvSolution/fvSolution.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
+#include "fields/DimensionedFields/DimensionedField/SlicedDimensionedField.H"
+#include "fields/volFields/slicedVolFieldsFwd.H"
+#include "fields/surfaceFields/slicedSurfaceFieldsFwd.H"
+#include "db/typeInfo/className.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/SolverPerformanceDeCased.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -559,8 +559,8 @@ fvMesh::validComponents<sphericalTensor>() const;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshTemplates.C"
-    #include "fvPatchFvMeshTemplates.C"
+    #include "fvMesh/fvMeshTemplates.C"
+    #include "fvMesh/fvPatches/fvPatch/fvPatchFvMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

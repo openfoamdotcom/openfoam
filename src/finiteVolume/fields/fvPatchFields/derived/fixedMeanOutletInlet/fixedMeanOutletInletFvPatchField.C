@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedMeanOutletInletFvPatchField.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "fields/fvPatchFields/derived/fixedMeanOutletInlet/fixedMeanOutletInletFvPatchField.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

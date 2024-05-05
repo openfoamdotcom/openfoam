@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
-#include "bitSet.H"
-#include "boundBox.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

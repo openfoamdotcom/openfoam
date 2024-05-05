@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchToPatchInterpolationDeCased.H"
+#include "interpolations/patchToPatchInterpolation/PatchToPatchInterpolationDeCased.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

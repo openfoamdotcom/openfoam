@@ -36,7 +36,7 @@ SourceFiles
 #ifndef noWallLubrication_H
 #define noWallLubrication_H
 
-#include "wallLubricationModel.H"
+#include "interfacialModels/wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

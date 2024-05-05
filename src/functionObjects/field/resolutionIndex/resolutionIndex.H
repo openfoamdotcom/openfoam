@@ -112,7 +112,7 @@ SourceFiles
 #ifndef Foam_functionObjects_resolutionIndex_H
 #define Foam_functionObjects_resolutionIndex_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

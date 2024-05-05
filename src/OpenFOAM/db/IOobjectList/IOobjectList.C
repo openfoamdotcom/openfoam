@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobjectList.H"
-#include "TimeOpenFOAM.H"
-#include "predicates.H"
-#include "OSspecific.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/predicates/predicates.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

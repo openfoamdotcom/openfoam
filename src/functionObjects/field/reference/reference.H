@@ -116,8 +116,8 @@ SourceFiles
 #ifndef functionObjects_reference_H
 #define functionObjects_reference_H
 
-#include "fieldExpression.H"
-#include "point.H"
+#include "fieldExpression/fieldExpression.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -195,7 +195,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "referenceTemplates.C"
+    #include "reference/referenceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

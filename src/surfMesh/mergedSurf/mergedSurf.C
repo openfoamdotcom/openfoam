@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mergedSurf.H"
-#include "PatchTools.H"
+#include "mergedSurf/mergedSurf.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

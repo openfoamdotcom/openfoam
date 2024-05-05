@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkBase64Formatter.H"
-#include "foamVtkOutputOptions.H"
+#include "vtk/format/foamVtkBase64Formatter.H"
+#include "vtk/output/foamVtkOutputOptions.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

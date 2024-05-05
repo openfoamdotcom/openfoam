@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointToPointPlanarInterpolation.H"
-#include "boundBox.H"
-#include "Random.H"
-#include "vector2D.H"
-#include "triSurface.H"
-#include "triSurfaceTools.H"
-#include "OBJstream.H"
-#include "TimeOpenFOAM.H"
-#include "matchPoints.H"
+#include "triSurface/triSurfaceTools/pointToPointPlanarInterpolation.H"
+#include "meshes/boundBox/boundBox.H"
+#include "primitives/random/Random/Random.H"
+#include "primitives/Vector2D/floats/vector2D.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "obj/OBJstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/meshTools/matchPoints.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

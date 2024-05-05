@@ -41,7 +41,7 @@ SourceFiles
 #ifndef SR1_H
 #define SR1_H
 
-#include "quasiNewton.H"
+#include "optimisation/updateMethod/quasiNewton/quasiNewton.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

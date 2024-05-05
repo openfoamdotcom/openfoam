@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "dictionary.H"
-#include "objectRegistry.H"
-#include "foamVersion.H"
+#include "db/IOobject/IOobject.H"
+#include "db/dictionary/dictionary.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "include/foamVersion.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_fixedValueFaePatchField_H
 #define Foam_fixedValueFaePatchField_H
 
-#include "faePatchField.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -181,7 +181,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedValueFaePatchField.C"
+    #include "fields/faePatchFields/basic/fixedValue/fixedValueFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

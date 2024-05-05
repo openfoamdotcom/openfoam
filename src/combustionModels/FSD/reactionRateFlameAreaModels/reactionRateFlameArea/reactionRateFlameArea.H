@@ -38,11 +38,11 @@ SourceFiles
 #ifndef reactionRateFlameArea_H
 #define reactionRateFlameArea_H
 
-#include "runTimeSelectionTables.H"
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "volFields.H"
-#include "combustionModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fields/volFields/volFields.H"
+#include "combustionModel/combustionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

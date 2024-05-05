@@ -63,7 +63,7 @@ SourceFiles
 #ifndef Foam_debugSurfaceWriter_H
 #define Foam_debugSurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "writers/common/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

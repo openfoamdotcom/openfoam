@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprOps.H"
-#include "FieldOps.H"
-#include "surfaceInterpolate.H"
-#include "volPointInterpolation.H"
-#include "interpolatePointToCell.H"
+#include "expressions/exprOps/exprOps.H"
+#include "fields/Fields/Field/FieldOps.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "interpolations/interpolatePointToCell/interpolatePointToCell.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

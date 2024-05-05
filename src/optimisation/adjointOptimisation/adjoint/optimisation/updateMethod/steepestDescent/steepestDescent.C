@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "steepestDescent.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/updateMethod/steepestDescent/steepestDescent.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

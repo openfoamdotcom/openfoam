@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeFvOption.H"
-#include "CodedFvSource.H"
+#include "cfdTools/general/fvOptions/makeFvOption.H"
+#include "sources/general/codedSource/CodedFvSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

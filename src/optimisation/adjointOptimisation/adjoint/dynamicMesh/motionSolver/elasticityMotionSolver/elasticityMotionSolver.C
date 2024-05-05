@@ -27,18 +27,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "elasticityMotionSolver.H"
-#include "motionInterpolation.H"
-#include "motionDiffusivity.H"
-#include "wallDist.H"
-#include "fixedValuePointPatchFields.H"
-#include "fvMatrices.H"
-#include "fvcDiv.H"
-#include "fvmDiv.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "surfaceInterpolate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dynamicMesh/motionSolver/elasticityMotionSolver/elasticityMotionSolver.H"
+#include "motionInterpolation/motionInterpolation/motionInterpolation.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

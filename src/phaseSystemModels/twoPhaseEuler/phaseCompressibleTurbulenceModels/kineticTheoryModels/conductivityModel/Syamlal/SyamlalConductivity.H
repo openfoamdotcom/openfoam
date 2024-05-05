@@ -36,7 +36,7 @@ SourceFiles
 #ifndef Syamlal_H
 #define Syamlal_H
 
-#include "conductivityModel.H"
+#include "kineticTheoryModels/conductivityModel/conductivityModel/conductivityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

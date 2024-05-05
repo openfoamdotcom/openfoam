@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchPascal.H"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchPascal.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

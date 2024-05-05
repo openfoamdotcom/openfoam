@@ -4,6 +4,6 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "polySurfaceFieldsFwd.H"
+#include "polySurface/fields/polySurfaceFieldsFwd.H"
 
 // ************************************************************************* //

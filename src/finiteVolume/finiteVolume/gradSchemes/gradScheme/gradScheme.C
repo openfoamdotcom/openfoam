@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "objectRegistry.H"
-#include "solution.H"
+#include "finiteVolume/fv/fv.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "matrices/solution/solution.H"
 
 // * * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * //
 

@@ -43,7 +43,7 @@ SourceFiles
 #ifndef azizChen_H
 #define azizChen_H
 
-#include "pairPotential.H"
+#include "pairPotential/basic/pairPotential.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

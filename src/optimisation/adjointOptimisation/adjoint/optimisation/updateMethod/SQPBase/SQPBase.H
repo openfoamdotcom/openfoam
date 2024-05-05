@@ -39,9 +39,9 @@ SourceFiles
 #ifndef SQPBase_H
 #define SQPBase_H
 
-#include "constrainedOptimisationMethod.H"
-#include "quasiNewton.H"
-#include "OFstream.H"
+#include "optimisation/updateMethod/constrainedOptimisationMethod/constrainedOptimisationMethod.H"
+#include "optimisation/updateMethod/quasiNewton/quasiNewton.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

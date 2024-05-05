@@ -122,7 +122,7 @@ SourceFiles
 #ifndef functionObjects_heatTransferCoeff_H
 #define functionObjects_heatTransferCoeff_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

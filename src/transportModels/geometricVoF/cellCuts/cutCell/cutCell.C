@@ -28,7 +28,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cutCell.H"
+#include "cellCuts/cutCell/cutCell.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

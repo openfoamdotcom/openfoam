@@ -53,7 +53,7 @@ SourceFiles
 #ifndef functionObjects_regionFunctionObject_H
 #define functionObjects_regionFunctionObject_H
 
-#include "stateFunctionObject.H"
+#include "db/functionObjects/stateFunctionObject/stateFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,7 +239,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "regionFunctionObjectTemplates.C"
+    #include "db/functionObjects/regionFunctionObject/regionFunctionObjectTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

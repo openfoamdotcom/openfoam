@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solitaryWaveModel.H"
-#include "polyPatch.H"
-#include "SubField.H"
-#include "unitConversion.H"
+#include "waveGenerationModels/base/solitaryWaveModel/solitaryWaveModel.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "fields/Fields/Field/SubField.H"
+#include "global/constants/unitConversion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

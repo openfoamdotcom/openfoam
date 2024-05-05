@@ -122,9 +122,9 @@ SourceFiles
 #ifndef kL_H
 #define kL_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
-#include "uniformDimensionedFields.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -303,7 +303,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kL.C"
+    #include "turbulenceModels/RAS/kL/kL.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "electricPotential.H"
-#include "fvc.H"
-#include "fvm.H"
-#include "addToRunTimeSelectionTable.H"
+#include "electricPotential/electricPotential.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

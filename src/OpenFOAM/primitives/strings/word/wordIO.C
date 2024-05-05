@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "word.H"
-#include "token.H"
-#include "IOstreams.H"
+#include "primitives/strings/word/word.H"
+#include "db/IOstreams/token/token.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

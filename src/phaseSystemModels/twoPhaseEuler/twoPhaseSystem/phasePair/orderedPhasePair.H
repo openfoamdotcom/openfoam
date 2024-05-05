@@ -36,7 +36,7 @@ SourceFiles
 #ifndef twoPhaseEuler_orderedPhasePair_H
 #define twoPhaseEuler_orderedPhasePair_H
 
-#include "phasePair.H"
+#include "phasePair/phasePair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

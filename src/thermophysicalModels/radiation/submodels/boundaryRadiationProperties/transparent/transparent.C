@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transparent.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/boundaryRadiationProperties/transparent/transparent.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

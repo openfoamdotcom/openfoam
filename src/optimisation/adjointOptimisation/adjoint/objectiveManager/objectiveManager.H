@@ -39,9 +39,9 @@ SourceFiles
 #ifndef objectiveManager_H
 #define objectiveManager_H
 
-#include "fvMesh.H"
-#include "objective.H"
-#include "runTimeSelectionTables.H"
+#include "fvMesh/fvMesh.H"
+#include "objectives/objective/objective.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

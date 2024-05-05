@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "consumptionSpeed.H"
+#include "FSD/reactionRateFlameAreaModels/consumptionSpeed/consumptionSpeed.H"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

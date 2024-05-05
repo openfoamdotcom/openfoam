@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "schemesLookup.H"
-#include "Switch.H"
-#include "TimeOpenFOAM.H"
+#include "matrices/schemes/schemesLookup.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

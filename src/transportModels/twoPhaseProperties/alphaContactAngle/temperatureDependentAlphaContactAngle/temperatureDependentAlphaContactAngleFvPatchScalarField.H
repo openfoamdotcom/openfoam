@@ -63,8 +63,8 @@ SourceFiles
 #ifndef temperatureDependentAlphaContactAngleFvPatchScalarField_H
 #define temperatureDependentAlphaContactAngleFvPatchScalarField_H
 
-#include "alphaContactAngleTwoPhaseFvPatchScalarField.H"
-#include "Function1Pascal.H"
+#include "alphaContactAngle/alphaContactAngleTwoPhaseFvPatchScalarField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

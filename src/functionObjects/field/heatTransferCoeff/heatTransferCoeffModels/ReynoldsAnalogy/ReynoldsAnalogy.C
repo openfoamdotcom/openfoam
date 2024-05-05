@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReynoldsAnalogy.H"
-#include "fluidThermo.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/ReynoldsAnalogy/ReynoldsAnalogy.H"
+#include "fluidThermo/fluidThermo.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

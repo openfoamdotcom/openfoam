@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshFilter.H"
-#include "polyMesh.H"
-#include "mapPolyMesh.H"
-#include "IOobjectList.H"
+#include "polyMeshFilter/polyMeshFilter.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * Public Member Functions * * * * * * * * * * * * //
 

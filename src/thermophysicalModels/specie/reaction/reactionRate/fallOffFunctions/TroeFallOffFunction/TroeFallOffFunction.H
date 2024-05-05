@@ -37,7 +37,7 @@ SourceFiles
 #ifndef TroeFallOffFunction_H
 #define TroeFallOffFunction_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -109,7 +109,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "TroeFallOffFunctionI.H"
+#include "reaction/reactionRate/fallOffFunctions/TroeFallOffFunction/TroeFallOffFunctionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

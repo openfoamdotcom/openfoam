@@ -41,12 +41,12 @@ SourceFiles
 #ifndef CollidingCloud_H
 #define CollidingCloud_H
 
-#include "particle.H"
-#include "CloudPascal.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "fvMesh.H"
-#include "volFields.H"
+#include "particle/particle.H"
+#include "Cloud/CloudPascal.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -248,12 +248,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CollidingCloudI.H"
+#include "clouds/Templates/CollidingCloud/CollidingCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CollidingCloud.C"
+    #include "clouds/Templates/CollidingCloud/CollidingCloud.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

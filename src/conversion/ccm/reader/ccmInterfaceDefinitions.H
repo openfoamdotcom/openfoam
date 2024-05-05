@@ -31,8 +31,8 @@ Description
 #ifndef ccmInterfaceDefinitions_H
 #define ccmInterfaceDefinitions_H
 
-#include "Map.H"
-#include "Ostream.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

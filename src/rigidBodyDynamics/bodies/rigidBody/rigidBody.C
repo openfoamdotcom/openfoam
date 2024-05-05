@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBody.H"
-#include "subBody.H"
-#include "addToRunTimeSelectionTable.H"
+#include "bodies/rigidBody/rigidBody.H"
+#include "bodies/subBody/subBody.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "propellerInfo.H"
-#include "cylindricalCS.H"
-#include "fvMesh.H"
-#include "IOMRFZoneList.H"
-#include "mathematicalConstants.H"
-#include "interpolation.H"
-#include "Function1Pascal.H"
-#include "surfaceWriter.H"
-#include "treeDataCell.H"
-#include "addToRunTimeSelectionTable.H"
+#include "propellerInfo/propellerInfo.H"
+#include "primitives/coordinate/systems/cylindricalCS.H"
+#include "fvMesh/fvMesh.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "writers/common/surfaceWriter.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

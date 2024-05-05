@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudAbsorptionEmission.H"
-#include "thermoCloud.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/addOns/radiation/absorptionEmission/cloudAbsorptionEmission/cloudAbsorptionEmission.H"
+#include "clouds/baseClasses/thermoCloud/thermoCloud.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

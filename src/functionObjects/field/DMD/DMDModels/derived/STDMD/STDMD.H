@@ -190,9 +190,9 @@ SourceFiles
 #ifndef DMDModels_STDMD_H
 #define DMDModels_STDMD_H
 
-#include "DMDModel.H"
-#include "SquareMatrix.H"
-#include "RectangularMatrix.H"
+#include "DMD/DMDModels/DMDModel/DMDModel.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -519,7 +519,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "STDMDTemplates.C"
+    #include "DMD/DMDModels/derived/STDMD/STDMDTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

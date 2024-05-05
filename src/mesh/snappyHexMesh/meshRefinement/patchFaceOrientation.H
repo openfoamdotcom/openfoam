@@ -39,8 +39,8 @@ SourceFiles
 #ifndef patchFaceOrientation_H
 #define patchFaceOrientation_H
 
-#include "tensor.H"
-#include "indirectPrimitivePatch.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -181,7 +181,7 @@ template<> struct is_contiguous_label<patchFaceOrientation> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchFaceOrientationI.H"
+#include "meshRefinement/patchFaceOrientationI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

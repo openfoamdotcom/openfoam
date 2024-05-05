@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "temperatureCoupledBase.H"
-#include "volFields.H"
-#include "fluidThermo.H"
-#include "solidThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "multiphaseInterSystem.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
+#include "fields/volFields/volFields.H"
+#include "fluidThermo/fluidThermo.H"
+#include "solidThermo/solidThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

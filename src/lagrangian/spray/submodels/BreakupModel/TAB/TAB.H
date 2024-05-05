@@ -51,8 +51,8 @@ See also
 #ifndef TAB_H
 #define TAB_H
 
-#include "BreakupModelPascal.H"
-#include "FixedList.H"
+#include "submodels/BreakupModel/BreakupModel/BreakupModelPascal.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -158,7 +158,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TAB.C"
+    #include "submodels/BreakupModel/TAB/TAB.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

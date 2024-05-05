@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfacesQueries.H"
-#include "ListOps.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "DynamicField.H"
-#include "pointConstraint.H"
-#include "plane.H"
+#include "searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

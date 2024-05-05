@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingEulerHtcModel.H"
-#include "heatTransferCoeffModel.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "heatTransferCoeff/reactingEulerHtcModel/reactingEulerHtcModel.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

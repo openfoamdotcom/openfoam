@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFunctionObject.H"
-#include "objectRegistry.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

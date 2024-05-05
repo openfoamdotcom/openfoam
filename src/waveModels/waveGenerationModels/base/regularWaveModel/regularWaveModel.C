@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regularWaveModel.H"
-#include "unitConversion.H"
+#include "waveGenerationModels/base/regularWaveModel/regularWaveModel.H"
+#include "global/constants/unitConversion.H"
 
 using namespace Foam::constant;
 

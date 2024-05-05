@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "marchingCells.H"
-#include "fvMeshSubset.H"
-#include "cellSet.H"
+#include "optimisation/designVariables/topODesignVariables/marchingCells/marchingCells.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "topoSet/topoSets/cellSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

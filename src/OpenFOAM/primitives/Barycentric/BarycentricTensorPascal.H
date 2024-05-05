@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_BarycentricTensor_H
 #define Foam_BarycentricTensor_H
 
-#include "BarycentricPascal.H"
-#include "TensorPascal.H"
-#include "VectorPascal.H"
+#include "primitives/Barycentric/BarycentricPascal.H"
+#include "primitives/Tensor/TensorPascal.H"
+#include "primitives/Vector/VectorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BarycentricTensorI.H"
+#include "primitives/Barycentric/BarycentricTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

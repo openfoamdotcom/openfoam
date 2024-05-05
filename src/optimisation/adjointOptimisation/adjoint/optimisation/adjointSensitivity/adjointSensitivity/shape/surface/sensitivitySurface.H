@@ -60,8 +60,8 @@ SourceFiles
 #ifndef sensitivitySurfaceIncompressible_H
 #define sensitivitySurfaceIncompressible_H
 
-#include "sensitivitySurfacePoints.H"
-#include "faMesh.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/surfacePoints/sensitivitySurfacePoints.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

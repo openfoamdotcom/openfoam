@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingMixture.H"
-#include "fvMesh.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

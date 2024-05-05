@@ -51,7 +51,7 @@ SourceFiles
 #ifndef GidaspowSchillerNaumann_H
 #define GidaspowSchillerNaumann_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

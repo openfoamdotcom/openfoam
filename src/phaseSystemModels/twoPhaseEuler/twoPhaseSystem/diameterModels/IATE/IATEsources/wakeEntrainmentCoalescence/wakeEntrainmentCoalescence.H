@@ -44,7 +44,7 @@ SourceFiles
 #ifndef wakeEntrainmentCoalescence_H
 #define wakeEntrainmentCoalescence_H
 
-#include "IATEsource.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

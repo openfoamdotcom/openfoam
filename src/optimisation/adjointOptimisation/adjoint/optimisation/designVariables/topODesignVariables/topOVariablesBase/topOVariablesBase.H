@@ -41,13 +41,13 @@ SourceFiles
 #ifndef topOVariablesBase_H
 #define topOVariablesBase_H
 
-#include "localIOdictionary.H"
-#include "topOZones.H"
-#include "topOInterpolationFunction.H"
-#include "FaceCellWave.H"
-#include "wallPointData.H"
-#include "cutFaceIso.H"
-#include "cutCellIso.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "optimisation/designVariables/topODesignVariables/topOZones/topOZones.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "cellDist/wallPoint/wallPointData.H"
+#include "cellCuts/cutFace/cutFaceIso.H"
+#include "cellCuts/cutCell/cutCellIso.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,8 +40,8 @@ SourceFiles
 #ifndef SRFForce_H
 #define SRFForce_H
 
-#include "ParticleForce.H"
-#include "SRFModel.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
+#include "cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SRFForce.C"
+    #include "submodels/Kinematic/ParticleForces/SRF/SRFForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

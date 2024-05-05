@@ -36,8 +36,8 @@ SourceFiles
 #ifndef reactingMultiphaseParcelInjectionDataIOList_H
 #define reactingMultiphaseParcelInjectionDataIOList_H
 
-#include "GlobalIOList.H"
-#include "reactingMultiphaseParcelInjectionData.H"
+#include "db/IOobjects/GlobalIOList/GlobalIOList.H"
+#include "submodels/ReactingMultiphase/InjectionModel/ReactingMultiphaseLookupTableInjection/reactingMultiphaseParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

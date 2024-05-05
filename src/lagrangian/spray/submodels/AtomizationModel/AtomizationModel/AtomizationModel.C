@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AtomizationModel.H"
+#include "submodels/AtomizationModel/AtomizationModel/AtomizationModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -83,6 +83,6 @@ Foam::scalar Foam::AtomizationModel<CloudType>::Taverage
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AtomizationModelNew.C"
+#include "submodels/AtomizationModel/AtomizationModel/AtomizationModelNew.C"
 
 // ************************************************************************* //

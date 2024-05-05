@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "valuePointPatchField.H"
-#include "pointPatchFieldMapper.H"
+#include "fields/pointPatchFields/basic/value/valuePointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

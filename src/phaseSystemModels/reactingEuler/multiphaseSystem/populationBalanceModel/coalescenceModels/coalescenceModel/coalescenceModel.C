@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

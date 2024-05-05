@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParSortableList.H"
-#include "SortableList.H"
-#include "Pstream.H"
-#include "ListListOps.H"
-#include "PstreamReduceOps.H"
+#include "containers/Lists/SortableList/ParSortableList.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

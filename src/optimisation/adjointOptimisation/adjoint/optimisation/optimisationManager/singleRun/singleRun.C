@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleRun.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/optimisationManager/singleRun/singleRun.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

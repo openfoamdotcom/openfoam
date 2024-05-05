@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarPredicates.H"
-#include "HashSet.H"
-#include "FlatOutput.H"
-#include "Tuple2.H"
+#include "primitives/predicates/scalar/scalarPredicates.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

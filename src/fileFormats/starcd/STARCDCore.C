@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDCore.H"
-#include "DynamicList.H"
-#include "OSspecific.H"
+#include "starcd/STARCDCore.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

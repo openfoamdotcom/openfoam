@@ -37,10 +37,10 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GeometricScalarField.H"
-#include "GeometricVectorField.H"
-#include "GeometricTensorField.H"
-#include "GeometricSphericalTensorField.H"
+#include "fields/GeometricFields/GeometricScalarField/GeometricScalarField.H"
+#include "fields/GeometricFields/GeometricVectorField/GeometricVectorField.H"
+#include "fields/GeometricFields/GeometricTensorField/GeometricTensorField.H"
+#include "fields/GeometricFields/GeometricSphericalTensorField/GeometricSphericalTensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

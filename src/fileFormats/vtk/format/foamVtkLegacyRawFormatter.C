@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkLegacyRawFormatter.H"
-#include "foamVtkOutputOptions.H"
-#include "foamEndian.H"  // For byte swapping
+#include "vtk/format/foamVtkLegacyRawFormatter.H"
+#include "vtk/output/foamVtkOutputOptions.H"
+#include "primitives/endian/foamEndian.H"  // For byte swapping
 #include <limits>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topOInterpolationFunction.H"
-#include "runTimeSelectionTables.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

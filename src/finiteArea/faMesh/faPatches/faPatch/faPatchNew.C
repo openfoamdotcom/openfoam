@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatch.H"
-#include "dictionary.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

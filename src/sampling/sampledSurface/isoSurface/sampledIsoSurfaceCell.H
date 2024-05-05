@@ -69,7 +69,7 @@ SourceFiles
 #ifndef sampledIsoSurfaceCell_H
 #define sampledIsoSurfaceCell_H
 
-#include "sampledIsoSurface.H"
+#include "sampledSurface/isoSurface/sampledIsoSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

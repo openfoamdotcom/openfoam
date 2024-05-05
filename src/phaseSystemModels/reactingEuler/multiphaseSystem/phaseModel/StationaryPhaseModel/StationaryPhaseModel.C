@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StationaryPhaseModel.H"
+#include "phaseModel/StationaryPhaseModel/StationaryPhaseModel.H"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //
 

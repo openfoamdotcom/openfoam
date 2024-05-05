@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calculatedProcessorGAMGInterfaceField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "lduMatrix.H"
+#include "lduPrimitiveProcessorInterface/GAMG/calculatedProcessorGAMGInterfaceField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zoneSubSet.H"
-#include "cellBitSet.H"
-#include "haloToCell.H"
+#include "zoneSubSet/zoneSubSet.H"
+#include "topoSet/topoSets/cellBitSet.H"
+#include "topoSet/cellSources/haloToCell/haloToCell.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -39,11 +39,11 @@ SourceFiles
 #ifndef interfaceCompositionModel_H
 #define interfaceCompositionModel_H
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "Enum.H"
-#include "runTimeSelectionTables.H"
-#include "multiphaseInterSystem.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/enums/Enum.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

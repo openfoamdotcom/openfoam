@@ -80,7 +80,7 @@ SourceFiles
 #ifndef alphatFilmWallFunctionFvPatchScalarField_H
 #define alphatFilmWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

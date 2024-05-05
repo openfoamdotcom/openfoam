@@ -82,10 +82,10 @@ SourceFiles
 #ifndef filmPyrolysisRadiativeCoupledMixedFvPatchScalarField_H
 #define filmPyrolysisRadiativeCoupledMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "temperatureCoupledBase.H"
-#include "thermoSingleLayer.H"
-#include "pyrolysisModel.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
+#include "thermoSingleLayer/thermoSingleLayer.H"
+#include "pyrolysisModel/pyrolysisModel.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

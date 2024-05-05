@@ -63,7 +63,7 @@ SourceFiles
 #ifndef Foam_metisDecomp_H
 #define Foam_metisDecomp_H
 
-#include "metisLikeDecomp.H"
+#include "metisLikeDecomp/metisLikeDecomp.H"
 
 namespace Foam
 {

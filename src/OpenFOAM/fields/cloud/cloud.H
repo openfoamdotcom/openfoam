@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_cloud_H
 #define Foam_cloud_H
 
-#include "objectRegistry.H"
-#include "Enum.H"
-#include "point.H"
-#include "IOField.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "primitives/enums/Enum.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cloudTemplates.C"
+    #include "fields/cloud/cloudTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

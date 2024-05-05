@@ -40,9 +40,9 @@ SourceFiles
 #ifndef CorrectionLimitingMethod_H
 #define CorrectionLimitingMethod_H
 
-#include "volFieldsFwd.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

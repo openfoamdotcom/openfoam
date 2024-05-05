@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "slidingInterface/enrichedPatch/enrichedPatch.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

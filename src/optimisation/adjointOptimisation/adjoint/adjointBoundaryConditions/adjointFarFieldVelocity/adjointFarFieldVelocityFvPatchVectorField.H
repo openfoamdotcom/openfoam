@@ -39,9 +39,9 @@ SourceFiles
 #ifndef adjointFarFieldVelocityFvPatchVectorField_H
 #define adjointFarFieldVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "fixedValueFvPatchFields.H"
-#include "adjointBoundaryConditions.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryConditions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

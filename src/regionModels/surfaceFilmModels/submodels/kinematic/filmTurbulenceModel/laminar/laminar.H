@@ -37,7 +37,7 @@ SourceFiles
 #ifndef regionModels_surfaceFilmModels_laminar_H
 #define regionModels_surfaceFilmModels_laminar_H
 
-#include "filmTurbulenceModel.H"
+#include "submodels/kinematic/filmTurbulenceModel/filmTurbulenceModel/filmTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

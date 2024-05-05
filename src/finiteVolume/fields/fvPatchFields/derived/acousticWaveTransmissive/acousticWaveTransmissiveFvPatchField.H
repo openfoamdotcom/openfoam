@@ -70,7 +70,7 @@ SourceFiles
 #ifndef acousticWaveTransmissiveFvPatchField_H
 #define acousticWaveTransmissiveFvPatchField_H
 
-#include "advectiveFvPatchFields.H"
+#include "fields/fvPatchFields/derived/advective/advectiveFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "acousticWaveTransmissiveFvPatchField.C"
+    #include "fields/fvPatchFields/derived/acousticWaveTransmissive/acousticWaveTransmissiveFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

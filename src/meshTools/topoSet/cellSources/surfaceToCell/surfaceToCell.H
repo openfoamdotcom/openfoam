@@ -118,8 +118,8 @@ SourceFiles
 #ifndef surfaceToCell_H
 #define surfaceToCell_H
 
-#include "topoSetCellSource.H"
-#include "Map.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

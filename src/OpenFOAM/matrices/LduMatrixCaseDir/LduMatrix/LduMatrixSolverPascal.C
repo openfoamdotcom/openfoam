@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduMatrixPascal.H"
-#include "DiagonalSolverPascal.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.H"
+#include "matrices/LduMatrixCaseDir/Solvers/DiagonalSolver/DiagonalSolverPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

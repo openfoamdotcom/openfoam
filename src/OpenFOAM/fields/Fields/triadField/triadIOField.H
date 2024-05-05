@@ -28,8 +28,8 @@ License
 #ifndef Foam_triadIOField_H
 #define Foam_triadIOField_H
 
-#include "triadField.H"
-#include "IOField.H"
+#include "fields/Fields/triadField/triadField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

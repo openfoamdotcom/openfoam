@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_cyclicLduInterface_H
 #define Foam_cyclicLduInterface_H
 
-#include "lduInterface.H"
-#include "primitiveFieldsFwd.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

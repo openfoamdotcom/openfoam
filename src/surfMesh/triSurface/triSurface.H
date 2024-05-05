@@ -41,15 +41,15 @@ SourceFiles
 #ifndef Foam_triSurface_H
 #define Foam_triSurface_H
 
-#include "primitivePatch.H"
-#include "PatchTools.H"
-#include "labelledTri.H"
-#include "boolList.H"
-#include "bitSet.H"
-#include "HashSet.H"
-#include "geometricSurfacePatchList.H"
-#include "surfacePatchList.H"
-#include "triFaceList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "meshes/meshShapes/labelledTri/labelledTri.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/Identifiers/surface/geometricSurfacePatchList.H"
+#include "triSurface/patches/surfacePatchList.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,7 +28,7 @@ License
 #ifndef Foam_basicSymmetryFaPatchFields_H
 #define Foam_basicSymmetryFaPatchFields_H
 
-#include "basicSymmetryFaPatchField.H"
+#include "fields/faPatchFields/basic/basicSymmetry/basicSymmetryFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

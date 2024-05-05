@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkSurfaceWriter.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

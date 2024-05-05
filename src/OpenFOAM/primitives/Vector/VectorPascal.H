@@ -44,8 +44,8 @@ SourceFiles
 #ifndef Foam_Vector_H
 #define Foam_Vector_H
 
-#include "contiguous.H"
-#include "VectorSpace.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -244,7 +244,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "VectorI.H"
+#include "primitives/Vector/VectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

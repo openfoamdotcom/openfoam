@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VirtualMassForce.H"
+#include "submodels/Kinematic/ParticleForces/VirtualMass/VirtualMassForce.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

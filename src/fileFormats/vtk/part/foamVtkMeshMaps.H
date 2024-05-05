@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Foam_vtk_vtkMeshMaps_H
 #define Foam_vtk_vtkMeshMaps_H
 
-#include "DynamicList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -126,7 +126,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtkMeshMapsI.H"
+#include "vtk/part/foamVtkMeshMapsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef cyclicGAMGInterface_H
 #define cyclicGAMGInterface_H
 
-#include "GAMGInterface.H"
-#include "cyclicLduInterface.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

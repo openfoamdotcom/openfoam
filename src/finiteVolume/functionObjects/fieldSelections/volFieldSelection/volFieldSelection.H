@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_functionObjects_volFieldSelection_H
 #define Foam_functionObjects_volFieldSelection_H
 
-#include "fieldSelection.H"
+#include "functionObjects/fieldSelections/fieldSelection/fieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "volFieldSelectionTemplates.C"
+    #include "functionObjects/fieldSelections/volFieldSelection/volFieldSelectionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

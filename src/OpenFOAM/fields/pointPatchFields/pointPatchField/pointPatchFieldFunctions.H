@@ -31,7 +31,7 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
 
 namespace Foam
 {
@@ -405,6 +405,6 @@ inline void ternarySelect
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

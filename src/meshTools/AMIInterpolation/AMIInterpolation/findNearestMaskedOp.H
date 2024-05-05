@@ -1,5 +1,5 @@
-#include "indexedOctree.H"
-#include "treeDataPrimitivePatch.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
 
 namespace Foam
 {

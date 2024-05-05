@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicOversetFvMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "oversetFvMesh/dynamicOversetFvMesh/dynamicOversetFvMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

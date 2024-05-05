@@ -57,9 +57,9 @@ See also
 #ifndef InjectedParticleInjection_H
 #define InjectedParticleInjection_H
 
-#include "InjectionModelPascal.H"
-#include "Switch.H"
-#include "vectorList.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/Vector/lists/vectorList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

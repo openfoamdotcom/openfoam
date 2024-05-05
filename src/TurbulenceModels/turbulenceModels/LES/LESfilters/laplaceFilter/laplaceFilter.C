@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laplaceFilter.H"
-#include "addToRunTimeSelectionTable.H"
-#include "calculatedFvPatchFields.H"
-#include "fvm.H"
-#include "fvc.H"
+#include "LES/LESfilters/laplaceFilter/laplaceFilter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "finiteVolume/fvc/fvc.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

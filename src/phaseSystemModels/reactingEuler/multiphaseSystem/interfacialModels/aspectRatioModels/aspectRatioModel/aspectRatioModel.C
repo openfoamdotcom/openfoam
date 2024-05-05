@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "aspectRatioModel.H"
-#include "reactingEuler_phasePair.H"
+#include "interfacialModels/aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "genericFvsPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvsPatchFields.H"
-#include "volFields.H"
+#include "genericFvsPatchField/genericFvsPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

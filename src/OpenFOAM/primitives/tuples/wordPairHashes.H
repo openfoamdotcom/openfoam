@@ -45,8 +45,8 @@ Description
 #ifndef Foam_wordPairHashes_H
 #define Foam_wordPairHashes_H
 
-#include "wordPair.H"
-#include "HashSet.H"
+#include "primitives/tuples/wordPair.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

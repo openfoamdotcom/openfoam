@@ -98,8 +98,8 @@ SourceFiles
 #ifndef functionObjects_randomise_H
 #define functionObjects_randomise_H
 
-#include "fieldExpression.H"
-#include "volRegion.H"
+#include "fieldExpression/fieldExpression.H"
+#include "functionObjects/volRegion/volRegion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

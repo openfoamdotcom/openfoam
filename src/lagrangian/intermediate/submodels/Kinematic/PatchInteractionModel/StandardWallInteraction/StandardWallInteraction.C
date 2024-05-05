@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StandardWallInteraction.H"
+#include "submodels/Kinematic/PatchInteractionModel/StandardWallInteraction/StandardWallInteraction.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extrapolatedCalculatedFaPatchFields.H"
-#include "faPatchFields.H"
-#include "areaFaMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/faPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFaPatchFields.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "areaMesh/areaFaMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

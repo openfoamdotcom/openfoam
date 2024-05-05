@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "degenerateMatcher.H"
-#include "primitiveMesh.H"
-#include "ListOps.H"
+#include "meshes/meshShapes/cellMatcher/degenerateMatcher.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

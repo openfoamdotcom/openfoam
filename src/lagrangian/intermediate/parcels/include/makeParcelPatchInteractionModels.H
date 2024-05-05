@@ -31,12 +31,12 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LocalInteraction.H"
-#include "NoInteractionPascal.H"
-#include "MultiInteraction.H"
-#include "Rebound.H"
-#include "RecycleInteraction.H"
-#include "StandardWallInteraction.H"
+#include "submodels/Kinematic/PatchInteractionModel/LocalInteraction/LocalInteraction.H"
+#include "submodels/Kinematic/PatchInteractionModel/NoInteraction/NoInteractionPascal.H"
+#include "submodels/Kinematic/PatchInteractionModel/MultiInteraction/MultiInteraction.H"
+#include "submodels/Kinematic/PatchInteractionModel/Rebound/Rebound.H"
+#include "submodels/Kinematic/PatchInteractionModel/RecycleInteraction/RecycleInteraction.H"
+#include "submodels/Kinematic/PatchInteractionModel/StandardWallInteraction/StandardWallInteraction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

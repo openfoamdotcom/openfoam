@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makePhaseTypes.H"
+#include "phaseModel/phaseModel/makePhaseTypes.H"
 
-#include "PurePhaseModel.H"
-#include "MultiComponentPhaseModel.H"
-#include "MovingPhaseModel.H"
-#include "StaticPhaseModel.H"
+#include "phaseModel/PurePhaseModel/PurePhaseModel.H"
+#include "phaseModel/MultiComponentPhaseModel/MultiComponentPhaseModel.H"
+#include "phaseModel/MovingPhaseModel/MovingPhaseModel.H"
+#include "phaseModel/StaticPhaseModel/StaticPhaseModel.H"
 
-#include "rhoThermo.H"
-#include "solidThermo.H"
-#include "rhoReactionThermo.H"
+#include "rhoThermo/rhoThermo.H"
+#include "solidThermo/solidThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

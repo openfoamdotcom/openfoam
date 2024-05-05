@@ -50,7 +50,7 @@ SourceFiles
 #ifndef LESModels_SLADelta_H
 #define LESModels_SLADelta_H
 
-#include "LESdelta.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellBox.H"
-#include "mapDistribute.H"
+#include "processorLOD/cellBox/cellBox.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 namespace Foam
 {

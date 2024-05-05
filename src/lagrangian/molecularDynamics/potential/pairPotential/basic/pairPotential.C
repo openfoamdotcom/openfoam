@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pairPotential.H"
-#include "energyScalingFunction.H"
+#include "pairPotential/basic/pairPotential.H"
+#include "energyScalingFunction/basic/energyScalingFunction.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

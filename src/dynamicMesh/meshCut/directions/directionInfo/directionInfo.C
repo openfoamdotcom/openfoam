@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directionInfo.H"
-#include "polyMesh.H"
+#include "meshCut/directions/directionInfo/directionInfo.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

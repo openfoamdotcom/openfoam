@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleDose.H"
-#include "volFields.H"
+#include "submodels/CloudFunctionObjects/ParticleDose/ParticleDose.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

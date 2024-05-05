@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "profiling.H"
-#include "areaFields.H"
+#include "global/profiling/profiling.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

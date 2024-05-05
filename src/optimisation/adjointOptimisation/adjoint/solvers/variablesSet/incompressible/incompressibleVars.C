@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleVars.H"
-#include "createZeroField.H"
+#include "solvers/variablesSet/incompressible/incompressibleVars.H"
+#include "global/createZeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

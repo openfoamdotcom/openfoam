@@ -37,8 +37,8 @@ SourceFiles
 #ifndef coupledFvsPatchField_H
 #define coupledFvsPatchField_H
 
-#include "fvsPatchField.H"
-#include "coupledFvPatch.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledFvsPatchField.C"
+    #include "fields/fvsPatchFields/basic/coupled/coupledFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

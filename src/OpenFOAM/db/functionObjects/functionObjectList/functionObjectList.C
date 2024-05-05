@@ -26,20 +26,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionObjectList.H"
-#include "TimeOpenFOAM.H"
-#include "mapPolyMesh.H"
-#include "profiling.H"
-#include "argList.H"
-#include "timeControlFunctionObject.H"
-#include "dictionaryEntry.H"
-#include "stringOps.H"
-#include "Switch.H"
-#include "Tuple2.H"
-#include "etcFiles.H"
-#include "IOdictionary.H"
-#include "Pstream.H"
-#include "OSspecific.H"
+#include "db/functionObjects/functionObjectList/functionObjectList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "global/profiling/profiling.H"
+#include "global/argList/argList.H"
+#include "db/functionObjects/timeControl/timeControlFunctionObject.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/tuples/Tuple2.H"
+#include "global/etcFiles/etcFiles.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "include/OSspecific.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

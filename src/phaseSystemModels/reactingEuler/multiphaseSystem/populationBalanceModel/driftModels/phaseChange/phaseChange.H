@@ -39,7 +39,7 @@ SourceFiles
 #ifndef phaseChange_H
 #define phaseChange_H
 
-#include "driftModel.H"
+#include "populationBalanceModel/driftModels/driftModel/driftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "morphingBoxConstraint.H"
-#include "volumetricBSplinesDesignVariables.H"
-#include "createZeroField.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/shape/volumetricBSplines/morphingBoxConstraints/morphingBoxConstaint/morphingBoxConstraint.H"
+#include "optimisation/designVariables/shape/volumetricBSplines/volumetricBSplinesDesignVariables.H"
+#include "global/createZeroField.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * * //
 

@@ -28,7 +28,7 @@ License
 #ifndef makePhaseTypes_H
 #define makePhaseTypes_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Foam_dimensionedType_H
 #define Foam_dimensionedType_H
 
-#include "word.H"
-#include "direction.H"
-#include "dimensionSet.H"
-#include "VectorSpace.H"
-#include "IOobjectOption.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/direction/direction.H"
+#include "dimensionSet/dimensionSet.H"
+#include "primitives/VectorSpace/VectorSpace.H"
+#include "db/options/IOobjectOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -574,7 +574,7 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dimensionedType.C"
+    #include "dimensionedTypes/dimensionedType/dimensionedType.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

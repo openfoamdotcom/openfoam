@@ -94,9 +94,9 @@ SourceFiles
 #ifndef Foam_CircularBuffer_H
 #define Foam_CircularBuffer_H
 
-#include "labelRange.H"
-#include "List.H"
-#include "SubList.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -513,13 +513,13 @@ Ostream& operator<<(Ostream& os, const CircularBuffer<T>& rhs)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CircularBufferI.H"
+#include "containers/Buffers/CircularBufferI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CircularBuffer.C"
-    #include "CircularBufferIO.C"
+    #include "containers/Buffers/CircularBuffer.C"
+    #include "containers/Buffers/CircularBufferIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

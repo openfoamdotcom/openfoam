@@ -39,13 +39,13 @@ SourceFiles
 #ifndef Foam_Bezier_H
 #define Foam_Bezier_H
 
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
-#include "pointFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "volPointInterpolation.H"
-#include "primitivePatchInterpolation.H"
-#include "deltaBoundary.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "interpolations/primitivePatchInterpolation/primitivePatchInterpolation.H"
+#include "deltaBoundary/deltaBoundary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

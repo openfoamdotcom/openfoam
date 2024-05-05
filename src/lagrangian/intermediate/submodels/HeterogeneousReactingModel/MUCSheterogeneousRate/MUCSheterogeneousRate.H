@@ -41,7 +41,7 @@ Description
 #ifndef MUCSheterogeneousRate_H
 #define MUCSheterogeneousRate_H
 
-#include "HeterogeneousReactingModel.H"
+#include "submodels/HeterogeneousReactingModel/HeterogeneousReactingModel/HeterogeneousReactingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MUCSheterogeneousRate.C"
+    #include "submodels/HeterogeneousReactingModel/MUCSheterogeneousRate/MUCSheterogeneousRate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

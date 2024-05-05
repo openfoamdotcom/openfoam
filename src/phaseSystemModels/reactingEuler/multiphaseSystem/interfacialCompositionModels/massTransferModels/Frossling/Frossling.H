@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Frossling_H
 #define Frossling_H
 
-#include "massTransferModel.H"
+#include "interfacialCompositionModels/massTransferModels/massTransferModel/massTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

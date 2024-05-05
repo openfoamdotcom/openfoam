@@ -38,7 +38,7 @@ Description
 #ifndef ConstantRateDevolatilisation_H
 #define ConstantRateDevolatilisation_H
 
-#include "DevolatilisationModel.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel/DevolatilisationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -129,7 +129,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ConstantRateDevolatilisation.C"
+    #include "submodels/ReactingMultiphase/DevolatilisationModel/ConstantRateDevolatilisation/ConstantRateDevolatilisation.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

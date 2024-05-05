@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingMultiphaseCloudPascal.H"
+#include "clouds/Templates/ReactingMultiphaseCloud/ReactingMultiphaseCloudPascal.H"
 
-#include "DevolatilisationModel.H"
-#include "SurfaceReactionModel.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel/DevolatilisationModel.H"
+#include "submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel/SurfaceReactionModel.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

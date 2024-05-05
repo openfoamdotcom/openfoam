@@ -37,9 +37,9 @@ SourceFiles
 #ifndef Foam_waxSolventEvaporation_H
 #define Foam_waxSolventEvaporation_H
 
-#include "phaseChangeModel.H"
-#include "uniformDimensionedFields.H"
-#include "Function1Pascal.H"
+#include "submodels/thermo/phaseChangeModel/phaseChangeModel/phaseChangeModel.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

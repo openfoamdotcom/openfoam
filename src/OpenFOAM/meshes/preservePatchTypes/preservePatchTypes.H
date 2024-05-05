@@ -37,9 +37,9 @@ SourceFiles
 #ifndef preservePatchTypes_H
 #define preservePatchTypes_H
 
-#include "fileName.H"
-#include "wordList.H"
-#include "dictionary.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/strings/lists/wordList.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

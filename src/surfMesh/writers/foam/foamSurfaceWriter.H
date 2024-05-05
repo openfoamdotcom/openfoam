@@ -96,7 +96,7 @@ SourceFiles
 #ifndef Foam_surfaceWriters_foamWriter_H
 #define Foam_surfaceWriters_foamWriter_H
 
-#include "surfaceWriter.H"
+#include "writers/common/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef simpleMatrix_H
 #define simpleMatrix_H
 
-#include "scalarMatrices.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,7 +164,7 @@ simpleMatrix<Type> operator*
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "simpleMatrix.C"
+    #include "matrices/simpleMatrix/simpleMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

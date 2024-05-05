@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformFaPatchField.H"
-#include "transformField.H"
+#include "fields/faPatchFields/basic/transform/transformFaPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

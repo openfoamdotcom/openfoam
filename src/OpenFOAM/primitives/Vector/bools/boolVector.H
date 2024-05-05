@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Foam_boolVector_H
 #define Foam_boolVector_H
 
-#include "FixedList.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -204,7 +204,7 @@ struct pTraits_nComponents<boolVector>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "boolVectorI.H"
+#include "primitives/Vector/bools/boolVectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef leastSquaresFaGrad_H
 #define leastSquaresFaGrad_H
 
-#include "faGradScheme.H"
+#include "finiteArea/gradSchemes/faGradScheme/faGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "leastSquaresFaGrad.C"
+    #include "finiteArea/gradSchemes/leastSquaresFaGrad/leastSquaresFaGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

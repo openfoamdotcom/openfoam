@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledPolyPatch.H"
-#include "ListOps.H"
-#include "transform.H"
-#include "OFstream.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/transform/transform.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

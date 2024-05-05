@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "LESfilter.H"
+#include "db/error/error.H"
+#include "LES/LESfilters/LESfilter/LESfilter.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

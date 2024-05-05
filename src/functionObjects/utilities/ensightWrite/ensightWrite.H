@@ -143,16 +143,16 @@ SourceFiles
 #ifndef Foam_functionObjects_ensightWrite_H
 #define Foam_functionObjects_ensightWrite_H
 
-#include "fvMeshFunctionObject.H"
-#include "ensightCase.H"
-#include "ensightMesh.H"
-#include "ensightOutputFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "ensight/file/ensightCase.H"
+#include "ensight/mesh/ensightMesh.H"
+#include "ensight/output/ensightOutputFwd.H"
 
-#include "interpolation.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMeshSubsetProxy.H"
-#include "searchableSurfaces.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubsetProxy.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

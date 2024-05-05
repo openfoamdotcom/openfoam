@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatchField.H"
-#include "faBoundaryMesh.H"
-#include "faMesh.H"
-#include "dictionary.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMesh.H"
+#include "faMesh/faMesh.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

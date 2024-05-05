@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundedConvectionScheme.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
+#include "finiteVolume/convectionSchemes/boundedConvectionScheme/boundedConvectionScheme.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

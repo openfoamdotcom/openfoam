@@ -37,8 +37,8 @@ SourceFiles
 #ifndef topoAction_H
 #define topoAction_H
 
-#include "typeInfo.H"
-#include "autoPtr.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

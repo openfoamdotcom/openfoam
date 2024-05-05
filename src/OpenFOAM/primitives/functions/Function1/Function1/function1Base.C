@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "function1Base.H"
-#include "objectRegistry.H"
-#include "TimeOpenFOAM.H"
+#include "primitives/functions/Function1/Function1/function1Base.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

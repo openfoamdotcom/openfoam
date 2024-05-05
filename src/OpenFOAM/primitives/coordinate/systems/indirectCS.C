@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indirectCS.H"
-#include "coordinateSystems.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/coordinate/systems/indirectCS.H"
+#include "primitives/coordinate/systems/coordinateSystems.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

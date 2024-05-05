@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "dynamicMotionSolverTopoFvMesh.H"
-#include "mapPolyMesh.H"
-#include "OBJstream.H"
-#include "TimeOpenFOAM.H"
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "dynamicMotionSolverTopoFvMesh/dynamicMotionSolverTopoFvMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "obj/OBJstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

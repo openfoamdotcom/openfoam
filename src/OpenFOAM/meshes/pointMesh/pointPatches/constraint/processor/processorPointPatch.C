@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorPointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointMesh.H"
-#include "faceList.H"
-#include "primitivePatch.H"
-#include "emptyPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/constraint/processor/processorPointPatch.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

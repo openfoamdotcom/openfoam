@@ -40,7 +40,7 @@ SourceFiles
 #ifndef faceAreaWeightAMI_H
 #define faceAreaWeightAMI_H
 
-#include "advancingFrontAMI.H"
+#include "AMIInterpolation/AMIInterpolation/advancingFrontAMI/advancingFrontAMI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

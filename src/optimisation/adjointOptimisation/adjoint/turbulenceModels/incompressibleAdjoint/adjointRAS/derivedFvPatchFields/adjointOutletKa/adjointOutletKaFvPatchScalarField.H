@@ -38,8 +38,8 @@ SourceFiles
 #ifndef adjointOutletKaFvPatchScalarField_H
 #define adjointOutletKaFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "adjointBoundaryConditions.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryConditions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

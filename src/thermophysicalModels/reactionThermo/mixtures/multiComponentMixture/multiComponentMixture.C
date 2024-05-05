@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiComponentMixture.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

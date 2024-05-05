@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noPhaseChange.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/phaseChangeModel/noPhaseChange/noPhaseChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

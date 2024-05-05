@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSurfaces.H"
-#include "polySurface.H"
+#include "sampledSurface/sampledSurfaces/sampledSurfaces.H"
+#include "polySurface/polySurface.H"
 
-#include "mapPolyMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "HashOps.H"
-#include "ListOps.H"
-#include "TimeOpenFOAM.H"
-#include "IndirectList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

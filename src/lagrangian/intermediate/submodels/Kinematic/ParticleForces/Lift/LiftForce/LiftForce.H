@@ -41,9 +41,9 @@ SourceFiles
 #ifndef LiftForce_H
 #define LiftForce_H
 
-#include "ParticleForce.H"
-#include "volFields.H"
-#include "interpolation.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,10 +145,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LiftForceI.H"
+#include "submodels/Kinematic/ParticleForces/Lift/LiftForce/LiftForceI.H"
 
 #ifdef NoRepository
-    #include "LiftForce.C"
+    #include "submodels/Kinematic/ParticleForces/Lift/LiftForce/LiftForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

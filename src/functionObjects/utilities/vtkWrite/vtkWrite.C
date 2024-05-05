@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkWrite.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "areaFields.H"
-#include "stringListOps.H"
-#include "foamVtkInternalWriter.H"
-#include "foamVtkPatchWriter.H"
-#include "foamVtkSeriesWriter.H"
-#include "foamVtmWriter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "vtkWrite/vtkWrite.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/areaFields/areaFields.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "vtk/output/foamVtkInternalWriter.H"
+#include "vtk/output/foamVtkPatchWriter.H"
+#include "vtk/file/foamVtkSeriesWriter.H"
+#include "vtk/file/foamVtmWriter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -49,7 +49,7 @@ namespace functionObjects
 
 
 // Implementation
-#include "vtkWriteImpl.C"
+#include "vtkWrite/vtkWriteImpl.C"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

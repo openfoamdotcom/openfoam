@@ -86,8 +86,8 @@ SourceFiles
 #ifndef fieldToCell_H
 #define fieldToCell_H
 
-#include "topoSetCellSource.H"
-#include "scalarField.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

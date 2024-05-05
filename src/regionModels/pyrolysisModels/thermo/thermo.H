@@ -37,11 +37,11 @@ SourceFiles
 #ifndef regionModels_pyrolysisModels_thermo_H
 #define regionModels_pyrolysisModels_thermo_H
 
-#include "pyrolysisModel.H"
-#include "volFieldsFwd.H"
-#include "basicSolidChemistryModel.H"
-#include "radiationModel.H"
-#include "solidThermo.H"
+#include "pyrolysisModel/pyrolysisModel.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "basicSolidChemistryModel/basicSolidChemistryModel.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "solidThermo/solidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

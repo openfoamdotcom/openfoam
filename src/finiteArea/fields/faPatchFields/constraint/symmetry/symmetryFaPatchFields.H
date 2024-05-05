@@ -28,7 +28,7 @@ License
 #ifndef Foam_symmetryFaPatchFields_H
 #define Foam_symmetryFaPatchFields_H
 
-#include "symmetryFaPatchField.H"
+#include "fields/faPatchFields/constraint/symmetry/symmetryFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

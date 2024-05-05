@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformInletOutletFvPatchField.H"
+#include "fields/fvPatchFields/derived/uniformInletOutlet/uniformInletOutletFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

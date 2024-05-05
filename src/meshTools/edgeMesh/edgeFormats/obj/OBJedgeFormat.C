@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OBJedgeFormat.H"
-#include "clock.H"
-#include "Fstream.H"
-#include "Ostream.H"
-#include "stringOps.H"
+#include "edgeMesh/edgeFormats/obj/OBJedgeFormat.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

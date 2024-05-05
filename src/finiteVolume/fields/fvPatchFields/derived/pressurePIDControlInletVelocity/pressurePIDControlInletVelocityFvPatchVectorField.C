@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pressurePIDControlInletVelocityFvPatchVectorField.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "surfaceFields.H"
-#include "linear.H"
-#include "steadyStateDdtScheme.H"
-#include "syncTools.H"
+#include "fields/fvPatchFields/derived/pressurePIDControlInletVelocity/pressurePIDControlInletVelocityFvPatchVectorField.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "finiteVolume/ddtSchemes/steadyStateDdtScheme/steadyStateDdtScheme.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

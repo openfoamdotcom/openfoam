@@ -57,10 +57,10 @@ SourceFiles
 #ifndef surfaceTensionModel_H
 #define surfaceTensionModel_H
 
-#include "regIOobject.H"
-#include "dimensionedTypes.H"
-#include "volFieldsFwd.H"
-#include "runTimeSelectionTables.H"
+#include "db/regIOobject/regIOobject.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

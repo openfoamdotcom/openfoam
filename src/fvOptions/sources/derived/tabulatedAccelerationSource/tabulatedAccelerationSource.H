@@ -70,9 +70,9 @@ SourceFiles
 #ifndef tabulatedAccelerationSource_H
 #define tabulatedAccelerationSource_H
 
-#include "fvOption.H"
-#include "tabulated6DoFAcceleration.H"
-#include "dimensionedTypes.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "sources/derived/tabulatedAccelerationSource/tabulated6DoFAcceleration/tabulated6DoFAcceleration.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -179,7 +179,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "tabulatedAccelerationSourceTemplates.C"
+    #include "sources/derived/tabulatedAccelerationSource/tabulatedAccelerationSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

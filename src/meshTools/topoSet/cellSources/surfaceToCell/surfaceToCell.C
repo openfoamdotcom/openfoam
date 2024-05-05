@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceToCell.H"
-#include "polyMesh.H"
-#include "meshSearch.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "cellClassification.H"
-#include "cpuTime.H"
-#include "demandDrivenData.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/surfaceToCell/surfaceToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshSearch/meshSearch.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "cellClassification/cellClassification.H"
+#include "cpuTime/cpuTime.H"
+#include "include/demandDrivenData.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

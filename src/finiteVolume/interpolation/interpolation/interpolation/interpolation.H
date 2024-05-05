@@ -35,14 +35,14 @@ Description
 #ifndef Foam_interpolation_H
 #define Foam_interpolation_H
 
-#include "faceList.H"
-#include "volFieldsFwd.H"
-#include "pointFields.H"
-#include "autoPtr.H"
-#include "typeInfo.H"
-#include "barycentric.H"
-#include "tetIndices.H"
-#include "runTimeSelectionTables.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ makeInterpolationType(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolation.C"
+    #include "interpolation/interpolation/interpolation/interpolation.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

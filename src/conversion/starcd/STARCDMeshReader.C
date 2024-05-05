@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDMeshReader.H"
-#include "oldCyclicPolyPatch.H"
-#include "emptyPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "cellModel.H"
-#include "ListOps.H"
-#include "stringOps.H"
-#include "IFstream.H"
-#include "IOMap.H"
+#include "starcd/STARCDMeshReader.H"
+#include "meshes/polyMesh/polyPatches/constraint/oldCyclic/oldCyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOobjects/IOMap/IOMap.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

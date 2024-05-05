@@ -26,21 +26,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfaceCell.H"
-#include "isoSurfacePoint.H"
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "mergePoints.H"
-#include "tetMatcher.H"
-#include "syncTools.H"
-#include "triSurface.H"
-#include "triSurfaceTools.H"
-#include "TimeOpenFOAM.H"
-#include "triangle.H"
+#include "surface/isoSurface/isoSurfaceCell.H"
+#include "surface/isoSurface/isoSurfacePoint.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "meshes/meshShapes/cellMatcher/tetMatcher.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "isoSurfaceBaseMethods.H"
+#include "surface/isoSurface/isoSurfaceBaseMethods.H"
 defineIsoSurfaceInterpolateMethods(Foam::isoSurfaceCell);
 
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef transportData_H
 #define transportData_H
 
-#include "wallPointData.H"
+#include "cellDist/wallPoint/wallPointData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ struct is_contiguous<transportData> : is_contiguous<wallPointData<scalar>> {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "transportDataI.H"
+#include "meshRefinement/transportDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef NoSurfaceFilm_H
 #define NoSurfaceFilm_H
 
-#include "SurfaceFilmModelPascal.H"
+#include "submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoSurfaceFilm.C"
+    #include "submodels/Kinematic/SurfaceFilmModel/NoSurfaceFilm/NoSurfaceFilm.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

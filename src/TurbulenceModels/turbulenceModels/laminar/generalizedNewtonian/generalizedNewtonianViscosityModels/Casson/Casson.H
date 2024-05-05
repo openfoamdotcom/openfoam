@@ -60,8 +60,8 @@ SourceFiles
 #ifndef Casson_H
 #define Casson_H
 
-#include "generalizedNewtonianViscosityModel.H"
-#include "dimensionedScalar.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/generalizedNewtonianViscosityModel/generalizedNewtonianViscosityModel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

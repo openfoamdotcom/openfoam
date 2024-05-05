@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "limitedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "localMax.H"
-#include "fvcCellReduce.H"
+#include "finiteVolume/fv/fv.H"
+#include "finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interpolation/surfaceInterpolation/schemes/localMax/localMax.H"
+#include "finiteVolume/fvc/fvcCellReduce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

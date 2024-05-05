@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DLListBase.H"
-#include "error.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBase.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

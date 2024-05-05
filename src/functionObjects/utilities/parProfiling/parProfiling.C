@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "parProfiling.H"
-#include "profilingPstream.H"
-#include "Pstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "parProfiling/parProfiling.H"
+#include "global/profiling/profilingPstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

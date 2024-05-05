@@ -46,7 +46,7 @@ SourceFiles
 #ifndef ReactingCloud_H
 #define ReactingCloud_H
 
-#include "reactingCloud.H"
+#include "clouds/baseClasses/reactingCloud/reactingCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -336,12 +336,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingCloudI.H"
+#include "clouds/Templates/ReactingCloud/ReactingCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingCloudPascal.C"
+    #include "clouds/Templates/ReactingCloud/ReactingCloudPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

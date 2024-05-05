@@ -44,7 +44,7 @@ SourceFiles
 #ifndef limitedCubic_H
 #define limitedCubic_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

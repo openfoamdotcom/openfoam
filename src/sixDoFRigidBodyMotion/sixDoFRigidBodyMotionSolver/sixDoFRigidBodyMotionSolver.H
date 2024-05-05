@@ -44,8 +44,8 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionSolver_H
 #define sixDoFRigidBodyMotionSolver_H
 
-#include "displacementMotionSolver.H"
-#include "sixDoFRigidBodyMotion.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

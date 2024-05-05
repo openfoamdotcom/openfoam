@@ -34,9 +34,9 @@ Description
 #ifndef Foam_ensightOutput_areaField_H
 #define Foam_ensightOutput_areaField_H
 
-#include "ensightOutput.H"
-#include "ensightFaces.H"
-#include "areaFields.H"
+#include "ensight/output/ensightOutput.H"
+#include "ensight/part/faces/ensightFaces.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ bool writeAreaField
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightOutputAreaFieldTemplates.C"
+    #include "ensight/output/ensightOutputAreaFieldTemplates.C"
 #endif
 
 #endif

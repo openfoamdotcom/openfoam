@@ -68,9 +68,9 @@ SourceFiles
 #ifndef Foam_cyclicAMIFvPatchField_H
 #define Foam_cyclicAMIFvPatchField_H
 
-#include "cyclicAMIFvPatch.H"
-#include "coupledFvPatchField.H"
-#include "cyclicAMILduInterfaceField.H"
+#include "fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -388,7 +388,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicAMIFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kinematicSingleLayer.H"
-#include "fvm.H"
-#include "fvcDiv.H"
-#include "fvcLaplacian.H"
-#include "fvcSnGrad.H"
-#include "fvcReconstruct.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvcFlux.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mappedWallPolyPatch.H"
-#include "mapDistribute.H"
-#include "filmThermoModel.H"
+#include "kinematicSingleLayer/kinematicSingleLayer.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "submodels/kinematic/filmThermoModel/filmThermoModel/filmThermoModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

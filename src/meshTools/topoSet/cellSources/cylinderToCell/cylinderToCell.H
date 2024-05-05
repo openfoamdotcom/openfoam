@@ -91,7 +91,7 @@ SourceFiles
 #ifndef Foam_cylinderToCell_H
 #define Foam_cylinderToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitFields.H"
-#include "fieldTypes.H"
-#include "addToRunTimeSelectionTable.H"
+#include "limitFields/limitFields.H"
+#include "fields/Fields/fieldTypes.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

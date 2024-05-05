@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleAdjointVars.H"
-#include "adjointBoundaryCondition.H"
+#include "solvers/variablesSet/incompressibleAdjoint/incompressibleAdjointVars.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryCondition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

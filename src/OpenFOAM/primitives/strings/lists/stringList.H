@@ -28,9 +28,9 @@ License
 #ifndef Foam_stringList_H
 #define Foam_stringList_H
 
-#include "word.H"
-#include "List.H"
-#include "SubList.H"
+#include "primitives/strings/word/word.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

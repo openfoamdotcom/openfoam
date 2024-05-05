@@ -41,13 +41,13 @@ SourceFiles
 #ifndef displacementMethod_H
 #define displacementMethod_H
 
-#include "fvm.H"
-#include "fvc.H"
-#include "runTimeSelectionTables.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "motionSolver.H"
-#include "volPointInterpolation.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 namespace Foam

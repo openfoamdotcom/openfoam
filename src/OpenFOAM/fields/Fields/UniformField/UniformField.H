@@ -36,7 +36,7 @@ Description
 #ifndef Foam_UniformField_H
 #define Foam_UniformField_H
 
-#include "UniformList.H"
+#include "containers/Lists/UniformList/UniformList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,7 +76,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UniformFieldI.H"
+#include "fields/Fields/UniformField/UniformFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

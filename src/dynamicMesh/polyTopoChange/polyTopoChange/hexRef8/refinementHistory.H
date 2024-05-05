@@ -73,13 +73,13 @@ SourceFiles
 #ifndef refinementHistory_H
 #define refinementHistory_H
 
-#include "DynamicList.H"
-#include "labelList.H"
-#include "FixedList.H"
-#include "autoPtr.H"
-#include "regIOobject.H"
-#include "boolList.H"
-#include "labelPair.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/regIOobject/regIOobject.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/tuples/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

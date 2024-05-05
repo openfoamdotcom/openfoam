@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SinglePhaseMixture.H"
+#include "submodels/Reacting/CompositionModel/SinglePhaseMixture/SinglePhaseMixture.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -101,7 +101,7 @@ SourceFiles
 #ifndef Foam_cellToFaceZone_H
 #define Foam_cellToFaceZone_H
 
-#include "topoSetFaceZoneSource.H"
+#include "topoSet/faceZoneSources/topoSetFaceZoneSource/topoSetFaceZoneSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

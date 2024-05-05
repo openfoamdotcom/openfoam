@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedIncidentRadiationFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "constants.H"
-#include "radiationModel.H"
-#include "absorptionEmissionModel.H"
+#include "derivedFvPatchFields/fixedIncidentRadiation/fixedIncidentRadiationFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "global/constants/constants.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 using namespace Foam::constant;
 

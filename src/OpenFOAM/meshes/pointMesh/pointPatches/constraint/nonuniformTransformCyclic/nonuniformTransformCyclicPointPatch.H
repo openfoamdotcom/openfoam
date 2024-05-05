@@ -38,8 +38,8 @@ SourceFiles
 #ifndef nonuniformTransformCyclicPointPatch_H
 #define nonuniformTransformCyclicPointPatch_H
 
-#include "cyclicPointPatch.H"
-#include "nonuniformTransformCyclicPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/constraint/cyclic/cyclicPointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

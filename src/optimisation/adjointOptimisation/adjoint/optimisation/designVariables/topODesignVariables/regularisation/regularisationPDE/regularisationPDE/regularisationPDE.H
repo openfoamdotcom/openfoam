@@ -41,11 +41,11 @@ SourceFiles
 #ifndef regularisationPDE_H
 #define regularisationPDE_H
 
-#include "fvMesh.H"
-#include "topOZones.H"
-#include "fvMatrices.H"
-#include "regularisationRadius.H"
-#include "runTimeSelectionTables.H"
+#include "fvMesh/fvMesh.H"
+#include "optimisation/designVariables/topODesignVariables/topOZones/topOZones.H"
+#include "fvMatrices/fvMatrices.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationRadius/regularisationRadius/regularisationRadius.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

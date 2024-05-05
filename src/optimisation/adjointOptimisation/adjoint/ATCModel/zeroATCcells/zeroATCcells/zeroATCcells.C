@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroATCcells.H"
-#include "fvMesh.H"
+#include "ATCModel/zeroATCcells/zeroATCcells/zeroATCcells.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

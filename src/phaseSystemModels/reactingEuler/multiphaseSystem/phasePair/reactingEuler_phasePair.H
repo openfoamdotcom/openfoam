@@ -36,9 +36,9 @@ SourceFiles
 #ifndef reactingEuler_phasePair_H
 #define reactingEuler_phasePair_H
 
-#include "reactingEuler_phaseModel.H"
-#include "phasePairKey.H"
-#include "uniformDimensionedFields.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
+#include "phasePair/phasePairKey.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,7 +243,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "phasePairI.H"
+#include "phasePair/phasePairI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

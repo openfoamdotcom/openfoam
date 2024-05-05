@@ -49,7 +49,7 @@ Note
 #ifndef Foam_vtk_GenericPatchWriter_H
 #define Foam_vtk_GenericPatchWriter_H
 
-#include "foamVtkPolyWriter.H"
+#include "vtk/write/foamVtkPolyWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

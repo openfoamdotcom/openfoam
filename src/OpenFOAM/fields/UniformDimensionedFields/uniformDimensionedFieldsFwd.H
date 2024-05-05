@@ -35,7 +35,7 @@ Description
 #ifndef Foam_uniformDimensionedFieldsFwd_H
 #define Foam_uniformDimensionedFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

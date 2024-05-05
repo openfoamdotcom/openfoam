@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurfaceProxy.H"
-#include "TimeOpenFOAM.H"
-#include "ListOps.H"
-#include "surfMesh.H"
-#include "OFstream.H"
-#include "faceTraits.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "surfMesh/surfMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -85,13 +85,13 @@ SourceFiles
 #ifndef cellCuts_H
 #define cellCuts_H
 
-#include "edgeVertex.H"
-#include "labelList.H"
-#include "boolList.H"
-#include "scalarField.H"
-#include "pointField.H"
-#include "DynamicList.H"
-#include "typeInfo.H"
+#include "meshCut/edgeVertex/edgeVertex.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

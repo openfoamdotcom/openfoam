@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylinderToPoint.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/pointSources/cylinderToPoint/cylinderToPoint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

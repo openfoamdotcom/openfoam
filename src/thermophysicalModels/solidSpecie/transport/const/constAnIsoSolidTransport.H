@@ -41,7 +41,7 @@ SourceFiles
 #ifndef constAnIsoSolidTransport_H
 #define constAnIsoSolidTransport_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,10 +168,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "constAnIsoSolidTransportI.H"
+#include "transport/const/constAnIsoSolidTransportI.H"
 
 #ifdef NoRepository
-    #include "constAnIsoSolidTransport.C"
+    #include "transport/const/constAnIsoSolidTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lumpedPointState.H"
-#include "OFstream.H"
-#include "sliceRange.H"
-#include "foamVtkOutput.H"
+#include "state/lumpedPointState.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "primitives/ranges/sliceRange/sliceRange.H"
+#include "vtk/output/foamVtkOutput.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

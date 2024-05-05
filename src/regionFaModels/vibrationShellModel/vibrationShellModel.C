@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vibrationShellModel.H"
-#include "faMesh.H"
-#include "fvMesh.H"
-#include "fvPatchFields.H"
+#include "vibrationShellModel/vibrationShellModel.H"
+#include "faMesh/faMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

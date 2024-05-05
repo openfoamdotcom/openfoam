@@ -46,11 +46,11 @@ SourceFiles
 #ifndef Foam_scalarPredicates_H
 #define Foam_scalarPredicates_H
 
-#include "scalar.H"
-#include "predicates.H"
-#include "Enum.H"
-#include "List.H"
-#include "Tuple2.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/predicates/predicates.H"
+#include "primitives/enums/Enum.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/tuples/Tuple2.H"
 #include <functional>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -361,7 +361,7 @@ Istream& operator>>(Istream& is, predicates::scalars& list);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "scalarPredicatesI.H"
+#include "primitives/predicates/scalar/scalarPredicatesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

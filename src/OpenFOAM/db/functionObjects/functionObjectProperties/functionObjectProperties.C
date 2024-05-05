@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "functionObjectProperties.H"
-#include "SHA1.H"
+#include "db/functionObjects/functionObjectProperties/functionObjectProperties.H"
+#include "primitives/hashes/SHA1/SHA1.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

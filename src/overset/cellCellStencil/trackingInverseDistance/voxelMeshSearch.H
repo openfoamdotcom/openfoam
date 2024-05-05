@@ -37,8 +37,8 @@ SourceFiles
 #ifndef voxelMeshSearch_H
 #define voxelMeshSearch_H
 
-#include "boundBox.H"
-#include "labelVector.H"
+#include "meshes/boundBox/boundBox.H"
+#include "primitives/Vector/ints/labelVector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,7 +239,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "voxelMeshSearchTemplates.C"
+    #include "cellCellStencil/trackingInverseDistance/voxelMeshSearchTemplates.C"
 #endif
 
 #endif

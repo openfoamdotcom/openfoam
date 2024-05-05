@@ -52,9 +52,9 @@ SourceFiles
 #ifndef booleanSurface_H
 #define booleanSurface_H
 
-#include "triSurface.H"
-#include "surfaceIntersection.H"
-#include "typeInfo.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

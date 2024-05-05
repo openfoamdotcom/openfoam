@@ -49,10 +49,10 @@ SourceFiles
 #ifndef Foam_vtk_vtuCells_H
 #define Foam_vtk_vtuCells_H
 
-#include "foamVtkCore.H"
-#include "foamVtkMeshMaps.H"
-#include "foamVtuSizing.H"
-#include "labelList.H"
+#include "vtk/base/foamVtkCore.H"
+#include "vtk/part/foamVtkMeshMaps.H"
+#include "vtk/part/foamVtuSizing.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -248,7 +248,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtuCellsI.H"
+#include "vtk/part/foamVtuCellsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -66,8 +66,8 @@ SourceFiles
 #ifndef alphatPhaseChangeWallFunctionFvPatchScalarField_H
 #define alphatPhaseChangeWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "phasePairKey.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "phasePair/phasePairKey.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

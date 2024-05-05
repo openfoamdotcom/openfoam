@@ -36,9 +36,9 @@ SourceFiles
 #ifndef centredFECCellToFaceStencilObject_H
 #define centredFECCellToFaceStencilObject_H
 
-#include "extendedCentredCellToFaceStencil.H"
-#include "FECCellToFaceStencil.H"
-#include "MeshObject.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedCentredCellToFaceStencil.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/FECCellToFaceStencil.H"
+#include "meshes/MeshObject/MeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

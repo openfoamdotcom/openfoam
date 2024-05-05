@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "calculatedFaPatchFields.H"
-#include "extrapolatedCalculatedFaPatchFields.H"
-#include "zeroGradientFaPatchFields.H"
-#include "IndirectList.H"
-#include "UniformList.H"
-#include "demandDrivenData.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "fields/faPatchFields/basic/calculated/calculatedFaPatchFields.H"
+#include "fields/faPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFaPatchFields.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchFields.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/Lists/UniformList/UniformList.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
@@ -2234,6 +2234,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const faMatrix<Type>& fam)
 
 // * * * * * * * * * * * * * * * * Solvers * * * * * * * * * * * * * * * * * //
 
-#include "faMatrixSolve.C"
+#include "faMatrices/faMatrix/faMatrixSolve.C"
 
 // ************************************************************************* //

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef genericRagelLemonDriver_H
 #define genericRagelLemonDriver_H
 
-#include "error.H"
-#include "className.H"
+#include "db/error/error.H"
+#include "db/typeInfo/className.H"
 #include <functional>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

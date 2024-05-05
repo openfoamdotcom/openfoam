@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oversetFvPatchField.H"
-#include "calculatedFvsPatchFields.H"
-#include "fvsPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "oversetPolyPatch/oversetFvPatchField.H"
+#include "fields/fvsPatchFields/basic/calculated/calculatedFvsPatchFields.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorFaePatchField.H"
+#include "fields/faePatchFields/constraint/processor/processorFaePatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

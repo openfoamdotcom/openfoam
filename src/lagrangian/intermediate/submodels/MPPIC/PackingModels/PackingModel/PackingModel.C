@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PackingModel.H"
-#include "AveragingMethod.H"
-#include "ParticleStressModel.H"
-#include "CorrectionLimitingMethod.H"
+#include "submodels/MPPIC/PackingModels/PackingModel/PackingModel.H"
+#include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.H"
+#include "submodels/MPPIC/ParticleStressModels/ParticleStressModel/ParticleStressModel.H"
+#include "submodels/MPPIC/CorrectionLimitingMethods/CorrectionLimitingMethod/CorrectionLimitingMethod.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

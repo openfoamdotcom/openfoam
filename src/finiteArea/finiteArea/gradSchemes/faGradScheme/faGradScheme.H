@@ -39,11 +39,11 @@ SourceFiles
 #ifndef faGradScheme_H
 #define faGradScheme_H
 
-#include "tmp.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "memory/tmp/tmp.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ makeFaGradTypeScheme(SS, vector)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faGradScheme.C"
+    #include "finiteArea/gradSchemes/faGradScheme/faGradScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

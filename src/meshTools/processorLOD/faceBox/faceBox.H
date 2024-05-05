@@ -41,7 +41,7 @@ Description
 #ifndef Foam_processorLODs_faceBox
 #define Foam_processorLODs_faceBox
 
-#include "box.H"
+#include "processorLOD/box/box.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ Description
 #ifndef Foam_interpolationPointMVC_H
 #define Foam_interpolationPointMVC_H
 
-#include "interpolation.H"
-#include "pointMVCWeight.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "interpolation/interpolation/interpolationPointMVC/pointMVCWeight.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -99,12 +99,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationPointMVCI.H"
+#include "interpolation/interpolation/interpolationPointMVC/interpolationPointMVCI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationPointMVC.C"
+    #include "interpolation/interpolation/interpolationPointMVC/interpolationPointMVC.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

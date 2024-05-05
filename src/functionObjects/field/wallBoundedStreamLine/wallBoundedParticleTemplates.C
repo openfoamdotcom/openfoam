@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoundedParticle.H"
+#include "wallBoundedStreamLine/wallBoundedParticle.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

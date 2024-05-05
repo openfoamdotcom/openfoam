@@ -82,8 +82,8 @@ SourceFiles
 #ifndef Foam_porosityModels_solidification_H
 #define Foam_porosityModels_solidification_H
 
-#include "porosityModel.H"
-#include "Function1Pascal.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -230,7 +230,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solidificationTemplates.C"
+    #include "cfdTools/general/porosityModel/solidification/solidificationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

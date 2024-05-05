@@ -82,8 +82,8 @@ SourceFiles
 #ifndef fluxCorrectedVelocityFvPatchVectorField_H
 #define fluxCorrectedVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

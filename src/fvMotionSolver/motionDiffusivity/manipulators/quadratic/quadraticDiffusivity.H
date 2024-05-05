@@ -38,7 +38,7 @@ SourceFiles
 #ifndef quadraticDiffusivity_H
 #define quadraticDiffusivity_H
 
-#include "motionDiffusivity.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

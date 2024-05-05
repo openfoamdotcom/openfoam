@@ -132,7 +132,7 @@ SourceFiles
 #ifndef outletMachNumberPressureFvPatchScalarField_H
 #define outletMachNumberPressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

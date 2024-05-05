@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TwoResistanceHeatTransferPhaseSystem.H"
+#include "PhaseSystems/TwoResistanceHeatTransferPhaseSystem/TwoResistanceHeatTransferPhaseSystem.H"
 
-#include "BlendedInterfacialModel.H"
-#include "heatTransferModel.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
+#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
 
-#include "HashPtrTable.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
-#include "fvcDiv.H"
-#include "fvmSup.H"
-#include "fvMatrix.H"
-#include "zeroGradientFvPatchFields.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

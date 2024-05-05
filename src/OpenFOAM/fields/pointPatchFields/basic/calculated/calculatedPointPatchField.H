@@ -37,7 +37,7 @@ SourceFiles
 #ifndef calculatedPointPatchField_H
 #define calculatedPointPatchField_H
 
-#include "pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -127,7 +127,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "calculatedPointPatchField.C"
+    #include "fields/pointPatchFields/basic/calculated/calculatedPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

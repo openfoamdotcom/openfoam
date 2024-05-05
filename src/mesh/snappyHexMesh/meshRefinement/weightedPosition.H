@@ -66,9 +66,9 @@ SourceFiles
 #ifndef weightedPosition_H
 #define weightedPosition_H
 
-#include "Tuple2.H"
-#include "point.H"
-#include "Field.H"
+#include "primitives/tuples/Tuple2.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "weightedPositionTemplates.C"
+    #include "meshRefinement/weightedPositionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

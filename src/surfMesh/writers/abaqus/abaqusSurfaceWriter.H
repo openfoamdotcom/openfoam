@@ -93,8 +93,8 @@ SourceFiles
 #ifndef Foam_surfaceWriters_abaqusWriter_H
 #define Foam_surfaceWriters_abaqusWriter_H
 
-#include "surfaceWriter.H"
-#include "ABAQUSCore.H"
+#include "writers/common/surfaceWriter.H"
+#include "abaqus/ABAQUSCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

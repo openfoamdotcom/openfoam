@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "word.H"
-#include "Ostream.H"
-#include "token.H"
-#include "keyType.H"
-#include "IOstreams.H"
+#include "primitives/strings/word/word.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/token/token.H"
+#include "primitives/strings/keyType/keyType.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

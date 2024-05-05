@@ -36,9 +36,9 @@ SourceFiles
 #ifndef SliceList_H
 #define SliceList_H
 
-#include "IndirectListAddressing.H"
-#include "IndirectListBase.H"
-#include "sliceRange.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListAddressing.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListBase.H"
+#include "primitives/ranges/sliceRange/sliceRange.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

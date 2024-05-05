@@ -29,8 +29,8 @@ License
 #define Foam_pointIndList_H
 
 // Include all normal list typedefs as well
-#include "pointList.H"
-#include "IndirectList.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

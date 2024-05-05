@@ -27,12 +27,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointBoundaryCondition.H"
-#include "emptyFvPatch.H"
-#include "adjointSolverManager.H"
-#include "HashTable.H"
-#include "surfaceInterpolationScheme.H"
-#include "ATCUaGradU.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryCondition.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "ATCModel/ATCUaGradU/ATCUaGradU.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

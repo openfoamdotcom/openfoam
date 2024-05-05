@@ -69,8 +69,8 @@ SourceFiles
 #ifndef adjointSpalartAllmaras_H
 #define adjointSpalartAllmaras_H
 
-#include "adjointRASModel.H"
-#include "wallDist.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointRASModel/adjointRASModel.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

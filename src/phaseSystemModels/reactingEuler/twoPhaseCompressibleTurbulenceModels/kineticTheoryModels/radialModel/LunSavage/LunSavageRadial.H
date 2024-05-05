@@ -36,7 +36,7 @@ SourceFiles
 #ifndef LunSavageRadial_H
 #define LunSavageRadial_H
 
-#include "radialModel.H"
+#include "kineticTheoryModels/radialModel/radialModel/radialModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

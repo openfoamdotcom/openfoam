@@ -150,8 +150,8 @@ SourceFiles
 #ifndef functionObjects_DMD_H
 #define functionObjects_DMD_H
 
-#include "fvMeshFunctionObject.H"
-#include "RectangularMatrix.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -287,7 +287,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DMDTemplates.C"
+    #include "DMD/DMDTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

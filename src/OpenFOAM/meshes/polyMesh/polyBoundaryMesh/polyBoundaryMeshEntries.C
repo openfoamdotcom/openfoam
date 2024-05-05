@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyBoundaryMeshEntries.H"
-#include "processorPolyPatch.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshEntries.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ Description
 #ifndef Foam_fileOperations_hostUncollatedFileOperation_H
 #define Foam_fileOperations_hostUncollatedFileOperation_H
 
-#include "masterUncollatedFileOperation.H"
+#include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -43,9 +43,9 @@ SourceFiles
 #ifndef Foam_faceZone_H
 #define Foam_faceZone_H
 
-#include "zone.H"
-#include "faceZoneMeshFwd.H"
-#include "primitivePatch.H"
+#include "meshes/polyMesh/zones/zone/zone.H"
+#include "meshes/polyMesh/zones/ZoneMesh/faceZoneMeshFwd.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

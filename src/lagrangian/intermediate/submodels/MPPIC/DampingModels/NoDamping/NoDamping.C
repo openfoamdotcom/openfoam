@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoDamping.H"
+#include "submodels/MPPIC/DampingModels/NoDamping/NoDamping.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

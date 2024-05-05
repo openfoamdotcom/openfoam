@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightOutputAreaField.H"
-#include "ensightFaMesh.H"
-#include "areaFaMesh.H"
+#include "ensight/output/ensightOutputAreaField.H"
+#include "output/ensight/ensightFaMesh.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

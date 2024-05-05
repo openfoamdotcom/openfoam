@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fstreamPointer.H"
-#include "OCountStream.H"
-#include "OSspecific.H"
+#include "db/IOstreams/Fstreams/fstreamPointer.H"
+#include "db/IOstreams/memory/OCountStream.H"
+#include "include/OSspecific.H"
 #include <cstdio>
 
 // HAVE_LIBZ defined externally
 // #define HAVE_LIBZ
 
 #ifdef HAVE_LIBZ
-#include "gzstream.h"
+#include "db/IOstreams/gzstream/gzstream.h"
 #endif /* HAVE_LIBZ */
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //

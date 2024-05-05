@@ -41,9 +41,9 @@ Description
 #ifndef foam_gltf_base_H
 #define foam_gltf_base_H
 
-#include "word.H"
-#include "label.H"
-#include "Ostream.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/label/label.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

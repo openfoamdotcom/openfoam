@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshObject.H"
-#include "objectRegistry.H"
-#include "IOstreams.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

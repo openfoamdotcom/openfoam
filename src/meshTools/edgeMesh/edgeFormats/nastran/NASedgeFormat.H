@@ -45,8 +45,8 @@ SourceFiles
 #ifndef NASedgeFormat_H
 #define NASedgeFormat_H
 
-#include "edgeMesh.H"
-#include "NASCore.H"
+#include "edgeMesh/edgeMesh.H"
+#include "nastran/NASCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

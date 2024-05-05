@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facLaplacian.H"
-#include "faMesh.H"
-#include "faLaplacianScheme.H"
+#include "finiteArea/fac/facLaplacian.H"
+#include "faMesh/faMesh.H"
+#include "finiteArea/laplacianSchemes/faLaplacianScheme/faLaplacianScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

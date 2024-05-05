@@ -28,8 +28,8 @@ License
 #ifndef kqRWallFunctionFvPatchFields_H
 #define kqRWallFunctionFvPatchFields_H
 
-#include "kqRWallFunctionFvPatchField.H"
-#include "fieldTypes.H"
+#include "derivedFvPatchFields/wallFunctions/kqRWallFunctions/kqRWallFunction/kqRWallFunctionFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

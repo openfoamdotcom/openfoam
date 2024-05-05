@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_Random_H
 #define Foam_Random_H
 
-#include "Rand48.H"
-#include "label.H"
-#include "scalar.H"
+#include "primitives/random/Random/Rand48.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
 #include <random>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -334,7 +334,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RandomI.H"
+#include "primitives/random/Random/RandomI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

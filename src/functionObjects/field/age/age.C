@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "age.H"
-#include "fvmDiv.H"
-#include "fvmLaplacian.H"
-#include "fvOptions.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
+#include "age/age.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
 #include "turbulenceModel.H"
-#include "inletOutletFvPatchField.H"
-#include "wallFvPatch.H"
-#include "zeroGradientFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

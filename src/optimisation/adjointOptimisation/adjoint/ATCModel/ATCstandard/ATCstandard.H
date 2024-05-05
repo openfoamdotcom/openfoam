@@ -41,7 +41,7 @@ SourceFiles
 #ifndef ATCstandard_H
 #define ATCstandard_H
 
-#include "ATCModel.H"
+#include "ATCModel/ATCModel/ATCModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

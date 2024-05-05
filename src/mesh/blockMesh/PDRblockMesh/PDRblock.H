@@ -68,13 +68,13 @@ SourceFiles
 #ifndef Foam_PDRblock_H
 #define Foam_PDRblock_H
 
-#include "ijkMesh.H"
-#include "boundBox.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "Enum.H"
-#include "vector2D.H"
-#include "labelVector2D.H"
+#include "meshes/ijkMesh/ijkMesh.H"
+#include "meshes/boundBox/boundBox.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/Vector2D/floats/vector2D.H"
+#include "primitives/Vector2D/ints/labelVector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -584,7 +584,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PDRblockI.H"
+#include "PDRblockMesh/PDRblockI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

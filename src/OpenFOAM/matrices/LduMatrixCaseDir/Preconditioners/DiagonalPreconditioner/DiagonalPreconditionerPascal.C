@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DiagonalPreconditionerPascal.H"
+#include "matrices/LduMatrixCaseDir/Preconditioners/DiagonalPreconditioner/DiagonalPreconditionerPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

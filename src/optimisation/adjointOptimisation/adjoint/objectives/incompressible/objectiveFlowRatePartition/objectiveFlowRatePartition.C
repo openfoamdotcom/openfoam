@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectiveFlowRatePartition.H"
-#include "createZeroField.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/incompressible/objectiveFlowRatePartition/objectiveFlowRatePartition.H"
+#include "global/createZeroField.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

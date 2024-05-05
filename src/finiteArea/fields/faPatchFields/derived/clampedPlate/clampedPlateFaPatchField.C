@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "clampedPlateFaPatchField.H"
-#include "areaFields.H"
-#include "uniformDimensionedFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/faPatchFields/derived/clampedPlate/clampedPlateFaPatchField.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

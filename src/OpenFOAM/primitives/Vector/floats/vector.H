@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_vector_H
 #define Foam_vector_H
 
-#include "scalar.H"
-#include "VectorPascal.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/VectorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MULES.H"
-#include "profiling.H"
+#include "fvMatrices/solvers/MULES/MULES.H"
+#include "global/profiling/profiling.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

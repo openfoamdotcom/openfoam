@@ -34,8 +34,8 @@ Description
 #ifndef fvBoundaryMeshMapper_H
 #define fvBoundaryMeshMapper_H
 
-#include "PtrList.H"
-#include "fvPatchMapper.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fvMesh/fvMeshMapper/fvPatchMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

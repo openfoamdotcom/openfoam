@@ -37,7 +37,7 @@ SourceFiles
 #ifndef functionObjects_runTimeControls_noneCondition_H
 #define functionObjects_runTimeControls_noneCondition_H
 
-#include "runTimeCondition.H"
+#include "runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

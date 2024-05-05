@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicACMIFvsPatchField.H"
+#include "fields/fvsPatchFields/constraint/cyclicACMI/cyclicACMIFvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

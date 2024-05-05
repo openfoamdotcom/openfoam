@@ -28,8 +28,8 @@ License
 #ifndef jumpCyclicAMIFvPatchFields_H
 #define jumpCyclicAMIFvPatchFields_H
 
-#include "jumpCyclicAMIFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/jumpCyclicAMI/jumpCyclicAMIFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

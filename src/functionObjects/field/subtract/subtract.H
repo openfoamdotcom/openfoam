@@ -100,7 +100,7 @@ SourceFiles
 #ifndef functionObjects_subtract_H
 #define functionObjects_subtract_H
 
-#include "fieldsExpression.H"
+#include "fieldsExpression/fieldsExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "subtractTemplates.C"
+    #include "subtract/subtractTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

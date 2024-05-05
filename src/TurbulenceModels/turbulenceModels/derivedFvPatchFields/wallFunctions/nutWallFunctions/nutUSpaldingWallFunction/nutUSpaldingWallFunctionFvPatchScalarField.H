@@ -96,7 +96,7 @@ SourceFiles
 #ifndef nutUSpaldingWallFunctionFvPatchScalarField_H
 #define nutUSpaldingWallFunctionFvPatchScalarField_H
 
-#include "nutWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

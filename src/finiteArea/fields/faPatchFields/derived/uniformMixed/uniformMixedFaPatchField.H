@@ -85,8 +85,8 @@ SourceFiles
 #ifndef Foam_uniformMixedFaPatchField_H
 #define Foam_uniformMixedFaPatchField_H
 
-#include "mixedFaPatchField.H"
-#include "Function1Pascal.H"
+#include "fields/faPatchFields/basic/mixed/mixedFaPatchField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -206,7 +206,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformMixedFaPatchField.C"
+    #include "fields/faPatchFields/derived/uniformMixed/uniformMixedFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

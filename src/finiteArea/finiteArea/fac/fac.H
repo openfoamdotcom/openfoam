@@ -31,20 +31,20 @@ Description
 #ifndef fac_H
 #define fac_H
 
-#include "fa.H"
+#include "finiteArea/fa/fa.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "facDiv.H"
-#include "facGrad.H"
-#include "facLaplacian.H"
-#include "facEdgeIntegrate.H"
-#include "facAverage.H"
-#include "facLnGrad.H"
-#include "facDdt.H"
-#include "facD2dt2.H"
-#include "facNGrad.H"
-#include "facNDiv.H"
+#include "finiteArea/fac/facDiv.H"
+#include "finiteArea/fac/facGrad.H"
+#include "finiteArea/fac/facLaplacian.H"
+#include "finiteArea/fac/facEdgeIntegrate.H"
+#include "finiteArea/fac/facAverage.H"
+#include "finiteArea/fac/facLnGrad.H"
+#include "finiteArea/fac/facDdt.H"
+#include "finiteArea/fac/facD2dt2.H"
+#include "finiteArea/fac/facNGrad.H"
+#include "finiteArea/fac/facNDiv.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

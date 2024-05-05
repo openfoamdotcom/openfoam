@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BlendedInterfacialModel.H"
-#include "dragModel.H"
-#include "virtualMassModel.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -4,6 +4,6 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatch.H"
+#include "meshes/pointMesh/pointPatches/pointPatch/pointPatch.H"
 
 // ************************************************************************* //

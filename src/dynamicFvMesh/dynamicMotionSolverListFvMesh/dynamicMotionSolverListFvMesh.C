@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicMotionSolverListFvMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "motionSolver.H"
-#include "pointMesh.H"
-#include "volFields.H"
+#include "dynamicMotionSolverListFvMesh/dynamicMotionSolverListFvMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

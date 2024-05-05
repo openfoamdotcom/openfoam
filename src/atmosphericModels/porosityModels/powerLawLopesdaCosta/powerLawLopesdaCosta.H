@@ -61,8 +61,8 @@ SourceFiles
 #ifndef powerLawLopesdaCosta_H
 #define powerLawLopesdaCosta_H
 
-#include "porosityModel.H"
-#include "Function1Pascal.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -222,7 +222,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "powerLawLopesdaCostaTemplates.C"
+    #include "porosityModels/powerLawLopesdaCosta/powerLawLopesdaCostaTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

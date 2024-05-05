@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "haloToCell.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "topoBitSet.H"
-#include "syncTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/haloToCell/haloToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/topoBitSet.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

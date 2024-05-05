@@ -47,7 +47,7 @@ SourceFiles
 #ifndef functionObjects_properties_H
 #define functionObjects_properties_H
 
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -242,7 +242,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "functionObjectPropertiesTemplates.C"
+    #include "db/functionObjects/functionObjectProperties/functionObjectPropertiesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -29,7 +29,7 @@ License
 #ifndef Foam_genericFvPatchFields_H
 #define Foam_genericFvPatchFields_H
 
-#include "genericFvPatchField.H"
+#include "genericFvPatchField/genericFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

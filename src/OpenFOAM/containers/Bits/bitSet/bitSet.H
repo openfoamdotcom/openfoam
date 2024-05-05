@@ -46,8 +46,8 @@ See also
 #ifndef Foam_bitSet_H
 #define Foam_bitSet_H
 
-#include "className.H"
-#include "PackedList.H"
+#include "db/typeInfo/className.H"
+#include "containers/Bits/PackedList/PackedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -654,12 +654,12 @@ inline bitSet operator-(const bitSet& a, const bitSet& b);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "bitSetI.H"
+#include "containers/Bits/bitSet/bitSetI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "bitSetTemplates.C"
+    #include "containers/Bits/bitSet/bitSetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

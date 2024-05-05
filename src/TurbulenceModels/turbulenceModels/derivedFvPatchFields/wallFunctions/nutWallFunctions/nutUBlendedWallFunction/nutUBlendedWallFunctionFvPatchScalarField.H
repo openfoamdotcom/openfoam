@@ -100,7 +100,7 @@ SourceFiles
 #ifndef nutUBlendedWallFunctionFvPatchScalarField_H
 #define nutUBlendedWallFunctionFvPatchScalarField_H
 
-#include "nutWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

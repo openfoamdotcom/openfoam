@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearInterpolationWeights.H"
-#include "addToRunTimeSelectionTable.H"
-#include "ListOps.H"
-#include "Pair.H"
+#include "interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

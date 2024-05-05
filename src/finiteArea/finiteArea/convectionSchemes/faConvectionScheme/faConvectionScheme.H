@@ -37,11 +37,11 @@ SourceFiles
 #ifndef faConvectionScheme_H
 #define faConvectionScheme_H
 
-#include "tmp.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "memory/tmp/tmp.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ makeFaConvectionTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faConvectionScheme.C"
+    #include "finiteArea/convectionSchemes/faConvectionScheme/faConvectionScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

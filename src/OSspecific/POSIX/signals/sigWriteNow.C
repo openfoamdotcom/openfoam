@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigWriteNow.H"
-#include "error.H"
-#include "TimeOpenFOAM.H"
-#include "IOstreams.H"
+#include "signals/sigWriteNow.H"
+#include "db/error/error.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/IOstreams.H"
 
 // File-local functions
-#include "signalMacros.C"
+#include "signals/signalMacros.C"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

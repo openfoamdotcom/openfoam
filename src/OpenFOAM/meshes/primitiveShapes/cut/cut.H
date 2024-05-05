@@ -36,11 +36,11 @@ SourceFiles
 #ifndef Foam_cut_H
 #define Foam_cut_H
 
-#include "plane.H"
-#include "FixedList.H"
-#include "tetrahedron.H"
-#include "triangle.H"
-#include "zero.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "primitives/traits/zero.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -517,10 +517,10 @@ typename cut::opAddResult<AboveOp, BelowOp>::type tetCut
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cutI.H"
+#include "meshes/primitiveShapes/cut/cutI.H"
 
 #ifdef NoRepository
-    #include "cutTemplates.C"
+    #include "meshes/primitiveShapes/cut/cutTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

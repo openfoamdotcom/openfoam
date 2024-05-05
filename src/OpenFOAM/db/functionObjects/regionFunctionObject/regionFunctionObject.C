@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFunctionObject.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

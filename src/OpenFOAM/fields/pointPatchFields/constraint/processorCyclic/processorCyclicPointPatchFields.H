@@ -28,8 +28,8 @@ License
 #ifndef processorCyclicPointPatchFields_H
 #define processorCyclicPointPatchFields_H
 
-#include "processorCyclicPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/constraint/processorCyclic/processorCyclicPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

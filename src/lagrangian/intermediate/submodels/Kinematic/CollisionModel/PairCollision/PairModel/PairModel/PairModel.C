@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PairModel.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel/PairModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -110,6 +110,6 @@ Foam::scalar Foam::PairModel<CloudType>::forceCoeff
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PairModelNew.C"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel/PairModelNew.C"
 
 // ************************************************************************* //

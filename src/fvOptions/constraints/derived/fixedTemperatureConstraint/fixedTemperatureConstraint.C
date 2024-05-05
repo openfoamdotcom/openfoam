@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedTemperatureConstraint.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "constraints/derived/fixedTemperatureConstraint/fixedTemperatureConstraint.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "basicThermo/basicThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

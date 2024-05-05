@@ -37,8 +37,8 @@ SourceFiles
 #ifndef symmetryFvPatch_H
 #define symmetryFvPatch_H
 
-#include "fvPatch.H"
-#include "symmetryPolyPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

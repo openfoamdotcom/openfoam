@@ -39,7 +39,7 @@ SourceFiles
 #ifndef axisAligned_H
 #define axisAligned_H
 
-#include "controlPointsDefinition.H"
+#include "parameterization/NURBS/NURBS3DVolume/controlPointsDefinition/controlPointsDefinition/controlPointsDefinition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

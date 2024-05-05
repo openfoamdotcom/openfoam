@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SurfaceFilmModelPascal.H"
+#include "submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

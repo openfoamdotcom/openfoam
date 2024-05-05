@@ -28,7 +28,7 @@ License
 #ifndef Foam_coupledFaPatchFields_H
 #define Foam_coupledFaPatchFields_H
 
-#include "coupledFaPatchField.H"
+#include "fields/faPatchFields/basic/coupled/coupledFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

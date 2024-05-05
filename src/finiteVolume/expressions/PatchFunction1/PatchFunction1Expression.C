@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchFunction1Expression.H"
-#include "fvPatch.H"
+#include "expressions/PatchFunction1/PatchFunction1Expression.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

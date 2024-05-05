@@ -59,11 +59,11 @@ SourceFiles
 #ifndef Foam_extendedEdgeMesh_H
 #define Foam_extendedEdgeMesh_H
 
-#include "edgeMesh.H"
-#include "indexedOctree.H"
-#include "treeDataEdge.H"
-#include "treeDataPoint.H"
-#include "primitivePatch.H"
+#include "edgeMesh/edgeMesh.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataEdge.H"
+#include "algorithms/indexedOctree/treeDataPoint.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -635,10 +635,10 @@ Ostream& operator<<(Ostream& os, const extendedEdgeMesh::sideVolumeType& vt);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "extendedEdgeMeshI.H"
+#include "edgeMesh/extendedEdgeMesh/extendedEdgeMeshI.H"
 
 #ifdef NoRepository
-    #include "extendedEdgeMeshTemplates.C"
+    #include "edgeMesh/extendedEdgeMesh/extendedEdgeMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

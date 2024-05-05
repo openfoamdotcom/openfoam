@@ -53,11 +53,11 @@ SourceFiles
 
 #include <thread>
 #include <mutex>
-#include "IOstream.H"
-#include "labelList.H"
-#include "FIFOStack.H"
-#include "SubList.H"
-#include "dictionary.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/LinkedLists/user/FIFOStack.H"
+#include "containers/Lists/List/SubList.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

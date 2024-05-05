@@ -48,7 +48,7 @@ SourceFiles
 #ifndef lumpedPointController_H
 #define lumpedPointController_H
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

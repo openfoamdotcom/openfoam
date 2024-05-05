@@ -29,7 +29,7 @@ License
 #ifndef adjointBoundaryConditionsFwd_H
 #define adjointBoundaryConditionsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

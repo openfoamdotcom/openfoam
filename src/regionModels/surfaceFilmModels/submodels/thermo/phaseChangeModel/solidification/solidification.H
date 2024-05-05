@@ -39,7 +39,7 @@ SourceFiles
 #ifndef solidification_H
 #define solidification_H
 
-#include "phaseChangeModel.H"
+#include "submodels/thermo/phaseChangeModel/phaseChangeModel/phaseChangeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

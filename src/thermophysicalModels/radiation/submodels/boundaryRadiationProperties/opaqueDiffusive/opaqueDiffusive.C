@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "opaqueDiffusive.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/boundaryRadiationProperties/opaqueDiffusive/opaqueDiffusive.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

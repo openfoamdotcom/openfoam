@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heatExchangerModel.H"
-#include "coupledPolyPatch.H"
-#include "surfaceInterpolate.H"
+#include "sources/derived/heatExchangerSource/heatExchangerModels/heatExchangerModel/heatExchangerModel.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

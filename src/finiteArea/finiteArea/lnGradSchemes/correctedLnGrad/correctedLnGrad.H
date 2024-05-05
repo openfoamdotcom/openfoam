@@ -37,7 +37,7 @@ SourceFiles
 #ifndef correctedLnGrad_H
 #define correctedLnGrad_H
 
-#include "lnGradScheme.H"
+#include "finiteArea/lnGradSchemes/lnGradScheme/lnGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "correctedLnGrad.C"
+    #include "finiteArea/lnGradSchemes/correctedLnGrad/correctedLnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

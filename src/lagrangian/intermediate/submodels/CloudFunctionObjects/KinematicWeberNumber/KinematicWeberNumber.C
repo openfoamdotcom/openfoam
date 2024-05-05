@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicWeberNumber.H"
+#include "submodels/CloudFunctionObjects/KinematicWeberNumber/KinematicWeberNumber.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

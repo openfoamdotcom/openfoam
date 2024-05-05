@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IsotropyModel.H"
-#include "TimeScaleModel.H"
+#include "submodels/MPPIC/IsotropyModels/IsotropyModel/IsotropyModel.H"
+#include "submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

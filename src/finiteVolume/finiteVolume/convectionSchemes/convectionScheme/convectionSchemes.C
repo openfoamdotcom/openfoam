@@ -28,7 +28,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "convectionScheme.H"
+#include "finiteVolume/convectionSchemes/convectionScheme/convectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kineticTheoryModel.H"
-#include "mathematicalConstants.H"
+#include "kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 #include "twoPhaseSystem.H"
-#include "fvOptions.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

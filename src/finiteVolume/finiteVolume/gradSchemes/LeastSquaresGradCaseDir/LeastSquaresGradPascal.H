@@ -68,7 +68,7 @@ SourceFiles
 #ifndef LeastSquaresGrad_H
 #define LeastSquaresGrad_H
 
-#include "gradScheme.H"
+#include "finiteVolume/gradSchemes/gradScheme/gradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LeastSquaresGradPascal.C"
+    #include "finiteVolume/gradSchemes/LeastSquaresGradCaseDir/LeastSquaresGradPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

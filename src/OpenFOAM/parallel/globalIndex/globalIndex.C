@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndex.H"
-#include "Pair.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

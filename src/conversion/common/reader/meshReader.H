@@ -52,10 +52,10 @@ SourceFiles
 #ifndef Foam_meshReader_H
 #define Foam_meshReader_H
 
-#include "polyMesh.H"
-#include "HashTable.H"
-#include "IOstream.H"
-#include "cellTable.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "common/tables/cellTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

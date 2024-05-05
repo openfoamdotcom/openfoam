@@ -41,7 +41,7 @@ SourceFiles
 #ifndef NoComposition_H
 #define NoComposition_H
 
-#include "CompositionModel.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoComposition.C"
+    #include "submodels/Reacting/CompositionModel/NoComposition/NoComposition.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -59,7 +59,7 @@ SourceFiles
 #ifndef Foam_coordinateRotations_axisAngle_H
 #define Foam_coordinateRotations_axisAngle_H
 
-#include "coordinateRotation.H"
+#include "primitives/coordinate/rotation/coordinateRotation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

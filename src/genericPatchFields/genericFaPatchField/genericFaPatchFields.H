@@ -28,8 +28,8 @@ License
 #ifndef Foam_genericFaPatchFields_H
 #define Foam_genericFaPatchFields_H
 
-#include "genericFaPatchField.H"
-#include "fieldTypes.H"
+#include "genericFaPatchField/genericFaPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

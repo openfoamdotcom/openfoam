@@ -42,10 +42,10 @@ SourceFiles
 #ifndef Foam_SurfaceFilmModel_H
 #define Foam_SurfaceFilmModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "CloudSubModelBase.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "submodels/CloudSubModelBase.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -316,12 +316,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SurfaceFilmModelI.H"
+#include "submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SurfaceFilmModelPascal.C"
+    #include "submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

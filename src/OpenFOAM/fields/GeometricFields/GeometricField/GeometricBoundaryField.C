@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricBoundaryField.H"
-#include "globalMeshData.H"
-#include "cyclicPolyPatch.H"
-#include "emptyPolyPatch.H"
+#include "fields/GeometricFields/GeometricField/GeometricBoundaryField.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

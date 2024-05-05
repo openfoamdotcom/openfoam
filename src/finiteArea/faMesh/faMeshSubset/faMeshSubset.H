@@ -45,11 +45,11 @@ SourceFiles
 #ifndef Foam_faMeshSubset_H
 #define Foam_faMeshSubset_H
 
-#include "areaFaMesh.H"
-#include "edgeFaMesh.H"
-#include "GeometricField.H"
-#include "bitSet.H"
-#include "HashSet.H"
+#include "areaMesh/areaFaMesh.H"
+#include "edgeMesh/edgeFaMesh.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -226,12 +226,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "faMeshSubsetI.H"
+#include "faMesh/faMeshSubset/faMeshSubsetI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faMeshSubsetTemplates.C"
+    #include "faMesh/faMeshSubset/faMeshSubsetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

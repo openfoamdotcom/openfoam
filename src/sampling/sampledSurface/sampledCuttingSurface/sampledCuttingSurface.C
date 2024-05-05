@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledCuttingSurface.H"
-#include "dictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledCuttingSurface/sampledCuttingSurface.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

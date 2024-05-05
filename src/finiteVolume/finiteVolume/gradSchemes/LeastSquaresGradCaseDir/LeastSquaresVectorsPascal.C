@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LeastSquaresVectorsPascal.H"
+#include "finiteVolume/gradSchemes/LeastSquaresGradCaseDir/LeastSquaresVectorsPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

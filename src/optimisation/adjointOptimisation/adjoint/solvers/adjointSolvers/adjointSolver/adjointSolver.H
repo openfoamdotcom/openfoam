@@ -37,14 +37,14 @@ Description
 #ifndef adjointSolver_H
 #define adjointSolver_H
 
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "IOdictionary.H"
-#include "solver.H"
-#include "objectiveManager.H"
-#include "primalSolver.H"
-#include "adjointSensitivity.H"
-#include "runTimeSelectionTables.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "solvers/solver/solver.H"
+#include "objectiveManager/objectiveManager.H"
+#include "solvers/primalSolvers/primalSolver/primalSolver.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -324,7 +324,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "adjointSolverI.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolverI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

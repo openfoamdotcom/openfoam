@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricField.H"
-#include "volMesh.H"
-#include "fvPatchField.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "volMesh/volMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,9 +28,9 @@ License
 #ifndef makeChemistryTabulationMethods_H
 #define makeChemistryTabulationMethods_H
 
-#include "chemistryTabulationMethod.H"
-#include "noChemistryTabulation.H"
-#include "ISAT.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/noChemistryTabulation/noChemistryTabulation.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

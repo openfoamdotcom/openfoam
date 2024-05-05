@@ -37,9 +37,9 @@ SourceFiles
 #ifndef Foam_gltf_sceneWriter_H
 #define Foam_gltf_sceneWriter_H
 
-#include "autoPtr.H"
-#include "fileName.H"
-#include "foamGltfScene.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "gltf/foamGltfScene.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

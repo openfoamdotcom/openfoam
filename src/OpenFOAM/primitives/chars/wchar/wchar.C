@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 
-#include "wcharOpenFOAM.H"
-#include "IOstreams.H"
+#include "primitives/chars/wchar/wcharOpenFOAM.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

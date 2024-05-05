@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "faMeshBoundaryHalo.H"
-#include "globalMeshData.H"
-#include "indirectPrimitivePatch.H"
-#include "edgeHashes.H"
-#include "syncTools.H"
-#include "foamVtkLineWriter.H"
-#include "foamVtkIndPatchWriter.H"
+#include "faMesh/faMesh.H"
+#include "faMesh/faMeshBoundaryHalo.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "vtk/write/foamVtkLineWriter.H"
+#include "output/vtk/patch/foamVtkIndPatchWriter.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

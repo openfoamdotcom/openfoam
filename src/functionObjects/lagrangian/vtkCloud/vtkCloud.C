@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkCloud.H"
-#include "CloudPascal.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "foamVtkOutputOptions.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointList.H"
-#include "stringOps.H"
+#include "vtkCloud/vtkCloud.H"
+#include "Cloud/CloudPascal.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "vtk/output/foamVtkOutputOptions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "primitives/strings/stringOps/stringOps.H"
 #include <fstream>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

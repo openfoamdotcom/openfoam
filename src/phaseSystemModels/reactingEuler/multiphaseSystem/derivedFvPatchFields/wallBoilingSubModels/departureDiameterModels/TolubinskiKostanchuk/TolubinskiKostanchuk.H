@@ -71,7 +71,7 @@ SourceFiles
 #ifndef TolubinskiKostanchuk_H
 #define TolubinskiKostanchuk_H
 
-#include "departureDiameterModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

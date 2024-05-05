@@ -47,9 +47,9 @@ SourceFiles
 #ifndef patchCloudSet_H
 #define patchCloudSet_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
-#include "HashSet.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

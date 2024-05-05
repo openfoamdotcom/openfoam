@@ -120,7 +120,7 @@ SourceFiles
 #ifndef SphereDragForce_H
 #define SphereDragForce_H
 
-#include "ParticleForce.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SphereDragForce.C"
+    #include "submodels/Kinematic/ParticleForces/Drag/SphereDrag/SphereDragForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

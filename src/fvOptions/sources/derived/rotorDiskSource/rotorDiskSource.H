@@ -180,12 +180,12 @@ SourceFiles
 #ifndef rotorDiskSource_H
 #define rotorDiskSource_H
 
-#include "cellSetOption.H"
-#include "cylindricalCS.H"
-#include "Enum.H"
-#include "bladeModel.H"
-#include "profileModelList.H"
-#include "volFieldsFwd.H"
+#include "cellSetOption/cellSetOption.H"
+#include "primitives/coordinate/systems/cylindricalCS.H"
+#include "primitives/enums/Enum.H"
+#include "sources/derived/rotorDiskSource/bladeModel/bladeModel.H"
+#include "sources/derived/rotorDiskSource/profileModel/profileModelList.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -420,12 +420,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rotorDiskSourceI.H"
+#include "sources/derived/rotorDiskSource/rotorDiskSourceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "rotorDiskSourceTemplates.C"
+    #include "sources/derived/rotorDiskSource/rotorDiskSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -101,8 +101,8 @@ SourceFiles
 #ifndef acousticDampingSource_H
 #define acousticDampingSource_H
 
-#include "cellSetOption.H"
-#include "volFields.H"
+#include "cellSetOption/cellSetOption.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

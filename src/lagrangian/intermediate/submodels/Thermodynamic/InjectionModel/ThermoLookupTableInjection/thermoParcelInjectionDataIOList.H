@@ -36,8 +36,8 @@ SourceFiles
 #ifndef thermoParcelInjectionDataIOList_H
 #define thermoParcelInjectionDataIOList_H
 
-#include "GlobalIOList.H"
-#include "thermoParcelInjectionData.H"
+#include "db/IOobjects/GlobalIOList/GlobalIOList.H"
+#include "submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/thermoParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

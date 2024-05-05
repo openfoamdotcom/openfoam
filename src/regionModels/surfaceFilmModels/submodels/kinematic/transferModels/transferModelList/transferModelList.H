@@ -37,9 +37,9 @@ SourceFiles
 #ifndef transferModelList_H
 #define transferModelList_H
 
-#include "PtrList.H"
-#include "transferModel.H"
-#include "filmSubModelBase.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "submodels/kinematic/transferModels/transferModel/transferModel.H"
+#include "submodels/filmSubModelBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

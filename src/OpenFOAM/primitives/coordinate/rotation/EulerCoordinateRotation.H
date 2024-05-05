@@ -67,8 +67,8 @@ SourceFiles
 #ifndef Foam_coordinateRotations_euler_H
 #define Foam_coordinateRotations_euler_H
 
-#include "coordinateRotation.H"
-#include "quaternion.H"
+#include "primitives/coordinate/rotation/coordinateRotation.H"
+#include "primitives/quaternion/quaternion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

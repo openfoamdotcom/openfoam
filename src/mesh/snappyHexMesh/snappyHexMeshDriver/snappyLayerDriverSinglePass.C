@@ -28,18 +28,18 @@ Description
 
 \*----------------------------------------------------------------------------*/
 
-#include "snappyLayerDriver.H"
+#include "snappyHexMeshDriver/snappyLayerDriver.H"
 //#include "motionSmoother.H"
 //#include "pointSet.H"
 //#include "faceSet.H"
 //#include "cellSet.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "addPatchCellLayer.H"
-#include "mapDistributePolyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/polyTopoChange/addPatchCellLayer.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
 //#include "OBJstream.H"
-#include "layerParameters.H"
-#include "externalDisplacementMeshMover.H"
+#include "snappyHexMeshDriver/layerParameters/layerParameters.H"
+#include "externalDisplacementMeshMover/externalDisplacementMeshMover.H"
 //#include "profiling.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

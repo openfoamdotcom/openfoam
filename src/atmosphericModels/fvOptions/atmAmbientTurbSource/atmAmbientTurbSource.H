@@ -114,8 +114,8 @@ SourceFiles
 #ifndef fv_atmAmbientTurbSource_H
 #define fv_atmAmbientTurbSource_H
 
-#include "cellSetOption.H"
-#include "turbulentTransportModel.H"
+#include "cellSetOption/cellSetOption.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -256,7 +256,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "atmAmbientTurbSourceTemplates.C"
+    #include "fvOptions/atmAmbientTurbSource/atmAmbientTurbSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

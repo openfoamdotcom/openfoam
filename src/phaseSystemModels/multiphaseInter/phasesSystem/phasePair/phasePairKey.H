@@ -43,7 +43,7 @@ SourceFiles
 #ifndef phasePairKey_H
 #define phasePairKey_H
 
-#include "Pair.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

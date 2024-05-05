@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Helmholtz.H"
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "wallFvPatch.H"
-#include "DynamicList.H"
-#include "fvMeshSubset.H"
-#include "fvm.H"
-#include "bound.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationPDE/Helmoltz/Helmholtz.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "cfdTools/general/bound/bound.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

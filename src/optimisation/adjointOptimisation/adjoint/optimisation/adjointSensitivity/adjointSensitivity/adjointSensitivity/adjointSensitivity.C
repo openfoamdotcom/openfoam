@@ -27,14 +27,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointEikonalSolver.H"
-#include "runTimeSelectionTables.H"
-#include "adjointSensitivity.H"
-#include "adjointSolver.H"
-#include "designVariables.H"
-#include "fvOptions.H"
-#include "reverseLinear.H"
-#include "sensitivity.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointEikonalSolver/adjointEikonalSolver.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "interpolation/surfaceInterpolation/schemes/reverseLinear/reverseLinear.H"
+#include "optimisation/adjointSensitivity/sensitivity/sensitivity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

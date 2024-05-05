@@ -28,8 +28,8 @@ License
 #ifndef Foam_fvPatchFields_H
 #define Foam_fvPatchFields_H
 
-#include "fvPatchField.H"
-#include "fvPatchFieldsFwd.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

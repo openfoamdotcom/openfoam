@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "processorPolyPatch.H"
-#include "PstreamBuffers.H"
-#include "lduSchedule.H"
-#include "globalMeshData.H"
-#include "wordRes.H"
-#include "DynamicList.H"
-#include "PtrListOps.H"
-#include "edgeHashes.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "matrices/lduMatrix/lduAddressing/lduSchedule/lduSchedule.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

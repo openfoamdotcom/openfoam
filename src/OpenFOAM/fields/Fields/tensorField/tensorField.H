@@ -38,14 +38,14 @@ SourceFiles
 #ifndef Foam_tensorField_H
 #define Foam_tensorField_H
 
-#include "scalarField.H"
-#include "vectorField.H"
-#include "sphericalTensorField.H"
-#include "symmTensorField.H"
-#include "tensor.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorField.H"
+#include "fields/Fields/symmTensorField/symmTensorField.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "fields/Fields/Field/FieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,12 +213,12 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "tensorFieldTemplates.C"
+    #include "fields/Fields/tensorField/tensorFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

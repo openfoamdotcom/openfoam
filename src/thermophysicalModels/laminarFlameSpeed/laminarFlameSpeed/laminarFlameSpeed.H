@@ -45,9 +45,9 @@ SourceFiles
 #ifndef laminarFlameSpeed_H
 #define laminarFlameSpeed_H
 
-#include "psiuReactionThermo.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "psiuReactionThermo/psiuReactionThermo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

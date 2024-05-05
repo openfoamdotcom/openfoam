@@ -35,9 +35,9 @@ Description
 #ifndef polyModifyFace_H
 #define polyModifyFace_H
 
-#include "label.H"
-#include "face.H"
-#include "topoAction.H"
+#include "primitives/ints/label/label.H"
+#include "meshes/meshShapes/face/face.H"
+#include "polyTopoChange/topoAction/topoAction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

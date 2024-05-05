@@ -68,8 +68,8 @@ SourceFiles
 #ifndef Function1Types_expression_H
 #define Function1Types_expression_H
 
-#include "Function1Pascal.H"
-#include "fieldExprDriver.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "expressions/fields/fieldExprDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Function1Expression.C"
+    #include "expressions/Function1/Function1Expression.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

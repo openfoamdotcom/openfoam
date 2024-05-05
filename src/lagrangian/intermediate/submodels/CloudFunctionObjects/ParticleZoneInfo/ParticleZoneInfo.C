@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleZoneInfo.H"
-#include "DynamicField.H"
+#include "submodels/CloudFunctionObjects/ParticleZoneInfo/ParticleZoneInfo.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

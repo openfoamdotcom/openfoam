@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_ReadHex_H
 #define Foam_ReadHex_H
 
-#include "ISstream.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -55,7 +55,7 @@ T ReadHex(ISstream& is);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReadHex.C"
+    #include "db/IOstreams/Sstreams/ReadHex.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

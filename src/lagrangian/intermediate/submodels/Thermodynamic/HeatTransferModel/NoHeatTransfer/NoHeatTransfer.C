@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoHeatTransfer.H"
+#include "submodels/Thermodynamic/HeatTransferModel/NoHeatTransfer/NoHeatTransfer.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

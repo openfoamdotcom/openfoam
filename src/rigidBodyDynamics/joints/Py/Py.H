@@ -48,7 +48,7 @@ SourceFiles
 #ifndef RBD_joints_Py_H
 #define RBD_joints_Py_H
 
-#include "joint.H"
+#include "joints/joint/joint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

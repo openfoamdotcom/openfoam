@@ -46,12 +46,12 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionConstraint_H
 #define sixDoFRigidBodyMotionConstraint_H
 
-#include "TimeOpenFOAM.H"
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "point.H"
-#include "pointConstraint.H"
-#include "runTimeSelectionTables.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

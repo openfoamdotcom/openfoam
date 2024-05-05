@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "kahipDecomp.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 static const char* notImplementedMessage =
 "Attempted to use <kahip> without the kahipDecomp library loaded.\n"

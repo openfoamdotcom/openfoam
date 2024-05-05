@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AMIWeights.H"
-#include "fvMesh.H"
-#include "foamVtkSurfaceWriter.H"
-#include "PatchTools.H"
-#include "cyclicACMIPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "AMIWeights/AMIWeights.H"
+#include "fvMesh/fvMesh.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -27,10 +27,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "pairPatchAgglomeration.H"
-#include "meshTools.H"
-#include "edgeHashes.H"
-#include "unitConversion.H"
-#include "OBJstream.H"
+#include "meshTools/meshTools.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "global/constants/unitConversion.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

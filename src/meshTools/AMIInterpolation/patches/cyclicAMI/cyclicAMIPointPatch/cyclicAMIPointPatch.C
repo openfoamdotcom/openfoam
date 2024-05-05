@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIPointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "pointMesh.H"
-#include "TimeOpenFOAM.H"
-#include "addToRunTimeSelectionTable.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPointPatch/cyclicAMIPointPatch.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

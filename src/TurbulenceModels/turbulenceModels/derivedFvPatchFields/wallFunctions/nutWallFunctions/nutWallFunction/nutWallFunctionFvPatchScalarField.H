@@ -69,8 +69,8 @@ SourceFiles
 #ifndef nutWallFunctionFvPatchScalarField_H
 #define nutWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "wallFunctionCoefficients.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionCoefficients/wallFunctionCoefficients.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -3,7 +3,7 @@
 #ifndef FoamCompat_Swap_H
 #define FoamCompat_Swap_H
 
-#include "stdFoam.H"
+#include "include/stdFoam.H"
 
 #endif
 

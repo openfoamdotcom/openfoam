@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_foamEndian_H
 #define Foam_foamEndian_H
 
-#include "foamEndianFwd.H"
+#include "primitives/endian/foamEndianFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -84,7 +84,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamEndianI.H"
+#include "primitives/endian/foamEndianI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

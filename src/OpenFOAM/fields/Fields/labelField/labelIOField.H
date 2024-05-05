@@ -28,8 +28,8 @@ License
 #ifndef Foam_labelIOField_H
 #define Foam_labelIOField_H
 
-#include "primitiveFields.H"
-#include "IOField.H"
+#include "fields/Fields/primitiveFields.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

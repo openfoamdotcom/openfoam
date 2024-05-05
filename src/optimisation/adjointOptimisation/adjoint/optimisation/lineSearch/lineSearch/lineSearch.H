@@ -40,11 +40,11 @@ SourceFiles
 #ifndef lineSearch_H
 #define lineSearch_H
 
-#include "runTimeSelectionTables.H"
-#include "IOdictionary.H"
-#include "scalarField.H"
-#include "stepUpdate.H"
-#include "updateMethod.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "optimisation/lineSearch/stepUpdate/stepUpdate/stepUpdate.H"
+#include "optimisation/updateMethod/updateMethod/updateMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

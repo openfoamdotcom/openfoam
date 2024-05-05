@@ -117,8 +117,8 @@ SourceFiles
 #ifndef fv_multiphaseStabilizedTurbulence_H
 #define fv_multiphaseStabilizedTurbulence_H
 
-#include "fvOption.H"
-#include "dimensionedScalar.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

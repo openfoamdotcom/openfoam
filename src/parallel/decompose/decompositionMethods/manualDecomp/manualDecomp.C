@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "manualDecomp.H"
-#include "labelIOList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "manualDecomp/manualDecomp.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

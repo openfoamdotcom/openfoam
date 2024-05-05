@@ -40,9 +40,9 @@ SourceFiles
 #ifndef gaussFaGrad_H
 #define gaussFaGrad_H
 
-#include "faGradScheme.H"
-#include "edgeInterpolationScheme.H"
-#include "linearEdgeInterpolation.H"
+#include "finiteArea/gradSchemes/faGradScheme/faGradScheme.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
+#include "interpolation/edgeInterpolation/schemes/linear/linearEdgeInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,7 +168,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gaussFaGrad.C"
+    #include "finiteArea/gradSchemes/gaussFaGrad/gaussFaGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

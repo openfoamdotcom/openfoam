@@ -48,11 +48,11 @@ SourceFiles
 #ifndef STARCDMeshReader_H
 #define STARCDMeshReader_H
 
-#include "meshReader.H"
-#include "STARCDCore.H"
-#include "boundaryRegion.H"
-#include "cellShape.H"
-#include "IFstream.H"
+#include "common/reader/meshReader.H"
+#include "starcd/STARCDCore.H"
+#include "common/tables/boundaryRegion.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

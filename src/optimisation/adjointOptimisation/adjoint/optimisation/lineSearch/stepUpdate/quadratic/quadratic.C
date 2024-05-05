@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quadratic.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/lineSearch/stepUpdate/quadratic/quadratic.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

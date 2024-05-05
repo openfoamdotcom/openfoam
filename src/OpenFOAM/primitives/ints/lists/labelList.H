@@ -29,9 +29,9 @@ License
 #ifndef Foam_labelList_H
 #define Foam_labelList_H
 
-#include "label.H"
-#include "List.H"
-#include "SubList.H"
+#include "primitives/ints/label/label.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

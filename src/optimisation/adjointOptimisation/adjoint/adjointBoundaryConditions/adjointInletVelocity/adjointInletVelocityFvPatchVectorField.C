@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointInletVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "adjointBoundaryConditions/adjointInletVelocity/adjointInletVelocityFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

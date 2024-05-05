@@ -38,8 +38,8 @@ SourceFiles
 #define TurbulenceModel_H
 
 #include "turbulenceModel.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TurbulenceModelPascal.C"
+    #include "TurbulenceModel/TurbulenceModelPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

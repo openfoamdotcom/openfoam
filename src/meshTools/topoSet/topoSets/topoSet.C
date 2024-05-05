@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoSet.H"
-#include "mapPolyMesh.H"
-#include "polyMesh.H"
-#include "boundBox.H"
-#include "TimeOpenFOAM.H"
+#include "topoSet/topoSets/topoSet.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/boundBox/boundBox.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

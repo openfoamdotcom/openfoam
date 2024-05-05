@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricFieldReuseFunctions.H"
+#include "fields/GeometricFields/GeometricField/GeometricFieldReuseFunctions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

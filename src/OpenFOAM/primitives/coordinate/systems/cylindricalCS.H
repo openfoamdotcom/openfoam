@@ -46,7 +46,7 @@ SourceFiles
 #ifndef Foam_cylindricalCS_H
 #define Foam_cylindricalCS_H
 
-#include "coordinateSystem.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

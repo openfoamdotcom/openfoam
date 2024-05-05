@@ -37,8 +37,8 @@ SourceFiles
 #ifndef triadField_H
 #define triadField_H
 
-#include "triadFieldFwd.H"
-#include "Field.H"
+#include "fields/Fields/triadField/triadFieldFwd.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

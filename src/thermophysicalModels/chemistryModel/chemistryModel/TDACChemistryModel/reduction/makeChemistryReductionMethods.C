@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeChemistryReductionMethods.H"
+#include "chemistryModel/TDACChemistryModel/reduction/makeChemistryReductionMethods.H"
 
-#include "thermoPhysicsTypes.H"
+#include "include/thermoPhysicsTypes.H"
 
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

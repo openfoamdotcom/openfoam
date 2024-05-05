@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rhoReactionThermo.H"
-#include "fvMesh.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

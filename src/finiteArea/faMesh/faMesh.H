@@ -56,23 +56,23 @@ Author
 #ifndef Foam_faMesh_H
 #define Foam_faMesh_H
 
-#include "MeshObject.H"
-#include "polyMesh.H"
-#include "lduMesh.H"
-#include "faBoundaryMesh.H"
-#include "edgeList.H"
-#include "faceList.H"
-#include "primitiveFieldsFwd.H"
-#include "DimensionedField.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "indirectPrimitivePatch.H"
-#include "edgeInterpolation.H"
-#include "labelIOList.H"
-#include "FieldFields.H"
-#include "faGlobalMeshData.H"
-#include "faSchemes.H"
-#include "faSolution.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMesh.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "interpolation/edgeInterpolation/edgeInterpolation.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "fields/FieldFields/FieldField/FieldFields.H"
+#include "faMesh/faGlobalMeshData/faGlobalMeshData.H"
+#include "finiteArea/faSchemes/faSchemes.H"
+#include "faSolution/faSolution.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1019,10 +1019,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "faMeshI.H"
+#include "faMesh/faMeshI.H"
 
 #ifdef NoRepository
-    #include "faPatchFaMeshTemplates.C"
+    #include "faMesh/faPatches/faPatch/faPatchFaMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

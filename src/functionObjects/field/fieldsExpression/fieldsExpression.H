@@ -69,8 +69,8 @@ SourceFiles
 #ifndef functionObjects_fieldsExpression_H
 #define functionObjects_fieldsExpression_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldsExpressionTemplates.C"
+    #include "fieldsExpression/fieldsExpressionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

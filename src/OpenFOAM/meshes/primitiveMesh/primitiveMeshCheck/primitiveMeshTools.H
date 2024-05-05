@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_primitiveMeshTools_H
 #define Foam_primitiveMeshTools_H
 
-#include "bitSet.H"
-#include "primitiveFields.H"
-#include "pointField.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "fields/Fields/primitiveFields.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

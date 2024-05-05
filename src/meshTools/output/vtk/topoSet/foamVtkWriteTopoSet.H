@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_vtk_WriteTopoSet_H
 #define Foam_vtk_WriteTopoSet_H
 
-#include "fileName.H"
-#include "UPstream.H"
-#include "foamVtkOutputOptions.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "vtk/output/foamVtkOutputOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

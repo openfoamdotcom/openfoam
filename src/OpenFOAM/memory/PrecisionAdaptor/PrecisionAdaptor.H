@@ -41,8 +41,8 @@ Description
 
 #include <algorithm>    // For std::copy
 #include <type_traits>  // For std::is_same
-#include "refPtr.H"
-#include "Field.H"
+#include "memory/refPtr/refPtr.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityGroup.H"
-#include "sizeGroup.H"
-#include "populationBalanceModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "zeroGradientFvPatchFields.H"
+#include "diameterModels/velocityGroup/velocityGroup.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroup.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

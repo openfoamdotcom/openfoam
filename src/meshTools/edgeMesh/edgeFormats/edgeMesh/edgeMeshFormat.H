@@ -41,9 +41,9 @@ SourceFiles
 #ifndef edgeMeshFormat_H
 #define edgeMeshFormat_H
 
-#include "edgeMesh.H"
-#include "Ostream.H"
-#include "OFstream.H"
+#include "edgeMesh/edgeMesh.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

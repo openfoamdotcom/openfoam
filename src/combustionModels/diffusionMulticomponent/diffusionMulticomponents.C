@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeCombustionTypes.H"
+#include "combustionModel/makeCombustionTypes.H"
 
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
-#include "thermoPhysicsTypes.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "include/thermoPhysicsTypes.H"
 
-#include "diffusionMulticomponent.H"
+#include "diffusionMulticomponent/diffusionMulticomponent.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -93,7 +93,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "noChemistryReduction.C"
+    #include "chemistryModel/TDACChemistryModel/reduction/noChemistryReduction/noChemistryReduction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

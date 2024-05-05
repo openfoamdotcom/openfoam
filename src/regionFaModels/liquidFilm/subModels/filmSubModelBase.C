@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFaModels_filmSubModelBase.H"
+#include "liquidFilm/subModels/regionFaModels_filmSubModelBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

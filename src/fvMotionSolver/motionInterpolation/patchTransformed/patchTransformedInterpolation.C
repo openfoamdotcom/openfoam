@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "patchTransformedInterpolation.H"
-#include "pointFields.H"
-#include "symmTensor2D.H"
-#include "tensor2D.H"
-#include "syncTools.H"
-#include "volPointInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "motionInterpolation/patchTransformed/patchTransformedInterpolation.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "primitives/SymmTensor2D/symmTensor2D/symmTensor2D.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

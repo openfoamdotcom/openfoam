@@ -79,7 +79,7 @@ SourceFiles
 #ifndef LaakkonenAlopaeusAittamaaDsd_H
 #define LaakkonenAlopaeusAittamaaDsd_H
 
-#include "daughterSizeDistributionModel.H"
+#include "populationBalanceModel/daughterSizeDistributionModels/daughterSizeDistributionModel/daughterSizeDistributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

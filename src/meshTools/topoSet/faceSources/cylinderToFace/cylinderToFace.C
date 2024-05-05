@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylinderToFace.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/faceSources/cylinderToFace/cylinderToFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

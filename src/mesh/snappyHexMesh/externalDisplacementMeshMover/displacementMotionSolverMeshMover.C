@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementMotionSolverMeshMover.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointConstraints.H"
+#include "externalDisplacementMeshMover/displacementMotionSolverMeshMover.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

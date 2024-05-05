@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "faMeshLduAddressing.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "fac.H"
-#include "cartesianCS.H"
-#include "scalarMatrices.H"
-#include "processorFaPatch.H"
-#include "processorFaPatchFields.H"
-#include "emptyFaPatchFields.H"
-#include "wedgeFaPatch.H"
-#include "triangle.H"
+#include "faMesh/faMesh.H"
+#include "faMesh/faMeshLduAddressing.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "finiteArea/fac/fac.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "fields/faPatchFields/constraint/processor/processorFaPatchFields.H"
+#include "fields/faPatchFields/constraint/empty/emptyFaPatchFields.H"
+#include "faMesh/faPatches/constraint/wedge/wedgeFaPatch.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

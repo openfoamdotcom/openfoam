@@ -54,13 +54,13 @@ SourceFiles
 #ifndef NURBS3DVolume_H
 #define NURBS3DVolume_H
 
-#include "NURBSbasis.H"
-#include "boolVector.H"
-#include "localIOdictionary.H"
-#include "pointMesh.H"
-#include "pointPatchField.H"
-#include "pointPatchFieldsFwd.H"
-#include "boundaryFieldsFwd.H"
+#include "parameterization/NURBS/NURBSbasis/NURBSbasis.H"
+#include "primitives/Vector/bools/boolVector.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
+#include "global/boundaryFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -521,7 +521,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NURBS3DVolumeI.H"
+#include "parameterization/NURBS/NURBS3DVolume/NURBS3DVolume/NURBS3DVolumeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

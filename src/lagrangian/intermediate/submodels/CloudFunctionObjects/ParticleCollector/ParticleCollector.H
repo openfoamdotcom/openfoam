@@ -95,10 +95,10 @@ SourceFiles
 #ifndef ParticleCollector_H
 #define ParticleCollector_H
 
-#include "CloudFunctionObject.H"
-#include "cylindricalCS.H"
-#include "face.H"
-#include "OFstream.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "primitives/coordinate/systems/cylindricalCS.H"
+#include "meshes/meshShapes/face/face.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -298,12 +298,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleCollectorI.H"
+#include "submodels/CloudFunctionObjects/ParticleCollector/ParticleCollectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticleCollector.C"
+    #include "submodels/CloudFunctionObjects/ParticleCollector/ParticleCollector.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

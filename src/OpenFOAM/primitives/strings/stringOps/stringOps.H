@@ -39,14 +39,14 @@ SourceFiles
 #ifndef Foam_stringOps_H
 #define Foam_stringOps_H
 
-#include "scalar.H"
-#include "SubStrings.H"
-#include "dictionary.H"
-#include "HashTable.H"
-#include "stringOpsSort.H"
-#include "stringOpsEvaluate.H"
-#include "word.H"
-#include "wordRes.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/strings/lists/SubStrings.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/strings/stringOps/stringOpsSort.H"
+#include "primitives/strings/stringOps/stringOpsEvaluate.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -445,7 +445,7 @@ namespace stringOps
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "stringOpsTemplates.C"
+    #include "primitives/strings/stringOps/stringOpsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

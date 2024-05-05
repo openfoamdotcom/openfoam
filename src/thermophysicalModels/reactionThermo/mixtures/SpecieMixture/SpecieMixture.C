@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpecieMixture.H"
-#include "fvMesh.H"
+#include "mixtures/SpecieMixture/SpecieMixture.H"
+#include "fvMesh/fvMesh.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

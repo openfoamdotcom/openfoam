@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "McCowanWaveModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "waveGenerationModels/derived/McCowan/McCowanWaveModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

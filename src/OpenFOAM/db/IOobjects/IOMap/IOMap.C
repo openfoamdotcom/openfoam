@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOMap.H"
+#include "db/IOobjects/IOMap/IOMap.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

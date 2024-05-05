@@ -170,12 +170,12 @@ SourceFiles
 #ifndef functionObjects_externalCoupled_H
 #define functionObjects_externalCoupled_H
 
-#include "timeFunctionObject.H"
-#include "externalFileCoupler.H"
-#include "DynamicList.H"
-#include "wordRes.H"
-#include "scalarField.H"
-#include "UPtrList.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "coupling/externalFileCoupler.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -384,7 +384,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "externalCoupledTemplates.C"
+    #include "externalCoupled/externalCoupledTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

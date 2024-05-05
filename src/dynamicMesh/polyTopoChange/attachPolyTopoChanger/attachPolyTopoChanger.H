@@ -49,7 +49,7 @@ Description
 #ifndef Foam_attachPolyTopoChanger_H
 #define Foam_attachPolyTopoChanger_H
 
-#include "polyTopoChanger.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

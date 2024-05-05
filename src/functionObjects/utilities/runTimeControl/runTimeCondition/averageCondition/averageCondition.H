@@ -42,8 +42,8 @@ SourceFiles
 #ifndef functionObjects_runTimeControls_averageCondition_H
 #define functionObjects_runTimeControls_averageCondition_H
 
-#include "runTimeCondition.H"
-#include "valueAverageBase.H"
+#include "runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
+#include "db/functionObjects/valueAverageBase/valueAverageBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

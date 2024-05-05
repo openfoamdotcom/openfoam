@@ -155,7 +155,7 @@ SourceFiles
 #ifndef distributionModels_normal_H
 #define distributionModels_normal_H
 
-#include "distributionModel.H"
+#include "distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

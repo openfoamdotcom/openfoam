@@ -118,7 +118,7 @@ SourceFiles
 #ifndef Foam_explicitPorositySource_H
 #define Foam_explicitPorositySource_H
 
-#include "cellSetOption.H"
+#include "cellSetOption/cellSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

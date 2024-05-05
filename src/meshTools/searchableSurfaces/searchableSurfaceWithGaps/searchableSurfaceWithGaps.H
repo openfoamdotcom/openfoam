@@ -66,9 +66,9 @@ SourceFiles
 #ifndef searchableSurfaceWithGaps_H
 #define searchableSurfaceWithGaps_H
 
-#include "searchableSurface.H"
-#include "UPtrList.H"
-#include "Pair.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

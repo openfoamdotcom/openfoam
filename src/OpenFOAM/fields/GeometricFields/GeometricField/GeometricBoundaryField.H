@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Foam_GeometricBoundaryField_H
 #define Foam_GeometricBoundaryField_H
 
-#include "dimensionedTypes.H"
-#include "DimensionedField.H"
-#include "FieldField.H"
-#include "lduInterfaceFieldPtrsList.H"
-#include "LduInterfaceFieldPtrsListPascal.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduInterfaceField/LduInterfaceFieldPtrsListPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -265,7 +265,7 @@ Ostream& operator<<
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GeometricBoundaryField.C"
+    #include "fields/GeometricFields/GeometricField/GeometricBoundaryField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reconstructionSchemes.H"
-#include "cutCellPLIC.H"
+#include "reconstructionSchemes/reconstructionSchemes.H"
+#include "cellCuts/cutCell/cutCellPLIC.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

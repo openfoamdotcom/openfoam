@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubsetProxy.H"
-#include "cellSet.H"
-#include "cellZone.H"
-#include "TimeOpenFOAM.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubsetProxy.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshes/polyMesh/zones/cellZone/cellZone.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

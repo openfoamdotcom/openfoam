@@ -38,7 +38,7 @@ SourceFiles
 #ifndef nearWallDist_H
 #define nearWallDist_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

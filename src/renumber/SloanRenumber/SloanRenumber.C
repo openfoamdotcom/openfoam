@@ -29,10 +29,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "SloanRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "globalMeshData.H"
-#include "processorPolyPatch.H"
-#include "syncTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 #include <boost/config.hpp>
 #include <vector>

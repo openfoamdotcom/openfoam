@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "assemblyFaceAreaPairGAMGAgglomeration.H"
-#include "lduMatrix.H"
-#include "addToRunTimeSelectionTable.H"
-#include "lduPrimitiveMeshAssembly.H"
-#include "surfaceFields.H"
+#include "lduPrimitiveMeshAssembly/assemblyFaceAreaPairGAMGAgglomeration/assemblyFaceAreaPairGAMGAgglomeration.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "lduPrimitiveMeshAssembly/lduPrimitiveMeshAssembly.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

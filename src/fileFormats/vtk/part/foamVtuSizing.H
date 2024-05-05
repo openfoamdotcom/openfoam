@@ -108,9 +108,9 @@ SourceFiles
 #ifndef Foam_vtk_vtuSizing_H
 #define Foam_vtk_vtuSizing_H
 
-#include "label.H"
-#include "labelList.H"
-#include "foamVtkMeshMaps.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/lists/labelList.H"
+#include "vtk/part/foamVtkMeshMaps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -570,7 +570,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtuSizingI.H"
+#include "vtk/part/foamVtuSizingI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

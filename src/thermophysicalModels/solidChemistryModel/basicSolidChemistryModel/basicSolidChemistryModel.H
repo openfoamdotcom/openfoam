@@ -39,10 +39,10 @@ SourceFiles
 #ifndef basicSolidChemistryModel_H
 #define basicSolidChemistryModel_H
 
-#include "basicChemistryModel.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "solidReactionThermo.H"
+#include "chemistryModel/basicChemistryModel/basicChemistryModel.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "solidReactionThermo/solidReactionThermo.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -183,7 +183,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicSolidChemistryModelI.H"
+#include "basicSolidChemistryModel/basicSolidChemistryModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

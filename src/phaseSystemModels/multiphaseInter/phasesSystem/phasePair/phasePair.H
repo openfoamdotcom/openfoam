@@ -38,9 +38,9 @@ SourceFiles
 #ifndef multiphaseInter_phasePair_H
 #define multiphaseInter_phasePair_H
 
-#include "phaseModel.H"
-#include "phasePairKey.H"
-#include "uniformDimensionedFields.H"
+#include "phaseModel/phaseModel.H"
+#include "phasePair/phasePairKey.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -109,7 +109,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "phasePairI.H"
+#include "phasePair/phasePairI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

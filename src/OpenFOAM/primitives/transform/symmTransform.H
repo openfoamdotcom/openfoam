@@ -35,7 +35,7 @@ Description
 #ifndef Foam_symmTransform_H
 #define Foam_symmTransform_H
 
-#include "transform.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

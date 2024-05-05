@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "unequalBinWidth.H"
-#include "histogramModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "histogram/histogramModels/unequalBinWidth/unequalBinWidth.H"
+#include "histogram/histogramModels/histogramModel/histogramModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

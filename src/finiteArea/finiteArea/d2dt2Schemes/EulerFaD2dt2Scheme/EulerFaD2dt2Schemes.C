@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EulerFaD2dt2Scheme.H"
-#include "faMesh.H"
+#include "finiteArea/d2dt2Schemes/EulerFaD2dt2Scheme/EulerFaD2dt2Scheme.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

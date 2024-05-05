@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CloudPascal.H"
-#include "processorPolyPatch.H"
-#include "globalMeshData.H"
-#include "PstreamBuffers.H"
-#include "mapPolyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "OFstream.H"
-#include "wallPolyPatch.H"
-#include "cyclicAMIPolyPatch.H"
+#include "Cloud/CloudPascal.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 
@@ -373,6 +373,6 @@ void Foam::Cloud<ParticleType>::storeGlobalPositions() const
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 
-#include "CloudIO.C"
+#include "Cloud/CloudIO.C"
 
 // ************************************************************************* //

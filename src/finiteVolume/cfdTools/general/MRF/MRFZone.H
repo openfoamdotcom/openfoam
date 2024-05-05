@@ -42,17 +42,17 @@ SourceFiles
 #ifndef MRFZone_H
 #define MRFZone_H
 
-#include "dictionary.H"
-#include "wordList.H"
-#include "labelList.H"
-#include "dimensionedScalar.H"
-#include "dimensionedVector.H"
-#include "volFieldsFwd.H"
-#include "surfaceFields.H"
-#include "fvMatricesFwd.H"
-#include "mapPolyMesh.H"
-#include "Function1Pascal.H"
-#include "autoPtr.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -293,12 +293,12 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MRFZoneTemplates.C"
+    #include "cfdTools/general/MRF/MRFZoneTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MRFZoneI.H"
+#include "cfdTools/general/MRF/MRFZoneI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FSD.H"
-#include "addToRunTimeSelectionTable.H"
-#include "LESModel.H"
-#include "fvcGrad.H"
-#include "fvcDiv.H"
+#include "FSD/FSD.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "LES/LESModel/LESModel.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
 
 namespace Foam
 {

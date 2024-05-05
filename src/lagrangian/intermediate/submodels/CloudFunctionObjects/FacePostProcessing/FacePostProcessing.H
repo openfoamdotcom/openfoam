@@ -45,8 +45,8 @@ SourceFiles
 #ifndef FacePostProcessing_H
 #define FacePostProcessing_H
 
-#include "CloudFunctionObject.H"
-#include "faceZone.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "meshes/polyMesh/zones/faceZone/faceZone.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,12 +172,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FacePostProcessingI.H"
+#include "submodels/CloudFunctionObjects/FacePostProcessing/FacePostProcessingI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FacePostProcessing.C"
+    #include "submodels/CloudFunctionObjects/FacePostProcessing/FacePostProcessing.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

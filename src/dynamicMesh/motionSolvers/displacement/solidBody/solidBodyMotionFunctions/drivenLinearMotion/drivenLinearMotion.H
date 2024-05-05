@@ -41,10 +41,10 @@ SourceFiles
 #ifndef drivenLinearMotion_H
 #define drivenLinearMotion_H
 
-#include "solidBodyMotionFunction.H"
-#include "primitiveFields.H"
-#include "point.H"
-#include "uniformDimensionedFields.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.H"
+#include "fields/Fields/primitiveFields.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

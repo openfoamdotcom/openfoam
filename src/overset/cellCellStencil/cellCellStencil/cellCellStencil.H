@@ -43,10 +43,10 @@ SourceFiles
 #ifndef Foam_cellCellStencil_H
 #define Foam_cellCellStencil_H
 
-#include "scalarList.H"
-#include "mapDistribute.H"
-#include "pointList.H"
-#include "volFields.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

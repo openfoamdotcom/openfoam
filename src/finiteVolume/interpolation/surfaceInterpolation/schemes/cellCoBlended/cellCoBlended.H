@@ -75,11 +75,11 @@ SourceFiles
 #ifndef cellCoBlended_H
 #define cellCoBlended_H
 
-#include "surfaceInterpolationScheme.H"
-#include "blendedSchemeBase.H"
-#include "surfaceInterpolate.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "fvcSurfaceIntegrate.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

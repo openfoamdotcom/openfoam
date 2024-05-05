@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "algebraicPairGAMGAgglomeration.H"
-#include "lduMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/algebraicPairGAMGAgglomeration/algebraicPairGAMGAgglomeration.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

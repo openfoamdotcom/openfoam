@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "axisRotationMotion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "unitConversion.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/axisRotationMotion/axisRotationMotion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/unitConversion.H"
 
 using namespace Foam::constant::mathematical;
 

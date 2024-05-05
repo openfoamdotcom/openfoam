@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jumpCyclicAMIFvPatchField.H"
-#include "transformField.H"
+#include "fields/fvPatchFields/constraint/jumpCyclicAMI/jumpCyclicAMIFvPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

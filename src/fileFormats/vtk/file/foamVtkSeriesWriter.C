@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkSeriesWriter.H"
-#include "Fstream.H"
-#include "ListOps.H"
-#include "stringOpsSort.H"
-#include "OSspecific.H"
+#include "vtk/file/foamVtkSeriesWriter.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/strings/stringOps/stringOpsSort.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointFarFieldVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "adjointBoundaryConditions/adjointFarFieldVelocity/adjointFarFieldVelocityFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

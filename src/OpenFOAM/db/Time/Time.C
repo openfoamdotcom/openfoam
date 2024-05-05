@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "PstreamReduceOps.H"
-#include "argList.H"
-#include "HashSet.H"
-#include "profiling.H"
-#include "IOdictionary.H"
-#include "registerSwitch.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "global/argList/argList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "global/profiling/profiling.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "global/debug/registerSwitch.H"
 #include <sstream>
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //

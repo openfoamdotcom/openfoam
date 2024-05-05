@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmTurbulenceModel.H"
+#include "submodels/kinematic/filmTurbulenceModel/filmTurbulenceModel/filmTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

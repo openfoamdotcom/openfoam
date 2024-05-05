@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreamOption.H"
-#include "debug.H"
-#include "dictionary.H"
-#include "Enum.H"
-#include "Switch.H"
+#include "db/options/IOstreamOption.H"
+#include "global/debug/debug.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

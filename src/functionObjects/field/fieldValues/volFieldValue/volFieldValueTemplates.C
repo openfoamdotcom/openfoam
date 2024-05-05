@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFieldValue.H"
-#include "volFields.H"
+#include "fieldValues/volFieldValue/volFieldValue.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

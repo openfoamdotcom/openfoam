@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "runTimeCondition.H"
+#include "runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
 
 // * * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * //
 

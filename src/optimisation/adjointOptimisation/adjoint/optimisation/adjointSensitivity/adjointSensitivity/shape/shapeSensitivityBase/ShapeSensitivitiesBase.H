@@ -57,15 +57,15 @@ SourceFiles
 #ifndef ShapeSensitivitiesBase_H
 #define ShapeSensitivitiesBase_H
 
-#include "adjointSensitivity.H"
-#include "objective.H"
-#include "volPointInterpolation.H"
-#include "pointMesh.H"
-#include "pointPatchField.H"
-#include "pointPatchFieldsFwd.H"
-#include "fixedValuePointPatchField.H"
-#include "boundaryFieldsFwd.H"
-#include "createZeroField.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "objectives/objective/objective.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "global/boundaryFieldsFwd.H"
+#include "global/createZeroField.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -280,7 +280,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ShapeSensitivitiesBaseTemplates.C"
+    #include "optimisation/adjointSensitivity/adjointSensitivity/shape/shapeSensitivityBase/ShapeSensitivitiesBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

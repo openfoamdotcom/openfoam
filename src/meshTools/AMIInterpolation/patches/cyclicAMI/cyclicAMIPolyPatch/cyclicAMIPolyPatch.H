@@ -50,13 +50,13 @@ SourceFiles
 #ifndef Foam_cyclicAMIPolyPatch_H
 #define Foam_cyclicAMIPolyPatch_H
 
-#include "AMIInterpolation.H"
-#include "coupledPolyPatch.H"
-#include "AMIPatchToPatchInterpolation.H"
-#include "polyBoundaryMesh.H"
-#include "coupleGroupIdentifier.H"
-#include "faceAreaWeightAMI.H"
-#include "cylindricalCS.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/Identifiers/patch/coupleGroupIdentifier.H"
+#include "AMIInterpolation/AMIInterpolation/faceAreaWeightAMI/faceAreaWeightAMI.H"
+#include "primitives/coordinate/systems/cylindricalCS.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -598,12 +598,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cyclicAMIPolyPatchI.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatchI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicAMIPolyPatchTemplates.C"
+    #include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatchTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

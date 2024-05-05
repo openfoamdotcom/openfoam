@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constraintProjection.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/updateMethod/constraintProjection/constraintProjection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

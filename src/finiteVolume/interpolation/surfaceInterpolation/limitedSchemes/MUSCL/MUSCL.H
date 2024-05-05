@@ -43,7 +43,7 @@ SourceFiles
 #ifndef MUSCL_H
 #define MUSCL_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

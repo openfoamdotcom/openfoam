@@ -40,7 +40,7 @@ SourceFiles
 #ifndef isotropic_H
 #define isotropic_H
 
-#include "regularisationRadius.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationRadius/regularisationRadius/regularisationRadius.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

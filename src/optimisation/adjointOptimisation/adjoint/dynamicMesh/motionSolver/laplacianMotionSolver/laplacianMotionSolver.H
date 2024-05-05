@@ -44,13 +44,13 @@ SourceFiles
 #ifndef laplacianMotionSolver_H
 #define laplacianMotionSolver_H
 
-#include "velocityMotionSolver.H"
-#include "fvMotionSolver.H"
-#include "volPointInterpolation.H"
-#include "polyMesh.H"
-#include "pointMesh.H"
-#include "pointPatchField.H"
-#include "pointPatchFieldsFwd.H"
+#include "motionSolvers/velocity/velocityMotionSolver.H"
+#include "fvMotionSolvers/fvMotionSolver/fvMotionSolver.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "laplacianMotionSolverI.H"
+#include "dynamicMesh/motionSolver/laplacianMotionSolver/laplacianMotionSolverI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

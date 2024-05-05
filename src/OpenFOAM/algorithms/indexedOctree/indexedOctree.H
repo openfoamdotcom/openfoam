@@ -38,14 +38,14 @@ SourceFiles
 #ifndef Foam_indexedOctree_H
 #define Foam_indexedOctree_H
 
-#include "treeBoundBox.H"
-#include "pointIndexHit.H"
-#include "FixedList.H"
-#include "Ostream.H"
-#include "HashSet.H"
-#include "labelBits.H"
-#include "PackedList.H"
-#include "volumeType.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "algorithms/indexedOctree/labelBits.H"
+#include "containers/Bits/PackedList/PackedList.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -780,7 +780,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "indexedOctree.C"
+    #include "algorithms/indexedOctree/indexedOctree.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidReaction.H"
-#include "DynamicList.H"
+#include "reaction/ReactionsCaseDir/solidReaction/solidReaction.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

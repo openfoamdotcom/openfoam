@@ -30,13 +30,13 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoBreakup.H"
-#include "PilchErdman.H"
-#include "ReitzDiwakar.H"
-#include "ReitzKHRT.H"
-#include "TAB.H"
-#include "ETAB.H"
-#include "SHF.H"
+#include "submodels/BreakupModel/NoBreakup/NoBreakup.H"
+#include "submodels/BreakupModel/PilchErdman/PilchErdman.H"
+#include "submodels/BreakupModel/ReitzDiwakar/ReitzDiwakar.H"
+#include "submodels/BreakupModel/ReitzKHRT/ReitzKHRT.H"
+#include "submodels/BreakupModel/TAB/TAB.H"
+#include "submodels/BreakupModel/ETAB/ETAB.H"
+#include "submodels/BreakupModel/SHF/SHF.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

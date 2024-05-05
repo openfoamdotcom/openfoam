@@ -28,9 +28,9 @@ License
 #ifndef Foam_wordPair_H
 #define Foam_wordPair_H
 
-#include "Pair.H"
-#include "List.H"
-#include "SubList.H"
+#include "primitives/tuples/Pair.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Foam_nullObject_H
 #define Foam_nullObject_H
 
-#include "labelFwd.H"
+#include "primitives/ints/label/labelFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

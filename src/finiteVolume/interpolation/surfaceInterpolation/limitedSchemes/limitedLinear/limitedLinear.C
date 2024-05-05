@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LimitedScheme.H"
-#include "Limited01.H"
-#include "limitedLinear.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/Limited01/Limited01.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/limitedLinear/limitedLinear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

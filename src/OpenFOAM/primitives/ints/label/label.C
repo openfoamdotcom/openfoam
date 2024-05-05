@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "label.H"
-#include "Istream.H"
+#include "db/error/error.H"
+#include "primitives/ints/label/label.H"
+#include "db/IOstreams/IOstreams/Istream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

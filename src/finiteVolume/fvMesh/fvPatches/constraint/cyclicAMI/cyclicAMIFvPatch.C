@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "transform.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/transform/transform.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

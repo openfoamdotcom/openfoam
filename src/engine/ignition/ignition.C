@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ignition.H"
-#include "fvMesh.H"
+#include "ignition/ignition.H"
+#include "fvMesh/fvMesh.H"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

@@ -38,10 +38,10 @@ SourceFiles
 #ifndef incompressibleTwoPhaseMixture_H
 #define incompressibleTwoPhaseMixture_H
 
-#include "incompressible/transportModel/transportModel.H"
-#include "incompressible/viscosityModels/viscosityModel/viscosityModel.H"
-#include "twoPhaseMixture.H"
-#include "IOdictionary.H"
+#include "transportModel/transportModel.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
+#include "twoPhaseMixture/twoPhaseMixture.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprValuePointPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fieldTypes.H"
-#include "pointPatchFields.H"
+#include "expressions/fields/pointPatchFields/exprValuePointPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

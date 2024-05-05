@@ -106,8 +106,8 @@ SourceFiles
 #ifndef Foam_codedFixedValuePointPatchField_H
 #define Foam_codedFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchFields.H"
-#include "codedBase.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -268,7 +268,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "codedFixedValuePointPatchField.C"
+    #include "fields/pointPatchFields/derived/codedFixedValue/codedFixedValuePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

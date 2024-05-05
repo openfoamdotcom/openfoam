@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PairSpringSliderDashpot.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairSpringSliderDashpot/PairSpringSliderDashpot.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

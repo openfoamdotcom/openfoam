@@ -38,7 +38,7 @@ SourceFiles
 #ifndef blocks_namedBlock_H
 #define blocks_namedBlock_H
 
-#include "block.H"
+#include "blocks/block/block.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

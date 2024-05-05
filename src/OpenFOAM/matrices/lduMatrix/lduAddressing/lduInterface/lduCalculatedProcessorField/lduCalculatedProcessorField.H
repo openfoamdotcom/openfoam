@@ -45,9 +45,9 @@ SourceFiles
 #ifndef Foam_lduCalculatedProcessorField_H
 #define Foam_lduCalculatedProcessorField_H
 
-#include "lduPrimitiveProcessorInterface.H"
-#include "processorLduInterfaceField.H"
-#include "LduInterfaceFieldPascal.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduPrimitiveProcessorInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduInterfaceField/LduInterfaceFieldPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,7 +243,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lduCalculatedProcessorField.C"
+    #include "matrices/lduMatrix/lduAddressing/lduInterface/lduCalculatedProcessorField/lduCalculatedProcessorField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

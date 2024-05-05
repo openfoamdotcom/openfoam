@@ -37,8 +37,8 @@ SourceFiles
 #ifndef layeredEngineMesh_H
 #define layeredEngineMesh_H
 
-#include "engineMesh.H"
-#include "dimensionedScalar.H"
+#include "engineMesh/engineMesh/engineMesh.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

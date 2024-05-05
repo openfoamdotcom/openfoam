@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearUpwindNormal.H"
-#include "fvMesh.H"
+#include "finiteVolume/interpolation/surfaceInterpolation/schemes/limitedSchemes/linearUpwindNormal/linearUpwindNormal.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

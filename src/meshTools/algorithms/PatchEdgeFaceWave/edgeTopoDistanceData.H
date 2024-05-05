@@ -40,9 +40,9 @@ SourceFiles
 #ifndef edgeTopoDistanceData_H
 #define edgeTopoDistanceData_H
 
-#include "point.H"
-#include "tensor.H"
-#include "indirectPrimitivePatch.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,12 +239,12 @@ struct is_contiguous_scalar<edgeTopoDistanceData<Type, PrimitivePatchType>> :
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "edgeTopoDistanceData.C"
+    #include "algorithms/PatchEdgeFaceWave/edgeTopoDistanceData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "edgeTopoDistanceDataI.H"
+#include "algorithms/PatchEdgeFaceWave/edgeTopoDistanceDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

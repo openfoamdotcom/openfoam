@@ -34,14 +34,14 @@ SourceFiles
 #ifndef Foam_reactingEuler_phaseModel_H
 #define Foam_reactingEuler_phaseModel_H
 
-#include "dictionary.H"
-#include "dimensionedScalar.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatricesFwd.H"
-#include "rhoThermo.H"
-#include "phaseCompressibleTurbulenceModelFwd.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "rhoThermo/rhoThermo.H"
+#include "turbulence/phaseCompressibleTurbulenceModelFwd.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

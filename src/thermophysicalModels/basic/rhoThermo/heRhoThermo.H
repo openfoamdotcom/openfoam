@@ -38,8 +38,8 @@ SourceFiles
 #ifndef heRhoThermo_H
 #define heRhoThermo_H
 
-#include "rhoThermo.H"
-#include "heThermo.H"
+#include "rhoThermo/rhoThermo.H"
+#include "heThermo/heThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -120,7 +120,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "heRhoThermo.C"
+    #include "rhoThermo/heRhoThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

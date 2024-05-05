@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkUnstructuredReader.H"
-#include "labelIOField.H"
-#include "scalarIOField.H"
-#include "stringIOList.H"
-#include "cellModel.H"
-#include "vectorIOField.H"
-#include "triangle.H"
-#include "stringOps.H"
+#include "vtk/read/vtkUnstructuredReader.H"
+#include "fields/Fields/labelField/labelIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "primitives/strings/string/stringIOList.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "fields/Fields/vectorField/vectorIOField.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

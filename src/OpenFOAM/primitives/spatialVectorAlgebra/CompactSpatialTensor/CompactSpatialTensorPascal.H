@@ -51,7 +51,7 @@ See also
 #ifndef Foam_CompactSpatialTensor_H
 #define Foam_CompactSpatialTensor_H
 
-#include "SpatialTensorPascal.H"
+#include "primitives/spatialVectorAlgebra/SpatialTensor/SpatialTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -154,8 +154,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "CompactSpatialTensorT.H"
-#include "CompactSpatialTensorI.H"
+#include "primitives/spatialVectorAlgebra/CompactSpatialTensorT/CompactSpatialTensorT.H"
+#include "primitives/spatialVectorAlgebra/CompactSpatialTensor/CompactSpatialTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

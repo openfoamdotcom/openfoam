@@ -127,7 +127,7 @@ SourceFiles
 #ifndef Foam_functionObjects_binField_H
 #define Foam_functionObjects_binField_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

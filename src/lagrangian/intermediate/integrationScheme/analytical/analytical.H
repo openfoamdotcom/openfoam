@@ -38,7 +38,7 @@ Description
 #ifndef analytical_H
 #define analytical_H
 
-#include "integrationScheme.H"
+#include "integrationScheme/integrationScheme/integrationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -84,8 +84,8 @@ SourceFiles
 #ifndef functionObjects_codedFunctionObject_H
 #define functionObjects_codedFunctionObject_H
 
-#include "timeFunctionObject.H"
-#include "codedBase.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

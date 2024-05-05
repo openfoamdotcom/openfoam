@@ -40,9 +40,9 @@ SourceFiles
 #ifndef isoSurfaceTopo_H
 #define isoSurfaceTopo_H
 
-#include "bitSet.H"
-#include "edgeList.H"
-#include "isoSurfaceBase.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "surface/isoSurface/isoSurfaceBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -271,7 +271,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "isoSurfaceTopoTemplates.C"
+    #include "surface/isoSurface/isoSurfaceTopoTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

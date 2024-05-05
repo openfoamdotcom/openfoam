@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantSurfaceTensionCoefficient.H"
-#include "reactingEuler_phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfaceModels/surfaceTensionModels/constantSurfaceTensionCoefficient/constantSurfaceTensionCoefficient.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

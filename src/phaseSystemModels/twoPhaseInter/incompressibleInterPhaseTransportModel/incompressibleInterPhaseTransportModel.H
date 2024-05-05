@@ -47,9 +47,9 @@ SourceFiles
 #define incompressibleInterPhaseTransportModel_H
 
 
-#include "turbulentTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
 #include "VoFphaseTurbulentTransportModel.H"
-#include "demandDrivenEntry.H"
+#include "primitives/demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

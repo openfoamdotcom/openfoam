@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_symmetryFaPatch_H
 #define Foam_symmetryFaPatch_H
 
-#include "faPatch.H"
-#include "symmetryPolyPatch.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

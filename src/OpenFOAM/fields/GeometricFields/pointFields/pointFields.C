@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "pointFields.H"
-#include "registerSwitch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

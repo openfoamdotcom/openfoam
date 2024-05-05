@@ -37,9 +37,9 @@ Description
 #ifndef adjointBoundaryCondition_H
 #define adjointBoundaryCondition_H
 
-#include "boundaryAdjointContribution.H"
-#include "ATCModel.H"
-#include "Switch.H"
+#include "boundaryAdjointContributions/boundaryAdjointContribution/boundaryAdjointContribution.H"
+#include "ATCModel/ATCModel/ATCModel.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "adjointBoundaryCondition.C"
+    #include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryCondition.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

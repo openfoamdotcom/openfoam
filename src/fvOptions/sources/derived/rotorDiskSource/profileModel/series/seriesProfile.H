@@ -93,8 +93,8 @@ SourceFiles
 #ifndef seriesProfile_H
 #define seriesProfile_H
 
-#include "profileModel.H"
-#include "List.H"
+#include "sources/derived/rotorDiskSource/profileModel/profileModel.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

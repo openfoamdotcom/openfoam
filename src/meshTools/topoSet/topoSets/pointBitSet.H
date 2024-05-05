@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_pointBitSet_H
 #define Foam_pointBitSet_H
 
-#include "topoBitSet.H"
+#include "topoSet/topoSets/topoBitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

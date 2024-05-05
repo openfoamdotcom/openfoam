@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "equationInitialResidualCondition.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
+#include "runTimeControl/runTimeCondition/equationInitialResidualCondition/equationInitialResidualCondition.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
 
 #define SetResidual(Type)                                                     \
     setResidual<Type>(mesh, solverDict, fieldName, component, canSet, residual);

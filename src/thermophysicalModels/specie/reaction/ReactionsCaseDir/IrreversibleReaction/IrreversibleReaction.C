@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IrreversibleReaction.H"
+#include "reaction/ReactionsCaseDir/IrreversibleReaction/IrreversibleReaction.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

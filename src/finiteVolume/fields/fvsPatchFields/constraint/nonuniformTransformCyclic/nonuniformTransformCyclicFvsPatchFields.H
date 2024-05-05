@@ -28,8 +28,8 @@ License
 #ifndef nonuniformTransformCyclicFvsPatchFields_H
 #define nonuniformTransformCyclicFvsPatchFields_H
 
-#include "nonuniformTransformCyclicFvsPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvsPatchFields/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicFvsPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

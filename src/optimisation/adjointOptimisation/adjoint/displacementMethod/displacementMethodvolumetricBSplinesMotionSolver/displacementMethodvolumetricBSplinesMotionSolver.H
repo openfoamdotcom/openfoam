@@ -41,8 +41,8 @@ SourceFiles
 #ifndef displacementMethodvolumetricBSplinesMotionSolver_H
 #define displacementMethodvolumetricBSplinesMotionSolver_H
 
-#include "displacementMethod.H"
-#include "volumetricBSplinesMotionSolver.H"
+#include "displacementMethod/displacementMethod/displacementMethod.H"
+#include "dynamicMesh/motionSolver/volumetricBSplinesMotionSolver/volumetricBSplinesMotionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

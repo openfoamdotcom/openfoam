@@ -38,8 +38,8 @@ SourceFiles
 #ifndef intersection_H
 #define intersection_H
 
-#include "scalar.H"
-#include "Enum.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -138,10 +138,10 @@ SourceFiles
 #ifndef Foam_fa_jouleHeatingSource_H
 #define Foam_fa_jouleHeatingSource_H
 
-#include "faOption.H"
-#include "Function1Pascal.H"
-#include "areaFields.H"
-#include "faceSetOption.H"
+#include "faOption/faOption.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "fields/areaFields/areaFields.H"
+#include "faceSetOption/faceSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -255,7 +255,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "jouleHeatingSourceTemplates.C"
+    #include "sources/derived/jouleHeatingSource/jouleHeatingSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

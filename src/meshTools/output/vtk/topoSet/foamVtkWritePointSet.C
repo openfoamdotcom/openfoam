@@ -26,11 +26,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include <fstream>
-#include "foamVtkWriteTopoSet.H"
-#include "polyMesh.H"
-#include "pointSet.H"
-#include "globalIndex.H"
-#include "OSspecific.H"
+#include "output/vtk/topoSet/foamVtkWriteTopoSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

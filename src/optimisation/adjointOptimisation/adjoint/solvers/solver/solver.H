@@ -36,10 +36,10 @@ Description
 #ifndef solver_H
 #define solver_H
 
-#include "fvMesh.H"
-#include "fvMatrix.H"
-#include "localIOdictionary.H"
-#include "variablesSet.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "solvers/variablesSet/variablesSet/variablesSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -224,7 +224,7 @@ public:
 #ifdef NoRepository
 #   include "solverTemplates.C"
 #endif
-#include "solverI.H"
+#include "solvers/solver/solverI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

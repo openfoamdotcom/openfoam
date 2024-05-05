@@ -28,8 +28,8 @@ License
 #ifndef polyPatchID_H
 #define polyPatchID_H
 
-#include "DynamicID.H"
-#include "polyBoundaryMesh.H"
+#include "meshes/Identifiers/DynamicID/DynamicID.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef gaussFaDivScheme_H
 #define gaussFaDivScheme_H
 
-#include "faDivScheme.H"
+#include "finiteArea/divSchemes/faDivScheme/faDivScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gaussFaDivScheme.C"
+    #include "finiteArea/divSchemes/gaussFaDivScheme/gaussFaDivScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

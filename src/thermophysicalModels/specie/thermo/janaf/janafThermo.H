@@ -43,8 +43,8 @@ SourceFiles
 #ifndef janafThermo_H
 #define janafThermo_H
 
-#include "scalar.H"
-#include "FixedList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
             //- Gibbs free energy of the mixture in the standard state [J/kg]
             inline scalar Gstd(const scalar T) const;
 
-            #include "HtoEthermo.H"
+            #include "thermo/thermo/HtoEthermo.H"
 
 
         // Derivative term used for Jacobian
@@ -252,10 +252,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "janafThermoI.H"
+#include "thermo/janaf/janafThermoI.H"
 
 #ifdef NoRepository
-    #include "janafThermo.C"
+    #include "thermo/janaf/janafThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

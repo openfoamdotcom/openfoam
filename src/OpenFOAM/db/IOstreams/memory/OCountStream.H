@@ -34,7 +34,7 @@ Description
 #ifndef Foam_OScountStream_H
 #define Foam_OScountStream_H
 
-#include "OSstream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
 #include <iostream>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

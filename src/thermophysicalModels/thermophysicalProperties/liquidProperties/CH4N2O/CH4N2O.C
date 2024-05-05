@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CH4N2O.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidProperties/CH4N2O/CH4N2O.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

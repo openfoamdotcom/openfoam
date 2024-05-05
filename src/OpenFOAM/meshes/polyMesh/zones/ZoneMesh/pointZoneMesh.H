@@ -31,9 +31,9 @@ Description
 #ifndef pointZoneMesh_H
 #define pointZoneMesh_H
 
-#include "ZoneMesh.H"
-#include "pointZone.H"
-#include "pointZoneMeshFwd.H"
+#include "meshes/polyMesh/zones/ZoneMesh/ZoneMesh.H"
+#include "meshes/polyMesh/zones/pointZone/pointZone.H"
+#include "meshes/polyMesh/zones/ZoneMesh/pointZoneMeshFwd.H"
 
 #endif
 

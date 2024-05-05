@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UIPstream.H"
+#include "db/IOstreams/Pstreams/UIPstream.H"
 #include "PstreamGlobals.H"
-#include "profilingPstream.H"
-#include "IOstreams.H"
+#include "global/profiling/profilingPstream.H"
+#include "db/IOstreams/IOstreams.H"
 
 // FUTURE? probe and receive message
 // - as of 2023-06 appears to be broken with INTELMPI + PMI-2 (slurm)

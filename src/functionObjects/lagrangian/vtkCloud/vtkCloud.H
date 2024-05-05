@@ -137,12 +137,12 @@ SourceFiles
 #ifndef functionObjects_vtkCloud_H
 #define functionObjects_vtkCloud_H
 
-#include "fvMeshFunctionObject.H"
-#include "parcelSelectionDetail.H"
-#include "foamVtkOutputOptions.H"
-#include "foamVtkSeriesWriter.H"
-#include "wordRes.H"
-#include "HashTable.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "common/parcelSelectionDetail.H"
+#include "vtk/output/foamVtkOutputOptions.H"
+#include "vtk/file/foamVtkSeriesWriter.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -263,7 +263,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "vtkCloudTemplates.C"
+    #include "vtkCloud/vtkCloudTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

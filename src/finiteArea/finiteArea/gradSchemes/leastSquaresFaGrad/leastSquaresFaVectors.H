@@ -40,10 +40,10 @@ SourceFiles
 #ifndef leastSquaresFaVectors_H
 #define leastSquaresFaVectors_H
 
-#include "MeshObject.H"
-#include "faMesh.H"
-#include "edgeFieldsFwd.H"
-#include "labelPair.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "faMesh/faMesh.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "primitives/tuples/labelPair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

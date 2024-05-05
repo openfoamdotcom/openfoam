@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoCollision.H"
+#include "submodels/Kinematic/CollisionModel/NoCollision/NoCollision.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussDivScheme.H"
-#include "fvMesh.H"
+#include "finiteVolume/divSchemes/gaussDivScheme/gaussDivScheme.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ Description
 #ifndef subCycle_H
 #define subCycle_H
 
-#include "subCycleTime.H"
+#include "db/Time/subCycleTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

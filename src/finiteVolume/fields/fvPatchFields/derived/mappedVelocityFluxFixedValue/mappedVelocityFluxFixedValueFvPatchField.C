@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedVelocityFluxFixedValueFvPatchField.H"
-#include "fvPatchFieldMapper.H"
-#include "mappedPatchBase.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/mappedVelocityFluxFixedValue/mappedVelocityFluxFixedValueFvPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

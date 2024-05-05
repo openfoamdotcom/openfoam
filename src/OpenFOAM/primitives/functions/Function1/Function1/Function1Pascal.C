@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Function1Pascal.H"
-#include "TimeOpenFOAM.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "db/Time/TimeOpenFOAM.H"
 // Required by clang 5 for correct instantiation of Function1::New
-#include "Constant.H"
+#include "primitives/functions/Function1/Constant/Constant.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

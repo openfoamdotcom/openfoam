@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "nullObject.H"
+#include "db/error/error.H"
+#include "primitives/nullObject/nullObject.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

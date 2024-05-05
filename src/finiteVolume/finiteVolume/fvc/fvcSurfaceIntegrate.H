@@ -39,9 +39,9 @@ SourceFiles
 #ifndef fvcSurfaceIntegrate_H
 #define fvcSurfaceIntegrate_H
 
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcSurfaceIntegrate.C"
+    #include "finiteVolume/fvc/fvcSurfaceIntegrate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -51,10 +51,10 @@ SourceFiles
 #ifndef AC3DsurfaceFormat_H
 #define AC3DsurfaceFormat_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "UnsortedMeshedSurface.H"
-#include "AC3DsurfaceFormatCore.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "surfaceFormats/ac3d/AC3DsurfaceFormatCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -132,7 +132,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AC3DsurfaceFormat.C"
+    #include "surfaceFormats/ac3d/AC3DsurfaceFormat.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -50,7 +50,7 @@ SourceFiles
 #ifndef Foam_CompactListList_H
 #define Foam_CompactListList_H
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -550,13 +550,13 @@ Ostream& operator<<(Ostream& os, const CompactListList<T>& list)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CompactListListI.H"
+#include "containers/CompactLists/CompactListList/CompactListListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CompactListList.C"
-    #include "CompactListListIO.C"
+    #include "containers/CompactLists/CompactListList/CompactListList.C"
+    #include "containers/CompactLists/CompactListList/CompactListListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

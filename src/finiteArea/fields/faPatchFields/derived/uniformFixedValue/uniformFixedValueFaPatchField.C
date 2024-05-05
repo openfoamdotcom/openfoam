@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedValueFaPatchField.H"
+#include "fields/faPatchFields/derived/uniformFixedValue/uniformFixedValueFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

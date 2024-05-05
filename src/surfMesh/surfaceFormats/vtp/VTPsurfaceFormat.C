@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTPsurfaceFormat.H"
+#include "surfaceFormats/vtp/VTPsurfaceFormat.H"
 #include <fstream>
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

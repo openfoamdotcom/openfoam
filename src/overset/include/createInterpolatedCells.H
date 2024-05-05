@@ -51,6 +51,6 @@ volScalarField interpolatedCells
     fvPatchFieldBase::zeroGradientType()
 );
 
-#include "setInterpolatedCells.H"
+#include "include/setInterpolatedCells.H"
 
 // ************************************************************************* //

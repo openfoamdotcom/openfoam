@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearRadial.H"
-#include "addToRunTimeSelectionTable.H"
+#include "linearRadial/linearRadial.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 namespace Foam
 {

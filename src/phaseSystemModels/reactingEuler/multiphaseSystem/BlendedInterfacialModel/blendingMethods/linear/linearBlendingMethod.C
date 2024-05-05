@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearBlendingMethod.H"
-#include "addToRunTimeSelectionTable.H"
+#include "BlendedInterfacialModel/blendingMethods/linear/linearBlendingMethod.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -46,8 +46,8 @@ SourceFiles
 #ifndef preservePatchesConstraint_H
 #define preservePatchesConstraint_H
 
-#include "decompositionConstraint.H"
-#include "wordRes.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

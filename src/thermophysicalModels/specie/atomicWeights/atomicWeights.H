@@ -37,8 +37,8 @@ SourceFiles
 #ifndef atomicWeights_H
 #define atomicWeights_H
 
-#include "scalar.H"
-#include "HashTable.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

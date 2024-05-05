@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryMesh.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "repatchPolyTopoChanger.H"
-#include "faceList.H"
-#include "indexedOctree.H"
-#include "treeDataPrimitivePatch.H"
-#include "triSurface.H"
-#include "SortableList.H"
-#include "OFstream.H"
-#include "primitivePatch.H"
-#include "indirectPrimitivePatch.H"
+#include "boundaryMesh/boundaryMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "triSurface/triSurface.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

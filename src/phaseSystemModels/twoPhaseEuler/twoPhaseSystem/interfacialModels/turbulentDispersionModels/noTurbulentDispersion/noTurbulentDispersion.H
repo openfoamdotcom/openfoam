@@ -36,7 +36,7 @@ SourceFiles
 #ifndef noTurbulentDispersion_H
 #define noTurbulentDispersion_H
 
-#include "turbulentDispersionModel.H"
+#include "interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

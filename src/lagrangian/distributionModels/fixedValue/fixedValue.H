@@ -70,7 +70,7 @@ SourceFiles
 #ifndef distributionModels_fixedValue_H
 #define distributionModels_fixedValue_H
 
-#include "distributionModel.H"
+#include "distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

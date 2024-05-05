@@ -45,9 +45,9 @@ SourceFiles
 #ifndef VTKsurfaceFormatCore_H
 #define VTKsurfaceFormatCore_H
 
-#include "point.H"
-#include "surfZone.H"
-#include "foamVtkOutputOptions.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "surfZone/surfZone.H"
+#include "vtk/output/foamVtkOutputOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

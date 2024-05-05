@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellToFaceStencil.H"
-#include "emptyPolyPatch.H"
-#include "syncTools.H"
-#include "dummyTransform.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/cellToFaceStencil.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/syncTools/dummyTransform.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

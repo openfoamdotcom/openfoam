@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearValveFvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "slidingInterface.H"
-#include "mapPolyMesh.H"
-#include "polyTopoChange.H"
-#include "addToRunTimeSelectionTable.H"
+#include "linearValveFvMesh/linearValveFvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "slidingInterface/slidingInterface.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

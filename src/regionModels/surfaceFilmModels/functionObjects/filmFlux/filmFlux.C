@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "filmFlux.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "surfaceInterpolate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/filmFlux/filmFlux.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

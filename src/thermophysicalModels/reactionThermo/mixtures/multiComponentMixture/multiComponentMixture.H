@@ -41,8 +41,8 @@ SourceFiles
 #ifndef multiComponentMixture_H
 #define multiComponentMixture_H
 
-#include "basicSpecieMixture.H"
-#include "Reaction.H"  // For ReactionTable
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"  // For ReactionTable
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -171,7 +171,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "multiComponentMixture.C"
+    #include "mixtures/multiComponentMixture/multiComponentMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

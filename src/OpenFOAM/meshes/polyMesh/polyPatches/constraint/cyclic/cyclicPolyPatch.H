@@ -49,11 +49,11 @@ SourceFiles
 #ifndef Foam_cyclicPolyPatch_H
 #define Foam_cyclicPolyPatch_H
 
-#include "coupledPolyPatch.H"
-#include "edgeList.H"
-#include "polyBoundaryMesh.H"
-#include "diagTensorField.H"
-#include "coupleGroupIdentifier.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "fields/Fields/diagTensorField/diagTensorField.H"
+#include "meshes/Identifiers/patch/coupleGroupIdentifier.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

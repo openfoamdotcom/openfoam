@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfMesh.H"
-#include "meshedSurf.H"
-#include "MeshedSurfaceProxy.H"
+#include "surfMesh/surfMesh.H"
+#include "meshedSurf/meshedSurf.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
 
-#include "TimeOpenFOAM.H"
-#include "OSspecific.H"
-#include "MeshedSurface.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "include/OSspecific.H"
+#include "MeshedSurface/MeshedSurface.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

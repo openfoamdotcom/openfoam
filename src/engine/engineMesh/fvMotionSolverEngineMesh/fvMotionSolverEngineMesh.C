@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMotionSolverEngineMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcMeshPhi.H"
-#include "surfaceInterpolate.H"
+#include "engineMesh/fvMotionSolverEngineMesh/fvMotionSolverEngineMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_OFstream_H
 #define Foam_OFstream_H
 
-#include "OSstream.H"
-#include "className.H"
-#include "fstreamPointer.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
+#include "db/typeInfo/className.H"
+#include "db/IOstreams/Fstreams/fstreamPointer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

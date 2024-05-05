@@ -42,8 +42,8 @@ SourceFiles
 #ifndef genericFaePatchField_H
 #define genericFaePatchField_H
 
-#include "calculatedFaePatchField.H"
-#include "genericPatchFieldBase.H"
+#include "fields/faePatchFields/basic/calculated/calculatedFaePatchField.H"
+#include "common/genericPatchFieldBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "genericFaePatchField.C"
+    #include "genericFaePatchField/genericFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

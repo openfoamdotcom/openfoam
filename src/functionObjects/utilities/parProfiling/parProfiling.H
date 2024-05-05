@@ -55,7 +55,7 @@ SourceFiles
 #ifndef Foam_functionObjects_parProfiling_H
 #define Foam_functionObjects_parProfiling_H
 
-#include "functionObject.H"
+#include "db/functionObjects/functionObject/functionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

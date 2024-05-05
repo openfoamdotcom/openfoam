@@ -151,7 +151,7 @@ inline clockValue operator+(const clockValue& a, const clockValue& b)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "clockValueI.H"
+#include "global/clockValue/clockValueI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

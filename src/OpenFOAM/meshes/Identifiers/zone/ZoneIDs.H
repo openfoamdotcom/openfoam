@@ -28,11 +28,11 @@ License
 #ifndef ZoneIDs_H
 #define ZoneIDs_H
 
-#include "DynamicID.H"
+#include "meshes/Identifiers/DynamicID/DynamicID.H"
 
-#include "cellZoneMeshFwd.H"
-#include "faceZoneMeshFwd.H"
-#include "pointZoneMeshFwd.H"
+#include "meshes/polyMesh/zones/ZoneMesh/cellZoneMeshFwd.H"
+#include "meshes/polyMesh/zones/ZoneMesh/faceZoneMeshFwd.H"
+#include "meshes/polyMesh/zones/ZoneMesh/pointZoneMeshFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

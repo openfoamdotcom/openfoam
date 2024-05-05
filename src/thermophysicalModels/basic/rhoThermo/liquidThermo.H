@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rhoThermo.H"
-#include "heRhoThermo.H"
-#include "pureMixture.H"
-#include "thermo.H"
-#include "sensibleInternalEnergy.H"
-#include "sensibleEnthalpy.H"
-#include "thermophysicalPropertiesSelector.H"
-#include "liquidProperties.H"
+#include "rhoThermo/rhoThermo.H"
+#include "rhoThermo/heRhoThermo.H"
+#include "mixtures/pureMixture/pureMixture.H"
+#include "thermo/thermo.H"
+#include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermophysicalPropertiesSelector/thermophysicalPropertiesSelector.H"
+#include "liquidProperties/liquidProperties/liquidProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

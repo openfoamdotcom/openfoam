@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_vtk_legacyAsciiFormatter_H
 #define Foam_vtk_legacyAsciiFormatter_H
 
-#include "foamVtkAsciiFormatter.H"
+#include "vtk/format/foamVtkAsciiFormatter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

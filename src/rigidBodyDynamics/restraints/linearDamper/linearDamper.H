@@ -40,7 +40,7 @@ SourceFiles
 #ifndef RBD_restraints_linearDamper_H
 #define RBD_restraints_linearDamper_H
 
-#include "rigidBodyRestraint.H"
+#include "restraints/restraint/rigidBodyRestraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

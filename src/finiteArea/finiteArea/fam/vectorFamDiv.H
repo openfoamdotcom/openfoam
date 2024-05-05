@@ -37,7 +37,7 @@ SourceFiles
 #ifndef vectorFamDiv_H
 #define vectorFamDiv_H
 
-#include "famDiv.H"
+#include "finiteArea/fam/famDiv.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

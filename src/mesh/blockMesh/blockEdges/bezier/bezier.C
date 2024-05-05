@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bezier.H"
-#include "polyLinePascal.H"
-#include "SubList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "blockEdges/bezier/bezier.H"
+#include "blockEdges/polyLineEdge/polyLinePascal.H"
+#include "containers/Lists/List/SubList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

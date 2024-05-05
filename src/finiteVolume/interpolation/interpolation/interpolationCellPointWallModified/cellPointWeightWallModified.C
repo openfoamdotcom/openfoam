@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellPointWeightWallModified.H"
-#include "polyMesh.H"
-#include "polyBoundaryMesh.H"
-#include "wallPolyPatch.H"
+#include "interpolation/interpolation/interpolationCellPointWallModified/cellPointWeightWallModified.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

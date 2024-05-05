@@ -37,7 +37,7 @@ Description
 #ifndef Foam_fileOperations_fileOperationInitialise_H
 #define Foam_fileOperations_fileOperationInitialise_H
 
-#include "runTimeSelectionTables.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

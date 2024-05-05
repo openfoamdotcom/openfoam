@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicHeterogeneousReactingCloud.H"
+#include "clouds/derived/basicHeterogeneousReactingCloud/basicHeterogeneousReactingCloud.H"
 
-#include "makeParcelTurbulenceDispersionModels.H"
-#include "makeThermoParcelTurbulenceForces.H"
+#include "parcels/include/makeParcelTurbulenceDispersionModels.H"
+#include "parcels/include/makeThermoParcelTurbulenceForces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

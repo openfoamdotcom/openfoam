@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_expressions_exprResultStack_H
 #define Foam_expressions_exprResultStack_H
 
-#include "exprResult.H"
+#include "expressions/exprResult/exprResult.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -130,7 +130,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "exprResultStackTemplates.C"
+    #include "expressions/exprResult/exprResultStackTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

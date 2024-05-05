@@ -42,7 +42,7 @@ SourceFiles
 #ifndef ReversibleReaction_H
 #define ReversibleReaction_H
 
-#include "Reaction.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -197,7 +197,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReversibleReaction.C"
+    #include "reaction/ReactionsCaseDir/ReversibleReaction/ReversibleReaction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

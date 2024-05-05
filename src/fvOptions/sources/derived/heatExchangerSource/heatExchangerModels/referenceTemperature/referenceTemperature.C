@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "referenceTemperature.H"
-#include "fvMesh.H"
-#include "basicThermo.H"
-#include "surfaceInterpolate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/heatExchangerSource/heatExchangerModels/referenceTemperature/referenceTemperature.H"
+#include "fvMesh/fvMesh.H"
+#include "basicThermo/basicThermo.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

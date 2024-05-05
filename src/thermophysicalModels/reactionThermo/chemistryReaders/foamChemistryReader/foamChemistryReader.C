@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamChemistryReader.H"
-#include "IFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "chemistryReaders/foamChemistryReader/foamChemistryReader.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -40,19 +40,19 @@ SourceFiles
 #ifndef Foam_triangle_H
 #define Foam_triangle_H
 
-#include "triangleFwd.H"
-#include "intersection.H"
-#include "vector.H"
-#include "tensor.H"
-#include "pointHit.H"
-#include "Random.H"
-#include "FixedList.H"
-#include "UList.H"
-#include "line.H"
-#include "Pair.H"
-#include "Tuple2.H"
-#include "barycentric2D.H"
-#include "treeBoundBox.H"
+#include "meshes/primitiveShapes/triangle/triangleFwd.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "primitives/random/Random/Random.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/List/UList.H"
+#include "meshes/primitiveShapes/line/line.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/Barycentric2D/barycentric2D/barycentric2D.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -544,7 +544,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triangleI.H"
+#include "meshes/primitiveShapes/triangle/triangleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

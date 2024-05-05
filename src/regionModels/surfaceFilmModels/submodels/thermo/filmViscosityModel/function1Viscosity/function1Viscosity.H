@@ -38,8 +38,8 @@ SourceFiles
 #ifndef function1Viscosity_H
 #define function1Viscosity_H
 
-#include "filmViscosityModel.H"
-#include "Function1Pascal.H"
+#include "submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

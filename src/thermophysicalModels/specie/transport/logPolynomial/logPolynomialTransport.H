@@ -87,7 +87,7 @@ See also
 #ifndef logPolynomialTransport_H
 #define logPolynomialTransport_H
 
-#include "PolynomialPascal.H"
+#include "primitives/functions/Polynomial/PolynomialPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -246,10 +246,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "logPolynomialTransportI.H"
+#include "transport/logPolynomial/logPolynomialTransportI.H"
 
 #ifdef NoRepository
-    #include "logPolynomialTransport.C"
+    #include "transport/logPolynomial/logPolynomialTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

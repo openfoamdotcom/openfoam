@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellCentreSet.H"
-#include "meshSearch.H"
-#include "polyMesh.H"
-#include "volFields.H"
-#include "globalIndex.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/cellCentre/cellCentreSet.H"
+#include "meshSearch/meshSearch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/volFields/volFields.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

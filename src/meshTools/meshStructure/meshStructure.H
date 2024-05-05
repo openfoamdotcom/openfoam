@@ -42,9 +42,9 @@ SourceFiles
 #ifndef Foam_meshStructure_H
 #define Foam_meshStructure_H
 
-#include "labelList.H"
-#include "indirectPrimitivePatch.H"
-#include "className.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshStructureI.H"
+#include "meshStructure/meshStructureI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

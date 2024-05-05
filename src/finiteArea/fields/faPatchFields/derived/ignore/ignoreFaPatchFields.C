@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ignoreFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "areaFields.H"
+#include "fields/faPatchFields/derived/ignore/ignoreFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

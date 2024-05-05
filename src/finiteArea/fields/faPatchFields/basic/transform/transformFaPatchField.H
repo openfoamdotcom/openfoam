@@ -40,8 +40,8 @@ SourceFiles
 #ifndef transformFaPatchField_H
 #define transformFaPatchField_H
 
-#include "faPatchField.H"
-#include "areaFaMesh.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ tmp<scalarField> transformFaPatchField<scalar>::gradientInternalCoeffs() const;
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformFaPatchField.C"
+    #include "fields/faPatchFields/basic/transform/transformFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

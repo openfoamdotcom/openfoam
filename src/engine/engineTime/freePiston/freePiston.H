@@ -57,10 +57,10 @@ SourceFiles
 #ifndef freePiston_H
 #define freePiston_H
 
-#include "engineTime.H"
-#include "dictionary.H"
-#include "dimensionedScalar.H"
-#include "Function1Pascal.H"
+#include "engineTime/engineTime/engineTime.H"
+#include "db/dictionary/dictionary.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

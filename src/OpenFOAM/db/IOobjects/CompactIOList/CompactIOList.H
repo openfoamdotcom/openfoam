@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_CompactIOList_H
 #define Foam_CompactIOList_H
 
-#include "IOList.H"
-#include "regIOobject.H"
+#include "db/IOobjects/IOList/IOList.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CompactIOList.C"
+    #include "db/IOobjects/CompactIOList/CompactIOList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

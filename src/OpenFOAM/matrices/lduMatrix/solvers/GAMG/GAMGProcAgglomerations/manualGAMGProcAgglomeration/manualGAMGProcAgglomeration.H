@@ -62,8 +62,8 @@ SourceFiles
 #ifndef Foam_manualGAMGProcAgglomeration_H
 #define Foam_manualGAMGProcAgglomeration_H
 
-#include "GAMGProcAgglomeration.H"
-#include "Tuple2.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

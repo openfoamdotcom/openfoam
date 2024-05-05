@@ -34,16 +34,16 @@ Description
     #define _SYS_VNODE_H
 #endif
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 #include "POSIX.H"
-#include "fileName.H"
-#include "fileStat.H"
-#include "timer.H"
-#include "DynamicList.H"
-#include "CStringList.H"
-#include "stringOps.H"
-#include "IOstreams.H"
-#include "Pstream.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "fileStat/fileStat.H"
+#include "signals/timer.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/strings/lists/CStringList.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 #include <fstream>
 #include <cstdlib>

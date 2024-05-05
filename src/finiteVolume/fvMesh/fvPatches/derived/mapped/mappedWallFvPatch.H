@@ -37,8 +37,8 @@ SourceFiles
 #ifndef mappedWallFvPatch_H
 #define mappedWallFvPatch_H
 
-#include "wallFvPatch.H"
-#include "mappedWallPolyPatch.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ Description
 #ifndef patchInteractionData_H
 #define patchInteractionData_H
 
-#include "wordRe.H"
-#include "scalar.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

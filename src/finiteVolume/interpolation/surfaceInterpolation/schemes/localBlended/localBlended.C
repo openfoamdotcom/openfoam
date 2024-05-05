@@ -28,8 +28,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "localBlended.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/localBlended/localBlended.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

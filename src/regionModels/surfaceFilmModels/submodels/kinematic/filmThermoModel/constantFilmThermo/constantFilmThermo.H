@@ -37,8 +37,8 @@ SourceFiles
 #ifndef constantFilmThermo_H
 #define constantFilmThermo_H
 
-#include "filmThermoModel.H"
-#include "dimensionSet.H"
+#include "submodels/kinematic/filmThermoModel/filmThermoModel/filmThermoModel.H"
+#include "dimensionSet/dimensionSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

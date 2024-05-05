@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quaternion.H"
-#include "IOstreams.H"
-#include "StringStream.H"
+#include "primitives/quaternion/quaternion.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

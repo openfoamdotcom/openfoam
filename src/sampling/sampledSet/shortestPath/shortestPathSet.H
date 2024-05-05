@@ -74,8 +74,8 @@ SourceFiles
 #ifndef shortestPathSet_H
 #define shortestPathSet_H
 
-#include "sampledSet.H"
-#include "bitSet.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_UILList_H
 #define Foam_UILList_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "stdFoam.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -474,8 +474,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UILList.C"
-    #include "UILListIO.C"
+    #include "containers/LinkedLists/accessTypes/UILList/UILList.C"
+    #include "containers/LinkedLists/accessTypes/UILList/UILListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

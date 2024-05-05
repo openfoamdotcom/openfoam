@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_SortList_H
 #define Foam_SortList_H
 
-#include "IndirectList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -115,7 +115,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SortListI.H"
+#include "containers/IndirectLists/SortList/SortListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "profiling.H"
-#include "profilingTrigger.H"
-#include "profilingInformation.H"
+#include "global/profiling/profiling.H"
+#include "global/profiling/profilingTrigger.H"
+#include "global/profiling/profilingInformation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "probes.H"
-#include "dictionary.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "TimeOpenFOAM.H"
-#include "IOmanip.H"
-#include "mapPolyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "probes/probes.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,12 +38,12 @@ SourceFiles
 #ifndef wallPoints_H
 #define wallPoints_H
 
-#include "point.H"
-#include "tensor.H"
-#include "DynamicList.H"
-#include "labelList.H"
-#include "scalarList.H"
-#include "bitSet.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -274,7 +274,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallPointsI.H"
+#include "meshRefinement/wallPointsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

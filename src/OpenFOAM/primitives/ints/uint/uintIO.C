@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uint.H"
-#include "IOstreams.H"
+#include "primitives/ints/uint/uint.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

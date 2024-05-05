@@ -84,7 +84,7 @@ SourceFiles
 #ifndef normalToFace_H
 #define normalToFace_H
 
-#include "topoSetFaceSource.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,8 +40,8 @@ SourceFiles
 #ifndef liquid_H
 #define liquid_H
 
-#include "liquidProperties.H"
-#include "Function1Pascal.H"
+#include "liquidProperties/liquidProperties/liquidProperties.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "liquidI.H"
+#include "liquidProperties/liquid/liquidI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

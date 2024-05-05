@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Gamma_H
 #define Gamma_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

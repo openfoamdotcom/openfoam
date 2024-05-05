@@ -34,9 +34,9 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcCorrectAlpha.H"
-#include "fvMesh.H"
-#include "surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcCorrectAlpha.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

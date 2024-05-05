@@ -38,8 +38,8 @@ SourceFiles
 #ifndef mappedConvectiveHeatTransfer_H
 #define mappedConvectiveHeatTransfer_H
 
-#include "heatTransferModel.H"
-#include "volFields.H"
+#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

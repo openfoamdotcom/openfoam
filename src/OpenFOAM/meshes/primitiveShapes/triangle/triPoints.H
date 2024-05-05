@@ -4,7 +4,7 @@
 #ifndef FoamCompat_triPoints_H
 #define FoamCompat_triPoints_H
 
-#include "triangle.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 #endif
 

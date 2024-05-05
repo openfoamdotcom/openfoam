@@ -51,10 +51,10 @@ SourceFiles
 #ifndef LimitedScheme_H
 #define LimitedScheme_H
 
-#include "limitedSurfaceInterpolationScheme.H"
-#include "LimitFuncs.H"
-#include "NVDTVD.H"
-#include "NVDVTVDV.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitFuncs.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/NVDTVD.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/NVDVTVDV.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -238,7 +238,7 @@ limitedSurfaceInterpolationScheme<TYPE>::addMeshFluxConstructorToTable         \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LimitedScheme.C"
+    #include "interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

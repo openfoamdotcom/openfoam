@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StokesIIWaveModel.H"
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "waveGenerationModels/derived/StokesII/StokesIIWaveModel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_localIOdictionary_H
 #define Foam_localIOdictionary_H
 
-#include "baseIOdictionary.H"
+#include "db/IOobjects/IOdictionary/baseIOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

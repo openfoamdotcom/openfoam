@@ -29,12 +29,12 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "JobInfo.H"
-#include "clock.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "Pstream.H"
-#include "foamVersion.H"
+#include "global/JobInfo/JobInfo.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "include/foamVersion.H"
 
 // Fallback for job-control directory is in the user-directory
 // ~/.OpenFOAM/jobControl

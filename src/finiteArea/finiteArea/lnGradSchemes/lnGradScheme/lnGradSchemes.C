@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lnGradScheme.H"
-#include "HashTable.H"
+#include "finiteArea/lnGradSchemes/lnGradScheme/lnGradScheme.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

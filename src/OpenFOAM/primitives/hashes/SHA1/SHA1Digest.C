@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SHA1Digest.H"
-#include "IOstreams.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
+#include "db/IOstreams/IOstreams.H"
 #include <cstring>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

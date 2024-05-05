@@ -39,7 +39,7 @@ SourceFiles
 #ifndef functionObjects_runTimeConditions_equationMaxIterCondition_H
 #define functionObjects_runTimeConditions_equationMaxIterCondition_H
 
-#include "runTimeCondition.H"
+#include "runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

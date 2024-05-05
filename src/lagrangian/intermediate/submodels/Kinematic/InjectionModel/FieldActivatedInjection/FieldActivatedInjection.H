@@ -51,10 +51,10 @@ SourceFiles
 #ifndef FieldActivatedInjection_H
 #define FieldActivatedInjection_H
 
-#include "InjectionModelPascal.H"
-#include "distributionModel.H"
-#include "volFieldsFwd.H"
-#include "globalIOFields.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "distributionModel/distributionModel.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/Fields/globalFields/globalIOFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FieldActivatedInjection.C"
+    #include "submodels/Kinematic/InjectionModel/FieldActivatedInjection/FieldActivatedInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

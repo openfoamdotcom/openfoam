@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearSpringDamper.H"
-#include "addToRunTimeSelectionTable.H"
-#include "sixDoFRigidBodyMotion.H"
-#include "TimeOpenFOAM.H"
+#include "sixDoFRigidBodyMotion/restraints/linearSpringDamper/linearSpringDamper.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "sixDoFRigidBodyMotion/sixDoFRigidBodyMotion.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOField.H"
-#include "CompactIOField.H"
-#include "TimeOpenFOAM.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -40,11 +40,11 @@ SourceFiles
 #ifndef ignitionSite_H
 #define ignitionSite_H
 
-#include "vector.H"
-#include "labelList.H"
-#include "scalarList.H"
-#include "autoPtr.H"
-#include "dictionary.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

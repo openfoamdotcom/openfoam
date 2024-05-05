@@ -167,9 +167,9 @@ SourceFiles
 #ifndef functionObjects_electricPotential_H
 #define functionObjects_electricPotential_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFields.H"
-#include "fvOptionList.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFields.H"
+#include "cfdTools/general/fvOptions/fvOptionList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

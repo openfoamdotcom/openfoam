@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "voxelMeshSearch.H"
-#include "polyMesh.H"
-#include "IOobject.H"
-#include "fvMesh.H"
-#include "block.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "fvMeshTools.H"
+#include "cellCellStencil/trackingInverseDistance/voxelMeshSearch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOobject/IOobject.H"
+#include "fvMesh/fvMesh.H"
+#include "blocks/block/block.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

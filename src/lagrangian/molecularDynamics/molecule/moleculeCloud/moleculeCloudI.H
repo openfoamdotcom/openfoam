@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constants.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant;
 

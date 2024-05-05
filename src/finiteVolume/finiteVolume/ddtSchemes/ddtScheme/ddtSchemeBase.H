@@ -37,7 +37,7 @@ SourceFiles
 #ifndef ddtSchemeBase_H
 #define ddtSchemeBase_H
 
-#include "Switch.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

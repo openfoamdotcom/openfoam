@@ -45,11 +45,11 @@ SourceFiles
 #ifndef Foam_turbulentTransportModel_H
 #define Foam_turbulentTransportModel_H
 
-#include "IncompressibleTurbulenceModelPascal.H"
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
-#include "incompressible/transportModel/transportModel.H"
+#include "IncompressibleTurbulenceModel/IncompressibleTurbulenceModelPascal.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
+#include "transportModel/transportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -79,7 +79,7 @@ namespace Foam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "turbulentTransportModel.C"
+    #include "turbulentTransportModels/turbulentTransportModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -41,13 +41,13 @@ SourceFiles
 #ifndef Foam_ensightCase_H
 #define Foam_ensightCase_H
 
-#include "autoPtr.H"
-#include "HashSet.H"
-#include "InfoProxy.H"
-#include "Map.H"
-#include "HashSet.H"
-#include "Pstream.H"
-#include "ensightGeoFile.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "ensight/file/ensightGeoFile.H"
 #include <memory>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -533,10 +533,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ensightCaseI.H"
+#include "ensight/file/ensightCaseI.H"
 
 #ifdef NoRepository
-    #include "ensightCaseTemplates.C"
+    #include "ensight/file/ensightCaseTemplates.C"
 #endif
 
 #endif

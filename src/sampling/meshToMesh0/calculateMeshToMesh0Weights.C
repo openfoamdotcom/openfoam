@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh0.H"
-#include "tetOverlapVolume.H"
+#include "meshToMesh0/meshToMesh0.H"
+#include "tetOverlapVolume/tetOverlapVolume.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

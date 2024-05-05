@@ -29,16 +29,16 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "fileName.H"
-#include "dictionary.H"
-#include "JobInfo.H"
-#include "UPstream.H"
-#include "StringStream.H"
-#include "foamVersion.H"
-#include "OSspecific.H"
-#include "Enum.H"
-#include "Switch.H"
+#include "db/error/error.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/dictionary/dictionary.H"
+#include "global/JobInfo/JobInfo.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "include/foamVersion.H"
+#include "include/OSspecific.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

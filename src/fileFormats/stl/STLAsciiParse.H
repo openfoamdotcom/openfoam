@@ -37,9 +37,9 @@ SourceFiles
 #ifndef Foam_STLAsciiParse_H
 #define Foam_STLAsciiParse_H
 
-#include "DynamicList.H"
-#include "HashTable.H"
-#include "STLpoint.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "stl/STLpoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "STLAsciiParseI.H"
+#include "stl/STLAsciiParseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "maxDeltaxyzCubeRootLESDelta.H"
-#include "addToRunTimeSelectionTable.H"
+#include "LES/LESdeltas/maxDeltaxyzCubeRootLESDelta/maxDeltaxyzCubeRootLESDelta.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

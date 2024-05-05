@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
-#include "GAMGInterface.H"
-#include "PCG.H"
-#include "PBiCGStab.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGSolver.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.H"
+#include "matrices/lduMatrix/solvers/PCG/PCG.H"
+#include "matrices/lduMatrix/solvers/PBiCGStab/PBiCGStab.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

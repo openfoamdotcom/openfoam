@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lineSearch.H"
-#include "TimeOpenFOAM.H"
+#include "optimisation/lineSearch/lineSearch/lineSearch.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

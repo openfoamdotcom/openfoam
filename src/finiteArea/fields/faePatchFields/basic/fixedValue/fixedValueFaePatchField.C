@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedValueFaePatchField.H"
+#include "fields/faePatchFields/basic/fixedValue/fixedValueFaePatchField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

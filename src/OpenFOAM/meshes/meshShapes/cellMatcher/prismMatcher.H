@@ -40,7 +40,7 @@ SourceFiles
 #ifndef prismMatcher_H
 #define prismMatcher_H
 
-#include "cellMatcher.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

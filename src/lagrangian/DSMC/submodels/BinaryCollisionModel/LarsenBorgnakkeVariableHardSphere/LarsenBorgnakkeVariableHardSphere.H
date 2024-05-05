@@ -35,7 +35,7 @@ Description
 #ifndef LarsenBorgnakkeVariableHardSphere_H
 #define LarsenBorgnakkeVariableHardSphere_H
 
-#include "BinaryCollisionModel.H"
+#include "submodels/BinaryCollisionModel/BinaryCollisionModel/BinaryCollisionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LarsenBorgnakkeVariableHardSphere.C"
+    #include "submodels/BinaryCollisionModel/LarsenBorgnakkeVariableHardSphere/LarsenBorgnakkeVariableHardSphere.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

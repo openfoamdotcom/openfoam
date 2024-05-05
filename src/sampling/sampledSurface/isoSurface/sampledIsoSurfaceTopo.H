@@ -69,7 +69,7 @@ SourceFiles
 #ifndef sampledIsoSurfaceTopo_H
 #define sampledIsoSurfaceTopo_H
 
-#include "sampledIsoSurface.H"
+#include "sampledSurface/isoSurface/sampledIsoSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

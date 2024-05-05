@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSurface.H"
-#include "MeshedSurface.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "MeshedSurface/MeshedSurface.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

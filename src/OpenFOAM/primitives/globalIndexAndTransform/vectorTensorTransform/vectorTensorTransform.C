@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vectorTensorTransform.H"
-#include "IOstreams.H"
-#include "StringStream.H"
+#include "primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

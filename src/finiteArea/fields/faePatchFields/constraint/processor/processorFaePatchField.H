@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_processorFaePatchField_H
 #define Foam_processorFaePatchField_H
 
-#include "coupledFaePatchField.H"
-#include "processorFaPatch.H"
+#include "fields/faePatchFields/basic/coupled/coupledFaePatchField.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorFaePatchField.C"
+    #include "fields/faePatchFields/constraint/processor/processorFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

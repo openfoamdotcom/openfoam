@@ -37,7 +37,7 @@ SourceFiles
 #ifndef oscillatingVelocityPointPatchVectorField_H
 #define oscillatingVelocityPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

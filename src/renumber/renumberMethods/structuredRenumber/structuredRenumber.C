@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "structuredRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "topoDistanceData.H"
-#include "fvMeshSubset.H"
-#include "OppositeFaceCellWave.H"
+#include "structuredRenumber/structuredRenumber.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshStructure/topoDistanceData.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "structuredRenumber/OppositeFaceCellWave.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

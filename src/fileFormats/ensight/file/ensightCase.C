@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightCase.H"
-#include "ensightGeoFile.H"
-#include "TimeOpenFOAM.H"
-#include "cloud.H"
-#include "IOmanip.H"
-#include "OSstream.H"
+#include "ensight/file/ensightCase.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/cloud/cloud.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
 #include <iomanip>
 #include <sstream>
 

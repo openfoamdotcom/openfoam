@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementDistanceData.H"
+#include "polyTopoChange/polyTopoChange/refinementDistanceData.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

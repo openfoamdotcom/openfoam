@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudFunctionObjectTools.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/cloudFunctionObjectTools.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

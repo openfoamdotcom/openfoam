@@ -62,9 +62,9 @@ SourceFiles
 #ifndef sixDoFRigidBodyState_H
 #define sixDoFRigidBodyState_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "Enum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

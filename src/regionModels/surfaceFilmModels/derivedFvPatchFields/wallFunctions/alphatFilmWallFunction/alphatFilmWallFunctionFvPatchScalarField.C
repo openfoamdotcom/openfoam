@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "alphatFilmWallFunctionFvPatchScalarField.H"
-#include "turbulentFluidThermoModel.H"
-#include "surfaceFilmRegionModel.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mappedWallPolyPatch.H"
-#include "mapDistribute.H"
+#include "alphatFilmWallFunction/alphatFilmWallFunctionFvPatchScalarField.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "surfaceFilmRegionModel/surfaceFilmRegionModel.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

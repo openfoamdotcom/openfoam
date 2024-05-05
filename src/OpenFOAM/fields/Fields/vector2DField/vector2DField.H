@@ -40,8 +40,8 @@ SourceFiles
 #ifndef vector2DField_H
 #define vector2DField_H
 
-#include "vector2DFieldFwd.H"
-#include "Field.H"
+#include "fields/Fields/vector2DField/vector2DFieldFwd.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,7 +76,7 @@ void unzip
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "vector2DFieldTemplates.C"
+    #include "fields/Fields/vector2DField/vector2DFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

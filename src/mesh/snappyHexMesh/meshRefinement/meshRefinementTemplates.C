@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshRefinement.H"
-#include "fvMesh.H"
-#include "globalIndex.H"
-#include "syncTools.H"
+#include "meshRefinement/meshRefinement.H"
+#include "fvMesh/fvMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

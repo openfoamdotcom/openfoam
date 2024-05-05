@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceNoise.H"
-#include "surfaceReader.H"
-#include "surfaceWriter.H"
-#include "globalIndex.H"
-#include "argList.H"
-#include "addToRunTimeSelectionTable.H"
+#include "noise/noiseModels/surfaceNoise/surfaceNoise.H"
+#include "readers/common/surfaceReader.H"
+#include "writers/common/surfaceWriter.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "global/argList/argList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

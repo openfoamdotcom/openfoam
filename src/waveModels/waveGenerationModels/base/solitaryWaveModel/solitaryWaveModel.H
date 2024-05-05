@@ -34,7 +34,7 @@ Description
 #ifndef waveModels_solitaryWaveModel_H
 #define waveModels_solitaryWaveModel_H
 
-#include "waveGenerationModel.H"
+#include "waveGenerationModels/base/waveGenerationModel/waveGenerationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

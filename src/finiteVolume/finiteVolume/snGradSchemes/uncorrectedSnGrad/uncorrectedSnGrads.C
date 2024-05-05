@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uncorrectedSnGrad.H"
-#include "fvMesh.H"
+#include "finiteVolume/snGradSchemes/uncorrectedSnGrad/uncorrectedSnGrad.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

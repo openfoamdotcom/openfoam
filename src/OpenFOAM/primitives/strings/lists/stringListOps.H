@@ -44,10 +44,10 @@ SourceFiles
 #ifndef Foam_stringListOps_H
 #define Foam_stringListOps_H
 
-#include "labelList.H"
-#include "stringList.H"
-#include "wordRes.H"
-#include "ops.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/strings/lists/stringList.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -486,7 +486,7 @@ namespace Foam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "stringListOpsTemplates.C"
+    #include "primitives/strings/lists/stringListOpsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

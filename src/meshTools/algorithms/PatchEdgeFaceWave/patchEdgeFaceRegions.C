@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchEdgeFaceRegions.H"
+#include "algorithms/PatchEdgeFaceWave/patchEdgeFaceRegions.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

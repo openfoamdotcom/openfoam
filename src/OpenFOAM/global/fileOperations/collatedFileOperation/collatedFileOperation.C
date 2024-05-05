@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "collatedFileOperation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Pstream.H"
-#include "TimeOpenFOAM.H"
-#include "threadedCollatedOFstream.H"
-#include "decomposedBlockData.H"
-#include "registerSwitch.H"
-#include "masterOFstream.H"
-#include "OFstream.H"
-#include "foamVersion.H"
+#include "global/fileOperations/collatedFileOperation/collatedFileOperation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/fileOperations/collatedFileOperation/threadedCollatedOFstream.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "global/debug/registerSwitch.H"
+#include "db/IOstreams/Fstreams/masterOFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/foamVersion.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

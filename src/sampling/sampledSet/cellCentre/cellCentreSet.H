@@ -45,8 +45,8 @@ SourceFiles
 #ifndef cellCentreSet_H
 #define cellCentreSet_H
 
-#include "sampledSet.H"
-#include "boundBox.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slipFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "areaFields.H"
+#include "fields/faPatchFields/derived/slip/slipFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

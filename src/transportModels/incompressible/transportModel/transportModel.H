@@ -38,9 +38,9 @@ SourceFiles
 #ifndef transportModel_H
 #define transportModel_H
 
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

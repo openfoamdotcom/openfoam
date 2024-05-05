@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DILUGaussSeidelSmoother.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/smoothers/DILUGaussSeidel/DILUGaussSeidelSmoother.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

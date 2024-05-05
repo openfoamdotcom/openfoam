@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceSearch.H"
-#include "triSurface.H"
-#include "PatchTools.H"
-#include "volumeType.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "triSurface/triSurface.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

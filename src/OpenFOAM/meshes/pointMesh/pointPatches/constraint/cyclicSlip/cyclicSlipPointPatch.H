@@ -38,8 +38,8 @@ SourceFiles
 #ifndef cyclicSlipPointPatch_H
 #define cyclicSlipPointPatch_H
 
-#include "cyclicPointPatch.H"
-#include "cyclicSlipPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/constraint/cyclic/cyclicPointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclicSlip/cyclicSlipPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

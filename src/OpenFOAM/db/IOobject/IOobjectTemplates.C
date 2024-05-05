@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "fileOperation.H"  // legacy include
-#include "Istream.H"  // legacy include
-#include "Pstream.H"  // legacy include
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"  // legacy include
+#include "db/IOstreams/IOstreams/Istream.H"  // legacy include
+#include "db/IOstreams/Pstreams/Pstream.H"  // legacy include
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

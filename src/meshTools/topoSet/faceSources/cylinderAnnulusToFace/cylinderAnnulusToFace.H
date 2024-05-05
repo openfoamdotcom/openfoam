@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Foam_cylinderAnnulusToFace_H
 #define Foam_cylinderAnnulusToFace_H
 
-#include "cylinderToFace.H"
+#include "topoSet/faceSources/cylinderToFace/cylinderToFace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

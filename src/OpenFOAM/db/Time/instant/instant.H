@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_instant_H
 #define Foam_instant_H
 
-#include "InstantDeCased.H"
-#include "word.H"
+#include "db/Time/instant/InstantDeCased.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

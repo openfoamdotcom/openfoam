@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvBoundaryMesh.H"
-#include "fvMesh.H"
-#include "PtrListOps.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

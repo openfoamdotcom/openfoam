@@ -46,7 +46,7 @@ SourceFiles
 #ifndef cellMDLimitedGrad_H
 #define cellMDLimitedGrad_H
 
-#include "gradScheme.H"
+#include "finiteVolume/gradSchemes/gradScheme/gradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

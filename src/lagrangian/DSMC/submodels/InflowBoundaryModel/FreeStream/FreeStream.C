@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FreeStream.H"
-#include "constants.H"
-#include "tetIndices.H"
+#include "submodels/InflowBoundaryModel/FreeStream/FreeStream.H"
+#include "global/constants/constants.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 using namespace Foam::constant::mathematical;
 

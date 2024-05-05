@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "solidParticle.H"
-#include "IOstreams.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

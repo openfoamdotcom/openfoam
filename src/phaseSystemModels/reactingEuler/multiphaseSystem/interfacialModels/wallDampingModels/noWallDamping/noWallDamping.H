@@ -36,7 +36,7 @@ SourceFiles
 #ifndef noWallDamping_H
 #define noWallDamping_H
 
-#include "wallDampingModel.H"
+#include "interfacialModels/wallDampingModels/wallDampingModel/wallDampingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

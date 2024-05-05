@@ -38,10 +38,10 @@ SourceFiles
 #ifndef removePoints_H
 #define removePoints_H
 
-#include "typeInfo.H"
-#include "boolList.H"
-#include "pointField.H"
-#include "faceList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

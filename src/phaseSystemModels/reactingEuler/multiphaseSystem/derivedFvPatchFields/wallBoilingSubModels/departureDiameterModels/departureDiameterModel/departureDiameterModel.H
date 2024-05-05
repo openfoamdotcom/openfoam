@@ -38,11 +38,11 @@ SourceFiles
 #ifndef departureDiameterModel_H
 #define departureDiameterModel_H
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
-#include "reactingEuler_phaseModel.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

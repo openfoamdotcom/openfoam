@@ -28,9 +28,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoAdvection.H"
-#include "fvcSurfaceIntegrate.H"
-#include "upwind.H"
+#include "advectionSchemes/isoAdvection/isoAdvection.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
 
 // ************************************************************************* //
 

@@ -101,7 +101,7 @@ SourceFiles
 #ifndef planeToFaceZone_H
 #define planeToFaceZone_H
 
-#include "topoSetFaceZoneSource.H"
+#include "topoSet/faceZoneSources/topoSetFaceZoneSource/topoSetFaceZoneSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

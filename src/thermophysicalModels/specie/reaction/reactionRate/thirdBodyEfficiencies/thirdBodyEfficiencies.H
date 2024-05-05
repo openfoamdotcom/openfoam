@@ -37,8 +37,8 @@ SourceFiles
 #ifndef thirdBodyEfficiencies_H
 #define thirdBodyEfficiencies_H
 
-#include "scalarList.H"
-#include "speciesTable.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "speciesTable/speciesTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -105,7 +105,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thirdBodyEfficienciesI.H"
+#include "reaction/reactionRate/thirdBodyEfficiencies/thirdBodyEfficienciesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

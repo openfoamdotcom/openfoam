@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scaledFixedValueFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/scaledFixedValue/scaledFixedValueFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

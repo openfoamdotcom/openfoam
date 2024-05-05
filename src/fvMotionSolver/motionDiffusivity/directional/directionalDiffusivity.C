@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directionalDiffusivity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionDiffusivity/directional/directionalDiffusivity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

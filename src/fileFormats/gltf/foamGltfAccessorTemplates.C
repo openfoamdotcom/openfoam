@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamGltfAccessor.H"
-#include "exprTraits.H"
+#include "gltf/foamGltfAccessor.H"
+#include "expressions/traits/exprTraits.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

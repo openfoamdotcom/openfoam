@@ -38,8 +38,8 @@ SourceFiles
 #ifndef filmRadiationModel_H
 #define filmRadiationModel_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
+#include "submodels/filmSubModelBase.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

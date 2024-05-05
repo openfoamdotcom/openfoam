@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceSetOption.H"
-#include "faceSet.H"
-#include "areaFields.H"
+#include "faceSetOption/faceSetOption.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

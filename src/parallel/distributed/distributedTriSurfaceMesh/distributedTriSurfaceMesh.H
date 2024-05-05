@@ -60,13 +60,13 @@ SourceFiles
 #ifndef Foam_distributedTriSurfaceMesh_H
 #define Foam_distributedTriSurfaceMesh_H
 
-#include "triSurfaceMesh.H"
-#include "localIOdictionary.H"
-#include "IOdictionary.H"
-#include "Pair.H"
-#include "globalIndex.H"
-#include "DynamicField.H"
-#include "triangleFwd.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "primitives/tuples/Pair.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "meshes/primitiveShapes/triangle/triangleFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -616,7 +616,7 @@ struct is_globalIOobject<distributedTriSurfaceMesh> : std::true_type {};
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "distributedTriSurfaceMeshTemplates.C"
+    #include "distributedTriSurfaceMesh/distributedTriSurfaceMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

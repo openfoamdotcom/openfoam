@@ -58,14 +58,14 @@ SourceFiles
 #ifndef Foam_blockDescriptor_H
 #define Foam_blockDescriptor_H
 
-#include "ijkMesh.H"
-#include "cellShape.H"
-#include "pointField.H"
-#include "scalarList.H"
-#include "blockEdgeList.H"
-#include "blockFaceList.H"
-#include "gradingDescriptors.H"
-#include "InfoProxy.H"
+#include "meshes/ijkMesh/ijkMesh.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "blockEdges/blockEdge/blockEdgeList.H"
+#include "blockFaces/blockFace/blockFaceList.H"
+#include "gradingDescriptor/gradingDescriptors.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -281,7 +281,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "blockDescriptorI.H"
+#include "blockDescriptor/blockDescriptorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

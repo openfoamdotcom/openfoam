@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixerFvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "regionSplit.H"
-#include "slidingInterface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mapPolyMesh.H"
-#include "unitConversion.H"
-#include "demandDrivenData.H"
+#include "mixerFvMesh/mixerFvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "regionSplit/regionSplit.H"
+#include "slidingInterface/slidingInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "global/constants/unitConversion.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

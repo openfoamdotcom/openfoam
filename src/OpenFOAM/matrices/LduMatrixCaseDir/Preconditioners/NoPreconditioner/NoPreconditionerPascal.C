@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoPreconditionerPascal.H"
+#include "matrices/LduMatrixCaseDir/Preconditioners/NoPreconditioner/NoPreconditionerPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

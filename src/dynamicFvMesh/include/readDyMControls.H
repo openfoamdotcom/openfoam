@@ -1,4 +1,4 @@
-#include "readTimeControls.H"
+#include "cfdTools/general/include/readTimeControls.H"
 
 correctPhi = pimple.dict().getOrDefault
 (

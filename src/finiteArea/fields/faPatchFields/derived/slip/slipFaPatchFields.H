@@ -28,7 +28,7 @@ License
 #ifndef Foam_slipFaPatchFields_H
 #define Foam_slipFaPatchFields_H
 
-#include "slipFaPatchField.H"
+#include "fields/faPatchFields/derived/slip/slipFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfacePoint.H"
-#include "mergePoints.H"
-#include "slicedVolFields.H"
-#include "volFields.H"
-#include "triSurfaceTools.H"
-#include "triSurface.H"
-#include "triangle.H"
+#include "surface/isoSurface/isoSurfacePoint.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "fields/volFields/slicedVolFields.H"
+#include "fields/volFields/volFields.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "triSurface/triSurface.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "isoSurfaceBaseMethods.H"
+#include "surface/isoSurface/isoSurfaceBaseMethods.H"
 defineIsoSurfaceInterpolateMethods(Foam::isoSurfacePoint);
 
 

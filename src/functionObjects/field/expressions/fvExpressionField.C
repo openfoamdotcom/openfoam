@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvExpressionField.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointMesh.H"
-#include "pointFields.H"
-#include "volumeExprDriver.H"
-#include "calculatedFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/fvExpressionField.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "expressions/volume/volumeExprDriver.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

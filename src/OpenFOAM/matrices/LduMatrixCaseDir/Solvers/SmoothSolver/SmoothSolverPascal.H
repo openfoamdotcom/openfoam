@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_SmoothSolver_H
 #define Foam_SmoothSolver_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SmoothSolverPascal.C"
+    #include "matrices/LduMatrixCaseDir/Solvers/SmoothSolver/SmoothSolverPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

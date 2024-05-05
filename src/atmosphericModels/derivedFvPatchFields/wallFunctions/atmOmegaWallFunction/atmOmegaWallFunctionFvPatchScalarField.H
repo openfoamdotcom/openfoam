@@ -89,8 +89,8 @@ SourceFiles
 #ifndef atmOmegaWallFunctionFvPatchScalarField_H
 #define atmOmegaWallFunctionFvPatchScalarField_H
 
-#include "omegaWallFunctionFvPatchScalarField.H"
-#include "PatchFunction1.H"
+#include "derivedFvPatchFields/wallFunctions/omegaWallFunctions/omegaWallFunction/omegaWallFunctionFvPatchScalarField.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,10 +41,10 @@ SourceFiles
 #ifndef AveragingMethod_H
 #define AveragingMethod_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "barycentric.H"
-#include "runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,12 +198,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AveragingMethodI.H"
+#include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethodI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AveragingMethod.C"
+    #include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

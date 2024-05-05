@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Foam_indirectCS_H
 #define Foam_indirectCS_H
 
-#include "coordinateSystem.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

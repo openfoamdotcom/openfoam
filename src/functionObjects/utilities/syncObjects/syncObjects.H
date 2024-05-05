@@ -73,9 +73,9 @@ SourceFiles
 #ifndef functionObjects_syncObjects_H
 #define functionObjects_syncObjects_H
 
-#include "token.H"
-#include "functionObject.H"
-#include "IOField.H"
+#include "db/IOstreams/token/token.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

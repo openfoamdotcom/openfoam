@@ -45,10 +45,10 @@ SourceFiles
 #ifndef Foam_KinematicSurfaceFilm_H
 #define Foam_KinematicSurfaceFilm_H
 
-#include "SurfaceFilmModelPascal.H"
-#include "UPtrList.H"
-#include "liquidMixtureProperties.H"
-#include "Enum.H"
+#include "submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelPascal.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "liquidProperties/liquidMixtureProperties/liquidMixtureProperties.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -353,7 +353,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "KinematicSurfaceFilm.C"
+    #include "submodels/Kinematic/SurfaceFilmModel/KinematicSurfaceFilm/KinematicSurfaceFilm.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

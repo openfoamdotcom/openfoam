@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchDataWave.H"
-#include "directionalMeshWavePatchDistMethod.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "directionalWallPointData.H"
-#include "emptyFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cellDist/patchWave/patchDataWave.H"
+#include "fvMesh/wallDist/patchDistMethods/directionalMeshWave/directionalMeshWavePatchDistMethod.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "cellDist/directionalWallPoint/directionalWallPointData.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

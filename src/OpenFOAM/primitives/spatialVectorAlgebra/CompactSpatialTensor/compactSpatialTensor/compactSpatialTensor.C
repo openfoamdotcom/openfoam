@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compactSpatialTensor.H"
-#include "CompactSpatialTensorT.H"
+#include "primitives/spatialVectorAlgebra/CompactSpatialTensor/compactSpatialTensor/compactSpatialTensor.H"
+#include "primitives/spatialVectorAlgebra/CompactSpatialTensorT/CompactSpatialTensorT.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

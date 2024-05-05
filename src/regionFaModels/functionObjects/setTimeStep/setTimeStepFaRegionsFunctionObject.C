@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setTimeStepFaRegionsFunctionObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/setTimeStep/setTimeStepFaRegionsFunctionObject.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

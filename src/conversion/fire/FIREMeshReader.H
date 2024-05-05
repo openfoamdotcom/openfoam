@@ -40,10 +40,10 @@ SourceFiles
 #ifndef FIREMeshReader_H
 #define FIREMeshReader_H
 
-#include "meshReader.H"
-#include "FIRECore.H"
-#include "labelList.H"
-#include "IFstream.H"
+#include "common/reader/meshReader.H"
+#include "fire/FIRECore.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFieldValue.H"
-#include "surfaceFields.H"
-#include "polySurfaceFields.H"
-#include "volFields.H"
-#include "sampledSurface.H"
-#include "surfaceWriter.H"
-#include "interpolationCell.H"
-#include "interpolationCellPoint.H"
+#include "fieldValues/surfaceFieldValue/surfaceFieldValue.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "polySurface/fields/polySurfaceFields.H"
+#include "fields/volFields/volFields.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "writers/common/surfaceWriter.H"
+#include "interpolation/interpolation/interpolationCell/interpolationCell.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

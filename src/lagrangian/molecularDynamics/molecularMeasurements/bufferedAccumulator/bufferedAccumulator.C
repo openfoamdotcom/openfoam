@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bufferedAccumulator.H"
+#include "bufferedAccumulator/bufferedAccumulator.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -227,6 +227,6 @@ void Foam::bufferedAccumulator<Type>::operator=
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "bufferedAccumulatorIO.C"
+#include "bufferedAccumulator/bufferedAccumulatorIO.C"
 
 // ************************************************************************* //

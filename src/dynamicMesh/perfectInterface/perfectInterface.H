@@ -39,10 +39,10 @@ SourceFiles
 #ifndef perfectInterface_H
 #define perfectInterface_H
 
-#include "polyMeshModifier.H"
-#include "polyPatchID.H"
-#include "ZoneIDs.H"
-#include "indirectPrimitivePatch.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
+#include "meshes/Identifiers/patch/polyPatchID.H"
+#include "meshes/Identifiers/zone/ZoneIDs.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

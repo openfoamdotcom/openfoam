@@ -136,8 +136,8 @@ SourceFiles
 #ifndef LuoSvendsen_H
 #define LuoSvendsen_H
 
-#include "binaryBreakupModel.H"
-#include "interpolationTable.H"
+#include "populationBalanceModel/binaryBreakupModels/binaryBreakupModel/binaryBreakupModel.H"
+#include "interpolations/interpolationTable/interpolationTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFilmModel.H"
-#include "noFilm.H"
+#include "surfaceFilmModel/surfaceFilmModel.H"
+#include "noFilm/noFilm.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

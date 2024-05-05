@@ -42,10 +42,10 @@ SourceFiles
 #ifndef Foam_cyclicFaPatchField_H
 #define Foam_cyclicFaPatchField_H
 
-#include "coupledFaPatchField.H"
-#include "cyclicLduInterfaceField.H"
-#include "cyclicFaPatch.H"
-#include "areaFaMesh.H"
+#include "fields/faPatchFields/basic/coupled/coupledFaPatchField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/cyclicLduInterfaceField/cyclicLduInterfaceField.H"
+#include "faMesh/faPatches/constraint/cyclic/cyclicFaPatch.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -227,7 +227,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicFaPatchField.C"
+    #include "fields/faPatchFields/constraint/cyclic/cyclicFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

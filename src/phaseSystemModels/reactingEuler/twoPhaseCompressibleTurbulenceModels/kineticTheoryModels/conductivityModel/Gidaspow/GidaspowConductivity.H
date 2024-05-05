@@ -36,7 +36,7 @@ SourceFiles
 #ifndef GidaspowConductivity_H
 #define GidaspowConductivity_H
 
-#include "conductivityModel.H"
+#include "kineticTheoryModels/conductivityModel/conductivityModel/conductivityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

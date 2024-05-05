@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "powerLawLopesdaCosta.H"
-#include "geometricOneField.H"
-#include "fvMatrices.H"
-#include "triSurfaceMesh.H"
-#include "triSurfaceTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "porosityModels/powerLawLopesdaCosta/powerLawLopesdaCosta.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "fvMatrices/fvMatrices.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

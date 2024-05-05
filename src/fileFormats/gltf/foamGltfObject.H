@@ -41,8 +41,8 @@ SourceFiles
 #ifndef foam_gltf_object_H
 #define foam_gltf_object_H
 
-#include "foamGltfBase.H"
-#include "List.H"
+#include "gltf/foamGltfBase.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -100,7 +100,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamGltfObjectTemplates.C"
+    #include "gltf/foamGltfObjectTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

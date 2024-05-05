@@ -111,9 +111,9 @@ SourceFiles
 #ifndef Foam_CoulombForce_H
 #define Foam_CoulombForce_H
 
-#include "ParticleForce.H"
-#include "Function1Pascal.H"
-#include "interpolation.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CoulombForce.C"
+    #include "submodels/Kinematic/ParticleForces/Coulomb/CoulombForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

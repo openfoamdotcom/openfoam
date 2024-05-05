@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatchData.H"
-#include "dictionary.H"
-#include "processorFaPatch.H"
-#include "processorPolyPatch.H"
+#include "faMesh/faPatches/faPatch/faPatchData.H"
+#include "db/dictionary/dictionary.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedFieldReuseFunctions.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldReuseFunctions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

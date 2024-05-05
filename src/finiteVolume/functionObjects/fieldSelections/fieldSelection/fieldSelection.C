@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldSelection.H"
-#include "objectRegistry.H"
-#include "dictionary.H"
+#include "functionObjects/fieldSelections/fieldSelection/fieldSelection.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

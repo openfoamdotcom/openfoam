@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduMatrixPascal.H"
-#include "diagTensorField.H"
-#include "profiling.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.H"
+#include "fields/Fields/diagTensorField/diagTensorField.H"
+#include "global/profiling/profiling.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

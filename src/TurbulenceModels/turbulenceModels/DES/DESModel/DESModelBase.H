@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_DESModelBase_H
 #define Foam_DESModelBase_H
 
-#include "className.H"
-#include "tmp.H"
-#include "volFieldsFwd.H"
+#include "db/typeInfo/className.H"
+#include "memory/tmp/tmp.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

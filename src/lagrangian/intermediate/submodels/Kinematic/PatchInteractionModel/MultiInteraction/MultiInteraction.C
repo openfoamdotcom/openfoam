@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MultiInteraction.H"
+#include "submodels/Kinematic/PatchInteractionModel/MultiInteraction/MultiInteraction.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

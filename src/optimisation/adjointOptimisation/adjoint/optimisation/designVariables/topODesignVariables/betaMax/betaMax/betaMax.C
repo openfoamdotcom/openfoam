@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "betaMax.H"
-#include "EdgeMap.H"
-#include "syncTools.H"
+#include "optimisation/designVariables/topODesignVariables/betaMax/betaMax/betaMax.H"
+#include "compat/EdgeMap.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StandardChemistryModel.H"
-#include "reactingMixture.H"
-#include "UniformField.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "chemistryModel/StandardChemistryModel/StandardChemistryModel.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "fields/Fields/UniformField/UniformField.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

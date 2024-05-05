@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvScalarMatrix.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "profiling.H"
-#include "PrecisionAdaptor.H"
-#include "jumpCyclicFvPatchField.H"
-#include "cyclicPolyPatch.H"
-#include "cyclicAMIPolyPatch.H"
+#include "fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "global/profiling/profiling.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
+#include "fields/fvPatchFields/constraint/jumpCyclic/jumpCyclicFvPatchField.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

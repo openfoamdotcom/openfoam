@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_coordSetWriters_vtkWriter_H
 #define Foam_coordSetWriters_vtkWriter_H
 
-#include "coordSetWriter.H"
+#include "coordSet/writers/common/coordSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

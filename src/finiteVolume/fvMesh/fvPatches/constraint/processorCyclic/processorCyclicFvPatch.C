@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorCyclicFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "transformField.H"
+#include "fvMesh/fvPatches/constraint/processorCyclic/processorCyclicFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nullCoordSetWriter.H"
-#include "coordSetWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "coordSet/writers/null/nullCoordSetWriter.H"
+#include "coordSet/writers/common/coordSetWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

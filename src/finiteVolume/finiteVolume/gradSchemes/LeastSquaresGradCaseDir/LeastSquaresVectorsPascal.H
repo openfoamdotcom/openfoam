@@ -41,8 +41,8 @@ SourceFiles
 #ifndef LeastSquaresVectors_H
 #define LeastSquaresVectors_H
 
-#include "extendedCentredCellToCellStencil.H"
-#include "MeshObject.H"
+#include "fvMesh/extendedStencil/cellToCell/extendedCentredCellToCellStencil.H"
+#include "meshes/MeshObject/MeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LeastSquaresVectorsPascal.C"
+    #include "finiteVolume/gradSchemes/LeastSquaresGradCaseDir/LeastSquaresVectorsPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -122,10 +122,10 @@ SourceFiles
 #ifndef Foam_coordSetWriters_gltfWriter_H
 #define Foam_coordSetWriters_gltfWriter_H
 
-#include "coordSetWriter.H"
-#include "colourTable.H"
-#include "foamGltfFwd.H"
-#include "MinMax.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "colours/colourTable.H"
+#include "gltf/foamGltfFwd.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

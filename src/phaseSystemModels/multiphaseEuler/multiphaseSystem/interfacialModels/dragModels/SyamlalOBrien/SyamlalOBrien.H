@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_multiphaseEuler_dragModels_SyamlalOBrien_H
 #define Foam_multiphaseEuler_dragModels_SyamlalOBrien_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

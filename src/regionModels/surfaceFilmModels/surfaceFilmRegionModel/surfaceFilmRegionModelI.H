@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFilmRegionModel.H"
+#include "surfaceFilmRegionModel/surfaceFilmRegionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

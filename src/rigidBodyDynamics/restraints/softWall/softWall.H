@@ -46,7 +46,7 @@ SourceFiles
 #ifndef RBD_restraints_softWall_H
 #define RBD_restraints_softWall_H
 
-#include "rigidBodyRestraint.H"
+#include "restraints/restraint/rigidBodyRestraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

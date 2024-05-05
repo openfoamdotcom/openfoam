@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigmoid.H"
-#include "addToRunTimeSelectionTable.H"
+#include "energyScalingFunction/derived/sigmoid/sigmoid.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

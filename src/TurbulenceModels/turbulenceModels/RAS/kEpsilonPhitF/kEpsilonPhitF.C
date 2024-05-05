@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kEpsilonPhitF.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "RAS/kEpsilonPhitF/kEpsilonPhitF.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

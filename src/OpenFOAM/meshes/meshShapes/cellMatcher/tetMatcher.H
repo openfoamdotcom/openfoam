@@ -41,7 +41,7 @@ SourceFiles
 #ifndef tetMatcher_H
 #define tetMatcher_H
 
-#include "cellMatcher.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

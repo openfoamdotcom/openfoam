@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalCoupledMixedFvPatchField.H"
-#include "fvPatchFieldMapper.H"
-#include "ISstream.H"
+#include "externalCoupled/externalCoupledMixed/externalCoupledMixedFvPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

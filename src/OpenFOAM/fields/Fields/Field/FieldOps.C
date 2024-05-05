@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "ops.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

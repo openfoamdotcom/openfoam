@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NamedEnum.H"
-#include "dictionary.H"
-#include "stdFoam.H"
+#include "primitives/enums/compat/NamedEnum.H"
+#include "db/dictionary/dictionary.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

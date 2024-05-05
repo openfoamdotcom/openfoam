@@ -37,7 +37,7 @@ Description
 #ifndef Limited_H
 #define Limited_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

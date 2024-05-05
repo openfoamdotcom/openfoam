@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSets.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "globalIndex.H"
-#include "volFields.H"
-#include "mapPolyMesh.H"
-#include "IOmanip.H"
-#include "IOobjectList.H"
-#include "IndirectList.H"
-#include "ListOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/sampledSets/sampledSets.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -52,7 +52,7 @@ namespace Foam
     );
 }
 
-#include "sampledSetsImpl.C"
+#include "sampledSet/sampledSets/sampledSetsImpl.C"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

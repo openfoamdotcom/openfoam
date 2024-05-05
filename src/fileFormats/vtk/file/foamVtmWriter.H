@@ -71,8 +71,8 @@ SourceFiles
 #ifndef Foam_vtk_vtmWriter_H
 #define Foam_vtk_vtmWriter_H
 
-#include "foamVtkOutputOptions.H"
-#include "DynamicList.H"
+#include "vtk/output/foamVtkOutputOptions.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -328,7 +328,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtmWriterI.H"
+#include "vtk/file/foamVtmWriterI.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonuniformTransformCyclicPointPatch.H"
-#include "pointConstraint.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

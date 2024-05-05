@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiDirRefinement.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "undoableMeshCutter.H"
-#include "hexCellLooper.H"
-#include "geomCellLooper.H"
-#include "directions.H"
-#include "hexRef8.H"
-#include "mapPolyMesh.H"
-#include "polyTopoChange.H"
-#include "cellModel.H"
+#include "meshCut/meshModifiers/multiDirRefinement/multiDirRefinement.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshCut/meshModifiers/undoableMeshCutter/undoableMeshCutter.H"
+#include "meshCut/cellLooper/hexCellLooper.H"
+#include "meshCut/cellLooper/geomCellLooper.H"
+#include "meshCut/directions/directions.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

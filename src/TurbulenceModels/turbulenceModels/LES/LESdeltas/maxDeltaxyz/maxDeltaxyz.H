@@ -41,7 +41,7 @@ SourceFiles
 #ifndef LESModels_maxDeltaxyz_H
 #define LESModels_maxDeltaxyz_H
 
-#include "LESdelta.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

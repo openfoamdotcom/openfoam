@@ -40,7 +40,7 @@ SourceFiles
 #ifndef subModelBase_H
 #define subModelBase_H
 
-#include "dictionary.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -230,7 +230,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "subModelBaseTemplates.C"
+    #include "primitives/subModelBase/subModelBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

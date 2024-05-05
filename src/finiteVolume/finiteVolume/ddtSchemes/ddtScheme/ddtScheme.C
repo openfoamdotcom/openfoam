@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "HashTable.H"
-#include "surfaceInterpolate.H"
-#include "fvMatrix.H"
-#include "cyclicAMIFvPatch.H"
-#include "registerSwitch.H"
+#include "finiteVolume/fv/fv.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

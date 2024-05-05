@@ -62,9 +62,9 @@ SourceFiles
 #ifndef Function1Types_Polynomial_H
 #define Function1Types_Polynomial_H
 
-#include "Function1Pascal.H"
-#include "Tuple2.H"
-#include "Function1Fwd.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/functions/Function1/Function1/Function1Fwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PolynomialEntry.C"
+    #include "primitives/functions/Function1/Polynomial/PolynomialEntry.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

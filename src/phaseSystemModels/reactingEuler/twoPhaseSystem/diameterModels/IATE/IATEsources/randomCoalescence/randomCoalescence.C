@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "randomCoalescence.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/IATE/IATEsources/randomCoalescence/randomCoalescence.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

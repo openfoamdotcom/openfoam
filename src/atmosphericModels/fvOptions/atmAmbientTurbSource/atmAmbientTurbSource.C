@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmAmbientTurbSource.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/atmAmbientTurbSource/atmAmbientTurbSource.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

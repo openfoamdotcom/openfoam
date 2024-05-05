@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_ensightOutputCloud_H
 #define Foam_ensightOutputCloud_H
 
-#include "ensightFile.H"
-#include "IOField.H"
+#include "ensight/file/ensightFile.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ label writeCloudFieldContent
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightOutputCloudTemplates.C"
+    #include "conversion/ensight/ensightOutputCloudTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

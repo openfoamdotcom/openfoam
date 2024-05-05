@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_meshObjects_gravity_H
 #define Foam_meshObjects_gravity_H
 
-#include "uniformDimensionedFields.H"
-#include "MeshObject.H"
-#include "TimeOpenFOAM.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

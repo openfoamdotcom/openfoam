@@ -76,9 +76,9 @@ SourceFiles
 #ifndef Foam_plane_H
 #define Foam_plane_H
 
-#include "point.H"
-#include "scalarList.H"
-#include "line.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "meshes/primitiveShapes/line/line.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -332,7 +332,7 @@ inline bool operator<(const plane& a, const plane& b);
 
 } // End namespace Foam
 
-#include "planeI.H"
+#include "meshes/primitiveShapes/plane/planeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

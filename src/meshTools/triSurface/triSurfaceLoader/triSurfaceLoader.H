@@ -42,10 +42,10 @@ SourceFiles
 #ifndef Foam_triSurfaceLoader_H
 #define Foam_triSurfaceLoader_H
 
-#include "triSurface.H"
-#include "wordRes.H"
-#include "Enum.H"
-#include "wordList.H"
+#include "triSurface/triSurface.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

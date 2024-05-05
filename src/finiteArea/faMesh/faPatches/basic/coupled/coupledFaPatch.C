@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledFaPatch.H"
-#include "transform.H"
+#include "faMesh/faPatches/basic/coupled/coupledFaPatch.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

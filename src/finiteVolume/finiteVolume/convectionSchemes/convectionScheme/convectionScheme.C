@@ -29,9 +29,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "HashTable.H"
-#include "linear.H"
+#include "finiteVolume/fv/fv.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

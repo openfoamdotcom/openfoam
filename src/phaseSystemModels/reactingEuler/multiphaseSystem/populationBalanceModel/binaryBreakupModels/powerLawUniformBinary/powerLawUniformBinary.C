@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "powerLawUniformBinary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/binaryBreakupModels/powerLawUniformBinary/powerLawUniformBinary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceReader.H"
-#include "fileFormats.H"
+#include "readers/common/surfaceReader.H"
+#include "common/fileFormats.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

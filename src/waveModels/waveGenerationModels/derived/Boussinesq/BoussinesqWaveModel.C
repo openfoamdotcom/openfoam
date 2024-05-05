@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BoussinesqWaveModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "waveGenerationModels/derived/Boussinesq/BoussinesqWaveModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

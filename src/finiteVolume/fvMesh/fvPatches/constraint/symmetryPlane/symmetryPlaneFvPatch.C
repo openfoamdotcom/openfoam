@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryPlaneFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvPatches/constraint/symmetryPlane/symmetryPlaneFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

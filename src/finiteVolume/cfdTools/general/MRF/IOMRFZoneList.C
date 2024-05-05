@@ -28,9 +28,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOMRFZoneList.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

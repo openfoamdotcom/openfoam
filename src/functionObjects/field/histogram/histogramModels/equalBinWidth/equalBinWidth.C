@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "equalBinWidth.H"
-#include "histogramModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "histogram/histogramModels/equalBinWidth/equalBinWidth.H"
+#include "histogram/histogramModels/histogramModel/histogramModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef hexMatcher_H
 #define hexMatcher_H
 
-#include "cellMatcher.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

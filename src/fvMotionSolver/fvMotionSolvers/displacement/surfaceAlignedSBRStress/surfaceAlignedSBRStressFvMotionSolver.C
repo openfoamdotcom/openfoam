@@ -26,20 +26,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceAlignedSBRStressFvMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointIndexHit.H"
-#include "processorPolyPatch.H"
-#include "fvmLaplacian.H"
-#include "fvcDiv.H"
-#include "surfaceInterpolate.H"
-#include "unitConversion.H"
-#include "motionDiffusivity.H"
-#include "fvcSmooth.H"
-#include "pointMVCWeight.H"
-#include "dimensionedSymmTensor.H"
-#include "quaternion.H"
-#include "fvOptions.H"
+#include "fvMotionSolvers/displacement/surfaceAlignedSBRStress/surfaceAlignedSBRStressFvMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "global/constants/unitConversion.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
+#include "interpolation/interpolation/interpolationPointMVC/pointMVCWeight.H"
+#include "dimensionedTypes/dimensionedSymmTensor/dimensionedSymmTensor.H"
+#include "primitives/quaternion/quaternion.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

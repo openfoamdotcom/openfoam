@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitivePatchInterpolation.H"
+#include "interpolations/primitivePatchInterpolation/primitivePatchInterpolation.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

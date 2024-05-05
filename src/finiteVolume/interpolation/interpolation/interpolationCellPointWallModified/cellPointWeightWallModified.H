@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_cellPointWeightWallModified_H
 #define Foam_cellPointWeightWallModified_H
 
-#include "cellPointWeight.H"
+#include "interpolation/interpolation/interpolationCellPoint/cellPointWeight.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

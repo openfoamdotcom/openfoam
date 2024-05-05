@@ -35,8 +35,8 @@ SourceFiles
 #ifndef Foam_mergePoints_H
 #define Foam_mergePoints_H
 
-#include "scalar.H"
-#include "labelList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -267,7 +267,7 @@ inline label mergePoints
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mergePoints.C"
+    #include "meshes/meshTools/mergePoints.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

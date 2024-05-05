@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rhoConst.H"
+#include "equationOfState/rhoConst/rhoConst.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

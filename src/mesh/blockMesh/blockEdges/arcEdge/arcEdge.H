@@ -63,8 +63,8 @@ SourceFiles
 #ifndef blockEdges_arcEdge_H
 #define blockEdges_arcEdge_H
 
-#include "blockEdge.H"
-#include "cylindricalCS.H"
+#include "blockEdges/blockEdge/blockEdge.H"
+#include "primitives/coordinate/systems/cylindricalCS.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

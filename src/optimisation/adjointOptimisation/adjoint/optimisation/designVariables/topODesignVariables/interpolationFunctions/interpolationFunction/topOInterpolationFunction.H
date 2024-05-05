@@ -39,8 +39,8 @@ SourceFiles
 #ifndef topOInterpolationFunction_H
 #define topOInterpolationFunction_H
 
-#include "fvMesh.H"
-#include "Function1Pascal.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

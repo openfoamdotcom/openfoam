@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polySurfaceFields.H"
-#include "className.H"
+#include "polySurface/fields/polySurfaceFields.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

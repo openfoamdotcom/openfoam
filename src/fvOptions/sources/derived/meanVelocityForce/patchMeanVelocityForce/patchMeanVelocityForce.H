@@ -76,7 +76,7 @@ SourceFiles
 #ifndef patchMeanVelocityForce_H
 #define patchMeanVelocityForce_H
 
-#include "meanVelocityForce.H"
+#include "sources/derived/meanVelocityForce/meanVelocityForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

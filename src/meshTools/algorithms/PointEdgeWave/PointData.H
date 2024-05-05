@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_PointData_H
 #define Foam_PointData_H
 
-#include "pointEdgePoint.H"
+#include "algorithms/PointEdgeWave/pointEdgePoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,7 +198,7 @@ struct is_contiguous_scalar<PointData<DataType>>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PointDataI.H"
+#include "algorithms/PointEdgeWave/PointDataI.H"
 
 #ifdef NoRepository
 #   include "PointData.C"

@@ -73,9 +73,9 @@ SourceFiles
 #ifndef functionObjects_fieldExpression_H
 #define functionObjects_fieldExpression_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
-#include "zoneSubSet.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "zoneSubSet/zoneSubSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldExpressionTemplates.C"
+    #include "fieldExpression/fieldExpressionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

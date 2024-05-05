@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "dimensionSet.H"
-#include "dimensionedScalar.H"
-#include "IOstreams.H"
+#include "db/dictionary/dictionary.H"
+#include "dimensionSet/dimensionSet.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "db/IOstreams/IOstreams.H"
 #include <limits>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

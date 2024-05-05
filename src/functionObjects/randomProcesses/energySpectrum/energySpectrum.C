@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "energySpectrum.H"
-#include "fft.H"
-#include "fvMesh.H"
-#include "boundBox.H"
-#include "OFstream.H"
-#include "mathematicalConstants.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "energySpectrum/energySpectrum.H"
+#include "fft/fft.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/boundBox/boundBox.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

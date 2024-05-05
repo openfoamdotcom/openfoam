@@ -68,15 +68,15 @@ SourceFiles
 #ifndef Foam_expressions_exprDriver_H
 #define Foam_expressions_exprDriver_H
 
-#include "exprResult.H"
-#include "exprString.H"
-#include "exprTraits.H"
-#include "pointField.H"
-#include "primitiveFields.H"
-#include "objectRegistry.H"
-#include "HashTable.H"
-#include "HashSet.H"
-#include "Function1Pascal.H"
+#include "expressions/exprResult/exprResult.H"
+#include "expressions/exprString/exprString.H"
+#include "expressions/traits/exprTraits.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/Fields/primitiveFields.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -662,11 +662,11 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "exprDriverI.H"
-#include "exprDriverContextI.H"
+#include "expressions/exprDriver/exprDriverI.H"
+#include "expressions/exprDriver/exprDriverContextI.H"
 
 #ifdef NoRepository
-    #include "exprDriverTemplates.C"
+    #include "expressions/exprDriver/exprDriverTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

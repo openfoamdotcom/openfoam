@@ -29,13 +29,13 @@ InClass
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyDualMesh.H"
-#include "meshTools.H"
-#include "OFstream.H"
-#include "TimeOpenFOAM.H"
-#include "SortableList.H"
-#include "pointSet.H"
-#include "bitSet.H"
+#include "polyDualMesh/polyDualMesh.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkSurfaceWriter.H"
-#include "foamVtkSurfaceWriter.H"
-#include "surfaceWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writers/vtk/vtkSurfaceWriter.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

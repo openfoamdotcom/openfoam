@@ -28,8 +28,8 @@ License
 #ifndef Foam_diagTensorIOField_H
 #define Foam_diagTensorIOField_H
 
-#include "diagTensorField.H"
-#include "IOField.H"
+#include "fields/Fields/diagTensorField/diagTensorField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

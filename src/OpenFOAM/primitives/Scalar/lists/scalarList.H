@@ -28,9 +28,9 @@ License
 #ifndef Foam_scalarList_H
 #define Foam_scalarList_H
 
-#include "scalar.H"
-#include "List.H"
-#include "SubList.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

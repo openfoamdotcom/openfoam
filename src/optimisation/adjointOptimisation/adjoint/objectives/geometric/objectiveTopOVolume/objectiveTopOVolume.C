@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectiveTopOVolume.H"
-#include "createZeroField.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/geometric/objectiveTopOVolume/objectiveTopOVolume.H"
+#include "global/createZeroField.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

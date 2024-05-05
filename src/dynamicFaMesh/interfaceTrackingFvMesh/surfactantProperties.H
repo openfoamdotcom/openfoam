@@ -36,8 +36,8 @@ SourceFiles
 #ifndef surfactantProperties_H
 #define surfactantProperties_H
 
-#include "fvCFD.H"
-#include "faCFD.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "include/faCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

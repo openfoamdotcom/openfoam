@@ -44,7 +44,7 @@ See Also
 #ifndef Foam_OCharStream_H
 #define Foam_OCharStream_H
 
-#include "OSpanStream.H"
+#include "db/IOstreams/memory/OSpanStream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

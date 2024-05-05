@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_treeDataCell_H
 #define Foam_treeDataCell_H
 
-#include "polyMesh.H"
-#include "treeBoundBoxList.H"
-#include "volumeType.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

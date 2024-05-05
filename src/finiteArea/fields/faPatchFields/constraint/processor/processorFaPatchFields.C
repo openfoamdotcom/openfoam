@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "areaFaMesh.H"
-#include "areaFields.H"
+#include "fields/faPatchFields/constraint/processor/processorFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "areaMesh/areaFaMesh.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

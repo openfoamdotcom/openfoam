@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SmagorinskyZhang.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/phaseCompressible/LES/SmagorinskyZhang/SmagorinskyZhang.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

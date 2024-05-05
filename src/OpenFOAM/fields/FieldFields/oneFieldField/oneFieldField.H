@@ -40,8 +40,8 @@ Description
 #ifndef Foam_oneFieldField_H
 #define Foam_oneFieldField_H
 
-#include "oneField.H"
-#include "Pair.H"
+#include "fields/Fields/oneField/oneField.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

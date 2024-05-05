@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "movingWallVelocityFvPatchVectorField.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvcMeshPhi.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/movingWallVelocity/movingWallVelocityFvPatchVectorField.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvcMeshPhi.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

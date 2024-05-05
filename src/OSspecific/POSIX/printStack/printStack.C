@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "OSspecific.H"
+#include "db/error/error.H"
+#include "include/OSspecific.H"
 
 #include <cinttypes>
 #include <sstream>

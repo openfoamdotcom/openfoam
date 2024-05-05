@@ -99,7 +99,7 @@ SourceFiles
 #ifndef functionObjects_add_H
 #define functionObjects_add_H
 
-#include "fieldsExpression.H"
+#include "fieldsExpression/fieldsExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -166,7 +166,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "addTemplates.C"
+    #include "add/addTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

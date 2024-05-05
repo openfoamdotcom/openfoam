@@ -40,7 +40,7 @@ SourceFiles
 #ifndef bisection_H
 #define bisection_H
 
-#include "stepUpdate.H"
+#include "optimisation/lineSearch/stepUpdate/stepUpdate/stepUpdate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

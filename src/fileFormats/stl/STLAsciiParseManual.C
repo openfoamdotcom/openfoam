@@ -28,9 +28,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLAsciiParse.H"
-#include "STLReader.H"
-#include "stringOps.H"
+#include "stl/STLAsciiParse.H"
+#include "stl/STLReader.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

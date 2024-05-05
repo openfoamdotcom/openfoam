@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_rawGraphWriter_H
 #define Foam_rawGraphWriter_H
 
-#include "graph.H"
+#include "graph/graph.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

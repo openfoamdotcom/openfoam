@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyancyTurbSource.H"
+#include "sources/derived/buoyancyTurbSource/buoyancyTurbSource.H"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

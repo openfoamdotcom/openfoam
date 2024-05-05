@@ -38,12 +38,12 @@ SourceFiles
 #ifndef regionFaModels_filmTurbulenceModel_H
 #define regionFaModels_filmTurbulenceModel_H
 
-#include "areaFieldsFwd.H"
-#include "runTimeSelectionTables.H"
-#include "faMatrices.H"
-#include "liquidFilmBase.H"
-#include "fvMesh.H"
-#include "Enum.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "faMatrices/faMatrices.H"
+#include "liquidFilm/liquidFilmBase.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

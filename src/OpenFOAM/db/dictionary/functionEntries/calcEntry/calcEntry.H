@@ -54,7 +54,7 @@ SourceFiles
 #ifndef functionEntries_calcEntry_H
 #define functionEntries_calcEntry_H
 
-#include "codeStream.H"
+#include "db/dictionary/functionEntries/codeStream/codeStream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -66,9 +66,9 @@ SourceFiles
 #ifndef Foam_surfaceWriters_ensightWriter_H
 #define Foam_surfaceWriters_ensightWriter_H
 
-#include "surfaceWriter.H"
-#include "ensightCase.H"
-#include "ensightWriterCaching.H"
+#include "writers/common/surfaceWriter.H"
+#include "ensight/file/ensightCase.H"
+#include "ensight/file/ensightWriterCaching.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

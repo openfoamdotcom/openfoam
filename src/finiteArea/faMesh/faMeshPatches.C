@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "faPatchData.H"
-#include "emptyFaPatch.H"
-#include "ignoreFaPatch.H"
-#include "processorFaPatch.H"
-#include "processorPolyPatch.H"
-#include "foamVtkLineWriter.H"
+#include "faMesh/faMesh.H"
+#include "faMesh/faPatches/faPatch/faPatchData.H"
+#include "faMesh/faPatches/constraint/empty/emptyFaPatch.H"
+#include "faMesh/faPatches/other/ignore/ignoreFaPatch.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "vtk/write/foamVtkLineWriter.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

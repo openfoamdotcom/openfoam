@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallModel.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel/WallModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

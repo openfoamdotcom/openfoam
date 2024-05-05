@@ -70,7 +70,7 @@ SourceFiles
 #ifndef directionalMeshWavePatchDistMethod_H
 #define directionalMeshWavePatchDistMethod_H
 
-#include "meshWavePatchDistMethod.H"
+#include "fvMesh/wallDist/patchDistMethods/meshWave/meshWavePatchDistMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

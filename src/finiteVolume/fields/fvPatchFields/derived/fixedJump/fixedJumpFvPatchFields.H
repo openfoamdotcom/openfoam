@@ -28,8 +28,8 @@ License
 #ifndef fixedJumpFvPatchFields_H
 #define fixedJumpFvPatchFields_H
 
-#include "fixedJumpFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

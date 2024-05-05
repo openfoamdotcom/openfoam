@@ -56,7 +56,7 @@ SourceFiles
 #ifndef Function1Types_Constant_H
 #define Function1Types_Constant_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -158,11 +158,11 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ConstantI.H"
+#include "primitives/functions/Function1/Constant/ConstantI.H"
 
 #ifdef NoRepository
-    #include "Constant.C"
-    #include "Function1New.C"
+    #include "primitives/functions/Function1/Constant/Constant.C"
+    #include "primitives/functions/Function1/Function1/Function1New.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

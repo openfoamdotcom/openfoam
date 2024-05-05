@@ -36,9 +36,9 @@ Description
 #ifndef betaMaxStepRamp_H
 #define betaMaxStepRamp_H
 
-#include "betaMax.H"
-#include "stepRamp.H"
-#include "Scale.H"
+#include "optimisation/designVariables/topODesignVariables/betaMax/betaMax/betaMax.H"
+#include "OpenFOAM/primitives/functions/Function1/stepRamp/stepRamp.H"
+#include "primitives/functions/Function1/Scale/Scale.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

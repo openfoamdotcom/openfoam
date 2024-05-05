@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationHurtMitchell.H"
-#include "mathematicalConstants.H"
+#include "submodels/surfaceReactionModel/COxidationHurtMitchell/COxidationHurtMitchell.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

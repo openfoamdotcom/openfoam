@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_multiLevelDecomp_H
 #define Foam_multiLevelDecomp_H
 
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 namespace Foam
 {

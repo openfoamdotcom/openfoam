@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "fvMeshAdder.H"
-#include "faceCoupleInfo.H"
-#include "polyTopoChange.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMeshAdder/fvMeshAdder.H"
+#include "polyMeshAdder/faceCoupleInfo.H"
+#include "polyTopoChange/polyTopoChange.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

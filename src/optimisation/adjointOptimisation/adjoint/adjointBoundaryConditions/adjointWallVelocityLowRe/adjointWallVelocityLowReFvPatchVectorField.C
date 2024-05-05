@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointWallVelocityLowReFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "adjointBoundaryConditions/adjointWallVelocityLowRe/adjointWallVelocityLowReFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

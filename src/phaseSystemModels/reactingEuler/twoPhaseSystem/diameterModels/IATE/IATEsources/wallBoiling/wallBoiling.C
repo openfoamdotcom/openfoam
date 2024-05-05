@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoiling.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "alphatWallBoilingWallFunctionFvPatchScalarField.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/IATE/IATEsources/wallBoiling/wallBoiling.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "derivedFvPatchFields/alphatWallBoilingWallFunction/alphatWallBoilingWallFunctionFvPatchScalarField.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

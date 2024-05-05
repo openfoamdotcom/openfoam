@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "SubField.H"
-#include "entry.H"
-#include "dictionary.H"
-#include "pointPatchField.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

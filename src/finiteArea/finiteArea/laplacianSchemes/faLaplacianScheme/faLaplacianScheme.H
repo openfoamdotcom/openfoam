@@ -38,13 +38,13 @@ SourceFiles
 #ifndef faLaplacianScheme_H
 #define faLaplacianScheme_H
 
-#include "tmp.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "linearEdgeInterpolation.H"
-#include "correctedLnGrad.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "memory/tmp/tmp.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "interpolation/edgeInterpolation/schemes/linear/linearEdgeInterpolation.H"
+#include "finiteArea/lnGradSchemes/correctedLnGrad/correctedLnGrad.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -236,7 +236,7 @@ makeFaLaplacianTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faLaplacianScheme.C"
+    #include "finiteArea/laplacianSchemes/faLaplacianScheme/faLaplacianScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

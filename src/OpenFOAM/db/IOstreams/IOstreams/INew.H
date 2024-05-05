@@ -34,7 +34,7 @@ Description
 #ifndef Foam_INew_H
 #define Foam_INew_H
 
-#include "autoPtr.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

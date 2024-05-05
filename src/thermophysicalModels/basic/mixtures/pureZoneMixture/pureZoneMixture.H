@@ -82,7 +82,7 @@ SourceFiles
 #ifndef pureZoneMixture_H
 #define pureZoneMixture_H
 
-#include "basicMixture.H"
+#include "mixtures/basicMixture/basicMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "pureZoneMixture.C"
+    #include "mixtures/pureZoneMixture/pureZoneMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

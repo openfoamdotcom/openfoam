@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprTraits.H"
+#include "expressions/traits/exprTraits.H"
 
 //TBD: handle complex?
 

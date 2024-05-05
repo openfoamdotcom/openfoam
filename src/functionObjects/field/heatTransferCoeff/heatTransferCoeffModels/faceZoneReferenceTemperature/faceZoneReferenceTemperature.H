@@ -78,7 +78,7 @@ SourceFiles
 #ifndef heatTransferCoeffModels_faceZoneReferenceTemperature_H
 #define heatTransferCoeffModels_faceZoneReferenceTemperature_H
 
-#include "heatTransferCoeffModel.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

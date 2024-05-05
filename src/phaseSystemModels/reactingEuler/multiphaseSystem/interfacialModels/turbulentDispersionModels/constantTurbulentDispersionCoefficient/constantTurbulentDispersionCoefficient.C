@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantTurbulentDispersionCoefficient.H"
-#include "reactingEuler_phasePair.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/turbulentDispersionModels/constantTurbulentDispersionCoefficient/constantTurbulentDispersionCoefficient.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

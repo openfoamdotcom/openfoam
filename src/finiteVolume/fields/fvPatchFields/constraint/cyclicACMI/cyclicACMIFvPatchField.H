@@ -57,9 +57,9 @@ SourceFiles
 #ifndef Foam_cyclicACMIFvPatchField_H
 #define Foam_cyclicACMIFvPatchField_H
 
-#include "coupledFvPatchField.H"
-#include "cyclicACMILduInterfaceField.H"
-#include "cyclicACMIFvPatch.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.H"
+#include "AMIInterpolation/patches/cyclicACMI/cyclicACMILduInterfaceField/cyclicACMILduInterfaceField.H"
+#include "fvMesh/fvPatches/constraint/cyclicACMI/cyclicACMIFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -376,7 +376,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicACMIFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/cyclicACMI/cyclicACMIFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

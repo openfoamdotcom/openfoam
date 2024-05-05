@@ -1,25 +1,25 @@
 // Null joint for the root-body
-#include "nullJoint.H"
+#include "joints/null/nullJoint.H"
 
 // Composite joint to handle combination of rotations and translations
-#include "compositeJoint.H"
+#include "joints/composite/compositeJoint.H"
 
 // 6-DoF joint for floating bodies
-#include "floatingJoint.H"
+#include "joints/floating/floatingJoint.H"
 
 // Revolute joints
-#include "Rx.H"
-#include "Ry.H"
-#include "Rz.H"
-#include "Ra.H"
-#include "Rs.H"
-#include "Rzyx.H"
-#include "Rxyz.H"
-#include "Ryxz.H"
+#include "joints/Rx/Rx.H"
+#include "joints/Ry/Ry.H"
+#include "joints/Rz/Rz.H"
+#include "joints/Ra/Ra.H"
+#include "joints/Rs/Rs.H"
+#include "joints/Rzyx/Rzyx.H"
+#include "joints/Rxyz/Rxyz.H"
+#include "joints/Ryxz/Ryxz.H"
 
 // Prismatic joints
-#include "Px.H"
-#include "Py.H"
-#include "Pz.H"
-#include "Pa.H"
-#include "Pxyz.H"
+#include "joints/Px/Px.H"
+#include "joints/Py/Py.H"
+#include "joints/Pz/Pz.H"
+#include "joints/Pa/Pa.H"
+#include "joints/Pxyz/Pxyz.H"

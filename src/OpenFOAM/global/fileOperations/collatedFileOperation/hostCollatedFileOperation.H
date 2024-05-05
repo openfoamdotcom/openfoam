@@ -68,7 +68,7 @@ SourceFiles
 #ifndef Foam_fileOperations_hostCollatedFileOperation_H
 #define Foam_fileOperations_hostCollatedFileOperation_H
 
-#include "collatedFileOperation.H"
+#include "global/fileOperations/collatedFileOperation/collatedFileOperation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

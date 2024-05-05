@@ -40,13 +40,13 @@ SourceFiles
 #ifndef objective_H
 #define objective_H
 
-#include "localIOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "OFstream.H"
-#include "boundaryFieldsFwd.H"
-#include "solverControl.H"
-#include "objectiveFwd.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "global/boundaryFieldsFwd.H"
+#include "solvers/solverControl/solverControl/solverControl.H"
+#include "objectives/objective/objectiveFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -474,7 +474,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "objectiveI.H"
+#include "objectives/objective/objectiveI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

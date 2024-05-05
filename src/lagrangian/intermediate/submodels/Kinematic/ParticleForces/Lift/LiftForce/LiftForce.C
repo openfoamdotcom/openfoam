@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LiftForce.H"
-#include "fvcCurl.H"
+#include "submodels/Kinematic/ParticleForces/Lift/LiftForce/LiftForce.H"
+#include "finiteVolume/fvc/fvcCurl.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

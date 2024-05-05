@@ -48,10 +48,10 @@ SourceFiles
 #ifndef surfaceIteratorIso_H
 #define surfaceIteratorIso_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "cutCellIso.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "cellCuts/cutCell/cutCellIso.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

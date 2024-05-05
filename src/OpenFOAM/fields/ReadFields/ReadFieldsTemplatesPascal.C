@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReadFieldsPascal.H"
-#include "HashSet.H"
-#include "IOobjectList.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

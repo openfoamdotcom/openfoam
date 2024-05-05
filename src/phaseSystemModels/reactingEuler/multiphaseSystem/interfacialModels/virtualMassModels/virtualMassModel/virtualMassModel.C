@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "virtualMassModel.H"
-#include "reactingEuler_phasePair.H"
-#include "surfaceInterpolate.H"
-#include "BlendedInterfacialModel.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

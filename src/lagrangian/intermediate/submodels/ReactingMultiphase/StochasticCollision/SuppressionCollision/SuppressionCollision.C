@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SuppressionCollision.H"
-#include "kinematicCloud.H"
+#include "submodels/ReactingMultiphase/StochasticCollision/SuppressionCollision/SuppressionCollision.H"
+#include "clouds/baseClasses/kinematicCloud/kinematicCloud.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

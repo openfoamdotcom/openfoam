@@ -37,11 +37,11 @@ SourceFiles
 #ifndef lnGradScheme_H
 #define lnGradScheme_H
 
-#include "tmp.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "memory/tmp/tmp.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ makeLnGradTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lnGradScheme.C"
+    #include "finiteArea/lnGradSchemes/lnGradScheme/lnGradScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

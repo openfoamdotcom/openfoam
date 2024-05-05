@@ -38,11 +38,11 @@ SourceFiles
 #ifndef tetherPotential_H
 #define tetherPotential_H
 
-#include "IOdictionary.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "vector.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

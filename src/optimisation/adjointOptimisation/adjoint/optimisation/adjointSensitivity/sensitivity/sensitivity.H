@@ -40,17 +40,17 @@ SourceFiles
 #ifndef sensitivity_H
 #define sensitivity_H
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "dictionary.H"
-#include "volPointInterpolation.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/dictionary/dictionary.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
-#include "pointMesh.H"
-#include "pointPatchField.H"
-#include "pointPatchFieldsFwd.H"
-#include "fixedValuePointPatchField.H"
-#include "boundaryFieldsFwd.H"
-#include "createZeroField.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "global/boundaryFieldsFwd.H"
+#include "global/createZeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

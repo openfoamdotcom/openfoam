@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liftModel.H"
-#include "phasePair.H"
-#include "fvcCurl.H"
-#include "fvcFlux.H"
-#include "surfaceInterpolate.H"
+#include "interfacialModels/liftModels/liftModel/liftModel.H"
+#include "phasePair/phasePair.H"
+#include "finiteVolume/fvc/fvcCurl.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

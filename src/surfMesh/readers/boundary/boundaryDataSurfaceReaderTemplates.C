@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryDataSurfaceReader.H"
-#include "rawIOField.H"
-#include "TimeOpenFOAM.H"
+#include "readers/boundary/boundaryDataSurfaceReader.H"
+#include "db/IOobjects/rawIOField/rawIOField.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

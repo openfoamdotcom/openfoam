@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussFaLaplacianScheme.H"
-#include "facDiv.H"
-#include "faMatrices.H"
+#include "finiteArea/laplacianSchemes/gaussFaLaplacianScheme/gaussFaLaplacianScheme.H"
+#include "finiteArea/fac/facDiv.H"
+#include "faMatrices/faMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

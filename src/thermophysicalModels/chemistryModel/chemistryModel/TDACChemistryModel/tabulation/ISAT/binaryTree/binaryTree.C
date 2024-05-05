@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binaryTree.H"
-#include "SortableList.H"
-#include "demandDrivenData.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryTree/binaryTree.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BasicPascal.H"
-#include "zeroGradientFvPatchField.H"
+#include "submodels/MPPIC/AveragingMethods/Basic/BasicPascal.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

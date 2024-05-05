@@ -59,8 +59,8 @@ SourceFiles
 #ifndef Foam_isoSurfaceParams_H
 #define Foam_isoSurfaceParams_H
 
-#include "boundBox.H"
-#include "Enum.H"
+#include "meshes/boundBox/boundBox.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

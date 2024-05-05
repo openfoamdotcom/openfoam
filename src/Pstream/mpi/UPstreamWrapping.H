@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_UPstreamWrapping_H
 #define Foam_UPstreamWrapping_H
 
-#include "UPstream.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
 
 // Include MPI without any C++ bindings
 #ifndef MPICH_SKIP_MPICXX

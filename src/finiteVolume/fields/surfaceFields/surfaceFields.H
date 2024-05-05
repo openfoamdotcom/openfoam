@@ -37,12 +37,12 @@ SourceFiles
 #ifndef Foam_surfaceFields_H
 #define Foam_surfaceFields_H
 
-#include "GeometricFields.H"
-#include "surfaceMesh.H"
-#include "fvMesh.H"
-#include "fvsPatchFields.H"
-#include "surfaceFieldsFwd.H"
-#include "calculatedFvsPatchFields.H"
+#include "fields/GeometricFields/GeometricField/GeometricFields.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fields/fvsPatchFields/basic/calculated/calculatedFvsPatchFields.H"
 
 #endif
 

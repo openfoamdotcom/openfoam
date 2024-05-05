@@ -39,12 +39,12 @@ SourceFiles
 #ifndef Foam_quaternion_H
 #define Foam_quaternion_H
 
-#include "scalar.H"
-#include "vector.H"
-#include "tensor.H"
-#include "word.H"
-#include "Enum.H"
-#include "stdFoam.H"  // For deprecation macros
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/enums/Enum.H"
+#include "include/stdFoam.H"  // For deprecation macros
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -349,7 +349,7 @@ inline quaternion operator/(const quaternion& q, const scalar s);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quaternionI.H"
+#include "primitives/quaternion/quaternionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

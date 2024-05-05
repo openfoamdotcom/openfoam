@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldAverage.H"
-#include "volFields.H"
-#include "fieldAverageItem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fieldAverage/fieldAverage.H"
+#include "fields/volFields/volFields.H"
+#include "fieldAverage/fieldAverageItem/fieldAverageItem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

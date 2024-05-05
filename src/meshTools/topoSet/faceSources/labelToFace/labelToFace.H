@@ -86,7 +86,7 @@ SourceFiles
 #ifndef labelToFace_H
 #define labelToFace_H
 
-#include "topoSetFaceSource.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

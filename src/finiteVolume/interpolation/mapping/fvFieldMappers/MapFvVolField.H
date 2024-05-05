@@ -32,8 +32,8 @@ Description
 #ifndef MapFvVolField_H
 #define MapFvVolField_H
 
-#include "Field.H"
-#include "volMesh.H"
+#include "fields/Fields/Field/Field.H"
+#include "volMesh/volMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

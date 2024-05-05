@@ -49,7 +49,7 @@ SourceFiles
 #ifndef RBD_joints_Rs_H
 #define RBD_joints_Rs_H
 
-#include "joint.H"
+#include "joints/joint/joint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

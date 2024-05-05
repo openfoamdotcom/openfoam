@@ -27,7 +27,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stepUpdate.H"
+#include "optimisation/lineSearch/stepUpdate/stepUpdate/stepUpdate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

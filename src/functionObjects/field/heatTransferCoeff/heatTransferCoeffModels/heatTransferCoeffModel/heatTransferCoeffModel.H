@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Foam_heatTransferCoeffModel_H
 #define Foam_heatTransferCoeffModel_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

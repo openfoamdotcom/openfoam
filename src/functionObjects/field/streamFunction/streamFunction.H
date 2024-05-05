@@ -85,9 +85,9 @@ SourceFiles
 #ifndef functionObjects_streamFunction_H
 #define functionObjects_streamFunction_H
 
-#include "fieldExpression.H"
-#include "surfaceFieldsFwd.H"
-#include "pointFieldsFwd.H"
+#include "fieldExpression/fieldExpression.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

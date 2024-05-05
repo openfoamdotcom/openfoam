@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointVolInterpolation.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "primitiveMesh.H"
-#include "emptyFvPatch.H"
-#include "globalMeshData.H"
+#include "interpolation/pointVolInterpolation/pointVolInterpolation.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

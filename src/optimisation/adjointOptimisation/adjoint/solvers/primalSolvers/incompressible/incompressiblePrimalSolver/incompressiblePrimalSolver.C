@@ -27,11 +27,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressiblePrimalSolver.H"
-#include "adjustPhi.H"
-#include "adjointSolver.H"
-#include "fvOptions.H"
-#include "addToRunTimeSelectionTable.H"
+#include "solvers/primalSolvers/incompressible/incompressiblePrimalSolver/incompressiblePrimalSolver.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

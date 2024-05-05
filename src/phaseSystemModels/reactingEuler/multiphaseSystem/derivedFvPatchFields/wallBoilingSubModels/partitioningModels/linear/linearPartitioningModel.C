@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearPartitioningModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/partitioningModels/linear/linearPartitioningModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

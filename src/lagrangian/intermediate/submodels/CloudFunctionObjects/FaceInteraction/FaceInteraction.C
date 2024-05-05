@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FaceInteraction.H"
-#include "faceZoneMesh.H"
+#include "submodels/CloudFunctionObjects/FaceInteraction/FaceInteraction.H"
+#include "meshes/polyMesh/zones/ZoneMesh/faceZoneMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

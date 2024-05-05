@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RanzMarshall.H"
+#include "submodels/Thermodynamic/HeatTransferModel/RanzMarshall/RanzMarshall.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFile
 #ifndef binaryNode_H
 #define binaryNode_H
 
-#include "chemPointISAT.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/ISAT/chemPointISAT/chemPointISAT.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,7 +198,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "binaryNode.C"
+    #include "chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryNode/binaryNode.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

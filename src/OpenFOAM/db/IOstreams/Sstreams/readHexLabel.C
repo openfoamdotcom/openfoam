@@ -28,8 +28,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "readHexLabel.H"
-#include "ReadHex.H"
+#include "db/IOstreams/Sstreams/readHexLabel.H"
+#include "db/IOstreams/Sstreams/ReadHex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

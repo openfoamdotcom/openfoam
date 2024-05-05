@@ -45,8 +45,8 @@ SourceFiles
 #ifndef preserveFaceZonesConstraint_H
 #define preserveFaceZonesConstraint_H
 
-#include "decompositionConstraint.H"
-#include "wordRes.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

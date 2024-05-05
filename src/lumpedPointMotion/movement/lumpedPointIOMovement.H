@@ -37,9 +37,9 @@ SourceFiles
 #ifndef lumpedPointIOMovement_H
 #define lumpedPointIOMovement_H
 
-#include "lumpedPointMovement.H"
-#include "regIOobject.H"
-#include "className.H"
+#include "movement/lumpedPointMovement.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

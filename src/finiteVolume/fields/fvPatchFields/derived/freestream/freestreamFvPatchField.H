@@ -86,7 +86,7 @@ SourceFiles
 #ifndef Foam_freestreamFvPatchField_H
 #define Foam_freestreamFvPatchField_H
 
-#include "inletOutletFvPatchField.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -212,7 +212,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "freestreamFvPatchField.C"
+    #include "fields/fvPatchFields/derived/freestream/freestreamFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "opaqueReflective.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/boundaryRadiationProperties/opaqueReflective/opaqueReflective.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

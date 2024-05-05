@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fluxSummary.H"
-#include "surfaceFields.H"
-#include "polySurfaceFields.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "syncTools.H"
-#include "meshTools.H"
-#include "PatchEdgeFaceWave.H"
-#include "edgeTopoDistanceData.H"
-#include "globalIndex.H"
-#include "OBJstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fluxSummary/fluxSummary.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "polySurface/fields/polySurfaceFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshTools/meshTools.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "algorithms/PatchEdgeFaceWave/edgeTopoDistanceData.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "obj/OBJstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -57,8 +57,8 @@ SourceFiles
 #ifndef IOMRFZoneList_H
 #define IOMRFZoneList_H
 
-#include "IOdictionary.H"
-#include "MRFZoneList.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "cfdTools/general/MRF/MRFZoneList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

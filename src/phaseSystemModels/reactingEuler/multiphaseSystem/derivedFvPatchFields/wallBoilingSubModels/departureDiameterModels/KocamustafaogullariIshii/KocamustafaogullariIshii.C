@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KocamustafaogullariIshii.H"
-#include "addToRunTimeSelectionTable.H"
-#include "uniformDimensionedFields.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureDiameterModels/KocamustafaogullariIshii/KocamustafaogullariIshii.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 #include "compressibleTurbulenceModel.H"
-#include "ThermalDiffusivity.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "phaseSystem.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

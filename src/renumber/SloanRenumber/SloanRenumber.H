@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_SloanRenumber_H
 #define Foam_SloanRenumber_H
 
-#include "renumberMethod.H"
+#include "renumberMethod/renumberMethod.H"
 
 namespace Foam
 {

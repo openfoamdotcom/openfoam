@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Gibilaro_H
 #define Gibilaro_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_layerAdditionRemoval_H
 #define Foam_layerAdditionRemoval_H
 
-#include "polyMeshModifier.H"
-#include "primitivePatch.H"
-#include "ZoneIDs.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/Identifiers/zone/ZoneIDs.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DistortedSphereDragForce.H"
+#include "submodels/Kinematic/ParticleForces/Drag/DistortedSphereDrag/DistortedSphereDragForce.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

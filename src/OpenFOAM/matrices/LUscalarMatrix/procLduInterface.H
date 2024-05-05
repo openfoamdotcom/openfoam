@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_procLduInterface_H
 #define Foam_procLduInterface_H
 
-#include "labelList.H"
-#include "scalarField.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

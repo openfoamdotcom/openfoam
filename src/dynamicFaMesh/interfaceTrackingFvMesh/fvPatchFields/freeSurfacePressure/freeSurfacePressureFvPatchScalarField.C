@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "freeSurfacePressureFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "gravityMeshObject.H"
-#include "turbulentTransportModel.H"
+#include "fvPatchFields/freeSurfacePressure/freeSurfacePressureFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
 #include "interfaceTrackingFvMesh.H"
-#include "singlePhaseTransportModel.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

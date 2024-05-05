@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledNone.H"
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledNone/sampledNone.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

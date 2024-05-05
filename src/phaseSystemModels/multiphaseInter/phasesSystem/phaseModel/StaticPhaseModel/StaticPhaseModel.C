@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "StaticPhaseModel.H"
+#include "phaseModel/StaticPhaseModel/StaticPhaseModel.H"
 
-#include "multiphaseInterSystem.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
 
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

@@ -104,7 +104,7 @@ Note
 #ifndef Function1Types_Square_H
 #define Function1Types_Square_H
 
-#include "Sine.H"
+#include "primitives/functions/Function1/Sine/Sine.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Square.C"
+    #include "primitives/functions/Function1/Square/Square.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

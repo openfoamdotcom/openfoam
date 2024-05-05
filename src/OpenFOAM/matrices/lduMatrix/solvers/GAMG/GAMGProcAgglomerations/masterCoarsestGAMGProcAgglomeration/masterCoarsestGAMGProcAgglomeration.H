@@ -65,7 +65,7 @@ SourceFiles
 #ifndef Foam_masterCoarsestGAMGProcAgglomeration_H
 #define Foam_masterCoarsestGAMGProcAgglomeration_H
 
-#include "GAMGProcAgglomeration.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

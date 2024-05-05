@@ -39,7 +39,7 @@ SourceFiles
 #ifndef cellVolumeWeightMethod_H
 #define cellVolumeWeightMethod_H
 
-#include "meshToMeshMethod.H"
+#include "meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

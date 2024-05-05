@@ -79,7 +79,7 @@ SourceFiles
 #ifndef CoulaloglouTavlaridesCoalescence_H
 #define CoulaloglouTavlaridesCoalescence_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

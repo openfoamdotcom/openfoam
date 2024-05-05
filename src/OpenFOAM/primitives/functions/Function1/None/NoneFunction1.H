@@ -37,7 +37,7 @@ Description
 #ifndef Foam_Function1Types_None_H
 #define Foam_Function1Types_None_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 } // End namespace Foam
 
 #ifdef NoRepository
-    #include "NoneFunction1.C"
+    #include "primitives/functions/Function1/None/NoneFunction1.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

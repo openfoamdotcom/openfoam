@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingOneDim.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvm.H"
-#include "fvcDiv.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvcLaplacian.H"
-#include "absorptionEmissionModel.H"
+#include "reactingOneDim/reactingOneDim.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

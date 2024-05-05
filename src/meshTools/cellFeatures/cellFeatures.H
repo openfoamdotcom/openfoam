@@ -42,12 +42,12 @@ SourceFiles
 #ifndef Foam_cellFeatures_H
 #define Foam_cellFeatures_H
 
-#include "faceList.H"
-#include "labelList.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "DynamicList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

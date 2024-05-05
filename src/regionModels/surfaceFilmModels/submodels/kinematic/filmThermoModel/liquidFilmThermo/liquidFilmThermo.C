@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liquidFilmThermo.H"
-#include "demandDrivenData.H"
-#include "thermoSingleLayer.H"
-#include "SLGThermo.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/kinematic/filmThermoModel/liquidFilmThermo/liquidFilmThermo.H"
+#include "include/demandDrivenData.H"
+#include "thermoSingleLayer/thermoSingleLayer.H"
+#include "SLGThermo/SLGThermo.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

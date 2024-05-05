@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceReflecting.H"
-#include "boundaryRadiationProperties.H"
-#include "cyclicAMIPolyPatch.H"
-#include "volFields.H"
+#include "radiationModels/solarLoad/faceReflecting/faceReflecting.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationProperties.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "fields/volFields/volFields.H"
 
 
 using namespace Foam::constant::mathematical;

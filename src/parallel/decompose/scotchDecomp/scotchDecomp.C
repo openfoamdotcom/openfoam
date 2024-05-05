@@ -27,11 +27,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "scotchDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "floatScalar.H"
-#include "TimeOpenFOAM.H"
-#include "PrecisionAdaptor.H"
-#include "OFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 #include <cstdio>
 #include <limits>
 

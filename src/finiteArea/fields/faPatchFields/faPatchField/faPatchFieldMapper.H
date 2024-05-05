@@ -34,7 +34,7 @@ Description
 #ifndef Foam_faPatchFieldMapper_H
 #define Foam_faPatchFieldMapper_H
 
-#include "primitiveFields.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

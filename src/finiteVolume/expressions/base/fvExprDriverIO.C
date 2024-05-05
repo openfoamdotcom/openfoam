@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvExprDriver.H"
-#include "fvExprDriverWriter.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
+#include "expressions/base/fvExprDriver.H"
+#include "expressions/base/fvExprDriverWriter.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

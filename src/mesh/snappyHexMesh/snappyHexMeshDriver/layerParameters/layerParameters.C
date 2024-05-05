@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "layerParameters.H"
-#include "polyBoundaryMesh.H"
-#include "unitConversion.H"
-#include "refinementSurfaces.H"
-#include "searchableSurfaces.H"
-#include "medialAxisMeshMover.H"
+#include "snappyHexMeshDriver/layerParameters/layerParameters.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "global/constants/unitConversion.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "externalDisplacementMeshMover/medialAxisMeshMover.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

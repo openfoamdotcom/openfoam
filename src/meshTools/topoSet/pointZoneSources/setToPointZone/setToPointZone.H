@@ -83,7 +83,7 @@ SourceFiles
 #ifndef setToPointZone_H
 #define setToPointZone_H
 
-#include "topoSetPointZoneSource.H"
+#include "topoSet/pointZoneSources/topoSetPointZoneSource/topoSetPointZoneSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

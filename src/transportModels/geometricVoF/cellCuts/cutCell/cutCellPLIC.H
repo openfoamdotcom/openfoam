@@ -54,11 +54,11 @@ SourceFiles
 #ifndef cutCellPLIC_H
 #define cutCellPLIC_H
 
-#include "cutCell.H"
-#include "cutFacePLIC.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "cellCuts/cutCell/cutCell.H"
+#include "cellCuts/cutFace/cutFacePLIC.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

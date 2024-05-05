@@ -38,11 +38,11 @@ SourceFiles
 #ifndef triSurfaceSearch_H
 #define triSurfaceSearch_H
 
-#include "pointField.H"
-#include "boolList.H"
-#include "pointIndexHit.H"
-#include "indexedOctree.H"
-#include "treeDataTriSurface.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataTriSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

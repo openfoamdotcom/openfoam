@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_pointZoneSet_H
 #define Foam_pointZoneSet_H
 
-#include "pointSet.H"
+#include "topoSet/topoSets/pointSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

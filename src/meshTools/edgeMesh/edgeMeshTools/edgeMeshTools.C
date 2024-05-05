@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMeshTools.H"
+#include "edgeMesh/edgeMeshTools/edgeMeshTools.H"
 
-#include "extendedFeatureEdgeMesh.H"
-#include "OFstream.H"
+#include "edgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

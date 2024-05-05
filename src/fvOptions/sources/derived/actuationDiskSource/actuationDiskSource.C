@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "actuationDiskSource.H"
-#include "geometricOneField.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/actuationDiskSource/actuationDiskSource.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

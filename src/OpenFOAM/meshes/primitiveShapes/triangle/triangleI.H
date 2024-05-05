@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "pointHit.H"
-#include "mathematicalConstants.H"
+#include "db/IOstreams/IOstreams.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

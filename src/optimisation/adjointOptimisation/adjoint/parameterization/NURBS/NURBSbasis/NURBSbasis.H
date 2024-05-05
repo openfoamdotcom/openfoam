@@ -41,8 +41,8 @@ SourceFiles
 #ifndef NURBSbasis_H
 #define NURBSbasis_H
 
-#include "dictionary.H"
-#include "scalarField.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NURBSbasisI.H"
+#include "parameterization/NURBS/NURBSbasis/NURBSbasisI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

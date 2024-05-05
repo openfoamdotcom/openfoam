@@ -49,9 +49,9 @@ SourceFiles
 #ifndef elasticityMotionSolver_H
 #define elasticityMotionSolver_H
 
-#include "motionSolver.H"
-#include "volFields.H"
-#include "pointFields.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -171,7 +171,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "elasticityMotionSolverI.H"
+#include "dynamicMesh/motionSolver/elasticityMotionSolver/elasticityMotionSolverI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

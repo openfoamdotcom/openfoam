@@ -28,8 +28,8 @@ License
 #ifndef Foam_stringIOList_H
 #define Foam_stringIOList_H
 
-#include "stringList.H"
-#include "IOList.H"
+#include "primitives/strings/lists/stringList.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

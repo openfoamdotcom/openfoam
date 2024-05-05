@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldFunctionObjects_surfaceInterpolate.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "surfaceInterpolate/fieldFunctionObjects_surfaceInterpolate.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

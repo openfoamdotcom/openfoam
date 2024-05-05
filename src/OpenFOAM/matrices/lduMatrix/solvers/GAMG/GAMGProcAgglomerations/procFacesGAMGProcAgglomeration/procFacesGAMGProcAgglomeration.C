@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "procFacesGAMGProcAgglomeration.H"
-#include "addToRunTimeSelectionTable.H"
-#include "GAMGAgglomeration.H"
-#include "Random.H"
-#include "lduMesh.H"
-#include "processorLduInterface.H"
-#include "processorGAMGInterface.H"
-#include "pairGAMGAgglomeration.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/procFacesGAMGProcAgglomeration/procFacesGAMGProcAgglomeration.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
+#include "primitives/random/Random/Random.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/pairGAMGAgglomeration/pairGAMGAgglomeration.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

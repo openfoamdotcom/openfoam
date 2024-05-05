@@ -94,12 +94,12 @@ SourceFiles
 #ifndef functionObjescts_reactionsSensitivityAnalysis_H
 #define functionObjescts_reactionsSensitivityAnalysis_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "volFieldsFwd.H"
-#include "basicChemistryModel.H"
-#include "autoPtr.H"
-#include "basicMultiComponentMixture.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "chemistryModel/basicChemistryModel/basicChemistryModel.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "mixtures/basicMultiComponentMixture/basicMultiComponentMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "springRenumber.H"
-#include "globalMeshData.H"
-#include "addToRunTimeSelectionTable.H"
+#include "springRenumber/springRenumber.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

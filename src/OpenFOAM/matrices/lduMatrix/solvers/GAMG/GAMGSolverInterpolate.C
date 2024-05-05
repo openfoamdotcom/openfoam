@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGSolver.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

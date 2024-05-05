@@ -28,7 +28,7 @@ License
 
 #include <type_traits>
 
-#include "SymmTensorPascal.H"
+#include "primitives/SymmTensor/SymmTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

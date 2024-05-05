@@ -51,7 +51,7 @@ SourceFiles
 #ifndef LegendreMagnaudet_H
 #define LegendreMagnaudet_H
 
-#include "liftModel.H"
+#include "interfacialModels/liftModels/liftModel/liftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

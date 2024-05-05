@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volRegion.H"
-#include "volMesh.H"
-#include "cellSet.H"
-#include "globalMeshData.H"
+#include "functionObjects/volRegion/volRegion.H"
+#include "volMesh/volMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

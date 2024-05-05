@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReversibleReaction.H"
+#include "reaction/ReactionsCaseDir/ReversibleReaction/ReversibleReaction.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

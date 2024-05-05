@@ -70,7 +70,7 @@ SourceFiles
 #ifndef Kutadeladze_H
 #define Kutadeladze_H
 
-#include "nucleateFluxModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/nucleateFluxModels/nucleateFluxModel/nucleateFluxModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

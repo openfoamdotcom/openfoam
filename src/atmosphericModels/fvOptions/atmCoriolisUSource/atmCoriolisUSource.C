@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmCoriolisUSource.H"
-#include "fvMatrices.H"
-#include "unitConversion.H"
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/atmCoriolisUSource/atmCoriolisUSource.H"
+#include "fvMatrices/fvMatrices.H"
+#include "global/constants/unitConversion.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant::mathematical;
 

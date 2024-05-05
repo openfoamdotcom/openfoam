@@ -27,24 +27,24 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "variablesSet.H"
-#include "surfaceFields.H"
-#include "fixedValueFvPatchFields.H"
-#include "linear.H"
+#include "solvers/variablesSet/variablesSet/variablesSet.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
 
-#include "wallFvPatch.H"
-#include "emptyFvPatch.H"
-#include "emptyFvPatchField.H"
-#include "processorFvPatch.H"
-#include "processorFvPatchField.H"
-#include "cyclicFvPatch.H"
-#include "cyclicFvPatchField.H"
-#include "cyclicAMIFvPatch.H"
-#include "cyclicAMIFvPatchField.H"
-#include "symmetryFvPatch.H"
-#include "symmetryFvPatchField.H"
-#include "symmetryPlaneFvPatch.H"
-#include "symmetryPlaneFvPatchField.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "fields/fvPatchFields/constraint/processor/processorFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.H"
+#include "fields/fvPatchFields/constraint/cyclicAMI/cyclicAMIFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/symmetry/symmetryFvPatch.H"
+#include "fields/fvPatchFields/constraint/symmetry/symmetryFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/symmetryPlane/symmetryPlaneFvPatch.H"
+#include "fields/fvPatchFields/constraint/symmetryPlane/symmetryPlaneFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

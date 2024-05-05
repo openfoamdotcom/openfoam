@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalCoupledMixedFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "externalCoupled/externalCoupledMixed/externalCoupledMixedFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

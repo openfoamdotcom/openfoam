@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkLagrangianWriter.H"
-#include "IOobjectList.H"
-#include "IOField.H"
+#include "conversion/vtk/foamVtkLagrangianWriter.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

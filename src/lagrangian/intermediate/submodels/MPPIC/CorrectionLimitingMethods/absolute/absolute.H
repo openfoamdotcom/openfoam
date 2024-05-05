@@ -45,7 +45,7 @@ SourceFiles
 #ifndef absolute_H
 #define absolute_H
 
-#include "CorrectionLimitingMethod.H"
+#include "submodels/MPPIC/CorrectionLimitingMethods/CorrectionLimitingMethod/CorrectionLimitingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

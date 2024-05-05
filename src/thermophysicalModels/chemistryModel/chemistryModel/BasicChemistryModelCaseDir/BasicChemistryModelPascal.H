@@ -38,9 +38,9 @@ SourceFiles
 #ifndef BasicChemistryModel_H
 #define BasicChemistryModel_H
 
-#include "basicChemistryModel.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "chemistryModel/basicChemistryModel/basicChemistryModel.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,10 +134,10 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "BasicChemistryModelPascal.C"
+    #include "chemistryModel/BasicChemistryModelCaseDir/BasicChemistryModelPascal.C"
 #endif
 
-#include "BasicChemistryModelIPascal.H"
+#include "chemistryModel/BasicChemistryModelCaseDir/BasicChemistryModelIPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

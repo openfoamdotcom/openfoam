@@ -44,7 +44,7 @@ SourceFiles
 #ifndef conjugateGradient_H
 #define conjugateGradient_H
 
-#include "updateMethod.H"
+#include "optimisation/updateMethod/updateMethod/updateMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

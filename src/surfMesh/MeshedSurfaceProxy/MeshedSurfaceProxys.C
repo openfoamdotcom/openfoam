@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurfaceProxy.H"
-#include "face.H"
-#include "triFace.H"
-#include "labelledTri.H"
-#include "addToRunTimeSelectionTable.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "meshes/meshShapes/labelledTri/labelledTri.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

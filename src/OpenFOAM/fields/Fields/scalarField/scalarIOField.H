@@ -28,8 +28,8 @@ License
 #ifndef Foam_scalarIOField_H
 #define Foam_scalarIOField_H
 
-#include "scalarField.H"
-#include "IOField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

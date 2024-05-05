@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermocapillaryForce.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcGrad.H"
+#include "submodels/kinematic/force/thermocapillaryForce/thermocapillaryForce.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

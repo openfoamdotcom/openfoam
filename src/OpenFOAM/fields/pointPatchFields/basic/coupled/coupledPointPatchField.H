@@ -37,8 +37,8 @@ SourceFiles
 #ifndef coupledPointPatchField_H
 #define coupledPointPatchField_H
 
-#include "pointPatchField.H"
-#include "coupledPointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "meshes/pointMesh/pointPatches/basic/coupled/coupledPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledPointPatchField.C"
+    #include "fields/pointPatchFields/basic/coupled/coupledPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -34,8 +34,8 @@ Description
 #ifndef MapDimensionedFields_H
 #define MapDimensionedFields_H
 
-#include "polyMesh.H"
-#include "MapFvVolField.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "interpolation/mapping/fvFieldMappers/MapFvVolField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

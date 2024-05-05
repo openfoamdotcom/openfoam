@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicRefineFvMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceInterpolate.H"
-#include "volFields.H"
-#include "polyTopoChange.H"
-#include "surfaceFields.H"
-#include "syncTools.H"
-#include "pointFields.H"
-#include "sigFpe.H"
-#include "cellSet.H"
-#include "HashOps.H"
+#include "dynamicRefineFvMesh/dynamicRefineFvMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fields/volFields/volFields.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "signals/sigFpe.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "containers/HashTables/HashOps/HashOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

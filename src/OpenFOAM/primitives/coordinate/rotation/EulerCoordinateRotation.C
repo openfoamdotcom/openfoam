@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EulerCoordinateRotation.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/coordinate/rotation/EulerCoordinateRotation.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

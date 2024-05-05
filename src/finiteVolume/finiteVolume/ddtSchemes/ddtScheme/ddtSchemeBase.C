@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ddtSchemeBase.H"
-#include "registerSwitch.H"
-#include "debug.H"
+#include "finiteVolume/ddtSchemes/ddtScheme/ddtSchemeBase.H"
+#include "global/debug/registerSwitch.H"
+#include "global/debug/debug.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgeFaPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faBoundaryMesh.H"
-#include "wedgePolyPatch.H"
-#include "polyMesh.H"
-#include "faMesh.H"
+#include "faMesh/faPatches/constraint/wedge/wedgeFaPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

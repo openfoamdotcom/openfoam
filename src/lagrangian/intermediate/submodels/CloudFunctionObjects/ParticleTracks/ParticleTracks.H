@@ -41,8 +41,8 @@ SourceFiles
 #ifndef ParticleTracks_H
 #define ParticleTracks_H
 
-#include "CloudFunctionObject.H"
-#include "labelPairHashes.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "primitives/tuples/labelPairHashes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,12 +164,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleTracksI.H"
+#include "submodels/CloudFunctionObjects/ParticleTracks/ParticleTracksI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticleTracksPascal.C"
+    #include "submodels/CloudFunctionObjects/ParticleTracks/ParticleTracksPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

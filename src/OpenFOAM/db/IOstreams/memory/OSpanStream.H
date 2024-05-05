@@ -82,9 +82,9 @@ See Also
 #ifndef Foam_OSpanStream_H
 #define Foam_OSpanStream_H
 
-#include "memoryStreamBuffer.H"
-#include "DynamicList.H"
-#include "OSstream.H"
+#include "db/IOstreams/memory/memoryStreamBuffer.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "X3DsurfaceFormat.H"
-#include "OFstream.H"
+#include "surfaceFormats/x3d/X3DsurfaceFormat.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

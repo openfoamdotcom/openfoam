@@ -53,10 +53,10 @@ SourceFiles
 #ifndef Foam_Polynomial_H
 #define Foam_Polynomial_H
 
-#include "word.H"
-#include "scalar.H"
-#include "Ostream.H"
-#include "VectorSpace.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 #include <initializer_list>
 #include <type_traits>
 
@@ -162,7 +162,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PolynomialPascal.C"
+    #include "primitives/functions/Polynomial/PolynomialPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

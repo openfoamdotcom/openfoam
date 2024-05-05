@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidBodyDisplacementLaplacianFvMotionSolver.H"
-#include "motionInterpolation.H"
-#include "motionDiffusivity.H"
-#include "fvmLaplacian.H"
-#include "addToRunTimeSelectionTable.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "mapPolyMesh.H"
-#include "solidBodyMotionFunction.H"
-#include "transformField.H"
-#include "fvOptions.H"
+#include "fvMotionSolvers/displacement/solidBodyDisplacementLaplacian/solidBodyDisplacementLaplacianFvMotionSolver.H"
+#include "motionInterpolation/motionInterpolation/motionInterpolation.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

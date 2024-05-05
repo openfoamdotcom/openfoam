@@ -38,7 +38,7 @@ SourceFiles
 #ifndef spatialVector_H
 #define spatialVector_H
 
-#include "SpatialVectorPascal.H"
+#include "primitives/spatialVectorAlgebra/SpatialVector/SpatialVectorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

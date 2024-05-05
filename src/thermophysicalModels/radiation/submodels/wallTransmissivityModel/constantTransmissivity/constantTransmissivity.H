@@ -40,7 +40,7 @@ SourceFiles
 #ifndef radiation_constantTransmissivity_H
 #define radiation_constantTransmissivity_H
 
-#include "wallTransmissivityModel.H"
+#include "submodels/wallTransmissivityModel/wallTransmissivityModel/wallTransmissivityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

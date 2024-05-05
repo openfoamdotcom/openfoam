@@ -42,8 +42,8 @@ SourceFiles
 #ifndef FitData_H
 #define FitData_H
 
-#include "MeshObject.H"
-#include "fvMesh.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -175,7 +175,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FitData.C"
+    #include "interpolation/surfaceInterpolation/schemes/FitData/FitData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -40,10 +40,10 @@ SourceFiles
 #ifndef ParticleStressModel_H
 #define ParticleStressModel_H
 
-#include "Field.H"
-#include "FieldField.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "fields/Fields/Field/Field.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

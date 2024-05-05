@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "anisotropicFilter.H"
-#include "addToRunTimeSelectionTable.H"
-#include "zeroGradientFvPatchFields.H"
-#include "wallFvPatch.H"
-#include "fvc.H"
+#include "LES/LESfilters/anisotropicFilter/anisotropicFilter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "finiteVolume/fvc/fvc.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

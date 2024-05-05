@@ -38,9 +38,9 @@ SourceFiles
 #ifndef AC3DsurfaceFormatCore_H
 #define AC3DsurfaceFormatCore_H
 
-#include "Fstream.H"
-#include "surfZone.H"
-#include "StringStream.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "surfZone/surfZone.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

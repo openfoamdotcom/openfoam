@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "randomDecomp.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
+#include "randomDecomp/randomDecomp.H"
+#include "primitives/random/Random/Random.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

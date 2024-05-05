@@ -36,9 +36,9 @@ Description
 #ifndef Foam_labelBits_H
 #define Foam_labelBits_H
 
-#include "label.H"
-#include "direction.H"
-#include "error.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/direction/direction.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

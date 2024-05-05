@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ABAQUSCore.H"
-#include "IFstream.H"
-#include "ListOps.H"
-#include "stringOps.H"
-#include "SpanStream.H"
-#include "cellModel.H"
+#include "abaqus/ABAQUSCore.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
 #include <cctype>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

@@ -65,7 +65,7 @@ SourceFiles
 #ifndef KocamustafaogullariIshii_H
 #define KocamustafaogullariIshii_H
 
-#include "departureDiameterModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

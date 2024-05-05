@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PPCG.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/solvers/PPCG/PPCG.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

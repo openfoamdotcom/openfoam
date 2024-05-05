@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "findRefCell.H"
-#include "regionSplit.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
+#include "regionSplit/regionSplit.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

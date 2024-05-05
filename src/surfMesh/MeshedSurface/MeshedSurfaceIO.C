@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurface.H"
-#include "boundBox.H"
-#include "faceTraits.H"
-#include "Istream.H"
-#include "Ostream.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "meshes/boundBox/boundBox.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

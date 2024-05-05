@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "chemPointISAT.H"
-#include "SVD.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/ISAT/chemPointISAT/chemPointISAT.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

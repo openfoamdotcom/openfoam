@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "perfectGas.H"
-#include "thermodynamicConstants.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "global/constants/thermodynamic/thermodynamicConstants.H"
 
 using namespace Foam::constant::thermodynamic;
 

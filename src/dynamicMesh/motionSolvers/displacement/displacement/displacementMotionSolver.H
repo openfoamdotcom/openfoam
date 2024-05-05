@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_displacementMotionSolver_H
 #define Foam_displacementMotionSolver_H
 
-#include "points0MotionSolver.H"
+#include "motionSolvers/displacement/points0/points0MotionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

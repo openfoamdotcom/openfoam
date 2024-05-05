@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "removeRegisteredObject.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "removeRegisteredObject/removeRegisteredObject.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

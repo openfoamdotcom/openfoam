@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointOutletNuaTildaFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletNuaTilda/adjointOutletNuaTildaFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

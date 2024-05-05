@@ -37,7 +37,7 @@ SourceFiles
 #ifndef nucleationModel_H
 #define nucleationModel_H
 
-#include "populationBalanceModel.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh0.H"
-#include "processorFvPatch.H"
+#include "meshToMesh0/meshToMesh0.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

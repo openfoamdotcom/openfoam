@@ -72,8 +72,8 @@ SourceFiles
 #ifndef compressible_alphatJayatillekeWallFunctionFvPatchScalarField_H
 #define compressible_alphatJayatillekeWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "turbulentFluidThermoModel.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

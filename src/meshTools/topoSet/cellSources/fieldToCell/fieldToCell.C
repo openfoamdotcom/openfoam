@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldToCell.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "TimeOpenFOAM.H"
-#include "IFstream.H"
-#include "fieldDictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/fieldToCell/fieldToCell.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "topoSet/cellSources/fieldToCell/fieldDictionary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

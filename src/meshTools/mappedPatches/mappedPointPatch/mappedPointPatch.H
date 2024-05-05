@@ -37,9 +37,9 @@ SourceFiles
 #ifndef mappedPointPatch_H
 #define mappedPointPatch_H
 
-#include "facePointPatch.H"
-#include "mappedPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -89,7 +89,7 @@ SourceFiles
 #ifndef setsToFaceZone_H
 #define setsToFaceZone_H
 
-#include "topoSetFaceZoneSource.H"
+#include "topoSet/faceZoneSources/topoSetFaceZoneSource/topoSetFaceZoneSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

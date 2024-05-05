@@ -31,8 +31,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLAsciiParse.H"
-#include "STLReader.H"
+#include "stl/STLAsciiParse.H"
+#include "stl/STLReader.H"
 
 #pragma GCC diagnostic ignored "-Wimplicit-fallthrough"
 #pragma GCC diagnostic ignored "-Wunused-const-variable"

@@ -43,9 +43,9 @@ SourceFiles
 #ifndef Foam_dlLibraryTable_H
 #define Foam_dlLibraryTable_H
 
-#include "fileName.H"
-#include "DynamicList.H"
-#include "InfoProxy.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 #include <memory>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -322,7 +322,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dlLibraryTableTemplates.C"
+    #include "db/dynamicLibrary/dlLibraryTable/dlLibraryTableTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

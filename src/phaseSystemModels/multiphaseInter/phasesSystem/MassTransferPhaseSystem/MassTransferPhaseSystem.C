@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MassTransferPhaseSystem.H"
-#include "HashPtrTable.H"
-#include "fvcDiv.H"
-#include "fvmSup.H"
-#include "fvMatrix.H"
-#include "volFields.H"
-#include "fundamentalConstants.H"
+#include "MassTransferPhaseSystem/MassTransferPhaseSystem.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fields/volFields/volFields.H"
+#include "global/constants/fundamental/fundamentalConstants.H"
 
 using namespace Foam::multiphaseInter;
 

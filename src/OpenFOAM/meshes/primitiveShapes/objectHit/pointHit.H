@@ -37,9 +37,9 @@ Description
 #ifndef Foam_pointHit_H
 #define Foam_pointHit_H
 
-#include "bool.H"
-#include "point.H"
-#include "token.H"
+#include "primitives/bools/bool/bool.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

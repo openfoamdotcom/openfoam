@@ -37,7 +37,7 @@ SourceFiles
 #ifndef noScaling_H
 #define noScaling_H
 
-#include "energyScalingFunction.H"
+#include "energyScalingFunction/basic/energyScalingFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

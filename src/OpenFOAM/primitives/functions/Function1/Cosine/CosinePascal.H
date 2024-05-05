@@ -99,7 +99,7 @@ SourceFiles
 #ifndef Function1Types_Cosine_H
 #define Function1Types_Cosine_H
 
-#include "Sine.H"
+#include "primitives/functions/Function1/Sine/Sine.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -110,14 +110,14 @@ SourceFiles
 #ifndef functionObjects_extractEulerianParticles_H
 #define functionObjects_extractEulerianParticles_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "runTimeSelectionTables.H"
-#include "polyMesh.H"
-#include "surfaceFieldsFwd.H"
-#include "globalIndex.H"
-#include "eulerianParticle.H"
-#include "injectedParticleCloud.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "extractEulerianParticles/eulerianParticle/eulerianParticle.H"
+#include "injectedParticle/injectedParticleCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -325,7 +325,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "extractEulerianParticlesTemplates.C"
+    #include "extractEulerianParticles/extractEulerianParticles/extractEulerianParticlesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

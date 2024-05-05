@@ -67,14 +67,14 @@ SourceFiles
 #ifndef undoableMeshCutter_H
 #define undoableMeshCutter_H
 
-#include "edgeVertex.H"
-#include "refineCell.H"
-#include "boolList.H"
-#include "cellLooper.H"
-#include "meshCutter.H"
-#include "Map.H"
-#include "typeInfo.H"
-#include "removeFaces.H"
+#include "meshCut/edgeVertex/edgeVertex.H"
+#include "meshCut/refineCell/refineCell.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshCut/cellLooper/cellLooper.H"
+#include "meshCut/meshModifiers/meshCutter/meshCutter.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/typeInfo/typeInfo.H"
+#include "polyTopoChange/polyTopoChange/removeFaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

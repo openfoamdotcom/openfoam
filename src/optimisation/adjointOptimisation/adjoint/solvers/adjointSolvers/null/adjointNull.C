@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointNull.H"
-#include "findRefCell.H"
-#include "constrainHbyA.H"
-#include "adjustPhi.H"
-#include "addToRunTimeSelectionTable.H"
+#include "solvers/adjointSolvers/null/adjointNull.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -62,7 +62,7 @@ SourceFiles
 #ifndef relaxedSnGrad_H
 #define relaxedSnGrad_H
 
-#include "correctedSnGrad.H"
+#include "finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "relaxedSnGrad.C"
+    #include "finiteVolume/snGradSchemes/relaxedSnGrad/relaxedSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

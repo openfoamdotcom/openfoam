@@ -35,9 +35,9 @@ Description
 #ifndef Foam_functionObjects_fieldInfo_H
 #define Foam_functionObjects_fieldInfo_H
 
-#include "label.H"
-#include "wordRes.H"
-#include "Switch.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

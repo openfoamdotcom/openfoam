@@ -39,10 +39,10 @@ SourceFiles
 #ifndef phaseProperties_H
 #define phaseProperties_H
 
-#include "Enum.H"
-#include "Tuple2.H"
-#include "PtrList.H"
-#include "volFields.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/tuples/Tuple2.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

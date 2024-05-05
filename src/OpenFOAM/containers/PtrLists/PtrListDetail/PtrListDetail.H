@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Foam_PtrListDetail_H
 #define Foam_PtrListDetail_H
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,13 +182,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PtrListDetailI.H"
+#include "containers/PtrLists/PtrListDetail/PtrListDetailI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PtrListDetail.C"
-    #include "PtrListDetailIO.C"
+    #include "containers/PtrLists/PtrListDetail/PtrListDetail.C"
+    #include "containers/PtrLists/PtrListDetail/PtrListDetailIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

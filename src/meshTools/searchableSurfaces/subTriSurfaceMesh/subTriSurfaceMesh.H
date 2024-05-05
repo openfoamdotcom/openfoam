@@ -61,7 +61,7 @@ SourceFiles
 #ifndef subTriSurfaceMesh_H
 #define subTriSurfaceMesh_H
 
-#include "triSurfaceMesh.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

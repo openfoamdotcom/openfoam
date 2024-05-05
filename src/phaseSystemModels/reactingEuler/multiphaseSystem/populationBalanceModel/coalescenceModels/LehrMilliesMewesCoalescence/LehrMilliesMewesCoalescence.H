@@ -86,7 +86,7 @@ SourceFiles
 #ifndef LehrMilliesMewesCoalescence_H
 #define LehrMilliesMewesCoalescence_H
 
-#include "coalescenceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

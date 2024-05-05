@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDsurfaceFormat.H"
-#include "ListOps.H"
-#include "faceTraits.H"
+#include "surfaceFormats/starcd/STARCDsurfaceFormat.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

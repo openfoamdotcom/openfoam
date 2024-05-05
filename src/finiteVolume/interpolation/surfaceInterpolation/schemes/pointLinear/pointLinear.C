@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointLinear.H"
-#include "fvMesh.H"
-#include "volPointInterpolation.H"
-#include "triangle.H"
+#include "interpolation/surfaceInterpolation/schemes/pointLinear/pointLinear.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

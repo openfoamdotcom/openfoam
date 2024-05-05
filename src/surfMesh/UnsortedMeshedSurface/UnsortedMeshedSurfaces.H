@@ -28,8 +28,8 @@ License
 #ifndef UnsortedMeshedSurfaces_H
 #define UnsortedMeshedSurfaces_H
 
-#include "UnsortedMeshedSurface.H"
-#include "UnsortedMeshedSurfacesFwd.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurfacesFwd.H"
 
 #endif
 

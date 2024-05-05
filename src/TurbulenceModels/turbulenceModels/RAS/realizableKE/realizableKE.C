@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "realizableKE.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "RAS/realizableKE/realizableKE.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

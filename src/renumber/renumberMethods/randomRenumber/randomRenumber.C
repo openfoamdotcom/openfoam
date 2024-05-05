@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "randomRenumber.H"
-#include "Random.H"
-#include "addToRunTimeSelectionTable.H"
+#include "randomRenumber/randomRenumber.H"
+#include "primitives/random/Random/Random.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

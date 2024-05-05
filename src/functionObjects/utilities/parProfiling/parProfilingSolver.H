@@ -55,7 +55,7 @@ SourceFiles
 #ifndef Foam_parProfilingSolver_H
 #define Foam_parProfilingSolver_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Istream.H"
-#include "cell.H"
-#include "cellModel.H"
-#include "IndirectList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

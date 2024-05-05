@@ -38,7 +38,7 @@ SourceFiles
 #ifndef EulerFaDdtScheme_H
 #define EulerFaDdtScheme_H
 
-#include "faDdtScheme.H"
+#include "finiteArea/ddtSchemes/faDdtScheme/faDdtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -171,7 +171,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EulerFaDdtScheme.C"
+    #include "finiteArea/ddtSchemes/EulerFaDdtScheme/EulerFaDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

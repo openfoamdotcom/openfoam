@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Function1Types_FunctionObjectValue_H
 #define Function1Types_FunctionObjectValue_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,10 +150,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FunctionObjectValueI.H"
+#include "primitives/functions/Function1/FunctionObjectValue/FunctionObjectValueI.H"
 
 #ifdef NoRepository
-    #include "FunctionObjectValue.C"
+    #include "primitives/functions/Function1/FunctionObjectValue/FunctionObjectValue.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

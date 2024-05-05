@@ -60,11 +60,11 @@ SourceFiles
 #ifndef arraySet_H
 #define arraySet_H
 
-#include "sampledSet.H"
-#include "labelVector.H"
-#include "DynamicList.H"
-#include "cartesianCS.H"
-#include "cylindricalCS.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "primitives/Vector/ints/labelVector.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "primitives/coordinate/systems/cylindricalCS.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef binaryBreakupModel_H
 #define binaryBreakupModel_H
 
-#include "populationBalanceModel.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

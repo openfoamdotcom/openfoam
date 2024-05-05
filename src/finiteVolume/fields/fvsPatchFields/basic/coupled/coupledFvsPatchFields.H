@@ -28,8 +28,8 @@ License
 #ifndef coupledFvsPatchFields_H
 #define coupledFvsPatchFields_H
 
-#include "coupledFvsPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvsPatchFields/basic/coupled/coupledFvsPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

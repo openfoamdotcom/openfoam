@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfacePatch.H"
-#include "surfZone.H"
-#include "dictionary.H"
+#include "triSurface/patches/surfacePatch.H"
+#include "surfZone/surfZone.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

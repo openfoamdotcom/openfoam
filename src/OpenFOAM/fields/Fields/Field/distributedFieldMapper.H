@@ -35,7 +35,7 @@ Description
 #ifndef Foam_distributedFieldMapper_H
 #define Foam_distributedFieldMapper_H
 
-#include "directFieldMapper.H"
+#include "fields/Fields/Field/directFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

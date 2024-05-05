@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_hexRef8Data_H
 #define Foam_hexRef8Data_H
 
-#include "labelIOList.H"
-#include "uniformDimensionedFields.H"
-#include "UPtrList.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

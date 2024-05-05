@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UPstream.H"
-#include "Map.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "containers/HashTables/Map/Map.H"
 
 #include <cinttypes>
 #include <cstring>  // memmove

@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Foam_structuredRenumber_H
 #define Foam_structuredRenumber_H
 
-#include "renumberMethod.H"
+#include "renumberMethod/renumberMethod.H"
 
 namespace Foam
 {

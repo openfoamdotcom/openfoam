@@ -42,7 +42,7 @@ SourceFiles
 #ifndef RBD_subBody_H
 #define RBD_subBody_H
 
-#include "rigidBody.H"
+#include "bodies/rigidBody/rigidBody.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -120,7 +120,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "subBodyI.H"
+#include "bodies/subBody/subBodyI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

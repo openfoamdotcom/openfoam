@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundedDdtScheme.H"
-#include "fvMesh.H"
+#include "finiteVolume/ddtSchemes/boundedDdtScheme/boundedDdtScheme.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

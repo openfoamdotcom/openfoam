@@ -34,8 +34,8 @@ Description
 #ifndef expressions_patchExprParser_H
 #define expressions_patchExprParser_H
 
-#include "exprScanToken.H"
-#include "patchExprFwd.H"
+#include "expressions/scanToken/exprScanToken.H"
+#include "expressions/patch/patchExprFwd.H"
 
 namespace Foam
 {

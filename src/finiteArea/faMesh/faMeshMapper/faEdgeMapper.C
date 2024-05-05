@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faEdgeMapper.H"
-#include "mapPolyMesh.H"
-#include "demandDrivenData.H"
+#include "faMesh/faMeshMapper/faEdgeMapper.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

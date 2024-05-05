@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_IntegralScaleBox_H
 #define Foam_IntegralScaleBox_H
 
-#include "Random.H"
-#include "primitivePatch.H"
-#include "boundBox.H"
-#include "coordinateSystem.H"
+#include "primitives/random/Random/Random.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/boundBox/boundBox.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -296,7 +296,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IntegralScaleBox.C"
+    #include "fields/fvPatchFields/derived/turbulentDigitalFilterInlet/IntegralScaleBox/IntegralScaleBox.C"
 #endif
 
 #endif

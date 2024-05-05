@@ -39,9 +39,9 @@ SourceFiles
 #ifndef IATEsource_H
 #define IATEsource_H
 
-#include "IATE.H"
+#include "diameterModels/IATE/IATE.H"
 #include "twoPhaseSystem.H"
-#include "mathematicalConstants.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

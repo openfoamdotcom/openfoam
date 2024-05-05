@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "APIdiffCoefFunc.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalFunctions/APIfunctions/APIdiffCoefFunc/APIdiffCoefFunc.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,12 +42,12 @@ SourceFiles
 #ifndef polyMeshFilter_H
 #define polyMeshFilter_H
 
-#include "IOdictionary.H"
-#include "TimeOpenFOAM.H"
-#include "List.H"
-#include "autoPtr.H"
-#include "scalarField.H"
-#include "polyMeshFilterSettings.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/List/List.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "polyMeshFilter/polyMeshFilterSettings.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -269,7 +269,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "polyMeshFilterTemplates.C"
+    #include "polyMeshFilter/polyMeshFilterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

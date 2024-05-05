@@ -37,7 +37,7 @@ Description
 #ifndef cubicUpwindFitPolynomial_H
 #define cubicUpwindFitPolynomial_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

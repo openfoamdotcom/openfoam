@@ -41,7 +41,7 @@ SourceFiles
 #ifndef diagTensor_H
 #define diagTensor_H
 
-#include "DiagTensorPascal.H"
+#include "primitives/DiagTensor/DiagTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -104,8 +104,8 @@ SourceFiles
 #ifndef patchToFace_H
 #define patchToFace_H
 
-#include "topoSetFaceSource.H"
-#include "wordRes.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

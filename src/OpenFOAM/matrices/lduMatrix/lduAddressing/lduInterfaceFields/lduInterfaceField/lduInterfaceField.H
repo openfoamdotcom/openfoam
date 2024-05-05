@@ -39,10 +39,10 @@ SourceFiles
 #ifndef Foam_lduInterfaceField_H
 #define Foam_lduInterfaceField_H
 
-#include "lduInterface.H"
-#include "lduAddressing.H"
-#include "primitiveFieldsFwd.H"
-#include "Pstream.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduAddressing.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -197,7 +197,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lduInterfaceFieldTemplates.C"
+    #include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

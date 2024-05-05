@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementMethodpLaplacianMotionSolver.H"
-#include "pLaplacianMotionSolver.H"
+#include "displacementMethod/displacementMethodpLaplacianMotionSolver/displacementMethodpLaplacianMotionSolver.H"
+#include "dynamicMesh/motionSolver/pLaplacianMotionSolver/pLaplacianMotionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

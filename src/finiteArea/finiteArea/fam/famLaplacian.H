@@ -37,9 +37,9 @@ SourceFiles
 #ifndef famLaplacian_H
 #define famLaplacian_H
 
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "faMatrix.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "faMatrices/faMatrix/faMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ namespace fam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "famLaplacian.C"
+    #include "finiteArea/fam/famLaplacian.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

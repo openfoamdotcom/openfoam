@@ -42,7 +42,7 @@ SourceFiles
 #ifndef objectivePowerDissipation_H
 #define objectivePowerDissipation_H
 
-#include "objectiveIncompressible.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

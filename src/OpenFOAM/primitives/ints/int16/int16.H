@@ -39,9 +39,9 @@ SourceFiles
 
 #include <cstdint>
 
-#include "direction.H"
-#include "pTraits.H"
-#include "word.H"
+#include "primitives/direction/direction.H"
+#include "primitives/traits/pTraits.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "levelSetDesignVariables.H"
-#include "wallDist.H"
-#include "zeroGradientFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/levelSet/levelSetDesignVariables.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,8 +39,8 @@ SourceFiles
 #ifndef geometricSurfacePatch_H
 #define geometricSurfacePatch_H
 
-#include "surfZoneIdentifier.H"
-#include "stdFoam.H"
+#include "meshes/Identifiers/surface/surfZoneIdentifier.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

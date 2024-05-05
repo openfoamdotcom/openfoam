@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_vectorField_H
 #define Foam_vectorField_H
 
-#include "scalarField.H"
-#include "vector.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ void unzip
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "vectorFieldTemplates.C"
+    #include "fields/Fields/vectorField/vectorFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

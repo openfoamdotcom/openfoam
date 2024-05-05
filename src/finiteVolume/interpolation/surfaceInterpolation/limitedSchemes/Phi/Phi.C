@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhiScheme.H"
-#include "Phi.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/PhiScheme/PhiScheme.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/Phi/Phi.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

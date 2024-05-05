@@ -72,8 +72,8 @@ SourceFiles
 #ifndef kEpsilon_H
 #define kEpsilon_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kEpsilon.C"
+    #include "RAS/kEpsilon/kEpsilon.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

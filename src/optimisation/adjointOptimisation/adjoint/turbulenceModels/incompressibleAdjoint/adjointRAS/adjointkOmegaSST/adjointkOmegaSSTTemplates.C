@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reverseLinear.H"
+#include "interpolation/surfaceInterpolation/schemes/reverseLinear/reverseLinear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

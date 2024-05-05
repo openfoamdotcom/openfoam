@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointCells.H"
-#include "fvMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ATCModel/zeroATCcells/pointCells/pointCells.H"
+#include "fvMesh/fvMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

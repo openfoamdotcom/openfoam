@@ -62,7 +62,7 @@ SourceFiles
 #ifndef Foam_boundaryDataSurfaceReader_H
 #define Foam_boundaryDataSurfaceReader_H
 
-#include "surfaceReader.H"
+#include "readers/common/surfaceReader.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -242,7 +242,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "boundaryDataSurfaceReaderTemplates.C"
+    #include "readers/boundary/boundaryDataSurfaceReaderTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

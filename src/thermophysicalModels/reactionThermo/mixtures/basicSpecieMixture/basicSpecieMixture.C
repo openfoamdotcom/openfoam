@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSpecieMixture.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

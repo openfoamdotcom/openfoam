@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldValue.H"
-#include "ListListOps.H"
-#include "Pstream.H"
+#include "fieldValues/fieldValue/fieldValue.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -37,10 +37,10 @@ Description
 #ifndef incompressibleAdjointSolver_H
 #define incompressibleAdjointSolver_H
 
-#include "adjointSolver.H"
-#include "incompressibleVars.H"
-#include "incompressibleAdjointVars.H"
-#include "ATCModel.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "solvers/variablesSet/incompressible/incompressibleVars.H"
+#include "solvers/variablesSet/incompressibleAdjoint/incompressibleAdjointVars.H"
+#include "ATCModel/ATCModel/ATCModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

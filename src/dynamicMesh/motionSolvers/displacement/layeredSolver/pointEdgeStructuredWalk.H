@@ -39,8 +39,8 @@ SourceFiles
 #ifndef pointEdgeStructuredWalk_H
 #define pointEdgeStructuredWalk_H
 
-#include "point.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -261,7 +261,7 @@ template<> struct is_contiguous<pointEdgeStructuredWalk> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointEdgeStructuredWalkI.H"
+#include "motionSolvers/displacement/layeredSolver/pointEdgeStructuredWalkI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

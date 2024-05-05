@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faBoundaryMesh.H"
-#include "faMesh.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "edgeHashes.H"
-#include "polyMesh.H"
-#include "polyPatch.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMesh.H"
+#include "faMesh/faMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 //#include "pointPatchField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

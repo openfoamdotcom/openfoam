@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heatExchangerSource.H"
-#include "heatExchangerModel.H"
-#include "fvMatrix.H"
-#include "basicThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/heatExchangerSource/heatExchangerSource.H"
+#include "sources/derived/heatExchangerSource/heatExchangerModels/heatExchangerModel/heatExchangerModel.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "basicThermo/basicThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledIsoSurface.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "volPointInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "PtrList.H"
+#include "sampledSurface/isoSurface/sampledIsoSurface.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_profilingInformation_H
 #define Foam_profilingInformation_H
 
-#include "labelFwd.H"
-#include "scalarFwd.H"
-#include "word.H"
+#include "primitives/ints/label/labelFwd.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

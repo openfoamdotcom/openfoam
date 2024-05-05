@@ -35,7 +35,7 @@ SourceFiles
 #ifndef exprTools_expressionEntryDimensioned_H
 #define exprTools_expressionEntryDimensioned_H
 
-#include "expressionEntry.H"
+#include "expressions/exprEntry/expressionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

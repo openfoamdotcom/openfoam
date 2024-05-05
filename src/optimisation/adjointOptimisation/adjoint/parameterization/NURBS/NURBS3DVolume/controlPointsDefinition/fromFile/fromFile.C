@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "fromFile.H"
-#include "IOdictionary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "parameterization/NURBS/NURBS3DVolume/controlPointsDefinition/fromFile/fromFile.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

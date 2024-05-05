@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gradAlpha.H"
-#include "fvc.H"
-#include "leastSquareGrad.H"
-#include "zoneDistribute.H"
-#include "addToRunTimeSelectionTable.H"
-#include "profiling.H"
+#include "reconstructionSchemes/plicSchemes/gradAlpha/gradAlpha.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/leastSquareGrad.H"
+#include "fvMesh/zoneDistribute/zoneDistribute.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/profiling/profiling.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

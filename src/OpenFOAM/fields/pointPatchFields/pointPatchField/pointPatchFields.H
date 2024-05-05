@@ -28,8 +28,8 @@ License
 #ifndef Foam_pointPatchFields_H
 #define Foam_pointPatchFields_H
 
-#include "pointPatchField.H"
-#include "pointPatchFieldsFwd.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

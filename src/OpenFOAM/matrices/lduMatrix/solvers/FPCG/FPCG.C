@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FPCG.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/solvers/FPCG/FPCG.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

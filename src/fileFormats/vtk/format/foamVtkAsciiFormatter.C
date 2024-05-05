@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkAsciiFormatter.H"
-#include "foamVtkOutputOptions.H"
+#include "vtk/format/foamVtkAsciiFormatter.H"
+#include "vtk/output/foamVtkOutputOptions.H"
 #include <limits>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

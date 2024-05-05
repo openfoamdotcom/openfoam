@@ -70,7 +70,7 @@ SourceFiles
 #ifndef Foam_fixedGradientFaPatchField_H
 #define Foam_fixedGradientFaPatchField_H
 
-#include "faPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -255,7 +255,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedGradientFaPatchField.C"
+    #include "fields/faPatchFields/basic/fixedGradient/fixedGradientFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

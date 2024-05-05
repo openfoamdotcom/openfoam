@@ -46,11 +46,11 @@ SourceFiles
 #ifndef Foam_vtk_vtuAdaptor_H
 #define Foam_vtk_vtuAdaptor_H
 
-#include "fvMesh.H"
-#include "volFieldsFwd.H"
-#include "foamVtkTools.H"
-#include "foamVtkMeshMaps.H"
-#include "foamVtuSizing.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "vtk/adaptor/foamVtkTools.H"
+#include "vtk/part/foamVtkMeshMaps.H"
+#include "vtk/part/foamVtuSizing.H"
 
 #include "vtkUnstructuredGrid.h"
 #include "vtkMultiBlockDataSet.h"
@@ -151,12 +151,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtkVtuAdaptorI.H"
+#include "vtk/adaptor/foamVtkVtuAdaptorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkVtuAdaptorTemplates.C"
+    #include "vtk/adaptor/foamVtkVtuAdaptorTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

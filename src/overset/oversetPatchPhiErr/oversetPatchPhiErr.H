@@ -37,9 +37,9 @@ SourceFiles
 #ifndef oversetPatchPhiErr_H
 #define oversetPatchPhiErr_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "fvScalarMatrix.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

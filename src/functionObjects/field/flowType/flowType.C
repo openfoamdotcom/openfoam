@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "flowType.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "flowType/flowType.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

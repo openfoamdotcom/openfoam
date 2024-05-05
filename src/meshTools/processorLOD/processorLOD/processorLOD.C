@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorLOD.H"
+#include "processorLOD/processorLOD/processorLOD.H"
 
 namespace Foam
 {

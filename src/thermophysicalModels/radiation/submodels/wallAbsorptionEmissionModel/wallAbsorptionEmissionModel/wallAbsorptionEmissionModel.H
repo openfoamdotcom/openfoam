@@ -34,10 +34,10 @@ Description
 #ifndef wallAbsorptionEmissionModel_H
 #define wallAbsorptionEmissionModel_H
 
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "polyPatch.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

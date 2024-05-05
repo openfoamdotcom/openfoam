@@ -123,9 +123,9 @@ SourceFiles
 #ifndef parcelSelectionDetail_H
 #define parcelSelectionDetail_H
 
-#include "bitSet.H"
-#include "Enum.H"
-#include "objectRegistry.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/enums/Enum.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

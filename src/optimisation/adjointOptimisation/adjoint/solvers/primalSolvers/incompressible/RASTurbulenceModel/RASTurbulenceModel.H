@@ -36,8 +36,8 @@ Description
 #ifndef RASTurbulenceModel_H
 #define RASTurbulenceModel_H
 
-#include "incompressiblePrimalSolver.H"
-#include "SIMPLEControlPascal.H"
+#include "solvers/primalSolvers/incompressible/incompressiblePrimalSolver/incompressiblePrimalSolver.H"
+#include "solvers/solverControl/SIMPLEControl/SIMPLEControl/SIMPLEControlPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

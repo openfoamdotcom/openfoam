@@ -90,8 +90,8 @@ SourceFiles
 #ifndef fv_limitTemperature_H
 #define fv_limitTemperature_H
 
-#include "cellSetOption.H"
-#include "writeFile.H"
+#include "cellSetOption/cellSetOption.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

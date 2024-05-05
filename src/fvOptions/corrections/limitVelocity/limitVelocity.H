@@ -84,8 +84,8 @@ SourceFiles
 #ifndef fv_limitVelocity_H
 #define fv_limitVelocity_H
 
-#include "cellSetOption.H"
-#include "writeFile.H"
+#include "cellSetOption/cellSetOption.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

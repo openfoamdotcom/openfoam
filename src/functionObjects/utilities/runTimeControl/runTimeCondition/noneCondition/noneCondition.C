@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noneCondition.H"
-#include "addToRunTimeSelectionTable.H"
+#include "runTimeControl/runTimeCondition/noneCondition/noneCondition.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

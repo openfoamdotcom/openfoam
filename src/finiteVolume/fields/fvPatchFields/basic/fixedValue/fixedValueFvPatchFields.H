@@ -28,8 +28,8 @@ License
 #ifndef fixedValueFvPatchFields_H
 #define fixedValueFvPatchFields_H
 
-#include "fixedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

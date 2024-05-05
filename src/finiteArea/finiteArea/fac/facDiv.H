@@ -38,8 +38,8 @@ SourceFiles
 #ifndef facDiv_H
 #define facDiv_H
 
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -179,7 +179,7 @@ namespace fac
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "facDiv.C"
+    #include "finiteArea/fac/facDiv.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

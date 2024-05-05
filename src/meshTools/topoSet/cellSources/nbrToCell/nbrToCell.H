@@ -82,7 +82,7 @@ SourceFiles
 #ifndef nbrToCell_H
 #define nbrToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

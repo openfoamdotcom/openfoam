@@ -26,26 +26,26 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MomentumTransferPhaseSystem.H"
+#include "PhaseSystems/MomentumTransferPhaseSystem/MomentumTransferPhaseSystem.H"
 
-#include "BlendedInterfacialModel.H"
-#include "dragModel.H"
-#include "virtualMassModel.H"
-#include "liftModel.H"
-#include "wallLubricationModel.H"
-#include "turbulentDispersionModel.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "interfacialModels/liftModels/liftModel/liftModel.H"
+#include "interfacialModels/wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
+#include "interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
 
-#include "HashPtrTable.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "fvcAverage.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcFlux.H"
-#include "fvcSnGrad.H"
-#include "fvMatrix.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvc/fvcAverage.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //

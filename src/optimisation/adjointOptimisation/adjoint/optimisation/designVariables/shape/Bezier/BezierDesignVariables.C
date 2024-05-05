@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BezierDesignVariables.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/shape/Bezier/BezierDesignVariables.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * * //
 

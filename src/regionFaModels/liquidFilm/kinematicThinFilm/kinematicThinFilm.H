@@ -38,10 +38,10 @@ SourceFiles
 #ifndef kinematicThinFilm_H
 #define kinematicThinFilm_H
 
-#include "volFieldsFwd.H"
-#include "liquidFilmModel.H"
-#include "faMesh.H"
-#include "regionFaModels_filmTurbulenceModel.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "liquidFilm/liquidFilmModel/liquidFilmModel.H"
+#include "faMesh/faMesh.H"
+#include "liquidFilm/subModels/kinematic/filmTurbulenceModel/filmTurbulenceModel/regionFaModels_filmTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

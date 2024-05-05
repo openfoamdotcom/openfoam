@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalFileCoupler.H"
-#include "Pstream.H"
-#include "PstreamReduceOps.H"
-#include "OSspecific.H"
-#include "Switch.H"
+#include "coupling/externalFileCoupler.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "include/OSspecific.H"
+#include "primitives/bools/Switch/Switch.H"
 #include <fstream>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

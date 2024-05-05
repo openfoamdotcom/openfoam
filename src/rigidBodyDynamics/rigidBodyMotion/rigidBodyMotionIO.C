@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyMotion.H"
-#include "IOstreams.H"
+#include "rigidBodyMotion/rigidBodyMotion.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

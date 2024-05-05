@@ -28,8 +28,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "downwind.H"
-#include "fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/downwind/downwind.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

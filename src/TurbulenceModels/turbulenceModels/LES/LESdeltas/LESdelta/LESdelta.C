@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LESdelta.H"
-#include "calculatedFvPatchFields.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

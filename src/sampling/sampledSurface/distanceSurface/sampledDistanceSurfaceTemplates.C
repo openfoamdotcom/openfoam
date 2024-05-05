@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledDistanceSurface.H"
-#include "volFieldsFwd.H"
-#include "pointFields.H"
-#include "volPointInterpolation.H"
+#include "sampledSurface/distanceSurface/sampledDistanceSurface.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

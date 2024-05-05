@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoInteractionPascal.H"
+#include "submodels/Kinematic/PatchInteractionModel/NoInteraction/NoInteractionPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

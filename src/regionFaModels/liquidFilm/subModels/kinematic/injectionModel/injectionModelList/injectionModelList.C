@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFaModels_injectionModelList.H"
-#include "volFields.H"
+#include "liquidFilm/subModels/kinematic/injectionModel/injectionModelList/regionFaModels_injectionModelList.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -46,8 +46,8 @@ SourceFiles
 #include <sys/stat.h>
 #include <sys/types.h>
 
-#include "label.H"
-#include "fileName.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/strings/fileName/fileName.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

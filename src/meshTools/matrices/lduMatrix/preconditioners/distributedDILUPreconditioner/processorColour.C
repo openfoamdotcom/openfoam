@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorColour.H"
-#include "processorLduInterface.H"
-#include "processorTopologyNew.H"
+#include "matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/processorColour.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
+#include "parallel/processorTopology/processorTopologyNew.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoChangerFvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "topoChangerFvMesh/topoChangerFvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

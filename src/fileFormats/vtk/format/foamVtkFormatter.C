@@ -24,7 +24,7 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkFormatter.H"
+#include "vtk/format/foamVtkFormatter.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

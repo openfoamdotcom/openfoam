@@ -38,9 +38,9 @@ SourceFiles
 #ifndef cyclicAMIGAMGInterfaceField_H
 #define cyclicAMIGAMGInterfaceField_H
 
-#include "GAMGInterfaceField.H"
-#include "cyclicAMIGAMGInterface.H"
-#include "cyclicAMILduInterfaceField.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.H"
+#include "AMIInterpolation/GAMG/interfaces/cyclicAMIGAMGInterface/cyclicAMIGAMGInterface.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

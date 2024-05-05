@@ -52,15 +52,15 @@ SourceFiles
 #ifndef Foam_AMIInterpolation_H
 #define Foam_AMIInterpolation_H
 
-#include "searchableSurface.H"
-#include "boolList.H"
-#include "primitivePatch.H"
-#include "ops.H"
-#include "refPtr.H"
-#include "pointList.H"
-#include "indexedOctree.H"
-#include "treeDataPrimitivePatch.H"
-#include "runTimeSelectionTables.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "primitives/ops/ops.H"
+#include "memory/refPtr/refPtr.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -696,12 +696,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "AMIInterpolationI.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolationI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AMIInterpolationTemplates.C"
+    #include "AMIInterpolation/AMIInterpolation/AMIInterpolationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

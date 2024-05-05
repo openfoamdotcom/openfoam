@@ -62,12 +62,12 @@ SourceFiles
 #ifndef Foam_zoneDistribute_H
 #define Foam_zoneDistribute_H
 
-#include "fvMesh.H"
-#include "globalIndex.H"
-#include "volFields.H"
+#include "fvMesh/fvMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "fields/volFields/volFields.H"
 
-#include "zoneCPCStencil.H"
-#include "MeshObject.H"
+#include "fvMesh/zoneDistribute/zoneStencils/zoneCPCStencil.H"
+#include "meshes/MeshObject/MeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -202,7 +202,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-#include "zoneDistributeI.H"
+#include "fvMesh/zoneDistribute/zoneDistributeI.H"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

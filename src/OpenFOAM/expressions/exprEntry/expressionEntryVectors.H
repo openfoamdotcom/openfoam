@@ -35,7 +35,7 @@ SourceFiles
 #ifndef exprTools_expressionEntryVectors_H
 #define exprTools_expressionEntryVectors_H
 
-#include "expressionEntry.H"
+#include "expressions/exprEntry/expressionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DESModelRegions.H"
-#include "volFields.H"
-#include "DESModelBase.H"
+#include "DESModelRegions/DESModelRegions.H"
+#include "fields/volFields/volFields.H"
+#include "DES/DESModel/DESModelBase.H"
 #include "turbulenceModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

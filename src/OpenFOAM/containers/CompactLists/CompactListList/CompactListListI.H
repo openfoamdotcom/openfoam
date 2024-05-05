@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListOps.H"
-#include "SubList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -47,9 +47,9 @@ SourceFiles
 #ifndef Foam_fvsPatchField_H
 #define Foam_fvsPatchField_H
 
-#include "fvPatch.H"
-#include "DimensionedField.H"
-#include "fieldTypes.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -566,13 +566,13 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvsPatchField.C"
-    #include "fvsPatchFieldNew.C"
-    #include "calculatedFvsPatchField.H"
+    #include "fields/fvsPatchFields/fvsPatchField/fvsPatchField.C"
+    #include "fields/fvsPatchFields/fvsPatchField/fvsPatchFieldNew.C"
+    #include "fields/fvsPatchFields/basic/calculated/calculatedFvsPatchField.H"
 #endif
 
 // Runtime selection macros
-#include "fvsPatchFieldMacros.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFieldMacros.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

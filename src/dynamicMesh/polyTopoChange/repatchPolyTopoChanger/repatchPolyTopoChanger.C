@@ -30,10 +30,10 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "repatchPolyTopoChanger.H"
-#include "polyTopoChanger.H"
-#include "mapPolyMesh.H"
-#include "polyModifyFace.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

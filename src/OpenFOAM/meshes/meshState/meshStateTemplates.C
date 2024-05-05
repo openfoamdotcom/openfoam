@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "solverPerformance.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/solverPerformance.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -55,7 +55,7 @@ SourceFiles
 #ifndef functionEntries_removeEntry_H
 #define functionEntries_removeEntry_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

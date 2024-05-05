@@ -81,7 +81,7 @@ SourceFiles
 #ifndef prghTotalPressureFvPatchScalarField_H
 #define prghTotalPressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

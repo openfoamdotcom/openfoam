@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calculatedProcessorGAMGInterface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "labelPairHashes.H"
+#include "lduPrimitiveProcessorInterface/GAMG/calculatedProcessorGAMGInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/tuples/labelPairHashes.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

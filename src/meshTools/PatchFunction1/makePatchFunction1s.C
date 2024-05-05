@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchFunction1.H"
-#include "fieldTypes.H"
-#include "ConstantField.H"
-#include "UniformValueField.H"
-#include "FunctionObjectValue.H"
-#include "NoneFunction1.H"
-#include "MappedFile.H"
-#include "Table.H"
-#include "addToRunTimeSelectionTable.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "fields/Fields/fieldTypes.H"
+#include "PatchFunction1/ConstantField/ConstantField.H"
+#include "PatchFunction1/UniformValueField/UniformValueField.H"
+#include "primitives/functions/Function1/FunctionObjectValue/FunctionObjectValue.H"
+#include "primitives/functions/Function1/None/NoneFunction1.H"
+#include "PatchFunction1/MappedFile/MappedFile.H"
+#include "primitives/functions/Function1/Table/Table.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

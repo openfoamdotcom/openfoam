@@ -41,10 +41,10 @@ SourceFiles
 #ifndef sensitivityTopO_H
 #define sensitivityTopO_H
 
-#include "adjointSensitivity.H"
-#include "fvOptions.H"
-#include "topOZones.H"
-#include "adjointEikonalSolver.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "optimisation/designVariables/topODesignVariables/topOZones/topOZones.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointEikonalSolver/adjointEikonalSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sensitivityTopOTemplates.C"
+    #include "optimisation/adjointSensitivity/adjointSensitivity/topO/sensitivityTopOTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

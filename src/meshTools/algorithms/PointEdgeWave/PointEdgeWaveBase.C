@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PointEdgeWave.H"
-#include "polyMesh.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

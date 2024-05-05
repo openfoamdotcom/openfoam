@@ -29,10 +29,10 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "dictionary.H"
-#include "foamVersion.H"
-#include "Pstream.H"
+#include "db/error/error.H"
+#include "db/dictionary/dictionary.H"
+#include "include/foamVersion.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

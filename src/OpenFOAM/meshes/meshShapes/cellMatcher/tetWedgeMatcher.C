@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetWedgeMatcher.H"
-#include "cellMatcher.H"
-#include "primitiveMesh.H"
-#include "cellModel.H"
-#include "ListOps.H"
+#include "meshes/meshShapes/cellMatcher/tetWedgeMatcher.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcher.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

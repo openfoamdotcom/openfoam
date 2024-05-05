@@ -42,10 +42,10 @@ SourceFiles
 #ifndef Foam_processorPolyPatch_H
 #define Foam_processorPolyPatch_H
 
-#include "coupledPolyPatch.H"
-#include "polyBoundaryMesh.H"
-#include "faceListFwd.H"
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/meshShapes/face/faceListFwd.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NURBS3DCurve.H"
-#include "vectorField.H"
+#include "parameterization/NURBS/NURBS3DCurve/NURBS3DCurve.H"
+#include "fields/Fields/vectorField/vectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

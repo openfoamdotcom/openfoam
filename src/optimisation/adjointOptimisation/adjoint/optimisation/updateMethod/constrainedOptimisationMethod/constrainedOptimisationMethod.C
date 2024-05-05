@@ -27,7 +27,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constrainedOptimisationMethod.H"
+#include "optimisation/updateMethod/constrainedOptimisationMethod/constrainedOptimisationMethod.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

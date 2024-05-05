@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidAbsorption.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mappedPatchBase.H"
-#include "radiationModel.H"
-#include "absorptionEmissionModel.H"
+#include "submodels/wallAbsorptionEmissionModel/solidAbsorption/solidAbsorption.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

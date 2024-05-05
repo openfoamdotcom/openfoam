@@ -39,11 +39,11 @@ SourceFiles
 #ifndef multiDimPolyFunctions_H
 #define multiDimPolyFunctions_H
 
-#include "vector.H"
-#include "vector2D.H"
-#include "labelVector.H"
-#include "scalarField.H"
-#include "runTimeSelectionTables.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Vector2D/floats/vector2D.H"
+#include "primitives/Vector/ints/labelVector.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

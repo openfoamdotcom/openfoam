@@ -46,8 +46,8 @@ SourceFiles
 #ifndef FoamCompat_NamedEnum_H
 #define FoamCompat_NamedEnum_H
 
-#include "HashTable.H"
-#include "wordList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/strings/lists/wordList.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -198,10 +198,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NamedEnumI.H"
+#include "primitives/enums/compat/NamedEnumI.H"
 
 #ifdef NoRepository
-    #include "NamedEnum.C"
+    #include "primitives/enums/compat/NamedEnum.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

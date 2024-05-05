@@ -35,18 +35,18 @@ Description
 #ifndef Foam_particle_H
 #define Foam_particle_H
 
-#include "vector.H"
-#include "barycentric.H"
-#include "barycentricTensor.H"
-#include "CloudPascal.H"
-#include "IDLList.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "OFstream.H"
-#include "FixedList.H"
-#include "polyMeshTetDecomposition.H"
-#include "particleMacros.H"
-#include "vectorTensorTransform.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Barycentric/barycentric/barycentric.H"
+#include "primitives/Barycentric/barycentricTensor/barycentricTensor.H"
+#include "Cloud/CloudPascal.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "particle/particleMacros.H"
+#include "primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -773,12 +773,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "particleI.H"
+#include "particle/particleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "particleTemplates.C"
+    #include "particle/particleTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -35,7 +35,7 @@ Description
 #ifndef unitConversion_H
 #define unitConversion_H
 
-#include "mathematicalConstants.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

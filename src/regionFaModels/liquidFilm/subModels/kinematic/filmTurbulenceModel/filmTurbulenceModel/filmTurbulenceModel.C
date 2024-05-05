@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFaModels_filmTurbulenceModel.H"
-#include "gravityMeshObject.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "PtrMap.H"
+#include "liquidFilm/subModels/kinematic/filmTurbulenceModel/filmTurbulenceModel/regionFaModels_filmTurbulenceModel.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "containers/HashTables/PtrMap/PtrMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

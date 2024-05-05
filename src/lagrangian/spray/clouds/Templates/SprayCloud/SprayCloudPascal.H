@@ -38,8 +38,8 @@ Description
 #ifndef Foam_SprayCloud_H
 #define Foam_SprayCloud_H
 
-#include "sprayCloud.H"
-#include "SortList.H"
+#include "clouds/baseClasses/sprayCloud/sprayCloud.H"
+#include "containers/IndirectLists/SortList/SortList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -248,12 +248,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SprayCloudI.H"
+#include "clouds/Templates/SprayCloud/SprayCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SprayCloudPascal.C"
+    #include "clouds/Templates/SprayCloud/SprayCloudPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

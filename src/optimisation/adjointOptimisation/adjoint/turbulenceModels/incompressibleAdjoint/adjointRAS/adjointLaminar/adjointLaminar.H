@@ -41,7 +41,7 @@ SourceFiles
 #ifndef adjointRasLaminar_H
 #define adjointRasLaminar_H
 
-#include "adjointRASModel.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointRASModel/adjointRASModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "int64.H"
-#include "error.H"
-#include "parsing.H"
-#include "IOstreams.H"
+#include "primitives/ints/int64/int64.H"
+#include "db/error/error.H"
+#include "primitives/strings/parsing/parsing.H"
+#include "db/IOstreams/IOstreams.H"
 #include <cinttypes>
 #include <cmath>
 

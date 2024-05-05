@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatchMapper.H"
-#include "faPatch.H"
-#include "faBoundaryMesh.H"
-#include "faMesh.H"
-#include "mapPolyMesh.H"
-#include "faceMapper.H"
-#include "demandDrivenData.H"
+#include "faMesh/faMeshMapper/faPatchMapper.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMesh.H"
+#include "faMesh/faMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

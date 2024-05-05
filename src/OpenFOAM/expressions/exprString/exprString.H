@@ -43,8 +43,8 @@ SeeAlso
 #ifndef Foam_expressions_exprString_H
 #define Foam_expressions_exprString_H
 
-#include "word.H"
-#include "dictionary.H"
+#include "primitives/strings/word/word.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -236,7 +236,7 @@ template<> struct Hash<expressions::exprString> : string::hasher {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "exprStringI.H"
+#include "expressions/exprString/exprStringI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

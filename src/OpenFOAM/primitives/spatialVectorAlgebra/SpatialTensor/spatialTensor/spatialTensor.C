@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "spatialTensor.H"
+#include "primitives/spatialVectorAlgebra/SpatialTensor/spatialTensor/spatialTensor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

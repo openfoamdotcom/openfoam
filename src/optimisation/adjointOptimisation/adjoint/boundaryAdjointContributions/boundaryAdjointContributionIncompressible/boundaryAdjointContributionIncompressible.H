@@ -42,13 +42,13 @@ SourceFiles
 #ifndef boundaryAdjointContributionIncompressible_H
 #define boundaryAdjointContributionIncompressible_H
 
-#include "boundaryAdjointContribution.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "objectiveManager.H"
-#include "objectiveIncompressible.H"
-#include "incompressibleAdjointSolver.H"
+#include "boundaryAdjointContributions/boundaryAdjointContribution/boundaryAdjointContribution.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "objectiveManager/objectiveManager.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
+#include "solvers/adjointSolvers/incompressible/incompressibleAdjointSolver/incompressibleAdjointSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearTsubDiameter.H"
-#include "phaseSystem.H"
-#include "saturationModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/linearTsubDiameter/linearTsubDiameter.H"
+#include "phaseSystem/phaseSystem.H"
+#include "saturationModel/saturationModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

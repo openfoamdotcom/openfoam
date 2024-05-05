@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_functionObjects_fileFieldSelection_H
 #define Foam_functionObjects_fileFieldSelection_H
 
-#include "fieldSelection.H"
+#include "functionObjects/fieldSelections/fieldSelection/fieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

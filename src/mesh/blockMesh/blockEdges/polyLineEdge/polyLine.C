@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyLinePascal.H"
-#include "SubList.H"
+#include "blockEdges/polyLineEdge/polyLinePascal.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef displacementMethoddisplacementLaplacian_H
 #define displacementMethoddisplacementLaplacian_H
 
-#include "displacementMethod.H"
+#include "displacementMethod/displacementMethod/displacementMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ License
 #ifndef symmetryPlaneFvsPatchFields_H
 #define symmetryPlaneFvsPatchFields_H
 
-#include "symmetryPlaneFvsPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvsPatchFields/constraint/symmetryPlane/symmetryPlaneFvsPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,7 +35,7 @@ Description
 #ifndef waveModels_cnoidal_H
 #define waveModels_cnoidal_H
 
-#include "regularWaveModel.H"
+#include "waveGenerationModels/base/regularWaveModel/regularWaveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

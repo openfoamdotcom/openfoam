@@ -38,8 +38,8 @@ SourceFiles
 #ifndef badQualityToCell_H
 #define badQualityToCell_H
 
-#include "topoSetCellSource.H"
-#include "bitSet.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Foam_zeroFixedValuePointPatchField_H
 #define Foam_zeroFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

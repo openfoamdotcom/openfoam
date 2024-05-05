@@ -26,21 +26,21 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "faMeshBoundaryHalo.H"
-#include "faGlobalMeshData.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "demandDrivenData.H"
-#include "IndirectList.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "faMeshLduAddressing.H"
-#include "processorFaPatch.H"
-#include "wedgeFaPatch.H"
-#include "faPatchData.H"
-#include "registerSwitch.H"
+#include "faMesh/faMesh.H"
+#include "faMesh/faMeshBoundaryHalo.H"
+#include "faMesh/faGlobalMeshData/faGlobalMeshData.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "include/demandDrivenData.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "faMesh/faMeshLduAddressing.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "faMesh/faPatches/constraint/wedge/wedgeFaPatch.H"
+#include "faMesh/faPatches/faPatch/faPatchData.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

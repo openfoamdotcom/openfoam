@@ -279,21 +279,21 @@ SourceFiles
 #ifndef compressible_alphatWallBoilingWallFunctionFvPatchScalarField_H
 #define compressible_alphatWallBoilingWallFunctionFvPatchScalarField_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
-#include "alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField.H"
-#include "partitioningModel.H"
-#include "nucleationSiteModel.H"
-#include "departureDiameterModel.H"
-#include "departureFrequencyModel.H"
-#include "nucleateFluxModel.H"
+#include "derivedFvPatchFields/alphatPhaseChangeJayatillekeWallFunction/alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/nucleationSiteModels/nucleationSiteModel/nucleationSiteModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureFrequencyModels/departureFrequencyModel/departureFrequencyModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/nucleateFluxModels/nucleateFluxModel/nucleateFluxModel.H"
 
-#include "LeidenfrostModel.H"
-#include "filmBoilingModel.H"
-#include "CHFModel.H"
-#include "CHFSubCoolModel.H"
-#include "MHFModel.H"
-#include "TDNBModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/LeidenfrostModels/LeidenfrostModel/LeidenfrostModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/filmBoilingModels/filmBoilingModel/filmBoilingModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/CHFModels/CHFModel/CHFModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/CHFSubCoolModels/CHFSubCoolModel/CHFSubCoolModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/MHFModels/MHFModel/MHFModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/TDNBModels/TDNBModel/TDNBModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

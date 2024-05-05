@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Foam_bandCompression_H
 #define Foam_bandCompression_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

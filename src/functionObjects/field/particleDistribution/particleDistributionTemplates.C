@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 template<class Type>
 bool Foam::functionObjects::particleDistribution::processField

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef constantDrift_H
 #define constantDrift_H
 
-#include "driftModel.H"
+#include "populationBalanceModel/driftModels/driftModel/driftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

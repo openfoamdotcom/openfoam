@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleDirectionUniformBin.H"
-#include "addToRunTimeSelectionTable.H"
+#include "binField/binModels/singleDirectionUniformBin/singleDirectionUniformBin.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

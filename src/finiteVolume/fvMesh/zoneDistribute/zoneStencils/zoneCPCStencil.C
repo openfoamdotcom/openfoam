@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zoneCPCStencil.H"
-#include "syncTools.H"
-#include "ListOps.H"
-#include "dummyTransform.H"
-#include "emptyPolyPatch.H"
+#include "fvMesh/zoneDistribute/zoneStencils/zoneCPCStencil.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/polyMesh/syncTools/dummyTransform.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

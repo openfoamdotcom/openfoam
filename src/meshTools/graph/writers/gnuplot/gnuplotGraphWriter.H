@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_gnuplotGraphWriter_H
 #define Foam_gnuplotGraphWriter_H
 
-#include "graph.H"
+#include "graph/graph.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

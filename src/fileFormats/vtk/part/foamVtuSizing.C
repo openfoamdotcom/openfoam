@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtuSizing.H"
-#include "foamVtkCore.H"
-#include "polyMesh.H"
-#include "cellShape.H"
-#include "manifoldCellsMeshObject.H"
+#include "vtk/part/foamVtuSizing.H"
+#include "vtk/base/foamVtkCore.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "common/manifoldCellsMeshObject.H"
 
 // Only used in this file
-#include "foamVtuSizingImpl.C"
+#include "vtk/part/foamVtuSizingImpl.C"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

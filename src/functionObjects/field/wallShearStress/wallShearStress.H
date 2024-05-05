@@ -108,9 +108,9 @@ SourceFiles
 #ifndef Foam_functionObjects_wallShearStress_H
 #define Foam_functionObjects_wallShearStress_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

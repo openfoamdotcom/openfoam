@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "absolute.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/MPPIC/CorrectionLimitingMethods/absolute/absolute.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 namespace Foam
 {

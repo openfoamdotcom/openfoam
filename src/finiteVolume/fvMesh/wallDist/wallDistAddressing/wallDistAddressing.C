@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FaceCellWave.H"
-#include "wallDistAddressing.H"
-#include "wallPointAddressing.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
-#include "wallPolyPatch.H"
-#include "patchDistMethod.H"
-#include "OBJstream.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "fvMesh/wallDist/wallDistAddressing/wallDistAddressing.H"
+#include "fvMesh/wallDist/wallDistAddressing/wallPointAddressing.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

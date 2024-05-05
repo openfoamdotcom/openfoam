@@ -71,12 +71,12 @@ SourceFiles
 #ifndef Foam_fvOption_H
 #define Foam_fvOption_H
 
-#include "fvMatricesFwd.H"
-#include "primitiveFieldsFwd.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -490,7 +490,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvOptionI.H"
+#include "cfdTools/general/fvOptions/fvOptionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

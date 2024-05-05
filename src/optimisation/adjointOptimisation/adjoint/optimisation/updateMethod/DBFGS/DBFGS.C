@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DBFGS.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/updateMethod/DBFGS/DBFGS.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

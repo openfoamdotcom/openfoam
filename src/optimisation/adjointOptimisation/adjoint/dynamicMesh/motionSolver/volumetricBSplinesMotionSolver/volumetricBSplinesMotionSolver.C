@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volumetricBSplinesMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dynamicMesh/motionSolver/volumetricBSplinesMotionSolver/volumetricBSplinesMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

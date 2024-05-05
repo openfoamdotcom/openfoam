@@ -91,7 +91,7 @@ SourceFiles
 #ifndef Foam_cylinderToFace_H
 #define Foam_cylinderToFace_H
 
-#include "topoSetFaceSource.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

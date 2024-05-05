@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SVD.H"
-#include "scalarList.H"
-#include "scalarMatrices.H"
-#include "ListOps.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * * Constructor  * * * * * * * * * * * * * * //
 

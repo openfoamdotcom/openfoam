@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallBoundedStreamLineParticleCloud.H"
+#include "wallBoundedStreamLine/wallBoundedStreamLineParticleCloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

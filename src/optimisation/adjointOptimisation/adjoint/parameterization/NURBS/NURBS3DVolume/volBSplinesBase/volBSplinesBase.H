@@ -45,8 +45,8 @@ SourceFiles
 #ifndef volBSplinesBase_H
 #define volBSplinesBase_H
 
-#include "NURBS3DVolume.H"
-#include "OFstream.H"
+#include "parameterization/NURBS/NURBS3DVolume/NURBS3DVolume/NURBS3DVolume.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

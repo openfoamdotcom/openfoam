@@ -66,8 +66,8 @@ SourceFiles
 #ifndef PatchFunction1Types_expression_H
 #define PatchFunction1Types_expression_H
 
-#include "PatchFunction1.H"
-#include "patchExprDriver.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "expressions/patch/patchExprDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -211,7 +211,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchFunction1Expression.C"
+    #include "expressions/PatchFunction1/PatchFunction1Expression.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -22,7 +22,7 @@ Description
 #ifndef Foam_surfaceWriters_writerCaching_H
 #define Foam_surfaceWriters_writerCaching_H
 
-#include "ensightWriterCaching.H"
+#include "ensight/file/ensightWriterCaching.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

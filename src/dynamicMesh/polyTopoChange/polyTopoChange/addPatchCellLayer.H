@@ -105,10 +105,10 @@ SourceFiles
 #ifndef addPatchCellLayer_H
 #define addPatchCellLayer_H
 
-#include "labelList.H"
-#include "typeInfo.H"
-#include "labelPair.H"
-#include "indirectPrimitivePatch.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/tuples/labelPair.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

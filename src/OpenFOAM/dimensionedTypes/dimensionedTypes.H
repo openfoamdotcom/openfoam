@@ -31,13 +31,13 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dimensionedLabel.H"
-#include "dimensionedScalar.H"
-#include "dimensionedVector.H"
-#include "dimensionedSphericalTensor.H"
-#include "dimensionedSymmTensor.H"
-#include "dimensionedTensor.H"
-#include "dimensionedMinMax.H"
+#include "dimensionedTypes/dimensionedLabel/dimensionedLabel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
+#include "dimensionedTypes/dimensionedSphericalTensor/dimensionedSphericalTensor.H"
+#include "dimensionedTypes/dimensionedSymmTensor/dimensionedSymmTensor.H"
+#include "dimensionedTypes/dimensionedTensor/dimensionedTensor.H"
+#include "dimensionedTypes/dimensionedMinMax/dimensionedMinMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

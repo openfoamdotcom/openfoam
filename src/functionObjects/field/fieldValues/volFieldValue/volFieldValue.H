@@ -123,8 +123,8 @@ SourceFiles
 #ifndef functionObjects_volFieldValue_H
 #define functionObjects_volFieldValue_H
 
-#include "fieldValue.H"
-#include "volRegion.H"
+#include "fieldValues/fieldValue/fieldValue.H"
+#include "functionObjects/volRegion/volRegion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -329,12 +329,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "volFieldValueI.H"
+#include "fieldValues/volFieldValue/volFieldValueI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "volFieldValueTemplates.C"
+    #include "fieldValues/volFieldValue/volFieldValueTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

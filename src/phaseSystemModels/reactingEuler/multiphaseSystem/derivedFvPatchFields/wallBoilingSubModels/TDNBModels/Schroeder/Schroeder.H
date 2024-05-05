@@ -72,7 +72,7 @@ SourceFiles
 #ifndef Schroeder_H
 #define Schroeder_H
 
-#include "TDNBModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/TDNBModels/TDNBModel/TDNBModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

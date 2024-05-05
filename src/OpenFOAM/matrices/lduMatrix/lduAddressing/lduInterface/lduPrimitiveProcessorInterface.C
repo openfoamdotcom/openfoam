@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduPrimitiveProcessorInterface.H"
-#include "transformField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduPrimitiveProcessorInterface.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

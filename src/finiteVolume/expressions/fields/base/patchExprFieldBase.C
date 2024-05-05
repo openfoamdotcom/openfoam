@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchExprFieldBase.H"
-#include "facePointPatch.H"
-#include "fvMesh.H"
-#include "fvPatch.H"
-#include "pointMesh.H"
-#include "stringOps.H"
+#include "expressions/fields/base/patchExprFieldBase.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

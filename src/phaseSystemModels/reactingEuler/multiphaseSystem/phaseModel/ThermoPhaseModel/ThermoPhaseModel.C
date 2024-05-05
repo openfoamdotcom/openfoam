@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoPhaseModel.H"
+#include "phaseModel/ThermoPhaseModel/ThermoPhaseModel.H"
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "fvmLaplacian.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

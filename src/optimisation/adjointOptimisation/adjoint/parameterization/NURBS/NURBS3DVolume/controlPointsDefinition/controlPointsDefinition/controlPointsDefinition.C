@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "controlPointsDefinition.H"
-#include "mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "parameterization/NURBS/NURBS3DVolume/controlPointsDefinition/controlPointsDefinition/controlPointsDefinition.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicParcel.H"
-#include "IOstreams.H"
-#include "IOField.H"
-#include "CloudPascal.H"
+#include "parcels/Templates/KinematicParcel/KinematicParcel.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "Cloud/CloudPascal.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

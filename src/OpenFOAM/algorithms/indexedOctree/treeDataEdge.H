@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_treeDataEdge_H
 #define Foam_treeDataEdge_H
 
-#include "treeBoundBoxList.H"
-#include "labelRange.H"
-#include "line.H"
-#include "volumeType.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "meshes/primitiveShapes/line/line.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

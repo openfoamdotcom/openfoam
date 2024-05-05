@@ -50,9 +50,9 @@ SourceFiles
 #ifndef MMA_H
 #define MMA_H
 
-#include "constrainedOptimisationMethod.H"
-#include "updateMethod.H"
-#include "PtrList.H"
+#include "optimisation/updateMethod/constrainedOptimisationMethod/constrainedOptimisationMethod.H"
+#include "optimisation/updateMethod/updateMethod/updateMethod.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

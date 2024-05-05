@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dsmcParcel.H"
-#include "DSMCCloudPascal.H"
-#include "MaxwellianThermal.H"
-#include "SpecularReflection.H"
-#include "MixedDiffuseSpecular.H"
+#include "parcels/derived/dsmcParcel/dsmcParcel.H"
+#include "clouds/Templates/DSMCCloud/DSMCCloudPascal.H"
+#include "submodels/WallInteractionModel/MaxwellianThermal/MaxwellianThermal.H"
+#include "submodels/WallInteractionModel/SpecularReflection/SpecularReflection.H"
+#include "submodels/WallInteractionModel/MixedDiffuseSpecular/MixedDiffuseSpecular.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

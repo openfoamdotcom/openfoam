@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FacePostProcessing.H"
-#include "Pstream.H"
-#include "ListListOps.H"
-#include "globalIndex.H"
-#include "surfaceWriter.H"
+#include "submodels/CloudFunctionObjects/FacePostProcessing/FacePostProcessing.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "writers/common/surfaceWriter.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

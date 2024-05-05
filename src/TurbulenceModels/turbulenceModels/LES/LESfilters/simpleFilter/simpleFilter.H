@@ -39,7 +39,7 @@ SourceFiles
 #ifndef simpleFilter_H
 #define simpleFilter_H
 
-#include "LESfilter.H"
+#include "LES/LESfilters/LESfilter/LESfilter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

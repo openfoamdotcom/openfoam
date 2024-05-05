@@ -28,7 +28,7 @@ License
 #ifndef Foam_polySurfaceFieldsFwd_H
 #define Foam_polySurfaceFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

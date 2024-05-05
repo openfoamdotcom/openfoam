@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_NonInertialFrameForce_H
 #define Foam_NonInertialFrameForce_H
 
-#include "ParticleForce.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NonInertialFrameForce.C"
+    #include "submodels/Kinematic/ParticleForces/NonInertialFrame/NonInertialFrameForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

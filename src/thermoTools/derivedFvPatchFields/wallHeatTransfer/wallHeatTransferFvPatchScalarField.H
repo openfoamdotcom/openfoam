@@ -58,7 +58,7 @@ SourceFiles
 #ifndef wallHeatTransferFvPatchScalarField_H
 #define wallHeatTransferFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,8 +32,8 @@ Description
 #ifndef Foam_FieldM_H
 #define Foam_FieldM_H
 
-#include "error.H"
-#include "ListLoopM.H"  // For list access macros
+#include "db/error/error.H"
+#include "fields/Fields/Field/ListLoopM.H"  // For list access macros
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

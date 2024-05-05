@@ -34,7 +34,7 @@ Description
 #ifndef mapDistributeLagrangian_H
 #define mapDistributeLagrangian_H
 
-#include "mapDistribute.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

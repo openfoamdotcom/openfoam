@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pLaplacianMotionSolver.H"
-#include "motionInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
-#include "fvmLaplacian.H"
+#include "dynamicMesh/motionSolver/pLaplacianMotionSolver/pLaplacianMotionSolver.H"
+#include "motionInterpolation/motionInterpolation/motionInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

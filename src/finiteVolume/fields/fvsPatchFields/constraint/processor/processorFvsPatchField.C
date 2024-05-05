@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorFvsPatchField.H"
+#include "fields/fvsPatchFields/constraint/processor/processorFvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

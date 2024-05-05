@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonUniformTableThermophysicalFunction.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalFunctions/nonUniformTable/nonUniformTableThermophysicalFunction.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

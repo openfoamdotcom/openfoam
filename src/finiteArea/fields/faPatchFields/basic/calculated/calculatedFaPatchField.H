@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_calculatedFaPatchField_H
 #define Foam_calculatedFaPatchField_H
 
-#include "faPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "calculatedFaPatchField.C"
+    #include "fields/faPatchFields/basic/calculated/calculatedFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

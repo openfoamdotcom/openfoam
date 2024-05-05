@@ -28,7 +28,7 @@ License
 #ifndef Foam_extrapolatedCalculatedFaPatchFields_H
 #define Foam_extrapolatedCalculatedFaPatchFields_H
 
-#include "extrapolatedCalculatedFaPatchField.H"
+#include "fields/faPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

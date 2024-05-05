@@ -37,7 +37,7 @@ Description
 #ifndef sigmoidalHeaviside_H
 #define sigmoidalHeaviside_H
 
-#include "topOInterpolationFunction.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

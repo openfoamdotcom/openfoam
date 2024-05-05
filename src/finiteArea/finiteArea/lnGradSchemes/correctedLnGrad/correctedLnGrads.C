@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correctedLnGrad.H"
-#include "faMesh.H"
+#include "finiteArea/lnGradSchemes/correctedLnGrad/correctedLnGrad.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

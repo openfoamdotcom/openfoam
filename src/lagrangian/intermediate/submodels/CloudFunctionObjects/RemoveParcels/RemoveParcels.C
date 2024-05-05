@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RemoveParcels.H"
-#include "fvMesh.H"
-#include "faceZone.H"
-#include "OFstream.H"
-#include "surfaceFields.H"
+#include "submodels/CloudFunctionObjects/RemoveParcels/RemoveParcels.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/zones/faceZone/faceZone.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

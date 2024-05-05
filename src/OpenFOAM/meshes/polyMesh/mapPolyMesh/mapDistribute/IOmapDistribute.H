@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_IOmapDistribute_H
 #define Foam_IOmapDistribute_H
 
-#include "mapDistribute.H"
-#include "regIOobject.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

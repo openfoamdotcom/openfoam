@@ -65,9 +65,9 @@ SourceFiles
 #ifndef FaceInteraction_H
 #define FaceInteraction_H
 
-#include "CloudFunctionObject.H"
-#include "Enum.H"
-#include "boundBox.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "primitives/enums/Enum.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -197,7 +197,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FaceInteraction.C"
+    #include "submodels/CloudFunctionObjects/FaceInteraction/FaceInteraction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

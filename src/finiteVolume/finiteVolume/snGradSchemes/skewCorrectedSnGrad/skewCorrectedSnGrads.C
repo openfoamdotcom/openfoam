@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "skewCorrectedSnGrad.H"
-#include "fvMesh.H"
+#include "finiteVolume/snGradSchemes/skewCorrectedSnGrad/skewCorrectedSnGrad.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

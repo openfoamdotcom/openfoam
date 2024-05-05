@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyDisplacementPointPatchVectorField.H"
-#include "pointPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "uniformDimensionedFields.H"
-#include "forces.H"
+#include "pointPatchFields/derived/sixDoFRigidBodyDisplacement/sixDoFRigidBodyDisplacementPointPatchVectorField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "forces/forces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

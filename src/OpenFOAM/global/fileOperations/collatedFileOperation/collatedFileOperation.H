@@ -49,9 +49,9 @@ SourceFiles
 #ifndef Foam_fileOperations_collatedFileOperation_H
 #define Foam_fileOperations_collatedFileOperation_H
 
-#include "masterUncollatedFileOperation.H"
-#include "fileOperationInitialise.H"
-#include "OFstreamCollator.H"
+#include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.H"
+#include "global/fileOperations/fileOperation/fileOperationInitialise.H"
+#include "global/fileOperations/collatedFileOperation/OFstreamCollator.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

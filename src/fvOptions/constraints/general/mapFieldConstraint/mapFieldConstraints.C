@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeFvOption.H"
-#include "MapFieldConstraint.H"
+#include "cfdTools/general/fvOptions/makeFvOption.H"
+#include "constraints/general/mapFieldConstraint/MapFieldConstraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

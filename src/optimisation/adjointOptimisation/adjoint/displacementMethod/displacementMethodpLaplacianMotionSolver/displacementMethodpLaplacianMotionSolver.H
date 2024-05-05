@@ -39,7 +39,7 @@ SourceFiles
 #ifndef displacementMethodpLaplacianMotionSolver_H
 #define displacementMethodpLaplacianMotionSolver_H
 
-#include "displacementMethod.H"
+#include "displacementMethod/displacementMethod/displacementMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,7 +42,7 @@ SourceFiles
 #ifndef exactPatchDistMethod_H
 #define exactPatchDistMethod_H
 
-#include "patchDistMethod.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

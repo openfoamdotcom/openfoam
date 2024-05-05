@@ -40,7 +40,7 @@ SourceFiles
 #ifndef LESModels_IDDESDelta_H
 #define LESModels_IDDESDelta_H
 
-#include "LESdelta.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

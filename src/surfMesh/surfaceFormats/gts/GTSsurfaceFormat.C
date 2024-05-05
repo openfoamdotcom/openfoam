@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GTSsurfaceFormat.H"
-#include "surfaceFormatsCore.H"
-#include "clock.H"
-#include "Fstream.H"
-#include "StringStream.H"
-#include "faceTraits.H"
+#include "surfaceFormats/gts/GTSsurfaceFormat.H"
+#include "surfaceFormats/surfaceFormatsCore.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

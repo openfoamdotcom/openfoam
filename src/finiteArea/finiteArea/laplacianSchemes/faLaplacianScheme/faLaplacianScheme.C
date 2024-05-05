@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fa.H"
-#include "HashTable.H"
-#include "linearEdgeInterpolation.H"
+#include "finiteArea/fa/fa.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "interpolation/edgeInterpolation/schemes/linear/linearEdgeInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

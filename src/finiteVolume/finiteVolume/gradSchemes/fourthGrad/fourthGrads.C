@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "fourthGrad.H"
+#include "fvMesh/fvMesh.H"
+#include "finiteVolume/gradSchemes/fourthGrad/fourthGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

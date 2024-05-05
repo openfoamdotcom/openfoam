@@ -39,9 +39,9 @@ SourceFiles
 #ifndef patchWave_H
 #define patchWave_H
 
-#include "cellDistFuncs.H"
-#include "FieldField.H"
-#include "MeshWave.H"
+#include "cellDist/cellDistFuncs.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "algorithms/MeshWave/MeshWave.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

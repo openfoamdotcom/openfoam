@@ -54,11 +54,11 @@ SourceFiles
 #ifndef lumpedPointDisplacementPointPatchVectorField_H
 #define lumpedPointDisplacementPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
-#include "lumpedPointMovement.H"
-#include "lumpedPointIOMovement.H"
-#include "pointField.H"
-#include "pointFieldsFwd.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "movement/lumpedPointMovement.H"
+#include "movement/lumpedPointIOMovement.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

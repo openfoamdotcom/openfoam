@@ -40,8 +40,8 @@ SourceFiles
 #ifndef functionObjects_runTimeControls_minMaxCondition_H
 #define functionObjects_runTimeControls_minMaxCondition_H
 
-#include "runTimeCondition.H"
-#include "Enum.H"
+#include "runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ void minMaxCondition::setValue<Foam::scalar>
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "minMaxConditionTemplates.C"
+    #include "runTimeControl/runTimeCondition/minMaxCondition/minMaxConditionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

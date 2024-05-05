@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "UIPstream.H"
-#include "int.H"
-#include "token.H"
+#include "db/error/error.H"
+#include "db/IOstreams/Pstreams/UIPstream.H"
+#include "primitives/ints/int/int.H"
+#include "db/IOstreams/token/token.H"
 #include <cctype>
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

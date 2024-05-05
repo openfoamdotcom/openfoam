@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Function1Types_ZeroConstant_H
 #define Function1Types_ZeroConstant_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -143,7 +143,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ZeroConstant.C"
+    #include "primitives/functions/Function1/Zero/ZeroConstant.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

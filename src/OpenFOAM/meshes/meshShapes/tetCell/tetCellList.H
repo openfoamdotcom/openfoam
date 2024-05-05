@@ -28,8 +28,8 @@ License
 #ifndef Foam_tetCellList_H
 #define Foam_tetCellList_H
 
-#include "tetCell.H"
-#include "List.H"
+#include "meshes/meshShapes/tetCell/tetCell.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_POSIX_H
 #define Foam_POSIX_H
 
-#include "className.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -104,7 +104,7 @@ SourceFiles
 #ifndef faceToFace_H
 #define faceToFace_H
 
-#include "topoSetFaceSource.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

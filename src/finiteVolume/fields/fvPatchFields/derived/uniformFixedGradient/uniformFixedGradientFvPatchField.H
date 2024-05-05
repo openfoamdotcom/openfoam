@@ -71,8 +71,8 @@ SourceFiles
 #ifndef Foam_uniformFixedGradientFvPatchField_H
 #define Foam_uniformFixedGradientFvPatchField_H
 
-#include "fixedGradientFvPatchFields.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformFixedGradientFvPatchField.C"
+    #include "fields/fvPatchFields/derived/uniformFixedGradient/uniformFixedGradientFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

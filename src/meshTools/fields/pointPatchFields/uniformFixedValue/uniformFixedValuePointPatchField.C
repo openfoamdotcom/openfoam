@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedValuePointPatchField.H"
-#include "SubField.H"
-#include "polyPatch.H"
+#include "fields/pointPatchFields/uniformFixedValue/uniformFixedValuePointPatchField.H"
+#include "fields/Fields/Field/SubField.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //
 

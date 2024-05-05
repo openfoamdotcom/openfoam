@@ -72,7 +72,7 @@ SourceFiles
 #ifndef LemmertChawla_H
 #define LemmertChawla_H
 
-#include "nucleationSiteModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/nucleationSiteModels/nucleationSiteModel/nucleationSiteModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

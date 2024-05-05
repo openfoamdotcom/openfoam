@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_noDecomp_H
 #define Foam_noDecomp_H
 
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 namespace Foam
 {

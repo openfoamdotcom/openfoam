@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiBandZoneAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/absorptionEmissionModel/multiBandZoneAbsorptionEmission/multiBandZoneAbsorptionEmission.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

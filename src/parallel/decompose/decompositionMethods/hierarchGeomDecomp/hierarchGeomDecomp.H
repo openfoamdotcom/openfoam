@@ -65,7 +65,7 @@ SourceFiles
 #ifndef Foam_hierarchGeomDecomp_H
 #define Foam_hierarchGeomDecomp_H
 
-#include "geomDecomp.H"
+#include "geomDecomp/geomDecomp.H"
 
 namespace Foam
 {

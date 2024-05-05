@@ -37,12 +37,12 @@ SourceFiles
 #ifndef faDdtScheme_H
 #define faDdtScheme_H
 
-#include "tmp.H"
-#include "dimensionedType.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "memory/tmp/tmp.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,7 +239,7 @@ makeFaDdtTypeScheme(SS, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faDdtScheme.C"
+    #include "finiteArea/ddtSchemes/faDdtScheme/faDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

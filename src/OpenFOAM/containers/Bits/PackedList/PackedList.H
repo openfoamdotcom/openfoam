@@ -92,11 +92,11 @@ SourceFiles
 #ifndef Foam_PackedList_H
 #define Foam_PackedList_H
 
-#include "BitOps.H"
-#include "labelList.H"
-#include "IndirectListBase.H"
-#include "InfoProxy.H"
-#include "PackedListCore.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListBase.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "containers/Bits/PackedList/PackedListCore.H"
 
 #include <type_traits>
 
@@ -615,13 +615,13 @@ inline bool operator!=(const PackedList<Width>& a, const PackedList<Width>& b);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PackedListI.H"
+#include "containers/Bits/PackedList/PackedListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PackedList.C"
-    #include "PackedListIO.C"
+    #include "containers/Bits/PackedList/PackedList.C"
+    #include "containers/Bits/PackedList/PackedListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

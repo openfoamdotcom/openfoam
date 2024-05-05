@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensor.H"
-#include "cubicEqn.H"
-#include "mathematicalConstants.H"
-#include "SVD.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
 
 using namespace Foam::constant::mathematical;
 

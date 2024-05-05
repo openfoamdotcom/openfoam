@@ -38,9 +38,9 @@ SourceFiles
 #ifndef kinematicParcelInjectionData_H
 #define kinematicParcelInjectionData_H
 
-#include "dictionary.H"
-#include "vector.H"
-#include "point.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Vector/floats/vector.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -196,7 +196,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "kinematicParcelInjectionDataI.H"
+#include "submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/kinematicParcelInjectionDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

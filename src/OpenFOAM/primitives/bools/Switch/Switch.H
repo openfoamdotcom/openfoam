@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_Switch_H
 #define Foam_Switch_H
 
-#include "bool.H"
-#include "stdFoam.H"
+#include "primitives/bools/bool/bool.H"
+#include "include/stdFoam.H"
 
 // Avoid any pre-processor conflicts with enum names
 #undef FALSE

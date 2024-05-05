@@ -37,9 +37,9 @@ SourceFiles
 #ifndef Foam_multiphaseInter_MassTransferPhaseSystem_H
 #define Foam_multiphaseInter_MassTransferPhaseSystem_H
 
-#include "multiphaseInterSystem.H"
-#include "HashPtrTable.H"
-#include "interfaceCompositionModel.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "interfaceCompositionModel/interfaceCompositionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

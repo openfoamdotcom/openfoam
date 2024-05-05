@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchProbes.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "IOmanip.H"
+#include "probes/patchProbes.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

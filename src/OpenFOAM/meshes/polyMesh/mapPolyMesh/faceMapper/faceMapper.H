@@ -39,8 +39,8 @@ SourceFiles
 #ifndef faceMapper_H
 #define faceMapper_H
 
-#include "morphFieldMapper.H"
-#include "HashSet.H"
+#include "meshes/polyMesh/mapPolyMesh/morphFieldMapper.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

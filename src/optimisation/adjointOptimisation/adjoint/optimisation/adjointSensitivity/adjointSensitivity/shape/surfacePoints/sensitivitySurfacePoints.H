@@ -40,7 +40,7 @@ SourceFiles
 #ifndef sensitivitySurfacePoints_H
 #define sensitivitySurfacePoints_H
 
-#include "sensitivityShapeESI.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/ESI/sensitivityShapeESI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

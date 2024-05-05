@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "prescribedRotation.H"
-#include "rigidBodyModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
+#include "restraints/prescribedRotation/prescribedRotation.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

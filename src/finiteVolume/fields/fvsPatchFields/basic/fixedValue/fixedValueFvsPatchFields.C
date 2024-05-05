@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedValueFvsPatchFields.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

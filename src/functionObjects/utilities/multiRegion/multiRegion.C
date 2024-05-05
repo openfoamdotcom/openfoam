@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiRegion.H"
-#include "fvMesh.H"
-#include "timeControlFunctionObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "multiRegion/multiRegion.H"
+#include "fvMesh/fvMesh.H"
+#include "db/functionObjects/timeControl/timeControlFunctionObject.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

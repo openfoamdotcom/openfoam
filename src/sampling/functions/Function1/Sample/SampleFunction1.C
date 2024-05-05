@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SampleFunction1.H"
-#include "volFields.H"
-#include "interpolation.H"
-#include "pointIOField.H"
+#include "functions/Function1/Sample/SampleFunction1.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

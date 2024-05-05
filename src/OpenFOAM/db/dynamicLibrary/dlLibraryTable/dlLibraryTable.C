@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dlLibraryTable.H"
-#include "OSspecific.H"
-#include "IOstreams.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams.H"
 
 // Could be constexpr in the header if required
 #ifdef __APPLE__

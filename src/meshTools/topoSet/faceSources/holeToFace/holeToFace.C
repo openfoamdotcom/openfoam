@@ -25,22 +25,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "holeToFace.H"
-#include "transform.H"
-#include "faceSet.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
-#include "OBJstream.H"
+#include "topoSet/faceSources/holeToFace/holeToFace.H"
+#include "primitives/transform/transform.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "obj/OBJstream.H"
 //#include "fvMesh.H"
 //#include "volFields.H"
 //#include "surfaceFields.H"
-#include "topoDistanceData.H"
-#include "FaceCellWave.H"
-#include "syncTools.H"
+#include "meshStructure/topoDistanceData.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
-#include "edgeTopoDistanceData.H"
-#include "PatchEdgeFaceWave.H"
-#include "indirectPrimitivePatch.H"
+#include "algorithms/PatchEdgeFaceWave/edgeTopoDistanceData.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

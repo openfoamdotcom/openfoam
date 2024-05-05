@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryRegion.H"
-#include "IOMap.H"
-#include "OFstream.H"
+#include "common/tables/boundaryRegion.H"
+#include "db/IOobjects/IOMap/IOMap.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

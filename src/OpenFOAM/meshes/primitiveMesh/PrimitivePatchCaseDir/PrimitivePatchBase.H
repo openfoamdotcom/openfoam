@@ -37,7 +37,7 @@ SourceFiles
 #ifndef PrimitivePatchBase_H
 #define PrimitivePatchBase_H
 
-#include "className.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

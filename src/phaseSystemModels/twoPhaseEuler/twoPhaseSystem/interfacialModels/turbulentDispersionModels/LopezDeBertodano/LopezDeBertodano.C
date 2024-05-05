@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LopezDeBertodano.H"
-#include "phasePair.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/turbulentDispersionModels/LopezDeBertodano/LopezDeBertodano.H"
+#include "phasePair/phasePair.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

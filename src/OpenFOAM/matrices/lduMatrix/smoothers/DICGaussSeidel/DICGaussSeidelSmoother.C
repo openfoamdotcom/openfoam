@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DICGaussSeidelSmoother.H"
+#include "matrices/lduMatrix/smoothers/DICGaussSeidel/DICGaussSeidelSmoother.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

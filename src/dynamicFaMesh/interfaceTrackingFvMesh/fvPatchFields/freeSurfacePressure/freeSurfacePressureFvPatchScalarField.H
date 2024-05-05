@@ -71,7 +71,7 @@ SourceFiles
 #ifndef freeSurfacePressureFvPatchScalarField_H
 #define freeSurfacePressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

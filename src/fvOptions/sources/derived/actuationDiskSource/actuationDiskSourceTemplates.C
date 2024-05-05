@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "actuationDiskSource.H"
-#include "fvMesh.H"
-#include "fvMatrix.H"
-#include "volFields.H"
+#include "sources/derived/actuationDiskSource/actuationDiskSource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

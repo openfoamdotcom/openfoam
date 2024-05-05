@@ -37,9 +37,9 @@ SourceFiles
 #ifndef fvMotionSolverEngineMesh_H
 #define fvMotionSolverEngineMesh_H
 
-#include "engineMesh.H"
-#include "velocityComponentLaplacianFvMotionSolver.H"
-#include "dimensionedScalar.H"
+#include "engineMesh/engineMesh/engineMesh.H"
+#include "fvMotionSolvers/componentVelocity/componentLaplacian/velocityComponentLaplacianFvMotionSolver.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

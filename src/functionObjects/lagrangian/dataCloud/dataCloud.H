@@ -83,9 +83,9 @@ SourceFiles
 #ifndef functionObjects_dataCloud_H
 #define functionObjects_dataCloud_H
 
-#include "fvMeshFunctionObject.H"
-#include "parcelSelectionDetail.H"
-#include "vectorField.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "common/parcelSelectionDetail.H"
+#include "fields/Fields/vectorField/vectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -230,7 +230,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dataCloudTemplates.C"
+    #include "dataCloud/dataCloudTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,11 +38,11 @@ SourceFiles
 #ifndef ReactionList_H
 #define ReactionList_H
 
-#include "PtrList.H"
-#include "SLPtrList.H"
-#include "speciesTable.H"
-#include "fileName.H"
-#include "Reaction.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "containers/LinkedLists/user/SLPtrList.H"
+#include "speciesTable/speciesTable.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactionList.C"
+    #include "reaction/ReactionsCaseDir/ReactionList/ReactionList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

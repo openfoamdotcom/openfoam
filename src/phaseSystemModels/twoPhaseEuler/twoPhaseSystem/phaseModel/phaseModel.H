@@ -34,12 +34,12 @@ SourceFiles
 #ifndef phaseModel_H
 #define phaseModel_H
 
-#include "dictionary.H"
-#include "dimensionedScalar.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "transportModel.H"
-#include "rhoThermo.H"
+#include "db/dictionary/dictionary.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "transportModel/transportModel.H"
+#include "rhoThermo/rhoThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

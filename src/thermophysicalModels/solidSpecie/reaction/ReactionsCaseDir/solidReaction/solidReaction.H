@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_solidReaction_H
 #define Foam_solidReaction_H
 
-#include "speciesTable.H"
-#include "Reaction.H"
+#include "speciesTable/speciesTable.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,12 +185,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solidReactionI.H"
+#include "reaction/ReactionsCaseDir/solidReaction/solidReactionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solidReaction.C"
+    #include "reaction/ReactionsCaseDir/solidReaction/solidReaction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

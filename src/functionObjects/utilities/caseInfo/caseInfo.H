@@ -118,9 +118,9 @@ SourceFiles
 #ifndef functionObjects_caseInfo_H
 #define functionObjects_caseInfo_H
 
-#include "writeFile.H"
-#include "stateFunctionObject.H"
-#include "Enum.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/functionObjects/stateFunctionObject/stateFunctionObject.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

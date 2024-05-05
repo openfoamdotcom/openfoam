@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicSlipPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclicSlip/cyclicSlipPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

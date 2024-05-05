@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_primitives_uint_H
 #define Foam_primitives_uint_H
 
-#include "uint8.H"
-#include "uint16.H"
-#include "uint32.H"
-#include "uint64.H"
+#include "primitives/ints/uint8/uint8.H"
+#include "primitives/ints/uint16/uint16.H"
+#include "primitives/ints/uint32/uint32.H"
+#include "primitives/ints/uint64/uint64.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

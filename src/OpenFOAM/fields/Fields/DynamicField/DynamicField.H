@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_DynamicField_H
 #define Foam_DynamicField_H
 
-#include "Field.H"
-#include "DynamicList.H"
+#include "fields/Fields/Field/Field.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -391,7 +391,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DynamicFieldI.H"
+#include "fields/Fields/DynamicField/DynamicFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

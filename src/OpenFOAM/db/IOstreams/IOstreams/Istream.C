@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Istream.H"
-#include "ISstream.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

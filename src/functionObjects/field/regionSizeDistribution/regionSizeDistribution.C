@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionSizeDistribution.H"
-#include "regionSplit.H"
-#include "volFields.H"
-#include "fvcVolumeIntegrate.H"
-#include "mathematicalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "regionSizeDistribution/regionSizeDistribution.H"
+#include "regionSplit/regionSplit.H"
+#include "fields/volFields/volFields.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchFunction1.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

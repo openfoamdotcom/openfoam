@@ -36,13 +36,13 @@ SourceFiles
 #ifndef boundaryRadiationPropertiesPatch_H
 #define boundaryRadiationPropertiesPatch_H
 
-#include "scalarField.H"
-#include "Enum.H"
-#include "fvPatch.H"
-#include "calculatedFvPatchFields.H"
-#include "runTimeSelectionTables.H"
-#include "wallTransmissivityModel.H"
-#include "wallAbsorptionEmissionModel.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/enums/Enum.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "submodels/wallTransmissivityModel/wallTransmissivityModel/wallTransmissivityModel.H"
+#include "submodels/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

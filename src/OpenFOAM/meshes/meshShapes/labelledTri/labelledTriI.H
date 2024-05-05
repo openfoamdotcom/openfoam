@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

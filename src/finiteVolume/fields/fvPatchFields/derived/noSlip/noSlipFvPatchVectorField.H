@@ -52,7 +52,7 @@ SourceFiles
 #ifndef noSlipFvPatchVectorField_H
 #define noSlipFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

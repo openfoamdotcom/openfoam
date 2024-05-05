@@ -64,8 +64,8 @@ SourceFiles
 #ifndef alphaContactAngleTwoPhaseFvPatchScalarField_H
 #define alphaContactAngleTwoPhaseFvPatchScalarField_H
 
-#include "fixedGradientFvPatchFields.H"
-#include "fvsPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

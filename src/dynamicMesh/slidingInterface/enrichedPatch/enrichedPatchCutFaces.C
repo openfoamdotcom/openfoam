@@ -30,13 +30,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
-#include "boolList.H"
-#include "CircularBuffer.H"
-#include "DynamicList.H"
-#include "labelPair.H"
-#include "primitiveMesh.H"
-#include "edgeHashes.H"
+#include "slidingInterface/enrichedPatch/enrichedPatch.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Buffers/CircularBuffer.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/tuples/labelPair.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

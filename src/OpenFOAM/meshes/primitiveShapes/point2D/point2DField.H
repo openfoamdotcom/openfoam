@@ -34,9 +34,9 @@ Description
 #ifndef point2DField_H
 #define point2DField_H
 
-#include "point2D.H"
-#include "vector2DField.H"
-#include "point2DFieldFwd.H"
+#include "meshes/primitiveShapes/point2D/point2D.H"
+#include "fields/Fields/vector2DField/vector2DField.H"
+#include "meshes/primitiveShapes/point2D/point2DFieldFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

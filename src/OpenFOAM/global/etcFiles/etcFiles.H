@@ -38,7 +38,7 @@ SourceFiles
 #ifndef etcFiles_H
 #define etcFiles_H
 
-#include "fileNameList.H"
+#include "primitives/strings/lists/fileNameList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

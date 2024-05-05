@@ -41,9 +41,9 @@ SourceFiles
 #ifndef distributionContactAngleForce_H
 #define distributionContactAngleForce_H
 
-#include "contactAngleForce.H"
-#include "distributionModel.H"
-#include "Random.H"
+#include "submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.H"
+#include "distributionModel/distributionModel.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

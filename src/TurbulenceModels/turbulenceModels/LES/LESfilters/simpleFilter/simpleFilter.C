@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleFilter.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvc.H"
+#include "LES/LESfilters/simpleFilter/simpleFilter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvc.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

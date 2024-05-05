@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UIPstream.H"
-#include "IPstream.H"
-#include "IOstreams.H"
+#include "db/IOstreams/Pstreams/UIPstream.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

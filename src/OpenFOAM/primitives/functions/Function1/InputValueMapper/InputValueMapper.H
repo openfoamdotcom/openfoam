@@ -107,8 +107,8 @@ SourceFiles
 #ifndef Function1Types_InputValueMapper_H
 #define Function1Types_InputValueMapper_H
 
-#include "Function1Pascal.H"
-#include "Enum.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -235,10 +235,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "InputValueMapperI.H"
+#include "primitives/functions/Function1/InputValueMapper/InputValueMapperI.H"
 
 #ifdef NoRepository
-    #include "InputValueMapper.C"
+    #include "primitives/functions/Function1/InputValueMapper/InputValueMapper.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

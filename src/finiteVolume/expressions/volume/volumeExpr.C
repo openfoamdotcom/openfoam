@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volumeExprFwd.H"
-#include "defineDebugSwitch.H"
+#include "expressions/volume/volumeExprFwd.H"
+#include "global/debug/defineDebugSwitch.H"
 
 // * * * * * * * * * * * * * * * * Globals * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ShihQuadraticKE.H"
-#include "bound.H"
-#include "wallFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulentTransportModels/RAS/ShihQuadraticKE/ShihQuadraticKE.H"
+#include "cfdTools/general/bound/bound.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

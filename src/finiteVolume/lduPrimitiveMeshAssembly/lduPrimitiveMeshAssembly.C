@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduPrimitiveMeshAssembly.H"
-#include "mappedPatchBase.H"
+#include "lduPrimitiveMeshAssembly/lduPrimitiveMeshAssembly.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

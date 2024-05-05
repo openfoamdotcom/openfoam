@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lumpedPointController.H"
-#include "dictionary.H"
-#include "labelField.H"
-#include "Map.H"
+#include "controller/lumpedPointController.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/Fields/labelField/labelField.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

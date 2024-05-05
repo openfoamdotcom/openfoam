@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyantKEpsilon.H"
-#include "gravityMeshObject.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "RAS/buoyantKEpsilon/buoyantKEpsilon.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

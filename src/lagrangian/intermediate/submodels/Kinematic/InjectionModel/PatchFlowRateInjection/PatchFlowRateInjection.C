@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchFlowRateInjection.H"
-#include "distributionModel.H"
-#include "mathematicalConstants.H"
-#include "surfaceFields.H"
+#include "submodels/Kinematic/InjectionModel/PatchFlowRateInjection/PatchFlowRateInjection.H"
+#include "distributionModel/distributionModel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

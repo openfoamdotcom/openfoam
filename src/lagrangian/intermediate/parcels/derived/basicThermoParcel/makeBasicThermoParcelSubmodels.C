@@ -26,25 +26,25 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicThermoCloud.H"
+#include "clouds/derived/basicThermoCloud/basicThermoCloud.H"
 
-#include "makeThermoParcelCloudFunctionObjects.H"
+#include "parcels/include/makeThermoParcelCloudFunctionObjects.H"
 
 // Kinematic
-#include "makeThermoParcelForces.H" // thermo variant
-#include "makeParcelDispersionModels.H"
-#include "makeParcelInjectionModels.H"
-#include "makeParcelPatchInteractionModels.H"
-#include "makeParcelStochasticCollisionModels.H"
-#include "makeThermoParcelSurfaceFilmModels.H" // thermo variant
+#include "parcels/include/makeThermoParcelForces.H" // thermo variant
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeParcelInjectionModels.H"
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeParcelStochasticCollisionModels.H"
+#include "parcels/include/makeThermoParcelSurfaceFilmModels.H" // thermo variant
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
+#include "parcels/include/makeParcelHeatTransferModels.H"
 
 // MPPIC sub-models
-#include "makeMPPICParcelDampingModels.H"
-#include "makeMPPICParcelIsotropyModels.H"
-#include "makeMPPICParcelPackingModels.H"
+#include "parcels/include/makeMPPICParcelDampingModels.H"
+#include "parcels/include/makeMPPICParcelIsotropyModels.H"
+#include "parcels/include/makeMPPICParcelPackingModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -91,10 +91,10 @@ SourceFiles
 #ifndef atmTurbulentHeatFluxTemperatureFvPatchScalarFields_H
 #define atmTurbulentHeatFluxTemperatureFvPatchScalarFields_H
 
-#include "fvPatchFields.H"
-#include "fixedGradientFvPatchFields.H"
-#include "Function1Pascal.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uint64.H"
-#include "parsing.H"
-#include "IOstreams.H"
+#include "primitives/ints/uint64/uint64.H"
+#include "primitives/strings/parsing/parsing.H"
+#include "db/IOstreams/IOstreams.H"
 #include <cinttypes>
 #include <cmath>
 

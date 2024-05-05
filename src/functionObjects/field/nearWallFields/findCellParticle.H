@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_findCellParticle_H
 #define Foam_findCellParticle_H
 
-#include "particle.H"
-#include "autoPtr.H"
+#include "particle/particle.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

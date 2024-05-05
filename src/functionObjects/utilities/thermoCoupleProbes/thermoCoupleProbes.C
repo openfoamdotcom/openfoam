@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoCoupleProbes.H"
-#include "mathematicalConstants.H"
-#include "constants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermoCoupleProbes/thermoCoupleProbes.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "global/constants/constants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

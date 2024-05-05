@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "orientedType.H"
-#include "dictionary.H"
-#include "Istream.H"
-#include "Ostream.H"
+#include "orientedType/orientedType.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

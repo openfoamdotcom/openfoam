@@ -37,11 +37,11 @@ SourceFiles
 #ifndef DimensionedScalarField_H
 #define DimensionedScalarField_H
 
-#include "DimensionedField.H"
-#include "scalar.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 #define TEMPLATE template<class GeoMesh>
-#include "DimensionedFieldFunctionsM.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,10 +153,10 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 #ifdef NoRepository
-    #include "DimensionedScalarField.C"
+    #include "fields/DimensionedFields/DimensionedScalarField/DimensionedScalarField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

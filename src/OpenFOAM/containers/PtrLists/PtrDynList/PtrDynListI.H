@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "autoPtr.H"
-#include "refPtr.H"
-#include "tmp.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/refPtr/refPtr.H"
+#include "memory/tmp/tmp.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

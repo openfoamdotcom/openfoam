@@ -252,7 +252,7 @@ SourceFiles
 #ifndef Foam_scotchDecomp_H
 #define Foam_scotchDecomp_H
 
-#include "metisLikeDecomp.H"
+#include "metisLikeDecomp/metisLikeDecomp.H"
 
 namespace Foam
 {

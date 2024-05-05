@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyancyForce.H"
-#include "fvMatrices.H"
-#include "addToRunTimeSelectionTable.H"
-#include "gravityMeshObject.H"
+#include "sources/derived/buoyancyForce/buoyancyForce.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Gamma_H
 #define Gamma_H
 
-#include "scalar.H"
-#include "vector.H"
-#include "Istream.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/IOstreams/Istream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

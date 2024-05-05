@@ -38,8 +38,8 @@ SourceFiles
 #ifndef RowVector_H
 #define RowVector_H
 
-#include "MatrixSpace.H"
-#include "VectorPascal.H"
+#include "primitives/MatrixSpace/MatrixSpace.H"
+#include "primitives/Vector/VectorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RowVectorI.H"
+#include "primitives/RowVector/RowVectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

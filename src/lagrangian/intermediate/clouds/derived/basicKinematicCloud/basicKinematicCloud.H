@@ -34,9 +34,9 @@ Description
 #ifndef basicKinematicCloud_H
 #define basicKinematicCloud_H
 
-#include "CloudPascal.H"
-#include "KinematicCloudPascal.H"
-#include "basicKinematicParcel.H"
+#include "Cloud/CloudPascal.H"
+#include "clouds/Templates/KinematicCloud/KinematicCloudPascal.H"
+#include "parcels/derived/basicKinematicParcel/basicKinematicParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

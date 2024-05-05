@@ -31,7 +31,7 @@ Description
 #ifndef fundamentalConstants_H
 #define fundamentalConstants_H
 
-#include "dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

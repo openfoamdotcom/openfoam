@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFixedValueFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fieldTypes.H"
-#include "volFields.H"
+#include "fields/fvPatchFields/derived/codedFixedValue/codedFixedValueFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

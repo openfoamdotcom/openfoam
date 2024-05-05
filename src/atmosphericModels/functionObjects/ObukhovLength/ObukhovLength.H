@@ -157,10 +157,10 @@ SourceFiles
 #ifndef functionObjects_ObukhovLength_H
 #define functionObjects_ObukhovLength_H
 
-#include "fvMeshFunctionObject.H"
-#include "turbulentTransportModel.H"
-#include "gravityMeshObject.H"
-#include "Enum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

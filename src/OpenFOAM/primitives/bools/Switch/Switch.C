@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Switch.H"
-#include "scalar.H"
-#include "error.H"
-#include "dictionary.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/error/error.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

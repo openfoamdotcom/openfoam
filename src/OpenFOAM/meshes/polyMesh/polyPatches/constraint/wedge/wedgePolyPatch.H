@@ -37,7 +37,7 @@ SourceFiles
 #ifndef wedgePolyPatch_H
 #define wedgePolyPatch_H
 
-#include "polyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

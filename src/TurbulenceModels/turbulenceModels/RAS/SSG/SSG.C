@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SSG.H"
-#include "fvOptions.H"
-#include "wallFvPatch.H"
+#include "RAS/SSG/SSG.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

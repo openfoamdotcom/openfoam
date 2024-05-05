@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_primitives_char_H
 #define Foam_primitives_char_H
 
-#include "pTraits.H"
+#include "primitives/traits/pTraits.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprDriver.H"
-#include "expressionEntry.H"
-#include "stringOps.H"
-#include "TimeOpenFOAM.H"
+#include "expressions/exprDriver/exprDriver.H"
+#include "expressions/exprEntry/expressionEntry.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

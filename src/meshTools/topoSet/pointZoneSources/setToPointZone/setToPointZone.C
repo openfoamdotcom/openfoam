@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setToPointZone.H"
-#include "polyMesh.H"
-#include "pointZoneSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/pointZoneSources/setToPointZone/setToPointZone.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/pointZoneSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

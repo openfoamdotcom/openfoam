@@ -39,8 +39,8 @@ Author
 #ifndef edgeFaMesh_H
 #define edgeFaMesh_H
 
-#include "GeoMesh.H"
-#include "faMesh.H"
+#include "meshes/GeoMesh/GeoMesh.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

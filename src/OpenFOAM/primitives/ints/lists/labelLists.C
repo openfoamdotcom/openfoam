@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 #include <numeric>
 
 // * * * * * * * * * * * * * * Global Data Members * * * * * * * * * * * * * //

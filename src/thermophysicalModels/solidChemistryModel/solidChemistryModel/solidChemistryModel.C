@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidChemistryModel.H"
-#include "reactingMixture.H"
+#include "solidChemistryModel/solidChemistryModel.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

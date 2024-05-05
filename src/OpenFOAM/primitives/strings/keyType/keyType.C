@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "keyType.H"
-#include "regExp.H"
-#include "token.H"
-#include "IOstreams.H"
+#include "primitives/strings/keyType/keyType.H"
+#include "regExp/regExp.H"
+#include "db/IOstreams/token/token.H"
+#include "db/IOstreams/IOstreams.H"
 #include <utility>  // For std::swap
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

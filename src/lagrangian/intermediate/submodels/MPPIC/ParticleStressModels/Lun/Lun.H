@@ -59,7 +59,7 @@ SourceFiles
 #ifndef Lun_H
 #define Lun_H
 
-#include "ParticleStressModel.H"
+#include "submodels/MPPIC/ParticleStressModels/ParticleStressModel/ParticleStressModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

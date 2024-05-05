@@ -99,7 +99,7 @@ SourceFiles
 #ifndef Foam_cubicEqn_H
 #define Foam_cubicEqn_H
 
-#include "Roots.H"
+#include "primitives/polynomialEqns/Roots.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cubicEqnI.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqnI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

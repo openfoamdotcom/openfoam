@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_rawIOField_H
 #define Foam_rawIOField_H
 
-#include "IOField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "rawIOField.C"
+    #include "db/IOobjects/rawIOField/rawIOField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

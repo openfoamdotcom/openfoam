@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "irregularMultiDirectionalWaveModel.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "waveGenerationModels/derived/irregularMultiDirectional/irregularMultiDirectionalWaveModel.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

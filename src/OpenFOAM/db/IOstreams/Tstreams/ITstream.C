@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "ITstream.H"
-#include "SpanStream.H"
+#include "db/error/error.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/memory/SpanStream.H"
 #include <algorithm>
 #include <memory>
 

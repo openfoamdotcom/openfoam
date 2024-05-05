@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmPlantCanopyTurbSource.H"
-#include "volFields.H"
+#include "fvOptions/atmPlantCanopyTurbSource/atmPlantCanopyTurbSource.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

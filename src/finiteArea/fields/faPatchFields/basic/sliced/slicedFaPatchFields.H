@@ -28,7 +28,7 @@ License
 #ifndef Foam_slicedFaPatchFields_H
 #define Foam_slicedFaPatchFields_H
 
-#include "slicedFaPatchField.H"
+#include "fields/faPatchFields/basic/sliced/slicedFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

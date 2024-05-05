@@ -35,7 +35,7 @@ SourceFiles
 #ifndef Foam_areaFieldsFwd_H
 #define Foam_areaFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

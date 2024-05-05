@@ -36,9 +36,9 @@ SourceFiles
 #ifndef pureUpwindCFCCellToFaceStencilObject_H
 #define pureUpwindCFCCellToFaceStencilObject_H
 
-#include "extendedUpwindCellToFaceStencil.H"
-#include "CFCCellToFaceStencil.H"
-#include "MeshObject.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencil.H"
+#include "fvMesh/extendedStencil/cellToFace/globalIndexStencils/CFCCellToFaceStencil.H"
+#include "meshes/MeshObject/MeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

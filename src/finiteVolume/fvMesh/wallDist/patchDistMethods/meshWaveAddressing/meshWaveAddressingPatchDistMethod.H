@@ -54,7 +54,7 @@ SourceFiles
 #ifndef Foam_meshWaveAddressingPatchDistMethod_H
 #define Foam_meshWaveAddressingPatchDistMethod_H
 
-#include "patchDistMethod.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

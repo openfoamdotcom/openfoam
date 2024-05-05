@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GrimshawWaveModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "waveGenerationModels/derived/Grimshaw/GrimshawWaveModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

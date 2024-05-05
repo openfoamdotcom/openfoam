@@ -72,8 +72,8 @@ SourceFiles
 #ifndef uniformJumpAMIFvPatchField_H
 #define uniformJumpAMIFvPatchField_H
 
-#include "fixedJumpAMIFvPatchField.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/derived/fixedJumpAMI/fixedJumpAMIFvPatchField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformJumpAMIFvPatchField.C"
+    #include "fields/fvPatchFields/derived/uniformJumpAMI/uniformJumpAMIFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

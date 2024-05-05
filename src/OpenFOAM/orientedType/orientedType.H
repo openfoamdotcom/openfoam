@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_orientedType_H
 #define Foam_orientedType_H
 
-#include "Enum.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

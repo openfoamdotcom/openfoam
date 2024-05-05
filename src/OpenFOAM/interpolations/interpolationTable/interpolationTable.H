@@ -62,12 +62,12 @@ SourceFiles
 #ifndef interpolationTable_H
 #define interpolationTable_H
 
-#include "List.H"
-#include "Tuple2.H"
-#include "tableBounds.H"
-#include "tableReader.H"
-#include "autoPtr.H"
-#include "Field.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/ranges/tableBounds/tableBounds.H"
+#include "interpolations/interpolationTable/tableReaders/tableReader.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -189,7 +189,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationTable.C"
+    #include "interpolations/interpolationTable/interpolationTable.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

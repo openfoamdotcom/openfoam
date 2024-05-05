@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "normal.H"
-#include "mathematicalConstants.H"
-#include "MathFunctions.H"
-#include "addToRunTimeSelectionTable.H"
+#include "normal/normal.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "primitives/functions/Math/MathFunctions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

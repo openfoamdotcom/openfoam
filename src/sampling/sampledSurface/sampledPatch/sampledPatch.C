@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledPatch.H"
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "polyPatch.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "indirectPrimitivePatch.H"
+#include "sampledSurface/sampledPatch/sampledPatch.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

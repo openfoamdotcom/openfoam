@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightReadFile.H"
+#include "ensight/read/ensightReadFile.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleGeomDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "globalIndex.H"
-#include "SubField.H"
+#include "simpleGeomDecomp/simpleGeomDecomp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

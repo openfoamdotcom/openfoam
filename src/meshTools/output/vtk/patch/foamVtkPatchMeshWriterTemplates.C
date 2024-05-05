@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkPatchMeshWriter.H"
-#include "foamVtkOutput.H"
+#include "output/vtk/patch/foamVtkPatchMeshWriter.H"
+#include "vtk/output/foamVtkOutput.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

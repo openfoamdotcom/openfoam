@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFields.H"
-#include "syncTools.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

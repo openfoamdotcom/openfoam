@@ -77,9 +77,9 @@ SourceFiles
 #ifndef Foam_functionObjects_cloudInfo_H
 #define Foam_functionObjects_cloudInfo_H
 
-#include "regionFunctionObject.H"
-#include "logFiles.H"
-#include "parcelSelectionDetail.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "common/parcelSelectionDetail.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

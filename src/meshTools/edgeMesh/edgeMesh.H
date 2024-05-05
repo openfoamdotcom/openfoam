@@ -44,13 +44,13 @@ SourceFiles
 #ifndef edgeMesh_H
 #define edgeMesh_H
 
-#include "pointField.H"
-#include "edgeList.H"
-#include "dictionary.H"
-#include "edgeMeshFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
-#include "HashSet.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "db/dictionary/dictionary.H"
+#include "edgeMesh/edgeFormats/edgeMeshFormatsCore.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -314,7 +314,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "edgeMeshI.H"
+#include "edgeMesh/edgeMeshI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

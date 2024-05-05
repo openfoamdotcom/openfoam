@@ -88,8 +88,8 @@ SourceFiles
 #ifndef Foam_clipPlaneToFace_H
 #define Foam_clipPlaneToFace_H
 
-#include "topoSetFaceSource.H"
-#include "point.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

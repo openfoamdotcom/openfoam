@@ -27,16 +27,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointSpalartAllmaras.H"
-#include "addToRunTimeSelectionTable.H"
-#include "wallDist.H"
-#include "wallFvPatch.H"
-#include "nutUSpaldingWallFunctionFvPatchScalarField.H"
-#include "boundaryAdjointContribution.H"
-#include "coupledFvPatch.H"
-#include "ATCModel.H"
-#include "fvOptions.H"
-#include "sensitivityTopO.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointSpalartAllmaras/adjointSpalartAllmaras.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUSpaldingWallFunction/nutUSpaldingWallFunctionFvPatchScalarField.H"
+#include "boundaryAdjointContributions/boundaryAdjointContribution/boundaryAdjointContribution.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "ATCModel/ATCModel/ATCModel.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/topO/sensitivityTopO.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

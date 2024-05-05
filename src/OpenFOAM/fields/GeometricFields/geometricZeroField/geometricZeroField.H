@@ -40,8 +40,8 @@ Description
 #ifndef Foam_geometricZeroField_H
 #define Foam_geometricZeroField_H
 
-#include "zeroFieldField.H"
-#include "dimensionSet.H"
+#include "fields/FieldFields/zeroFieldField/zeroFieldField.H"
+#include "dimensionSet/dimensionSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -133,7 +133,7 @@ public:
 
 // Global Operators
 
-#include "geometricZeroFieldI.H"
+#include "fields/GeometricFields/geometricZeroField/geometricZeroFieldI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

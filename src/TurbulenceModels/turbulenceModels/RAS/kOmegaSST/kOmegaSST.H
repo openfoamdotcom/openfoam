@@ -111,9 +111,9 @@ SeeAlso
 #ifndef kOmegaSST_H
 #define kOmegaSST_H
 
-#include "kOmegaSSTBase.H"
-#include "RASModel.H"
-#include "eddyViscosity.H"
+#include "Base/kOmegaSST/kOmegaSSTBase.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #ifdef NoRepository
-    #include "kOmegaSST.C"
+    #include "RAS/kOmegaSST/kOmegaSST.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

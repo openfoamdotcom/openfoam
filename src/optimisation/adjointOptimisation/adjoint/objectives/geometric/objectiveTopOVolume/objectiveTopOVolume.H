@@ -41,8 +41,8 @@ SourceFiles
 #ifndef objectiveTopOVolume_H
 #define objectiveTopOVolume_H
 
-#include "objectiveGeometric.H"
-#include "Function1Pascal.H"
+#include "objectives/geometric/objectiveGeometric/objectiveGeometric.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

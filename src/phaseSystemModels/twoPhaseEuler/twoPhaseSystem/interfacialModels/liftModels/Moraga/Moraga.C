@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Moraga.H"
-#include "phasePair.H"
-#include "fvcGrad.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/liftModels/Moraga/Moraga.H"
+#include "phasePair/phasePair.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

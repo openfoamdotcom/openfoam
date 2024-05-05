@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "emptyFvsPatchField.H"
-#include "emptyPointPatchField.H"
-#include "emptyFvPatchFields.H"
-#include "directFvPatchFieldMapper.H"
-#include "directPointPatchFieldMapper.H"
-#include "flipOp.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.H"
+#include "fields/pointPatchFields/constraint/empty/emptyPointPatchField.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/directFvPatchFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/directPointPatchFieldMapper.H"
+#include "primitives/ops/flipOp.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

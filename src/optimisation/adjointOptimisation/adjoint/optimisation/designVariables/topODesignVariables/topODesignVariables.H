@@ -59,9 +59,9 @@ SourceFiles
 #ifndef topODesignVariables_H
 #define topODesignVariables_H
 
-#include "designVariables.H"
-#include "topOVariablesBase.H"
-#include "fieldRegularisation.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
+#include "optimisation/designVariables/topODesignVariables/topOVariablesBase/topOVariablesBase.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/fieldRegularisation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

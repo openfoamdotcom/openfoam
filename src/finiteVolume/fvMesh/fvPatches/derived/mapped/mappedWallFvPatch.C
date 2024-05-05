@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedWallFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvPatches/derived/mapped/mappedWallFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

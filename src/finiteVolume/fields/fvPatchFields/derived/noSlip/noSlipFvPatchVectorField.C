@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noSlipFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/noSlip/noSlipFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

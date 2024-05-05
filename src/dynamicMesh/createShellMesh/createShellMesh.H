@@ -41,9 +41,9 @@ SourceFiles
 #ifndef Foam_createShellMesh_H
 #define Foam_createShellMesh_H
 
-#include "bitSet.H"
-#include "labelPair.H"
-#include "primitivePatch.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/tuples/labelPair.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

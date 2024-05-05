@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallFunctionBlenders.H"
-#include "dictionary.H"
-#include "Enum.H"
-#include "MinMax.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionBlenders/wallFunctionBlenders.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

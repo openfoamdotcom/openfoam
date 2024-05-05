@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regularisationRadius.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationRadius/regularisationRadius/regularisationRadius.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

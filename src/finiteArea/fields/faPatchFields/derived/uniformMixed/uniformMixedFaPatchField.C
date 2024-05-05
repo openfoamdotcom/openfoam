@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformMixedFaPatchField.H"
+#include "fields/faPatchFields/derived/uniformMixed/uniformMixedFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef linearUpwindNormal_H
 #define linearUpwindNormal_H
 
-#include "upwind.H"
-#include "gaussGrad.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

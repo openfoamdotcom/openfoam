@@ -37,7 +37,7 @@ SourceFiles
 #ifndef singleLayerRegion_H
 #define singleLayerRegion_H
 
-#include "regionModel.H"
+#include "regionModel/regionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "singleLayerRegionTemplates.C"
+    #include "singleLayerRegion/singleLayerRegionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

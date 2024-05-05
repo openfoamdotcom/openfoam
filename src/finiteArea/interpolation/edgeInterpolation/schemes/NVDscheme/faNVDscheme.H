@@ -49,7 +49,7 @@ SourceFiles
 #ifndef Foam_faNVDscheme_H
 #define Foam_faNVDscheme_H
 
-#include "edgeInterpolationScheme.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ makeNVDedgeInterpolationTypeScheme(SS, WEIGHT, NAME, tensor)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faNVDscheme.C"
+    #include "interpolation/edgeInterpolation/schemes/NVDscheme/faNVDscheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

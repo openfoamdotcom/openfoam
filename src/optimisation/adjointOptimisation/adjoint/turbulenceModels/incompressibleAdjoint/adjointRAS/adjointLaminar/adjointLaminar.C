@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointLaminar.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointLaminar/adjointLaminar.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

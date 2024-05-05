@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Foam_emptyFaPatch_H
 #define Foam_emptyFaPatch_H
 
-#include "faPatch.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

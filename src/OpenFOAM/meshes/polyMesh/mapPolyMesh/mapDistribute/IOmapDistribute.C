@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOmapDistribute.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/IOmapDistribute.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

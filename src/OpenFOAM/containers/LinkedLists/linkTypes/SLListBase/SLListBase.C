@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SLListBase.H"
-#include "error.H"
+#include "containers/LinkedLists/linkTypes/SLListBase/SLListBase.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dsmcFields.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "dsmcCloud.H"
-#include "constants.H"
-#include "stringListOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dsmcFields/dsmcFields.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "clouds/derived/dsmcCloud/dsmcCloud.H"
+#include "global/constants/constants.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_pointFieldDecomposer_H
 #define Foam_pointFieldDecomposer_H
 
-#include "pointMesh.H"
-#include "pointPatchFieldMapperPatchRef.H"
-#include "pointFields.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapperPatchRef.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

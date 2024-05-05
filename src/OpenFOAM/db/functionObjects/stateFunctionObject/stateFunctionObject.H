@@ -49,8 +49,8 @@ SourceFiles
 #ifndef functionObjects_stateFunctionObject_H
 #define functionObjects_stateFunctionObject_H
 
-#include "timeFunctionObject.H"
-#include "functionObjectProperties.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "db/functionObjects/functionObjectProperties/functionObjectProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -273,7 +273,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "stateFunctionObjectTemplates.C"
+    #include "db/functionObjects/stateFunctionObject/stateFunctionObjectTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

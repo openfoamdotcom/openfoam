@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallSiteData.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallSiteData/WallSiteData.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

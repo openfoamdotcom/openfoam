@@ -105,7 +105,7 @@ SourceFiles
 #ifndef Foam_fv_heatExchangerSource_H
 #define Foam_fv_heatExchangerSource_H
 
-#include "cellSetOption.H"
+#include "cellSetOption/cellSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

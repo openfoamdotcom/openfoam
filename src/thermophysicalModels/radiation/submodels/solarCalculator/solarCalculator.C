@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solarCalculator.H"
-#include "TimeOpenFOAM.H"
-#include "unitConversion.H"
-#include "constants.H"
+#include "submodels/solarCalculator/solarCalculator.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/constants/unitConversion.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant;
 

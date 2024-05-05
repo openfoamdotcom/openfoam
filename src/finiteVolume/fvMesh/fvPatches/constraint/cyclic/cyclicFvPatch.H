@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_cyclicFvPatch_H
 #define Foam_cyclicFvPatch_H
 
-#include "cyclicPolyPatch.H"
-#include "coupledFvPatch.H"
-#include "cyclicLduInterface.H"
-#include "fvBoundaryMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

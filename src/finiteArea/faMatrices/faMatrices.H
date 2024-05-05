@@ -41,7 +41,7 @@ Author
 #ifndef faMatrices_H
 #define faMatrices_H
 
-#include "faScalarMatrix.H"
+#include "faMatrices/faScalarMatrix/faScalarMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -99,9 +99,9 @@ SourceFiles
 #ifndef functionObjects_solverInfo_H
 #define functionObjects_solverInfo_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "solverFieldSelection.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "functionObjects/fieldSelections/solverFieldSelection/solverFieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solverInfoTemplates.C"
+    #include "solverInfo/solverInfoTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

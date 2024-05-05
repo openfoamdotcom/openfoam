@@ -37,7 +37,7 @@ SourceFiles
 #ifndef doubleSigmoid_H
 #define doubleSigmoid_H
 
-#include "energyScalingFunction.H"
+#include "energyScalingFunction/basic/energyScalingFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

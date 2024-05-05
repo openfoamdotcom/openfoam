@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Foam_LabelledItem_H
 #define Foam_LabelledItem_H
 
-#include "label.H"
-#include "IOstreams.H"
+#include "primitives/ints/label/label.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

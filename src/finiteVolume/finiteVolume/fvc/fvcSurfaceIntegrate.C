@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcSurfaceIntegrate.H"
-#include "fvMesh.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

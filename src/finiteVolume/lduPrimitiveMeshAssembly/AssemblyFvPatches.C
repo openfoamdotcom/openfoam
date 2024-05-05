@@ -35,11 +35,11 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "AssemblyFvPatch.H"
+#include "lduPrimitiveMeshAssembly/AssemblyFvPatch.H"
 
-#include "cyclicFvPatch.H"
-#include "cyclicAMIFvPatch.H"
-#include "cyclicACMIFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclicACMI/cyclicACMIFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

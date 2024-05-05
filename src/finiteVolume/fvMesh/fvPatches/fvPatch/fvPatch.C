@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvBoundaryMesh.H"
-#include "fvMesh.H"
-#include "primitiveMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facEdgeIntegrate.H"
-#include "faMesh.H"
-#include "zeroGradientFaPatchFields.H"
+#include "finiteArea/fac/facEdgeIntegrate.H"
+#include "faMesh/faMesh.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

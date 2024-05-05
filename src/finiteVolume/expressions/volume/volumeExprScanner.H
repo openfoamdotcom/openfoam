@@ -37,8 +37,8 @@ Note
 #ifndef expressions_volumeExprScanner_H
 #define expressions_volumeExprScanner_H
 
-#include "exprScanToken.H"
-#include "volumeExprFwd.H"
+#include "expressions/scanToken/exprScanToken.H"
+#include "expressions/volume/volumeExprFwd.H"
 
 namespace Foam
 {

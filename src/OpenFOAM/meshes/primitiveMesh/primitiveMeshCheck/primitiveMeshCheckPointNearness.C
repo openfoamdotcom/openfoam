@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "SortableList.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "containers/Lists/SortableList/SortableList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

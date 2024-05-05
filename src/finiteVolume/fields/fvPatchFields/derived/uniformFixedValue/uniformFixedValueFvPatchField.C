@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedValueFvPatchField.H"
+#include "fields/fvPatchFields/derived/uniformFixedValue/uniformFixedValueFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

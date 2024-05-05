@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "normalToFace.H"
-#include "polyMesh.H"
-#include "faceSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/faceSources/normalToFace/normalToFace.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

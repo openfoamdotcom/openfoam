@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidBodyFvGeometryScheme.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
-#include "primitiveMeshTools.H"
-#include "emptyPolyPatch.H"
+#include "fvMesh/fvGeometryScheme/solidBody/solidBodyFvGeometryScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

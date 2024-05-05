@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "snGradScheme.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "HashTable.H"
+#include "finiteVolume/fv/fv.H"
+#include "finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

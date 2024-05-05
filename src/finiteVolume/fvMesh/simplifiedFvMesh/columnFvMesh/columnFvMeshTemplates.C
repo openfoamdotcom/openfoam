@@ -24,7 +24,7 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 
 \*---------------------------------------------------------------------------*/
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 template<class ZoneMeshType>
 void Foam::simplifiedMeshes::columnFvMeshInfo::initialiseZone

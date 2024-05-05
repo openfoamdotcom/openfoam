@@ -76,9 +76,9 @@ SourceFiles
 #ifndef velocityGroup_H
 #define velocityGroup_H
 
-#include "diameterModel.H"
-#include "multivariateScheme.H"
-#include "convectionScheme.H"
+#include "diameterModels/diameterModel/diameterModel.H"
+#include "interpolation/surfaceInterpolation/multivariateSchemes/multivariateScheme/multivariateScheme.H"
+#include "finiteVolume/convectionSchemes/convectionScheme/convectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -202,7 +202,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "velocityGroupI.H"
+#include "diameterModels/velocityGroup/velocityGroupI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

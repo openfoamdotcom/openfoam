@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamGltfSceneWriter.H"
-#include "OFstream.H"
-#include "OSspecific.H"
+#include "gltf/foamGltfSceneWriter.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

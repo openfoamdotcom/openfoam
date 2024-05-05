@@ -38,8 +38,8 @@ SourceFiles
 #ifndef cellCellStencils_cellVolumeWeight_H
 #define cellCellStencils_cellVolumeWeight_H
 
-#include "cellCellStencil.H"
-#include "volFields.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencil.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

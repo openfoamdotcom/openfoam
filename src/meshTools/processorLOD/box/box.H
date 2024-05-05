@@ -41,9 +41,9 @@ Description
 #ifndef Foam_processorLODs_box
 #define Foam_processorLODs_box
 
-#include "processorLOD.H"
-#include "treeBoundBox.H"
-#include "HashSet.H"
+#include "processorLOD/processorLOD/processorLOD.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

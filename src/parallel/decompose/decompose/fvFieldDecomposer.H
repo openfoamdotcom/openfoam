@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_fvFieldDecomposer_H
 #define Foam_fvFieldDecomposer_H
 
-#include "fvMesh.H"
-#include "fvPatchFieldMapper.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

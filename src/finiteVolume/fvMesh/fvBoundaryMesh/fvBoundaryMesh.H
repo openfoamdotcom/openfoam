@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_fvBoundaryMesh_H
 #define Foam_fvBoundaryMesh_H
 
-#include "fvPatch.H"
-#include "lduInterfacePtrsList.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

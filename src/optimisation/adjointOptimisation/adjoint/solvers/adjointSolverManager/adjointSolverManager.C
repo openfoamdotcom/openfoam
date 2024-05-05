@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointSolverManager.H"
-#include "primalSolver.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
+#include "solvers/primalSolvers/primalSolver/primalSolver.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_transformFieldField_H
 #define Foam_transformFieldField_H
 
-#include "transform.H"
-#include "tensorFieldField.H"
+#include "primitives/transform/transform.H"
+#include "fields/FieldFields/tensorFieldField/tensorFieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ tmp<FieldField<Field, Type>> invTransform
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformFieldField.C"
+    #include "fields/FieldFields/transformFieldField/transformFieldField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

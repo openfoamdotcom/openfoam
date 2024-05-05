@@ -65,7 +65,7 @@ SourceFiles
 #ifndef Foam_zoneSubSet_H
 #define Foam_zoneSubSet_H
 
-#include "fvMeshSubset.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -195,7 +195,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zoneSubSetTemplates.C"
+    #include "zoneSubSet/zoneSubSetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

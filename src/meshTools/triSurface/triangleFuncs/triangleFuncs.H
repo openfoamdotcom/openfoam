@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_triangleFuncs_H
 #define Foam_triangleFuncs_H
 
-#include "pointField.H"
-#include "triangle.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

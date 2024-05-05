@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SampleFunction1.H"
-#include "UniformValueField.H"
-#include "fieldTypes.H"
+#include "functions/Function1/Sample/SampleFunction1.H"
+#include "PatchFunction1/UniformValueField/UniformValueField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

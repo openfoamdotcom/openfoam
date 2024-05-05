@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VectorSpace.H"
-#include "IOstreams.H"
+#include "primitives/VectorSpace/VectorSpace.H"
+#include "db/IOstreams/IOstreams.H"
 
 #include <sstream>
 

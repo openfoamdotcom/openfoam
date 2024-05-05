@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UOPstream.H"
+#include "db/IOstreams/Pstreams/UOPstream.H"
 #include "PstreamGlobals.H"
-#include "profilingPstream.H"
+#include "global/profiling/profilingPstream.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

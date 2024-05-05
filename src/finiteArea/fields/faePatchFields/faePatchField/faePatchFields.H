@@ -31,8 +31,8 @@ Description
 #ifndef Foam_faePatchFields_H
 #define Foam_faePatchFields_H
 
-#include "faePatchField.H"
-#include "faePatchFieldsFwd.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
+#include "fields/faePatchFields/faePatchField/faePatchFieldsFwd.H"
 
 #endif
 

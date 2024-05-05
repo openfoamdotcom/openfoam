@@ -166,8 +166,8 @@ SourceFiles
 #ifndef fv_buoyancyTurbSource_H
 #define fv_buoyancyTurbSource_H
 
-#include "cellSetOption.H"
-#include "turbulentTransportModel.H"
+#include "cellSetOption/cellSetOption.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -303,7 +303,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "buoyancyTurbSourceTemplates.C"
+    #include "sources/derived/buoyancyTurbSource/buoyancyTurbSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -72,7 +72,7 @@ SourceFiles
 #ifndef fixedJumpFvPatchField_H
 #define fixedJumpFvPatchField_H
 
-#include "jumpCyclicFvPatchField.H"
+#include "fields/fvPatchFields/constraint/jumpCyclic/jumpCyclicFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -227,7 +227,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedJumpFvPatchField.C"
+    #include "fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

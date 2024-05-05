@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableDisk.H"
-#include "addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchableDisk/searchableDisk.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ License
 #ifndef valuePointPatchFields_H
 #define valuePointPatchFields_H
 
-#include "valuePointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/basic/value/valuePointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

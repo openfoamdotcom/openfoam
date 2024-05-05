@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Foam_linearEqn_H
 #define Foam_linearEqn_H
 
-#include "Roots.H"
+#include "primitives/polynomialEqns/Roots.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,7 +113,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "linearEqnI.H"
+#include "primitives/polynomialEqns/linearEqn/linearEqnI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

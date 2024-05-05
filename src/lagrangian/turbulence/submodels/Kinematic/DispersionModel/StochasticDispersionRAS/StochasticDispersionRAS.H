@@ -36,7 +36,7 @@ Description
 #ifndef StochasticDispersionRAS_H
 #define StochasticDispersionRAS_H
 
-#include "DispersionRASModel.H"
+#include "submodels/Kinematic/DispersionModel/DispersionRASModel/DispersionRASModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -102,7 +102,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "StochasticDispersionRAS.C"
+    #include "submodels/Kinematic/DispersionModel/StochasticDispersionRAS/StochasticDispersionRAS.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -128,9 +128,9 @@ SourceFiles
 #ifndef fv_atmBuoyancyTurbSource_H
 #define fv_atmBuoyancyTurbSource_H
 
-#include "cellSetOption.H"
-#include "turbulentTransportModel.H"
-#include "gravityMeshObject.H"
+#include "cellSetOption/cellSetOption.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -299,7 +299,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "atmBuoyancyTurbSourceTemplates.C"
+    #include "fvOptions/atmBuoyancyTurbSource/atmBuoyancyTurbSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

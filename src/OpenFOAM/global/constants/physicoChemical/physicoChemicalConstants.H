@@ -35,7 +35,7 @@ Description
 #ifndef physicoChemicalConstants_H
 #define physicoChemicalConstants_H
 
-#include "dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

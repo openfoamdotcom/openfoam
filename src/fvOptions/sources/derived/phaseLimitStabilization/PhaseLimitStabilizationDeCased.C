@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseLimitStabilization.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
-#include "uniformDimensionedFields.H"
+#include "sources/derived/phaseLimitStabilization/PhaseLimitStabilization.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -32,10 +32,10 @@ InClass
 #ifndef Foam_slicedEdgeFields_H
 #define Foam_slicedEdgeFields_H
 
-#include "SlicedGeometricField.H"
-#include "slicedFaePatchField.H"
-#include "edgeFaMesh.H"
-#include "slicedEdgeFieldsFwd.H"
+#include "fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.H"
+#include "fields/faePatchFields/basic/sliced/slicedFaePatchField.H"
+#include "edgeMesh/edgeFaMesh.H"
+#include "fields/edgeFields/slicedEdgeFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

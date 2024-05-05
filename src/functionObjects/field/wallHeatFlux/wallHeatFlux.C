@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallHeatFlux.H"
-#include "turbulentFluidThermoModel.H"
-#include "solidThermo.H"
-#include "fieldFunctionObjects_surfaceInterpolate.H"
-#include "fvcSnGrad.H"
-#include "wallPolyPatch.H"
-#include "turbulentFluidThermoModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "multiphaseInterSystem.H"
+#include "wallHeatFlux/wallHeatFlux.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "solidThermo/solidThermo.H"
+#include "surfaceInterpolate/fieldFunctionObjects_surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

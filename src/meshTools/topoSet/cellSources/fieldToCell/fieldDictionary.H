@@ -35,8 +35,8 @@ Description
 #ifndef fieldDictionary_H
 #define fieldDictionary_H
 
-#include "regIOobject.H"
-#include "dictionary.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

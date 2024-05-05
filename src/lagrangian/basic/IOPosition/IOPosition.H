@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_IOPosition_H
 #define Foam_IOPosition_H
 
-#include "cloud.H"
-#include "regIOobject.H"
+#include "fields/cloud/cloud.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOPosition.C"
+    #include "IOPosition/IOPosition.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

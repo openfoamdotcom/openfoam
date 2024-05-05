@@ -51,18 +51,18 @@ SourceFiles
 #ifndef radiation_viewFactor_H
 #define radiation_viewFactor_H
 
-#include "radiationModel.H"
-#include "singleCellFvMesh.H"
-#include "scalarMatrices.H"
-#include "globalIndex.H"
-#include "scalarListIOList.H"
-#include "volFields.H"
-#include "IOmapDistribute.H"
-#include "solarLoad.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "fvMesh/singleCellFvMesh/singleCellFvMesh.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "primitives/Scalar/lists/scalarListIOList.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/IOmapDistribute.H"
+#include "radiationModels/solarLoad/solarLoad.H"
 
-#include "lduPrimitiveMesh.H"
-#include "lduPrimitiveProcessorInterface.H"
-#include "lduMatrix.H"
+#include "meshes/lduMesh/lduPrimitiveMesh.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduPrimitiveProcessorInterface.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -248,7 +248,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "viewFactorI.H"
+#include "radiationModels/viewFactor/viewFactorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

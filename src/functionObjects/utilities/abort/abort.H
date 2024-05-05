@@ -89,8 +89,8 @@ SourceFiles
 #ifndef functionObjects_abort_H
 #define functionObjects_abort_H
 
-#include "timeFunctionObject.H"
-#include "TimeOpenFOAM.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ArrheniusViscosity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/filmViscosityModel/ArrheniusViscosity/ArrheniusViscosity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

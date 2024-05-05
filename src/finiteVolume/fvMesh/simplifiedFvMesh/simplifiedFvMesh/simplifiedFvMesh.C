@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simplifiedFvMesh.H"
-#include "fvPatchField.H"
-#include "topoSet.H"
+#include "fvMesh/simplifiedFvMesh/simplifiedFvMesh/simplifiedFvMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "topoSet/topoSets/topoSet.H"
 
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //
 

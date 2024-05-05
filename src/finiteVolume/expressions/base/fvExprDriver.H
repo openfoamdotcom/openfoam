@@ -62,13 +62,13 @@ SourceFiles
 #ifndef expressions_fvExprDriver_H
 #define expressions_fvExprDriver_H
 
-#include "exprDriver.H"
-#include "exprResultDelayed.H"
-#include "exprResultStored.H"
-#include "pointMesh.H"
-#include "volFields.H"
-#include "topoSetSource.H"
-#include "runTimeSelectionTables.H"
+#include "expressions/exprDriver/exprDriver.H"
+#include "expressions/exprResult/exprResultDelayed.H"
+#include "expressions/exprResult/exprResultStored.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/volFields/volFields.H"
+#include "topoSet/topoSetSource/topoSetSource.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -607,10 +607,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvExprDriverI.H"
+#include "expressions/base/fvExprDriverI.H"
 
 #ifdef NoRepository
-    #include "fvExprDriverTemplates.C"
+    #include "expressions/base/fvExprDriverTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

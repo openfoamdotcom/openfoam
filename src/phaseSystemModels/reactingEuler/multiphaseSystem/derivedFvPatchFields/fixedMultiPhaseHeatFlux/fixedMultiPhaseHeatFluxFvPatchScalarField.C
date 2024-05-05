@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedMultiPhaseHeatFluxFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/fixedMultiPhaseHeatFlux/fixedMultiPhaseHeatFluxFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 #include "compressibleTurbulenceModel.H"
-#include "ThermalDiffusivity.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -46,9 +46,9 @@ SourceFiles
 #ifndef Foam_globalIndexAndTransform_H
 #define Foam_globalIndexAndTransform_H
 
-#include "labelPair.H"
-#include "vectorTensorTransform.H"
-#include "HashSet.H"
+#include "primitives/tuples/labelPair.H"
+#include "primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -291,7 +291,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "globalIndexAndTransformI.H"
+#include "primitives/globalIndexAndTransform/globalIndexAndTransformI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vtkCoordSetWriter.H"
-#include "coordSet.H"
-#include "fileName.H"
-#include "foamVtkCoordSetWriter.H"
-#include "coordSetWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "coordSet/writers/vtk/vtkCoordSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "coordSet/writers/vtk/foamVtkCoordSetWriter.H"
+#include "coordSet/writers/common/coordSetWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

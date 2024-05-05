@@ -53,8 +53,8 @@ SourceFiles
 #ifndef searchableExtrudedCircle_H
 #define searchableExtrudedCircle_H
 
-#include "treeBoundBox.H"
-#include "searchableSurface.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "csvTableReader.H"
-#include "fileOperation.H"
-#include "DynamicList.H"
-#include "ListOps.H"
+#include "interpolations/interpolationTable/tableReaders/csv/csvTableReader.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

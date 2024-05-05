@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bool.H"
-#include "Switch.H"
-#include "error.H"
-#include "IOstreams.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/error/error.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

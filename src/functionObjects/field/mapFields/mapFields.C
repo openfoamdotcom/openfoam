@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapFields.H"
-#include "meshToMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "mapFields/mapFields.H"
+#include "meshToMesh/meshToMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

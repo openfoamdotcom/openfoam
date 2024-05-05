@@ -39,8 +39,8 @@ Description
 #ifndef Foam_UPtrDictionary_H
 #define Foam_UPtrDictionary_H
 
-#include "DictionaryBase.H"
-#include "DLList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/LinkedLists/user/DLList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

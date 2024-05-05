@@ -47,8 +47,8 @@ SourceFiles
 #ifndef Foam_faMeshReconstructor_H
 #define Foam_faMeshReconstructor_H
 
-#include "faMesh.H"
-#include "primitivePatch.H"
+#include "faMesh/faMesh.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,11 +41,11 @@ SourceFiles
 #ifndef rhoReactionThermo_H
 #define rhoReactionThermo_H
 
-#include "rhoThermo.H"
-#include "basicSpecieMixture.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "specieElement.H"
+#include "rhoThermo/rhoThermo.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "specieElement/specieElement.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

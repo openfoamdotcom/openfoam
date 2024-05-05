@@ -69,8 +69,8 @@ SourceFiles
 #ifndef functionObjects_timeInfo_H
 #define functionObjects_timeInfo_H
 
-#include "timeFunctionObject.H"
-#include "writeFile.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

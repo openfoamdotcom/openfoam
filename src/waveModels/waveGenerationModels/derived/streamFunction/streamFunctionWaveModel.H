@@ -35,7 +35,7 @@ Description
 #ifndef waveModels_streamFunction_H
 #define waveModels_streamFunction_H
 
-#include "regularWaveModel.H"
+#include "waveGenerationModels/base/regularWaveModel/regularWaveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

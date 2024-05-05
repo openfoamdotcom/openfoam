@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseChange.H"
+#include "diameterModels/IATE/IATEsources/phaseChange/phaseChange.H"
 #include "twoPhaseSystem.H"
-#include "phaseSystem.H"
-#include "ThermalPhaseChangePhaseSystem.H"
-#include "MomentumTransferPhaseSystem.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "phaseSystem/phaseSystem.H"
+#include "PhaseSystems/ThermalPhaseChangePhaseSystem/ThermalPhaseChangePhaseSystem.H"
+#include "PhaseSystems/MomentumTransferPhaseSystem/MomentumTransferPhaseSystem.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

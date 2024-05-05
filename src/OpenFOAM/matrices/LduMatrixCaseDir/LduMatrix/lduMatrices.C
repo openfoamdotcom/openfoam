@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LduMatrixPascal.H"
-#include "fieldTypes.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.H"
+#include "fields/Fields/fieldTypes.H"
 
 namespace Foam
 {

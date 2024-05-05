@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "relaxation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvm.H"
-#include "LESModel.H"
+#include "FSD/reactionRateFlameAreaModels/relaxation/relaxation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

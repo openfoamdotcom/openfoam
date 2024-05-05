@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "block.H"
+#include "blocks/block/block.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

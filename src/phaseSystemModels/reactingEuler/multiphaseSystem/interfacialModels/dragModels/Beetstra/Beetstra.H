@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Beetstra_H
 #define Beetstra_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

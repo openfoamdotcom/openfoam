@@ -45,14 +45,14 @@ SourceFiles
 #ifndef Foam_ListOps_H
 #define Foam_ListOps_H
 
-#include "FlatOutput.H"
-#include "labelPair.H"
-#include "labelList.H"
-#include "IndirectList.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "bitSet.H"
-#include "ops.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "primitives/tuples/labelPair.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -951,7 +951,7 @@ List<T> createWithValue
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ListOpsTemplates.C"
+    #include "containers/Lists/ListOps/ListOpsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

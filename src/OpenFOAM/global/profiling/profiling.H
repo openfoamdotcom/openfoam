@@ -55,12 +55,12 @@ SourceFiles
 #ifndef Foam_profiling_H
 #define Foam_profiling_H
 
-#include "profilingTrigger.H"
-#include "IOdictionary.H"
-#include "DynamicList.H"
-#include "PtrDynList.H"
-#include "TimeOpenFOAM.H"
-#include "clockTime.H"
+#include "global/profiling/profilingTrigger.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/PtrLists/PtrDynList/PtrDynList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/clockTime/clockTime.H"
 #include <memory>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

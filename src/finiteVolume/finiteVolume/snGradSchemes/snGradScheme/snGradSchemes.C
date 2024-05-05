@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snGradScheme.H"
-#include "HashTable.H"
+#include "finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

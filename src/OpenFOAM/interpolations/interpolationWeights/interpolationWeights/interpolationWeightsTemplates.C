@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationWeights.H"
-#include "products.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
+#include "primitives/VectorSpace/products.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledMeshedSurfaceNormal.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledMeshedSurface/sampledMeshedSurfaceNormal.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

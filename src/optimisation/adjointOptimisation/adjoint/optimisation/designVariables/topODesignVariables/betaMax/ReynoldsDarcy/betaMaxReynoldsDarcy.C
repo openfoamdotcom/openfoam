@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "betaMaxReynoldsDarcy.H"
-#include "EdgeMap.H"
-#include "syncTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/betaMax/ReynoldsDarcy/betaMaxReynoldsDarcy.H"
+#include "compat/EdgeMap.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

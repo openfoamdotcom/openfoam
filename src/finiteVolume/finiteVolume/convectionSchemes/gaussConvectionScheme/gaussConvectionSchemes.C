@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussConvectionScheme.H"
-#include "fvMesh.H"
+#include "finiteVolume/convectionSchemes/gaussConvectionScheme/gaussConvectionScheme.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

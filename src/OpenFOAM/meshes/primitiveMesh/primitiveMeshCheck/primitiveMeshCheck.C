@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "pyramid.H"
-#include "ListOps.H"
-#include "unitConversion.H"
-#include "SortableList.H"
-#include "edgeHashes.H"
-#include "primitiveMeshTools.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "global/constants/unitConversion.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

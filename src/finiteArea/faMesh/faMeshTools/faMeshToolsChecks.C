@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshTools.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "processorFaPatch.H"
+#include "faMesh/faMeshTools/faMeshTools.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

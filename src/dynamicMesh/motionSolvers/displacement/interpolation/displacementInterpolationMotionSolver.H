@@ -50,7 +50,7 @@ SourceFiles
 #ifndef displacementInterpolationMotionSolver_H
 #define displacementInterpolationMotionSolver_H
 
-#include "displacementMotionSolver.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

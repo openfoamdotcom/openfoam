@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "faPatchField.H"
-#include "faPatchFieldMapper.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

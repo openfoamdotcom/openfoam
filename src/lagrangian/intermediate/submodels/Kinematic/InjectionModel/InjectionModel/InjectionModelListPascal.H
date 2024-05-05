@@ -37,8 +37,8 @@ SourceFiles
 #ifndef InjectionModelList_H
 #define InjectionModelList_H
 
-#include "PtrList.H"
-#include "InjectionModelPascal.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "InjectionModelListPascal.C"
+    #include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelListPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

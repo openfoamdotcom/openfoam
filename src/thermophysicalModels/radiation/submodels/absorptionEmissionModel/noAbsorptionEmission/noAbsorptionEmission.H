@@ -40,7 +40,7 @@ SourceFiles
 #ifndef radiation_noAbsorptionEmission_H
 #define radiation_noAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

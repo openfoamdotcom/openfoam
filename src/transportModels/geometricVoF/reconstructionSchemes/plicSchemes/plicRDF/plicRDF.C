@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "plicRDF.H"
-#include "interpolationCellPoint.H"
-#include "fvc.H"
-#include "leastSquareGrad.H"
-#include "zoneDistribute.H"
-#include "addToRunTimeSelectionTable.H"
-#include "profiling.H"
+#include "reconstructionSchemes/plicSchemes/plicRDF/plicRDF.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/leastSquareGrad.H"
+#include "fvMesh/zoneDistribute/zoneDistribute.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/profiling/profiling.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

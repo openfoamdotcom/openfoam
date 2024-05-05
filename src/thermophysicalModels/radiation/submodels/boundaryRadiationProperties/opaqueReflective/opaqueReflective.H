@@ -57,7 +57,7 @@ Usage
 #ifndef opaqueReflective_H
 #define opaqueReflective_H
 
-#include "boundaryRadiationPropertiesPatch.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationPropertiesPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

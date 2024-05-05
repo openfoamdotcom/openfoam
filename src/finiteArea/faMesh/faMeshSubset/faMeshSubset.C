@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshSubset.H"
-#include "boolList.H"
-#include "BitOps.H"
-#include "Pstream.H"
-#include "emptyFaPatch.H"
-#include "cyclicFaPatch.H"
+#include "faMesh/faMeshSubset/faMeshSubset.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "faMesh/faPatches/constraint/empty/emptyFaPatch.H"
+#include "faMesh/faPatches/constraint/cyclic/cyclicFaPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

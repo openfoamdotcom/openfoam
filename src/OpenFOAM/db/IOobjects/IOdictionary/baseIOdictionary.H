@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_baseIOdictionary_H
 #define Foam_baseIOdictionary_H
 
-#include "dictionary.H"
-#include "regIOobject.H"
+#include "db/dictionary/dictionary.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

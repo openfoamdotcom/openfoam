@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "matchPoints.H"
-#include "SortableList.H"
-#include "ListOps.H"
+#include "meshes/meshTools/matchPoints.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

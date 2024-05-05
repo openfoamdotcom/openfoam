@@ -27,9 +27,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "UPstreamWrapping.H"
-#include "profilingPstream.H"
+#include "global/profiling/profilingPstream.H"
 #include "PstreamGlobals.H"
-#include "Map.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

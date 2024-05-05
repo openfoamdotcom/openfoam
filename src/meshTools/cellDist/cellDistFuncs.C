@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellDistFuncs.H"
-#include "polyMesh.H"
-#include "polyBoundaryMesh.H"
+#include "cellDist/cellDistFuncs.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

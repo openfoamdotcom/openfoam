@@ -114,8 +114,8 @@ SourceFiles
 #ifndef Foam_cellToFace_H
 #define Foam_cellToFace_H
 
-#include "topoSetFaceSource.H"
-#include "Enum.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

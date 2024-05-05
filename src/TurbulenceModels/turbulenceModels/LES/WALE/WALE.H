@@ -62,8 +62,8 @@ SourceFiles
 #ifndef WALE_H
 #define WALE_H
 
-#include "LESModel.H"
-#include "LESeddyViscosity.H"
+#include "LES/LESModel/LESModel.H"
+#include "LES/LESeddyViscosity/LESeddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "WALE.C"
+    #include "LES/WALE/WALE.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

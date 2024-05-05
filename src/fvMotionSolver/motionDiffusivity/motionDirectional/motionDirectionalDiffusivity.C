@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionDirectionalDiffusivity.H"
-#include "surfaceInterpolate.H"
-#include "zeroGradientFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "velocityMotionSolver.H"
+#include "motionDiffusivity/motionDirectional/motionDirectionalDiffusivity.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "motionSolvers/velocity/velocityMotionSolver.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

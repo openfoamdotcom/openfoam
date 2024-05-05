@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "meshTools.H"
-#include "hexMatcher.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshTools/meshTools.H"
+#include "meshes/meshShapes/cellMatcher/hexMatcher.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

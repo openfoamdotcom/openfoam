@@ -36,7 +36,7 @@ SourceFiles
 #ifndef hyperbolic_H
 #define hyperbolic_H
 
-#include "blendingMethod.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodySolver.H"
+#include "rigidBodySolvers/rigidBodySolver/rigidBodySolver.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

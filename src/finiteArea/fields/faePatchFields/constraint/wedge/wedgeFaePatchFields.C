@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgeFaePatchFields.H"
-#include "faePatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/faePatchFields/constraint/wedge/wedgeFaePatchFields.H"
+#include "fields/faePatchFields/faePatchField/faePatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

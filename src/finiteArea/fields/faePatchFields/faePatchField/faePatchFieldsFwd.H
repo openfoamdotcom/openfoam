@@ -31,7 +31,7 @@ Description
 #ifndef Foam_faePatchFieldsFwd_H
 #define Foam_faePatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

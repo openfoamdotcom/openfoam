@@ -37,10 +37,10 @@ SourceFiles
 #ifndef nucleateFluxModel_H
 #define nucleateFluxModel_H
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
-#include "reactingEuler_phaseModel.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

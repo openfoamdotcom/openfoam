@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oversetFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "transform.H"
-#include "cellCellStencilObject.H"
-#include "volFields.H"
+#include "oversetPolyPatch/oversetFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/transform/transform.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

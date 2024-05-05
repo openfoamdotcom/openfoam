@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liquid.H"
-#include "NoneFunction1.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidProperties/liquid/liquid.H"
+#include "primitives/functions/Function1/None/NoneFunction1.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

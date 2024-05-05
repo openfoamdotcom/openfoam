@@ -51,8 +51,8 @@ SourceFiles
 #ifndef Foam_DictionaryBase_H
 #define Foam_DictionaryBase_H
 
-#include "HashTable.H"
-#include "wordList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,8 +243,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DictionaryBase.C"
-    #include "DictionaryBaseIO.C"
+    #include "containers/Dictionaries/DictionaryBase/DictionaryBase.C"
+    #include "containers/Dictionaries/DictionaryBase/DictionaryBaseIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

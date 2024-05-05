@@ -55,16 +55,16 @@ SourceFiles
 #ifndef Foam_MeshedSurface_H
 #define Foam_MeshedSurface_H
 
-#include "primitivePatch.H"
-#include "PatchTools.H"
-#include "face.H"
-#include "labelledTri.H"
-#include "bitSet.H"
-#include "HashSet.H"
-#include "surfZoneList.H"
-#include "surfaceFormatsCore.H"
-#include "runTimeSelectionTables.H"
-#include "memberFunctionSelectionTables.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/meshShapes/labelledTri/labelledTri.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "surfZone/surfZoneList.H"
+#include "surfaceFormats/surfaceFormatsCore.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -706,7 +706,7 @@ bool MeshedSurface<labelledTri>::addZonesToFaces();
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MeshedSurface.C"
+    #include "MeshedSurface/MeshedSurface.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPointPatchField.H"
-#include "transformField.H"
-#include "pointFields.H"
+#include "fields/pointPatchFields/constraint/cyclic/cyclicPointPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

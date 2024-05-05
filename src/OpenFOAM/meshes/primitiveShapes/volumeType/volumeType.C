@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volumeType.H"
-#include "dictionary.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

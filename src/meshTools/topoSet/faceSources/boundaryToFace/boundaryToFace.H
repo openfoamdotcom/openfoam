@@ -79,7 +79,7 @@ SourceFiles
 #ifndef boundaryToFace_H
 #define boundaryToFace_H
 
-#include "topoSetFaceSource.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

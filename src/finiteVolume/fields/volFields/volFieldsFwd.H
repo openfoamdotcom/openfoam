@@ -35,7 +35,7 @@ SourceFiles
 #ifndef Foam_volFieldsFwd_H
 #define Foam_volFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

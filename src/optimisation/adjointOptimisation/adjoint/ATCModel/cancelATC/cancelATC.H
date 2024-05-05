@@ -41,7 +41,7 @@ SourceFiles
 #ifndef cancelATC_H
 #define cancelATC_H
 
-#include "ATCModel.H"
+#include "ATCModel/ATCModel/ATCModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

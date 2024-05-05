@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "minMaxCondition.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fieldTypes.H"
+#include "runTimeControl/runTimeCondition/minMaxCondition/minMaxCondition.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

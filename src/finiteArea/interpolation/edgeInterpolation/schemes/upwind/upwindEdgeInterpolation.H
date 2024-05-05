@@ -37,9 +37,9 @@ SourceFiles
 #ifndef upwindEdgeInterpolation_H
 #define upwindEdgeInterpolation_H
 
-#include "edgeInterpolationScheme.H"
-#include "areaFields.H"
-#include "edgeFields.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

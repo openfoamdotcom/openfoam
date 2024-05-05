@@ -42,7 +42,7 @@ SourceFiles
 #ifndef multiBandZoneAbsorptionEmission_H
 #define multiBandZoneAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

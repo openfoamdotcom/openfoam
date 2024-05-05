@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "word.H"
-#include "debug.H"
+#include "primitives/strings/word/word.H"
+#include "global/debug/debug.H"
 #include <cctype>
 #include <cstdint>
 #include <sstream>

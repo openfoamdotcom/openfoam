@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkLagrangianWriter.H"
-#include "CloudPascal.H"
-#include "passiveParticle.H"
+#include "conversion/vtk/foamVtkLagrangianWriter.H"
+#include "Cloud/CloudPascal.H"
+#include "passiveParticle/passiveParticle.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

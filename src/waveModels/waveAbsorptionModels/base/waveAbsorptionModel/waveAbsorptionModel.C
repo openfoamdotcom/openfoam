@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveAbsorptionModel.H"
+#include "waveAbsorptionModels/base/waveAbsorptionModel/waveAbsorptionModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

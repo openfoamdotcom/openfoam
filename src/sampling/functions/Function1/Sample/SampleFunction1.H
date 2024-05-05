@@ -48,8 +48,8 @@ SourceFiles
 #ifndef Function1Types_Sample_H
 #define Function1Types_Sample_H
 
-#include "Function1Pascal.H"
-#include "point.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SampleFunction1.C"
+    #include "functions/Function1/Sample/SampleFunction1.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

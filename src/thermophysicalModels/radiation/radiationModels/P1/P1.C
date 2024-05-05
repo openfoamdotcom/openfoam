@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "P1.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
-#include "absorptionEmissionModel.H"
-#include "scatterModel.H"
-#include "constants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "radiationModels/P1/P1.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
+#include "submodels/scatterModel/scatterModel/scatterModel.H"
+#include "global/constants/constants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

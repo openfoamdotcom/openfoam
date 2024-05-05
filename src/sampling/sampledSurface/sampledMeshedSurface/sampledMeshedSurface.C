@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledMeshedSurface.H"
-#include "meshSearch.H"
-#include "Tuple2.H"
-#include "globalIndex.H"
-#include "treeDataCell.H"
-#include "treeDataFace.H"
-#include "meshTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/sampledMeshedSurface/sampledMeshedSurface.H"
+#include "meshSearch/meshSearch.H"
+#include "primitives/tuples/Tuple2.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "indexedOctree/treeDataFace.H"
+#include "meshTools/meshTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nullSpace.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/updateMethod/nullSpace/nullSpace.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

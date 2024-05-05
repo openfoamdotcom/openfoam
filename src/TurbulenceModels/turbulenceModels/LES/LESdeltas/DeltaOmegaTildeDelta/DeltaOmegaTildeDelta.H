@@ -51,7 +51,7 @@ SourceFiles
 #ifndef LESModels_DeltaOmegaTildeDelta_H
 #define LESModels_DeltaOmegaTildeDelta_H
 
-#include "LESdelta.H"
+#include "LES/LESdeltas/LESdelta/LESdelta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

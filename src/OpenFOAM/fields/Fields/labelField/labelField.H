@@ -38,11 +38,11 @@ SourceFiles
 #ifndef labelField_H
 #define labelField_H
 
-#include "label.H"
-#include "Field.H"
+#include "primitives/ints/label/label.H"
+#include "fields/Fields/Field/Field.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "fields/Fields/Field/FieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -78,7 +78,7 @@ void labelField::replace(const direction, const labelUList& lf);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

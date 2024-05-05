@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InterfaceCompositionModelPascal2.H"
-#include "phaseModel.H"
-#include "phasePair.H"
-#include "pureMixture.H"
-#include "multiComponentMixture.H"
-#include "rhoThermo.H"
-#include "zeroGradientFvPatchFields.H"
+#include "InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal2.H"
+#include "phaseModel/phaseModel.H"
+#include "phasePair/phasePair.H"
+#include "mixtures/pureMixture/pureMixture.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
+#include "rhoThermo/rhoThermo.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 using namespace Foam::multiphaseInter;
 

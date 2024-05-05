@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LocalInteraction.H"
+#include "submodels/Kinematic/PatchInteractionModel/LocalInteraction/LocalInteraction.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

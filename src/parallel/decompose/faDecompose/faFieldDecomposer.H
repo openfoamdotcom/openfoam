@@ -44,10 +44,10 @@ SourceFiles
 #ifndef Foam_faFieldDecomposer_H
 #define Foam_faFieldDecomposer_H
 
-#include "faMesh.H"
-#include "faMeshSubset.H"
-#include "faPatchFieldMapper.H"
-#include "edgeFields.H"
+#include "faMesh/faMesh.H"
+#include "faMesh/faMeshSubset/faMeshSubset.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
+#include "fields/edgeFields/edgeFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

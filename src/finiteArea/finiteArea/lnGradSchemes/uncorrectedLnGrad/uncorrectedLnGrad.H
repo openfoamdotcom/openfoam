@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_fa_uncorrectedLnGrad_H
 #define Foam_fa_uncorrectedLnGrad_H
 
-#include "lnGradScheme.H"
+#include "finiteArea/lnGradSchemes/lnGradScheme/lnGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uncorrectedLnGrad.C"
+    #include "finiteArea/lnGradSchemes/uncorrectedLnGrad/uncorrectedLnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

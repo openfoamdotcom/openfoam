@@ -77,10 +77,10 @@ See also
 #ifndef InjectedParticleDistributionInjection_H
 #define InjectedParticleDistributionInjection_H
 
-#include "InjectionModelPascal.H"
-#include "general.H"
-#include "Switch.H"
-#include "vectorList.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "general/general.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/Vector/lists/vectorList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

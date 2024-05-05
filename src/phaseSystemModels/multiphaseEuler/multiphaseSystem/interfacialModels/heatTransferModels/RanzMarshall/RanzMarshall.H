@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_multiphaseEuler_heatTransferModels_RanzMarshall_H
 #define Foam_multiphaseEuler_heatTransferModels_RanzMarshall_H
 
-#include "heatTransferModel.H"
+#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quarterSineRamp.H"
-#include "mathematicalConstants.H"
+#include "primitives/functions/Function1/quarterSineRamp/quarterSineRamp.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

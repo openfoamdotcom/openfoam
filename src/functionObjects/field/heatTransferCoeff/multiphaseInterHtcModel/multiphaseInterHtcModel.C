@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiphaseInterHtcModel.H"
-#include "heatTransferCoeffModel.H"
-#include "multiphaseInterSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "heatTransferCoeff/multiphaseInterHtcModel/multiphaseInterHtcModel.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

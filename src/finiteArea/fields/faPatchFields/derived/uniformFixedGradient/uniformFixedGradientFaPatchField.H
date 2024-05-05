@@ -69,8 +69,8 @@ SourceFiles
 #ifndef Foam_uniformFixedGradientFaPatchField_H
 #define Foam_uniformFixedGradientFaPatchField_H
 
-#include "fixedGradientFaPatchField.H"
-#include "PatchFunction1.H"
+#include "fields/faPatchFields/basic/fixedGradient/fixedGradientFaPatchField.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -184,7 +184,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformFixedGradientFaPatchField.C"
+    #include "fields/faPatchFields/derived/uniformFixedGradient/uniformFixedGradientFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

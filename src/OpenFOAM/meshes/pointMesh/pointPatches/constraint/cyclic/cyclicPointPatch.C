@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPointPatch.H"
-#include "pointBoundaryMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointMesh.H"
-#include "edgeList.H"
+#include "meshes/pointMesh/pointPatches/constraint/cyclic/cyclicPointPatch.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/meshShapes/edge/edgeList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

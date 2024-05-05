@@ -36,9 +36,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IPstream.H"
-#include "OPstream.H"
-#include "contiguous.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "primitives/traits/contiguous.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

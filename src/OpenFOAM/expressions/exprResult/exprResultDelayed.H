@@ -49,9 +49,9 @@ SourceFiles
 #ifndef Foam_expressions_exprResultDelayed_H
 #define Foam_expressions_exprResultDelayed_H
 
-#include "exprResult.H"
-#include "exprString.H"
-#include "Tuple2.H"
+#include "expressions/exprResult/exprResult.H"
+#include "expressions/exprString/exprString.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

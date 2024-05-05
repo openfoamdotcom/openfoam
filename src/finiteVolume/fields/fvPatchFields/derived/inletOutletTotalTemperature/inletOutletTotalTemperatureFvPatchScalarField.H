@@ -71,7 +71,7 @@ SourceFiles
 #ifndef inletOutletTotalTemperatureFvPatchScalarField_H
 #define inletOutletTotalTemperatureFvPatchScalarField_H
 
-#include "inletOutletFvPatchFields.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

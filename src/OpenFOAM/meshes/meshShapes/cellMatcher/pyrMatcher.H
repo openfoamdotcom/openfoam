@@ -41,7 +41,7 @@ SourceFiles
 #ifndef pyrMatcher_H
 #define pyrMatcher_H
 
-#include "cellMatcher.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

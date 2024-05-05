@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoAction.H"
-#include "polyAddPoint.H"
-#include "polyAddFace.H"
-#include "polyAddCell.H"
-#include "polyModifyPoint.H"
-#include "polyModifyFace.H"
-#include "polyModifyCell.H"
-#include "polyRemovePoint.H"
-#include "polyRemoveFace.H"
-#include "polyRemoveCell.H"
+#include "polyTopoChange/topoAction/topoAction.H"
+#include "polyTopoChange/addObject/polyAddPoint.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "polyTopoChange/addObject/polyAddCell.H"
+#include "polyTopoChange/modifyObject/polyModifyPoint.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/modifyObject/polyModifyCell.H"
+#include "polyTopoChange/removeObject/polyRemovePoint.H"
+#include "polyTopoChange/removeObject/polyRemoveFace.H"
+#include "polyTopoChange/removeObject/polyRemoveCell.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

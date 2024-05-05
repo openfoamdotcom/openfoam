@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_vtk_GenericPatchGeoFieldsWriter_H
 #define Foam_vtk_GenericPatchGeoFieldsWriter_H
 
-#include "areaFields.H"
-#include "surfaceFields.H"
-#include "foamVtkGenericPatchWriter.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "output/vtk/patch/foamVtkGenericPatchWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -117,7 +117,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkGenericPatchGeoFieldsWriter.C"
+    #include "vtk/output/foamVtkGenericPatchGeoFieldsWriter.C"
 #endif
 
 

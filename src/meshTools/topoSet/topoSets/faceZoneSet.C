@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceZoneSet.H"
-#include "mapPolyMesh.H"
-#include "polyMesh.H"
-#include "setToFaceZone.H"
-#include "setsToFaceZone.H"
-#include "syncTools.H"
+#include "topoSet/topoSets/faceZoneSet.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/faceZoneSources/setToFaceZone/setToFaceZone.H"
+#include "topoSet/faceZoneSources/setsToFaceZone/setsToFaceZone.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

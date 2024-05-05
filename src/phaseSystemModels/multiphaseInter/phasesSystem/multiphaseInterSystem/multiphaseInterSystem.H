@@ -36,17 +36,17 @@ SourceFiles
 #ifndef multiphaseInterSystem_H
 #define multiphaseInterSystem_H
 
-#include "basicThermo.H"
+#include "basicThermo/basicThermo.H"
 
-#include "phaseModel.H"
-#include "phasePair.H"
-#include "orderedPhasePair.H"
+#include "phaseModel/phaseModel.H"
+#include "phasePair/phasePair.H"
+#include "phasePair/orderedPhasePair.H"
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMatricesFwd.H"
-#include "compressibleTransportModel.H"
-#include "localMin.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "compressibleTransportModel/compressibleTransportModel.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
 
 #include "compressibleTurbulenceModel.H"
 

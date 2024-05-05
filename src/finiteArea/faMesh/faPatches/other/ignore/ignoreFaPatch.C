@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ignoreFaPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "faMesh/faPatches/other/ignore/ignoreFaPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

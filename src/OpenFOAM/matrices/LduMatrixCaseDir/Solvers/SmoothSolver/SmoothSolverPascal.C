@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SmoothSolverPascal.H"
+#include "matrices/LduMatrixCaseDir/Solvers/SmoothSolver/SmoothSolverPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

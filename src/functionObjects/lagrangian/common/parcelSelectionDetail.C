@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloud.H"
-#include "parcelSelectionDetail.H"
-#include "scalarPredicates.H"
-#include "labelField.H"
-#include "scalarField.H"
-#include "pointField.H"
-#include "ListListOps.H"
+#include "fields/cloud/cloud.H"
+#include "common/parcelSelectionDetail.H"
+#include "primitives/predicates/scalar/scalarPredicates.H"
+#include "fields/Fields/labelField/labelField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

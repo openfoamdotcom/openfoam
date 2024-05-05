@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightGeoFile.H"
-#include "foamVersion.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "include/foamVersion.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

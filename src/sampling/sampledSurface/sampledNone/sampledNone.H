@@ -46,8 +46,8 @@ SourceFiles
 #ifndef sampledNone_H
 #define sampledNone_H
 
-#include "sampledSurface.H"
-#include "MeshedSurfaces.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpalartAllmarasDES.H"
-#include "fvOptions.H"
+#include "DES/SpalartAllmarasDES/SpalartAllmarasDES.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

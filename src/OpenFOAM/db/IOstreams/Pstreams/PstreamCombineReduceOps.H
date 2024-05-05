@@ -20,8 +20,8 @@ Description
 #ifndef FoamCompat_PstreamCombineReduceOps_H
 #define FoamCompat_PstreamCombineReduceOps_H
 
-#include "Pstream.H"
-#include "ops.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

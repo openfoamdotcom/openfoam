@@ -54,7 +54,7 @@ SourceFiles
 #ifndef Explicit_H
 #define Explicit_H
 
-#include "PackingModel.H"
+#include "submodels/MPPIC/PackingModels/PackingModel/PackingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Explicit.C"
+    #include "submodels/MPPIC/PackingModels/Explicit/Explicit.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

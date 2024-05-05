@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyLineEdge.H"
-#include "addToRunTimeSelectionTable.H"
+#include "blockEdges/polyLineEdge/polyLineEdge.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

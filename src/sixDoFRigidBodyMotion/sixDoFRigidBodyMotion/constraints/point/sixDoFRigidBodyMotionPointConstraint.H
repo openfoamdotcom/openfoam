@@ -41,8 +41,8 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionPointConstraint_H
 #define sixDoFRigidBodyMotionPointConstraint_H
 
-#include "sixDoFRigidBodyMotionConstraint.H"
-#include "point.H"
+#include "sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint/sixDoFRigidBodyMotionConstraint.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointZeroInletFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
+#include "adjointBoundaryConditions/adjointZeroInlet/adjointZeroInletFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

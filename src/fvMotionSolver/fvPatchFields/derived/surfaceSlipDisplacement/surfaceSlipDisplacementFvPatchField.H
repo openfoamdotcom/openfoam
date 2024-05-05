@@ -39,7 +39,7 @@ SourceFiles
 #ifndef surfaceSlipDisplacementFvPatchField_H
 #define surfaceSlipDisplacementFvPatchField_H
 
-#include "slipFvPatchField.H"
+#include "fields/fvPatchFields/derived/slip/slipFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

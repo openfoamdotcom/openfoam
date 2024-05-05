@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "expressionEntryStrings.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/exprEntry/expressionEntryStrings.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

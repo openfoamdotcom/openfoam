@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LPtrList.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "INew.H"
+#include "containers/LinkedLists/accessTypes/LPtrList/LPtrList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/IOstreams/INew.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

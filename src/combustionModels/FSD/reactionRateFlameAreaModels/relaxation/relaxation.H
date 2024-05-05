@@ -37,8 +37,8 @@ SourceFiles
 #ifndef relaxation_H
 #define relaxation_H
 
-#include "reactionRateFlameArea.H"
-#include "consumptionSpeed.H"
+#include "FSD/reactionRateFlameAreaModels/reactionRateFlameArea/reactionRateFlameArea.H"
+#include "FSD/reactionRateFlameAreaModels/consumptionSpeed/consumptionSpeed.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

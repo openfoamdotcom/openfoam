@@ -60,10 +60,10 @@ SourceFiles
 #ifndef Foam_ensightMesh_H
 #define Foam_ensightMesh_H
 
-#include "Map.H"
-#include "ensightCells.H"
-#include "ensightFaces.H"
-#include "wordRes.H"
+#include "containers/HashTables/Map/Map.H"
+#include "ensight/part/cells/ensightCells.H"
+#include "ensight/part/faces/ensightFaces.H"
+#include "primitives/strings/wordRes/wordRes.H"
 #include <memory>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -377,7 +377,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ensightMeshI.H"
+#include "ensight/mesh/ensightMeshI.H"
 
 #endif
 

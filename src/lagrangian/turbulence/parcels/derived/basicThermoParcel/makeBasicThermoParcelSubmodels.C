@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicThermoCloud.H"
+#include "clouds/derived/basicThermoCloud/basicThermoCloud.H"
 
-#include "makeParcelTurbulenceDispersionModels.H"
-#include "makeThermoParcelTurbulenceForces.H"
+#include "parcels/include/makeParcelTurbulenceDispersionModels.H"
+#include "parcels/include/makeThermoParcelTurbulenceForces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

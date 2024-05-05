@@ -62,10 +62,10 @@ SourceFiles
 #ifndef Foam_coordinateSystems_H
 #define Foam_coordinateSystems_H
 
-#include "regIOobject.H"
-#include "PtrList.H"
-#include "coordinateSystem.H"
-#include "wordRes.H"
+#include "db/regIOobject/regIOobject.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

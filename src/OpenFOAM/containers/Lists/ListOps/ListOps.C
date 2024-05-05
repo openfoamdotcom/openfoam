@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListOps.H"
-#include "HashSet.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 #include <numeric>
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //

@@ -44,8 +44,8 @@ SourceFiles
 #ifndef linearUpwind_H
 #define linearUpwind_H
 
-#include "scalar.H"
-#include "vector.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

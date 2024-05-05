@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fluidThermo.H"
+#include "fluidThermo/fluidThermo.H"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

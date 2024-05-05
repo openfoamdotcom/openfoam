@@ -34,8 +34,8 @@ Description
 #ifndef Foam_regExp_H
 #define Foam_regExp_H
 
-#include "regExpCxx.H"
-#include "regExpFwd.H"
+#include "primitives/strings/regex/regExpCxx.H"
+#include "regExp/regExpFwd.H"
 
 #endif
 

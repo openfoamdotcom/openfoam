@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleFractions.H"
-#include "basicThermo.H"
+#include "functionObjects/moleFractions/moleFractions.H"
+#include "basicThermo/basicThermo.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

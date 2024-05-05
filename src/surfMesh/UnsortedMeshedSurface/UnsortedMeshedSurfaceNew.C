@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UnsortedMeshedSurface.H"
-#include "ListOps.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

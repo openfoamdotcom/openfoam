@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_PtrDynList_H
 #define Foam_PtrDynList_H
 
-#include "PtrList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -315,7 +315,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PtrDynListI.H"
+#include "containers/PtrLists/PtrDynList/PtrDynListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

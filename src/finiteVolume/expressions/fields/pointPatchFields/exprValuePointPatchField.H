@@ -47,9 +47,9 @@ SourceFiles
 #ifndef Foam_exprValuePointPatchField_H
 #define Foam_exprValuePointPatchField_H
 
-#include "valuePointPatchField.H"
-#include "patchExprFieldBase.H"
-#include "patchExprDriver.H"
+#include "fields/pointPatchFields/basic/value/valuePointPatchField.H"
+#include "expressions/fields/base/patchExprFieldBase.H"
+#include "expressions/patch/patchExprDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef gaussFaConvectionScheme_H
 #define gaussFaConvectionScheme_H
 
-#include "faConvectionScheme.H"
-#include "edgeInterpolationScheme.H"
+#include "finiteArea/convectionSchemes/faConvectionScheme/faConvectionScheme.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -143,7 +143,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gaussFaConvectionScheme.C"
+    #include "finiteArea/convectionSchemes/gaussFaConvectionScheme/gaussFaConvectionScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

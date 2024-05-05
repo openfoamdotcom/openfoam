@@ -39,12 +39,12 @@ SourceFiles
 #ifndef adjointSensitivityIncompressible_H
 #define adjointSensitivityIncompressible_H
 
-#include "boundaryFieldsFwd.H"
-#include "adjointEikonalSolver.H"
-#include "adjointMeshMovementSolver.H"
-#include "sensitivity.H"
-#include "volFieldsFwd.H"
-#include "wallFvPatch.H"
+#include "global/boundaryFieldsFwd.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointEikonalSolver/adjointEikonalSolver.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/adjointMeshMovementSolver/adjointMeshMovementSolver.H"
+#include "optimisation/adjointSensitivity/sensitivity/sensitivity.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -290,7 +290,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "adjointSensitivityI.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivityI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

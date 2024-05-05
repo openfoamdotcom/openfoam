@@ -82,11 +82,11 @@ SourceFiles
 #ifndef Foam_functionObjects_thermoCoupleProbes_H
 #define Foam_functionObjects_thermoCoupleProbes_H
 
-#include "probes.H"
-#include "ODESystem.H"
-#include "ODESolver.H"
-#include "basicThermo.H"
-#include "fluidThermo.H"
+#include "probes/probes.H"
+#include "ODESystem/ODESystem.H"
+#include "ODESolvers/ODESolver/ODESolver.H"
+#include "basicThermo/basicThermo.H"
+#include "fluidThermo/fluidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -222,7 +222,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "thermoCoupleProbesTemplates.C"
+    #include "thermoCoupleProbes/thermoCoupleProbesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

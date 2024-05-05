@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchablePlate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchablePlate/searchablePlate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

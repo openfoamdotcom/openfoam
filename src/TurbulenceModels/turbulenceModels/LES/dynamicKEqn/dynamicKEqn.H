@@ -62,8 +62,8 @@ SourceFiles
 #ifndef dynamicKEqn_H
 #define dynamicKEqn_H
 
-#include "LESeddyViscosity.H"
-#include "simpleFilter.H"
+#include "LES/LESeddyViscosity/LESeddyViscosity.H"
+#include "LES/LESfilters/simpleFilter/simpleFilter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "dynamicKEqn.C"
+    #include "LES/dynamicKEqn/dynamicKEqn.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

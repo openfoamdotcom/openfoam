@@ -87,8 +87,8 @@ SourceFiles
 #ifndef PatchFunction1Types_CodedField_H
 #define PatchFunction1Types_CodedField_H
 
-#include "PatchFunction1.H"
-#include "codedBase.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -261,7 +261,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CodedField.C"
+    #include "PatchFunction1/CodedField/CodedField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

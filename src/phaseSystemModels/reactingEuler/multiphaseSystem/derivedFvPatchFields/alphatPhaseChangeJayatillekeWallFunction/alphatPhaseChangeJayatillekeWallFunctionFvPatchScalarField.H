@@ -78,7 +78,7 @@ SourceFiles
 #ifndef compressible_alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField_H
 #define compressible_alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField_H
 
-#include "alphatPhaseChangeWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/alphatPhaseChangeWallFunction/alphatPhaseChangeWallFunctionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

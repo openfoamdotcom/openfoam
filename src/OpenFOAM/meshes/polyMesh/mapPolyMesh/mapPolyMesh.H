@@ -142,11 +142,11 @@ SourceFiles
 #ifndef mapPolyMesh_H
 #define mapPolyMesh_H
 
-#include "labelList.H"
-#include "objectMap.H"
-#include "pointField.H"
-#include "HashSet.H"
-#include "Map.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/polyMesh/mapPolyMesh/objectMap/objectMap.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

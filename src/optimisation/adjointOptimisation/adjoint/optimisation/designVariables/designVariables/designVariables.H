@@ -39,14 +39,14 @@ SourceFiles
 #ifndef designVariables_H
 #define designVariables_H
 
-#include "fvMesh.H"
-#include "volFieldsFwd.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "primalSolver.H"
-#include "adjointSolverManager.H"
-#include "adjointSensitivity.H"
-#include "runTimeSelectionTables.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "solvers/primalSolvers/primalSolver/primalSolver.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -276,7 +276,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "designVariablesI.H"
+#include "optimisation/designVariables/designVariables/designVariablesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

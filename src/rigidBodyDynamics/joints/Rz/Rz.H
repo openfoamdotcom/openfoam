@@ -48,7 +48,7 @@ SourceFiles
 #ifndef RBD_joints_Rz_H
 #define RBD_joints_Rz_H
 
-#include "joint.H"
+#include "joints/joint/joint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

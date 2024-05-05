@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "driftModel.H"
-#include "phaseSystem.H"
+#include "populationBalanceModel/driftModels/driftModel/driftModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

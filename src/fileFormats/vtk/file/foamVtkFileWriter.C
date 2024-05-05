@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkFileWriter.H"
-#include "globalIndex.H"
-#include "OSspecific.H"
+#include "vtk/file/foamVtkFileWriter.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

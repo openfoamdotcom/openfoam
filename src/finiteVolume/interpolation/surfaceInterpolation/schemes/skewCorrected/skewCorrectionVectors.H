@@ -37,9 +37,9 @@ SourceFiles
 #ifndef skewCorrectionVectors_H
 #define skewCorrectionVectors_H
 
-#include "MeshObject.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

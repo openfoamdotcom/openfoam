@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fourthLnGrad.H"
-#include "faMesh.H"
+#include "finiteArea/lnGradSchemes/fourthLnGrad/fourthLnGrad.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

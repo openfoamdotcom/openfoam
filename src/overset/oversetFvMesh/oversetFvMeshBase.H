@@ -37,10 +37,10 @@ SourceFiles
 #ifndef oversetFvMeshBase_H
 #define oversetFvMeshBase_H
 
-#include "fvMeshPrimitiveLduAddressing.H"
-#include "fvMeshPrimitiveLduAddressing.H"
-#include "lduInterfaceFieldPtrsList.H"
-#include "volFieldsFwd.H"
+#include "fvMeshPrimitiveLduAddressing/fvMeshPrimitiveLduAddressing.H"
+#include "fvMeshPrimitiveLduAddressing/fvMeshPrimitiveLduAddressing.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

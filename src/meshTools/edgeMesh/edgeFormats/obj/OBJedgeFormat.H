@@ -40,9 +40,9 @@ SourceFiles
 #ifndef OBJedgeFormat_H
 #define OBJedgeFormat_H
 
-#include "edgeMesh.H"
-#include "Fstream.H"
-#include "Ostream.H"
+#include "edgeMesh/edgeMesh.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

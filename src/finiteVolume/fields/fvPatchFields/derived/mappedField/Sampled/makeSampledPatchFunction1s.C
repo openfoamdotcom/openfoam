@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchFunction1.H"
-#include "fieldTypes.H"
-#include "Sampled.H"
-#include "addToRunTimeSelectionTable.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/fvPatchFields/derived/mappedField/Sampled/Sampled.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 namespace Foam
 {

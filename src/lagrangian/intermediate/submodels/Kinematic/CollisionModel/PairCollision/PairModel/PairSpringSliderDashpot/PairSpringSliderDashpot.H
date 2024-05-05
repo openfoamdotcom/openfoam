@@ -44,9 +44,9 @@ Description
 #ifndef PairSpringSliderDashpot_H
 #define PairSpringSliderDashpot_H
 
-#include "PairModel.H"
-#include "CollisionRecordList.H"
-#include "mathematicalConstants.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel/PairModel.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/CollisionRecordList.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PairSpringSliderDashpot.C"
+    #include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairSpringSliderDashpot/PairSpringSliderDashpot.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

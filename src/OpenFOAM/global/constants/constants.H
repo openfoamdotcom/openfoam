@@ -36,15 +36,15 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "mathematicalConstants.H"
-#include "fundamentalConstants.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "global/constants/fundamental/fundamentalConstants.H"
 
 // Derived constants
-#include "universalConstants.H"
-#include "electromagneticConstants.H"
-#include "atomicConstants.H"
-#include "physicoChemicalConstants.H"
-#include "thermodynamicConstants.H"
+#include "global/constants/universal/universalConstants.H"
+#include "global/constants/electromagnetic/electromagneticConstants.H"
+#include "global/constants/atomic/atomicConstants.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
+#include "global/constants/thermodynamic/thermodynamicConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

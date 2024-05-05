@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "complex.H"
-#include "IOstreams.H"
+#include "primitives/complex/complex.H"
+#include "db/IOstreams/IOstreams.H"
 #include <sstream>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

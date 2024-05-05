@@ -108,8 +108,8 @@ SourceFiles
 #ifndef Foam_fv_MapFieldConstraint_H
 #define Foam_fv_MapFieldConstraint_H
 
-#include "fvOption.H"
-#include "fvMesh.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -305,7 +305,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MapFieldConstraint.C"
+    #include "constraints/general/mapFieldConstraint/MapFieldConstraint.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

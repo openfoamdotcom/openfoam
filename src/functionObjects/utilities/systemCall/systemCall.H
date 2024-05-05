@@ -94,8 +94,8 @@ SourceFiles
 #ifndef functionObjects_systemCall_H
 #define functionObjects_systemCall_H
 
-#include "functionObject.H"
-#include "stringList.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "primitives/strings/lists/stringList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

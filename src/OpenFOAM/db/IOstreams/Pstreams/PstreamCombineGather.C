@@ -36,10 +36,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OPstream.H"
-#include "IPstream.H"
-#include "IOstreams.H"
-#include "contiguous.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/traits/contiguous.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

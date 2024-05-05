@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh.H"
-#include "TimeOpenFOAM.H"
-#include "globalIndex.H"
-#include "meshToMeshMethod.H"
-#include "nearestFaceAMI.H"
-#include "processorPolyPatch.H"
-#include "faceAreaWeightAMI.H"
+#include "meshToMesh/meshToMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.H"
+#include "AMIInterpolation/AMIInterpolation/nearestFaceAMI/nearestFaceAMI.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "AMIInterpolation/AMIInterpolation/faceAreaWeightAMI/faceAreaWeightAMI.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

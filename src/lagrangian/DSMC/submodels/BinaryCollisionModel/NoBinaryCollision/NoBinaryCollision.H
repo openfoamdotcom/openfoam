@@ -34,7 +34,7 @@ Description
 #ifndef NoBinaryCollision_H
 #define NoBinaryCollision_H
 
-#include "BinaryCollisionModel.H"
+#include "submodels/BinaryCollisionModel/BinaryCollisionModel/BinaryCollisionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,7 +97,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoBinaryCollision.C"
+    #include "submodels/BinaryCollisionModel/NoBinaryCollision/NoBinaryCollision.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

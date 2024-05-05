@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_wedgeFaePatchField_H
 #define Foam_wedgeFaePatchField_H
 
-#include "faePatchField.H"
-#include "wedgeFaPatch.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
+#include "faMesh/faPatches/constraint/wedge/wedgeFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -132,7 +132,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wedgeFaePatchField.C"
+    #include "fields/faePatchFields/constraint/wedge/wedgeFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

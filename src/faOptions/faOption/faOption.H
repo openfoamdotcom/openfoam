@@ -75,12 +75,12 @@ SourceFiles
 #ifndef Foam_fa_option_H
 #define Foam_fa_option_H
 
-#include "faMatricesFwd.H"
-#include "areaFieldsFwd.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "volSurfaceMapping.H"
-#include "runTimeSelectionTables.H"
+#include "faMatrices/faMatricesFwd.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/volSurfaceMapping/volSurfaceMapping.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -439,7 +439,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "faOptionI.H"
+#include "faOption/faOptionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

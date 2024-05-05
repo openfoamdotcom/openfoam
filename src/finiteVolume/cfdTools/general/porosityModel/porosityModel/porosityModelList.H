@@ -37,10 +37,10 @@ SourceFiles
 #ifndef porosityModelList_H
 #define porosityModelList_H
 
-#include "fvMesh.H"
-#include "dictionary.H"
-#include "fvMatricesFwd.H"
-#include "porosityModel.H"
+#include "fvMesh/fvMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

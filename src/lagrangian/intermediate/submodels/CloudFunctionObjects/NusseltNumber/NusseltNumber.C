@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NusseltNumber.H"
-#include "ThermoCloudPascal.H"
+#include "submodels/CloudFunctionObjects/NusseltNumber/NusseltNumber.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

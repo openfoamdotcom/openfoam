@@ -45,13 +45,13 @@ SourceFiles
 #ifndef Foam_meshToMesh_H
 #define Foam_meshToMesh_H
 
-#include "polyMesh.H"
-#include "treeBoundBox.H"
-#include "mapDistribute.H"
-#include "volFieldsFwd.H"
-#include "Enum.H"
-#include "AMIPatchToPatchInterpolation.H"
-#include "pointList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "primitives/enums/Enum.H"
+#include "AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.H"
+#include "meshes/primitiveShapes/point/pointList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -854,12 +854,12 @@ void meshToMesh::mapAndOpTgtToSrc
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshToMeshI.H"
+#include "meshToMesh/meshToMeshI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "meshToMeshTemplates.C"
+    #include "meshToMesh/meshToMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

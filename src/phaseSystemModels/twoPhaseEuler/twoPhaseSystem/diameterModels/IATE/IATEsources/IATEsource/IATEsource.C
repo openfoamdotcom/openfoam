@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IATEsource.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
 #include "twoPhaseSystem.H"
-#include "fvMatrix.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "gravityMeshObject.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

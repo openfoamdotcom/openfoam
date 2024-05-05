@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "localReferenceTemperature.H"
-#include "addToRunTimeSelectionTable.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/localReferenceTemperature/localReferenceTemperature.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

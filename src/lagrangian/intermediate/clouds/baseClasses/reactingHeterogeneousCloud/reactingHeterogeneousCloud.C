@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactingHeterogeneousCloud.H"
+#include "clouds/baseClasses/reactingHeterogeneousCloud/reactingHeterogeneousCloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

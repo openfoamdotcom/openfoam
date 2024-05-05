@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lookupProfile.H"
-#include "addToRunTimeSelectionTable.H"
-#include "vector.H"
-#include "unitConversion.H"
-#include "IFstream.H"
+#include "sources/derived/rotorDiskSource/profileModel/lookup/lookupProfile.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/Vector/floats/vector.H"
+#include "global/constants/unitConversion.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

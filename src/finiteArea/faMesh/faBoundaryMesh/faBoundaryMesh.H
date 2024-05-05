@@ -42,12 +42,12 @@ Author
 #ifndef Foam_faBoundaryMesh_H
 #define Foam_faBoundaryMesh_H
 
-#include "regIOobject.H"
-#include "faPatch.H"
-#include "labelPair.H"
-#include "lduInterfacePtrsList.H"
-#include "wordList.H"
-#include "pointField.H"
+#include "db/regIOobject/regIOobject.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "primitives/tuples/labelPair.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

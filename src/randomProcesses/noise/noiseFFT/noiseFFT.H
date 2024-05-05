@@ -53,9 +53,9 @@ SeeAlso
 #ifndef noiseFFT_H
 #define noiseFFT_H
 
-#include "scalarField.H"
-#include "graph.H"
-#include "windowModel.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "graph/graph.H"
+#include "windowModels/windowModel/windowModel.H"
 #include <fftw3.h>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

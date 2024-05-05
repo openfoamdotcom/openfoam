@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoPair.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/NoPair/NoPair.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

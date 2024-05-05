@@ -46,7 +46,7 @@ SourceFiles
 #ifndef blockEdges_bezier_H
 #define blockEdges_bezier_H
 
-#include "blockEdge.H"
+#include "blockEdges/blockEdge/blockEdge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

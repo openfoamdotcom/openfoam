@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Field.H"
-#include "fvcGrad.H"
-#include "polyMeshTetDecomposition.H"
+#include "fields/Fields/Field/Field.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
 
-#include "BasicPascal.H"
-#include "Dual.H"
-#include "Moment.H"
+#include "submodels/MPPIC/AveragingMethods/Basic/BasicPascal.H"
+#include "submodels/MPPIC/AveragingMethods/Dual/Dual.H"
+#include "submodels/MPPIC/AveragingMethods/Moment/Moment.H"
 
 // Scalar interpolation
 defineNamedTemplateTypeNameAndDebug(Foam::AveragingMethod<Foam::scalar>, 0);

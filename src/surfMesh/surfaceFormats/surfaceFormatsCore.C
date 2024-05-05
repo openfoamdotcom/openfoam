@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFormatsCore.H"
-#include "TimeOpenFOAM.H"
-#include "ListOps.H"
-#include "surfMesh.H"
-#include "stringListOps.H"
+#include "surfaceFormats/surfaceFormatsCore.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "surfMesh/surfMesh.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

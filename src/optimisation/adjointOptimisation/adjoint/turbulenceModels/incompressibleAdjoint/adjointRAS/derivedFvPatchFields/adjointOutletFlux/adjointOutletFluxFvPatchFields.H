@@ -30,8 +30,8 @@ License
 #ifndef adjointOutletFluxFvPatchFields_H
 #define adjointOutletFluxFvPatchFields_H
 
-#include "adjointOutletFluxFvPatchField.H"
-#include "fieldTypes.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/derivedFvPatchFields/adjointOutletFlux/adjointOutletFluxFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolatePointToCell.H"
+#include "interpolations/interpolatePointToCell/interpolatePointToCell.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

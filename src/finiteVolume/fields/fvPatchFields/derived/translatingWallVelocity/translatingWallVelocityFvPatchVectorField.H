@@ -63,8 +63,8 @@ SourceFiles
 #ifndef translatingWallVelocityFvPatchVectorField_H
 #define translatingWallVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

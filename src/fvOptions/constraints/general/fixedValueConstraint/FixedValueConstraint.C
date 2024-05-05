@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FixedValueConstraint.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "DimensionedField.H"
+#include "constraints/general/fixedValueConstraint/FixedValueConstraint.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

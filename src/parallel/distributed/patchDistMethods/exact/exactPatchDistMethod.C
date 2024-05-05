@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exactPatchDistMethod.H"
-#include "distributedTriSurfaceMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "DynamicField.H"
-#include "OBJstream.H"
+#include "patchDistMethods/exact/exactPatchDistMethod.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

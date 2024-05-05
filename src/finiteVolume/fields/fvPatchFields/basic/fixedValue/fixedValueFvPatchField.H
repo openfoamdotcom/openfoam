@@ -57,7 +57,7 @@ SourceFiles
 #ifndef Foam_fixedValueFvPatchField_H
 #define Foam_fixedValueFvPatchField_H
 
-#include "fvPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -235,7 +235,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedValueFvPatchField.C"
+    #include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

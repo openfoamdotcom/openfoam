@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "physicoChemicalConstants.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
 
 using namespace Foam::constant;
 

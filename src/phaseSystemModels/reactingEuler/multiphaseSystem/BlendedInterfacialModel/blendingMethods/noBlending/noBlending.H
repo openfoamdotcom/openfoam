@@ -36,7 +36,7 @@ SourceFiles
 #ifndef noBlending_H
 #define noBlending_H
 
-#include "blendingMethod.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

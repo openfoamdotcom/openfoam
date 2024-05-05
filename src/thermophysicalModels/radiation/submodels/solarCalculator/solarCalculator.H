@@ -218,12 +218,12 @@ SourceFiles
 #ifndef solarCalculator_H
 #define solarCalculator_H
 
-#include "fvMesh.H"
-#include "meshTools.H"
-#include "DynamicField.H"
-#include "HashSet.H"
-#include "coordinateSystem.H"
-#include "Function1Pascal.H"
+#include "fvMesh/fvMesh.H"
+#include "meshTools/meshTools.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

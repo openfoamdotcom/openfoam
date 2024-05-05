@@ -28,7 +28,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "vectorFieldIOField.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

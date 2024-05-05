@@ -42,7 +42,7 @@ SourceFiles
 #ifndef IrreversibleReaction_H
 #define IrreversibleReaction_H
 
-#include "Reaction.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IrreversibleReaction.C"
+    #include "reaction/ReactionsCaseDir/IrreversibleReaction/IrreversibleReaction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef CFCCellToCellStencil_H
 #define CFCCellToCellStencil_H
 
-#include "cellToCellStencil.H"
+#include "fvMesh/extendedStencil/cellToCell/globalIndexStencils/cellToCellStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

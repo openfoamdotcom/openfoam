@@ -28,8 +28,8 @@ License
 #ifndef inletOutletFvPatchFields_H
 #define inletOutletFvPatchFields_H
 
-#include "inletOutletFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

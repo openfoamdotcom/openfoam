@@ -39,9 +39,9 @@ SourceFiles
 #define Foam_STLtriangle_H
 
 #include <cstdint>
-#include "STLpoint.H"
-#include "Istream.H"
-#include "Ostream.H"
+#include "stl/STLpoint.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "STLtriangleI.H"
+#include "stl/STLtriangleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

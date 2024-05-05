@@ -141,7 +141,7 @@ SourceFiles
 #ifndef Foam_resolutionIndexModels_CelikNuIndex_H
 #define Foam_resolutionIndexModels_CelikNuIndex_H
 
-#include "resolutionIndexModel.H"
+#include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

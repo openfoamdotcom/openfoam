@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField.H"
-#include "fvPatchFieldMapper.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/alphatPhaseChangeJayatillekeWallFunction/alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 #include "compressibleTurbulenceModel.H"
-#include "ThermalDiffusivity.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "wallFvPatch.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

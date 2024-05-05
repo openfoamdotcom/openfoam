@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementMethodelasticityMotionSolver.H"
-#include "elasticityMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "displacementMethod/displacementMethodelasticityMotionSolver/displacementMethodelasticityMotionSolver.H"
+#include "dynamicMesh/motionSolver/elasticityMotionSolver/elasticityMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

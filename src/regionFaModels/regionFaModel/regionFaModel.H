@@ -67,13 +67,13 @@ SourceFiles
 #ifndef Foam_regionFaModel_H
 #define Foam_regionFaModel_H
 
-#include "volMesh.H"
-#include "IOdictionary.H"
-#include "Switch.H"
-#include "labelList.H"
-#include "areaFields.H"
-#include "faMesh.H"
-#include "volSurfaceMapping.H"
+#include "volMesh/volMesh.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/areaFields/areaFields.H"
+#include "faMesh/faMesh.H"
+#include "interpolation/volSurfaceMapping/volSurfaceMapping.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -254,7 +254,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regionFaModelI.H"
+#include "regionFaModel/regionFaModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

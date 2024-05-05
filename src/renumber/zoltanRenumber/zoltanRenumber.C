@@ -51,13 +51,13 @@ SourceFiles
 \*---------------------------------------------------------------------------*/
 
 #include "zoltanRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IFstream.H"
-#include "labelIOList.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "globalIndex.H"
-#include "uint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "primitives/ints/uint/uint.H"
 
 // Include MPI without any C++ bindings
 #ifndef MPICH_SKIP_MPICXX

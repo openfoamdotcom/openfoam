@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 #include "UPstreamWrapping.H"
 
 #include <cinttypes>

@@ -28,8 +28,8 @@ License
 #ifndef Foam_boolIOField_H
 #define Foam_boolIOField_H
 
-#include "boolField.H"
-#include "IOField.H"
+#include "fields/Fields/boolField/boolField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

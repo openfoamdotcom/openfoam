@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightFile.H"
-#include "error.H"
-#include "List.H"
+#include "ensight/file/ensightFile.H"
+#include "db/error/error.H"
+#include "containers/Lists/List/List.H"
 #include <cstring>
 #include <sstream>
 

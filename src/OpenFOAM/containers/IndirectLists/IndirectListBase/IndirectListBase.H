@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Foam_IndirectListBase_H
 #define Foam_IndirectListBase_H
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -411,11 +411,11 @@ Ostream& operator<<(Ostream& os, const IndirectListBase<T, Addr>& list)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IndirectListBaseI.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListBaseI.H"
 
 #ifdef NoRepository
-    #include "IndirectListBase.C"
-    #include "IndirectListBaseIO.C"
+    #include "containers/IndirectLists/IndirectListBase/IndirectListBase.C"
+    #include "containers/IndirectLists/IndirectListBase/IndirectListBaseIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

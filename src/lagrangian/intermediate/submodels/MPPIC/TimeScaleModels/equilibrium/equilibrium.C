@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "equilibrium.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/MPPIC/TimeScaleModels/equilibrium/equilibrium.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

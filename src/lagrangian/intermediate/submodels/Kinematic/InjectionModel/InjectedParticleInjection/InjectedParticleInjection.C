@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InjectedParticleInjection.H"
-#include "mathematicalConstants.H"
-#include "bitSet.H"
-#include "injectedParticleCloud.H"
+#include "submodels/Kinematic/InjectionModel/InjectedParticleInjection/InjectedParticleInjection.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "injectedParticle/injectedParticleCloud.H"
 
 using namespace Foam::constant;
 

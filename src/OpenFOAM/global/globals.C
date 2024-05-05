@@ -61,36 +61,36 @@ void (*old_new_handler)() = std::set_new_handler(newError);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // The nullObject singleton and a dummy zero singleton
 
-#include "nullObject.C"
-#include "zero.C"
+#include "primitives/nullObject/nullObject.C"
+#include "primitives/traits/zero.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Global IO streams
 
-#include "IOstreams.C"
+#include "db/IOstreams/IOstreams.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "JobInfo.H"
+#include "global/JobInfo/JobInfo.H"
 bool Foam::JobInfo::constructed(false);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Global error definitions (initialised by construction)
 
-#include "messageStream.C"
-#include "error.C"
-#include "IOerror.C"
-#include "token.C"
+#include "db/error/messageStream.C"
+#include "db/error/error.C"
+#include "db/error/IOerror.C"
+#include "db/IOstreams/token/token.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read the debug and info switches
 
-#include "debug.C"
+#include "global/debug/debug.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read file modification checking switches
 
-#include "regIOobject.C"
+#include "db/regIOobject/regIOobject.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read parallel communication switches
@@ -100,12 +100,12 @@ bool Foam::JobInfo::constructed(false);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read constants
 
-#include "constants.C"
-#include "dimensionedConstants.C"
+#include "global/constants/constants.C"
+#include "global/constants/dimensionedConstants.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Create the jobInfo file in the $FOAM_JOB_DIR/runningJobs directory
 
-#include "JobInfo.C"
+#include "global/JobInfo/JobInfo.C"
 
 // ************************************************************************* //

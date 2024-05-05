@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TGaussSeidelSmoother.H"
+#include "matrices/LduMatrixCaseDir/Smoothers/GaussSeidel/TGaussSeidelSmoother.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

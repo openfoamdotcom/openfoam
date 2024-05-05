@@ -66,12 +66,12 @@ SourceFiles
 #ifndef polyTopoChange_H
 #define polyTopoChange_H
 
-#include "DynamicList.H"
-#include "labelList.H"
-#include "pointField.H"
-#include "Map.H"
-#include "HashSet.H"
-#include "bitSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -670,10 +670,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "polyTopoChangeI.H"
+#include "polyTopoChange/polyTopoChangeI.H"
 
 #ifdef NoRepository
-    #include "polyTopoChangeTemplates.C"
+    #include "polyTopoChange/polyTopoChangeTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

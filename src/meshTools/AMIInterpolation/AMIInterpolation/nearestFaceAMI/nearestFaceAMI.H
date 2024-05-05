@@ -37,8 +37,8 @@ SourceFiles
 #ifndef nearestFaceAMI_H
 #define nearestFaceAMI_H
 
-#include "AMIInterpolation.H"
-#include "pointIndexHit.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

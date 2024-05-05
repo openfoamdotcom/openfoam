@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchEdgeFaceInfo.H"
+#include "algorithms/PatchEdgeFaceWave/patchEdgeFaceInfo.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

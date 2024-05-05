@@ -44,8 +44,8 @@ SourceFiles
 #ifndef temperatureDependentContactAngleForce_H
 #define temperatureDependentContactAngleForce_H
 
-#include "contactAngleForce.H"
-#include "Function1Pascal.H"
+#include "submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

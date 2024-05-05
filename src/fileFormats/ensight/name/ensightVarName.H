@@ -44,7 +44,7 @@ Description
 #ifndef ensightVarName_H
 #define ensightVarName_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ template<> struct Hash<ensight::VarName> : string::hasher {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ensightVarNameI.H"
+#include "ensight/name/ensightVarNameI.H"
 
 #endif
 

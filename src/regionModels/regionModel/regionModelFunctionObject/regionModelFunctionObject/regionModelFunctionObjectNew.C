@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionModelFunctionObject.H"
+#include "regionModelFunctionObject/regionModelFunctionObject/regionModelFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ Description
 #ifndef Foam_OSHA1stream_H
 #define Foam_OSHA1stream_H
 
-#include "OSstream.H"
-#include "SHA1.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
+#include "primitives/hashes/SHA1/SHA1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

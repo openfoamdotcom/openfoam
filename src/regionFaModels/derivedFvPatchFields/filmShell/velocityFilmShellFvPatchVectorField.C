@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityFilmShellFvPatchVectorField.H"
-#include "dictionaryContent.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/filmShell/velocityFilmShellFvPatchVectorField.H"
+#include "db/dictionary/dictionaryContent/dictionaryContent.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

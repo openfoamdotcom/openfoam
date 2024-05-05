@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VariableHardSphere.H"
-#include "constants.H"
+#include "submodels/BinaryCollisionModel/VariableHardSphere/VariableHardSphere.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant::mathematical;
 

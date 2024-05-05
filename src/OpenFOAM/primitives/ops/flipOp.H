@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_flipOp_H
 #define Foam_flipOp_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

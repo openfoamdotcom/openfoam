@@ -38,11 +38,11 @@ SourceFiles
 #ifndef fvcDdt_H
 #define fvcDdt_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dimensionedTypes.H"
-#include "one.H"
-#include "geometricZeroField.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "primitives/traits/one.H"
+#include "fields/GeometricFields/geometricZeroField/geometricZeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -249,7 +249,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcDdt.C"
+    #include "finiteVolume/fvc/fvcDdt.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

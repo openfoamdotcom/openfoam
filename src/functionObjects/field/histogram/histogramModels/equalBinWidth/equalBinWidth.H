@@ -68,8 +68,8 @@ SourceFiles
 #ifndef Foam_histogramModels_equalBinWidth_H
 #define Foam_histogramModels_equalBinWidth_H
 
-#include "histogramModel.H"
-#include "MinMax.H"
+#include "histogram/histogramModels/histogramModel/histogramModel.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef SinglePhaseMixture_H
 #define SinglePhaseMixture_H
 
-#include "CompositionModel.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -135,7 +135,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SinglePhaseMixture.C"
+    #include "submodels/Reacting/CompositionModel/SinglePhaseMixture/SinglePhaseMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

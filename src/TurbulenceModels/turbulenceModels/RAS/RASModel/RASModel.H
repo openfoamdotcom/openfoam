@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_RASModel_H
 #define Foam_RASModel_H
 
-#include "TurbulenceModelPascal.H"
+#include "TurbulenceModel/TurbulenceModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -270,7 +270,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "RASModel.C"
+    #include "RAS/RASModel/RASModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

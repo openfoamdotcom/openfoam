@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Foam_dummyISstream_H
 #define Foam_dummyISstream_H
 
-#include "StringStream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

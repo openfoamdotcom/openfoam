@@ -46,9 +46,9 @@ SourceFiles
 #ifndef Foam_Istream_H
 #define Foam_Istream_H
 
-#include "IOstream.H"
-#include "token.H"
-#include "contiguous.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "db/IOstreams/token/token.H"
+#include "primitives/traits/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -275,7 +275,7 @@ namespace Detail
 
 // Previously excluded (via token.H)
 #ifdef NoRepository
-    #include "HashTable.C"
+    #include "containers/HashTables/HashTable/HashTable.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceShading.H"
-#include "fvMesh.H"
-#include "boundaryRadiationProperties.H"
-#include "cyclicAMIPolyPatch.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "distributedTriSurfaceMesh.H"
-#include "OBJstream.H"
+#include "radiationModels/solarLoad/faceShading/faceShading.H"
+#include "fvMesh/fvMesh.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationProperties.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

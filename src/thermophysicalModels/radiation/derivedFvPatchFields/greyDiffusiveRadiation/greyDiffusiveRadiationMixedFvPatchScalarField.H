@@ -84,7 +84,7 @@ SourceFiles
 #ifndef radiation_greyDiffusiveRadiationMixedFvPatchScalarField_H
 #define radiation_greyDiffusiveRadiationMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

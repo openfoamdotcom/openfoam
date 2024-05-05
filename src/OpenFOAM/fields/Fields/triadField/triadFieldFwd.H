@@ -31,7 +31,7 @@ Description
 #ifndef triadFieldFwd_H
 #define triadFieldFwd_H
 
-#include "triad.H"
+#include "primitives/triad/triad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

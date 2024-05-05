@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightSurfaceWriter.H"
-#include "IOmanip.H"
-#include "Fstream.H"
-#include "OSspecific.H"
-#include "ensightCase.H"
-#include "ensightOutput.H"
-#include "ensightOutputSurface.H"
-#include "ensightPTraits.H"
-#include "surfaceWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writers/ensight/ensightSurfaceWriter.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "include/OSspecific.H"
+#include "ensight/file/ensightCase.H"
+#include "ensight/output/ensightOutput.H"
+#include "ensight/part/surface/ensightOutputSurface.H"
+#include "ensight/type/ensightPTraits.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -142,8 +142,8 @@ Foam::fileName Foam::surfaceWriters::ensightWriter::write()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ensightSurfaceWriterCollated.C"
-#include "ensightSurfaceWriterUncollated.C"
+#include "writers/ensight/ensightSurfaceWriterCollated.C"
+#include "writers/ensight/ensightSurfaceWriterUncollated.C"
 
 
 // Field writing implementations

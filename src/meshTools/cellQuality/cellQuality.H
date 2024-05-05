@@ -37,7 +37,7 @@ SourceFiles
 #ifndef cellQuality_H
 #define cellQuality_H
 
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

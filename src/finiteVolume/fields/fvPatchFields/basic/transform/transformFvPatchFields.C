@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transformFvPatchFields.H"
-#include "fvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/transform/transformFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchBase.H"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

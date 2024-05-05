@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSets.H"
-#include "globalIndex.H"
-#include "interpolation.H"
-#include "volFields.H"
-#include "volPointInterpolation.H"
+#include "sampledSet/sampledSets/sampledSets.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

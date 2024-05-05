@@ -60,7 +60,7 @@ Usage
 #ifndef integratedNonUniformTableThermophysicalFunction_H
 #define integratedNonUniformTableThermophysicalFunction_H
 
-#include "nonUniformTableThermophysicalFunction.H"
+#include "thermophysicalFunctions/nonUniformTable/nonUniformTableThermophysicalFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

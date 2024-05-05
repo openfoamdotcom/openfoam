@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurface.H"
-#include "UnsortedMeshedSurface.H"
-#include "MeshedSurfaceProxy.H"
-#include "Fstream.H"
-#include "TimeOpenFOAM.H"
-#include "ListOps.H"
-#include "polyBoundaryMesh.H"
-#include "polyMesh.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 
@@ -861,6 +861,6 @@ Foam::Ostream& Foam::operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UnsortedMeshedSurfaceNew.C"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurfaceNew.C"
 
 // ************************************************************************* //

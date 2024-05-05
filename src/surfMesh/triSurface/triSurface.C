@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "TimeOpenFOAM.H"
-#include "surfZoneList.H"
-#include "MeshedSurface.H"
-#include "ListOps.H"
+#include "triSurface/triSurface.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "surfZone/surfZoneList.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

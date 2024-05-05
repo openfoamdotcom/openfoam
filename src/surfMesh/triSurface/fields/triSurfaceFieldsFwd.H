@@ -29,7 +29,7 @@ License
 #ifndef Foam_triSurfaceFieldsFwd_H
 #define Foam_triSurfaceFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

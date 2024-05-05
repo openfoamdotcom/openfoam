@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Helmholtz_H
 #define Helmholtz_H
 
-#include "regularisationPDE.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationPDE/regularisationPDE/regularisationPDE.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

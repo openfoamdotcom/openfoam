@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionedSphericalTensor.H"
+#include "dimensionedTypes/dimensionedSphericalTensor/dimensionedSphericalTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

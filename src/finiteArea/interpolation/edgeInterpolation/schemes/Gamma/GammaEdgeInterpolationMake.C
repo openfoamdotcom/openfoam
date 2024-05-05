@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "faNVDscheme.H"
-#include "Gamma.H"
+#include "faMesh/faMesh.H"
+#include "interpolation/edgeInterpolation/schemes/NVDscheme/faNVDscheme.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/Gamma/Gamma.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

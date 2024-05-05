@@ -70,15 +70,15 @@ SourceFiles
 #ifndef isoAdvection_H
 #define isoAdvection_H
 
-#include "fvMesh.H"
-#include "volFieldsFwd.H"
-#include "surfaceFields.H"
-#include "fvc.H"
-#include "className.H"
-#include "reconstructionSchemes.H"
-#include "cutFaceAdvect.H"
-#include "bitSet.H"
-#include "zeroField.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "db/typeInfo/className.H"
+#include "reconstructionSchemes/reconstructionSchemes.H"
+#include "cellCuts/cutFace/cutFaceAdvect.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "fields/Fields/zeroField/zeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

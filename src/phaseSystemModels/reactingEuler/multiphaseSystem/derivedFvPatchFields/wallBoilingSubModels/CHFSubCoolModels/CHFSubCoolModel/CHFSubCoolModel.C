@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CHFSubCoolModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/CHFSubCoolModels/CHFSubCoolModel/CHFSubCoolModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

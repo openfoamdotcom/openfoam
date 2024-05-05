@@ -35,9 +35,9 @@ Description
 #ifndef Foam_ensightCells_H
 #define Foam_ensightCells_H
 
-#include "ensightPart.H"
-#include "FixedList.H"
-#include "Map.H"
+#include "ensight/part/part/ensightPart.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -293,7 +293,7 @@ Ostream& operator<<(Ostream&, const InfoProxy<ensightCells>&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ensightCellsI.H"
+#include "ensight/part/cells/ensightCellsI.H"
 
 #endif
 

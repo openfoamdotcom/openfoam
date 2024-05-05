@@ -36,7 +36,7 @@ SourceFiles
 #ifndef SyamlalRogersOBrien_H
 #define SyamlalRogersOBrien_H
 
-#include "granularPressureModel.H"
+#include "kineticTheoryModels/granularPressureModel/granularPressureModel/granularPressureModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

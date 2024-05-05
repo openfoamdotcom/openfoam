@@ -145,11 +145,11 @@ SourceFiles
 #ifndef Foam_fv_cellSetOption_H
 #define Foam_fv_cellSetOption_H
 
-#include "fvOption.H"
-#include "fvMesh.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "Function1Pascal.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "fvMesh/fvMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -330,7 +330,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellSetOptionI.H"
+#include "cellSetOption/cellSetOptionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -47,7 +47,7 @@ InterpolationFiles
 #ifndef SIMPInterpolation_H
 #define SIMPInterpolation_H
 
-#include "topOInterpolationFunction.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

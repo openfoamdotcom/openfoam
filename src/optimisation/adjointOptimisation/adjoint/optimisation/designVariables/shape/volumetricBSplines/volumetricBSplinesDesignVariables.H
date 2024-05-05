@@ -38,9 +38,9 @@ SourceFiles
 #ifndef volumetricBSplinesDesignVariables_H
 #define volumetricBSplinesDesignVariables_H
 
-#include "shapeDesignVariables.H"
-#include "volBSplinesBase.H"
-#include "morphingBoxConstraint.H"
+#include "optimisation/designVariables/shape/shapeDesignVariables/shapeDesignVariables.H"
+#include "parameterization/NURBS/NURBS3DVolume/volBSplinesBase/volBSplinesBase.H"
+#include "optimisation/designVariables/shape/volumetricBSplines/morphingBoxConstraints/morphingBoxConstaint/morphingBoxConstraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

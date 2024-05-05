@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldExprDriver.H"
-#include "fieldExprScanner.H"
-#include "error.H"
-#include "className.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/fields/fieldExprDriver.H"
+#include "expressions/fields/fieldExprScanner.H"
+#include "db/error/error.H"
+#include "db/typeInfo/className.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

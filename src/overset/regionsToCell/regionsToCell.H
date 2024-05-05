@@ -51,8 +51,8 @@ SourceFiles
 #ifndef regionsToCell_H
 #define regionsToCell_H
 
-#include "topoSetCellSource.H"
-#include "boolList.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

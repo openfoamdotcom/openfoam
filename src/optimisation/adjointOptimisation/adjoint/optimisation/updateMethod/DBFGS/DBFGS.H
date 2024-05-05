@@ -40,7 +40,7 @@ SourceFiles
 #ifndef DBFGS_H
 #define DBFGS_H
 
-#include "quasiNewton.H"
+#include "optimisation/updateMethod/quasiNewton/quasiNewton.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

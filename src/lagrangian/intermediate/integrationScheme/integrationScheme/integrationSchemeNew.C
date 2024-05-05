@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "integrationScheme.H"
+#include "db/error/error.H"
+#include "integrationScheme/integrationScheme/integrationScheme.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

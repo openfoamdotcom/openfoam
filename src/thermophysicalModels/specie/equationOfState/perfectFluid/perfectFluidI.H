@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "perfectFluid.H"
-#include "specie.H"
+#include "equationOfState/perfectFluid/perfectFluid.H"
+#include "specie/specie.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

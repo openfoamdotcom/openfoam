@@ -44,7 +44,7 @@ Changes for OpenFOAM
 //  Original Author: Jan-Marten Spit <jmspit@euronet.nl>
 //========================================================================
 
-#include "stringOpsSort.H"
+#include "primitives/strings/stringOps/stringOpsSort.H"
 #include <cctype>
 #include <cstring>
 

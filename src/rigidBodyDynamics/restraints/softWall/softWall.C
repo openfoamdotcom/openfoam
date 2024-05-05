@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "softWall.H"
-#include "rigidBodyModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
+#include "sixDoFRigidBodyMotion/restraints/softWall/softWall.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

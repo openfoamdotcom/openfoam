@@ -27,13 +27,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sensitivitySurfacePoints.H"
-#include "deltaBoundary.H"
-#include "designVariables.H"
-#include "syncTools.H"
-#include "symmetryFvPatch.H"
-#include "symmetryPlaneFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/surfacePoints/sensitivitySurfacePoints.H"
+#include "deltaBoundary/deltaBoundary.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fvMesh/fvPatches/constraint/symmetry/symmetryFvPatch.H"
+#include "fvMesh/fvPatches/constraint/symmetryPlane/symmetryPlaneFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

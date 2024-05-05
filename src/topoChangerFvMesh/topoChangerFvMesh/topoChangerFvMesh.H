@@ -39,8 +39,8 @@ SourceFiles
 #ifndef topoChangerFvMesh_H
 #define topoChangerFvMesh_H
 
-#include "dynamicFvMesh.H"
-#include "polyTopoChanger.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

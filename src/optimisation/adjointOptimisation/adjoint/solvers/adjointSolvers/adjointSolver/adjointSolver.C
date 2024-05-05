@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointSolver.H"
-#include "adjointSensitivity.H"
-#include "designVariables.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

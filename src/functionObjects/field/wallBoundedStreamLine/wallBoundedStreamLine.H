@@ -149,7 +149,7 @@ SourceFiles
 #ifndef Foam_functionObjects_wallBoundedStreamLine_H
 #define Foam_functionObjects_wallBoundedStreamLine_H
 
-#include "streamLineBase.H"
+#include "streamLine/streamLineBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

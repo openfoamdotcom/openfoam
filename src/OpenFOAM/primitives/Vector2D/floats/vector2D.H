@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_vector2D_H
 #define Foam_vector2D_H
 
-#include "scalar.H"
-#include "Vector2DPascal.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector2D/Vector2DPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

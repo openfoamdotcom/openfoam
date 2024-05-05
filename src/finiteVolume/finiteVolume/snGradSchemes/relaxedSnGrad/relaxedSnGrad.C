@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fv.H"
-#include "relaxedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "finiteVolume/fv/fv.H"
+#include "finiteVolume/snGradSchemes/relaxedSnGrad/relaxedSnGrad.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

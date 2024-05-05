@@ -38,8 +38,8 @@ SourceFiles
 #ifndef boundedBackwardFaDdtScheme_H
 #define boundedBackwardFaDdtScheme_H
 
-#include "faDdtScheme.H"
-#include "faMatrices.H"
+#include "finiteArea/ddtSchemes/faDdtScheme/faDdtScheme.H"
+#include "faMatrices/faMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

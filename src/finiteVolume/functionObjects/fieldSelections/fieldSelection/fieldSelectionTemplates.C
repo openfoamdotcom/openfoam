@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectRegistry.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

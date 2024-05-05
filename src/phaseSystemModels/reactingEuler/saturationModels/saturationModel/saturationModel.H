@@ -37,10 +37,10 @@ SourceFiles
 #ifndef saturationModel_H
 #define saturationModel_H
 
-#include "IOdictionary.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

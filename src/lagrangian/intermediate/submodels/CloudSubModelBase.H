@@ -37,7 +37,7 @@ SourceFiles
 #ifndef CloudSubModelBase_H
 #define CloudSubModelBase_H
 
-#include "subModelBase.H"
+#include "primitives/subModelBase/subModelBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -136,7 +136,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CloudSubModelBase.C"
+    #include "submodels/CloudSubModelBase.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

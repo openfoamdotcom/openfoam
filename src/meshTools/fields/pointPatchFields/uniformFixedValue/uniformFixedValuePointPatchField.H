@@ -64,8 +64,8 @@ SourceFiles
 #ifndef Foam_uniformFixedValuePointPatchField_H
 #define Foam_uniformFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
-#include "PatchFunction1.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -203,7 +203,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformFixedValuePointPatchField.C"
+    #include "fields/pointPatchFields/uniformFixedValue/uniformFixedValuePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,19 +25,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "trackingInverseDistanceCellCellStencil.H"
-#include "addToRunTimeSelectionTable.H"
-#include "OBJstream.H"
-#include "TimeOpenFOAM.H"
-#include "fvMeshSubset.H"
-#include "globalIndex.H"
-#include "oversetFvPatch.H"
-#include "zeroGradientFvPatchFields.H"
-#include "syncTools.H"
-#include "treeBoundBoxList.H"
-#include "voxelMeshSearch.H"
-#include "dynamicOversetFvMesh.H"
-#include "waveMethod.H"
+#include "cellCellStencil/trackingInverseDistance/trackingInverseDistanceCellCellStencil.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "obj/OBJstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "oversetPolyPatch/oversetFvPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "cellCellStencil/trackingInverseDistance/voxelMeshSearch.H"
+#include "oversetFvMesh/dynamicOversetFvMesh/dynamicOversetFvMesh.H"
+#include "cellCellStencil/inverseDistance/waveMethod.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

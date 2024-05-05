@@ -94,11 +94,11 @@ SourceFiles
 #ifndef cellClassification_H
 #define cellClassification_H
 
-#include "pointField.H"
-#include "Map.H"
-#include "boolList.H"
-#include "labelList.H"
-#include "faceList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/face/faceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

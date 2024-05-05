@@ -170,10 +170,10 @@ SourceFiles
 #ifndef Foam_functionObjects_forces_H
 #define Foam_functionObjects_forces_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "coordinateSystem.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

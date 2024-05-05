@@ -41,11 +41,11 @@ SourceFiles
 #ifndef Foam_faMeshDistributor_H
 #define Foam_faMeshDistributor_H
 
-#include "faMesh.H"
-#include "mapDistributePolyMesh.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "Switch.H"
+#include "faMesh/faMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

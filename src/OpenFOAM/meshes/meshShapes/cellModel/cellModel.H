@@ -49,13 +49,13 @@ SourceFiles
 #ifndef Foam_cellModel_H
 #define Foam_cellModel_H
 
-#include "pointField.H"
-#include "edgeList.H"
-#include "faceList.H"
-#include "InfoProxy.H"
-#include "autoPtr.H"
-#include "PtrList.H"
-#include "Enum.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -266,7 +266,7 @@ inline bool operator!=(const cellModel& lhs, const cellModel& rhs) noexcept;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellModelI.H"
+#include "meshes/meshShapes/cellModel/cellModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

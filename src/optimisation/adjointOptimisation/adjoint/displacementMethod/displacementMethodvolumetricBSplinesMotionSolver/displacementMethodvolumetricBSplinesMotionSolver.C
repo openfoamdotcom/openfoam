@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementMethodvolumetricBSplinesMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "displacementMethod/displacementMethodvolumetricBSplinesMotionSolver/displacementMethodvolumetricBSplinesMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

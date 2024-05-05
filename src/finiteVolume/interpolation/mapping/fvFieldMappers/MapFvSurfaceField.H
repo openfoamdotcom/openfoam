@@ -32,8 +32,8 @@ Description
 #ifndef MapFvSurfaceField_H
 #define MapFvSurfaceField_H
 
-#include "Field.H"
-#include "surfaceMesh.H"
+#include "fields/Fields/Field/Field.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -99,7 +99,7 @@ SourceFiles
 #ifndef shapeToCell_H
 #define shapeToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

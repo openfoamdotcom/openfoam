@@ -73,10 +73,10 @@ SourceFiles
 #ifndef diffusionMulticomponent_H
 #define diffusionMulticomponent_H
 
-#include "ChemistryCombustion.H"
-#include "scalarList.H"
-#include "tmp.H"
-#include "Reaction.H"
+#include "CombustionModelCaseDir/ChemistryCombustion/ChemistryCombustion.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "memory/tmp/tmp.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

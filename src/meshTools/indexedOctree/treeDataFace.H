@@ -38,12 +38,12 @@ SourceFiles
 #ifndef Foam_treeDataFace_H
 #define Foam_treeDataFace_H
 
-#include "face.H"
-#include "indexedOctree.H"
-#include "treeBoundBoxList.H"
-#include "bitSet.H"
-#include "primitiveMesh.H"
-#include "volumeType.H"
+#include "meshes/meshShapes/face/face.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,19 +26,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "masterUncollatedFileOperation.H"
-#include "fileOperationInitialise.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Pstream.H"
-#include "TimeOpenFOAM.H"
-#include "instant.H"
-#include "IFstream.H"
-#include "SpanStream.H"
-#include "masterOFstream.H"
-#include "decomposedBlockData.H"
-#include "registerSwitch.H"
-#include "dummyISstream.H"
-#include "SubList.H"
+#include "global/fileOperations/masterUncollatedFileOperation/masterUncollatedFileOperation.H"
+#include "global/fileOperations/fileOperation/fileOperationInitialise.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/instant/instant.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "db/IOstreams/Fstreams/masterOFstream.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "global/debug/registerSwitch.H"
+#include "db/IOstreams/dummy/dummyISstream.H"
+#include "containers/Lists/List/SubList.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

@@ -35,8 +35,8 @@ Description
 #ifndef Foam_STLpoint_H
 #define Foam_STLpoint_H
 
-#include "point.H"
-#include "vector.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

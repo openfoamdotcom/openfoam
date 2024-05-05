@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightOutputCloud.H"
-#include "fvMesh.H"
-#include "CloudPascal.H"
-#include "passiveParticle.H"
-#include "globalIndex.H"
+#include "conversion/ensight/ensightOutputCloud.H"
+#include "fvMesh/fvMesh.H"
+#include "Cloud/CloudPascal.H"
+#include "passiveParticle/passiveParticle.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

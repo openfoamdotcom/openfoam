@@ -28,7 +28,7 @@ License
 
 #include "UPstreamWrapping.H"
 #include "PstreamGlobals.H"
-#include "profilingPstream.H"
+#include "global/profiling/profilingPstream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

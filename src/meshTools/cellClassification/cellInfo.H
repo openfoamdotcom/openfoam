@@ -40,9 +40,9 @@ SourceFiles
 #ifndef cellInfo_H
 #define cellInfo_H
 
-#include "point.H"
-#include "label.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,7 +229,7 @@ template<> struct is_contiguous_label<cellInfo> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellInfoI.H"
+#include "cellClassification/cellInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

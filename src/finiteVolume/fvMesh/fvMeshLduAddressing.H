@@ -38,8 +38,8 @@ SourceFiles
 #ifndef fvMeshLduAddressing_H
 #define fvMeshLduAddressing_H
 
-#include "lduAddressing.H"
-#include "fvMesh.H"
+#include "matrices/lduMatrix/lduAddressing/lduAddressing.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

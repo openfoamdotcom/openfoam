@@ -39,7 +39,7 @@ SourceFiles
 #ifndef extendedEdgeMeshFormat_H
 #define extendedEdgeMeshFormat_H
 
-#include "extendedEdgeMesh.H"
+#include "edgeMesh/extendedEdgeMesh/extendedEdgeMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

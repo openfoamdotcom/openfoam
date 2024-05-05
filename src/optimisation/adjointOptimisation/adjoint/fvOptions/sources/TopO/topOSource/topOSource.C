@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topOSource.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
-#include "topOVariablesBase.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/sources/TopO/topOSource/topOSource.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "optimisation/designVariables/topODesignVariables/topOVariablesBase/topOVariablesBase.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

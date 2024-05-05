@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoCellLooper.H"
-#include "cellFeatures.H"
-#include "polyMesh.H"
-#include "unitConversion.H"
-#include "DynamicList.H"
-#include "ListOps.H"
-#include "meshTools.H"
-#include "hexMatcher.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshCut/cellLooper/topoCellLooper.H"
+#include "cellFeatures/cellFeatures.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "global/constants/unitConversion.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshTools/meshTools.H"
+#include "meshes/meshShapes/cellMatcher/hexMatcher.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

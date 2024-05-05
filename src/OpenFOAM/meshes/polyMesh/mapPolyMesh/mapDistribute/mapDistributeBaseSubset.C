@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapDistributeBase.H"
-#include "bitSet.H"
-#include "ListOps.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

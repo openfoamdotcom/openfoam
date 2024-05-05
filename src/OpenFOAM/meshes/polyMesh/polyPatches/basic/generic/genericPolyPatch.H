@@ -44,7 +44,7 @@ SourceFiles
 #ifndef genericPolyPatch_H
 #define genericPolyPatch_H
 
-#include "polyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

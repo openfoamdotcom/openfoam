@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "charList.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "token.H"
+#include "primitives/chars/lists/charList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

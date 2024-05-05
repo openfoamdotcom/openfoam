@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "derivedFields.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "mapPolyMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFields/derivedFields.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

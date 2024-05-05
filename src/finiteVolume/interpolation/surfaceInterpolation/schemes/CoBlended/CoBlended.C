@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "CoBlended.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/CoBlended/CoBlended.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

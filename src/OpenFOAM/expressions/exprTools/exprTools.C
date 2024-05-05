@@ -29,9 +29,9 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprTools.H"
-#include "stringOps.H"
-#include "DynamicList.H"
+#include "expressions/exprTools/exprTools.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

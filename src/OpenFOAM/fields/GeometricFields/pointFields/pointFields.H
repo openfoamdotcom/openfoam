@@ -36,10 +36,10 @@ SourceFiles
 #ifndef pointFields_H
 #define pointFields_H
 
-#include "GeometricFields.H"
-#include "pointMesh.H"
-#include "pointPatchFields.H"
-#include "pointFieldsFwd.H"
+#include "fields/GeometricFields/GeometricField/GeometricFields.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFields.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
 
 #endif
 

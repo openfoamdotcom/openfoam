@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "leastSquaresCellCellStencil.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SVD.H"
+#include "cellCellStencil/leastSquares/leastSquaresCellCellStencil.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

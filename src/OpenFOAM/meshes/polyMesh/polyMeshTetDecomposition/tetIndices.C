@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetIndices.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

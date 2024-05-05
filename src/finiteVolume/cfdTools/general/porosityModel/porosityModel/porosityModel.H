@@ -39,12 +39,12 @@ SourceFiles
 #ifndef Foam_porosityModel_H
 #define Foam_porosityModel_H
 
-#include "fvMesh.H"
-#include "dictionary.H"
-#include "fvMatricesFwd.H"
-#include "runTimeSelectionTables.H"
-#include "coordinateSystem.H"
-#include "dimensionedVector.H"
+#include "fvMesh/fvMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -300,7 +300,7 @@ struct is_globalIOobject<porosityModel> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "porosityModelI.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

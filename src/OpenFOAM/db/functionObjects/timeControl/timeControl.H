@@ -48,7 +48,7 @@ SourceFiles
 #ifndef timeControl_H
 #define timeControl_H
 
-#include "TimeOpenFOAM.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "timeControlI.H"
+#include "db/functionObjects/timeControl/timeControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

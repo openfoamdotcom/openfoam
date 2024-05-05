@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "complexField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/Fields/complex/complexField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.C"
+#include "fields/Fields/Field/FieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -301,6 +301,6 @@ UNARY_FUNCTION(complex, complex, atanh)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

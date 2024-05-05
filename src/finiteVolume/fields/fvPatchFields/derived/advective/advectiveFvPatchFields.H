@@ -28,8 +28,8 @@ License
 #ifndef advectiveFvPatchFields_H
 #define advectiveFvPatchFields_H
 
-#include "advectiveFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/advective/advectiveFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

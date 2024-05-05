@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uncorrectedLnGrad.H"
-#include "areaFields.H"
-#include "edgeFields.H"
+#include "finiteArea/lnGradSchemes/uncorrectedLnGrad/uncorrectedLnGrad.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

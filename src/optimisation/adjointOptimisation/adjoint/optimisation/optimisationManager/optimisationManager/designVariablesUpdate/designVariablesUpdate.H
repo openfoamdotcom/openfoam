@@ -48,10 +48,10 @@ SourceFiles
 #ifndef designVariablesUpdate_H
 #define designVariablesUpdate_H
 
-#include "adjointSolverManager.H"
-#include "designVariables.H"
-#include "updateMethod.H"
-#include "lineSearch.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
+#include "optimisation/updateMethod/updateMethod/updateMethod.H"
+#include "optimisation/lineSearch/lineSearch/lineSearch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

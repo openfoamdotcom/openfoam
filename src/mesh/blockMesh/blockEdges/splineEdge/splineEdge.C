@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "splineEdge.H"
-#include "polyLinePascal.H"
-#include "addToRunTimeSelectionTable.H"
+#include "blockEdges/splineEdge/splineEdge.H"
+#include "blockEdges/polyLineEdge/polyLinePascal.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

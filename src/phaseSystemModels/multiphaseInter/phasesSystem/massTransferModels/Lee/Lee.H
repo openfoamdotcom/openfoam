@@ -92,7 +92,7 @@ SourceFiles
 #ifndef meltingEvaporationModels_Lee_H
 #define meltingEvaporationModels_Lee_H
 
-#include "InterfaceCompositionModelPascal2.H"
+#include "InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal2.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * *//
 

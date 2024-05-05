@@ -28,8 +28,8 @@ License
 #ifndef calculatedProcessorFvPatchFields_H
 #define calculatedProcessorFvPatchFields_H
 
-#include "calculatedProcessorFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/calculatedProcessor/calculatedProcessorFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

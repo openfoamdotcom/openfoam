@@ -69,8 +69,8 @@ SourceFiles
 #ifndef fixedIncidentRadiationFvPatchScalarField_H
 #define fixedIncidentRadiationFvPatchScalarField_H
 
-#include "fixedGradientFvPatchFields.H"
-#include "temperatureCoupledBase.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

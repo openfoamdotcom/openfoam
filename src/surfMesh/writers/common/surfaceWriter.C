@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceWriter.H"
-#include "proxySurfaceWriter.H"
-#include "MeshedSurfaceProxy.H"
+#include "writers/common/surfaceWriter.H"
+#include "writers/proxy/proxySurfaceWriter.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
 
-#include "fileFormats.H"
-#include "TimeOpenFOAM.H"
-#include "coordinateRotation.H"
-#include "transformField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "common/fileFormats.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/coordinate/rotation/coordinateRotation.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SMESHsurfaceFormat.H"
-#include "clock.H"
-#include "OFstream.H"
+#include "surfaceFormats/smesh/SMESHsurfaceFormat.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

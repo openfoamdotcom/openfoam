@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hydrodynamic.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/coalescenceModels/hydrodynamic/hydrodynamic.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

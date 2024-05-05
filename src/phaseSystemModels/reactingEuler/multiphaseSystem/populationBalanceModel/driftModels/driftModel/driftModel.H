@@ -37,7 +37,7 @@ SourceFiles
 #ifndef driftModel_H
 #define driftModel_H
 
-#include "populationBalanceModel.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -60,7 +60,7 @@ SourceFiles
 #ifndef wideBandDiffusiveRadiationMixedFvPatchScalarField_H
 #define wideBandDiffusiveRadiationMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

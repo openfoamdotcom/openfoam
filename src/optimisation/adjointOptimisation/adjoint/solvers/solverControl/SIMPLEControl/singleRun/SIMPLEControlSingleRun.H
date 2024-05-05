@@ -39,7 +39,7 @@ Description
 #ifndef SIMPLEControlSingleRun_H
 #define SIMPLEControlSingleRun_H
 
-#include "SIMPLEControlPascal.H"
+#include "solvers/solverControl/SIMPLEControl/SIMPLEControl/SIMPLEControlPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

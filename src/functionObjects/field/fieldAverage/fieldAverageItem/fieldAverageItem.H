@@ -83,9 +83,9 @@ SourceFiles
 #ifndef fieldAverageItem_H
 #define fieldAverageItem_H
 
-#include "Enum.H"
-#include "Switch.H"
-#include "FIFOStack.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "containers/LinkedLists/user/FIFOStack.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -368,12 +368,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fieldAverageItemI.H"
+#include "fieldAverage/fieldAverageItem/fieldAverageItemI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldAverageItemTemplates.C"
+    #include "fieldAverage/fieldAverageItem/fieldAverageItemTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

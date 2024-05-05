@@ -78,7 +78,7 @@ SourceFiles
 #ifndef fixedMultiPhaseHeatFluxFvPatchScalarField_H
 #define fixedMultiPhaseHeatFluxFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

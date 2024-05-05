@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfaceBase.H"
-#include "isoSurfaceCell.H"
-#include "isoSurfacePoint.H"
-#include "isoSurfaceTopo.H"
+#include "surface/isoSurface/isoSurfaceBase.H"
+#include "surface/isoSurface/isoSurfaceCell.H"
+#include "surface/isoSurface/isoSurfacePoint.H"
+#include "surface/isoSurface/isoSurfaceTopo.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

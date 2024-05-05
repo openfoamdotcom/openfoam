@@ -40,7 +40,7 @@ SourceFiles
 #ifndef objectiveUniformityCellZone_H
 #define objectiveUniformityCellZone_H
 
-#include "objectiveIncompressible.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

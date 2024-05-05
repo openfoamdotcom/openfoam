@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_topoBoolSet_H
 #define Foam_topoBoolSet_H
 
-#include "topoSet.H"
-#include "boolList.H"
+#include "topoSet/topoSets/topoSet.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

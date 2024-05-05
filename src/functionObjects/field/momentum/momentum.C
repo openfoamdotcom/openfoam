@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "momentum.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "cellSet.H"
-#include "cylindricalRotation.H"
-#include "emptyPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "momentum/momentum.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "primitives/coordinate/rotation/cylindricalRotation.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

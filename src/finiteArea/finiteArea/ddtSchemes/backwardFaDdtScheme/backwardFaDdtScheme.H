@@ -38,7 +38,7 @@ SourceFiles
 #ifndef backwardFaDdtScheme_H
 #define backwardFaDdtScheme_H
 
-#include "faDdtScheme.H"
+#include "finiteArea/ddtSchemes/faDdtScheme/faDdtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "backwardFaDdtScheme.C"
+    #include "finiteArea/ddtSchemes/backwardFaDdtScheme/backwardFaDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

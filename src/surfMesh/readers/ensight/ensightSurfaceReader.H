@@ -56,11 +56,11 @@ SourceFiles
 #ifndef Foam_ensightSurfaceReader_H
 #define Foam_ensightSurfaceReader_H
 
-#include "surfaceReader.H"
-#include "ensightFaces.H"
-#include "ensightReadFile.H"
-#include "Pair.H"
-#include "Tuple2.H"
+#include "readers/common/surfaceReader.H"
+#include "ensight/part/faces/ensightFaces.H"
+#include "ensight/read/ensightReadFile.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -269,7 +269,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightSurfaceReaderTemplates.C"
+    #include "readers/ensight/ensightSurfaceReaderTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

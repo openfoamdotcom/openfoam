@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoReynoldsNumber.H"
-#include "ThermoCloudPascal.H"
+#include "submodels/CloudFunctionObjects/ThermoReynoldsNumber/ThermoReynoldsNumber.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

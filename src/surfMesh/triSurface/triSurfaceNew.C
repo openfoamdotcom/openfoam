@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "Fstream.H"
-#include "MeshedSurface.H"
-#include "UnsortedMeshedSurface.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

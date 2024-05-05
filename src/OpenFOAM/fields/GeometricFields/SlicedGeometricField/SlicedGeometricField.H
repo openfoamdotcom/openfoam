@@ -46,8 +46,8 @@ SourceFiles
 #ifndef Foam_SlicedGeometricField_H
 #define Foam_SlicedGeometricField_H
 
-#include "GeometricField.H"
-#include "SlicedDimensionedField.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "fields/DimensionedFields/DimensionedField/SlicedDimensionedField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -202,7 +202,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SlicedGeometricField.C"
+    #include "fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

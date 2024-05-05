@@ -39,12 +39,12 @@ SourceFiles
 #ifndef Foam_boundaryMesh_H
 #define Foam_boundaryMesh_H
 
-#include "bMesh.H"
-#include "boundaryPatch.H"
-#include "className.H"
-#include "polyPatch.H"
-#include "primitivePatch.H"
-#include "PtrList.H"
+#include "boundaryMesh/bMesh.H"
+#include "boundaryPatch/boundaryPatch.H"
+#include "db/typeInfo/className.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

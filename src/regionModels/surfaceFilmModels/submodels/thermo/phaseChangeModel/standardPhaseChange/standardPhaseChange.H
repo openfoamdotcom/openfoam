@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_standardPhaseChange_H
 #define Foam_standardPhaseChange_H
 
-#include "phaseChangeModel.H"
+#include "submodels/thermo/phaseChangeModel/phaseChangeModel/phaseChangeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

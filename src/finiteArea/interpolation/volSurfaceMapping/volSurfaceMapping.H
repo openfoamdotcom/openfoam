@@ -41,11 +41,11 @@ SourceFiles
 #ifndef Foam_volSurfaceMapping_H
 #define Foam_volSurfaceMapping_H
 
-#include "areaFields.H"
-#include "volMesh.H"
-#include "surfaceMesh.H"
-#include "PtrList.H"
-#include "PtrMap.H"
+#include "fields/areaFields/areaFields.H"
+#include "volMesh/volMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "containers/HashTables/PtrMap/PtrMap.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -346,7 +346,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "volSurfaceMapping.C"
+    #include "interpolation/volSurfaceMapping/volSurfaceMapping.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

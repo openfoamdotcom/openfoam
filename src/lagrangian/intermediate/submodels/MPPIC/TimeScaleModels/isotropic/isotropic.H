@@ -49,7 +49,7 @@ SourceFiles
 #ifndef isotropic_H
 #define isotropic_H
 
-#include "TimeScaleModel.H"
+#include "submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

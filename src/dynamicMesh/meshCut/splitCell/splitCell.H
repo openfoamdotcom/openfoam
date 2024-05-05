@@ -38,7 +38,7 @@ SourceFiles
 #ifndef splitCell_H
 #define splitCell_H
 
-#include "label.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

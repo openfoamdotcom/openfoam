@@ -41,9 +41,9 @@ SourceFiles
 #ifndef STARCDMeshWriter_H
 #define STARCDMeshWriter_H
 
-#include "meshWriter.H"
-#include "STARCDCore.H"
-#include "IOstream.H"
+#include "common/writer/meshWriter.H"
+#include "starcd/STARCDCore.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

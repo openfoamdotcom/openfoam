@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "profilingSysInfo.H"
-#include "foamVersion.H"
-#include "clock.H"
-#include "Ostream.H"
-#include "OSspecific.H"
+#include "global/profiling/profilingSysInfo.H"
+#include "include/foamVersion.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

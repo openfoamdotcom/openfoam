@@ -47,11 +47,11 @@ SourceFiles
 #ifndef colourTable_H
 #define colourTable_H
 
-#include "Enum.H"
-#include "List.H"
-#include "Tuple2.H"
-#include "vector.H"
-#include "HashPtrTable.H"
+#include "primitives/enums/Enum.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/Vector/floats/vector.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

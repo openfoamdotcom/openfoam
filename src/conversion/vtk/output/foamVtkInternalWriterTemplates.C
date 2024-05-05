@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkInternalWriter.H"
-#include "foamVtkOutput.H"
-#include "volPointInterpolation.H"
-#include "interpolatePointToCell.H"
+#include "vtk/output/foamVtkInternalWriter.H"
+#include "vtk/output/foamVtkOutput.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "interpolations/interpolatePointToCell/interpolatePointToCell.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

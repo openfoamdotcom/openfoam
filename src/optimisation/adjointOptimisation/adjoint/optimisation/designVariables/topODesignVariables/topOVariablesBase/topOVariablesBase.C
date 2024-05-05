@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topOVariablesBase.H"
-#include "pointMesh.H"
-#include "topOZones.H"
-#include "volFields.H"
-#include "volPointInterpolation.H"
-#include "wallFvPatch.H"
-#include "coupledFvPatch.H"
-#include "emptyFvPatch.H"
-#include "MeshedSurfaceProxy.H"
-#include "surfaceWriter.H"
-#include "foamVtkSurfaceWriter.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/topOVariablesBase/topOVariablesBase.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "optimisation/designVariables/topODesignVariables/topOZones/topOZones.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "writers/common/surfaceWriter.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

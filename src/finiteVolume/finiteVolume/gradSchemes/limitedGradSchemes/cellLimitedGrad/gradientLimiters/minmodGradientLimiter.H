@@ -51,7 +51,7 @@ See also
 #ifndef minmodGradientLimiter_H
 #define minmodGradientLimiter_H
 
-#include "Istream.H"
+#include "db/IOstreams/IOstreams/Istream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

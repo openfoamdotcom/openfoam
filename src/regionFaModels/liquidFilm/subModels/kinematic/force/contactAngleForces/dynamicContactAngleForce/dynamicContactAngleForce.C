@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicContactAngleForce.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidFilm/subModels/kinematic/force/contactAngleForces/dynamicContactAngleForce/dynamicContactAngleForce.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

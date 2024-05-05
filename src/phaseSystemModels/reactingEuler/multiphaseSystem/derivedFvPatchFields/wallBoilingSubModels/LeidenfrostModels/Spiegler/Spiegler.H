@@ -67,7 +67,7 @@ SourceFiles
 #ifndef Spiegler_H
 #define Spiegler_H
 
-#include "LeidenfrostModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/LeidenfrostModels/LeidenfrostModel/LeidenfrostModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

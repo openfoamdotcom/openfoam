@@ -53,12 +53,12 @@ SourceFiles
 #ifndef fieldRegularisation_H
 #define fieldRegularisation_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "topOZones.H"
-#include "regularisationPDE.H"
-#include "regularisationRadius.H"
-#include "topOInterpolationFunction.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "optimisation/designVariables/topODesignVariables/topOZones/topOZones.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationPDE/regularisationPDE/regularisationPDE.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationRadius/regularisationRadius/regularisationRadius.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "weightedFlux.H"
-#include "demandDrivenData.H"
+#include "interpolation/surfaceInterpolation/schemes/weightedFlux/weightedFlux.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_DimensionedField_H
 #define Foam_DimensionedField_H
 
-#include "regIOobject.H"
-#include "Field.H"
-#include "dimensionedType.H"
-#include "orientedType.H"
+#include "db/regIOobject/regIOobject.H"
+#include "fields/Fields/Field/Field.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "orientedType/orientedType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -619,11 +619,11 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DimensionedFieldI.H"
-#include "DimensionedFieldFunctions.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldI.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldFunctions.H"
 
 #ifdef NoRepository
-    #include "DimensionedField.C"
+    #include "fields/DimensionedFields/DimensionedField/DimensionedField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

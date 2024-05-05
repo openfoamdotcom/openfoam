@@ -37,9 +37,9 @@ SourceFiles
 #ifndef mappedVariableThicknessWallPolyPatch_H
 #define mappedVariableThicknessWallPolyPatch_H
 
-#include "scalarField.H"
-#include "wallPolyPatch.H"
-#include "mappedWallPolyPatch.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

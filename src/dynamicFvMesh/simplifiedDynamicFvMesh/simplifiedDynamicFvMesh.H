@@ -37,8 +37,8 @@ SourceFiles
 #ifndef simplifiedDynamicFvMesh_H
 #define simplifiedDynamicFvMesh_H
 
-#include "columnFvMesh.H"
-#include "runTimeSelectionTables.H"
+#include "fvMesh/simplifiedFvMesh/columnFvMesh/columnFvMesh.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "simplifiedDynamicFvMeshTemplates.C"
+    #include "simplifiedDynamicFvMesh/simplifiedDynamicFvMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

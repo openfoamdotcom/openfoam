@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "dictionaryEntry.H"
-#include "stringOps.H"
+#include "db/dictionary/dictionary.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

@@ -46,8 +46,8 @@ SourceFiles
 #ifndef MatrixBlock_H
 #define MatrixBlock_H
 
-#include "Matrix.H"
-#include "MatrixSpace.H"
+#include "matrices/Matrix/Matrix.H"
+#include "primitives/MatrixSpace/MatrixSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -261,12 +261,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MatrixBlockI.H"
+#include "matrices/MatrixBlock/MatrixBlockI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MatrixBlock.C"
+    #include "matrices/MatrixBlock/MatrixBlock.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

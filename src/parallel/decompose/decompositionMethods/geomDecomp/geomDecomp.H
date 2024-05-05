@@ -47,10 +47,10 @@ SourceFiles
 #ifndef Foam_geomDecomp_H
 #define Foam_geomDecomp_H
 
-#include "decompositionMethod.H"
-#include "cartesianCS.H"
-#include "VectorPascal.H"
-#include "tmp.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "primitives/Vector/VectorPascal.H"
+#include "memory/tmp/tmp.H"
 
 namespace Foam
 {

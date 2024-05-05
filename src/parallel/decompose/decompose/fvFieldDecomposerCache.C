@@ -26,11 +26,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "fvFieldDecomposer.H"
-#include "fieldsDistributor.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "IOobjectList.H"
-#include "PtrListOps.H"
+#include "parallel/fieldsDistributor/fieldsDistributor.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
 
 // * * * * * * * * * * * * * * * * Declarations  * * * * * * * * * * * * * * //
 

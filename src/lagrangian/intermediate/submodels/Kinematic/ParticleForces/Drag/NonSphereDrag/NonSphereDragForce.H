@@ -145,7 +145,7 @@ SourceFiles
 #ifndef NonSphereDragForce_H
 #define NonSphereDragForce_H
 
-#include "ParticleForce.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -246,7 +246,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NonSphereDragForce.C"
+    #include "submodels/Kinematic/ParticleForces/Drag/NonSphereDrag/NonSphereDragForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

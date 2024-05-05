@@ -93,8 +93,8 @@ SourceFiles
 #ifndef atmNutUWallFunctionFvPatchScalarField_H
 #define atmNutUWallFunctionFvPatchScalarField_H
 
-#include "nutUWallFunctionFvPatchScalarField.H"
-#include "PatchFunction1.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUWallFunction/nutUWallFunctionFvPatchScalarField.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

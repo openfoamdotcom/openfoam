@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetDecomposer.H"
-#include "meshTools.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "OFstream.H"
-#include "edgeHashes.H"
-#include "syncTools.H"
-#include "triangle.H"
+#include "polyTopoChange/polyTopoChange/tetDecomposer.H"
+#include "meshTools/meshTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

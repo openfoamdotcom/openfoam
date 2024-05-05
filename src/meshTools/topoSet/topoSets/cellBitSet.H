@@ -75,7 +75,7 @@ SourceFiles
 #ifndef Foam_cellBitSet_H
 #define Foam_cellBitSet_H
 
-#include "topoBitSet.H"
+#include "topoSet/topoSets/topoBitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

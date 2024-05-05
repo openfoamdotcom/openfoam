@@ -25,29 +25,29 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "psiThermo.H"
-#include "makeThermo.H"
+#include "psiThermo/psiThermo.H"
+#include "fluidThermo/makeThermo.H"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "PengRobinsonGas.H"
-#include "hConstThermo.H"
-#include "eConstThermo.H"
-#include "janafThermo.H"
-#include "sensibleEnthalpy.H"
-#include "sensibleInternalEnergy.H"
-#include "thermo.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "equationOfState/PengRobinsonGas/PengRobinsonGas.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/eConst/eConstThermo.H"
+#include "thermo/janaf/janafThermo.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
+#include "thermo/thermo.H"
 
-#include "constTransport.H"
-#include "sutherlandTransport.H"
+#include "transport/const/constTransport.H"
+#include "transport/sutherland/sutherlandTransport.H"
 
-#include "hPolynomialThermo.H"
-#include "polynomialTransport.H"
+#include "thermo/hPolynomial/hPolynomialThermo.H"
+#include "transport/polynomial/polynomialTransport.H"
 
-#include "hePsiThermo.H"
-#include "pureMixture.H"
+#include "psiThermo/hePsiThermo.H"
+#include "mixtures/pureMixture/pureMixture.H"
 
-#include "thermoPhysicsTypes.H"
+#include "include/thermoPhysicsTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

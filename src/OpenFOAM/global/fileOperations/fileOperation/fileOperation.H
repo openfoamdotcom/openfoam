@@ -73,17 +73,17 @@ Description
 #ifndef Foam_fileOperation_H
 #define Foam_fileOperation_H
 
-#include "ISstream.H"
-#include "Ostream.H"
-#include "UPstream.H"
-#include "fileMonitor.H"
-#include "fileNameList.H"
-#include "instantList.H"
-#include "refPtr.H"
-#include "bitSet.H"
-#include "Enum.H"
-#include "Tuple2.H"
-#include "InfoProxy.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "fileMonitor/fileMonitor.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "db/Time/instant/instantList.H"
+#include "memory/refPtr/refPtr.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

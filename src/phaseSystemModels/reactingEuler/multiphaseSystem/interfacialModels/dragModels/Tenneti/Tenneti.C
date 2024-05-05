@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Tenneti.H"
-#include "reactingEuler_phasePair.H"
-#include "SchillerNaumann.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/Tenneti/Tenneti.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "interfacialModels/dragModels/SchillerNaumann/SchillerNaumann.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "advancingFrontAMI.H"
-#include "mergePoints.H"
-#include "mapDistribute.H"
-#include "AABBTree.H"
+#include "AMIInterpolation/AMIInterpolation/advancingFrontAMI/advancingFrontAMI.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "algorithms/AABBTree/AABBTree.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

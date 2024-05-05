@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

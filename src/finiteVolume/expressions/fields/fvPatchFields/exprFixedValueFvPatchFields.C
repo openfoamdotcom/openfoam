@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprFixedValueFvPatchField.H"
-#include "fieldTypes.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/fields/fvPatchFields/exprFixedValueFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

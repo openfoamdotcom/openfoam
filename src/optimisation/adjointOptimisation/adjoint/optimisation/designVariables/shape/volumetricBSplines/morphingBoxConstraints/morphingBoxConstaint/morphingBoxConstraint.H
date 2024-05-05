@@ -39,8 +39,8 @@ SourceFiles
 #ifndef morphingBoxConstraint_H
 #define morphingBoxConstraint_H
 
-#include "volBSplinesBase.H"
-#include "runTimeSelectionTables.H"
+#include "parameterization/NURBS/NURBS3DVolume/volBSplinesBase/volBSplinesBase.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightFaces.H"
-#include "ensightOutput.H"
-#include "InfoProxy.H"
-#include "polyMesh.H"
-#include "globalIndex.H"
-#include "globalMeshData.H"
-#include "indirectPrimitivePatch.H"
+#include "ensight/part/faces/ensightFaces.H"
+#include "ensight/output/ensightOutput.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

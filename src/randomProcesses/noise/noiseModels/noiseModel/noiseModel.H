@@ -83,14 +83,14 @@ SourceFiles
 #ifndef Foam_noiseModel_H
 #define Foam_noiseModel_H
 
-#include "writeFile.H"
-#include "dictionary.H"
-#include "scalarList.H"
-#include "instantList.H"
-#include "windowModel.H"
-#include "Enum.H"
-#include "Tuple2.H"
-#include "runTimeSelectionTables.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "db/Time/instant/instantList.H"
+#include "windowModels/windowModel/windowModel.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 #include <fftw3.h>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

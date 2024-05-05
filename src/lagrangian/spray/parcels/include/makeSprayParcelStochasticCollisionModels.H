@@ -30,9 +30,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoStochasticCollision.H"
-#include "ORourkeCollision.H"
-#include "TrajectoryCollision.H"
+#include "submodels/Kinematic/StochasticCollision/NoStochasticCollision/NoStochasticCollision.H"
+#include "submodels/StochasticCollision/ORourkeCollision/ORourkeCollision.H"
+#include "submodels/StochasticCollision/TrajectoryCollision/TrajectoryCollision.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

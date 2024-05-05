@@ -38,7 +38,7 @@ SourceFiles
 #ifndef compactSpatialTensor_H
 #define compactSpatialTensor_H
 
-#include "CompactSpatialTensorPascal.H"
+#include "primitives/spatialVectorAlgebra/CompactSpatialTensor/CompactSpatialTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hexCell.H"
-#include "cellShape.H"
+#include "meshes/meshShapes/hexCell/hexCell.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

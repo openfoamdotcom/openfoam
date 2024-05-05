@@ -90,8 +90,8 @@ SourceFiles
 #ifndef interRegionHeatTransferModel_H
 #define interRegionHeatTransferModel_H
 
-#include "interRegionOption.H"
-#include "volFields.H"
+#include "interRegionOption/interRegionOption.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -255,12 +255,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interRegionHeatTransferModelI.H"
+#include "sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel/interRegionHeatTransferModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interRegionHeatTransferModelTemplates.C"
+    #include "sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel/interRegionHeatTransferModelTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

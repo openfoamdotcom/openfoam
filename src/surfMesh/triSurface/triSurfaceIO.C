@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "Fstream.H"
-#include "TimeOpenFOAM.H"
-#include "boundBox.H"
-#include "bitSet.H"
-#include "surfZoneList.H"
-#include "surfaceFormatsCore.H"
-#include "MeshedSurfaceProxy.H"
-#include "MeshedSurface.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/boundBox/boundBox.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "surfZone/surfZoneList.H"
+#include "surfaceFormats/surfaceFormatsCore.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "MeshedSurface/MeshedSurface.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

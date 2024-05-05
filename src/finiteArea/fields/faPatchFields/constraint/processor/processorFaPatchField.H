@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_processorFaPatchField_H
 #define Foam_processorFaPatchField_H
 
-#include "coupledFaPatchField.H"
-#include "processorLduInterfaceField.H"
-#include "processorFaPatch.H"
-#include "areaFaMesh.H"
+#include "fields/faPatchFields/basic/coupled/coupledFaPatchField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -314,7 +314,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorFaPatchField.C"
+    #include "fields/faPatchFields/constraint/processor/processorFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

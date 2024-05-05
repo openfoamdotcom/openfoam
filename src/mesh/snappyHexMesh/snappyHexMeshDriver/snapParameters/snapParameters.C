@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snapParameters.H"
-#include "meshRefinement.H"
+#include "snappyHexMeshDriver/snapParameters/snapParameters.H"
+#include "meshRefinement/meshRefinement.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

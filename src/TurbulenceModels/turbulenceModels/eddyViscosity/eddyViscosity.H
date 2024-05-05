@@ -41,7 +41,7 @@ SourceFiles
 #ifndef eddyViscosity_H
 #define eddyViscosity_H
 
-#include "linearViscousStress.H"
+#include "linearViscousStress/linearViscousStress.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "eddyViscosity.C"
+    #include "eddyViscosity/eddyViscosity.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

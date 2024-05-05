@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "localMin.H"
-#include "fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

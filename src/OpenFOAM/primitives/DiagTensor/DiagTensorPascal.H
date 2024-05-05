@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_DiagTensor_H
 #define Foam_DiagTensor_H
 
-#include "TensorPascal.H"
-#include "SphericalTensorPascal.H"
+#include "primitives/Tensor/TensorPascal.H"
+#include "primitives/SphericalTensor/SphericalTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ struct is_contiguous_scalar<DiagTensor<Cmpt>> : is_contiguous_scalar<Cmpt> {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DiagTensorI.H"
+#include "primitives/DiagTensor/DiagTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

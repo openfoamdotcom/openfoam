@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeVertex.H"
-#include "meshTools.H"
-#include "refineCell.H"
+#include "meshCut/edgeVertex/edgeVertex.H"
+#include "meshTools/meshTools.H"
+#include "meshCut/refineCell/refineCell.H"
 
 // * * * * * * * * * * * * * * * Static Functions  * * * * * * * * * * * * * //
 

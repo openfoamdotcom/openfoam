@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CodedField.H"
-#include "SubField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "PatchFunction1/CodedField/CodedField.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 namespace Foam
 {

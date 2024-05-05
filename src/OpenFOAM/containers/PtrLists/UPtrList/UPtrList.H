@@ -84,7 +84,7 @@ SourceFiles
 #ifndef Foam_UPtrList_H
 #define Foam_UPtrList_H
 
-#include "PtrListDetail.H"
+#include "containers/PtrLists/PtrListDetail/PtrListDetail.H"
 #include <iterator>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -673,12 +673,12 @@ void sort(UPtrList<T>& list, const Compare& comp);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UPtrListI.H"
+#include "containers/PtrLists/UPtrList/UPtrListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UPtrList.C"
+    #include "containers/PtrLists/UPtrList/UPtrList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

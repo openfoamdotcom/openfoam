@@ -44,8 +44,8 @@ Note
 #ifndef ensightFileName_H
 #define ensightFileName_H
 
-#include "fileName.H"
-#include "word.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ template<> struct Hash<ensight::FileName> : string::hasher {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ensightFileNameI.H"
+#include "ensight/name/ensightFileNameI.H"
 
 #endif
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zoneCombustion.H"
+#include "zoneCombustion/zoneCombustion.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

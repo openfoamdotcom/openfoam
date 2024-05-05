@@ -39,7 +39,7 @@ SourceFiles
 #ifndef incompressible_RASVariables_kEpsilon_H
 #define incompressible_RASVariables_kEpsilon_H
 
-#include "RASModelVariables.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/RASModelVariables/RASModelVariables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

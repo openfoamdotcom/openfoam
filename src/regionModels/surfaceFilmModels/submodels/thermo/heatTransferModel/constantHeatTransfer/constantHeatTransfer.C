@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantHeatTransfer.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/heatTransferModel/constantHeatTransfer/constantHeatTransfer.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

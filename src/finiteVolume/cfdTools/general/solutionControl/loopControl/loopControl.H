@@ -79,9 +79,9 @@ SourceFiles
 #ifndef loopControl_H
 #define loopControl_H
 
-#include "subLoopTime.H"
-#include "dictionary.H"
-#include "wordRes.H"
+#include "db/Time/subLoopTime.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

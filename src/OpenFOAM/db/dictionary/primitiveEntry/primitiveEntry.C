@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveEntry.H"
-#include "dictionary.H"
-#include "OSspecific.H"
-#include "stringOps.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "db/dictionary/dictionary.H"
+#include "include/OSspecific.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

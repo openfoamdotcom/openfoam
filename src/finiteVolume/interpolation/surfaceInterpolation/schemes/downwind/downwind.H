@@ -40,9 +40,9 @@ SourceFiles
 #ifndef downwind_H
 #define downwind_H
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

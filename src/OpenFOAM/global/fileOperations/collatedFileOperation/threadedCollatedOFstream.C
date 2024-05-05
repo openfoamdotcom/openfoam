@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "threadedCollatedOFstream.H"
-#include "decomposedBlockData.H"
-#include "OFstreamCollator.H"
+#include "global/fileOperations/collatedFileOperation/threadedCollatedOFstream.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
+#include "global/fileOperations/collatedFileOperation/OFstreamCollator.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

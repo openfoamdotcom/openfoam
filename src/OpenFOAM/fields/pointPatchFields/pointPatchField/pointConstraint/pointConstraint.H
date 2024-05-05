@@ -43,11 +43,11 @@ SourceFiles
 #ifndef pointConstraint_H
 #define pointConstraint_H
 
-#include "label.H"
-#include "vector.H"
-#include "Tuple2.H"
-#include "transform.H"
-#include "contiguous.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/transform/transform.H"
+#include "primitives/traits/contiguous.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -123,7 +123,7 @@ inline pointConstraint transform(const tensor& tt, const pointConstraint& v);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointConstraintI.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraintI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

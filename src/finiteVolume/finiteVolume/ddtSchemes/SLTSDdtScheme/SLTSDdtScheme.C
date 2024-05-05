@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SLTSDdtScheme.H"
-#include "surfaceInterpolate.H"
-#include "fvMatrices.H"
+#include "finiteVolume/ddtSchemes/SLTSDdtScheme/SLTSDdtScheme.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

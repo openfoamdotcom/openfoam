@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminar.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
-#include "fvmSup.H"
-#include "kinematicSingleLayer.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/laminar/laminar.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "kinematicSingleLayer/kinematicSingleLayer.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

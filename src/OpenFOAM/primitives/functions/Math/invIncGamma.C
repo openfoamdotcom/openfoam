@@ -32,9 +32,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "MathFunctions.H"
-#include "mathematicalConstants.H"
-#include "error.H"
+#include "primitives/functions/Math/MathFunctions.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/error/error.H"
 #include <cmath>
 #include <limits>
 

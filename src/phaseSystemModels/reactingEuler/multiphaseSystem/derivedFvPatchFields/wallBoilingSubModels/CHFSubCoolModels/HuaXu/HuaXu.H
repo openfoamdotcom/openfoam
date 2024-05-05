@@ -67,7 +67,7 @@ SourceFiles
 #ifndef HuaXu_H
 #define HuaXu_H
 
-#include "CHFSubCoolModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/CHFSubCoolModels/CHFSubCoolModel/CHFSubCoolModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

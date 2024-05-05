@@ -26,22 +26,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "decompositionMethod.H"
-#include "globalIndex.H"
-#include "globalMeshData.H"
-#include "syncTools.H"
-#include "faceSet.H"
-#include "regionSplit.H"
-#include "localPointRegion.H"
-#include "minData.H"
-#include "BitOps.H"
-#include "FaceCellWave.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "regionSplit/regionSplit.H"
+#include "regionSplit/localPointRegion.H"
+#include "regionSplit/minData.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
 
 // Compatibility (MAY-2014)
-#include "preserveBafflesConstraint.H"
-#include "preservePatchesConstraint.H"
-#include "preserveFaceZonesConstraint.H"
-#include "singleProcessorFaceSetsConstraint.H"
+#include "decompositionConstraints/preserveBaffles/preserveBafflesConstraint.H"
+#include "decompositionConstraints/preservePatches/preservePatchesConstraint.H"
+#include "decompositionConstraints/preserveFaceZones/preserveFaceZonesConstraint.H"
+#include "decompositionConstraints/singleProcessorFaceSets/singleProcessorFaceSetsConstraint.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

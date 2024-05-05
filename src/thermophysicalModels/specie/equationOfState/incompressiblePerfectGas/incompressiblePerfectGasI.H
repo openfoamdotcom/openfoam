@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressiblePerfectGas.H"
+#include "equationOfState/incompressiblePerfectGas/incompressiblePerfectGas.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

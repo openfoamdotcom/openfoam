@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedMixedFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "dynamicCode.H"
-#include "dictionaryContent.H"
+#include "fields/fvPatchFields/derived/codedMixed/codedMixedFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dictionary/dictionaryContent/dictionaryContent.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

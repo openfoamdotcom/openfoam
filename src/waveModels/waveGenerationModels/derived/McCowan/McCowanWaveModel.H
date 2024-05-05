@@ -35,7 +35,7 @@ Description
 #ifndef waveModels_McCowan_H
 #define waveModels_McCowan_H
 
-#include "solitaryWaveModel.H"
+#include "waveGenerationModels/base/solitaryWaveModel/solitaryWaveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

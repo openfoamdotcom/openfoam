@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyline.H"
-#include "addToRunTimeSelectionTable.H"
-#include "interpolateXY.H"
-#include "quaternion.H"
+#include "polyline/polyline.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "interpolations/interpolateXY/interpolateXY.H"
+#include "primitives/quaternion/quaternion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

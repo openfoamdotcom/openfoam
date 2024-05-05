@@ -79,7 +79,7 @@ SourceFiles
 #ifndef Foam_specularRadiationMixedFvPatchScalarField_H
 #define Foam_specularRadiationMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalDisplacementMeshMover.H"
-#include "mapPolyMesh.H"
-#include "zeroFixedValuePointPatchFields.H"
+#include "externalDisplacementMeshMover/externalDisplacementMeshMover.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "externalDisplacementMeshMover/zeroFixedValue/zeroFixedValuePointPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

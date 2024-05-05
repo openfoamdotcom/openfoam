@@ -49,7 +49,7 @@ SourceFiles
 #ifndef functionEntries_messageDirective_H
 #define functionEntries_messageDirective_H
 
-#include "functionEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

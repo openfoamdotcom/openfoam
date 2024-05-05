@@ -49,11 +49,11 @@ SourceFiles
 #ifndef rigidBodyMotion_H
 #define rigidBodyMotion_H
 
-#include "rigidBodyModel.H"
-#include "rigidBodyModelState.H"
-#include "pointField.H"
-#include "Switch.H"
-#include "Function1Pascal.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -245,7 +245,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyMotionI.H"
+#include "rigidBodyMotion/rigidBodyMotionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

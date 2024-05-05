@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "List.H"
-#include "hexRef8Data.H"
-#include "mapPolyMesh.H"
-#include "mapDistributePolyMesh.H"
-#include "polyMesh.H"
-#include "syncTools.H"
-#include "refinementHistory.H"
-#include "fvMesh.H"
+#include "db/IOobject/IOobject.H"
+#include "containers/Lists/List/List.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/refinementHistory.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RecycleInteraction.H"
+#include "submodels/Kinematic/PatchInteractionModel/RecycleInteraction/RecycleInteraction.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

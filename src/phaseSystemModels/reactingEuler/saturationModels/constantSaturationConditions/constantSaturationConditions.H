@@ -37,7 +37,7 @@ SourceFiles
 #ifndef constantSaturationConditions_H
 #define constantSaturationConditions_H
 
-#include "saturationModel.H"
+#include "saturationModel/saturationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

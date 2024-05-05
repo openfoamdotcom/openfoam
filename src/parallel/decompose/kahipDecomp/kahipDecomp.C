@@ -26,9 +26,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "kahipDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
-#include "PrecisionAdaptor.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 #include <map>
 #include <string>
 #include <vector>

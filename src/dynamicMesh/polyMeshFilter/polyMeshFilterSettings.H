@@ -39,10 +39,10 @@ SourceFiles
 #ifndef polyMeshFilterSettings_H
 #define polyMeshFilterSettings_H
 
-#include "dictionary.H"
-#include "Switch.H"
-#include "scalar.H"
-#include "label.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "polyMeshFilterSettingsI.H"
+#include "polyMeshFilter/polyMeshFilterSettingsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

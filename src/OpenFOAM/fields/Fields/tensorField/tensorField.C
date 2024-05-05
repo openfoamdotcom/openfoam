@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensorField.H"
-#include "transformField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "fields/Fields/transformField/transformField.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.C"
+#include "fields/Fields/Field/FieldFunctionsM.C"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -119,6 +119,6 @@ BINARY_TYPE_OPERATOR(vector, vector, tensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroGradient.H"
-#include "stringListOps.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "wordRes.H"
-#include "addToRunTimeSelectionTable.H"
+#include "zeroGradient/zeroGradient.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

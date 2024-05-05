@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_ignoreFaPatch_H
 #define Foam_ignoreFaPatch_H
 
-#include "faPatch.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

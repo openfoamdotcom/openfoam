@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_labelVector2D_H
 #define Foam_labelVector2D_H
 
-#include "label.H"
-#include "Vector2DPascal.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Vector2D/Vector2DPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

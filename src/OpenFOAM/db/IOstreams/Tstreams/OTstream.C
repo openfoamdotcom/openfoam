@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "OTstream.H"
+#include "db/error/error.H"
+#include "db/IOstreams/Tstreams/OTstream.H"
 #include <cctype>
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //

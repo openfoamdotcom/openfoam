@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedSphericalTensorField.H"
+#include "fields/DimensionedFields/DimensionedSphericalTensorField/DimensionedSphericalTensorField.H"
 
 #define TEMPLATE template<class GeoMesh>
-#include "DimensionedFieldFunctionsM.C"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -52,6 +52,6 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, '|', divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

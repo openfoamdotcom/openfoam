@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentInletFvPatchField.H"
+#include "fields/fvPatchFields/derived/turbulentInlet/turbulentInletFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

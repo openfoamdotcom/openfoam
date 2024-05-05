@@ -63,8 +63,8 @@ SourceFiles
 #ifndef functionObjects_removeRegisteredObject_H
 #define functionObjects_removeRegisteredObject_H
 
-#include "regionFunctionObject.H"
-#include "wordList.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

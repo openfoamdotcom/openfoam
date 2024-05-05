@@ -43,7 +43,7 @@ SourceFiles
 #ifndef mapNearestMethod_H
 #define mapNearestMethod_H
 
-#include "meshToMeshMethod.H"
+#include "meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMeshFormatsCore.H"
-#include "TimeOpenFOAM.H"
-#include "ListOps.H"
-#include "edgeMesh.H"
+#include "edgeMesh/edgeFormats/edgeMeshFormatsCore.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "edgeMesh/edgeMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

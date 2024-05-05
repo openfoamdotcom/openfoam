@@ -44,12 +44,12 @@ SourceFiles
 #ifndef Foam_AABBTree_H
 #define Foam_AABBTree_H
 
-#include "labelList.H"
-#include "labelPair.H"
-#include "DynamicList.H"
-#include "pointField.H"
-#include "treeBoundBox.H"
-#include "Ostream.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/tuples/labelPair.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -225,7 +225,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "AABBTree.C"
+    #include "algorithms/AABBTree/AABBTree.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

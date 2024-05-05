@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "csvCoordSetWriter.H"
-#include "coordSet.H"
-#include "fileName.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "coordSetWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "coordSet/writers/csv/csvCoordSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "coordSet/writers/common/coordSetWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -49,7 +49,7 @@ namespace coordSetWriters
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Implementation
-#include "csvCoordSetWriterImpl.C"
+#include "coordSet/writers/csv/csvCoordSetWriterImpl.C"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

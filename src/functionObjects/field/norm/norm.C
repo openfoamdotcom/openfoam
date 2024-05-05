@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "norm.H"
-#include "addToRunTimeSelectionTable.H"
+#include "norm/norm.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -58,7 +58,7 @@ Foam::functionObjects::norm::normTypeNames
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Implementation
-#include "normImpl.C"
+#include "norm/normImpl.C"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

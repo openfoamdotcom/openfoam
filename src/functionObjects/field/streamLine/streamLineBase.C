@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "streamLineBase.H"
-#include "fvMesh.H"
-#include "ReadFieldsPascal.H"
-#include "OFstream.H"
-#include "sampledSet.H"
-#include "globalIndex.H"
-#include "mapDistribute.H"
-#include "interpolationCellPoint.H"
-#include "wallPolyPatch.H"
-#include "meshSearchMeshObject.H"
-#include "mapPolyMesh.H"
+#include "streamLine/streamLineBase.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshSearch/meshSearchMeshObject.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

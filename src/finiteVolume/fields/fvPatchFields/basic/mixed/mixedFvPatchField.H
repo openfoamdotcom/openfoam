@@ -73,7 +73,7 @@ SourceFiles
 #ifndef Foam_mixedFvPatchField_H
 #define Foam_mixedFvPatchField_H
 
-#include "fvPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -335,7 +335,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mixedFvPatchField.C"
+    #include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

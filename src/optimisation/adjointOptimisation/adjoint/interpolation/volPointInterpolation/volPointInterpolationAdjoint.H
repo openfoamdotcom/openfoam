@@ -40,10 +40,10 @@ SourceFiles
 #ifndef volPointInterpolationAdjoint_H
 #define volPointInterpolationAdjoint_H
 
-#include "MeshObject.H"
-#include "scalarList.H"
-#include "volFields.H"
-#include "pointFields.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "volPointInterpolateAdjoint.C"
+    #include "interpolation/volPointInterpolation/volPointInterpolateAdjoint.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

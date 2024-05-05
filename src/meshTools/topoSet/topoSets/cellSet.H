@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_cellSet_H
 #define Foam_cellSet_H
 
-#include "topoSet.H"
+#include "topoSet/topoSets/topoSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

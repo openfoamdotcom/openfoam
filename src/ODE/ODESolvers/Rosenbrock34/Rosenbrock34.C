@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Rosenbrock34.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ODESolvers/Rosenbrock34/Rosenbrock34.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

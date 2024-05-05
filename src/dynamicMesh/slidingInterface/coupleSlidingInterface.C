@@ -26,22 +26,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "slidingInterface.H"
-#include "polyTopoChange.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "enrichedPatch.H"
-#include "DynamicList.H"
-#include "pointHit.H"
-#include "triangle.H"
-#include "plane.H"
-#include "polyTopoChanger.H"
-#include "polyAddPoint.H"
-#include "polyRemovePoint.H"
-#include "polyAddFace.H"
-#include "polyModifyPoint.H"
-#include "polyModifyFace.H"
-#include "polyRemoveFace.H"
+#include "slidingInterface/slidingInterface.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "slidingInterface/enrichedPatch/enrichedPatch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "polyTopoChange/addObject/polyAddPoint.H"
+#include "polyTopoChange/removeObject/polyRemovePoint.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "polyTopoChange/modifyObject/polyModifyPoint.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/removeObject/polyRemoveFace.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

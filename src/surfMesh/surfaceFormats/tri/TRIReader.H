@@ -44,9 +44,9 @@ SourceFiles
 #ifndef Foam_TRIReader_H
 #define Foam_TRIReader_H
 
-#include "STLpoint.H"
-#include "labelList.H"
-#include "surfaceFormatsCore.H"
+#include "stl/STLpoint.H"
+#include "primitives/ints/lists/labelList.H"
+#include "surfaceFormats/surfaceFormatsCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

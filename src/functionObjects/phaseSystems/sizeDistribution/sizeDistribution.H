@@ -79,10 +79,10 @@ SourceFiles
 #ifndef functionObjects_sizeDistribution_H
 #define functionObjects_sizeDistribution_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "populationBalanceModel.H"
-#include "Enum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

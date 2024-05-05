@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubsetProxy.H"
-#include "volFields.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubsetProxy.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

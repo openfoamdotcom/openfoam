@@ -40,8 +40,8 @@ SourceFiles
 #ifndef PopulationBalancePhaseSystem_H
 #define PopulationBalancePhaseSystem_H
 
-#include "phaseSystem.H"
-#include "populationBalanceModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -118,7 +118,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PopulationBalancePhaseSystem.C"
+    #include "PhaseSystems/PopulationBalancePhaseSystem/PopulationBalancePhaseSystem.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nucleationModel.H"
-#include "phaseSystem.H"
+#include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_coupledPolyPatch_H
 #define Foam_coupledPolyPatch_H
 
-#include "polyPatch.H"
-#include "diagTensorField.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "fields/Fields/diagTensorField/diagTensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

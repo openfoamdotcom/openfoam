@@ -60,9 +60,9 @@ SourceFiles
 #ifndef PatchInteractionFields_H
 #define PatchInteractionFields_H
 
-#include "CloudFunctionObject.H"
-#include "volFields.H"
-#include "Enum.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -189,7 +189,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchInteractionFields.C"
+    #include "submodels/CloudFunctionObjects/PatchInteractionFields/PatchInteractionFields.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

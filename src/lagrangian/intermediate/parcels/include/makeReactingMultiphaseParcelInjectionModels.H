@@ -30,15 +30,15 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CellZoneInjection.H"
-#include "ConeInjection.H"
-#include "ConeNozzleInjection.H"
-#include "FieldActivatedInjection.H"
-#include "ManualInjection.H"
-#include "NoInjection.H"
-#include "PatchInjectionPascal.H"
-#include "PatchFlowRateInjection.H"
-#include "ReactingMultiphaseLookupTableInjection.H"
+#include "submodels/Kinematic/InjectionModel/CellZoneInjection/CellZoneInjection.H"
+#include "submodels/Kinematic/InjectionModel/ConeInjection/ConeInjection.H"
+#include "submodels/Kinematic/InjectionModel/ConeNozzleInjection/ConeNozzleInjection.H"
+#include "submodels/Kinematic/InjectionModel/FieldActivatedInjection/FieldActivatedInjection.H"
+#include "submodels/Kinematic/InjectionModel/ManualInjection/ManualInjection.H"
+#include "submodels/Kinematic/InjectionModel/NoInjection/NoInjection.H"
+#include "submodels/Kinematic/InjectionModel/PatchInjection/PatchInjectionPascal.H"
+#include "submodels/Kinematic/InjectionModel/PatchFlowRateInjection/PatchFlowRateInjection.H"
+#include "submodels/ReactingMultiphase/InjectionModel/ReactingMultiphaseLookupTableInjection/ReactingMultiphaseLookupTableInjection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

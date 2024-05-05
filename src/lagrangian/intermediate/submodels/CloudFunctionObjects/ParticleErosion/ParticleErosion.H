@@ -41,8 +41,8 @@ SourceFiles
 #ifndef ParticleErosion_H
 #define ParticleErosion_H
 
-#include "CloudFunctionObject.H"
-#include "volFields.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticleErosion.C"
+    #include "submodels/CloudFunctionObjects/ParticleErosion/ParticleErosion.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

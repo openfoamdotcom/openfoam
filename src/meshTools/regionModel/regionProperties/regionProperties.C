@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionProperties.H"
-#include "IOdictionary.H"
-#include "TimeOpenFOAM.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

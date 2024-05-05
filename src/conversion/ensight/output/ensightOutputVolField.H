@@ -34,10 +34,10 @@ Description
 #ifndef Foam_ensightOutput_volField_H
 #define Foam_ensightOutput_volField_H
 
-#include "ensightOutput.H"
-#include "ensightFaces.H"
-#include "ensightCells.H"
-#include "volFields.H"
+#include "ensight/output/ensightOutput.H"
+#include "ensight/part/faces/ensightFaces.H"
+#include "ensight/part/cells/ensightCells.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ bool writePointField
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ensightOutputVolFieldTemplates.C"
+    #include "ensight/output/ensightOutputVolFieldTemplates.C"
 #endif
 
 #endif

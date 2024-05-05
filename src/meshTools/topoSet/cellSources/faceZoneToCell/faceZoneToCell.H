@@ -115,8 +115,8 @@ SourceFiles
 #ifndef faceZoneToCell_H
 #define faceZoneToCell_H
 
-#include "topoSetCellSource.H"
-#include "wordRes.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

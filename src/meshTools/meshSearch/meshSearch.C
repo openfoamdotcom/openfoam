@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshSearch.H"
-#include "polyMesh.H"
-#include "indexedOctree.H"
-#include "DynamicList.H"
-#include "treeDataCell.H"
-#include "treeDataFace.H"
+#include "meshSearch/meshSearch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "indexedOctree/treeDataFace.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

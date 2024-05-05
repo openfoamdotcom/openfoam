@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HeterogeneousReactingModel.H"
+#include "submodels/HeterogeneousReactingModel/HeterogeneousReactingModel/HeterogeneousReactingModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -106,6 +106,6 @@ void Foam::HeterogeneousReactingModel<CloudType>::info()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "HeterogeneousReactingModelNew.C"
+#include "submodels/HeterogeneousReactingModel/HeterogeneousReactingModel/HeterogeneousReactingModelNew.C"
 
 // ************************************************************************* //

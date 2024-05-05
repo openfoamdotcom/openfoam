@@ -45,7 +45,7 @@ SourceFiles
 #ifndef filteredLinear2V_H
 #define filteredLinear2V_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

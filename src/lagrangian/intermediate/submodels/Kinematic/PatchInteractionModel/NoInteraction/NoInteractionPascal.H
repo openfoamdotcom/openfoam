@@ -38,7 +38,7 @@ Description
 #ifndef NoInteraction_H
 #define NoInteraction_H
 
-#include "PatchInteractionModel.H"
+#include "submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -104,7 +104,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoInteractionPascal.C"
+    #include "submodels/Kinematic/PatchInteractionModel/NoInteraction/NoInteractionPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

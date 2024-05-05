@@ -28,8 +28,8 @@ License
 #ifndef Foam_cellList_H
 #define Foam_cellList_H
 
-#include "cell.H"
-#include "cellListFwd.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "meshes/meshShapes/cell/cellListFwd.H"
 
 #endif
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_wordRes_H
 #define Foam_wordRes_H
 
-#include "wordRe.H"
-#include "List.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -205,7 +205,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordResI.H"
+#include "primitives/strings/wordRes/wordResI.H"
 
 #endif
 

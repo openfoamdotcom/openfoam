@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedValuePointPatchField.H"
-#include "PointData.H"
-#include "PointEdgeWave.H"
-#include "volPointInterpolation.H"
-#include "zeroGradientPointPatchField.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "algorithms/PointEdgeWave/PointData.H"
+#include "algorithms/PointEdgeWave/PointEdgeWave.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "fields/pointPatchFields/basic/zeroGradient/zeroGradientPointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Foam_cartesianCS_H
 #define Foam_cartesianCS_H
 
-#include "coordinateSystem.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

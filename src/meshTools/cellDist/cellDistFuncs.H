@@ -39,13 +39,13 @@ SourceFiles
 #ifndef cellDistFuncs_H
 #define cellDistFuncs_H
 
-#include "HashSet.H"
-#include "Map.H"
-#include "wordRe.H"
-#include "scalarField.H"
-#include "point.H"
-#include "primitivePatch.H"
-#include "className.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,7 +157,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cellDistFuncsTemplates.C"
+    #include "cellDist/cellDistFuncsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

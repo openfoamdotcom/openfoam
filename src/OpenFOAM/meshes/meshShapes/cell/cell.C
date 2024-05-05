@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cell.H"
-#include "pyramid.H"
-#include "primitiveMesh.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

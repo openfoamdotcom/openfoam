@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundedDdtScheme.H"
-#include "fvcDiv.H"
-#include "fvcDdt.H"
-#include "fvMatrices.H"
-#include "fvmSup.H"
+#include "finiteVolume/ddtSchemes/boundedDdtScheme/boundedDdtScheme.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "fvMatrices/fvMatrices.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -53,8 +53,8 @@ SourceFiles
 #ifndef Foam_messageStream_H
 #define Foam_messageStream_H
 
-#include "label.H"
-#include "word.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/strings/word/word.H"
 #include <string>
 #include <iostream>
 
@@ -293,7 +293,7 @@ extern messageStream SeriousError;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "OSstream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Convenience macros to add the file name and line number to the function name

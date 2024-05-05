@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MatrixBlock.H"
+#include "matrices/MatrixBlock/MatrixBlock.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

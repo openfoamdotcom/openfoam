@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSolidChemistryModel.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "basicSolidChemistryModel/basicSolidChemistryModel.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

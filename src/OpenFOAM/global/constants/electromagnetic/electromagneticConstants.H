@@ -34,7 +34,7 @@ Description
 #ifndef electromagneticConstants_H
 #define electromagneticConstants_H
 
-#include "dimensionedScalar.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

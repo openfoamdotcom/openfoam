@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "TimeOpenFOAM.H"
-#include "Istream.H"
-#include "registerSwitch.H"
+#include "db/IOobject/IOobject.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -72,8 +72,8 @@ SourceFiles
 #ifndef functionObjects_setTimeStepFunctionObject_H
 #define functionObjects_setTimeStepFunctionObject_H
 
-#include "timeFunctionObject.H"
-#include "Function1Pascal.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

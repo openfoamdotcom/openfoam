@@ -92,9 +92,9 @@ SourceFiles
 #ifndef externalFileCoupler_H
 #define externalFileCoupler_H
 
-#include "fileName.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -299,7 +299,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "externalFileCouplerI.H"
+#include "coupling/externalFileCouplerI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

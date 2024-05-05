@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRblock.H"
-#include "gradingDescriptors.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "gradingDescriptor/gradingDescriptors.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

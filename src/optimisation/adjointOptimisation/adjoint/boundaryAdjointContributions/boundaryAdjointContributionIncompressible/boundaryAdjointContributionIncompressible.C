@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryAdjointContributionIncompressible.H"
-#include "adjointRASModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "boundaryAdjointContributions/boundaryAdjointContributionIncompressible/boundaryAdjointContributionIncompressible.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointRASModel/adjointRASModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantAlphaContactAngleFvPatchScalarField.H"
-#include "volMesh.H"
-#include "fvPatchFieldMapper.H"
-#include "addToRunTimeSelectionTable.H"
+#include "alphaContactAngle/constantAlphaContactAngle/constantAlphaContactAngleFvPatchScalarField.H"
+#include "volMesh/volMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

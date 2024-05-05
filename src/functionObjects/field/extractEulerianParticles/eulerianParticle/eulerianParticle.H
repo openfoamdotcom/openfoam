@@ -40,10 +40,10 @@ SourceFiles
 #ifndef Foam_functionObjects_eulerianParticle_H
 #define Foam_functionObjects_eulerianParticle_H
 
-#include "label.H"
-#include "scalar.H"
-#include "vector.H"
-#include "dictionary.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "eulerianParticleTemplates.C"
+    #include "extractEulerianParticles/eulerianParticle/eulerianParticleTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

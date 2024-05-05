@@ -36,8 +36,8 @@ Description
 #ifndef registerSwitch_H
 #define registerSwitch_H
 
-#include "simpleRegIOobject.H"
-#include "macros.H"
+#include "global/debug/simpleRegIOobject.H"
+#include "include/macros.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

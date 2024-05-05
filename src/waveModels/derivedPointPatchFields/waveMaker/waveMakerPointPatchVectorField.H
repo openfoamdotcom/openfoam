@@ -83,8 +83,8 @@ SourceFiles
 #ifndef waveMakerPointPatchVectorField_H
 #define waveMakerPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
-#include "Enum.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

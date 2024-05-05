@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroGradientFaPatchField.H"
-#include "faPatchFieldMapper.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

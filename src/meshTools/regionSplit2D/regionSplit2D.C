@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionSplit2D.H"
-#include "polyMesh.H"
-#include "PatchEdgeFaceWave.H"
-#include "edgeTopoDistanceData.H"
+#include "regionSplit2D/regionSplit2D.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "algorithms/PatchEdgeFaceWave/edgeTopoDistanceData.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

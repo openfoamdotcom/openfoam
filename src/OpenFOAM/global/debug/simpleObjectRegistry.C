@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleObjectRegistry.H"
-#include "dictionary.H"
-#include "ITstream.H"
-#include "StringStream.H"
-#include "int.H"
-#include "floatScalar.H"
+#include "global/debug/simpleObjectRegistry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "primitives/ints/int/int.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

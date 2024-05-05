@@ -28,8 +28,8 @@ License
 #ifndef scaledFixedValueFvPatchFields_H
 #define scaledFixedValueFvPatchFields_H
 
-#include "scaledFixedValueFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/scaledFixedValue/scaledFixedValueFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

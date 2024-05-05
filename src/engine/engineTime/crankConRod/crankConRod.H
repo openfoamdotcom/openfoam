@@ -53,9 +53,9 @@ SourceFiles
 #ifndef crankConRod_H
 #define crankConRod_H
 
-#include "engineTime.H"
-#include "dictionary.H"
-#include "dimensionedScalar.H"
+#include "engineTime/engineTime/engineTime.H"
+#include "db/dictionary/dictionary.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

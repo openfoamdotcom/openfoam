@@ -64,8 +64,8 @@ SourceFiles
 #ifndef Foam_LESModels_sigma_H
 #define Foam_LESModels_sigma_H
 
-#include "LESModel.H"
-#include "LESeddyViscosity.H"
+#include "LES/LESModel/LESModel.H"
+#include "LES/LESeddyViscosity/LESeddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sigma.C"
+    #include "LES/sigma/sigma.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

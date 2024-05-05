@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Raoult_H
 #define Raoult_H
 
-#include "InterfaceCompositionModelPascal1.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -120,7 +120,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Raoult.C"
+    #include "interfacialCompositionModels/interfaceCompositionModels/Raoult/Raoult.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

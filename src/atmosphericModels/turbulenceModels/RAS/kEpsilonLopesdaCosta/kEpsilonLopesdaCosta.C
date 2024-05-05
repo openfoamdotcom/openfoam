@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kEpsilonLopesdaCosta.H"
-#include "fvOptions.H"
-#include "explicitPorositySource.H"
-#include "bound.H"
+#include "turbulenceModels/RAS/kEpsilonLopesdaCosta/kEpsilonLopesdaCosta.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "sources/derived/explicitPorositySource/explicitPorositySource.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

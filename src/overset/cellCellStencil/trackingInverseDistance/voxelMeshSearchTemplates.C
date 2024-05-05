@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "voxelMeshSearch.H"
-#include "OBJstream.H"
+#include "cellCellStencil/trackingInverseDistance/voxelMeshSearch.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

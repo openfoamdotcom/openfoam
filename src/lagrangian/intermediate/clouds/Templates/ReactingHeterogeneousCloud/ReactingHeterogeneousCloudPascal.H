@@ -44,7 +44,7 @@ SourceFiles
 #ifndef ReactingHeterogeneousCloud_H
 #define ReactingHeterogeneousCloud_H
 
-#include "reactingHeterogeneousCloud.H"
+#include "clouds/baseClasses/reactingHeterogeneousCloud/reactingHeterogeneousCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -262,12 +262,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingHeterogeneousCloudI.H"
+#include "clouds/Templates/ReactingHeterogeneousCloud/ReactingHeterogeneousCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingHeterogeneousCloudPascal.C"
+    #include "clouds/Templates/ReactingHeterogeneousCloud/ReactingHeterogeneousCloudPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

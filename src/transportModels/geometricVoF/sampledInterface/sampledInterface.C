@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledInterface.H"
-#include "dictionary.H"
-#include "volFields.H"
-#include "volPointInterpolation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledInterface/sampledInterface.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

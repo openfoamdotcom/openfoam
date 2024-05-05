@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rawSurfaceWriter.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "surfaceWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writers/raw/rawSurfaceWriter.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -48,7 +48,7 @@ namespace surfaceWriters
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Field writing implementation
-#include "rawSurfaceWriterImpl.C"
+#include "writers/raw/rawSurfaceWriterImpl.C"
 
 // Field writing methods
 defineSurfaceWriterWriteFields(Foam::surfaceWriters::rawWriter);

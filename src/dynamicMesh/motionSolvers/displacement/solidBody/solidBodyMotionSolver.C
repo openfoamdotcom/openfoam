@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidBodyMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "transformField.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

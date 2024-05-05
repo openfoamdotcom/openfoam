@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshTools.H"
-#include "pointSet.H"
-#include "faceSet.H"
-#include "cellSet.H"
-#include "fileOperation.H"
-#include "BitOps.H"
-#include "IOobjectList.H"
-#include "basicFvGeometryScheme.H"
-#include "processorPolyPatch.H"
-#include "processorCyclicPolyPatch.H"
-#include "polyBoundaryMeshEntries.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fvMesh/fvGeometryScheme/basic/basicFvGeometryScheme.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshEntries.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

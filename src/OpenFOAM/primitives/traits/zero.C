@@ -28,7 +28,7 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "zero.H"
+#include "primitives/traits/zero.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

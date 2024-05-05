@@ -41,11 +41,11 @@ SourceFiles
 #ifndef Foam_zone_H
 #define Foam_zone_H
 
-#include "zoneIdentifier.H"
-#include "labelList.H"
-#include "typeInfo.H"
-#include "Map.H"
-#include "pointFieldFwd.H"
+#include "meshes/Identifiers/zone/zoneIdentifier.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/primitiveShapes/point/pointFieldFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -98,15 +98,15 @@ TBD
  */
 %include
 {
-#include "exprScanToken.H"
-#include "fieldExprDriver.H"
-#include "fieldExprParser.H"
-#include "fieldExprScanner.H"
-#include "unitConversion.H"
-#include "error.H"
-#include "IOmanip.H"
-#include "exprOps.H"
-#include "exprDriverOps.H"
+#include "expressions/scanToken/exprScanToken.H"
+#include "expressions/fields/fieldExprDriver.H"
+#include "expressions/fields/fieldExprParser.H"
+#include "expressions/fields/fieldExprScanner.H"
+#include "global/constants/unitConversion.H"
+#include "db/error/error.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "expressions/exprOps/exprOps.H"
+#include "expressions/exprDriver/exprDriverOps.H"
 
 // Enable ParseTrace
 #undef NDEBUG

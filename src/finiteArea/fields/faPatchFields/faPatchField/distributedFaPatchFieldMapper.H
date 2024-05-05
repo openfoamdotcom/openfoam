@@ -35,8 +35,8 @@ Description
 #ifndef Foam_distributedFaPatchFieldMapper_H
 #define Foam_distributedFaPatchFieldMapper_H
 
-#include "distributedFieldMapper.H"
-#include "directFaPatchFieldMapper.H"
+#include "fields/Fields/Field/distributedFieldMapper.H"
+#include "fields/faPatchFields/faPatchField/directFaPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

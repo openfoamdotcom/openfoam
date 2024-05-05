@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionaryListEntry.H"
-#include "IOstreams.H"
+#include "db/dictionary/dictionaryListEntry/dictionaryListEntry.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

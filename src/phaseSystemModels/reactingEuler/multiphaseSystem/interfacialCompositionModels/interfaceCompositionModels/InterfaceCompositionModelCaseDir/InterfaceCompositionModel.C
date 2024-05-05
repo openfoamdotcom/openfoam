@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InterfaceCompositionModelPascal1.H"
-#include "reactingEuler_phaseModel.H"
-#include "reactingEuler_phasePair.H"
-#include "pureMixture.H"
-#include "multiComponentMixture.H"
-#include "rhoThermo.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal1.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "mixtures/pureMixture/pureMixture.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
+#include "rhoThermo/rhoThermo.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

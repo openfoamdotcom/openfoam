@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "drivenLinearMotion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "dimensionedVector.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/drivenLinearMotion/drivenLinearMotion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

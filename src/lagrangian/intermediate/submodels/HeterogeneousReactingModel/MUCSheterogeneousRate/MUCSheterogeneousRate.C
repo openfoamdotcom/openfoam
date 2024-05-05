@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MUCSheterogeneousRate.H"
-#include "mathematicalConstants.H"
+#include "submodels/HeterogeneousReactingModel/MUCSheterogeneousRate/MUCSheterogeneousRate.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

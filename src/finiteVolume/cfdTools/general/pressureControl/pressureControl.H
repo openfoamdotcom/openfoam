@@ -40,8 +40,8 @@ SourceFiles
 #ifndef pressureControl_H
 #define pressureControl_H
 
-#include "dimensionedScalar.H"
-#include "volFieldsFwd.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -108,7 +108,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pressureControlI.H"
+#include "cfdTools/general/pressureControl/pressureControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

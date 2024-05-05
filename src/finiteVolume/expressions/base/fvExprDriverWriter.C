@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvExprDriverWriter.H"
-#include "fvExprDriver.H"
+#include "expressions/base/fvExprDriverWriter.H"
+#include "expressions/base/fvExprDriver.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

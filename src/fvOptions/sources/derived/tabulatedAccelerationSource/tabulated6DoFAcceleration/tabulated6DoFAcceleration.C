@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tabulated6DoFAcceleration.H"
-#include "Tuple2.H"
-#include "IFstream.H"
-#include "interpolateSplineXY.H"
+#include "sources/derived/tabulatedAccelerationSource/tabulated6DoFAcceleration/tabulated6DoFAcceleration.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "interpolations/interpolateSplineXY/interpolateSplineXY.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

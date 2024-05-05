@@ -29,11 +29,11 @@ Author
 
 \*----------------------------------------------------------------------------*/
 
-#include "faGlobalMeshData.H"
-#include "faMesh.H"
-#include "globalMeshData.H"
-#include "processorFaPatch.H"
-#include "processorTopologyNew.H"
+#include "faMesh/faGlobalMeshData/faGlobalMeshData.H"
+#include "faMesh/faMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "parallel/processorTopology/processorTopologyNew.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -39,14 +39,14 @@ SourceFiles
 #ifndef liquidFilmModel_H
 #define liquidFilmModel_H
 
-#include "volFieldsFwd.H"
-#include "liquidFilmBase.H"
-#include "faMesh.H"
-#include "regionFaModels_filmTurbulenceModel.H"
-#include "liquidMixtureProperties.H"
-#include "regionFaModels_injectionModelList.H"
-#include "faCFD.H"
-#include "regionFaModels_forceList.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "liquidFilm/liquidFilmBase.H"
+#include "faMesh/faMesh.H"
+#include "liquidFilm/subModels/kinematic/filmTurbulenceModel/filmTurbulenceModel/regionFaModels_filmTurbulenceModel.H"
+#include "liquidProperties/liquidMixtureProperties/liquidMixtureProperties.H"
+#include "liquidFilm/subModels/kinematic/injectionModel/injectionModelList/regionFaModels_injectionModelList.H"
+#include "include/faCFD.H"
+#include "liquidFilm/subModels/kinematic/force/forceList/regionFaModels_forceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

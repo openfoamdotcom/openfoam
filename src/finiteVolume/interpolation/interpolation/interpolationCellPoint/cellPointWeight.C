@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellPointWeight.H"
-#include "polyMesh.H"
-#include "polyMeshTetDecomposition.H"
+#include "interpolation/interpolation/interpolationCellPoint/cellPointWeight.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

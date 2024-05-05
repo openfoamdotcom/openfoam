@@ -28,7 +28,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "profiling.H"
+#include "global/profiling/profiling.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

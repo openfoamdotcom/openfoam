@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "faMatrix.H"
-#include "faLaplacianScheme.H"
-#include "edgeInterpolate.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "faMatrices/faMatrix/faMatrix.H"
+#include "finiteArea/laplacianSchemes/faLaplacianScheme/faLaplacianScheme.H"
+#include "interpolation/edgeInterpolation/edgeInterpolate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

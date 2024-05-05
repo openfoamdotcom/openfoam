@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "skewCorrectedEdgeInterpolation.H"
+#include "faMesh/faMesh.H"
+#include "interpolation/edgeInterpolation/schemes/skewCorrected/skewCorrectedEdgeInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

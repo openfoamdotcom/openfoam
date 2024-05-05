@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "geometricConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "BitOps.H"
-#include "faceBoolSet.H"
+#include "decompositionConstraints/geometric/geometricConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "topoSet/topoSets/faceBoolSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

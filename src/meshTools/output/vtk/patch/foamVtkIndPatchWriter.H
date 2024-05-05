@@ -45,8 +45,8 @@ See Also
 #ifndef Foam_vtk_IndPatchWriter_H
 #define Foam_vtk_IndPatchWriter_H
 
-#include "foamVtkGenericPatchWriter.H"
-#include "indirectPrimitivePatch.H"
+#include "output/vtk/patch/foamVtkGenericPatchWriter.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_vtk_appendBase64Formatter_H
 #define Foam_vtk_appendBase64Formatter_H
 
-#include "foamVtkBase64Layer.H"
+#include "vtk/format/foamVtkBase64Layer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

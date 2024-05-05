@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_PstreamGlobals_H
 #define Foam_PstreamGlobals_H
 
-#include "DynamicList.H"
-#include "UPstream.H"  // for UPstream::Request
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/Pstreams/UPstream.H"  // for UPstream::Request
 
 // Include MPI without any C++ bindings
 #ifndef MPICH_SKIP_MPICXX

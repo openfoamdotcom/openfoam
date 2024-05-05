@@ -103,10 +103,10 @@ SourceFiles
 #ifndef functionObjects_zeroGradient_H
 #define functionObjects_zeroGradient_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
-#include "OFstream.H"
-#include "wordRes.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zeroGradientTemplates.C"
+    #include "zeroGradient/zeroGradientTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

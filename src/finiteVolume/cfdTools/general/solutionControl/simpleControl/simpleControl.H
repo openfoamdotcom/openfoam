@@ -36,7 +36,7 @@ Description
 #ifndef simpleControl_H
 #define simpleControl_H
 
-#include "solutionControl.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControl.H"
 
 //- Declare that pimpleControl will be used
 #define SIMPLE_CONTROL

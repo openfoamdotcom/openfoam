@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectRegistry.H"
-#include "TimeOpenFOAM.H"
-#include "predicates.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/predicates/predicates.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

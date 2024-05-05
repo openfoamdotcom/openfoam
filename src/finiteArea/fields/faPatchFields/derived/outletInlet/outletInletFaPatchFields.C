@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "outletInletFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "fields/faPatchFields/derived/outletInlet/outletInletFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

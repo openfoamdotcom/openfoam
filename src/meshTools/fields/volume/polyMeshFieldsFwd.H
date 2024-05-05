@@ -28,7 +28,7 @@ License
 #ifndef Foam_polyMeshFieldsFwd_H
 #define Foam_polyMeshFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,11 +36,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshReader.H"
-#include "TimeOpenFOAM.H"
-#include "polyPatch.H"
-#include "emptyPolyPatch.H"
-#include "preservePatchTypes.H"
+#include "common/reader/meshReader.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,8 +41,8 @@ SourceFiles
 #ifndef sphericalTensor2D_H
 #define sphericalTensor2D_H
 
-#include "SphericalTensor2DPascal.H"
-#include "tensor.H"
+#include "primitives/SphericalTensor2D/SphericalTensor2DPascal.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

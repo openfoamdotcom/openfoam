@@ -39,7 +39,7 @@ SourceFiles
 #ifndef parsing_H
 #define parsing_H
 
-#include "Enum.H"
+#include "primitives/enums/Enum.H"
 #include <cerrno>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -79,7 +79,7 @@ namespace parsing
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "parsingI.H"
+#include "primitives/strings/parsing/parsingI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

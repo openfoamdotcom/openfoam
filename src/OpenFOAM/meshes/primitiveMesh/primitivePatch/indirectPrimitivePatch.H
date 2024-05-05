@@ -43,8 +43,8 @@ Description
 #ifndef Foam_indirectPrimitivePatch_H
 #define Foam_indirectPrimitivePatch_H
 
-#include "primitivePatch.H"
-#include "IndirectList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Lain_H
 #define Lain_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

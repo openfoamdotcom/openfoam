@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constrainPressure.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "geometricOneField.H"
-#include "updateableSnGrad.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "cfdTools/general/updateableSnGrad/updateableSnGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

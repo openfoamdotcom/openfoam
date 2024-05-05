@@ -39,7 +39,7 @@ SourceFiles
 #ifndef sensitivityMultiple_H
 #define sensitivityMultiple_H
 
-#include "adjointSensitivity.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

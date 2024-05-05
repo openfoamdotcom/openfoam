@@ -54,9 +54,9 @@ SourceFiles
 #ifndef Foam_vtk_surfaceFieldWriter_H
 #define Foam_vtk_surfaceFieldWriter_H
 
-#include "foamVtkFileWriter.H"
-#include "fvMesh.H"
-#include "pointField.H"
+#include "vtk/file/foamVtkFileWriter.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volFields.H"
-#include "fvMatrix.H"
-#include "oversetFvPatchField.H"
-#include "calculatedProcessorFvPatchField.H"
-#include "lduInterfaceFieldPtrsList.H"
-#include "processorFvPatch.H"
-#include "syncTools.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "oversetPolyPatch/oversetFvPatchField.H"
+#include "fields/fvPatchFields/constraint/calculatedProcessor/calculatedProcessorFvPatchField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/lduInterfaceField/lduInterfaceFieldPtrsList.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * * //
 

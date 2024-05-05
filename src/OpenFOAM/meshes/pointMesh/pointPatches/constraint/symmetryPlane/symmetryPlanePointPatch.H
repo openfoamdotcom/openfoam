@@ -37,8 +37,8 @@ SourceFiles
 #ifndef symmetryPlanePointPatch_H
 #define symmetryPlanePointPatch_H
 
-#include "facePointPatch.H"
-#include "symmetryPlanePolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetryPlane/symmetryPlanePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

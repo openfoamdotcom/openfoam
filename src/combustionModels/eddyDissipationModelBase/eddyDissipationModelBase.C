@@ -24,8 +24,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eddyDissipationModelBase.H"
-#include "zeroGradientFvPatchFields.H"
+#include "eddyDissipationModelBase/eddyDissipationModelBase.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 namespace Foam
 {

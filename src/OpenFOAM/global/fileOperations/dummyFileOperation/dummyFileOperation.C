@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dummyFileOperation.H"
-#include "dummyISstream.H"
-#include "Fstream.H"
-#include "objectRegistry.H"
+#include "global/fileOperations/dummyFileOperation/dummyFileOperation.H"
+#include "db/IOstreams/dummy/dummyISstream.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

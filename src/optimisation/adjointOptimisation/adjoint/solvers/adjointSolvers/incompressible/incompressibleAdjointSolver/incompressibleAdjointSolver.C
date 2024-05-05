@@ -27,13 +27,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleAdjointSolver.H"
-#include "incompressiblePrimalSolver.H"
-#include "wallFvPatch.H"
-#include "sensitivityTopO.H"
-#include "adjointBoundaryConditions.H"
-#include "adjointBoundaryConditionsFwd.H"
-#include "addToRunTimeSelectionTable.H"
+#include "solvers/adjointSolvers/incompressible/incompressibleAdjointSolver/incompressibleAdjointSolver.H"
+#include "solvers/primalSolvers/incompressible/incompressiblePrimalSolver/incompressiblePrimalSolver.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/topO/sensitivityTopO.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryConditions.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryConditionsFwd.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

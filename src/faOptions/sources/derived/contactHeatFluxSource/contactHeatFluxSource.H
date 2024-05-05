@@ -79,12 +79,12 @@ SourceFiles
 #ifndef Foam_fa_contactHeatFluxSource_H
 #define Foam_fa_contactHeatFluxSource_H
 
-#include "faOption.H"
-#include "Function1Pascal.H"
-#include "PtrList.H"
-#include "areaFields.H"
-#include "faceSetOption.H"
-#include "temperatureCoupledBase.H"
+#include "faOption/faOption.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/areaFields/areaFields.H"
+#include "faceSetOption/faceSetOption.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

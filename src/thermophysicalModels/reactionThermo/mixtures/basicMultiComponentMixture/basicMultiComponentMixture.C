@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicMultiComponentMixture.H"
+#include "mixtures/basicMultiComponentMixture/basicMultiComponentMixture.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorFaPatchField.H"
-#include "transformField.H"
+#include "fields/faPatchFields/constraint/processor/processorFaPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

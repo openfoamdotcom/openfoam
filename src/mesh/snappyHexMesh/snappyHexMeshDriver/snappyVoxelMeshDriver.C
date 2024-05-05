@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappyVoxelMeshDriver.H"
-#include "meshRefinement.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "refinementParameters.H"
-#include "refinementSurfaces.H"
-#include "refinementFeatures.H"
-#include "shellSurfaces.H"
-#include "searchableSurfaces.H"
-#include "voxelMeshSearch.H"
-#include "IOmanip.H"
+#include "snappyHexMeshDriver/snappyVoxelMeshDriver.H"
+#include "meshRefinement/meshRefinement.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "snappyHexMeshDriver/refinementParameters/refinementParameters.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "refinementFeatures/refinementFeatures.H"
+#include "shellSurfaces/shellSurfaces.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "cellCellStencil/trackingInverseDistance/voxelMeshSearch.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

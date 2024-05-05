@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quasiNewton.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/updateMethod/quasiNewton/quasiNewton.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

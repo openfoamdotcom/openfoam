@@ -40,15 +40,15 @@ SourceFiles
 #ifndef Foam_FixedList_H
 #define Foam_FixedList_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "zero.H"
-#include "contiguous.H"
-#include "stdFoam.H"
-#include "autoPtr.H"
-#include "Hash.H"
-#include "ListPolicy.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/traits/zero.H"
+#include "primitives/traits/contiguous.H"
+#include "include/stdFoam.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/hashes/Hash/Hash.H"
+#include "containers/Lists/policy/ListPolicy.H"
 
 // <algorithm> already included by stdFoam.H
 #include <iterator>
@@ -605,13 +605,13 @@ inline void Swap(FixedList<T, N>& a, FixedList<T, N>& b)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FixedListI.H"
+#include "containers/Lists/FixedList/FixedListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FixedList.C"
-    #include "FixedListIO.C"
+    #include "containers/Lists/FixedList/FixedList.C"
+    #include "containers/Lists/FixedList/FixedListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

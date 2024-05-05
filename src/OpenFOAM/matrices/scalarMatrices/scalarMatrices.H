@@ -42,12 +42,12 @@ SourceFiles
 #ifndef scalarMatrices_H
 #define scalarMatrices_H
 
-#include "RectangularMatrix.H"
-#include "SquareMatrix.H"
-#include "SymmetricSquareMatrix.H"
-#include "DiagonalMatrix.H"
-#include "scalarField.H"
-#include "labelList.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "matrices/SymmetricSquareMatrix/SymmetricSquareMatrix.H"
+#include "matrices/DiagonalMatrix/DiagonalMatrix.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,7 +170,7 @@ scalarRectangularMatrix SVDinv
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "scalarMatricesTemplates.C"
+    #include "matrices/scalarMatrices/scalarMatricesTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

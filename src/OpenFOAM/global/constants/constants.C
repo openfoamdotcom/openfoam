@@ -29,14 +29,14 @@ Note
 \*---------------------------------------------------------------------------*/
 
 // Constants supplied in the main controlDict
-#include "fundamentalConstants.C"
+#include "global/constants/fundamental/fundamentalConstants.C"
 
 // Derived constants.
 // Note: order is important
-#include "universalConstants.C"
-#include "electromagneticConstants.C"
-#include "atomicConstants.C"
-#include "physicoChemicalConstants.C"
-#include "thermodynamicConstants.C"
+#include "global/constants/universal/universalConstants.C"
+#include "global/constants/electromagnetic/electromagneticConstants.C"
+#include "global/constants/atomic/atomicConstants.C"
+#include "global/constants/physicoChemical/physicoChemicalConstants.C"
+#include "global/constants/thermodynamic/thermodynamicConstants.C"
 
 // ************************************************************************* //

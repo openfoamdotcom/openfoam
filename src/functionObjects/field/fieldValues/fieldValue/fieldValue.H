@@ -77,9 +77,9 @@ SourceFiles
 #ifndef functionObjects_fieldValue_H
 #define functionObjects_fieldValue_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "Field.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -215,12 +215,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fieldValueI.H"
+#include "fieldValues/fieldValue/fieldValueI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldValueTemplates.C"
+    #include "fieldValues/fieldValue/fieldValueTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

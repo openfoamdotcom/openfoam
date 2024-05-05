@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "motionSmootherAlgo.H"
-#include "meshTools.H"
-#include "processorPointPatchFields.H"
-#include "pointConstraint.H"
-#include "pointConstraints.H"
-#include "syncTools.H"
+#include "motionSmoother/motionSmootherAlgo.H"
+#include "meshTools/meshTools.H"
+#include "fields/pointPatchFields/constraint/processor/processorPointPatchFields.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

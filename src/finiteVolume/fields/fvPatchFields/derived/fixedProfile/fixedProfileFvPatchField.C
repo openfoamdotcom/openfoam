@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedProfileFvPatchField.H"
+#include "fields/fvPatchFields/derived/fixedProfile/fixedProfileFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

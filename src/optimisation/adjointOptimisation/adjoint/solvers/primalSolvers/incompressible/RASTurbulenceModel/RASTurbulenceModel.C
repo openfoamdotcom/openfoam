@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RASTurbulenceModel.H"
-#include "findRefCell.H"
-#include "TimeOpenFOAM.H"
-#include "addToRunTimeSelectionTable.H"
+#include "solvers/primalSolvers/incompressible/RASTurbulenceModel/RASTurbulenceModel.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -45,14 +45,14 @@ SourceFiles
 #ifndef Foam_vtk_output_H
 #define Foam_vtk_output_H
 
-#include "autoPtr.H"
-#include "bitSet.H"
-#include "Enum.H"
-#include "foamVtkCore.H"
-#include "foamVtkFormatter.H"
-#include "floatScalar.H"
-#include "symmTensor.H"
-#include "IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/enums/Enum.H"
+#include "vtk/base/foamVtkCore.H"
+#include "vtk/format/foamVtkFormatter.H"
+#include "primitives/Scalar/floatScalar/floatScalar.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -349,10 +349,10 @@ namespace legacy
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtkOutputI.H"
+#include "vtk/output/foamVtkOutputI.H"
 
 #ifdef NoRepository
-    #include "foamVtkOutputTemplates.C"
+    #include "vtk/output/foamVtkOutputTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ddt2.H"
-#include "stringOps.H"
-#include "stringListOps.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "wordRes.H"
-#include "steadyStateDdtScheme.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ddt2/ddt2.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "finiteVolume/ddtSchemes/steadyStateDdtScheme/steadyStateDdtScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

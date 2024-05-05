@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiBandTransmissivity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/wallTransmissivityModel/multiBandTransmissivity/multiBandTransmissivity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

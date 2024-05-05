@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DRGEP.H"
-#include "SortableListDRGEP.H"
+#include "chemistryModel/TDACChemistryModel/reduction/DRGEP/DRGEP.H"
+#include "chemistryModel/TDACChemistryModel/reduction/DRGEP/SortableListDRGEP.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

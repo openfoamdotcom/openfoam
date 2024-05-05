@@ -71,9 +71,9 @@ SourceFiles
 #ifndef Foam_thermalShellFvPatchScalarField_H
 #define Foam_thermalShellFvPatchScalarField_H
 
-#include "autoPtr.H"
-#include "thermalShellModel.H"
-#include "fixedValueFvPatchFields.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "thermalShellModel/thermalShellModel.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

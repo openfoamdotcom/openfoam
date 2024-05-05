@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "face.H"
-#include "scalarField.H"
+#include "meshes/meshShapes/face/face.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

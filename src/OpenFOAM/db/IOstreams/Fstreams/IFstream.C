@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IFstream.H"
-#include "OSspecific.H"  // For isFile(), fileSize()
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "include/OSspecific.H"  // For isFile(), fileSize()
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

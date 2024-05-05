@@ -51,7 +51,7 @@ SourceFiles
 #ifndef multiBandTransmissivity_H
 #define multiBandTransmissivity_H
 
-#include "wallTransmissivityModel.H"
+#include "submodels/wallTransmissivityModel/wallTransmissivityModel/wallTransmissivityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

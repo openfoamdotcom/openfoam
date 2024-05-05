@@ -38,8 +38,8 @@ SourceFiles
 #ifndef expressions_exprDriverOps_H
 #define expressions_exprDriverOps_H
 
-#include "scalarOps.H"
-#include "FieldOps.H"
+#include "primitives/ops/scalarOps.H"
+#include "fields/Fields/Field/FieldOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

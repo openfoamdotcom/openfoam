@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "decompositionConstraint.H"
-#include "syncTools.H"
-#include "cyclicAMIPolyPatch.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

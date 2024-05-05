@@ -38,11 +38,11 @@ SourceFiles
 #ifndef sphericalTensorField_H
 #define sphericalTensorField_H
 
-#include "scalarField.H"
-#include "sphericalTensor.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "fields/Fields/Field/FieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -94,12 +94,12 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sphericalTensorFieldTemplates.C"
+    #include "fields/Fields/sphericalTensorField/sphericalTensorFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

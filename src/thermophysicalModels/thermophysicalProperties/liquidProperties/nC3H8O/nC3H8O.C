@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nC3H8O.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidProperties/nC3H8O/nC3H8O.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

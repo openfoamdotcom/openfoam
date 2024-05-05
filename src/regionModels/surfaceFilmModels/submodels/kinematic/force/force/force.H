@@ -38,9 +38,9 @@ SourceFiles
 #ifndef force_H
 #define force_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
-#include "fvMatrices.H"
+#include "submodels/filmSubModelBase.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

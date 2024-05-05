@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_cyclicAMIFvsPatchField_H
 #define Foam_cyclicAMIFvsPatchField_H
 
-#include "cyclicAMIFvPatch.H"
-#include "coupledFvsPatchField.H"
+#include "fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.H"
+#include "fields/fvsPatchFields/basic/coupled/coupledFvsPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -143,7 +143,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cyclicAMIFvsPatchField.C"
+    #include "fields/fvsPatchFields/constraint/cyclicAMI/cyclicAMIFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

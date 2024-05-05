@@ -50,9 +50,9 @@ SourceFiles
 #ifndef Foam_processorFvPatchField_H
 #define Foam_processorFvPatchField_H
 
-#include "coupledFvPatchField.H"
-#include "processorLduInterfaceField.H"
-#include "processorFvPatch.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -325,7 +325,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/processor/processorFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

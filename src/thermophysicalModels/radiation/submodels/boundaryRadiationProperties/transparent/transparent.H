@@ -49,7 +49,7 @@ Usage
 #ifndef transparent_H
 #define transparent_H
 
-#include "boundaryRadiationPropertiesPatch.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationPropertiesPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

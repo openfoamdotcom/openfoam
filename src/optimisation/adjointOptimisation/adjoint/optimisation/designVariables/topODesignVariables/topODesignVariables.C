@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "localIOdictionary.H"
-#include "topODesignVariables.H"
-#include "MeshObject.H"
-#include "wallFvPatch.H"
-#include "cutFaceIso.H"
-#include "cutCellIso.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "optimisation/designVariables/topODesignVariables/topODesignVariables.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "cellCuts/cutFace/cutFaceIso.H"
+#include "cellCuts/cutCell/cutCellIso.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

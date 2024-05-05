@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedCellToFaceStencil.H"
-#include "globalIndex.H"
-#include "syncTools.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedCellToFaceStencil.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

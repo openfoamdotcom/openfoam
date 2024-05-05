@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "deltaBoundary.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
+#include "deltaBoundary/deltaBoundary.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

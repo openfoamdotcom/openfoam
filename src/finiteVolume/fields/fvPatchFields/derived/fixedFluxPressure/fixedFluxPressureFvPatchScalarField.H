@@ -54,9 +54,9 @@ SourceFiles
 #ifndef fixedFluxPressureFvPatchScalarField_H
 #define fixedFluxPressureFvPatchScalarField_H
 
-#include "fvPatchFields.H"
-#include "fixedGradientFvPatchFields.H"
-#include "updateableSnGrad.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "cfdTools/general/updateableSnGrad/updateableSnGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
 namespace Foam
 {

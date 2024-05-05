@@ -49,7 +49,7 @@ Usage
 #ifndef opaqueDiffusive_H
 #define opaqueDiffusive_H
 
-#include "boundaryRadiationPropertiesPatch.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationPropertiesPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

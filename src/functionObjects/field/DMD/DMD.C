@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DMD.H"
-#include "DMDModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "DMD/DMD.H"
+#include "DMD/DMDModels/DMDModel/DMDModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

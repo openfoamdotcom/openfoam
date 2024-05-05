@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchFunction1Expression.H"
-#include "SubField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/PatchFunction1/PatchFunction1Expression.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 namespace Foam
 {

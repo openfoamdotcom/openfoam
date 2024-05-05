@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolateSplineXY.H"
-#include "primitiveFields.H"
+#include "interpolations/interpolateSplineXY/interpolateSplineXY.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "projectVertex.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "searchableSurfacesQueries.H"
-#include "pointConstraint.H"
+#include "blockVertices/projectVertex/projectVertex.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

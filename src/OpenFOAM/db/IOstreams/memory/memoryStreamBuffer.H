@@ -35,8 +35,8 @@ Description
 #ifndef Foam_memoryStreamBuffer_H
 #define Foam_memoryStreamBuffer_H
 
-#include "stdFoam.H"  // For span
-#include "DynamicList.H"
+#include "include/stdFoam.H"  // For span
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 #include <memory>
 #include <type_traits>

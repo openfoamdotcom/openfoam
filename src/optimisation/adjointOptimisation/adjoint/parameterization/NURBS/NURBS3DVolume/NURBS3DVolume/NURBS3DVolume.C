@@ -27,14 +27,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "NURBS3DVolume.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "parameterization/NURBS/NURBS3DVolume/NURBS3DVolume/NURBS3DVolume.H"
 
-#include "OFstream.H"
-#include "TimeOpenFOAM.H"
-#include "deltaBoundary.H"
-#include "coupledFvPatch.H"
-#include "controlPointsDefinition.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "deltaBoundary/deltaBoundary.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "parameterization/NURBS/NURBS3DVolume/controlPointsDefinition/controlPointsDefinition/controlPointsDefinition.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

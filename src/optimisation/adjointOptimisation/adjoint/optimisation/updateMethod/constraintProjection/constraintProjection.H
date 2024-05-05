@@ -43,8 +43,8 @@ SourceFiles
 #ifndef constraintProjection_H
 #define constraintProjection_H
 
-#include "constrainedOptimisationMethod.H"
-#include "updateMethod.H"
+#include "optimisation/updateMethod/constrainedOptimisationMethod/constrainedOptimisationMethod.H"
+#include "optimisation/updateMethod/updateMethod/updateMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

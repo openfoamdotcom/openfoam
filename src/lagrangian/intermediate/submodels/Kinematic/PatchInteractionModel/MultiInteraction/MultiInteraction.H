@@ -79,7 +79,7 @@ Description
 #ifndef MultiInteraction_H
 #define MultiInteraction_H
 
-#include "PatchInteractionModel.H"
+#include "submodels/Kinematic/PatchInteractionModel/PatchInteractionModel/PatchInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -164,7 +164,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MultiInteraction.C"
+    #include "submodels/Kinematic/PatchInteractionModel/MultiInteraction/MultiInteraction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

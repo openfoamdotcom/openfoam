@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileOperation.H"
-#include "stringOps.H"
-#include "ITstream.H"
-#include "Pstream.H"
-#include "SHA1.H"
-#include "OSspecific.H"  // for hostName()
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/hashes/SHA1/SHA1.H"
+#include "include/OSspecific.H"  // for hostName()
 #include <cinttypes>
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

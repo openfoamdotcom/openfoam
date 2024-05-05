@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setTimeStepFunctionObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "setTimeStep/setTimeStepFunctionObject.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -47,7 +47,7 @@ SourceFiles
 #ifndef boundedDdtScheme_H
 #define boundedDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,7 +239,7 @@ tmp<surfaceScalarField> boundedDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "boundedDdtScheme.C"
+    #include "finiteVolume/ddtSchemes/boundedDdtScheme/boundedDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

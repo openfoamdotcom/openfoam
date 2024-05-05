@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "entry.H"
-#include "dictionary.H"
-#include "StringStream.H"
-#include "JobInfo.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "global/JobInfo/JobInfo.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

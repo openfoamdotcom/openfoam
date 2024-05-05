@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallDependentModel.H"
-#include "wallDist.H"
+#include "interfacialModels/wallDependentModel/wallDependentModel.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -66,7 +66,7 @@ See also
 #ifndef hTabulatedThermo_H
 #define hTabulatedThermo_H
 
-#include "integratedNonUniformTableThermophysicalFunction.H"
+#include "thermophysicalFunctions/integratedNonUniformTable/integratedNonUniformTableThermophysicalFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -158,7 +158,7 @@ public:
             inline scalar Gstd(const scalar T) const;
 
 
-            #include "HtoEthermo.H"
+            #include "thermo/thermo/HtoEthermo.H"
 
 
         // Derivative term used for Jacobian
@@ -189,10 +189,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hTabulatedThermoI.H"
+#include "thermo/hTabulated/hTabulatedThermoI.H"
 
 #ifdef NoRepository
-    #include "hTabulatedThermo.C"
+    #include "thermo/hTabulated/hTabulatedThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

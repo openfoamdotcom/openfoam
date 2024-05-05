@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "treeBoundBox.H"
-#include "Random.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

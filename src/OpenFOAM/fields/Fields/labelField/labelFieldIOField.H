@@ -28,9 +28,9 @@ License
 #ifndef Foam_labelFieldIOField_H
 #define Foam_labelFieldIOField_H
 
-#include "labelField.H"
-#include "IOField.H"
-#include "CompactIOField.H"
+#include "fields/Fields/labelField/labelField.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

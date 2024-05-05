@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndexAndTransform.H"
-#include "globalMeshData.H"
+#include "primitives/globalIndexAndTransform/globalIndexAndTransform.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

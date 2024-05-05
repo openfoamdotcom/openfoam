@@ -48,7 +48,7 @@ SourceFiles
 #ifndef RaviPetersen_H
 #define RaviPetersen_H
 
-#include "laminarFlameSpeed.H"
+#include "laminarFlameSpeed/laminarFlameSpeed.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKsurfaceFormat.H"
-#include "vtkUnstructuredReader.H"
-#include "labelIOField.H"
-#include "scalarIOField.H"
-#include "faceTraits.H"
+#include "surfaceFormats/vtk/VTKsurfaceFormat.H"
+#include "vtk/read/vtkUnstructuredReader.H"
+#include "fields/Fields/labelField/labelIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
 #include <fstream>
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

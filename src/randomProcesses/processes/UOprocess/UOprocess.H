@@ -37,9 +37,9 @@ SourceFiles
 #ifndef UOprocess_H
 #define UOprocess_H
 
-#include "complexFields.H"
-#include "scalar.H"
-#include "Random.H"
+#include "fields/Fields/complex/complexFields.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

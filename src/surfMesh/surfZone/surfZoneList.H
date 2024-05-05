@@ -28,9 +28,9 @@ License
 #ifndef Foam_surfZoneList_H
 #define Foam_surfZoneList_H
 
-#include "surfZone.H"
-#include "List.H"
-#include "surfZoneIdentifierList.H"
+#include "surfZone/surfZone.H"
+#include "containers/Lists/List/List.H"
+#include "meshes/Identifiers/surface/surfZoneIdentifierList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

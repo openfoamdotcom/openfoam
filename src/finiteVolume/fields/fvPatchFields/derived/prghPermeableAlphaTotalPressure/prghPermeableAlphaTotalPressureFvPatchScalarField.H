@@ -91,11 +91,11 @@ SourceFiles
 #ifndef prghPermeableAlphaTotalPressureFvPatchScalarField_H
 #define prghPermeableAlphaTotalPressureFvPatchScalarField_H
 
-#include "mixedFvPatchField.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "updateableSnGrad.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "cfdTools/general/updateableSnGrad/updateableSnGrad.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

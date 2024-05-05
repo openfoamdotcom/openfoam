@@ -75,7 +75,7 @@ SourceFiles
 #ifndef Foam_quadraticEqn_H
 #define Foam_quadraticEqn_H
 
-#include "Roots.H"
+#include "primitives/polynomialEqns/Roots.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -146,7 +146,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "quadraticEqnI.H"
+#include "primitives/polynomialEqns/quadraticEqn/quadraticEqnI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -51,9 +51,9 @@ SourceFiles
 #ifndef GCMMA_H
 #define GCMMA_H
 
-#include "lineSearch.H"
-#include "MMA.H"
-#include "OFstream.H"
+#include "optimisation/lineSearch/lineSearch/lineSearch.H"
+#include "optimisation/updateMethod/MMA/MMA.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

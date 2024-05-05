@@ -41,8 +41,8 @@ SourceFiles
 #ifndef Stokes_H
 #define Stokes_H
 
-#include "laminarModel.H"
-#include "linearViscousStress.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "linearViscousStress/linearViscousStress.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Stokes.C"
+    #include "laminar/Stokes/Stokes.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

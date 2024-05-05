@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oversetFvMeshBase.H"
-#include "addToRunTimeSelectionTable.H"
-#include "cellCellStencilObject.H"
-#include "zeroGradientFvPatchFields.H"
-#include "lduPrimitiveProcessorInterface.H"
-#include "globalIndex.H"
-#include "GAMGAgglomeration.H"
+#include "oversetFvMesh/oversetFvMeshBase.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduPrimitiveProcessorInterface.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

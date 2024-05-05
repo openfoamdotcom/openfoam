@@ -36,9 +36,9 @@ Description
 #ifndef Foam_processorLOD_H
 #define Foam_processorLOD_H
 
-#include "autoPtr.H"
-#include "typeInfo.H"
-#include "mapDistributeBase.H"  // For layoutTypes
+#include "memory/autoPtr/autoPtr.H"
+#include "db/typeInfo/typeInfo.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"  // For layoutTypes
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

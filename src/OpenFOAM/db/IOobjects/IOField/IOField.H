@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_IOField_H
 #define Foam_IOField_H
 
-#include "Field.H"
-#include "regIOobject.H"
+#include "fields/Fields/Field/Field.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -199,7 +199,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOField.C"
+    #include "db/IOobjects/IOField/IOField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

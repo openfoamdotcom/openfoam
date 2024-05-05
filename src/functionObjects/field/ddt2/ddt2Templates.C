@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "dimensionedType.H"
-#include "fvcDdt.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "finiteVolume/fvc/fvcDdt.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -41,8 +41,8 @@ SourceFiles
 #ifndef emptyFaPatchField_H
 #define emptyFaPatchField_H
 
-#include "faPatchField.H"
-#include "emptyFaPatch.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
+#include "faMesh/faPatches/constraint/empty/emptyFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "emptyFaPatchField.C"
+    #include "fields/faPatchFields/constraint/empty/emptyFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

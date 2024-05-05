@@ -31,8 +31,8 @@ Description
 #ifndef ccmBoundaryInfo_H
 #define ccmBoundaryInfo_H
 
-#include "word.H"
-#include "Ostream.H"
+#include "primitives/strings/word/word.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -55,10 +55,10 @@ SourceFiles
 #ifndef edgeSurface_H
 #define edgeSurface_H
 
-#include "edgeList.H"
-#include "labelList.H"
-#include "pointField.H"
-#include "typeInfo.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarRange.H"
-#include "Switch.H"
-#include "MinMax.H"
-#include "error.H"
-#include "word.H"
+#include "primitives/ranges/scalarRange/scalarRange.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "db/error/error.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

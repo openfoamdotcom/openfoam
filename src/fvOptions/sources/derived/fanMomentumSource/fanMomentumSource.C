@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fanMomentumSource.H"
-#include "IFstream.H"
-#include "addToRunTimeSelectionTable.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
+#include "sources/derived/fanMomentumSource/fanMomentumSource.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

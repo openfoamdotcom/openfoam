@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "distributedDILUPreconditioner.H"
-#include "processorLduInterface.H"
-#include "cyclicLduInterface.H"
-#include "cyclicAMILduInterface.H"
-#include "processorColour.H"
+#include "matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDILUPreconditioner.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMILduInterfaceField/cyclicAMILduInterface.H"
+#include "matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/processorColour.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

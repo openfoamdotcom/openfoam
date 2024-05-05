@@ -49,7 +49,7 @@ SourceFiles
 #ifndef TomiyamaLift_H
 #define TomiyamaLift_H
 
-#include "liftModel.H"
+#include "interfacialModels/liftModels/liftModel/liftModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

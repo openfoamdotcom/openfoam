@@ -4,7 +4,7 @@
 #ifndef FoamCompat_tetPointRef_H
 #define FoamCompat_tetPointRef_H
 
-#include "tetrahedron.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
 
 #endif
 

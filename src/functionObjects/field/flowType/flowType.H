@@ -104,7 +104,7 @@ SourceFiles
 #ifndef functionObjects_flowType_H
 #define functionObjects_flowType_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

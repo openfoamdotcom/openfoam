@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shellSurfaces.H"
-#include "searchableSurface.H"
-#include "boundBox.H"
-#include "triSurfaceMesh.H"
-#include "refinementSurfaces.H"
-#include "searchableSurfaces.H"
-#include "orientedSurface.H"
-#include "pointIndexHit.H"
-#include "volumeType.H"
-#include "distributedTriSurfaceMesh.H"
+#include "shellSurfaces/shellSurfaces.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "meshes/boundBox/boundBox.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "triSurface/orientedSurface/orientedSurface.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

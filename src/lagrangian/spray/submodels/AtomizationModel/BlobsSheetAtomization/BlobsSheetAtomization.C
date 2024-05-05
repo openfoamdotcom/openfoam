@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BlobsSheetAtomization.H"
+#include "submodels/AtomizationModel/BlobsSheetAtomization/BlobsSheetAtomization.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

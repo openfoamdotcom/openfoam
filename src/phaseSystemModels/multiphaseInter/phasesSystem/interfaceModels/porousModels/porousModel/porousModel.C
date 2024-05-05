@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "porousModel.H"
-#include "phasePair.H"
+#include "interfaceModels/porousModels/porousModel/porousModel.H"
+#include "phasePair/phasePair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

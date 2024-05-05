@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementHistory.H"
-#include "mapPolyMesh.H"
-#include "mapDistributePolyMesh.H"
-#include "polyMesh.H"
-#include "syncTools.H"
-#include "topoSet.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/refinementHistory.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "topoSet/topoSets/topoSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -45,7 +45,7 @@ SourceFiles
 #ifndef TomiyamaSwarm_H
 #define TomiyamaSwarm_H
 
-#include "swarmCorrection.H"
+#include "interfacialModels/swarmCorrections/swarmCorrection/swarmCorrection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

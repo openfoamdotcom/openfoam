@@ -39,14 +39,14 @@ SourceFiles
 #ifndef Foam_functionObjects_streamLineBase_H
 #define Foam_functionObjects_streamLineBase_H
 
-#include "fvMeshFunctionObject.H"
-#include "DynamicList.H"
-#include "scalarList.H"
-#include "vectorList.H"
-#include "coordSetWriter.H"
-#include "indirectPrimitivePatch.H"
-#include "interpolation.H"
-#include "Enum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

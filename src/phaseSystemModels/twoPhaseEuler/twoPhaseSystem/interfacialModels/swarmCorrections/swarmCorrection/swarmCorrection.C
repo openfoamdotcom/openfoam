@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "swarmCorrection.H"
-#include "phasePair.H"
+#include "interfacialModels/swarmCorrections/swarmCorrection/swarmCorrection.H"
+#include "phasePair/phasePair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

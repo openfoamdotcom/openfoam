@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SurfaceFilmModelPascal.H"
-#include "mathematicalConstants.H"
-#include "surfaceFilmRegionModel.H"
-#include "liquidFilmBase.H"
+#include "submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelPascal.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "surfaceFilmRegionModel/surfaceFilmRegionModel.H"
+#include "liquidFilm/liquidFilmBase.H"
 
 using namespace Foam::constant;
 
@@ -479,6 +479,6 @@ void Foam::SurfaceFilmModel<CloudType>::info()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SurfaceFilmModelNewPascal.C"
+#include "submodels/Kinematic/SurfaceFilmModel/SurfaceFilmModel/SurfaceFilmModelNewPascal.C"
 
 // ************************************************************************* //

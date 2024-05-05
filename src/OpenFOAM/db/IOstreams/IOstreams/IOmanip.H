@@ -35,8 +35,8 @@ Description
 #ifndef Foam_IOmanip_H
 #define Foam_IOmanip_H
 
-#include "Istream.H"
-#include "Ostream.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

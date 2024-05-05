@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduPrimitiveMesh.H"
-#include "processorLduInterface.H"
-#include "processorCyclicGAMGInterface.H"
-#include "edgeHashes.H"
-#include "labelPair.H"
-#include "processorGAMGInterface.H"
+#include "meshes/lduMesh/lduPrimitiveMesh.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/processorCyclicGAMGInterface/processorCyclicGAMGInterface.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "primitives/tuples/labelPair.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/processorGAMGInterface/processorGAMGInterface.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

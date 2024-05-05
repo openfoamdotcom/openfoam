@@ -45,8 +45,8 @@ SourceFiles
 #ifndef cellLimitedGrad_H
 #define cellLimitedGrad_H
 
-#include "gradScheme.H"
-#include "Field.H"
+#include "finiteVolume/gradSchemes/gradScheme/gradScheme.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -214,7 +214,7 @@ inline void cellLimitedGrad<Type, Limiter>::limitFace
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cellLimitedGrad.C"
+    #include "finiteVolume/gradSchemes/limitedGradSchemes/cellLimitedGrad/cellLimitedGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

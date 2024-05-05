@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_famSup_H
 #define Foam_famSup_H
 
-#include "areaFieldsFwd.H"
-#include "faMatrix.H"
-#include "zeroField.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "faMatrices/faMatrix/faMatrix.H"
+#include "fields/Fields/zeroField/zeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -181,7 +181,7 @@ namespace fam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "famSup.C"
+    #include "finiteArea/fam/famSup.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

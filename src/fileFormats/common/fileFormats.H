@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_fileFormats_H
 #define Foam_fileFormats_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

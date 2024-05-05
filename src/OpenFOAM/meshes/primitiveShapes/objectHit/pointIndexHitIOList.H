@@ -28,8 +28,8 @@ License
 #ifndef Foam_pointIndexHitIOList_H
 #define Foam_pointIndexHitIOList_H
 
-#include "pointIndexHit.H"
-#include "IOList.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

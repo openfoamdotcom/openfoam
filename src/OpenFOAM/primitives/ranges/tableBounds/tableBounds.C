@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tableBounds.H"
+#include "primitives/ranges/tableBounds/tableBounds.H"
 
 // * * * * * * * * * * * * * * * * Global Data * * * * * * * * * * * * * * * //
 

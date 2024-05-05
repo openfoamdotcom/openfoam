@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HeatTransferCoeffPascal.H"
-#include "ThermoCloudPascal.H"
+#include "submodels/CloudFunctionObjects/HeatTransferCoeff/HeatTransferCoeffPascal.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

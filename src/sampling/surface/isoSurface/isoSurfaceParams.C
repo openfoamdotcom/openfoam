@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfaceParams.H"
-#include "dictionary.H"
-#include "Switch.H"
-#include "boundBox.H"
+#include "surface/isoSurface/isoSurfaceParams.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

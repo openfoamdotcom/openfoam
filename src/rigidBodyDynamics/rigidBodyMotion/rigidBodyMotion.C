@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyMotion.H"
-#include "rigidBodySolver.H"
-#include "septernion.H"
+#include "rigidBodyMotion/rigidBodyMotion.H"
+#include "rigidBodySolvers/rigidBodySolver/rigidBodySolver.H"
+#include "primitives/septernion/septernion.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

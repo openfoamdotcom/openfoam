@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussFaConvectionScheme.H"
-#include "faMesh.H"
+#include "finiteArea/convectionSchemes/gaussFaConvectionScheme/gaussFaConvectionScheme.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

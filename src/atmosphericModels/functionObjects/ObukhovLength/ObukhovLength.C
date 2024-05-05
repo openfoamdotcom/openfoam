@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ObukhovLength.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "mapPolyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "zeroGradientFvPatchField.H"
-#include "coupledFvPatchField.H"
-#include "processorFvPatchField.H"
+#include "functionObjects/ObukhovLength/ObukhovLength.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
+#include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.H"
+#include "fields/fvPatchFields/constraint/processor/processorFvPatchField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

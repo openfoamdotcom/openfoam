@@ -56,11 +56,11 @@ SourceFiles
 #define Foam_vtk_seriesWriter_H
 
 #include <fstream>
-#include "foamVtkOutputOptions.H"
-#include "instant.H"
-#include "fileNameInstant.H"
-#include "DynamicList.H"
-#include "HashSet.H"
+#include "vtk/output/foamVtkOutputOptions.H"
+#include "db/Time/instant/instant.H"
+#include "db/Time/instant/fileNameInstant.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -268,7 +268,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "foamVtkSeriesWriterI.H"
+#include "vtk/file/foamVtkSeriesWriterI.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

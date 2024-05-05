@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Lamb_H
 #define Lamb_H
 
-#include "virtualMassModel.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

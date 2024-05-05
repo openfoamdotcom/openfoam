@@ -74,15 +74,15 @@ SourceFiles
 #ifndef Foam_sampledSurface_H
 #define Foam_sampledSurface_H
 
-#include "polySurface.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "polyMesh.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "surfaceMesh.H"
-#include "interpolation.H"
+#include "polySurface/polySurface.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -538,7 +538,7 @@ Ostream& operator<<(Ostream& os, const sampledSurface& s);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledSurfaceTemplates.C"
+    #include "sampledSurface/sampledSurface/sampledSurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef cellCellStencils_trackingInverseDistance_H
 #define cellCellStencils_trackingInverseDistance_H
 
-#include "inverseDistanceCellCellStencil.H"
-#include "globalIndex.H"
+#include "cellCellStencil/inverseDistance/inverseDistanceCellCellStencil.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

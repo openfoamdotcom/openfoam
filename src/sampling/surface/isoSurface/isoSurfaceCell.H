@@ -48,9 +48,9 @@ SourceFiles
 #ifndef isoSurfaceCell_H
 #define isoSurfaceCell_H
 
-#include "labelPair.H"
-#include "pointIndexHit.H"
-#include "isoSurfaceBase.H"
+#include "primitives/tuples/labelPair.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "surface/isoSurface/isoSurfaceBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -309,7 +309,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "isoSurfaceCellTemplates.C"
+    #include "surface/isoSurface/isoSurfaceCellTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

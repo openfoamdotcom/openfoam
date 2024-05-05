@@ -57,9 +57,9 @@ SourceFiles
 #ifndef directionInfo_H
 #define directionInfo_H
 
-#include "point.H"
-#include "labelList.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -271,7 +271,7 @@ template<> struct is_contiguous<directionInfo> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "directionInfoI.H"
+#include "meshCut/directions/directionInfo/directionInfoI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

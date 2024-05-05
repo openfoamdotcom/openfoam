@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UOPstream.H"
-#include "int.H"
-#include "token.H"
+#include "db/IOstreams/Pstreams/UOPstream.H"
+#include "primitives/ints/int/int.H"
+#include "db/IOstreams/token/token.H"
 #include <cctype>
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

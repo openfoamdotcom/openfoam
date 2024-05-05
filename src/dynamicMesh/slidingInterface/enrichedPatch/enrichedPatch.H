@@ -54,8 +54,8 @@ SourceFiles
 #ifndef Foam_enrichedPatch_H
 #define Foam_enrichedPatch_H
 
-#include "Map.H"
-#include "primitivePatch.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -281,7 +281,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "enrichedPatchI.H"
+#include "slidingInterface/enrichedPatch/enrichedPatchI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

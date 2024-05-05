@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PairCollisionRecord.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/PairCollisionRecord/PairCollisionRecord.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ void Foam::PairCollisionRecord<Type>::operator=
 
 // * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * * * //
 
-#include "PairCollisionRecordIO.C"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/PairCollisionRecord/PairCollisionRecordIO.C"
 
 
 // ************************************************************************* //

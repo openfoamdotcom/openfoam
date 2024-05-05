@@ -42,10 +42,10 @@ SourceFiles
 #ifndef faPatchMapper_H
 #define faPatchMapper_H
 
-#include "faPatchFieldMapper.H"
-#include "faceMapper.H"
-#include "faPatch.H"
-#include "primitiveFields.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
+#include "meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

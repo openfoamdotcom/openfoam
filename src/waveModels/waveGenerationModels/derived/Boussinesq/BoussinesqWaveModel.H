@@ -35,7 +35,7 @@ Description
 #ifndef waveModels_Boussinesq_H
 #define waveModels_Boussinesq_H
 
-#include "solitaryWaveModel.H"
+#include "waveGenerationModels/base/solitaryWaveModel/solitaryWaveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

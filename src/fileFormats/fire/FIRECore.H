@@ -37,11 +37,11 @@ SourceFiles
 #ifndef FIRECore_H
 #define FIRECore_H
 
-#include "point.H"
-#include "labelList.H"
-#include "pointField.H"
-#include "IOstreams.H"
-#include "Enum.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

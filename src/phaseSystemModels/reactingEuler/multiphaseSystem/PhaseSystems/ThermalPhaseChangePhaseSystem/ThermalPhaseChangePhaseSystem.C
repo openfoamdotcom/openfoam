@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermalPhaseChangePhaseSystem.H"
-#include "alphatPhaseChangeWallFunctionFvPatchScalarField.H"
-#include "fvcVolumeIntegrate.H"
-#include "fvmSup.H"
+#include "PhaseSystems/ThermalPhaseChangePhaseSystem/ThermalPhaseChangePhaseSystem.H"
+#include "derivedFvPatchFields/alphatPhaseChangeWallFunction/alphatPhaseChangeWallFunctionFvPatchScalarField.H"
+#include "finiteVolume/fvc/fvcVolumeIntegrate.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //
 

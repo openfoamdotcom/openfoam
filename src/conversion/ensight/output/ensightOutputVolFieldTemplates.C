@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightOutputVolField.H"
-#include "ensightMesh.H"
+#include "ensight/output/ensightOutputVolField.H"
+#include "ensight/mesh/ensightMesh.H"
 
-#include "fvMesh.H"
-#include "linear.H"
-#include "volPointInterpolation.H"
-#include "interpolation.H"
-#include "processorFvPatch.H"
-#include "DynamicField.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
 
 // * * * * * * * * * * * * * * * *  Detail * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "processorPointPatchField.H"
-#include "processorPolyPatch.H"
+#include "fields/pointPatchFields/constraint/processor/processorPointPatchField.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

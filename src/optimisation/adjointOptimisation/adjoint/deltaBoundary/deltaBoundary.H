@@ -40,10 +40,10 @@ SourceFiles
 #ifndef deltaBoundary_H
 #define deltaBoundary_H
 
-#include "fieldTypes.H"
-#include "vectorField.H"
-#include "tensorField.H"
-#include "pointField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

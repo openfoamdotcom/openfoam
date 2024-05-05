@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correctedLnGrad.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "linearEdgeInterpolation.H"
-#include "gaussFaGrad.H"
+#include "finiteArea/lnGradSchemes/correctedLnGrad/correctedLnGrad.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "interpolation/edgeInterpolation/schemes/linear/linearEdgeInterpolation.H"
+#include "finiteArea/gradSchemes/gaussFaGrad/gaussFaGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

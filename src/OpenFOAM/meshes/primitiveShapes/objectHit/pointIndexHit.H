@@ -40,7 +40,7 @@ Description
 #ifndef Foam_pointIndexHit_H
 #define Foam_pointIndexHit_H
 
-#include "pointHit.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

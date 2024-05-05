@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Ergun_H
 #define Ergun_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

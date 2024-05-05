@@ -28,8 +28,8 @@ License
 #ifndef symmetryPlanePointPatchFields_H
 #define symmetryPlanePointPatchFields_H
 
-#include "symmetryPlanePointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/constraint/symmetryPlane/symmetryPlanePointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

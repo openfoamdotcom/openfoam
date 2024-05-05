@@ -38,8 +38,8 @@ SourceFiles
 #ifndef wallDependentModel_H
 #define wallDependentModel_H
 
-#include "fvMesh.H"
-#include "volFields.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

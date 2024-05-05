@@ -41,8 +41,8 @@ SourceFiles
 #ifndef rawTopoChangerFvMesh_H
 #define rawTopoChangerFvMesh_H
 
-#include "topoChangerFvMesh.H"
-#include "bitSet.H"
+#include "topoChangerFvMesh/topoChangerFvMesh.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -112,7 +112,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "rawTopoChangerFvMeshTemplates.C"
+    #include "rawTopoChangerFvMesh/rawTopoChangerFvMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

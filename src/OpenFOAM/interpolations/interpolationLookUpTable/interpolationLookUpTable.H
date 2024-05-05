@@ -42,11 +42,11 @@ SourceFiles
 #ifndef Foam_interpolationLookUpTable_H
 #define Foam_interpolationLookUpTable_H
 
-#include "List.H"
-#include "ListOps.H"
-#include "scalarField.H"
-#include "HashTable.H"
-#include "IOdictionary.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -228,10 +228,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationLookUpTableI.H"
+#include "interpolations/interpolationLookUpTable/interpolationLookUpTableI.H"
 
 #ifdef NoRepository
-    #include "interpolationLookUpTable.C"
+    #include "interpolations/interpolationLookUpTable/interpolationLookUpTable.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

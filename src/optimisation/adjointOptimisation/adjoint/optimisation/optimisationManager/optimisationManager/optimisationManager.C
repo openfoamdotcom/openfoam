@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointSolverManager.H"
-#include "dictionary.H"
-#include "optimisationManager.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
+#include "db/dictionary/dictionary.H"
+#include "optimisation/optimisationManager/optimisationManager/optimisationManager.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

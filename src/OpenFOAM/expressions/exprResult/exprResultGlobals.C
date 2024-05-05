@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprResultGlobals.H"
-#include "TimeOpenFOAM.H"
+#include "expressions/exprResult/exprResultGlobals.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

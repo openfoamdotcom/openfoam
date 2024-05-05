@@ -45,9 +45,9 @@ SourceFiles
 #ifndef ThermoCloud_H
 #define ThermoCloud_H
 
-#include "KinematicCloudPascal.H"
-#include "thermoCloud.H"
-#include "SLGThermo.H"
+#include "clouds/Templates/KinematicCloud/KinematicCloudPascal.H"
+#include "clouds/baseClasses/thermoCloud/thermoCloud.H"
+#include "SLGThermo/SLGThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -393,12 +393,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ThermoCloudI.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoCloudPascal.C"
+    #include "clouds/Templates/ThermoCloud/ThermoCloudPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

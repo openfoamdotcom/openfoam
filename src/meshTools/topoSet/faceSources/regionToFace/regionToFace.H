@@ -84,8 +84,8 @@ SourceFiles
 #ifndef regionToFace_H
 #define regionToFace_H
 
-#include "topoSetFaceSource.H"
-#include "indirectPrimitivePatch.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

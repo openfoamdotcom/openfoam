@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeCellCentres.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writeCellCentres/writeCellCentres.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

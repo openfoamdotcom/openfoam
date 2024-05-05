@@ -28,7 +28,7 @@ License
 #ifndef Foam_zeroGradientFaPatchFields_H
 #define Foam_zeroGradientFaPatchFields_H
 
-#include "zeroGradientFaPatchField.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectiveTopOSolidVolume.H"
-#include "createZeroField.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/geometric/objectiveTopOSolidVolume/objectiveTopOSolidVolume.H"
+#include "global/createZeroField.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,7 +42,7 @@ SourceFiles
 #ifndef constantAlphaContactAngleFvPatchScalarField_H
 #define constantAlphaContactAngleFvPatchScalarField_H
 
-#include "alphaContactAngleTwoPhaseFvPatchScalarField.H"
+#include "alphaContactAngle/alphaContactAngleTwoPhaseFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

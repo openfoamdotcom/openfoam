@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "DarcyForchheimer.H"
-#include "geometricOneField.H"
-#include "fvMatrices.H"
-#include "pointIndList.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "cfdTools/general/porosityModel/DarcyForchheimer/DarcyForchheimer.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "fvMatrices/fvMatrices.H"
+#include "meshes/primitiveShapes/point/pointIndList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

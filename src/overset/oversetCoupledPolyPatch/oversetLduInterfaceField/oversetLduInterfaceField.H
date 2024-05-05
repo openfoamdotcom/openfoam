@@ -37,8 +37,8 @@ SourceFiles
 #ifndef oversetLduInterfaceField_H
 #define oversetLduInterfaceField_H
 
-#include "primitiveFieldsFwd.H"
-#include "typeInfo.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

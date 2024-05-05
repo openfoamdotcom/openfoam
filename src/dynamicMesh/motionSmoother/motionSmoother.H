@@ -77,8 +77,8 @@ SourceFiles
 #ifndef motionSmoother_H
 #define motionSmoother_H
 
-#include "motionSmootherData.H"
-#include "motionSmootherAlgo.H"
+#include "motionSmoother/motionSmootherData.H"
+#include "motionSmoother/motionSmootherAlgo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

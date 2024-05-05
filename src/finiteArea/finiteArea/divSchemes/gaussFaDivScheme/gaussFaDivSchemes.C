@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussFaDivScheme.H"
-#include "faMesh.H"
+#include "finiteArea/divSchemes/gaussFaDivScheme/gaussFaDivScheme.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

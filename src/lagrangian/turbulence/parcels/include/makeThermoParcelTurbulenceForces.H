@@ -30,7 +30,7 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "BrownianMotionForce.H"
+#include "submodels/Thermodynamic/ParticleForces/BrownianMotion/BrownianMotionForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

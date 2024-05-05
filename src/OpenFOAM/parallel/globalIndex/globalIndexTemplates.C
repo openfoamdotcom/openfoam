@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndex.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

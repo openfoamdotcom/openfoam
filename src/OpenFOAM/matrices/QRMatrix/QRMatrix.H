@@ -136,8 +136,8 @@ SourceFiles
 #ifndef Foam_QRMatrix_H
 #define Foam_QRMatrix_H
 
-#include "RectangularMatrix.H"
-#include "SquareMatrix.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -383,12 +383,12 @@ MatrixType pinv
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "QRMatrixI.H"
+#include "matrices/QRMatrix/QRMatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "QRMatrix.C"
+    #include "matrices/QRMatrix/QRMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

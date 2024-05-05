@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "leastSquaresFaGrad.H"
+#include "faMesh/faMesh.H"
+#include "finiteArea/gradSchemes/leastSquaresFaGrad/leastSquaresFaGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

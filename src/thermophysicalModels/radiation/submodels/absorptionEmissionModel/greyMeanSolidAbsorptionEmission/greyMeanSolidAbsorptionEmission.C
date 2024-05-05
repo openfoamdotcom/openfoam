@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "greyMeanSolidAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
-#include "unitConversion.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "submodels/absorptionEmissionModel/greyMeanSolidAbsorptionEmission/greyMeanSolidAbsorptionEmission.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/unitConversion.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

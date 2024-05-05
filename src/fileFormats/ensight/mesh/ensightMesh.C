@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightMesh.H"
-#include "ensightGeoFile.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
+#include "ensight/mesh/ensightMesh.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

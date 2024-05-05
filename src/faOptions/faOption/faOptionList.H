@@ -37,12 +37,12 @@ SourceFile
 #ifndef Foam_faOptionList_H
 #define Foam_faOptionList_H
 
-#include "faOption.H"
-#include "PtrList.H"
-#include "GeometricField.H"
-#include "geometricOneField.H"
-#include "faPatchField.H"
-#include "fvMesh.H"
+#include "faOption/faOption.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -240,7 +240,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faOptionListTemplates.C"
+    #include "faOption/faOptionListTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

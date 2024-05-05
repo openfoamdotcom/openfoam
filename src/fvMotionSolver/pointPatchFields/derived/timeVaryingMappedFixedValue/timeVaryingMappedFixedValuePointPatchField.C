@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeVaryingMappedFixedValuePointPatchField.H"
-#include "TimeOpenFOAM.H"
-#include "rawIOField.H"
+#include "pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchField.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjects/rawIOField/rawIOField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

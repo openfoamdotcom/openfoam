@@ -28,8 +28,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "harmonic.H"
+#include "fvMesh/fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/harmonic/harmonic.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

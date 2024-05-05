@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oversetAdjustPhi.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "cellCellStencilObject.H"
-#include "syncTools.H"
-#include "fv.H"
+#include "oversetAdjustPhi/oversetAdjustPhi.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "finiteVolume/fv/fv.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

@@ -111,8 +111,8 @@ SourceFiles
 #ifndef cellToPoint_H
 #define cellToPoint_H
 
-#include "topoSetPointSource.H"
-#include "Enum.H"
+#include "topoSet/pointSources/topoSetPointSource/topoSetPointSource.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -52,9 +52,9 @@ SourceFiles
 #ifndef searchableDisk_H
 #define searchableDisk_H
 
-#include "plane.H"
-#include "MinMax.H"
-#include "searchableSurface.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

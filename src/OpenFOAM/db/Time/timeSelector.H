@@ -36,8 +36,8 @@ Description
     \verbatim
     timeSelector::addOptions();
     // add other options
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     instantList timeDirs = timeSelector::select0(runTime, args);
     ...
     forAll(timeDirs, timei)
@@ -74,8 +74,8 @@ SourceFiles
 #ifndef Foam_timeSelector_H
 #define Foam_timeSelector_H
 
-#include "scalarRanges.H"
-#include "instantList.H"
+#include "primitives/ranges/scalarRange/scalarRanges.H"
+#include "db/Time/instant/instantList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_zoneIdentifier_H
 #define Foam_zoneIdentifier_H
 
-#include "wordList.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -55,13 +55,13 @@ SourceFiles
 #ifndef Foam_slidingInterface_H
 #define Foam_slidingInterface_H
 
-#include "polyMeshModifier.H"
-#include "primitivePatch.H"
-#include "polyPatchID.H"
-#include "ZoneIDs.H"
-#include "intersection.H"
-#include "Pair.H"
-#include "objectHit.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshes/Identifiers/patch/polyPatchID.H"
+#include "meshes/Identifiers/zone/ZoneIDs.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "primitives/tuples/Pair.H"
+#include "meshes/primitiveShapes/objectHit/objectHit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "averageNeighbourFvGeometryScheme.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "cellAspectRatio.H"
-#include "syncTools.H"
-#include "polyMeshTools.H"
-#include "unitConversion.H"
-#include "OBJstream.H"
-#include "surfaceWriter.H"
+#include "fvMesh/fvGeometryScheme/averageNeighbour/averageNeighbourFvGeometryScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMesh/fvGeometryScheme/highAspectRatio/cellAspectRatio.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshTools.H"
+#include "global/constants/unitConversion.H"
+#include "obj/OBJstream.H"
+#include "writers/common/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "highAspectRatioFvGeometryScheme.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "triangle.H"
-#include "syncTools.H"
-#include "cellAspectRatio.H"
-#include "emptyPolyPatch.H"
-#include "wedgePolyPatch.H"
+#include "fvMesh/fvGeometryScheme/highAspectRatio/highAspectRatioFvGeometryScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fvMesh/fvGeometryScheme/highAspectRatio/cellAspectRatio.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

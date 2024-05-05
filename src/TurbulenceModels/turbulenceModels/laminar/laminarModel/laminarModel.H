@@ -38,7 +38,7 @@ SourceFiles
 #ifndef laminarModel_H
 #define laminarModel_H
 
-#include "TurbulenceModelPascal.H"
+#include "TurbulenceModel/TurbulenceModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,7 +198,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "laminarModel.C"
+    #include "laminar/laminarModel/laminarModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

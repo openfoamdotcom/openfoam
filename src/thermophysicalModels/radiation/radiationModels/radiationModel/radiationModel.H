@@ -45,13 +45,13 @@ SourceFiles
 #ifndef radiationModel_H
 #define radiationModel_H
 
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "volFields.H"
-#include "fvMatricesFwd.H"
-#include "Switch.H"
-#include "absorptionEmissionModel.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatricesFwd.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

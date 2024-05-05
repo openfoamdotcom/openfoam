@@ -85,7 +85,7 @@ SourceFiles
 #ifndef nearestToPoint_H
 #define nearestToPoint_H
 
-#include "topoSetPointSource.H"
+#include "topoSet/pointSources/topoSetPointSource/topoSetPointSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

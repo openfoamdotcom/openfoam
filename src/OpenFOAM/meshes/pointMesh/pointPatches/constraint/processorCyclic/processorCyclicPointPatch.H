@@ -45,8 +45,8 @@ SourceFiles
 #ifndef Foam_processorCyclicPointPatch_H
 #define Foam_processorCyclicPointPatch_H
 
-#include "processorPointPatch.H"
-#include "processorCyclicPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/constraint/processor/processorPointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

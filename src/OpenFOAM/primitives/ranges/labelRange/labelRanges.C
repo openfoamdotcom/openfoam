@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelRanges.H"
+#include "primitives/ranges/labelRange/labelRanges.H"
 #include <numeric>
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

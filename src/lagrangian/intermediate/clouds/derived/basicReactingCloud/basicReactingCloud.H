@@ -34,11 +34,11 @@ Description
 #ifndef basicReactingCloud_H
 #define basicReactingCloud_H
 
-#include "CloudPascal.H"
-#include "KinematicCloudPascal.H"
-#include "ThermoCloudPascal.H"
-#include "ReactingCloudPascal.H"
-#include "basicReactingParcel.H"
+#include "Cloud/CloudPascal.H"
+#include "clouds/Templates/KinematicCloud/KinematicCloudPascal.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudPascal.H"
+#include "clouds/Templates/ReactingCloud/ReactingCloudPascal.H"
+#include "parcels/derived/basicReactingParcel/basicReactingParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

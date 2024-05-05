@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IncompressibleTurbulenceModelPascal.H"
-#include "incompressible/transportModel/transportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "IncompressibleTurbulenceModel/IncompressibleTurbulenceModelPascal.H"
+#include "transportModel/transportModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "makeTurbulenceModel.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

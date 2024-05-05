@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointRotatingWallVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "adjointBoundaryConditions/adjointRotatingWallVelocity/adjointRotatingWallVelocityFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

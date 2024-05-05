@@ -41,11 +41,11 @@ SourceFiles
 #ifndef foamChemistryReader_H
 #define foamChemistryReader_H
 
-#include "chemistryReader.H"
-#include "fileName.H"
-#include "labelList.H"
-#include "speciesTable.H"
-#include "atomicWeights.H"
+#include "chemistryReaders/chemistryReader/chemistryReader.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/ints/lists/labelList.H"
+#include "speciesTable/speciesTable.H"
+#include "atomicWeights/atomicWeights.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamChemistryReader.C"
+    #include "chemistryReaders/foamChemistryReader/foamChemistryReader.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

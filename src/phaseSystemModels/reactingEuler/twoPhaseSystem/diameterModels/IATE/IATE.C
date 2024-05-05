@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IATE.H"
-#include "IATEsource.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcAverage.H"
-#include "fvOptions.H"
-#include "mathematicalConstants.H"
-#include "fundamentalConstants.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/IATE/IATE.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcAverage.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "global/constants/fundamental/fundamentalConstants.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

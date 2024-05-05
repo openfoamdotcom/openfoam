@@ -37,9 +37,9 @@ SourceFiles
 #ifndef blendedEdgeInterpolation_H
 #define blendedEdgeInterpolation_H
 
-#include "linearEdgeInterpolation.H"
-#include "upwindEdgeInterpolation.H"
-#include "areaFields.H"
+#include "interpolation/edgeInterpolation/schemes/linear/linearEdgeInterpolation.H"
+#include "interpolation/edgeInterpolation/schemes/upwind/upwindEdgeInterpolation.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

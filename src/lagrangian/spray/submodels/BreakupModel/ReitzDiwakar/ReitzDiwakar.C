@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReitzDiwakar.H"
+#include "submodels/BreakupModel/ReitzDiwakar/ReitzDiwakar.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

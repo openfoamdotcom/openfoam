@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "displacementInterpolationMotionSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "SortableList.H"
-#include "GlobalIOList.H"
-#include "Tuple2.H"
-#include "mapPolyMesh.H"
-#include "interpolateXY.H"
+#include "motionSolvers/displacement/interpolation/displacementInterpolationMotionSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "db/IOobjects/GlobalIOList/GlobalIOList.H"
+#include "primitives/tuples/Tuple2.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "interpolations/interpolateXY/interpolateXY.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -40,8 +40,8 @@ SourceFiles
 #ifndef regularisationRadius_H
 #define regularisationRadius_H
 
-#include "fvMatrices.H"
-#include "runTimeSelectionTables.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

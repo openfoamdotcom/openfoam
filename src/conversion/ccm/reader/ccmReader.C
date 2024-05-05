@@ -25,11 +25,11 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "ccmReader.H"
-#include "IFstream.H"
-#include "IOdictionary.H"
+#include "reader/ccmReader.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
-#include "ccmInternal.H"  // include last to avoid any strange interactions
+#include "common/ccmInternal.H"  // include last to avoid any strange interactions
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

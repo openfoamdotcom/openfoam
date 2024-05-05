@@ -65,7 +65,7 @@ SourceFiles
 #ifndef distributedDICPreconditioner_H
 #define distributedDICPreconditioner_H
 
-#include "distributedDILUPreconditioner.H"
+#include "matrices/lduMatrix/preconditioners/distributedDILUPreconditioner/distributedDILUPreconditioner.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

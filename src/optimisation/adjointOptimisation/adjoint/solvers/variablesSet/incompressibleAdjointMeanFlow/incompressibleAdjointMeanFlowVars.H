@@ -37,8 +37,8 @@ Description
 #ifndef incompressibleAdjointMeanFlowVars_H
 #define incompressibleAdjointMeanFlowVars_H
 
-#include "variablesSet.H"
-#include "incompressibleVars.H"
+#include "solvers/variablesSet/variablesSet/variablesSet.H"
+#include "solvers/variablesSet/incompressible/incompressibleVars.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "incompressibleAdjointMeanFlowVarsI.H"
+#include "solvers/variablesSet/incompressibleAdjointMeanFlow/incompressibleAdjointMeanFlowVarsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

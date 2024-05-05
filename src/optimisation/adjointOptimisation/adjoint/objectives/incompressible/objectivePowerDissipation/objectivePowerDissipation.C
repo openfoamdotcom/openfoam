@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectivePowerDissipation.H"
-#include "incompressibleAdjointSolver.H"
-#include "createZeroField.H"
-#include "topOVariablesBase.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/incompressible/objectivePowerDissipation/objectivePowerDissipation.H"
+#include "solvers/adjointSolvers/incompressible/incompressibleAdjointSolver/incompressibleAdjointSolver.H"
+#include "global/createZeroField.H"
+#include "optimisation/designVariables/topODesignVariables/topOVariablesBase/topOVariablesBase.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

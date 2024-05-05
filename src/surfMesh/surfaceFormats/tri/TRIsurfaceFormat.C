@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TRIsurfaceFormat.H"
-#include "TRIReader.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "surfaceFormats/tri/TRIsurfaceFormat.H"
+#include "surfaceFormats/tri/TRIReader.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

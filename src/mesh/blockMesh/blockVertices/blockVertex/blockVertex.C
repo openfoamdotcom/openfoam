@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockVertex.H"
-#include "pointVertex.H"
-#include "blockMeshTools.H"
+#include "blockVertices/blockVertex/blockVertex.H"
+#include "blockVertices/pointVertex/pointVertex.H"
+#include "blockMeshTools/blockMeshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

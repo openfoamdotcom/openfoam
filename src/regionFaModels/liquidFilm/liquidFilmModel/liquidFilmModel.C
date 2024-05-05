@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liquidFilmModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "uniformDimensionedFields.H"
-#include "gravityMeshObject.H"
-#include "volFields.H"
+#include "liquidFilm/liquidFilmModel/liquidFilmModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "fields/volFields/volFields.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

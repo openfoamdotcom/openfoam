@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshDistributor.H"
-#include "globalIndex.H"
-#include "BitOps.H"
-#include "ListOps.H"
-#include "mapDistributePolyMesh.H"
-#include "processorFaPatch.H"
-#include "labelPairHashes.H"
+#include "distributed/faMeshDistributor.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "primitives/tuples/labelPairHashes.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

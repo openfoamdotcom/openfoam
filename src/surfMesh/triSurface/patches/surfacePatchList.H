@@ -28,8 +28,8 @@ License
 #ifndef Foam_surfacePatchList_H
 #define Foam_surfacePatchList_H
 
-#include "surfacePatch.H"
-#include "List.H"
+#include "triSurface/patches/surfacePatch.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

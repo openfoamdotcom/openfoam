@@ -44,7 +44,7 @@ SourceFiles
 #ifndef StationaryPhaseModel_H
 #define StationaryPhaseModel_H
 
-#include "reactingEuler_phaseModel.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -222,7 +222,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "StationaryPhaseModel.C"
+    #include "phaseModel/StationaryPhaseModel/StationaryPhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

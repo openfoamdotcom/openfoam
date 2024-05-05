@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitedLnGrad.H"
-#include "faMesh.H"
+#include "finiteArea/lnGradSchemes/limitedLnGrad/limitedLnGrad.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

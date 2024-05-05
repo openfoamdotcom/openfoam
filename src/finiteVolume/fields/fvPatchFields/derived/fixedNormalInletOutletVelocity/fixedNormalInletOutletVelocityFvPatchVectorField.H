@@ -89,9 +89,9 @@ SourceFiles
 #ifndef fixedNormalInletOutletVelocityFvPatchVectorField_H
 #define fixedNormalInletOutletVelocityFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "directionMixedFvPatchFields.H"
-#include "Switch.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/directionMixed/directionMixedFvPatchFields.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

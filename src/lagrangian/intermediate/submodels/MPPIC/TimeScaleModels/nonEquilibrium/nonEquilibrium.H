@@ -51,7 +51,7 @@ SourceFiles
 #ifndef nonEquilibrium_H
 #define nonEquilibrium_H
 
-#include "TimeScaleModel.H"
+#include "submodels/MPPIC/TimeScaleModels/TimeScaleModel/TimeScaleModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

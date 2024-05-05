@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waxSolventEvaporation.H"
-#include "addToRunTimeSelectionTable.H"
-#include "thermoSingleLayer.H"
-#include "zeroField.H"
+#include "submodels/thermo/phaseChangeModel/waxSolventEvaporation/waxSolventEvaporation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "thermoSingleLayer/thermoSingleLayer.H"
+#include "fields/Fields/zeroField/zeroField.H"
 
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvcDiv.H"
-#include "fvmSup.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

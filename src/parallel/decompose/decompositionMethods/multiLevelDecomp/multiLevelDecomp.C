@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiLevelDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IFstream.H"
-#include "globalIndex.H"
-#include "globalMeshData.H"
-#include "mapDistribute.H"
+#include "multiLevelDecomp/multiLevelDecomp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

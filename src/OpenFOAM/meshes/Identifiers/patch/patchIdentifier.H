@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_patchIdentifier_H
 #define Foam_patchIdentifier_H
 
-#include "wordList.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

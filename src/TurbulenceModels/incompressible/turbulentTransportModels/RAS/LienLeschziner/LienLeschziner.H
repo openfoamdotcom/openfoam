@@ -60,8 +60,8 @@ SourceFiles
 #ifndef LienLeschziner_H
 #define LienLeschziner_H
 
-#include "turbulentTransportModel.H"
-#include "eddyViscosity.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "eddyViscosity/eddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

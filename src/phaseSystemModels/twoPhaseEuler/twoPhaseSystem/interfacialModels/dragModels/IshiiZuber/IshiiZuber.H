@@ -45,7 +45,7 @@ SourceFiles
 #ifndef IshiiZuber_H
 #define IshiiZuber_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -106,8 +106,8 @@ SourceFiles
 #ifndef fv_velocityDampingConstraint_H
 #define fv_velocityDampingConstraint_H
 
-#include "cellSetOption.H"
-#include "writeFile.H"
+#include "cellSetOption/cellSetOption.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

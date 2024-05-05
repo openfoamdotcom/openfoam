@@ -37,7 +37,7 @@ SourceFiles
 #ifndef motionDirectionalDiffusivity_H
 #define motionDirectionalDiffusivity_H
 
-#include "uniformDiffusivity.H"
+#include "motionDiffusivity/uniform/uniformDiffusivity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

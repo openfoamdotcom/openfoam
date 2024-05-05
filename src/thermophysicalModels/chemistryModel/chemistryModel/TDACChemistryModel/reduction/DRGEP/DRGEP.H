@@ -105,7 +105,7 @@ SourceFiles
 #ifndef DRGEP_H
 #define DRGEP_H
 
-#include "chemistryReductionMethod.H"
+#include "chemistryModel/TDACChemistryModel/reduction/chemistryReductionMethod/chemistryReductionMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -171,7 +171,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DRGEP.C"
+    #include "chemistryModel/TDACChemistryModel/reduction/DRGEP/DRGEP.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -28,8 +28,8 @@ License
 #ifndef uniformJumpAMIFvPatchFields_H
 #define uniformJumpAMIFvPatchFields_H
 
-#include "uniformJumpAMIFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/uniformJumpAMI/uniformJumpAMIFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

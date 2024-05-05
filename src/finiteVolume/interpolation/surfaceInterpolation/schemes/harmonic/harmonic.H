@@ -43,10 +43,10 @@ SourceFiles
 #ifndef harmonic_H
 #define harmonic_H
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "reverseLinear.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interpolation/surfaceInterpolation/schemes/reverseLinear/reverseLinear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

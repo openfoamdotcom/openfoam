@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundBox.H"
-#include "PstreamReduceOps.H"
-#include "plane.H"
-#include "hexCell.H"
-#include "triangle.H"
-#include "MinMax.H"
-#include "Random.H"
+#include "meshes/boundBox/boundBox.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "meshes/meshShapes/hexCell/hexCell.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

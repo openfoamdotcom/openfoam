@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFixedValuePointPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fieldTypes.H"
-#include "pointPatchFields.H"
+#include "fields/pointPatchFields/derived/codedFixedValue/codedFixedValuePointPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

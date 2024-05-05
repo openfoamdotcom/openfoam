@@ -43,10 +43,10 @@ SourceFiles
 #ifndef Foam_expressions_exprResultGlobals_H
 #define Foam_expressions_exprResultGlobals_H
 
-#include "exprResult.H"
-#include "autoPtr.H"
-#include "HashPtrTable.H"
-#include "regIOobject.H"
+#include "expressions/exprResult/exprResult.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

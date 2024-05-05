@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refineCell.H"
-#include "error.H"
+#include "meshCut/refineCell/refineCell.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

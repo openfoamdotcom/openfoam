@@ -39,9 +39,9 @@ SourceFiles
 #ifndef objectiveForce_H
 #define objectiveForce_H
 
-#include "objectiveIncompressible.H"
-#include "wallFvPatch.H"
-#include "createZeroField.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "global/createZeroField.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

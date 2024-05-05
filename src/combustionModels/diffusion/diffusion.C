@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diffusion.H"
-#include "fvcGrad.H"
+#include "diffusion/diffusion.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 namespace Foam
 {

@@ -43,7 +43,7 @@ SourceFiles
 #ifndef edgeLimitedFaGrad_H
 #define edgeLimitedFaGrad_H
 
-#include "faGradScheme.H"
+#include "finiteArea/gradSchemes/faGradScheme/faGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

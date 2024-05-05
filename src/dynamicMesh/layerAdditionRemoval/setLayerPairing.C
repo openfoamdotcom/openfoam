@@ -29,12 +29,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "layerAdditionRemoval.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "polyTopoChange.H"
-#include "oppositeFace.H"
-#include "polyTopoChanger.H"
+#include "layerAdditionRemoval/layerAdditionRemoval.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/meshShapes/face/oppositeFace.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

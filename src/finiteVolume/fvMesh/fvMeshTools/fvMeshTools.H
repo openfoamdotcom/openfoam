@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_fvMeshTools_H
 #define Foam_fvMeshTools_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -233,7 +233,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshToolsTemplates.C"
+    #include "fvMesh/fvMeshTools/fvMeshToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

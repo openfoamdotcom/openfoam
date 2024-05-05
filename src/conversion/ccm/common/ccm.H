@@ -31,8 +31,8 @@ Description
 #ifndef ccm_H
 #define ccm_H
 
-#include "ccmReader.H"
-#include "ccmWriter.H"
+#include "reader/ccmReader.H"
+#include "writer/ccmWriter.H"
 
 #endif
 

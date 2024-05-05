@@ -38,8 +38,8 @@ SourceFiles
 #ifndef pointMeshMapper_H
 #define pointMeshMapper_H
 
-#include "pointMapper.H"
-#include "pointBoundaryMeshMapper.H"
+#include "meshes/pointMesh/pointMeshMapper/pointMapper.H"
+#include "meshes/pointMesh/pointMeshMapper/pointBoundaryMeshMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

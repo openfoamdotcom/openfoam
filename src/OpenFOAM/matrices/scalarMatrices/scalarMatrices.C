@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarMatrices.H"
-#include "SVD.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

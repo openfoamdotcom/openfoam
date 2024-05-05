@@ -35,8 +35,8 @@ Description
 #ifndef Foam_MinMaxOps_H
 #define Foam_MinMaxOps_H
 
-#include "MinMax.H"
-#include "VectorSpace.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

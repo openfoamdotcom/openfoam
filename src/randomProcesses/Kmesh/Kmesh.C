@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Kmesh.H"
-#include "polyMesh.H"
-#include "volFields.H"
-#include "mathematicalConstants.H"
+#include "Kmesh/Kmesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/volFields/volFields.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

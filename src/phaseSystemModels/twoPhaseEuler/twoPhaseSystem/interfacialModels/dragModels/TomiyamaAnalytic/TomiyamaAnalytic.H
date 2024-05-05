@@ -46,7 +46,7 @@ SourceFiles
 #ifndef TomiyamaAnalytic_H
 #define TomiyamaAnalytic_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

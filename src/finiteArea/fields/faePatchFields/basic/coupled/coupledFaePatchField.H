@@ -41,8 +41,8 @@ SourceFiles
 #ifndef Foam_coupledFaePatchField_H
 #define Foam_coupledFaePatchField_H
 
-#include "faePatchField.H"
-#include "coupledFaPatch.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
+#include "faMesh/faPatches/basic/coupled/coupledFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -151,7 +151,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledFaePatchField.C"
+    #include "fields/faePatchFields/basic/coupled/coupledFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

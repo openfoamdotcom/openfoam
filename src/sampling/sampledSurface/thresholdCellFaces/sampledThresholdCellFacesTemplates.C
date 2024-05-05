@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledThresholdCellFaces.H"
+#include "sampledSurface/thresholdCellFaces/sampledThresholdCellFaces.H"
 
-#include "thresholdCellFaces.H"
-#include "volFieldsFwd.H"
-#include "pointFields.H"
-#include "volPointInterpolation.H"
+#include "surface/thresholdCellFaces/thresholdCellFaces.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

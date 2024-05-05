@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faPatchFields.H"
-#include "areaFaMesh.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

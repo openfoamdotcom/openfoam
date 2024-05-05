@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mathematicalConstants.H"
-#include "universalConstants.H"
-#include "electromagneticConstants.H"
-#include "physicoChemicalConstants.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "global/constants/universal/universalConstants.H"
+#include "global/constants/electromagnetic/electromagneticConstants.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
 
-#include "dimensionedConstants.H"
+#include "global/constants/dimensionedConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIPolyPatch.H"
-#include "SubField.H"
-#include "TimeOpenFOAM.H"
-#include "unitConversion.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "addToRunTimeSelectionTable.H"
-#include "cyclicPolyPatch.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/constants/unitConversion.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

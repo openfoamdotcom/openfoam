@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshGeometry.H"
-#include "polyMeshTetDecomposition.H"
-#include "pyramid.H"
-#include "tetrahedron.H"
-#include "syncTools.H"
-#include "unitConversion.H"
-#include "primitiveMeshTools.H"
+#include "motionSmoother/polyMeshGeometry/polyMeshGeometry.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "global/constants/unitConversion.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

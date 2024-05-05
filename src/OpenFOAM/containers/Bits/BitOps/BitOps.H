@@ -46,9 +46,9 @@ Description
 #ifndef Foam_BitOps_H
 #define Foam_BitOps_H
 
-#include "UList.H"
-#include "HashSet.H"
-#include "Ostream.H"
+#include "containers/Lists/List/UList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 #include <limits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

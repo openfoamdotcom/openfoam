@@ -58,9 +58,9 @@ SourceFiles
 #ifndef functionEntries_inputMode_H
 #define functionEntries_inputMode_H
 
-#include "entry.H"
-#include "functionEntry.H"
-#include "Enum.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

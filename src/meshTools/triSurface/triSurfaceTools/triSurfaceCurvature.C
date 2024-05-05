@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceTools.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
 
-#include "triSurface.H"
-#include "MeshedSurfaces.H"
-#include "triSurfaceFields.H"
-#include "OFstream.H"
-#include "plane.H"
-#include "tensor2D.H"
-#include "symmTensor2D.H"
-#include "scalarMatrices.H"
-#include "transform.H"
+#include "triSurface/triSurface.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "primitives/SymmTensor2D/symmTensor2D/symmTensor2D.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

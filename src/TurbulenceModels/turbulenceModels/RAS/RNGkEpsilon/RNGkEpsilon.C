@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RNGkEpsilon.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "RAS/RNGkEpsilon/RNGkEpsilon.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

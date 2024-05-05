@@ -120,8 +120,8 @@ SourceFiles
 #ifndef fv_CodedFvSource_H
 #define fv_CodedFvSource_H
 
-#include "cellSetOption.H"
-#include "codedBase.H"
+#include "cellSetOption/cellSetOption.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -254,7 +254,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CodedFvSource.C"
+    #include "sources/general/codedSource/CodedFvSource.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

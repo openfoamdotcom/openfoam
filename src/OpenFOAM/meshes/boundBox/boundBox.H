@@ -43,10 +43,10 @@ SeeAlso
 #ifndef Foam_boundBox_H
 #define Foam_boundBox_H
 
-#include "pointField.H"
-#include "faceList.H"
-#include "Pair.H"
-#include "triangleFwd.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "primitives/tuples/Pair.H"
+#include "meshes/primitiveShapes/triangle/triangleFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -550,10 +550,10 @@ inline bool operator>=(const boundBox& a, const boundBox& b)
 
 } // End namespace Foam
 
-#include "boundBoxI.H"
+#include "meshes/boundBox/boundBoxI.H"
 
 #ifdef NoRepository
-    #include "boundBoxTemplates.C"
+    #include "meshes/boundBox/boundBoxTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

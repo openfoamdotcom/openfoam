@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_MeshedSurfaceIOAllocator_H
 #define Foam_MeshedSurfaceIOAllocator_H
 
-#include "pointIOField.H"
-#include "faceIOList.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "meshes/meshShapes/face/faceIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

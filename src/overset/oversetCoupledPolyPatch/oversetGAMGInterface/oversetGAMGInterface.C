@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oversetGAMGInterface.H"
-#include "addToRunTimeSelectionTable.H"
+#include "oversetCoupledPolyPatch/oversetGAMGInterface/oversetGAMGInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

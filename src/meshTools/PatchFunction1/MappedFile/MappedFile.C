@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "rawIOField.H"
-#include "clockTime.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOobjects/rawIOField/rawIOField.H"
+#include "global/clockTime/clockTime.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

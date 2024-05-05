@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeFvOption.H"
-#include "FixedValueConstraint.H"
+#include "cfdTools/general/fvOptions/makeFvOption.H"
+#include "constraints/general/fixedValueConstraint/FixedValueConstraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

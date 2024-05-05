@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cpuInfo.H"
-#include "IOstreams.H"
+#include "cpuInfo/cpuInfo.H"
+#include "db/IOstreams/IOstreams.H"
 
 #include <thread>
 

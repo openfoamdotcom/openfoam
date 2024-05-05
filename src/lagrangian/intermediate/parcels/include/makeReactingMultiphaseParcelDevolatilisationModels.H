@@ -30,9 +30,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ConstantRateDevolatilisation.H"
-#include "NoDevolatilisation.H"
-#include "SingleKineticRateDevolatilisation.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/ConstantRateDevolatilisation/ConstantRateDevolatilisation.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/NoDevolatilisation/NoDevolatilisation.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/SingleKineticRateDevolatilisation/SingleKineticRateDevolatilisation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

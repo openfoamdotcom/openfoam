@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facLnGrad.H"
-#include "faMesh.H"
-#include "lnGradScheme.H"
+#include "finiteArea/fac/facLnGrad.H"
+#include "faMesh/faMesh.H"
+#include "finiteArea/lnGradSchemes/lnGradScheme/lnGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

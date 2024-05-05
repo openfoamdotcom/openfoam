@@ -1,7 +1,7 @@
-#include "writeCellGraph.H"
-#include "volFields.H"
-#include "fvMesh.H"
-#include "graph.H"
+#include "graphField/writeCellGraph.H"
+#include "fields/volFields/volFields.H"
+#include "fvMesh/fvMesh.H"
+#include "graph/graph.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

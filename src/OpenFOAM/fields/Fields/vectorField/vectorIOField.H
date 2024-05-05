@@ -28,8 +28,8 @@ License
 #ifndef Foam_vectorIOField_H
 #define Foam_vectorIOField_H
 
-#include "vectorField.H"
-#include "IOField.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

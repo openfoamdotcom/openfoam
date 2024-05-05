@@ -38,7 +38,7 @@ SourceFiles
 #ifndef powerLaw_H
 #define powerLaw_H
 
-#include "breakupModel.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef exponential_H
 #define exponential_H
 
-#include "breakupModel.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

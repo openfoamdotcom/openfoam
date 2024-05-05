@@ -52,8 +52,8 @@ Description
 #ifndef labelPairHashes_H
 #define labelPairHashes_H
 
-#include "labelPair.H"
-#include "HashSet.H"
+#include "primitives/tuples/labelPair.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

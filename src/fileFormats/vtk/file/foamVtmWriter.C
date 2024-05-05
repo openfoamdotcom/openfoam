@@ -26,9 +26,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include <fstream>
-#include "foamVtmWriter.H"
-#include "TimeOpenFOAM.H"
-#include "OSspecific.H"
+#include "vtk/file/foamVtmWriter.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * Local Class * * * * * * * * * * * * * * * //
 

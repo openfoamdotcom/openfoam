@@ -111,8 +111,8 @@ SourceFiles
 #ifndef fanPressureFvPatchScalarField_H
 #define fanPressureFvPatchScalarField_H
 
-#include "totalPressureFvPatchScalarField.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/derived/totalPressure/totalPressureFvPatchScalarField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

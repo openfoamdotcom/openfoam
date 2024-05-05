@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noRadiation.H"
-#include "physicoChemicalConstants.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/filmRadiationModel/noRadiation/noRadiation.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,9 +35,9 @@ Description
 #ifndef Foam_dictionaryContent_H
 #define Foam_dictionaryContent_H
 
-#include "dictionary.H"
-#include "wordList.H"
-#include "wordRes.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -44,7 +44,7 @@ See also
 #ifndef Foam_MatrixSpace_H
 #define Foam_MatrixSpace_H
 
-#include "VectorSpace.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -329,7 +329,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MatrixSpaceI.H"
+#include "primitives/MatrixSpace/MatrixSpaceI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

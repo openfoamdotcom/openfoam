@@ -37,11 +37,11 @@ SourceFiles
 #ifndef fvGeometryScheme_H
 #define fvGeometryScheme_H
 
-#include "tmp.H"
-#include "surfaceFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "pointField.H"
+#include "memory/tmp/tmp.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

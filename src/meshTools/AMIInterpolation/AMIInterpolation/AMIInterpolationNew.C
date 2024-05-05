@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AMIInterpolation.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_ILList_H
 #define Foam_ILList_H
 
-#include "UILList.H"
+#include "containers/LinkedLists/accessTypes/UILList/UILList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,8 +150,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ILList.C"
-    #include "ILListIO.C"
+    #include "containers/LinkedLists/accessTypes/ILList/ILList.C"
+    #include "containers/LinkedLists/accessTypes/ILList/ILListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

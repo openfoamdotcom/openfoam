@@ -41,8 +41,8 @@ SourceFiles
 #ifndef blended_H
 #define blended_H
 
-#include "limitedSurfaceInterpolationScheme.H"
-#include "blendedSchemeBase.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/limitedSurfaceInterpolationScheme/limitedSurfaceInterpolationScheme.H"
+#include "interpolation/surfaceInterpolation/blendedSchemeBase/blendedSchemeBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

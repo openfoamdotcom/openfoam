@@ -52,11 +52,11 @@ SourceFiles
 #ifndef Foam_timeVaryingMappedFixedValuePointPatchField_H
 #define Foam_timeVaryingMappedFixedValuePointPatchField_H
 
-#include "fixedValuePointPatchField.H"
-#include "Function1Pascal.H"
-#include "Pair.H"
-#include "instantList.H"
-#include "pointToPointPlanarInterpolation.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/tuples/Pair.H"
+#include "db/Time/instant/instantList.H"
+#include "triSurface/triSurfaceTools/pointToPointPlanarInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -227,7 +227,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "timeVaryingMappedFixedValuePointPatchField.C"
+    #include "pointPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValuePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

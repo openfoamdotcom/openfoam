@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationMurphyShaddix.H"
-#include "mathematicalConstants.H"
+#include "submodels/surfaceReactionModel/COxidationMurphyShaddix/COxidationMurphyShaddix.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

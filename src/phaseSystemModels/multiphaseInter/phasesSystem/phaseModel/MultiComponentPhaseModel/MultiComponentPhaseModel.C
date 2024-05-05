@@ -25,20 +25,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MultiComponentPhaseModel.H"
+#include "phaseModel/MultiComponentPhaseModel/MultiComponentPhaseModel.H"
 
-#include "multiphaseInterSystem.H"
-#include "fvmDdt.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "fvmLaplacian.H"
-#include "fvcDdt.H"
-#include "fvcDiv.H"
-#include "fvcDDtDeCased.H"
-#include "fvMatrix.H"
-#include "fvcFlux.H"
-#include "CMULES.H"
-#include "subCycle.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcDDtDeCased.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "algorithms/subCycle/subCycle.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

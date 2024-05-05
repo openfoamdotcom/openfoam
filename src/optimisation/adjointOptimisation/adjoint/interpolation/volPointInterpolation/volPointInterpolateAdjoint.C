@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volPointInterpolationAdjoint.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "emptyFvPatch.H"
-#include "coupledPointPatchField.H"
-#include "pointConstraints.H"
-#include "symmetryPolyPatch.H"
-#include "symmetryPlanePolyPatch.H"
+#include "interpolation/volPointInterpolation/volPointInterpolationAdjoint.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "fields/pointPatchFields/basic/coupled/coupledPointPatchField.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetryPlane/symmetryPlanePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

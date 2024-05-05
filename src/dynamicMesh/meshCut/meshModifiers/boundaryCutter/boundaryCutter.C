@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryCutter.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyAddCell.H"
-#include "polyAddFace.H"
-#include "polyAddPoint.H"
-#include "polyModifyFace.H"
-#include "polyModifyPoint.H"
-#include "mapPolyMesh.H"
-#include "meshTools.H"
+#include "meshCut/meshModifiers/boundaryCutter/boundaryCutter.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/addObject/polyAddCell.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "polyTopoChange/addObject/polyAddPoint.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/modifyObject/polyModifyPoint.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

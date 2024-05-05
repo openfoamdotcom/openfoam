@@ -129,11 +129,11 @@ SourceFiles
 #ifndef Foam_turbulentTemperatureRadCoupledMixedFvPatchScalarField_H
 #define Foam_turbulentTemperatureRadCoupledMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "temperatureCoupledBase.H"
-#include "scalarList.H"
-#include "mappedPatchFieldBase.H"
-#include "writeFile.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "derivedFvPatchFields/temperatureCoupledBase/temperatureCoupledBase.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

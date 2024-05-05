@@ -37,8 +37,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrimitivePatchPascal.H"
-#include "DynamicList.H"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchPascal.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

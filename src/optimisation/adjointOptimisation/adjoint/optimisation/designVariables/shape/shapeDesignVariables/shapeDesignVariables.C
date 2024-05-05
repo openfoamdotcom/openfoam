@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "shapeDesignVariables.H"
-#include "cellQuality.H"
-#include "createZeroField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFieldsFwd.H"
-#include "adjointEikonalSolver.H"
-#include "IOmanip.H"
+#include "optimisation/designVariables/shape/shapeDesignVariables/shapeDesignVariables.H"
+#include "cellQuality/cellQuality.H"
+#include "global/createZeroField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointEikonalSolver/adjointEikonalSolver.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

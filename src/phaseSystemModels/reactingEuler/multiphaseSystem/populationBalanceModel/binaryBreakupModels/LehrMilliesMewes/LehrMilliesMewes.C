@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LehrMilliesMewes.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "mathematicalConstants.H"
+#include "populationBalanceModel/binaryBreakupModels/LehrMilliesMewes/LehrMilliesMewes.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

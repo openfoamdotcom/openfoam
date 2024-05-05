@@ -28,8 +28,8 @@ License
 #ifndef slipPointPatchFields_H
 #define slipPointPatchFields_H
 
-#include "slipPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/derived/slip/slipPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

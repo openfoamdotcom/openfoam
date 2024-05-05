@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DILUPreconditioner.H"
+#include "matrices/lduMatrix/preconditioners/DILUPreconditioner/DILUPreconditioner.H"
 #include <algorithm>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

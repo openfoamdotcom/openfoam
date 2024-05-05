@@ -37,11 +37,11 @@ SourceFiles
 #ifndef Foam_fieldsDistributor_H
 #define Foam_fieldsDistributor_H
 
-#include "bitSet.H"
-#include "fileOperation.H"
-#include "PtrList.H"
-#include "IOobjectList.H"
-#include "GeometricField.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldsDistributorTemplates.C"
+    #include "parallel/fieldsDistributor/fieldsDistributorTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

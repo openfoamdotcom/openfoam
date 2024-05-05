@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshTools.H"
-#include "syncTools.H"
-#include "pyramid.H"
-#include "primitiveMeshTools.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshTools.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/primitiveShapes/pyramid/pyramid.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VTKedgeFormat.H"
-#include "Fstream.H"
-#include "TimeOpenFOAM.H"
-#include "foamVtkLineWriter.H"
-#include "vtkUnstructuredReader.H"
+#include "edgeMesh/edgeFormats/vtk/VTKedgeFormat.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "vtk/write/foamVtkLineWriter.H"
+#include "vtk/read/vtkUnstructuredReader.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

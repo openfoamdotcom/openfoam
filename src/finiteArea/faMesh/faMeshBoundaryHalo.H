@@ -43,7 +43,7 @@ SourceFiles
 #ifndef faMeshBoundaryHalo_H
 #define faMeshBoundaryHalo_H
 
-#include "mapDistributeBase.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faMeshBoundaryHaloTemplates.C"
+    #include "faMesh/faMeshBoundaryHaloTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

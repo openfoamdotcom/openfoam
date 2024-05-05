@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solverInfo.H"
-#include "volFields.H"
-#include "ListOps.H"
-#include "zeroGradientFvPatchField.H"
+#include "solverInfo/solverInfo.H"
+#include "fields/volFields/volFields.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

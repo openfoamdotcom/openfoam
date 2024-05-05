@@ -35,8 +35,8 @@ Description
 #ifndef solutionControl_H
 #define solutionControl_H
 
-#include "fvMesh.H"
-#include "Pair.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -258,12 +258,12 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solutionControlTemplates.C"
+    #include "cfdTools/general/solutionControl/solutionControl/solutionControlTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solutionControlI.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

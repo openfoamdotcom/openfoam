@@ -127,11 +127,11 @@ SourceFiles
 #ifndef Foam_functionObjects_Curle_H
 #define Foam_functionObjects_Curle_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "Enum.H"
-#include "MeshedSurface.H"
-#include "surfaceWriter.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/enums/Enum.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "writers/common/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

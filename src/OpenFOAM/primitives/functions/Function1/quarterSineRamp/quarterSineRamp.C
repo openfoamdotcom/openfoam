@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quarterSineRamp.H"
+#include "primitives/functions/Function1/quarterSineRamp/quarterSineRamp.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

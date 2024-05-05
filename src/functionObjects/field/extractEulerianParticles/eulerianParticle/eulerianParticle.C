@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "eulerianParticle.H"
-#include "mathematicalConstants.H"
+#include "extractEulerianParticles/eulerianParticle/eulerianParticle.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant;
 

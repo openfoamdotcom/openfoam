@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "smoothHeaviside.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/levelSet/interpolationFunctions/smoothHeaviside/smoothHeaviside.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_IOPtrList_H
 #define Foam_IOPtrList_H
 
-#include "PtrList.H"
-#include "regIOobject.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOPtrList.C"
+    #include "db/IOobjects/IOPtrList/IOPtrList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

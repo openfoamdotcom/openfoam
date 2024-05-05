@@ -49,8 +49,8 @@ SourceFiles
 #ifndef dynamicFvMesh_H
 #define dynamicFvMesh_H
 
-#include "fvMesh.H"
-#include "timeControl.H"
+#include "fvMesh/fvMesh.H"
+#include "db/functionObjects/timeControl/timeControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

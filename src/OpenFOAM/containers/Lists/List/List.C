@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "FixedList.H"
-#include "PtrList.H"
-#include "contiguous.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "primitives/traits/contiguous.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 
@@ -488,7 +488,7 @@ void Foam::sortedOrder
 
 // * * * * * * * * * * * * * * * Housekeeping  * * * * * * * * * * * * * * * //
 
-#include "SLList.H"
+#include "containers/LinkedLists/user/SLList.H"
 
 template<class T>
 Foam::List<T>::List(const SLList<T>& list)

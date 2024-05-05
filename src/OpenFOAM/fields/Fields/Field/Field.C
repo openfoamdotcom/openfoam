@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FieldMapper.H"
-#include "FieldM.H"
-#include "dictionary.H"
-#include "contiguous.H"
-#include "mapDistributeBase.H"
+#include "fields/Fields/Field/FieldMapper.H"
+#include "fields/Fields/Field/FieldM.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/traits/contiguous.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -832,6 +832,6 @@ Foam::Ostream& Foam::operator<<(Ostream& os, const tmp<Field<Type>>& tf)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FieldFunctions.C"
+#include "fields/Fields/Field/FieldFunctions.C"
 
 // ************************************************************************* //

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectiveNutSqr.H"
-#include "incompressiblePrimalSolver.H"
-#include "incompressibleAdjointSolver.H"
-#include "createZeroField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/incompressible/objectiveNutSqr/objectiveNutSqr.H"
+#include "solvers/primalSolvers/incompressible/incompressiblePrimalSolver/incompressiblePrimalSolver.H"
+#include "solvers/adjointSolvers/incompressible/incompressibleAdjointSolver/incompressibleAdjointSolver.H"
+#include "global/createZeroField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

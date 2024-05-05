@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ifeqEntry.H"
-#include "ifEntry.H"
-#include "stringOps.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/ifeqEntry/ifeqEntry.H"
+#include "db/dictionary/functionEntries/ifEntry/ifEntry.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -37,10 +37,10 @@ SourceFiles
 #ifndef Foam_processorColour_H
 #define Foam_processorColour_H
 
-#include "MeshObject.H"
-#include "lduMesh.H"
-#include "lduInterfacePtrsList.H"
-#include "primitiveFields.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
+#include "fields/Fields/primitiveFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

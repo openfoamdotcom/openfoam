@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolatedWallDamping.H"
-#include "reactingEuler_phasePair.H"
-#include "surfaceInterpolate.H"
+#include "interfacialModels/wallDampingModels/interpolated/interpolatedWallDamping.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

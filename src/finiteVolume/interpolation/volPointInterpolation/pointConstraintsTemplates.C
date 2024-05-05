@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointConstraints.H"
-#include "pointFields.H"
-#include "valuePointPatchFields.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/pointPatchFields/basic/value/valuePointPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

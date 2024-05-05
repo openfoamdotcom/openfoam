@@ -26,19 +26,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellClassification.H"
-#include "triSurfaceSearch.H"
-#include "indexedOctree.H"
-#include "treeDataFace.H"
-#include "meshSearch.H"
-#include "cellInfo.H"
-#include "polyMesh.H"
-#include "MeshWave.H"
-#include "ListOps.H"
-#include "meshTools.H"
-#include "cpuTime.H"
-#include "triSurface.H"
-#include "globalMeshData.H"
+#include "cellClassification/cellClassification.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataFace.H"
+#include "meshSearch/meshSearch.H"
+#include "cellClassification/cellInfo.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "algorithms/MeshWave/MeshWave.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshTools/meshTools.H"
+#include "cpuTime/cpuTime.H"
+#include "triSurface/triSurface.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

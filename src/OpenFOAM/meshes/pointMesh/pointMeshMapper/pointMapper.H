@@ -39,7 +39,7 @@ SourceFiles
 #ifndef pointMapper_H
 #define pointMapper_H
 
-#include "morphFieldMapper.H"
+#include "meshes/polyMesh/mapPolyMesh/morphFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

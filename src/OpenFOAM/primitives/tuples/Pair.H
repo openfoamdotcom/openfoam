@@ -42,9 +42,9 @@ See also
 #ifndef Foam_Pair_H
 #define Foam_Pair_H
 
-#include "FixedList.H"
-#include "Istream.H"
-#include "Ostream.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 #include <utility>  // For std::move, std::pair
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -303,7 +303,7 @@ inline Ostream& operator<<(Ostream& os, const std::pair<T1,T2>& t)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PairI.H"
+#include "primitives/tuples/PairI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

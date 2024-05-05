@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFixedValuePointPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointPatchFieldMapper.H"
-#include "pointFields.H"
-#include "dynamicCode.H"
-#include "dictionaryContent.H"
+#include "fields/pointPatchFields/derived/codedFixedValue/codedFixedValuePointPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldMapper.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dictionary/dictionaryContent/dictionaryContent.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

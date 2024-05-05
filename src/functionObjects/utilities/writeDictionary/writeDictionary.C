@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "writeDictionary.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "IOdictionary.H"
+#include "writeDictionary/writeDictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

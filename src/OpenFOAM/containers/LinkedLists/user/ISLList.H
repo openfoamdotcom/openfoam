@@ -34,8 +34,8 @@ Description
 #ifndef Foam_ISLList_H
 #define Foam_ISLList_H
 
-#include "ILList.H"
-#include "SLListBase.H"
+#include "containers/LinkedLists/accessTypes/ILList/ILList.H"
+#include "containers/LinkedLists/linkTypes/SLListBase/SLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

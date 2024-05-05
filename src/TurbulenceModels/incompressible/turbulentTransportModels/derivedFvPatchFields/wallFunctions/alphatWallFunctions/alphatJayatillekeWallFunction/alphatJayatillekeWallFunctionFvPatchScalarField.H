@@ -75,7 +75,7 @@ SourceFiles
 #ifndef incompressible_alphatJayatillekeWallFunctionFvPatchScalarField_H
 #define incompressible_alphatJayatillekeWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 #include "turbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

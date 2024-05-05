@@ -87,7 +87,7 @@ SourceFiles
 #ifndef sphereToCell_H
 #define sphereToCell_H
 
-#include "topoSetCellSource.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

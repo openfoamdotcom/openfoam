@@ -282,7 +282,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regExpCxxI.H"
+#include "primitives/strings/regex/regExpCxxI.H"
 
 #endif
 

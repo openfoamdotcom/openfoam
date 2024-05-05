@@ -36,8 +36,8 @@ Description
 #ifndef Foam_ensightReadFile_H
 #define Foam_ensightReadFile_H
 
-#include "IFstream.H"
-#include "IOstream.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

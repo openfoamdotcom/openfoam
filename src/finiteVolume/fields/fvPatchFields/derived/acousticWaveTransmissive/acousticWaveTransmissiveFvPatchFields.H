@@ -28,8 +28,8 @@ License
 #ifndef acousticWaveTransmissiveFvPatchFields_H
 #define acousticWaveTransmissiveFvPatchFields_H
 
-#include "acousticWaveTransmissiveFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/acousticWaveTransmissive/acousticWaveTransmissiveFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

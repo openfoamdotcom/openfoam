@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_profilingTrigger_H
 #define Foam_profilingTrigger_H
 
-#include "word.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

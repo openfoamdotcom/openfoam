@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "abaqusMeshSet.H"
-#include "stringOps.H"
-#include "Fstream.H"
-#include "SpanStream.H"
-#include "meshSearch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSet/abaqus/abaqusMeshSet.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "meshSearch/meshSearch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

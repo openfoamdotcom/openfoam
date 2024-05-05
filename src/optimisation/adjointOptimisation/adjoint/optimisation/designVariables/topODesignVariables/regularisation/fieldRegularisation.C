@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldRegularisation.H"
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "wallFvPatch.H"
-#include "fvm.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/fieldRegularisation.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "finiteVolume/fvm/fvm.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

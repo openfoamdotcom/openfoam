@@ -54,8 +54,8 @@ Description
 #ifndef Foam_typeInfo_H
 #define Foam_typeInfo_H
 
-#include "error.H"
-#include "className.H"
+#include "db/error/error.H"
+#include "db/typeInfo/className.H"
 #include <typeinfo>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

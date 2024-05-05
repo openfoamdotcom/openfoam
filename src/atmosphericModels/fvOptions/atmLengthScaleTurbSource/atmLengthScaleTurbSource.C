@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmLengthScaleTurbSource.H"
-#include "geometricOneField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvOptions/atmLengthScaleTurbSource/atmLengthScaleTurbSource.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

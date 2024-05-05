@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "orthogonalSnGrad.H"
-#include "fvMesh.H"
+#include "finiteVolume/snGradSchemes/orthogonalSnGrad/orthogonalSnGrad.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

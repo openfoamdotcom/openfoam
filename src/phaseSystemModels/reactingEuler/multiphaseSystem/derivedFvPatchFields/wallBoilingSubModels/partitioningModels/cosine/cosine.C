@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cosine.H"
-#include "addToRunTimeSelectionTable.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/partitioningModels/cosine/cosine.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

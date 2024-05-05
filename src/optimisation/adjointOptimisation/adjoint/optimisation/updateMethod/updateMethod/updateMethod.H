@@ -39,9 +39,9 @@ SourceFiles
 #ifndef updateMethod_H
 #define updateMethod_H
 
-#include "localIOdictionary.H"
-#include "designVariables.H"
-#include "runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

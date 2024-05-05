@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduPrimitiveMeshAssembly.H"
+#include "lduPrimitiveMeshAssembly/lduPrimitiveMeshAssembly.H"
 
-#include "cyclicFvPatch.H"
-#include "cyclicAMIFvPatch.H"
-#include "cyclicACMIFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclicAMI/cyclicAMIFvPatch.H"
+#include "fvMesh/fvPatches/constraint/cyclicACMI/cyclicACMIFvPatch.H"
 
-#include "lduPrimitiveProcessorInterface.H"
-#include "AssemblyFvPatch.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduPrimitiveProcessorInterface.H"
+#include "lduPrimitiveMeshAssembly/AssemblyFvPatch.H"
 
 // * * * * * * * * * * * * * Public Member Functions  * * * * * * * * * * * //
 

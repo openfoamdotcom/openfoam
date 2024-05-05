@@ -40,13 +40,13 @@ SourceFiles
 #ifndef faceAreaIntersect_H
 #define faceAreaIntersect_H
 
-#include "pointField.H"
-#include "FixedList.H"
-#include "plane.H"
-#include "face.H"
-#include "triangle.H"
-#include "Enum.H"
-#include "searchableSurface.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "primitives/enums/Enum.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -228,7 +228,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "faceAreaIntersectI.H"
+#include "AMIInterpolation/faceAreaIntersect/faceAreaIntersectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

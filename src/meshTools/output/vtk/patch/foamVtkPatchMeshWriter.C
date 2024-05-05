@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkPatchMeshWriter.H"
-#include "foamVtkOutput.H"
-#include "globalIndex.H"
-#include "TimeOpenFOAM.H"
-#include "processorPolyPatch.H"
+#include "output/vtk/patch/foamVtkPatchMeshWriter.H"
+#include "vtk/output/foamVtkOutput.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

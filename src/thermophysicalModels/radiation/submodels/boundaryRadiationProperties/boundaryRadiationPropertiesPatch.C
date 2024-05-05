@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryRadiationPropertiesPatch.H"
-#include "mappedPatchBase.H"
-#include "radiationModel.H"
-#include "absorptionEmissionModel.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationPropertiesPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 namespace Foam

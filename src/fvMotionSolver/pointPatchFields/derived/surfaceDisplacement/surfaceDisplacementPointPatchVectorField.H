@@ -59,11 +59,11 @@ SourceFiles
 #ifndef surfaceDisplacementPointPatchVectorField_H
 #define surfaceDisplacementPointPatchVectorField_H
 
-#include "pointPatchFields.H"
-#include "fixedValuePointPatchFields.H"
-#include "searchableSurfaces.H"
-#include "Enum.H"
-#include "Switch.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFields.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchFields.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "primitives/enums/Enum.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

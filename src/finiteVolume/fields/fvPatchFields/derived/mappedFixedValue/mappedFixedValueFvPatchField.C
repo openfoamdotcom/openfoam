@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedFixedValueFvPatchField.H"
-#include "volFields.H"
+#include "fields/fvPatchFields/derived/mappedFixedValue/mappedFixedValueFvPatchField.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

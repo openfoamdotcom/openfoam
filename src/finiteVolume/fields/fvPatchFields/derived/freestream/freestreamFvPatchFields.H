@@ -28,8 +28,8 @@ License
 #ifndef freestreamFvPatchFields_H
 #define freestreamFvPatchFields_H
 
-#include "freestreamFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/freestream/freestreamFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

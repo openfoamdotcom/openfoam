@@ -126,8 +126,8 @@ SourceFiles
 #ifndef functionObjects_proudmanAcousticPower_H
 #define functionObjects_proudmanAcousticPower_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

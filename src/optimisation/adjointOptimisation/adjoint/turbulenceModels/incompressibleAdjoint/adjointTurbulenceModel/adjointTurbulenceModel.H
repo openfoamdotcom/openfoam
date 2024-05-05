@@ -48,11 +48,11 @@ SourceFiles
 #ifndef adjointTurbulenceModel_H
 #define adjointTurbulenceModel_H
 
-#include "incompressibleVars.H"
-#include "incompressibleAdjointMeanFlowVars.H"
-#include "objectiveManager.H"
-#include "TimeOpenFOAM.H"
-#include "runTimeSelectionTables.H"
+#include "solvers/variablesSet/incompressible/incompressibleVars.H"
+#include "solvers/variablesSet/incompressibleAdjointMeanFlow/incompressibleAdjointMeanFlowVars.H"
+#include "objectiveManager/objectiveManager.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

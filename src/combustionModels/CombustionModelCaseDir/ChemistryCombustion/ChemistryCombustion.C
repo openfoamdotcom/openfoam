@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ChemistryCombustion.H"
+#include "CombustionModelCaseDir/ChemistryCombustion/ChemistryCombustion.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

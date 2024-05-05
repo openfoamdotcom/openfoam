@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityDampingConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMatrix.H"
-#include "volFields.H"
-#include "cellCellStencilObject.H"
+#include "constraints/derived/velocityDampingConstraint/velocityDampingConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fields/volFields/volFields.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

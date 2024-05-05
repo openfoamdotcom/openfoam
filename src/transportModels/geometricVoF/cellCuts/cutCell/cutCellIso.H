@@ -59,11 +59,11 @@ SourceFiles
 #ifndef cutCellIso_H
 #define cutCellIso_H
 
-#include "cutCell.H"
-#include "cutFaceIso.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "cellCuts/cutCell/cutCell.H"
+#include "cellCuts/cutFace/cutFaceIso.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

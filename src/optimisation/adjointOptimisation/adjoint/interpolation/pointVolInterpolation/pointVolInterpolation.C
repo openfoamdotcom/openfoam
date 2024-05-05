@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointVolInterpolation.H"
-#include "fvMesh.H"
-#include "pointFields.H"
-#include "volFields.H"
-#include "emptyFvPatch.H"
-#include "SubField.H"
-#include "demandDrivenData.H"
-#include "globalMeshData.H"
+#include "interpolation/pointVolInterpolation/pointVolInterpolation.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/volFields/volFields.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "fields/Fields/Field/SubField.H"
+#include "include/demandDrivenData.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

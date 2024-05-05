@@ -38,9 +38,9 @@ SourceFiles
 #ifndef partitioningModel_H
 #define partitioningModel_H
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

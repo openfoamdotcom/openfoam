@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Henry_H
 #define Henry_H
 
-#include "InterfaceCompositionModelPascal1.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -120,7 +120,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Henry.C"
+    #include "interfacialCompositionModels/interfaceCompositionModels/Henry/Henry.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

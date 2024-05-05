@@ -38,7 +38,7 @@ SourceFiles
 #ifndef staticFvMesh_H
 #define staticFvMesh_H
 
-#include "dynamicFvMesh.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

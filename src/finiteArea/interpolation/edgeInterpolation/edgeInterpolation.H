@@ -42,11 +42,11 @@ SourceFiles
 #ifndef Foam_edgeInterpolation_H
 #define Foam_edgeInterpolation_H
 
-#include "tmp.H"
-#include "scalar.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "className.H"
+#include "memory/tmp/tmp.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -116,8 +116,8 @@ SourceFiles
 #ifndef boxToCell_H
 #define boxToCell_H
 
-#include "topoSetCellSource.H"
-#include "treeBoundBoxList.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,11 +37,11 @@ SourceFiles
 #ifndef ABAQUSsurfaceFormatCore_H
 #define ABAQUSsurfaceFormatCore_H
 
-#include "Fstream.H"
-#include "Ostream.H"
-#include "MeshedSurface.H"
-#include "DynamicList.H"
-#include "ABAQUSCore.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "abaqus/ABAQUSCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

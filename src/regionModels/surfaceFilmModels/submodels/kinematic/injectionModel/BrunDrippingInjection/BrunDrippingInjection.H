@@ -59,7 +59,7 @@ SourceFiles
 #ifndef BrunDrippingInjection_H
 #define BrunDrippingInjection_H
 
-#include "injectionModel.H"
+#include "submodels/kinematic/injectionModel/injectionModel/injectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

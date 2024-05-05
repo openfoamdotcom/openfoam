@@ -31,19 +31,19 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SphereDragForce.H"
-#include "NonSphereDragForce.H"
+#include "submodels/Kinematic/ParticleForces/Drag/SphereDrag/SphereDragForce.H"
+#include "submodels/Kinematic/ParticleForces/Drag/NonSphereDrag/NonSphereDragForce.H"
 
-#include "SaffmanMeiLiftForce.H"
-#include "TomiyamaLiftForce.H"
+#include "submodels/Kinematic/ParticleForces/Lift/SaffmanMeiLift/SaffmanMeiLiftForce.H"
+#include "submodels/Kinematic/ParticleForces/Lift/TomiyamaLift/TomiyamaLiftForce.H"
 
-#include "GravityForce.H"
-#include "NonInertialFrameForce.H"
-#include "ParamagneticForce.H"
-#include "PressureGradientForce.H"
-#include "SRFForce.H"
-#include "VirtualMassForce.H"
-#include "CoulombForce.H"
+#include "submodels/Kinematic/ParticleForces/Gravity/GravityForce.H"
+#include "submodels/Kinematic/ParticleForces/NonInertialFrame/NonInertialFrameForce.H"
+#include "submodels/Kinematic/ParticleForces/Paramagnetic/ParamagneticForce.H"
+#include "submodels/Kinematic/ParticleForces/PressureGradient/PressureGradientForce.H"
+#include "submodels/Kinematic/ParticleForces/SRF/SRFForce.H"
+#include "submodels/Kinematic/ParticleForces/VirtualMass/VirtualMassForce.H"
+#include "submodels/Kinematic/ParticleForces/Coulomb/CoulombForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

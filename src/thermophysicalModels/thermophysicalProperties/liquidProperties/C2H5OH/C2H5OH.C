@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "C2H5OH.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidProperties/C2H5OH/C2H5OH.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

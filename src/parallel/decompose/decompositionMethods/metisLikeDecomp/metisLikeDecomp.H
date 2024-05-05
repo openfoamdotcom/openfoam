@@ -40,7 +40,7 @@ SourceFiles
 #ifndef Foam_metisLikeDecomp_H
 #define Foam_metisLikeDecomp_H
 
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 namespace Foam
 {

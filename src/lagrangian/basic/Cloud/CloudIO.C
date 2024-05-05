@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CloudPascal.H"
-#include "TimeOpenFOAM.H"
-#include "IOPosition.H"
-#include "IOdictionary.H"
-#include "IOobjectList.H"
+#include "Cloud/CloudPascal.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "IOPosition/IOPosition.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

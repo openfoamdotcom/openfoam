@@ -28,8 +28,8 @@ License
 #ifndef cyclicSlipFvPatchFields_H
 #define cyclicSlipFvPatchFields_H
 
-#include "cyclicSlipFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/cyclicSlip/cyclicSlipFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

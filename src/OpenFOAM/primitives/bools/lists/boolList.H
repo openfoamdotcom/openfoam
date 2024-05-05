@@ -28,8 +28,8 @@ License
 #ifndef Foam_boolList_H
 #define Foam_boolList_H
 
-#include "bool.H"
-#include "List.H"
+#include "primitives/bools/bool/bool.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_boundarySourcePatch_H
 #define Foam_boundarySourcePatch_H
 
-#include "scalarField.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

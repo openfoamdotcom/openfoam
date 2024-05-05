@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveEntry.H"
-#include "functionEntry.H"
-#include "evalEntry.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
+#include "db/dictionary/functionEntries/evalEntry/evalEntry.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

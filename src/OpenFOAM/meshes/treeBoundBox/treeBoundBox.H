@@ -71,7 +71,7 @@ SourceFiles
 #ifndef Foam_treeBoundBox_H
 #define Foam_treeBoundBox_H
 
-#include "boundBox.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -460,10 +460,10 @@ inline bool operator!=(const treeBoundBox& a, const treeBoundBox& b);
 
 } // End namespace Foam
 
-#include "treeBoundBoxI.H"
+#include "meshes/treeBoundBox/treeBoundBoxI.H"
 
 #ifdef NoRepository
-    #include "treeBoundBoxTemplates.C"
+    #include "meshes/treeBoundBox/treeBoundBoxTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -120,12 +120,12 @@ SourceFiles
 #ifndef directionalPressureGradientExplicitSource_H
 #define directionalPressureGradientExplicitSource_H
 
-#include "autoPtr.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "fvOption.H"
-#include "cellSetOption.H"
-#include "interpolationTable.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "cellSetOption/cellSetOption.H"
+#include "interpolations/interpolationTable/interpolationTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,9 +41,9 @@ SourceFiles
 #ifndef Foam_functionObjects_writeDictionary_H
 #define Foam_functionObjects_writeDictionary_H
 
-#include "regionFunctionObject.H"
-#include "wordList.H"
-#include "SHA1Digest.H"
+#include "db/functionObjects/regionFunctionObject/regionFunctionObject.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

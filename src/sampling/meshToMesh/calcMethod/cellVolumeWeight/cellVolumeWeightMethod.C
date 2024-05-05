@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellVolumeWeightMethod.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshToMesh/calcMethod/cellVolumeWeight/cellVolumeWeightMethod.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LUscalarMatrix.H"
-#include "lduMatrix.H"
-#include "procLduMatrix.H"
-#include "procLduInterface.H"
-#include "cyclicLduInterface.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "matrices/LUscalarMatrix/procLduMatrix.H"
+#include "matrices/LUscalarMatrix/procLduInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/cyclicLduInterface.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

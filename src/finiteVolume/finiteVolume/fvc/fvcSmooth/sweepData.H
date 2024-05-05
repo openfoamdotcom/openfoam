@@ -249,7 +249,7 @@ template<> struct is_contiguous<sweepData> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sweepDataI.H"
+#include "finiteVolume/fvc/fvcSmooth/sweepDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

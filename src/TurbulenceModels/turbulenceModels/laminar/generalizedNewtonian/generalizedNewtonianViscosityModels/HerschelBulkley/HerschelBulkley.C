@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HerschelBulkley.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/HerschelBulkley/HerschelBulkley.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -70,8 +70,8 @@ SourceFiles
 #ifndef Foam_abaqusMeshSet_H
 #define Foam_abaqusMeshSet_H
 
-#include "sampledSet.H"
-#include "vectorList.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "primitives/Vector/lists/vectorList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef wedgeFvPatch_H
 #define wedgeFvPatch_H
 
-#include "fvPatch.H"
-#include "wedgePolyPatch.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

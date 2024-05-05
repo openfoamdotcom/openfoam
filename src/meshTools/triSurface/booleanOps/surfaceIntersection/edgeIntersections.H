@@ -39,11 +39,11 @@ SourceFiles
 #ifndef edgeIntersections_H
 #define edgeIntersections_H
 
-#include "pointIndexHit.H"
-#include "scalarField.H"
-#include "pointField.H"
-#include "typeInfo.H"
-#include "boolList.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

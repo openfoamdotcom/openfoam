@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "metisLikeDecomp.H"
-#include "TimeOpenFOAM.H"
-#include "globalIndex.H"
-#include "globalMeshData.H"
+#include "metisLikeDecomp/metisLikeDecomp.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

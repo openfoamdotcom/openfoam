@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LiquidEvapFuchsKnudsen.H"
+#include "submodels/Reacting/PhaseChangeModel/LiquidEvapFuchsKnudsen/LiquidEvapFuchsKnudsen.H"
 
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //

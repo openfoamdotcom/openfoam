@@ -61,12 +61,12 @@ SourceFiles
 #ifndef Foam_fvMeshSubset_H
 #define Foam_fvMeshSubset_H
 
-#include "fvMesh.H"
-#include "pointMesh.H"
-#include "surfaceMesh.H"
-#include "GeometricField.H"
-#include "bitSet.H"
-#include "HashSet.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -441,12 +441,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvMeshSubsetI.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubsetI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshSubsetTemplates.C"
+    #include "fvMesh/fvMeshSubset/fvMeshSubsetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

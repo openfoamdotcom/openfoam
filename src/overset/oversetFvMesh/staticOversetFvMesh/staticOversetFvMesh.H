@@ -37,8 +37,8 @@ SourceFiles
 #ifndef staticOversetFvMesh_H
 #define staticOversetFvMesh_H
 
-#include "staticFvMesh.H"
-#include "oversetFvMeshBase.H"
+#include "staticFvMesh/staticFvMesh.H"
+#include "oversetFvMesh/oversetFvMeshBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

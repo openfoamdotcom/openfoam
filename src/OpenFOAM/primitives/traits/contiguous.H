@@ -61,8 +61,8 @@ Description
 #ifndef Foam_contiguous_H
 #define Foam_contiguous_H
 
-#include "labelFwd.H"
-#include "scalarFwd.H"
+#include "primitives/ints/label/labelFwd.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

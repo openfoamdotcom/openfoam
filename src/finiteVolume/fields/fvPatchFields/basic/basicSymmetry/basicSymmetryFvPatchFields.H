@@ -28,8 +28,8 @@ License
 #ifndef basicSymmetryFvPatchFields_H
 #define basicSymmetryFvPatchFields_H
 
-#include "basicSymmetryFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/basic/basicSymmetry/basicSymmetryFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

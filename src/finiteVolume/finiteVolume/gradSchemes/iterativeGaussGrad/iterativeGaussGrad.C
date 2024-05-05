@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "iterativeGaussGrad.H"
-#include "skewCorrectionVectors.H"
+#include "finiteVolume/gradSchemes/iterativeGaussGrad/iterativeGaussGrad.H"
+#include "interpolation/surfaceInterpolation/schemes/skewCorrected/skewCorrectionVectors.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

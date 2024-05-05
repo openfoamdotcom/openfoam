@@ -35,11 +35,11 @@ SourceFiles
 #ifndef frictionalStressModel_H
 #define frictionalStressModel_H
 
-#include "dictionary.H"
-#include "volFields.H"
-#include "dimensionedTypes.H"
-#include "runTimeSelectionTables.H"
-#include "reactingEuler_phaseModel.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/volFields/volFields.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

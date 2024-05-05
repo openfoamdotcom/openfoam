@@ -44,7 +44,7 @@ Description
 #ifndef WallSpringSliderDashpot_H
 #define WallSpringSliderDashpot_H
 
-#include "WallModel.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel/WallModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "WallSpringSliderDashpot.C"
+    #include "submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallSpringSliderDashpot/WallSpringSliderDashpot.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

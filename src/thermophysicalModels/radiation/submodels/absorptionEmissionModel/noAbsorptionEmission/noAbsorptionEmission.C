@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/absorptionEmissionModel/noAbsorptionEmission/noAbsorptionEmission.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

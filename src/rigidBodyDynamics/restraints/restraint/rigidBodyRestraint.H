@@ -44,13 +44,13 @@ SourceFiles
 #ifndef RBD_rigidBodyRestraint_H
 #define RBD_rigidBodyRestraint_H
 
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "spatialVector.H"
-#include "point.H"
-#include "scalarField.H"
-#include "runTimeSelectionTables.H"
-#include "rigidBodyModelState.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/spatialVectorAlgebra/SpatialVector/spatialVector/spatialVector.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "rigidBodyRestraintI.H"
+#include "restraints/restraint/rigidBodyRestraintI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

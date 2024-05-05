@@ -56,7 +56,7 @@ SeeAlso
 #ifndef Foam_error_H
 #define Foam_error_H
 
-#include "messageStream.H"
+#include "db/error/messageStream.H"
 #include <memory>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -536,7 +536,7 @@ extern IOerror FatalIOError;
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "errorManip.H"
+#include "db/error/errorManip.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

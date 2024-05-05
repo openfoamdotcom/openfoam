@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringOpenFOAM.H"
-#include "stringOps.H"
-#include "word.H"
-#include "wordRe.H"
+#include "primitives/strings/string/stringOpenFOAM.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/strings/wordRe/wordRe.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

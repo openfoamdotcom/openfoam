@@ -40,8 +40,8 @@ Description
 #ifndef Foam_zeroFieldField_H
 #define Foam_zeroFieldField_H
 
-#include "zeroField.H"
-#include "Pair.H"
+#include "fields/Fields/zeroField/zeroField.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

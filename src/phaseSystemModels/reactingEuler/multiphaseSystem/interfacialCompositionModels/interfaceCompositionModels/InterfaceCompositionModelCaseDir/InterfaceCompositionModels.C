@@ -25,34 +25,34 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interfaceCompositionModel.H"
-#include "InterfaceCompositionModelPascal1.H"
-#include "Henry.H"
-#include "NonRandomTwoLiquid.H"
-#include "Raoult.H"
-#include "Saturated.H"
+#include "interfaceCompositionModel/interfaceCompositionModel.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal1.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/Henry/Henry.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/NonRandomTwoLiquid/NonRandomTwoLiquid.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/Raoult/Raoult.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/Saturated/Saturated.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #include "makeReactionThermo.H"
 
-#include "thermoPhysicsTypes.H"
+#include "include/thermoPhysicsTypes.H"
 
-#include "rhoConst.H"
-#include "perfectFluid.H"
+#include "equationOfState/rhoConst/rhoConst.H"
+#include "equationOfState/perfectFluid/perfectFluid.H"
 
-#include "pureMixture.H"
-#include "multiComponentMixture.H"
-#include "reactingMixture.H"
-#include "SpecieMixture.H"
+#include "mixtures/pureMixture/pureMixture.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "mixtures/SpecieMixture/SpecieMixture.H"
 
-#include "rhoThermo.H"
-#include "rhoReactionThermo.H"
-#include "heRhoThermo.H"
+#include "rhoThermo/rhoThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "rhoThermo/heRhoThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,8 +29,8 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "colourTools.H"
-#include "mathematicalConstants.H"
+#include "colours/colourTools.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant;
 

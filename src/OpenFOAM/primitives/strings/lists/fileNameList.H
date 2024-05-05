@@ -28,9 +28,9 @@ License
 #ifndef Foam_fileNameList_H
 #define Foam_fileNameList_H
 
-#include "fileName.H"
-#include "List.H"
-#include "SubList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

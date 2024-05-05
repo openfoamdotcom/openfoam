@@ -3,7 +3,7 @@
 #ifndef FoamCompat_tmpNrc_H
 #define FoamCompat_tmpNrc_H
 
-#include "refPtr.H"
+#include "memory/refPtr/refPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

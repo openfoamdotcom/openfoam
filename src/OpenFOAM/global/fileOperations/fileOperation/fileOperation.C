@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileOperation.H"
-#include "objectRegistry.H"
-#include "labelIOList.H"
-#include "registerSwitch.H"
-#include "stringOps.H"
-#include "TimeOpenFOAM.H"
-#include "OSspecific.H"  // for Foam::isDir etc
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "global/debug/registerSwitch.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "include/OSspecific.H"  // for Foam::isDir etc
 #include <cinttypes>
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
@@ -181,7 +181,7 @@ static bool parseProcsNumRange
 
 
 // Sorting of processor directories
-#include "stringOpsSort.H"
+#include "primitives/strings/stringOps/stringOpsSort.H"
 namespace
 {
 

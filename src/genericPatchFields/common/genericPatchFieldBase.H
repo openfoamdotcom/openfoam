@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_genericPatchFieldBase_H
 #define Foam_genericPatchFieldBase_H
 
-#include "dictionary.H"
-#include "primitiveFields.H"
-#include "HashPtrTable.H"
-#include "IOobject.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/Fields/primitiveFields.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "db/IOobject/IOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "genericPatchFieldBaseTemplates.C"
+    #include "common/genericPatchFieldBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

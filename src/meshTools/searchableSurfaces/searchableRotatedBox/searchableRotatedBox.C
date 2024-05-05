@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableRotatedBox.H"
-#include "addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchableRotatedBox/searchableRotatedBox.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "proudmanAcousticPower.H"
-#include "volFields.H"
-#include "basicThermo.H"
+#include "proudmanAcousticPower/proudmanAcousticPower.H"
+#include "fields/volFields/volFields.H"
+#include "basicThermo/basicThermo.H"
 #include "turbulenceModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

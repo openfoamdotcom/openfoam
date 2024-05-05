@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_solidArrheniusReactionRate_H
 #define Foam_solidArrheniusReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -133,7 +133,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solidArrheniusReactionRateI.H"
+#include "reaction/reactionRate/solidArrheniusReactionRate/solidArrheniusReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

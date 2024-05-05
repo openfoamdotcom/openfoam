@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "averageCondition.H"
-#include "addToRunTimeSelectionTable.H"
+#include "runTimeControl/runTimeCondition/averageCondition/averageCondition.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

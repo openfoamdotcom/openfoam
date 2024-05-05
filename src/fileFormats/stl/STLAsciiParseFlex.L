@@ -38,9 +38,9 @@ Description
    ------ local definitions
  \* ------------------------------------------------------------------------ */
 
-#include "STLAsciiParse.H"
-#include "STLReader.H"
-#include "OSspecific.H"
+#include "stl/STLAsciiParse.H"
+#include "stl/STLReader.H"
+#include "include/OSspecific.H"
 
 // Flex may use register, which is deprecated and incompatible with C++17
 #pragma clang diagnostic ignored "-Wdeprecated-register"

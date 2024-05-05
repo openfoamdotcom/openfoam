@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stabilisedFvGeometryScheme.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "PrecisionAdaptor.H"
-#include "primitiveMeshTools.H"
-#include "triangle.H"
+#include "fvMesh/fvGeometryScheme/stabilised/stabilisedFvGeometryScheme.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

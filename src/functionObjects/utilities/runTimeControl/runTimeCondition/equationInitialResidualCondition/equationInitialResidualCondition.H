@@ -39,8 +39,8 @@ SourceFiles
 #ifndef functionObjects_runTimeControls_equationInitialResidualCondition_H
 #define functionObjects_runTimeControls_equationInitialResidualCondition_H
 
-#include "runTimeCondition.H"
-#include "solverFieldSelection.H"
+#include "runTimeControl/runTimeCondition/runTimeCondition/runTimeCondition.H"
+#include "functionObjects/fieldSelections/solverFieldSelection/solverFieldSelection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,7 +145,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "equationInitialResidualConditionTemplates.C"
+    #include "runTimeControl/runTimeCondition/equationInitialResidualCondition/equationInitialResidualConditionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef walkPatch_H
 #define walkPatch_H
 
-#include "labelList.H"
-#include "primitivePatch.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

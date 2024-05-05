@@ -37,8 +37,8 @@ SourceFiles
 #ifndef cellMotionFvPatchField_H
 #define cellMotionFvPatchField_H
 
-#include "Random.H"
-#include "fixedValueFvPatchFields.H"
+#include "primitives/random/Random/Random.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,7 +140,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "cellMotionFvPatchField.C"
+    #include "fvPatchFields/derived/cellMotion/cellMotionFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

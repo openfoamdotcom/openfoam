@@ -37,8 +37,8 @@ SourceFiles
 #ifndef GeometricVectorField_H
 #define GeometricVectorField_H
 
-#include "GeometricScalarField.H"
-#include "DimensionedScalarField.H"
+#include "fields/GeometricFields/GeometricScalarField/GeometricScalarField.H"
+#include "fields/DimensionedFields/DimensionedScalarField/DimensionedScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -72,7 +72,7 @@ void unzip
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GeometricVectorField.C"
+    #include "fields/GeometricFields/GeometricVectorField/GeometricVectorField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

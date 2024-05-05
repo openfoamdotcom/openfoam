@@ -38,9 +38,9 @@ SourceFiles
 #ifndef cyclicGAMGInterfaceField_H
 #define cyclicGAMGInterfaceField_H
 
-#include "GAMGInterfaceField.H"
-#include "cyclicGAMGInterface.H"
-#include "cyclicLduInterfaceField.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/cyclicGAMGInterface/cyclicGAMGInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/cyclicLduInterfaceField/cyclicLduInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

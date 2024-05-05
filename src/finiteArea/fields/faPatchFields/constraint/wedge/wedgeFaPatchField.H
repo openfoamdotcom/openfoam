@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_wedgeFaPatchField_H
 #define Foam_wedgeFaPatchField_H
 
-#include "transformFaPatchField.H"
-#include "wedgeFaPatch.H"
-#include "areaFaMesh.H"
+#include "fields/faPatchFields/basic/transform/transformFaPatchField.H"
+#include "faMesh/faPatches/constraint/wedge/wedgeFaPatch.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -158,7 +158,7 @@ void wedgeFaPatchField<scalar>::evaluate
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wedgeFaPatchField.C"
+    #include "fields/faPatchFields/constraint/wedge/wedgeFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

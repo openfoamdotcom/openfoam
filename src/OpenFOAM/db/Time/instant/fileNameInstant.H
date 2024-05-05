@@ -34,8 +34,8 @@ Description
 #ifndef Foam_fileNameInstant_H
 #define Foam_fileNameInstant_H
 
-#include "fileName.H"
-#include "instant.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/Time/instant/instant.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

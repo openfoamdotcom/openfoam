@@ -42,8 +42,8 @@ SourceFiles
 #ifndef multiphaseMangrovesTurbulenceModel_H
 #define multiphaseMangrovesTurbulenceModel_H
 
-#include "fvOption.H"
-#include "volFields.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

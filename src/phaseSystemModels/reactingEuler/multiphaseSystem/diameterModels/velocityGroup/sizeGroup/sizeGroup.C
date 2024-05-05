@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sizeGroup.H"
-#include "populationBalanceModel.H"
-#include "mixedFvPatchField.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroup.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

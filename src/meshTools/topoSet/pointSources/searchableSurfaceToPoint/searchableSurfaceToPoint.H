@@ -85,8 +85,8 @@ SourceFiles
 #ifndef Foam_searchableSurfaceToPoint_H
 #define Foam_searchableSurfaceToPoint_H
 
-#include "topoSetPointSource.H"
-#include "searchableSurface.H"
+#include "topoSet/pointSources/topoSetPointSource/topoSetPointSource.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

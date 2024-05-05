@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateSystem.H"
-#include "transform.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "primitives/transform/transform.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

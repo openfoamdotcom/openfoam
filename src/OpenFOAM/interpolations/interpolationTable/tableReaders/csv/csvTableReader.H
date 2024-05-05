@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_csvTableReader_H
 #define Foam_csvTableReader_H
 
-#include "tableReader.H"
-#include "labelList.H"
+#include "interpolations/interpolationTable/tableReaders/tableReader.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,7 +140,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "csvTableReader.C"
+    #include "interpolations/interpolationTable/tableReaders/csv/csvTableReader.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

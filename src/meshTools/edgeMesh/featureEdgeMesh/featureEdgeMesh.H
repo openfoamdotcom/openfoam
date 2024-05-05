@@ -40,8 +40,8 @@ SourceFiles
 #ifndef featureEdgeMesh_H
 #define featureEdgeMesh_H
 
-#include "edgeMesh.H"
-#include "regIOobject.H"
+#include "edgeMesh/edgeMesh.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef ChemicallyActivatedReactionRate_H
 #define ChemicallyActivatedReactionRate_H
 
-#include "thirdBodyEfficiencies.H"
+#include "reaction/reactionRate/thirdBodyEfficiencies/thirdBodyEfficiencies.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -132,7 +132,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ChemicallyActivatedReactionRateI.H"
+#include "reaction/reactionRate/ChemicallyActivatedReactionRate/ChemicallyActivatedReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

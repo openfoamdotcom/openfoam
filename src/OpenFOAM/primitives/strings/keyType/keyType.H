@@ -43,9 +43,9 @@ SourceFiles
 #ifndef Foam_keyType_H
 #define Foam_keyType_H
 
-#include "word.H"
-#include "wordRe.H"
-#include "stdFoam.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -258,7 +258,7 @@ Ostream& operator<<(Ostream& os, const keyType& val);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "keyTypeI.H"
+#include "primitives/strings/keyType/keyTypeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

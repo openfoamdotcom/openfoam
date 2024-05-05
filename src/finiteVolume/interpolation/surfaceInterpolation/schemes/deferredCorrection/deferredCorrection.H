@@ -58,7 +58,7 @@ SeeAlso
 #ifndef deferredCorrection_H
 #define deferredCorrection_H
 
-#include "upwind.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "leastSquaresEdgeInterpolation.H"
+#include "interpolation/edgeInterpolation/schemes/leastSquares/leastSquaresEdgeInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

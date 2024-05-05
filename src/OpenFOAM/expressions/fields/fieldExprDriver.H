@@ -52,10 +52,10 @@ SourceFiles
 #ifndef expressions_fieldExprDriver_H
 #define expressions_fieldExprDriver_H
 
-#include "fieldExprFwd.H"
-#include "exprDriver.H"
-#include "primitiveFields.H"
-#include "genericRagelLemonDriver.H"
+#include "expressions/fields/fieldExprFwd.H"
+#include "expressions/exprDriver/exprDriver.H"
+#include "fields/Fields/primitiveFields.H"
+#include "primitives/strings/parsing/genericRagelLemonDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -186,7 +186,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldExprDriverTemplates.C"
+    #include "expressions/fields/fieldExprDriverTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

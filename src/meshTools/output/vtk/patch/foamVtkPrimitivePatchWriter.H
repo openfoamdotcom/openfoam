@@ -38,8 +38,8 @@ See Also
 #ifndef Foam_vtk_primitivePatchWriter_H
 #define Foam_vtk_primitivePatchWriter_H
 
-#include "foamVtkGenericPatchWriter.H"
-#include "primitivePatch.H"
+#include "output/vtk/patch/foamVtkGenericPatchWriter.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

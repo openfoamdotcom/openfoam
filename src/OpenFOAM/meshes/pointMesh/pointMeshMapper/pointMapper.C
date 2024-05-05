@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointMapper.H"
-#include "demandDrivenData.H"
-#include "pointMesh.H"
-#include "mapPolyMesh.H"
+#include "meshes/pointMesh/pointMeshMapper/pointMapper.H"
+#include "include/demandDrivenData.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

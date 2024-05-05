@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_Tensor2D_H
 #define Foam_Tensor2D_H
 
-#include "Vector2DPascal.H"
-#include "SphericalTensor2DPascal.H"
+#include "primitives/Vector2D/Vector2DPascal.H"
+#include "primitives/SphericalTensor2D/SphericalTensor2DPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -269,7 +269,7 @@ struct is_contiguous_scalar<Tensor2D<Cmpt>> : is_contiguous_scalar<Cmpt> {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Tensor2DI.H"
+#include "primitives/Tensor2D/Tensor2DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -92,8 +92,8 @@ SourceFiles
 #ifndef kLowReWallFunctionFvPatchScalarField_H
 #define kLowReWallFunctionFvPatchScalarField_H
 
-#include "fixedValueFvPatchField.H"
-#include "wallFunctionCoefficients.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionCoefficients/wallFunctionCoefficients.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

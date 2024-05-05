@@ -30,8 +30,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoComposition.H"
-#include "SingleMixtureFraction.H"
+#include "submodels/Reacting/CompositionModel/NoComposition/NoComposition.H"
+#include "submodels/Reacting/CompositionModel/SingleMixtureFraction/SingleMixtureFraction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

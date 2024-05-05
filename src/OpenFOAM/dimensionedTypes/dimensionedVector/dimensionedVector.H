@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_dimensionedVector_H
 #define Foam_dimensionedVector_H
 
-#include "dimensionedScalar.H"
-#include "vector.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

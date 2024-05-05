@@ -186,10 +186,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "constTransportI.H"
+#include "transport/const/constTransportI.H"
 
 #ifdef NoRepository
-    #include "constTransport.C"
+    #include "transport/const/constTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

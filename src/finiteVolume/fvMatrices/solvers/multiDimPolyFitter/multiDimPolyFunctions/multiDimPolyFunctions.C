@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiDimPolyFunctions.H"
-#include "error.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/multiDimPolyFunctions/multiDimPolyFunctions.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

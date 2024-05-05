@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "components.H"
-#include "addToRunTimeSelectionTable.H"
+#include "components/components.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -44,7 +44,7 @@ namespace functionObjects
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Implementation
-#include "componentsImpl.C"
+#include "components/componentsImpl.C"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

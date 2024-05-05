@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UList.H"
-#include "contiguous.H"
-#include "labelRange.H"
+#include "containers/Lists/List/UList.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/ranges/labelRange/labelRange.H"
 
 #include <random>
 

@@ -37,9 +37,9 @@ SourceFiles
 #ifndef JanevReactionRate_H
 #define JanevReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
-#include "FixedList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/typeInfo/typeInfo.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -125,7 +125,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "JanevReactionRateI.H"
+#include "reaction/reactionRate/JanevReactionRate/JanevReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ License
 #ifndef Foam_faceIOList_H
 #define Foam_faceIOList_H
 
-#include "face.H"
-#include "CompactIOList.H"
+#include "meshes/meshShapes/face/face.H"
+#include "db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

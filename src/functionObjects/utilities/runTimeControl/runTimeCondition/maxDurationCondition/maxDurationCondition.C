@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "maxDurationCondition.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
+#include "runTimeControl/runTimeCondition/maxDurationCondition/maxDurationCondition.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

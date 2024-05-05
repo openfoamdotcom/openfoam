@@ -51,7 +51,7 @@ SourceFiles
 #ifndef skewCorrectedSnGrad_H
 #define skewCorrectedSnGrad_H
 
-#include "snGradScheme.H"
+#include "finiteVolume/snGradSchemes/snGradScheme/snGradScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -162,7 +162,7 @@ tmp<surfaceVectorField> skewCorrectedSnGrad<vector>::correction
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "skewCorrectedSnGrad.C"
+    #include "finiteVolume/snGradSchemes/skewCorrectedSnGrad/skewCorrectedSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

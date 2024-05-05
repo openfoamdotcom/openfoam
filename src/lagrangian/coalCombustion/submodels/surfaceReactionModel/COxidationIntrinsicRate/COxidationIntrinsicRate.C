@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationIntrinsicRate.H"
-#include "mathematicalConstants.H"
+#include "submodels/surfaceReactionModel/COxidationIntrinsicRate/COxidationIntrinsicRate.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant;
 

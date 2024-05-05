@@ -43,8 +43,8 @@ SourceFiles
 #ifndef CorrectPhi_H
 #define CorrectPhi_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,7 +97,7 @@ namespace Foam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CorrectPhi.C"
+    #include "cfdTools/general/CorrectPhi/CorrectPhi.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

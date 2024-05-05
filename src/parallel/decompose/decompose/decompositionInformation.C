@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "decompositionInformation.H"
-#include "ListOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

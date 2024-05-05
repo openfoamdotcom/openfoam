@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oversetPatchPhiErr.H"
-#include "oversetFvPatchField.H"
-#include "volFields.H"
-#include "volFieldsFwd.H"
+#include "oversetPatchPhiErr/oversetPatchPhiErr.H"
+#include "oversetPolyPatch/oversetFvPatchField.H"
+#include "fields/volFields/volFields.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

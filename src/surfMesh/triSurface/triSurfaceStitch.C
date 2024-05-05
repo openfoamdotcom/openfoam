@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "mergePoints.H"
-#include "bitSet.H"
+#include "triSurface/triSurface.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

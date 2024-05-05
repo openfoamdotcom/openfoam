@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfacesQueries.H"
-#include "projectCurveEdge.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "pointConstraint.H"
-#include "OBJstream.H"
-#include "linearInterpolationWeights.H"
-#include "searchableExtrudedCircle.H"
+#include "searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.H"
+#include "blockEdges/projectCurveEdge/projectCurveEdge.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/pointPatchFields/pointPatchField/pointConstraint/pointConstraint.H"
+#include "obj/OBJstream.H"
+#include "interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.H"
+#include "searchableSurfaces/searchableExtrudedCircle/searchableExtrudedCircle.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

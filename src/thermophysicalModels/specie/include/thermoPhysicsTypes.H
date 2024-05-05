@@ -35,30 +35,30 @@ Description
 #ifndef thermoPhysicsTypes_H
 #define thermoPhysicsTypes_H
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "incompressiblePerfectGas.H"
-#include "rPolynomial.H"
-#include "perfectFluid.H"
-#include "adiabaticPerfectFluid.H"
-#include "rhoConst.H"
-#include "hConstThermo.H"
-#include "eConstThermo.H"
-#include "janafThermo.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "equationOfState/incompressiblePerfectGas/incompressiblePerfectGas.H"
+#include "equationOfState/rPolynomial/rPolynomial.H"
+#include "equationOfState/perfectFluid/perfectFluid.H"
+#include "equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.H"
+#include "equationOfState/rhoConst/rhoConst.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/eConst/eConstThermo.H"
+#include "thermo/janaf/janafThermo.H"
 
-#include "sensibleEnthalpy.H"
-#include "sensibleInternalEnergy.H"
-#include "thermo.H"
-#include "sutherlandTransport.H"
-#include "constTransport.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
+#include "thermo/thermo.H"
+#include "transport/sutherland/sutherlandTransport.H"
+#include "transport/const/constTransport.H"
 
-#include "icoPolynomial.H"
-#include "hPolynomialThermo.H"
-#include "polynomialTransport.H"
+#include "equationOfState/icoPolynomial/icoPolynomial.H"
+#include "thermo/hPolynomial/hPolynomialThermo.H"
+#include "transport/polynomial/polynomialTransport.H"
 
-#include "tabulatedTransport.H"
-#include "hTabulatedThermo.H"
-#include "icoTabulated.H"
+#include "transport/tabulated/tabulatedTransport.H"
+#include "thermo/hTabulated/hTabulatedThermo.H"
+#include "equationOfState/icoTabulated/icoTabulated.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

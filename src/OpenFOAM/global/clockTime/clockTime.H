@@ -49,7 +49,7 @@ SourceFiles
 #ifndef clockTime_H
 #define clockTime_H
 
-#include "clockValue.H"
+#include "global/clockValue/clockValue.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "clockTimeI.H"
+#include "global/clockTime/clockTimeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

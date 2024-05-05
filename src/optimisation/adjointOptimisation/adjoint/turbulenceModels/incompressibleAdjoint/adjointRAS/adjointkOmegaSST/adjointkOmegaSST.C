@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointkOmegaSST.H"
-#include "wallFvPatch.H"
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "linear.H"
-#include "reverseLinear.H"
-#include "nutkWallFunctionFvPatchScalarField.H"
-#include "omegaWallFunctionFvPatchScalarField.H"
-#include "fvOptions.H"
-#include "sensitivityTopO.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointkOmegaSST/adjointkOmegaSST.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "interpolation/surfaceInterpolation/schemes/reverseLinear/reverseLinear.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutkWallFunction/nutkWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallFunctions/omegaWallFunctions/omegaWallFunction/omegaWallFunctionFvPatchScalarField.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/topO/sensitivityTopO.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

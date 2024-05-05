@@ -36,10 +36,10 @@ SourceFiles
 #ifndef edgeInterpolate_H
 #define edgeInterpolate_H
 
-#include "tmp.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "edgeInterpolationScheme.H"
+#include "memory/tmp/tmp.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ namespace fac
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "edgeInterpolate.C"
+    #include "interpolation/edgeInterpolation/edgeInterpolate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef BezierDesignVariables_H
 #define BezierDesignVariables_H
 
-#include "shapeDesignVariables.H"
-#include "BezierPascal.H"
+#include "optimisation/designVariables/shape/shapeDesignVariables/shapeDesignVariables.H"
+#include "parameterization/Bezier/BezierPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

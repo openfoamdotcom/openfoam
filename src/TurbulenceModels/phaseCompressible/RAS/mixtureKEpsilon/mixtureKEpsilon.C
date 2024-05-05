@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixtureKEpsilon.H"
-#include "fvOptions.H"
-#include "bound.H"
+#include "TurbulenceModels/phaseCompressible/RAS/mixtureKEpsilon/mixtureKEpsilon.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
 #include "twoPhaseSystem.H"
-#include "dragModel.H"
-#include "virtualMassModel.H"
-#include "fixedValueFvPatchFields.H"
-#include "inletOutletFvPatchFields.H"
-#include "fvmSup.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

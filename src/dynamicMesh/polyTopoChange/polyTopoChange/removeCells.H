@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Foam_removeCells_H
 #define Foam_removeCells_H
 
-#include "labelList.H"
-#include "typeInfo.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

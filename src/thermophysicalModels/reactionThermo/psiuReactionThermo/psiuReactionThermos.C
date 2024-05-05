@@ -25,28 +25,28 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "psiuReactionThermo.H"
-#include "heheuPsiThermo.H"
+#include "psiuReactionThermo/psiuReactionThermo.H"
+#include "psiuReactionThermo/heheuPsiThermo.H"
 
 #include "makeReactionThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "hConstThermo.H"
-#include "janafThermo.H"
-#include "thermo.H"
-#include "constTransport.H"
-#include "sutherlandTransport.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/janaf/janafThermo.H"
+#include "thermo/thermo.H"
+#include "transport/const/constTransport.H"
+#include "transport/sutherland/sutherlandTransport.H"
 
-#include "absoluteEnthalpy.H"
-#include "absoluteInternalEnergy.H"
+#include "thermo/absoluteEnthalpy/absoluteEnthalpy.H"
+#include "thermo/absoluteInternalEnergy/absoluteInternalEnergy.H"
 
-#include "homogeneousMixture.H"
-#include "inhomogeneousMixture.H"
-#include "veryInhomogeneousMixture.H"
-#include "multiComponentMixture.H"
-#include "egrMixture.H"
+#include "mixtures/homogeneousMixture/homogeneousMixture.H"
+#include "mixtures/inhomogeneousMixture/inhomogeneousMixture.H"
+#include "mixtures/veryInhomogeneousMixture/veryInhomogeneousMixture.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
+#include "mixtures/egrMixture/egrMixture.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

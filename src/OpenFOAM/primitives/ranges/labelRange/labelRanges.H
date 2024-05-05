@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_labelRanges_H
 #define Foam_labelRanges_H
 
-#include "labelRange.H"
-#include "DynamicList.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -262,7 +262,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "labelRangesI.H"
+#include "primitives/ranges/labelRange/labelRangesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "logFiles.H"
-#include "TimeOpenFOAM.H"
-#include "IFstream.H"
+#include "db/functionObjects/logFiles/logFiles.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

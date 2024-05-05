@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TDILUPreconditioner.H"
+#include "matrices/LduMatrixCaseDir/Preconditioners/DILUPreconditioner/TDILUPreconditioner.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

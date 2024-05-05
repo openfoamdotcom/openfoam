@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_Barycentric2D_H
 #define Foam_Barycentric2D_H
 
-#include "contiguous.H"
-#include "VectorSpace.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -136,7 +136,7 @@ struct is_contiguous_scalar<Barycentric2D<Cmpt>> : is_contiguous_scalar<Cmpt>{};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "Barycentric2DI.H"
+#include "primitives/Barycentric2D/Barycentric2DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

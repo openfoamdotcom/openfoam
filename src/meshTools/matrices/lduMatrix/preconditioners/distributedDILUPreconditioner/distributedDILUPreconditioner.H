@@ -65,7 +65,7 @@ SourceFiles
 #ifndef Foam_distributedDILUPreconditioner_H
 #define Foam_distributedDILUPreconditioner_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PureUpwindFitScheme.H"
-#include "quadraticLinearUpwindFitPolynomial.H"
-#include "upwindCFCCellToFaceStencilObject.H"
+#include "interpolation/surfaceInterpolation/schemes/PureUpwindFitScheme/PureUpwindFitScheme.H"
+#include "interpolation/surfaceInterpolation/schemes/quadraticLinearUpwindFit/quadraticLinearUpwindFitPolynomial.H"
+#include "fvMesh/extendedStencil/cellToFace/MeshObjects/upwindCFCCellToFaceStencilObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

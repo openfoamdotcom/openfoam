@@ -54,8 +54,8 @@ SourceFiles
 #ifndef Foam_searchableBox_H
 #define Foam_searchableBox_H
 
-#include "searchableSurface.H"
-#include "treeBoundBox.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

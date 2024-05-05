@@ -72,7 +72,7 @@ SourceFiles
 #ifndef sampledIsoSurfacePoint_H
 #define sampledIsoSurfacePoint_H
 
-#include "sampledIsoSurface.H"
+#include "sampledSurface/isoSurface/sampledIsoSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,7 +32,7 @@ Description
 #ifndef Foam_className_H
 #define Foam_className_H
 
-#include "defineDebugSwitch.H"
+#include "global/debug/defineDebugSwitch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Declarations (without debug information)

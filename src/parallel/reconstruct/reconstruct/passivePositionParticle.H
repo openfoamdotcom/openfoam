@@ -41,9 +41,9 @@ SourceFiles
 #ifndef Foam_passivePositionParticle_H
 #define Foam_passivePositionParticle_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
+#include "particle/particle.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -39,7 +39,7 @@ SourceFiles
 #ifndef thermophysicalPropertiesSelector_H
 #define thermophysicalPropertiesSelector_H
 
-#include "thermophysicalProperties.H"
+#include "thermophysicalProperties/thermophysicalProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,10 +165,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermophysicalPropertiesSelectorI.H"
+#include "thermophysicalPropertiesSelector/thermophysicalPropertiesSelectorI.H"
 
 #ifdef NoRepository
-    #include "thermophysicalPropertiesSelector.C"
+    #include "thermophysicalPropertiesSelector/thermophysicalPropertiesSelector.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

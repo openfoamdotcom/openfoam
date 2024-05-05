@@ -50,12 +50,12 @@ SourceFiles
 #ifndef surfaceFeatures_H
 #define surfaceFeatures_H
 
-#include "pointField.H"
-#include "Map.H"
-#include "HashSet.H"
-#include "pointIndexHit.H"
-#include "edgeList.H"
-#include "typeInfo.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

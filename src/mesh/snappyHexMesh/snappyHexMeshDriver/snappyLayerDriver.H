@@ -39,8 +39,8 @@ SourceFiles
 #ifndef snappyLayerDriver_H
 #define snappyLayerDriver_H
 
-#include "meshRefinement.H"
-#include "scalarIOField.H"
+#include "meshRefinement/meshRefinement.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

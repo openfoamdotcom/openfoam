@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "qZeta.H"
-#include "bound.H"
-#include "addToRunTimeSelectionTable.H"
+#include "turbulentTransportModels/RAS/qZeta/qZeta.H"
+#include "cfdTools/general/bound/bound.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

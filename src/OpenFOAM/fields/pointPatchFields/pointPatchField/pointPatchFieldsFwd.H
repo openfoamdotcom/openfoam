@@ -28,7 +28,7 @@ License
 #ifndef Foam_pointPatchFieldsFwd_H
 #define Foam_pointPatchFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

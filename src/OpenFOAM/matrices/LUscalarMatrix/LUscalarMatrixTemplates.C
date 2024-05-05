@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LUscalarMatrix.H"
-#include "SubList.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

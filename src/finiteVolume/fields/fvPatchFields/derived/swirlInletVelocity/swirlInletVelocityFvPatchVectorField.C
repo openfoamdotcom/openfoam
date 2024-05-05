@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "swirlInletVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/swirlInletVelocity/swirlInletVelocityFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

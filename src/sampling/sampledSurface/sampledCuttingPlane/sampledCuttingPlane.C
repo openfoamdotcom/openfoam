@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledCuttingPlane.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "volPointInterpolation.H"
-#include "cartesianCS.H"
-#include "addToRunTimeSelectionTable.H"
-#include "PtrList.H"
+#include "sampledSurface/sampledCuttingPlane/sampledCuttingPlane.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

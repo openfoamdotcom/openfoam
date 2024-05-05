@@ -35,8 +35,8 @@ Description
 #ifndef Foam_morphFieldMapper_H
 #define Foam_morphFieldMapper_H
 
-#include "Field.H"
-#include "Map.H"
+#include "fields/Fields/Field/Field.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

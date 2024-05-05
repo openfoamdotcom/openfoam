@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dataCloud.H"
-#include "CloudPascal.H"
-#include "dictionary.H"
-#include "fvMesh.H"
-#include "pointList.H"
-#include "OFstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "dataCloud/dataCloud.H"
+#include "Cloud/CloudPascal.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -35,8 +35,8 @@ Description
 #ifndef distributedWeightedFvPatchFieldMapper_H
 #define distributedWeightedFvPatchFieldMapper_H
 
-#include "fvPatchFieldMapper.H"
-#include "mapDistributeBase.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

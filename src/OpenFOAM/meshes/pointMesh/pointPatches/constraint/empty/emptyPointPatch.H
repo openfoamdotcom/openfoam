@@ -37,8 +37,8 @@ SourceFiles
 #ifndef emptyPointPatch_H
 #define emptyPointPatch_H
 
-#include "facePointPatch.H"
-#include "emptyPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

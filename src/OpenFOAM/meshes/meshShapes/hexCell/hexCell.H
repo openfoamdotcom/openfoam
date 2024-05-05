@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_hexCell_H
 #define Foam_hexCell_H
 
-#include "FixedList.H"
-#include "faceList.H"
-#include "edgeList.H"
-#include "pointField.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -189,7 +189,7 @@ template<> struct is_contiguous_label<hexCell> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hexCellI.H"
+#include "meshes/meshShapes/hexCell/hexCellI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

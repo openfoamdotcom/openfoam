@@ -98,7 +98,7 @@ SourceFiles
 #ifndef functionObjects_LambVector_H
 #define functionObjects_LambVector_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

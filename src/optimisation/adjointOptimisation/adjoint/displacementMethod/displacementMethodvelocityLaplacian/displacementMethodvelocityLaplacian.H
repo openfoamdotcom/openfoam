@@ -41,7 +41,7 @@ SourceFiles
 #ifndef displacementMethodvelocityLaplacian_H
 #define displacementMethodvelocityLaplacian_H
 
-#include "displacementMethod.H"
+#include "displacementMethod/displacementMethod/displacementMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "contactAngleForce.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faCFD.H"
-#include "unitConversion.H"
-#include "meshWavePatchDistMethod.H"
+#include "submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "include/faCFD.H"
+#include "global/constants/unitConversion.H"
+#include "fvMesh/wallDist/patchDistMethods/meshWave/meshWavePatchDistMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

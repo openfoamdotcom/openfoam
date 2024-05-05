@@ -88,7 +88,7 @@ SourceFiles
 #ifndef LehrMilliesMewes_H
 #define LehrMilliesMewes_H
 
-#include "binaryBreakupModel.H"
+#include "populationBalanceModel/binaryBreakupModels/binaryBreakupModel/binaryBreakupModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoInjection.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/Kinematic/InjectionModel/NoInjection/NoInjection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

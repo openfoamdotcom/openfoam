@@ -42,12 +42,12 @@ SourceFiles
 #ifndef Foam_polyPatch_H
 #define Foam_polyPatch_H
 
-#include "patchIdentifier.H"
-#include "primitivePatch.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "SubField.H"
-#include "PtrList.H"
+#include "meshes/Identifiers/patch/patchIdentifier.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/Fields/Field/SubField.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

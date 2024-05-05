@@ -72,8 +72,8 @@ SourceFiles
 #ifndef Foam_reactingMultiphaseEuler_alphaContactAngleFvPatchScalarField_H
 #define Foam_reactingMultiphaseEuler_alphaContactAngleFvPatchScalarField_H
 
-#include "zeroGradientFvPatchFields.H"
-#include "reactingEuler_multiphaseSystem.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "multiphaseSystem/reactingEuler_multiphaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

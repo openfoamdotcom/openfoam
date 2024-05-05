@@ -124,11 +124,11 @@ SourceFiles
 #ifndef functionObjects_momentum_H
 #define functionObjects_momentum_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "cylindricalCS.H"
-#include "volFieldsFwd.H"
-#include "volRegion.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/coordinate/systems/cylindricalCS.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "functionObjects/volRegion/volRegion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

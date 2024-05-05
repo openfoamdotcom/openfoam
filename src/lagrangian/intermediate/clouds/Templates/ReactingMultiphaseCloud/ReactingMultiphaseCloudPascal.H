@@ -46,7 +46,7 @@ SourceFiles
 #ifndef ReactingMultiphaseCloud_H
 #define ReactingMultiphaseCloud_H
 
-#include "reactingMultiphaseCloud.H"
+#include "clouds/baseClasses/reactingMultiphaseCloud/reactingMultiphaseCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -314,12 +314,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingMultiphaseCloudI.H"
+#include "clouds/Templates/ReactingMultiphaseCloud/ReactingMultiphaseCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingMultiphaseCloudPascal.C"
+    #include "clouds/Templates/ReactingMultiphaseCloud/ReactingMultiphaseCloudPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

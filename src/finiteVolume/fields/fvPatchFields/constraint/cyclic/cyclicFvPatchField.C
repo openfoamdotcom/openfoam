@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMatrix.H"
-#include "cyclicFvPatchField.H"
-#include "transformField.H"
-#include "volFields.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fields/fvPatchFields/constraint/cyclic/cyclicFvPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

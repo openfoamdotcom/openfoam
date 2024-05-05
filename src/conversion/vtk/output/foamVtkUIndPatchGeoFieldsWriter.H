@@ -11,7 +11,7 @@ Description
 #ifndef Foam_vtk_UIndPatchGeoFieldsWriter_H
 #define Foam_vtk_UIndPatchGeoFieldsWriter_H
 
-#include "foamVtkIndPatchGeoFieldsWriter.H"
+#include "vtk/output/foamVtkIndPatchGeoFieldsWriter.H"
 
 #endif
 

@@ -39,15 +39,15 @@ SourceFiles
 #ifndef edgeCollapser_H
 #define edgeCollapser_H
 
-#include "pointEdgeCollapse.H"
-#include "DynamicList.H"
-#include "Field.H"
-#include "pointFieldFwd.H"
-#include "Map.H"
-#include "labelPair.H"
-#include "HashSet.H"
-#include "typeInfo.H"
-#include "Switch.H"
+#include "polyTopoChange/polyTopoChange/pointEdgeCollapse/pointEdgeCollapse.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "fields/Fields/Field/Field.H"
+#include "meshes/primitiveShapes/point/pointFieldFwd.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/tuples/labelPair.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

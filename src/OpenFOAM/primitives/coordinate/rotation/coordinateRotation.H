@@ -61,12 +61,12 @@ SourceFiles
 #ifndef Foam_coordinateRotation_H
 #define Foam_coordinateRotation_H
 
-#include "autoPtr.H"
-#include "vector.H"
-#include "tensor.H"
-#include "dictionary.H"
-#include "IOobjectOption.H"
-#include "runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "db/dictionary/dictionary.H"
+#include "db/options/IOobjectOption.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

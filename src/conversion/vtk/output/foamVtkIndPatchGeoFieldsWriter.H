@@ -47,8 +47,8 @@ See Also
 #ifndef Foam_vtk_IndPatchGeoFieldsWriter_H
 #define Foam_vtk_IndPatchGeoFieldsWriter_H
 
-#include "foamVtkGenericPatchGeoFieldsWriter.H"
-#include "indirectPrimitivePatch.H"
+#include "vtk/output/foamVtkGenericPatchGeoFieldsWriter.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

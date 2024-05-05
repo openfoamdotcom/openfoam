@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCell.H"
-#include "volFields.H"
+#include "interpolation/interpolation/interpolationCell/interpolationCell.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

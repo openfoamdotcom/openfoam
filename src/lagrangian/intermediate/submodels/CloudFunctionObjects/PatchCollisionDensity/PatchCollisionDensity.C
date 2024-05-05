@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchCollisionDensity.H"
-#include "Pstream.H"
-#include "stringListOps.H"
-#include "ListOps.H"
-#include "ListListOps.H"
+#include "submodels/CloudFunctionObjects/PatchCollisionDensity/PatchCollisionDensity.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

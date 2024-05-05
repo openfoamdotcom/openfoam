@@ -30,9 +30,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoAtomization.H"
-#include "BlobsSheetAtomization.H"
-#include "LISAAtomization.H"
+#include "submodels/AtomizationModel/NoAtomization/NoAtomization.H"
+#include "submodels/AtomizationModel/BlobsSheetAtomization/BlobsSheetAtomization.H"
+#include "submodels/AtomizationModel/LISAAtomization/LISAAtomization.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

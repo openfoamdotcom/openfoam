@@ -61,7 +61,7 @@ SourceFiles
 #ifndef kEqn_H
 #define kEqn_H
 
-#include "LESeddyViscosity.H"
+#include "LES/LESeddyViscosity/LESeddyViscosity.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,7 +170,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kEqn.C"
+    #include "LES/kEqn/kEqn.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

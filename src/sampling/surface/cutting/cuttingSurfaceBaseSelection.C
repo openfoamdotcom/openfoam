@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cuttingSurfaceBase.H"
-#include "polyMesh.H"
+#include "surface/cutting/cuttingSurfaceBase.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

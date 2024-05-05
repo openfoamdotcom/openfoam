@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "attachDetach.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "polyTopoChange.H"
-#include "polyTopoChanger.H"
-#include "polyRemovePoint.H"
-#include "polyRemoveFace.H"
-#include "polyModifyFace.H"
+#include "attachDetach/attachDetach.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "polyTopoChange/removeObject/polyRemovePoint.H"
+#include "polyTopoChange/removeObject/polyRemoveFace.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

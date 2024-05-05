@@ -34,9 +34,9 @@ Description
 #ifndef Foam_triangulatedPatch_H
 #define Foam_triangulatedPatch_H
 
-#include "polyMesh.H"
-#include "labelledTri.H"
-#include "Random.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/labelledTri/labelledTri.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

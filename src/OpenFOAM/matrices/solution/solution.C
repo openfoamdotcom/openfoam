@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solution.H"
-#include "HashPtrTable.H"
-#include "Function1Pascal.H"
-#include "TimeOpenFOAM.H"
+#include "matrices/solution/solution.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

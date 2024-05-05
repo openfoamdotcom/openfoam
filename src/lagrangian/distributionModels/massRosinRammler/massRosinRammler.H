@@ -168,7 +168,7 @@ SourceFiles
 #ifndef massRosinRammler_H
 #define massRosinRammler_H
 
-#include "distributionModel.H"
+#include "distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

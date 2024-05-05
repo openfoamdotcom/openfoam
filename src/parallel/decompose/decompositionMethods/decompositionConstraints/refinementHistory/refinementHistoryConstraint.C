@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementHistoryConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
-#include "refinementHistory.H"
+#include "decompositionConstraints/refinementHistory/refinementHistoryConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/refinementHistory.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,36 +26,36 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSprayCloud.H"
+#include "clouds/derived/basicSprayCloud/basicSprayCloud.H"
 
-#include "makeReactingParcelCloudFunctionObjects.H"
+#include "parcels/include/makeReactingParcelCloudFunctionObjects.H"
 
 // Kinematic
-#include "makeThermoParcelForces.H" // thermo variant
-#include "makeThermoParcelTurbulenceForces.H" // add turbulence variant
-#include "makeParcelDispersionModels.H"
-#include "makeParcelTurbulenceDispersionModels.H" // add turbulence variant
-#include "makeSprayParcelInjectionModels.H" // Spray variant
-#include "makeParcelPatchInteractionModels.H"
-#include "makeSprayParcelStochasticCollisionModels.H" // Spray variant
+#include "parcels/include/makeThermoParcelForces.H" // thermo variant
+#include "parcels/include/makeThermoParcelTurbulenceForces.H" // add turbulence variant
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeParcelTurbulenceDispersionModels.H" // add turbulence variant
+#include "parcels/include/makeSprayParcelInjectionModels.H" // Spray variant
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeSprayParcelStochasticCollisionModels.H" // Spray variant
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
+#include "parcels/include/makeParcelHeatTransferModels.H"
 
 // Reacting
-#include "makeReactingParcelCompositionModels.H"
-#include "makeReactingParcelPhaseChangeModels.H"
-#include "makeReactingParcelSurfaceFilmModels.H"
+#include "parcels/include/makeReactingParcelCompositionModels.H"
+#include "parcels/include/makeReactingParcelPhaseChangeModels.H"
+#include "parcels/include/makeReactingParcelSurfaceFilmModels.H"
 
 // Spray
-#include "DistortedSphereDragForce.H"
-#include "makeSprayParcelAtomizationModels.H"
-#include "makeSprayParcelBreakupModels.H"
+#include "submodels/Kinematic/ParticleForces/Drag/DistortedSphereDrag/DistortedSphereDragForce.H"
+#include "parcels/include/makeSprayParcelAtomizationModels.H"
+#include "parcels/include/makeSprayParcelBreakupModels.H"
 
 // MPPIC sub-models
-#include "makeMPPICParcelDampingModels.H"
-#include "makeMPPICParcelIsotropyModels.H"
-#include "makeMPPICParcelPackingModels.H"
+#include "parcels/include/makeMPPICParcelDampingModels.H"
+#include "parcels/include/makeMPPICParcelIsotropyModels.H"
+#include "parcels/include/makeMPPICParcelPackingModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

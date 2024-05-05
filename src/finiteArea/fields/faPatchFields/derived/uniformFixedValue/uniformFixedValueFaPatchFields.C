@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformFixedValueFaPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "areaFields.H"
-#include "edgeFields.H"
+#include "fields/faPatchFields/derived/uniformFixedValue/uniformFixedValueFaPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,19 +26,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementSurfaces.H"
-#include "TimeOpenFOAM.H"
-#include "searchableSurfaces.H"
-#include "shellSurfaces.H"
-#include "triSurfaceMesh.H"
-#include "labelPair.H"
-#include "searchableSurfacesQueries.H"
-#include "UPtrList.H"
-#include "volumeType.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "shellSurfaces/shellSurfaces.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "primitives/tuples/labelPair.H"
+#include "searchableSurfaces/searchableSurfacesQueries/searchableSurfacesQueries.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 // For dictionary::get wrapper
-#include "meshRefinement.H"
+#include "meshRefinement/meshRefinement.H"
 
-#include "OBJstream.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

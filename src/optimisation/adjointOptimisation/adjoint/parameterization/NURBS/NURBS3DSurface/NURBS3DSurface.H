@@ -39,9 +39,9 @@ SourceFiles
 #ifndef NURBS3DSurface_H
 #define NURBS3DSurface_H
 
-#include "NURBSbasis.H"
-#include "vectorField.H"
-#include "vector2DField.H"
+#include "parameterization/NURBS/NURBSbasis/NURBSbasis.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "fields/Fields/vector2DField/vector2DField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

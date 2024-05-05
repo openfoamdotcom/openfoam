@@ -29,8 +29,8 @@ License
 #ifndef Foam_wordIOList_H
 #define Foam_wordIOList_H
 
-#include "wordList.H"
-#include "IOList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

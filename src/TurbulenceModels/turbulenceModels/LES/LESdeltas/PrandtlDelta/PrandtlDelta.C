@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PrandtlDelta.H"
-#include "wallDist.H"
-#include "addToRunTimeSelectionTable.H"
+#include "LES/LESdeltas/PrandtlDelta/PrandtlDelta.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -65,8 +65,8 @@ SourceFiles
 #ifndef Foam_SpalartAllmarasDES_H
 #define Foam_SpalartAllmarasDES_H
 
-#include "SpalartAllmarasBase.H"
-#include "DESModel.H"
+#include "Base/SpalartAllmaras/SpalartAllmarasBase.H"
+#include "DES/DESModel/DESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SpalartAllmarasDES.C"
+    #include "DES/SpalartAllmarasDES/SpalartAllmarasDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

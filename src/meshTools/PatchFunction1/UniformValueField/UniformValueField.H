@@ -43,8 +43,8 @@ SourceFiles
 #ifndef PatchFunction1Types_UniformValueField_H
 #define PatchFunction1Types_UniformValueField_H
 
-#include "PatchFunction1.H"
-#include "Function1Pascal.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -197,10 +197,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UniformValueFieldI.H"
+#include "PatchFunction1/UniformValueField/UniformValueFieldI.H"
 
 #ifdef NoRepository
-    #include "UniformValueField.C"
+    #include "PatchFunction1/UniformValueField/UniformValueField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

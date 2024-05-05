@@ -42,11 +42,11 @@ SourceFiles
 #ifndef Foam_expressions_exprValue_H
 #define Foam_expressions_exprValue_H
 
-#include "exprTraits.H"
-#include "error.H"
-#include "contiguous.H"
-#include "tokenList.H"
-#include "InfoProxy.H"
+#include "expressions/traits/exprTraits.H"
+#include "db/error/error.H"
+#include "primitives/traits/contiguous.H"
+#include "db/IOstreams/token/tokenList.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 #include <typeinfo>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -402,7 +402,7 @@ Ostream& operator<<(Ostream& os, const InfoProxy<expressions::exprValue>&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "exprValueI.H"
+#include "expressions/value/exprValueI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

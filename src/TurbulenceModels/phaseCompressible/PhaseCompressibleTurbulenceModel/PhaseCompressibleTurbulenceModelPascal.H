@@ -39,7 +39,7 @@ SourceFiles
 #ifndef PhaseCompressibleTurbulenceModel_H
 #define PhaseCompressibleTurbulenceModel_H
 
-#include "TurbulenceModelPascal.H"
+#include "TurbulenceModel/TurbulenceModelPascal.H"
 #include "compressibleTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -160,7 +160,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PhaseCompressibleTurbulenceModel.C"
+    #include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

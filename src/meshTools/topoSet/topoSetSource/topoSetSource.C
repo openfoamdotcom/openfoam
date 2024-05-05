@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topoSetSource.H"
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "bitSet.H"
-#include "topoSet.H"
+#include "topoSet/topoSetSource/topoSetSource.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "topoSet/topoSets/topoSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

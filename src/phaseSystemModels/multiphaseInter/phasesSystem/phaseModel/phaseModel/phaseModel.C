@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseModel.H"
-#include "multiphaseInterSystem.H"
+#include "phaseModel/phaseModel.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

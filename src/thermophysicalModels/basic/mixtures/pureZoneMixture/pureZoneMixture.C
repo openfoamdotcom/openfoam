@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pureZoneMixture.H"
+#include "mixtures/pureZoneMixture/pureZoneMixture.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

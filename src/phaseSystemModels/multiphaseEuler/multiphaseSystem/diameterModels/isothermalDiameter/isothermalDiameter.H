@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_multiphaseEuler_diameterModels_isothermal_H
 #define Foam_multiphaseEuler_diameterModels_isothermal_H
 
-#include "diameterModel.H"
+#include "diameterModels/diameterModel/diameterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

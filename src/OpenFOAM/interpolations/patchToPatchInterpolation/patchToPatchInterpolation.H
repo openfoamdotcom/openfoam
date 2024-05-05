@@ -35,8 +35,8 @@ Description
 #ifndef patchToPatchInterpolation_H
 #define patchToPatchInterpolation_H
 
-#include "PatchToPatchInterpolationDeCased.H"
-#include "primitivePatch.H"
+#include "interpolations/patchToPatchInterpolation/PatchToPatchInterpolationDeCased.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

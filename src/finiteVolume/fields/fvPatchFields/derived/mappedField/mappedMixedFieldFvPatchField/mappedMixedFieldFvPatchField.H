@@ -85,11 +85,11 @@ SourceFiles
 #ifndef mappedMixedFieldFvPatchField_H
 #define mappedMixedFieldFvPatchField_H
 
-#include "mappedPatchBase.H"
-#include "mappedPatchFieldBase.H"
-#include "mixedFvPatchFields.H"
-#include "interpolation.H"
-#include "volFieldsFwd.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -224,7 +224,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedMixedFieldFvPatchField.C"
+    #include "fields/fvPatchFields/derived/mappedField/mappedMixedFieldFvPatchField/mappedMixedFieldFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

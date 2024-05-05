@@ -25,16 +25,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalCoupled.H"
-#include "OSspecific.H"
-#include "Fstream.H"
-#include "volFields.H"
-#include "externalCoupledMixedFvPatchFields.H"
-#include "mixedFvPatchFields.H"
-#include "fixedGradientFvPatchFields.H"
-#include "fixedValueFvPatchFields.H"
-#include "StringStream.H"
-#include "globalIndex.H"
+#include "externalCoupled/externalCoupled.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "fields/volFields/volFields.H"
+#include "externalCoupled/externalCoupledMixed/externalCoupledMixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

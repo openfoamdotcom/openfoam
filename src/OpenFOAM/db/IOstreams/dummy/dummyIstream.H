@@ -34,7 +34,7 @@ Description
 #ifndef dummyIstream_H
 #define dummyIstream_H
 
-#include "dummyISstream.H"
+#include "db/IOstreams/dummy/dummyISstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

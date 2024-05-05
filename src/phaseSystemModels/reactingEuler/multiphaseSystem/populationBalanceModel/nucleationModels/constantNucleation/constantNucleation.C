@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantNucleation.H"
-#include "phaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
+#include "populationBalanceModel/nucleationModels/constantNucleation/constantNucleation.H"
+#include "phaseSystem/phaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

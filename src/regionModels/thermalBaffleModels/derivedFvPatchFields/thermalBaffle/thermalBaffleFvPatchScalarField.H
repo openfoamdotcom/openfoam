@@ -207,11 +207,11 @@ SourceFiles
 #define thermalBaffleFvPatchScalarField_H
 
 
-#include "autoPtr.H"
-#include "regionModel.H"
-#include "thermalBaffleModel.H"
-#include "extrudePatchMesh.H"
-#include "turbulentTemperatureRadCoupledMixedFvPatchScalarField.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "regionModel/regionModel.H"
+#include "thermalBaffleModel/thermalBaffleModel.H"
+#include "extrudePatchMesh/extrudePatchMesh.H"
+#include "derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

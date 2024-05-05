@@ -38,8 +38,8 @@ SourceFiles
 #ifndef solidThermo_H
 #define solidThermo_H
 
-#include "rhoThermo.H"
-#include "autoPtr.H"
+#include "rhoThermo/rhoThermo.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,7 +40,7 @@ SourceFiles
 #ifndef steepestDescent_H
 #define steepestDescent_H
 
-#include "updateMethod.H"
+#include "optimisation/updateMethod/updateMethod/updateMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IntegralScaleBox.H"
-#include "cartesianCS.H"
-#include "OBJstream.H"
+#include "fields/fvPatchFields/derived/turbulentDigitalFilterInlet/IntegralScaleBox/IntegralScaleBox.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "obj/OBJstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

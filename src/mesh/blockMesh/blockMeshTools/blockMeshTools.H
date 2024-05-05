@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_blockMeshTools_H
 #define Foam_blockMeshTools_H
 
-#include "dictionary.H"
-#include "DynamicList.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -78,7 +78,7 @@ namespace blockMeshTools
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "blockMeshToolsTemplates.C"
+    #include "blockMeshTools/blockMeshToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

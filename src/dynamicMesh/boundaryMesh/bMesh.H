@@ -36,7 +36,7 @@ Description
 #ifndef Foam_bMesh_H
 #define Foam_bMesh_H
 
-#include "primitivePatch.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

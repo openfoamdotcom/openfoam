@@ -37,9 +37,9 @@ SourceFiles
 #ifndef Foam_calculatedProcessorGAMGInterfaceField_H
 #define Foam_calculatedProcessorGAMGInterfaceField_H
 
-#include "GAMGInterfaceField.H"
-#include "calculatedProcessorGAMGInterface.H"
-#include "processorLduInterfaceField.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaceFields/GAMGInterfaceField/GAMGInterfaceField.H"
+#include "lduPrimitiveProcessorInterface/GAMG/calculatedProcessorGAMGInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterfaceFields/processorLduInterfaceField/processorLduInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

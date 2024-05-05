@@ -68,7 +68,7 @@ See also
 #ifndef cubicGradientLimiter_H
 #define cubicGradientLimiter_H
 
-#include "Istream.H"
+#include "db/IOstreams/IOstreams/Istream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

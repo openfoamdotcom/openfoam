@@ -55,11 +55,11 @@ SourceFiles
 #ifndef Foam_PatchFunction1Types_MappedFileFilterField_H
 #define Foam_PatchFunction1Types_MappedFileFilterField_H
 
-#include "primitiveFields.H"
-#include "pointField.H"
-#include "Enum.H"
-#include "className.H"
-#include "MeshedSurfacesFwd.H"
+#include "fields/Fields/primitiveFields.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/enums/Enum.H"
+#include "db/typeInfo/className.H"
+#include "MeshedSurface/MeshedSurfacesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -203,7 +203,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MappedFileFilterFieldTemplates.C"
+    #include "PatchFunction1/MappedFile/MappedFileFilterFieldTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

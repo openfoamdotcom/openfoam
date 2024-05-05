@@ -34,12 +34,12 @@ Description
 #ifndef basicSprayCloud_H
 #define basicSprayCloud_H
 
-#include "CloudPascal.H"
-#include "KinematicCloudPascal.H"
-#include "ThermoCloudPascal.H"
-#include "ReactingCloudPascal.H"
-#include "SprayCloudPascal.H"
-#include "basicSprayParcel.H"
+#include "Cloud/CloudPascal.H"
+#include "clouds/Templates/KinematicCloud/KinematicCloudPascal.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudPascal.H"
+#include "clouds/Templates/ReactingCloud/ReactingCloudPascal.H"
+#include "clouds/Templates/SprayCloud/SprayCloudPascal.H"
+#include "parcels/derived/basicSprayParcel/basicSprayParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchExprFwd.H"
-#include "defineDebugSwitch.H"
+#include "expressions/patch/patchExprFwd.H"
+#include "global/debug/defineDebugSwitch.H"
 
 // * * * * * * * * * * * * * * * * Globals * * * * * * * * * * * * * * * * * //
 

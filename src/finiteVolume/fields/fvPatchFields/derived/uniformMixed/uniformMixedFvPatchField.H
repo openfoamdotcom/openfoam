@@ -88,8 +88,8 @@ SourceFiles
 #ifndef Foam_uniformMixedFvPatchField_H
 #define Foam_uniformMixedFvPatchField_H
 
-#include "mixedFvPatchField.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformMixedFvPatchField.C"
+    #include "fields/fvPatchFields/derived/uniformMixed/uniformMixedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

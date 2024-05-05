@@ -64,9 +64,9 @@ SourceFiles
 #ifndef searchableRotatedBox_H
 #define searchableRotatedBox_H
 
-#include "searchableSurface.H"
-#include "searchableBox.H"
-#include "cartesianCS.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "searchableSurfaces/searchableBox/searchableBox.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

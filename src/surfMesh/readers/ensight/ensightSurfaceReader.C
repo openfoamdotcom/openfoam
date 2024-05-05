@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightSurfaceReader.H"
-#include "ensightCase.H"
-#include "stringOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "readers/ensight/ensightSurfaceReader.H"
+#include "ensight/file/ensightCase.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

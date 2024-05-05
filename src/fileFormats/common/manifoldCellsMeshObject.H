@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_manifoldCellsMeshObject_H
 #define Foam_manifoldCellsMeshObject_H
 
-#include "MeshObject.H"
-#include "polyMesh.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

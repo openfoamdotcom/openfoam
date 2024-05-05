@@ -60,7 +60,7 @@ SourceFiles
 #ifndef Foam_ignoreFaPatchField_H
 #define Foam_ignoreFaPatchField_H
 
-#include "zeroGradientFaPatchField.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

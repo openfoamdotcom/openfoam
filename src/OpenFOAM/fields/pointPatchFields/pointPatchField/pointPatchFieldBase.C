@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPatchField.H"
-#include "dictionary.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

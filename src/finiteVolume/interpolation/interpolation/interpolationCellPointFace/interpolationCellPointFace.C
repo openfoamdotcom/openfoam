@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCellPointFace.H"
-#include "volFields.H"
-#include "polyMesh.H"
-#include "volPointInterpolation.H"
-#include "linear.H"
-#include "findCellPointFaceTet.H"
-#include "findCellPointFaceTriangle.H"
+#include "interpolation/interpolation/interpolationCellPointFace/interpolationCellPointFace.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "interpolation/interpolation/interpolationCellPointFace/findCellPointFaceTet.H"
+#include "interpolation/interpolation/interpolationCellPointFace/findCellPointFaceTriangle.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

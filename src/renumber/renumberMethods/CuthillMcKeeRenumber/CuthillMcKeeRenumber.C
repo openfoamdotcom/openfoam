@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CuthillMcKeeRenumber.H"
-#include "addToRunTimeSelectionTable.H"
-#include "bandCompression.H"
-#include "globalMeshData.H"
+#include "CuthillMcKeeRenumber/CuthillMcKeeRenumber.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/bandCompression/bandCompression.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonRandomTwoLiquid.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/NonRandomTwoLiquid/NonRandomTwoLiquid.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

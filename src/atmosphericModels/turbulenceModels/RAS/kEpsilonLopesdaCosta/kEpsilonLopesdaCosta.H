@@ -65,9 +65,9 @@ SourceFiles
 #ifndef kEpsilonLopesdaCosta_H
 #define kEpsilonLopesdaCosta_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
-#include "powerLawLopesdaCosta.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
+#include "porosityModels/powerLawLopesdaCosta/powerLawLopesdaCosta.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -239,7 +239,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kEpsilonLopesdaCosta.C"
+    #include "turbulenceModels/RAS/kEpsilonLopesdaCosta/kEpsilonLopesdaCosta.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

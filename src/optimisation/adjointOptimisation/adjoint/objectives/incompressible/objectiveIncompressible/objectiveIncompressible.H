@@ -40,9 +40,9 @@ SourceFiles
 #ifndef objectiveIncompressible_H
 #define objectiveIncompressible_H
 
-#include "objective.H"
-#include "incompressibleVars.H"
-#include "adjointRASModel.H"
+#include "objectives/objective/objective.H"
+#include "solvers/variablesSet/incompressible/incompressibleVars.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointRAS/adjointRASModel/adjointRASModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -377,7 +377,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "objectiveIncompressibleI.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressibleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

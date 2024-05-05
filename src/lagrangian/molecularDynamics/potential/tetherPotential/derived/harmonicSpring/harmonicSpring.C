@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "harmonicSpring.H"
-#include "addToRunTimeSelectionTable.H"
+#include "tetherPotential/derived/harmonicSpring/harmonicSpring.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

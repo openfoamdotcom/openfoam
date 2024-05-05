@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicMultiMotionSolverFvMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "bitSet.H"
-#include "syncTools.H"
+#include "dynamicMultiMotionSolverFvMesh/dynamicMultiMotionSolverFvMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

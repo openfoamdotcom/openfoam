@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binaryAbsorptionEmission.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/absorptionEmissionModel/binaryAbsorptionEmission/binaryAbsorptionEmission.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -50,11 +50,11 @@ SourceFiles
 #ifndef vtkUnstructuredReader_H
 #define vtkUnstructuredReader_H
 
-#include "foamVtkCore.H"
-#include "objectRegistry.H"
-#include "cellShapeList.H"
-#include "HashSet.H"
-#include "Enum.H"
+#include "vtk/base/foamVtkCore.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "meshes/meshShapes/cellShape/cellShapeList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -358,7 +358,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "vtkUnstructuredReaderTemplates.C"
+    #include "vtk/read/vtkUnstructuredReaderTemplates.C"
 #endif
 
 

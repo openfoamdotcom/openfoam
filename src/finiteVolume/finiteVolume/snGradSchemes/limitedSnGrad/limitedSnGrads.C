@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitedSnGrad.H"
-#include "fvMesh.H"
+#include "finiteVolume/snGradSchemes/limitedSnGrad/limitedSnGrad.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

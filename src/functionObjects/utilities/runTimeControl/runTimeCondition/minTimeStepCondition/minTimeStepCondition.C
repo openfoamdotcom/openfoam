@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "minTimeStepCondition.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
+#include "runTimeControl/runTimeCondition/minTimeStepCondition/minTimeStepCondition.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

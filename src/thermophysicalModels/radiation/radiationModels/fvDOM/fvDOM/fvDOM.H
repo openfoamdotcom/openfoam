@@ -100,10 +100,10 @@ SourceFiles
 #ifndef radiation_fvDOM_H
 #define radiation_fvDOM_H
 
-#include "radiativeIntensityRay.H"
-#include "radiationModel.H"
-#include "fvMatrices.H"
-#include "solarLoad.H"
+#include "radiationModels/fvDOM/radiativeIntensityRay/radiativeIntensityRay.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "fvMatrices/fvMatrices.H"
+#include "radiationModels/solarLoad/solarLoad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -335,7 +335,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fvDOMI.H"
+#include "radiationModels/fvDOM/fvDOM/fvDOMI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

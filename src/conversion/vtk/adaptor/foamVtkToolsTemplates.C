@@ -29,7 +29,7 @@ InNamespace
 \*---------------------------------------------------------------------------*/
 
 // OpenFOAM includes
-#include "error.H"
+#include "db/error/error.H"
 
 // VTK includes
 #include "vtkFloatArray.h"

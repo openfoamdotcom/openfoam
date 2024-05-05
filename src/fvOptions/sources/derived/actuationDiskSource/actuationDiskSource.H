@@ -210,9 +210,9 @@ SourceFiles
 #ifndef actuationDiskSource_H
 #define actuationDiskSource_H
 
-#include "cellSetOption.H"
-#include "writeFile.H"
-#include "Function1Pascal.H"
+#include "cellSetOption/cellSetOption.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -419,7 +419,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "actuationDiskSourceTemplates.C"
+    #include "sources/derived/actuationDiskSource/actuationDiskSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

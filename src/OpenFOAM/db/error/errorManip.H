@@ -48,7 +48,7 @@ Description
 #ifndef errorManip_H
 #define errorManip_H
 
-#include "error.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

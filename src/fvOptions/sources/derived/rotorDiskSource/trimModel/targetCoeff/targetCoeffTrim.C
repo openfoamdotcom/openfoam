@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "targetCoeffTrim.H"
-#include "geometricOneField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/rotorDiskSource/trimModel/targetCoeff/targetCoeffTrim.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

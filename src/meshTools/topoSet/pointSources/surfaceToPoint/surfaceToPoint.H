@@ -100,7 +100,7 @@ SourceFiles
 #ifndef surfaceToPoint_H
 #define surfaceToPoint_H
 
-#include "topoSetPointSource.H"
+#include "topoSet/pointSources/topoSetPointSource/topoSetPointSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

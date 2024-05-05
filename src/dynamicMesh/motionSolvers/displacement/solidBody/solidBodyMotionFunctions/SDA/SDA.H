@@ -44,7 +44,7 @@ SourceFiles
 #ifndef SDA_H
 #define SDA_H
 
-#include "solidBodyMotionFunction.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/solidBodyMotionFunction/solidBodyMotionFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

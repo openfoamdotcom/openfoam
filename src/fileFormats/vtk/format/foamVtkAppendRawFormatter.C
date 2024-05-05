@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkAppendRawFormatter.H"
-#include "foamVtkOutputOptions.H"
+#include "vtk/format/foamVtkAppendRawFormatter.H"
+#include "vtk/output/foamVtkOutputOptions.H"
 #include <limits>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

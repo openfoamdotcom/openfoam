@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Reaction.H"
-#include "DynamicList.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * Static Data * * * * * * * * * * * * * * * //
 

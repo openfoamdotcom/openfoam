@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateRotation.H"
-#include "axesRotation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/coordinate/rotation/coordinateRotation.H"
+#include "primitives/coordinate/rotation/axesRotation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

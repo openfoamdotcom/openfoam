@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_volumeType_H
 #define Foam_volumeType_H
 
-#include "contiguous.H"
-#include "Enum.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -48,10 +48,10 @@ SourceFiles
 #ifndef Foam_fvPatchField_H
 #define Foam_fvPatchField_H
 
-#include "fvPatch.H"
-#include "DimensionedField.H"
-#include "fieldTypes.H"
-#include "scalarField.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -772,14 +772,14 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvPatchField.C"
-    #include "fvPatchFieldNew.C"
-    #include "calculatedFvPatchField.H"
-    #include "zeroGradientFvPatchField.H"
+    #include "fields/fvPatchFields/fvPatchField/fvPatchField.C"
+    #include "fields/fvPatchFields/fvPatchField/fvPatchFieldNew.C"
+    #include "fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H"
+    #include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 #endif
 
 // Runtime selection macros
-#include "fvPatchFieldMacros.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMacros.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

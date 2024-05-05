@@ -40,7 +40,7 @@ SourceFiles
 #ifndef radiation_noScatter_H
 #define radiation_noScatter_H
 
-#include "scatterModel.H"
+#include "submodels/scatterModel/scatterModel/scatterModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

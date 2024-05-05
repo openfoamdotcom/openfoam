@@ -40,7 +40,7 @@ SourceFiles
 #ifndef NoInjection_H
 #define NoInjection_H
 
-#include "InjectionModelPascal.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoInjection.C"
+    #include "submodels/Kinematic/InjectionModel/NoInjection/NoInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

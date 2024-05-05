@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SRFModel.H"
-#include "SRFVelocityFvPatchVectorField.H"
+#include "cfdTools/general/SRF/SRFModel/SRFModel/SRFModel.H"
+#include "cfdTools/general/SRF/derivedFvPatchFields/SRFVelocityFvPatchVectorField/SRFVelocityFvPatchVectorField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

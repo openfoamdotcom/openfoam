@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileMonitor.H"
-#include "error.H"
-#include "Enum.H"
-#include "defineDebugSwitch.H"
-#include "IOstreams.H"
-#include "Pstream.H"
-#include "PackedList.H"
-#include "PstreamReduceOps.H"
-#include "OSspecific.H"
-#include "IOobject.H"     // for fileModificationSkew symbol
+#include "fileMonitor/fileMonitor.H"
+#include "db/error/error.H"
+#include "primitives/enums/Enum.H"
+#include "global/debug/defineDebugSwitch.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/Bits/PackedList/PackedList.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "include/OSspecific.H"
+#include "db/IOobject/IOobject.H"     // for fileModificationSkew symbol
 
 #ifdef FOAM_USE_INOTIFY
     #include <unistd.h>

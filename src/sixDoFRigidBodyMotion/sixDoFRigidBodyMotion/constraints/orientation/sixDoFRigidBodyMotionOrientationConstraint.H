@@ -38,7 +38,7 @@ SourceFiles
 #ifndef sixDoFRigidBodyMotionOrientationConstraint_H
 #define sixDoFRigidBodyMotionOrientationConstraint_H
 
-#include "sixDoFRigidBodyMotionConstraint.H"
+#include "sixDoFRigidBodyMotion/constraints/sixDoFRigidBodyMotionConstraint/sixDoFRigidBodyMotionConstraint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

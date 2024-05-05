@@ -38,8 +38,8 @@ SourceFiles
 #ifndef minData_H
 #define minData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -206,7 +206,7 @@ template<> struct is_contiguous_label<minData> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "minDataI.H"
+#include "regionSplit/minDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

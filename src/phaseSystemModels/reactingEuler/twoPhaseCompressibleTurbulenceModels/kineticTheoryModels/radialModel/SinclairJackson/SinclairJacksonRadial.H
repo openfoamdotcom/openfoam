@@ -36,7 +36,7 @@ SourceFiles
 #ifndef SinclairJacksonRadial_H
 #define SinclairJacksonRadial_H
 
-#include "radialModel.H"
+#include "kineticTheoryModels/radialModel/radialModel/radialModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

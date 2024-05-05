@@ -82,13 +82,13 @@ SourceFiles
 #ifndef expressions_volumeExprDriver_H
 #define expressions_volumeExprDriver_H
 
-#include "volumeExprFwd.H"
-#include "fvExprDriver.H"
-#include "exprFieldAssociation.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "genericRagelLemonDriver.H"
+#include "expressions/volume/volumeExprFwd.H"
+#include "expressions/base/fvExprDriver.H"
+#include "expressions/traits/exprFieldAssociation.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "primitives/strings/parsing/genericRagelLemonDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -484,10 +484,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "volumeExprDriverI.H"
+#include "expressions/volume/volumeExprDriverI.H"
 
 #ifdef NoRepository
-    #include "volumeExprDriverTemplates.C"
+    #include "expressions/volume/volumeExprDriverTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

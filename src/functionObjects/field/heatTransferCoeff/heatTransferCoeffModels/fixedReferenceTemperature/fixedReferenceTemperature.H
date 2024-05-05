@@ -73,7 +73,7 @@ SourceFiles
 #ifndef heatTransferCoeffModels_fixedReferenceTemperature_H
 #define heatTransferCoeffModels_fixedReferenceTemperature_H
 
-#include "heatTransferCoeffModel.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

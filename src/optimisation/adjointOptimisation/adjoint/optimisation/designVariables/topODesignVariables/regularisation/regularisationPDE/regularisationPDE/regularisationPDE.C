@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regularisationPDE.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationPDE/regularisationPDE/regularisationPDE.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

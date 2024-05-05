@@ -38,15 +38,15 @@ SourceFiles
 #ifndef polyMeshModifier_H
 #define polyMeshModifier_H
 
-#include "label.H"
-#include "word.H"
-#include "Switch.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "cellList.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/cell/cellList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

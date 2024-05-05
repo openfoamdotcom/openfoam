@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicCombustionMixture.H"
+#include "mixtures/basicCombustionMixture/basicCombustionMixture.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

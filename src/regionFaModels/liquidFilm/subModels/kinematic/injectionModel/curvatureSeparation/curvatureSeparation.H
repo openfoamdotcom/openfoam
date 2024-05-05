@@ -50,8 +50,8 @@ SourceFiles
 #ifndef curvatureSeparation_H
 #define curvatureSeparation_H
 
-#include "regionFaModels_injectionModelList.H"
-#include "faCFD.H"
+#include "liquidFilm/subModels/kinematic/injectionModel/injectionModelList/regionFaModels_injectionModelList.H"
+#include "include/faCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

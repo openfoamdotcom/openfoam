@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoAlpha.H"
-#include "addToRunTimeSelectionTable.H"
-#include "cutCellPLIC.H"
-#include "profiling.H"
+#include "reconstructionSchemes/isoSchemes/isoAlpha/isoAlpha.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "cellCuts/cutCell/cutCellPLIC.H"
+#include "global/profiling/profiling.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionFaModel.H"
-#include "faMesh.H"
-#include "TimeOpenFOAM.H"
-#include "mappedWallPolyPatch.H"
-#include "zeroGradientFvPatchFields.H"
+#include "regionFaModel/regionFaModel.H"
+#include "faMesh/faMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

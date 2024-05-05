@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceIteratorPLIC.H"
-#include "scalarMatrices.H"
+#include "surfaceIterators/surfaceIteratorPLIC.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

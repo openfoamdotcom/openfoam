@@ -46,9 +46,9 @@ SourceFiles
 #ifndef generalizedNewtonianViscosityModel_H
 #define generalizedNewtonianViscosityModel_H
 
-#include "dictionary.H"
-#include "volFieldsFwd.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

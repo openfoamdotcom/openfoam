@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightFaces.H"
-#include "error.H"
-#include "polyMesh.H"
+#include "ensight/part/faces/ensightFaces.H"
+#include "db/error/error.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

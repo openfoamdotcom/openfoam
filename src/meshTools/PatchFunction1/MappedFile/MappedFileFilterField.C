@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MappedFileFilterField.H"
-#include "oneField.H"
-#include "MeshedSurfaces.H"
-#include "MinMax.H"
-#include "indexedOctree.H"
-#include "treeDataPoint.H"
+#include "PatchFunction1/MappedFile/MappedFileFilterField.H"
+#include "fields/Fields/oneField/oneField.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataPoint.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

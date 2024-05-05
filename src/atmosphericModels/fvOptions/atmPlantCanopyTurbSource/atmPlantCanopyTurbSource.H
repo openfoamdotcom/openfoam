@@ -95,8 +95,8 @@ SourceFiles
 #ifndef fv_atmPlantCanopyTurbSource_H
 #define fv_atmPlantCanopyTurbSource_H
 
-#include "cellSetOption.H"
-#include "turbulentTransportModel.H"
+#include "cellSetOption/cellSetOption.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,7 +229,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "atmPlantCanopyTurbSourceTemplates.C"
+    #include "fvOptions/atmPlantCanopyTurbSource/atmPlantCanopyTurbSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

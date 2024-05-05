@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GCMMA.H"
-#include "IOmanip.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/lineSearch/GCMMA/GCMMA.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

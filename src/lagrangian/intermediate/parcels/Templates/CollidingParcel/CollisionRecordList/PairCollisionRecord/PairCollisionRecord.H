@@ -46,8 +46,8 @@ SourceFiles
 #ifndef PairCollisionRecord_H
 #define PairCollisionRecord_H
 
-#include "label.H"
-#include "vector.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,12 +208,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PairCollisionRecordI.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/PairCollisionRecord/PairCollisionRecordI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PairCollisionRecord.C"
+    #include "parcels/Templates/CollidingParcel/CollisionRecordList/PairCollisionRecord/PairCollisionRecord.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

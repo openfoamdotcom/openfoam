@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicACMIPolyPatch.H"
-#include "SubField.H"
-#include "TimeOpenFOAM.H"
-#include "addToRunTimeSelectionTable.H"
-#include "primitiveMeshTools.H"
+#include "AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.H"
+#include "fields/Fields/Field/SubField.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveMesh/primitiveMeshCheck/primitiveMeshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

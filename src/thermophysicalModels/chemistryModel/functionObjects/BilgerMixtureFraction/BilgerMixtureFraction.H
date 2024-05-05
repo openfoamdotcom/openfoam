@@ -170,9 +170,9 @@ SourceFiles
 #ifndef BilgerMixtureFraction_H
 #define BilgerMixtureFraction_H
 
-#include "fvMeshFunctionObject.H"
-#include "specieElement.H"
-#include "basicSpecieMixture.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "specieElement/specieElement.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

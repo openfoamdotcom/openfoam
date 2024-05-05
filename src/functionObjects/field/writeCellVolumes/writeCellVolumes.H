@@ -83,7 +83,7 @@ SourceFiles
 #ifndef functionObjects_writeCellVolumes_H
 #define functionObjects_writeCellVolumes_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

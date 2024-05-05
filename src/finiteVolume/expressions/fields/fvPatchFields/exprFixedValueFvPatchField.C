@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprFixedValueFvPatchField.H"
-#include "dictionaryContent.H"
+#include "expressions/fields/fvPatchFields/exprFixedValueFvPatchField.H"
+#include "db/dictionary/dictionaryContent/dictionaryContent.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

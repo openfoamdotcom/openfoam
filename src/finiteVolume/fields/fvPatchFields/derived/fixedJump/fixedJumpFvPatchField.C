@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedJumpFvPatchField.H"
+#include "fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OPstream.H"
-#include "IPstream.H"
-#include "contiguous.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "primitives/traits/contiguous.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

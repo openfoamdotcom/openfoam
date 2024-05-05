@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AC3DsurfaceFormatCore.H"
-#include "clock.H"
-#include "IFstream.H"
+#include "surfaceFormats/ac3d/AC3DsurfaceFormatCore.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

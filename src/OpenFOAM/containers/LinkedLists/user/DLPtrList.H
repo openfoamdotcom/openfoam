@@ -34,8 +34,8 @@ Description
 #ifndef Foam_DLPtrList_H
 #define Foam_DLPtrList_H
 
-#include "LPtrList.H"
-#include "DLListBase.H"
+#include "containers/LinkedLists/accessTypes/LPtrList/LPtrList.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

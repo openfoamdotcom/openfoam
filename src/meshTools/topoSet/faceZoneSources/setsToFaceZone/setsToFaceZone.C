@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setsToFaceZone.H"
-#include "polyMesh.H"
-#include "faceZoneSet.H"
-#include "cellSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/faceZoneSources/setsToFaceZone/setsToFaceZone.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/faceZoneSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

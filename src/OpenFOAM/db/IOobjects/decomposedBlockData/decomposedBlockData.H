@@ -84,10 +84,10 @@ SourceFiles
 #ifndef Foam_decomposedBlockData_H
 #define Foam_decomposedBlockData_H
 
-#include "regIOobject.H"
-#include "ISstream.H"
-#include "OSstream.H"
-#include "UPstream.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

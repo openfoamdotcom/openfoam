@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledSet.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "meshSearch.H"
-#include "particle.H"
-#include "globalIndex.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshSearch/meshSearch.H"
+#include "particle/particle.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

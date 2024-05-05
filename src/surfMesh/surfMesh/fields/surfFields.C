@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfFields.H"
-#include "className.H"
+#include "surfMesh/fields/surfFields.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

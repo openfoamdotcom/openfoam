@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "floatingJoint.H"
-#include "rigidBodyModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "joints/floating/floatingJoint.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "Rs.H"
-#include "Rzyx.H"
-#include "Pxyz.H"
+#include "joints/Rs/Rs.H"
+#include "joints/Rzyx/Rzyx.H"
+#include "joints/Pxyz/Pxyz.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

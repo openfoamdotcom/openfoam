@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "contactHeatFluxSource.H"
-#include "faMatrices.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "famSup.H"
-#include "zeroGradientFaPatchFields.H"
+#include "sources/derived/contactHeatFluxSource/contactHeatFluxSource.H"
+#include "faMatrices/faMatrices.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
+#include "finiteArea/fam/famSup.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchFields.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

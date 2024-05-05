@@ -27,27 +27,27 @@ License
 
 #include "makeReactionThermo.H"
 
-#include "psiReactionThermo.H"
-#include "hePsiThermo.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "psiThermo/hePsiThermo.H"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "hConstThermo.H"
-#include "janafThermo.H"
-#include "sensibleEnthalpy.H"
-#include "thermo.H"
-#include "constTransport.H"
-#include "sutherlandTransport.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/janaf/janafThermo.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/thermo.H"
+#include "transport/const/constTransport.H"
+#include "transport/sutherland/sutherlandTransport.H"
 
-#include "homogeneousMixture.H"
-#include "inhomogeneousMixture.H"
-#include "veryInhomogeneousMixture.H"
-#include "multiComponentMixture.H"
-#include "reactingMixture.H"
-#include "singleStepReactingMixture.H"
-#include "singleComponentMixture.H"
+#include "mixtures/homogeneousMixture/homogeneousMixture.H"
+#include "mixtures/inhomogeneousMixture/inhomogeneousMixture.H"
+#include "mixtures/veryInhomogeneousMixture/veryInhomogeneousMixture.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "mixtures/singleStepReactingMixture/singleStepReactingMixture.H"
+#include "mixtures/singleComponentMixture/singleComponentMixture.H"
 
-#include "thermoPhysicsTypes.H"
+#include "include/thermoPhysicsTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

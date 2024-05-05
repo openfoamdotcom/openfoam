@@ -40,8 +40,8 @@ SourceFiles
 #ifndef stepUpdate_H
 #define stepUpdate_H
 
-#include "runTimeSelectionTables.H"
-#include "dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

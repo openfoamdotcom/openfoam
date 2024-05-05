@@ -25,22 +25,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "reactionTypes.H"
-#include "makeReaction.H"
+#include "include/reactionTypes.H"
+#include "reaction/reactions/makeReaction.H"
 
-#include "ArrheniusReactionRate.H"
-#include "infiniteReactionRate.H"
-#include "LandauTellerReactionRate.H"
-#include "thirdBodyArrheniusReactionRate.H"
+#include "reaction/reactionRate/ArrheniusReactionRate/ArrheniusReactionRate.H"
+#include "reaction/reactionRate/infiniteReactionRate/infiniteReactionRate.H"
+#include "reaction/reactionRate/LandauTellerReactionRate/LandauTellerReactionRate.H"
+#include "reaction/reactionRate/thirdBodyArrheniusReactionRate/thirdBodyArrheniusReactionRate.H"
 
-#include "ChemicallyActivatedReactionRate.H"
-#include "JanevReactionRate.H"
-#include "powerSeriesReactionRate.H"
+#include "reaction/reactionRate/ChemicallyActivatedReactionRate/ChemicallyActivatedReactionRate.H"
+#include "reaction/reactionRate/JanevReactionRate/JanevReactionRate.H"
+#include "reaction/reactionRate/powerSeries/powerSeriesReactionRate.H"
 
-#include "FallOffReactionRate.H"
-#include "LindemannFallOffFunction.H"
-#include "SRIFallOffFunction.H"
-#include "TroeFallOffFunction.H"
+#include "reaction/reactionRate/FallOffReactionRate/FallOffReactionRate.H"
+#include "reaction/reactionRate/fallOffFunctions/LindemannFallOffFunction/LindemannFallOffFunction.H"
+#include "reaction/reactionRate/fallOffFunctions/SRIFallOffFunction/SRIFallOffFunction.H"
+#include "reaction/reactionRate/fallOffFunctions/TroeFallOffFunction/TroeFallOffFunction.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

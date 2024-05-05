@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PBiCICG.H"
+#include "matrices/LduMatrixCaseDir/Solvers/PBiCICG/PBiCICG.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

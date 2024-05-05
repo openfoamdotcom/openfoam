@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "phaseModel.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "phaseModel/phaseModel.H"
 #include "twoPhaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
-#include "compressible_makeTurbulenceModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulentFluidThermoModels/compressible_makeTurbulenceModel.H"
 
-#include "ThermalDiffusivity.H"
-#include "EddyDiffusivity.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "EddyDiffusivity/EddyDiffusivity.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -79,22 +79,22 @@ defineTurbulenceModelTypes
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "kEpsilon.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
-#include "kOmegaSST.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kOmegaSST/kOmegaSST.H"
 makeRASModel(kOmegaSST);
 
-#include "kOmegaSSTSato.H"
+#include "TurbulenceModels/phaseCompressible/RAS/kOmegaSSTSato/kOmegaSSTSato.H"
 makeRASModel(kOmegaSSTSato);
 
-#include "mixtureKEpsilon.H"
+#include "TurbulenceModels/phaseCompressible/RAS/mixtureKEpsilon/mixtureKEpsilon.H"
 makeRASModel(mixtureKEpsilon);
 
-#include "LaheyKEpsilon.H"
+#include "TurbulenceModels/phaseCompressible/RAS/LaheyKEpsilon/LaheyKEpsilon.H"
 makeRASModel(LaheyKEpsilon);
 
-#include "continuousGasKEpsilon.H"
+#include "TurbulenceModels/phaseCompressible/RAS/continuousGasKEpsilon/continuousGasKEpsilon.H"
 makeRASModel(continuousGasKEpsilon);
 
 
@@ -102,19 +102,19 @@ makeRASModel(continuousGasKEpsilon);
 // LES models
 // -------------------------------------------------------------------------- //
 
-#include "Smagorinsky.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
 makeLESModel(Smagorinsky);
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 makeLESModel(kEqn);
 
-#include "SmagorinskyZhang.H"
+#include "TurbulenceModels/phaseCompressible/LES/SmagorinskyZhang/SmagorinskyZhang.H"
 makeLESModel(SmagorinskyZhang);
 
-#include "NicenoKEqn.H"
+#include "TurbulenceModels/phaseCompressible/LES/Niceno/NicenoKEqn.H"
 makeLESModel(NicenoKEqn);
 
-#include "continuousGasKEqn.H"
+#include "TurbulenceModels/phaseCompressible/LES/continuousGasKEqn/continuousGasKEqn.H"
 makeLESModel(continuousGasKEqn);
 
 
@@ -122,11 +122,11 @@ makeLESModel(continuousGasKEqn);
 // Additional models
 // -------------------------------------------------------------------------- //
 
-#include "kineticTheoryModel.H"
+#include "kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.H"
 makeTurbulenceModel
 (phaseModelPhaseCompressibleTurbulenceModel, RAS, kineticTheoryModel);
 
-#include "phasePressureModel.H"
+#include "phasePressureModel/phasePressureModel.H"
 makeTurbulenceModel
 (phaseModelPhaseCompressibleTurbulenceModel, RAS, phasePressureModel);
 

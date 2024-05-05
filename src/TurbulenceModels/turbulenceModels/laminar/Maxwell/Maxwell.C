@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Maxwell.H"
-#include "fvOptions.H"
-#include "uniformDimensionedFields.H"
+#include "laminar/Maxwell/Maxwell.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

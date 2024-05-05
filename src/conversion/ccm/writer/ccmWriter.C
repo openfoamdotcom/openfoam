@@ -25,10 +25,10 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "ccmWriter.H"
-#include "cellModel.H"
+#include "writer/ccmWriter.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
 
-#include "ccmInternal.H" // include last to avoid any strange interactions
+#include "common/ccmInternal.H" // include last to avoid any strange interactions
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

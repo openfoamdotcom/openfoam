@@ -38,8 +38,8 @@ SourceFiles
 #ifndef InterfaceForce_H
 #define InterfaceForce_H
 
-#include "ParticleForce.H"
-#include "interpolation.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -127,7 +127,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "InterfaceForce.C"
+    #include "submodels/Kinematic/ParticleForces/Interface/InterfaceForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

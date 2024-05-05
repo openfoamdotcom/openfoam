@@ -39,7 +39,7 @@ SourceFiles
 #ifndef directMethod_H
 #define directMethod_H
 
-#include "meshToMeshMethod.H"
+#include "meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

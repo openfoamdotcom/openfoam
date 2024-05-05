@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DeardorffDiffStress.H"
-#include "fvOptions.H"
-#include "calculatedFvPatchField.H"
+#include "LES/DeardorffDiffStress/DeardorffDiffStress.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

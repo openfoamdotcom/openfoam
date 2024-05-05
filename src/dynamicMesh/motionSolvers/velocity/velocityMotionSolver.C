@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityMotionSolver.H"
-#include "mapPolyMesh.H"
+#include "motionSolvers/velocity/velocityMotionSolver.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

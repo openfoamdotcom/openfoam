@@ -42,7 +42,7 @@ SourceFiles
 #ifndef stabilisedFvGeometryScheme_H
 #define stabilisedFvGeometryScheme_H
 
-#include "basicFvGeometryScheme.H"
+#include "fvMesh/fvGeometryScheme/basic/basicFvGeometryScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

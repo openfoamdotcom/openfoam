@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "heatExchangerModel.H"
+#include "sources/derived/heatExchangerSource/heatExchangerModels/heatExchangerModel/heatExchangerModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

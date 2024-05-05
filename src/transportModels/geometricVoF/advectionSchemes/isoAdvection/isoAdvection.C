@@ -28,20 +28,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoAdvection.H"
-#include "volFields.H"
-#include "interpolationCellPoint.H"
-#include "volPointInterpolation.H"
-#include "fvcSurfaceIntegrate.H"
-#include "fvcGrad.H"
-#include "upwind.H"
-#include "cellSet.H"
-#include "meshTools.H"
-#include "OBJstream.H"
-#include "syncTools.H"
-#include "profiling.H"
+#include "advectionSchemes/isoAdvection/isoAdvection.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/upwind/upwind.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshTools/meshTools.H"
+#include "obj/OBJstream.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "global/profiling/profiling.H"
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

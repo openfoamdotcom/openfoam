@@ -45,7 +45,7 @@ SourceFiles
 #ifndef WenYu_H
 #define WenYu_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

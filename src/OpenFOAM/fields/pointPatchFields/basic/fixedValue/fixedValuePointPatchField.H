@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_fixedValuePointPatchField_H
 #define Foam_fixedValuePointPatchField_H
 
-#include "valuePointPatchField.H"
+#include "fields/pointPatchFields/basic/value/valuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -169,7 +169,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedValuePointPatchField.C"
+    #include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

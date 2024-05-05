@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "joint.H"
-#include "rigidBodyModel.H"
+#include "joints/joint/joint.H"
+#include "rigidBodyModel/rigidBodyModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -104,8 +104,8 @@ SourceFiles
 #ifndef zoneToFace_H
 #define zoneToFace_H
 
-#include "topoSetFaceSource.H"
-#include "wordRes.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

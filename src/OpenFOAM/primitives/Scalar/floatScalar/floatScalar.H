@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Foam_primitives_float_H
 #define Foam_primitives_float_H
 
-#include "scalarFwd.H"
-#include "doubleFloat.H"
-#include "direction.H"
-#include "pTraits.H"
-#include "word.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
+#include "primitives/Scalar/doubleFloat.H"
+#include "primitives/direction/direction.H"
+#include "primitives/traits/pTraits.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,7 +157,7 @@ inline Scalar func(const Scalar s)                              \
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ScalarPascal.H"
+#include "primitives/Scalar/ScalarPascal.H"
 
 #undef Scalar
 #undef ScalarVGREAT

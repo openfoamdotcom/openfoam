@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PtrList.H"
-#include "SLPtrList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "containers/LinkedLists/user/SLPtrList.H"
 
 // * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * * //
 

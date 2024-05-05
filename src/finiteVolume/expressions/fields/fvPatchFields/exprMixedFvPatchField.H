@@ -57,9 +57,9 @@ SourceFiles
 #ifndef FoamDeprecated_exprMixedFvPatchField_H
 #define FoamDeprecated_exprMixedFvPatchField_H
 
-#include "mixedFvPatchField.H"
-#include "patchExprFieldBase.H"
-#include "patchExprDriver.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+#include "expressions/fields/base/patchExprFieldBase.H"
+#include "expressions/patch/patchExprDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "exprMixedFvPatchField.C"
+    #include "expressions/fields/fvPatchFields/exprMixedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

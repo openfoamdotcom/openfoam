@@ -39,8 +39,8 @@ SourceFiles
 #ifndef thresholdCellFaces_H
 #define thresholdCellFaces_H
 
-#include "MeshedSurface.H"
-#include "MeshedSurfacesFwd.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurface/MeshedSurfacesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

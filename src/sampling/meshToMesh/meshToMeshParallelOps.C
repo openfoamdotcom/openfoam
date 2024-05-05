@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh.H"
-#include "OFstream.H"
-#include "TimeOpenFOAM.H"
-#include "globalIndex.H"
-#include "mergePoints.H"
-#include "processorPolyPatch.H"
-#include "SubField.H"
-#include "AABBTree.H"
-#include "cellBox.H"
+#include "meshToMesh/meshToMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "fields/Fields/Field/SubField.H"
+#include "algorithms/AABBTree/AABBTree.H"
+#include "processorLOD/cellBox/cellBox.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

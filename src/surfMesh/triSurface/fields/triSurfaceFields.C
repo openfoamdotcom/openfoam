@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceFields.H"
-#include "className.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

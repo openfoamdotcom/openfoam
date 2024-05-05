@@ -55,8 +55,8 @@ SourceFiles
 #ifndef sampledCuttingSurface_H
 #define sampledCuttingSurface_H
 
-#include "sampledSurface.H"
-#include "cuttingSurface.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "surface/cutting/cuttingSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -271,7 +271,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledCuttingSurfaceTemplates.C"
+    #include "sampledSurface/sampledCuttingSurface/sampledCuttingSurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

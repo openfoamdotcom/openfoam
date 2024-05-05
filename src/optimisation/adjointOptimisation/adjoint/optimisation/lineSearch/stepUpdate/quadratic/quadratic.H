@@ -41,7 +41,7 @@ SourceFiles
 #ifndef quadratic_H
 #define quadratic_H
 
-#include "stepUpdate.H"
+#include "optimisation/lineSearch/stepUpdate/stepUpdate/stepUpdate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

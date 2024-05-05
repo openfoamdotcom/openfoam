@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearUpwind.H"
-#include "fvMesh.H"
+#include "interpolation/surfaceInterpolation/schemes/linearUpwind/linearUpwind.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,11 +41,11 @@ SourceFiles
 #ifndef turbulentDFSEMInletFvPatchVectorField_eddy_H
 #define turbulentDFSEMInletFvPatchVectorField_eddy_H
 
-#include "vector.H"
-#include "point.H"
-#include "tensor.H"
-#include "Random.H"
-#include "boundBox.H"
+#include "primitives/Vector/floats/vector.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/random/Random/Random.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -254,7 +254,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "eddyI.H"
+#include "fields/fvPatchFields/derived/turbulentDFSEMInlet/eddy/eddyI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

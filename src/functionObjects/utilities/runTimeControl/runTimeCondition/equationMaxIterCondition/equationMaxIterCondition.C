@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "equationMaxIterCondition.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "runTimeControl/runTimeCondition/equationMaxIterCondition/equationMaxIterCondition.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "etcFiles.H"
-#include "foamVersion.H"
-#include "OSspecific.H"
+#include "global/etcFiles/etcFiles.H"
+#include "include/foamVersion.H"
+#include "include/OSspecific.H"
 
 #ifdef FULLDEBUG
 #ifndef FOAM_RESOURCE_USER_CONFIG_DIRNAME

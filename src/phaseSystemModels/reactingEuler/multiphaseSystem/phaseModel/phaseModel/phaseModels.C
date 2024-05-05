@@ -25,23 +25,23 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "rhoThermo.H"
-#include "rhoReactionThermo.H"
+#include "rhoThermo/rhoThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 
-#include "CombustionModelPascal.H"
+#include "CombustionModelCaseDir/CombustionModel/CombustionModelPascal.H"
 
-#include "reactingEuler_phaseModel.H"
-#include "ThermoPhaseModel.H"
-#include "IsothermalPhaseModel.H"
-#include "AnisothermalPhaseModel.H"
-#include "PurePhaseModel.H"
-#include "MultiComponentPhaseModel.H"
-#include "InertPhaseModel.H"
-#include "ReactingPhaseModel.H"
-#include "MovingPhaseModel.H"
-#include "StationaryPhaseModel.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
+#include "phaseModel/ThermoPhaseModel/ThermoPhaseModel.H"
+#include "phaseModel/IsothermalPhaseModel/IsothermalPhaseModel.H"
+#include "phaseModel/AnisothermalPhaseModel/AnisothermalPhaseModel.H"
+#include "phaseModel/PurePhaseModel/PurePhaseModel.H"
+#include "phaseModel/MultiComponentPhaseModel/MultiComponentPhaseModel.H"
+#include "phaseModel/InertPhaseModel/InertPhaseModel.H"
+#include "phaseModel/ReactingPhaseModel/ReactingPhaseModel.H"
+#include "phaseModel/MovingPhaseModel/MovingPhaseModel.H"
+#include "phaseModel/StationaryPhaseModel/StationaryPhaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

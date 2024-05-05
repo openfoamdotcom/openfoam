@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "PstreamReduceOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 #include "PstreamGlobals.H"
-#include "profilingPstream.H"
-#include "int.H"
+#include "global/profiling/profilingPstream.H"
+#include "primitives/ints/int/int.H"
 #include "UPstreamWrapping.H"
-#include "collatedFileOperation.H"
+#include "global/fileOperations/collatedFileOperation/collatedFileOperation.H"
 
 #include <cstdlib>
 #include <cstring>

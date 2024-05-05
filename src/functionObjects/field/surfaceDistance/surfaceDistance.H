@@ -94,9 +94,9 @@ SourceFiles
 #ifndef functionObjects_surfaceDistance_H
 #define functionObjects_surfaceDistance_H
 
-#include "fvMeshFunctionObject.H"
-#include "searchableSurfaces.H"
-#include "volFields.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

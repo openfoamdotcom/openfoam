@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshTools.H"
-#include "faBoundaryMeshEntries.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "fileOperation.H"
-#include "BitOps.H"
-#include "polyMesh.H"
-#include "processorFaPatch.H"
+#include "faMesh/faMeshTools/faMeshTools.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMeshEntries.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

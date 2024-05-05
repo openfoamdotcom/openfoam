@@ -39,8 +39,8 @@ Author
 #ifndef MapFaAreaField_H
 #define MapFaAreaField_H
 
-#include "Field.H"
-#include "areaFaMesh.H"
+#include "fields/Fields/Field/Field.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

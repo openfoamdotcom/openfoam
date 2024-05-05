@@ -31,10 +31,10 @@ InClass
 #ifndef Foam_slicedAreaFields_H
 #define Foam_slicedAreaFields_H
 
-#include "SlicedGeometricField.H"
-#include "slicedFaPatchField.H"
-#include "areaFaMesh.H"
-#include "slicedAreaFieldsFwd.H"
+#include "fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.H"
+#include "fields/faPatchFields/basic/sliced/slicedFaPatchField.H"
+#include "areaMesh/areaFaMesh.H"
+#include "fields/areaFields/slicedAreaFieldsFwd.H"
 
 #endif
 

@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facNDiv.H"
-#include "faMesh.H"
-#include "facEdgeIntegrate.H"
-#include "faDivScheme.H"
-#include "faConvectionScheme.H"
-#include "transformField.H"
+#include "finiteArea/fac/facNDiv.H"
+#include "faMesh/faMesh.H"
+#include "finiteArea/fac/facEdgeIntegrate.H"
+#include "finiteArea/divSchemes/faDivScheme/faDivScheme.H"
+#include "finiteArea/convectionSchemes/faConvectionScheme/faConvectionScheme.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

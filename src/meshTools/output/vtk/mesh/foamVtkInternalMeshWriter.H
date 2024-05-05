@@ -52,9 +52,9 @@ SourceFiles
 #ifndef Foam_vtk_InternalMeshWriter_H
 #define Foam_vtk_InternalMeshWriter_H
 
-#include "foamVtkFileWriter.H"
-#include "foamVtuCells.H"
-#include "polyMesh.H"
+#include "vtk/file/foamVtkFileWriter.H"
+#include "vtk/part/foamVtuCells.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -240,7 +240,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkInternalMeshWriterTemplates.C"
+    #include "output/vtk/mesh/foamVtkInternalMeshWriterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

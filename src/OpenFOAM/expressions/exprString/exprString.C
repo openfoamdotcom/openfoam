@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprString.H"
-#include "stringOps.H"
-#include "expressionEntry.H"
-#include "error.H"
+#include "expressions/exprString/exprString.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "expressions/exprEntry/expressionEntry.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_ParticleForce_H
 #define Foam_ParticleForce_H
 
-#include "dictionary.H"
-#include "forceSuSp.H"
-#include "fvMesh.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "submodels/Kinematic/ParticleForces/forceSuSp/forceSuSp.H"
+#include "fvMesh/fvMesh.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -194,7 +194,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticleForce.C"
+    #include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

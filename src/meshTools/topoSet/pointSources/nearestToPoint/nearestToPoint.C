@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nearestToPoint.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mappedPatchBase.H"
+#include "topoSet/pointSources/nearestToPoint/nearestToPoint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

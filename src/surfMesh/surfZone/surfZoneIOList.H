@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_surfZoneIOList_H
 #define Foam_surfZoneIOList_H
 
-#include "surfZoneList.H"
-#include "regIOobject.H"
-#include "typeInfo.H"
+#include "surfZone/surfZoneList.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

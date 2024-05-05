@@ -113,16 +113,16 @@ SourceFiles
 #ifndef Foam_coordinateSystem_H
 #define Foam_coordinateSystem_H
 
-#include "vector.H"
-#include "point.H"
-#include "tensor.H"
-#include "vectorField.H"
-#include "pointField.H"
-#include "tensorField.H"
-#include "pointIndList.H"
-#include "coordinateRotation.H"
-#include "autoPtr.H"
-#include "tmp.H"
+#include "primitives/Vector/floats/vector.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "meshes/primitiveShapes/point/pointIndList.H"
+#include "primitives/coordinate/rotation/coordinateRotation.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/tmp/tmp.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -858,7 +858,7 @@ Ostream& operator<<(Ostream& os, const coordinateSystem& csys);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coordinateSystemTemplates.C"
+    #include "primitives/coordinate/systems/coordinateSystemTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

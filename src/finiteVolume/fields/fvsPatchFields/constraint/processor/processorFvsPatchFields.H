@@ -28,8 +28,8 @@ License
 #ifndef processorFvsPatchFields_H
 #define processorFvsPatchFields_H
 
-#include "processorFvsPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvsPatchFields/constraint/processor/processorFvsPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

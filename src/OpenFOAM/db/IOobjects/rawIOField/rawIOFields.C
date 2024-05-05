@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rawIOField.H"
-#include "fieldTypes.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/IOobjects/rawIOField/rawIOField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

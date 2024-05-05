@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noChemistrySolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "chemistrySolver/noChemistrySolver/noChemistrySolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallDistData.H"
-#include "patchDataWave.H"
-#include "wallPolyPatch.H"
-#include "emptyFvPatchFields.H"
+#include "fvMesh/wallDist/patchDistMethods/meshWave/wallDistData/wallDistData.H"
+#include "cellDist/patchWave/patchDataWave.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

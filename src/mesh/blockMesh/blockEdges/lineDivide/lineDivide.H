@@ -38,9 +38,9 @@ SourceFiles
 #ifndef lineDivide_H
 #define lineDivide_H
 
-#include "pointField.H"
-#include "scalarList.H"
-#include "gradingDescriptors.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "gradingDescriptor/gradingDescriptors.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

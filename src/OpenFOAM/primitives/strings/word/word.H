@@ -43,7 +43,7 @@ SourceFiles
 #ifndef Foam_word_H
 #define Foam_word_H
 
-#include "stringOpenFOAM.H"
+#include "primitives/strings/string/stringOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -288,7 +288,7 @@ struct typeOp
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wordI.H"
+#include "primitives/strings/word/wordI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

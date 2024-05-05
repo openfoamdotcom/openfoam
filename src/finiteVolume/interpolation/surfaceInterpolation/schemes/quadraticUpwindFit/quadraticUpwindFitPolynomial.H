@@ -37,7 +37,7 @@ Description
 #ifndef quadraticUpwindFitPolynomial_H
 #define quadraticUpwindFitPolynomial_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

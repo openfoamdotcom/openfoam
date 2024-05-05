@@ -34,12 +34,12 @@ Description
 #ifndef basicHeterogeneousReactingCloud_H
 #define basicHeterogeneousReactingCloud_H
 
-#include "CloudPascal.H"
-#include "KinematicCloudPascal.H"
-#include "ThermoCloudPascal.H"
-#include "ReactingCloudPascal.H"
-#include "ReactingHeterogeneousCloudPascal.H"
-#include "basicHeterogeneousReactingParcel.H"
+#include "Cloud/CloudPascal.H"
+#include "clouds/Templates/KinematicCloud/KinematicCloudPascal.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudPascal.H"
+#include "clouds/Templates/ReactingCloud/ReactingCloudPascal.H"
+#include "clouds/Templates/ReactingHeterogeneousCloud/ReactingHeterogeneousCloudPascal.H"
+#include "parcels/derived/basicHeterogeneousReactingParcel/basicHeterogeneousReactingParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

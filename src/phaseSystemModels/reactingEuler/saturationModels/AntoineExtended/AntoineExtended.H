@@ -45,7 +45,7 @@ SourceFiles
 #ifndef AntoineExtended_H
 #define AntoineExtended_H
 
-#include "Antoine.H"
+#include "Antoine/Antoine.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

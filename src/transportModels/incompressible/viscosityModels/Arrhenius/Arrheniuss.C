@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeArrheniusTypes.H"
+#include "viscosityModels/Arrhenius/makeArrheniusTypes.H"
 
-#include "Arrhenius.H"
+#include "viscosityModels/Arrhenius/Arrhenius.H"
 
-#include "BirdCarreau.H"
-#include "Casson.H"
-#include "CrossPowerLaw.H"
-#include "HerschelBulkley.H"
-#include "Newtonian.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/BirdCarreau/BirdCarreau.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/Casson/Casson.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/CrossPowerLaw/CrossPowerLaw.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/HerschelBulkley/HerschelBulkley.H"
+#include "viscosityModels/Newtonian/Newtonian.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

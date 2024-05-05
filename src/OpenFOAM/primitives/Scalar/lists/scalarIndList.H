@@ -29,8 +29,8 @@ License
 #define Foam_scalarIndList_H
 
 // Include all normal list typedefs as well
-#include "scalarList.H"
-#include "IndirectList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

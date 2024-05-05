@@ -80,11 +80,11 @@ SourceFiles
 #ifndef motionSmootherAlgo_H
 #define motionSmootherAlgo_H
 
-#include "pointFields.H"
-#include "HashSet.H"
-#include "bitSet.H"
-#include "indirectPrimitivePatch.H"
-#include "className.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -551,7 +551,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "motionSmootherAlgoTemplates.C"
+    #include "motionSmoother/motionSmootherAlgoTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

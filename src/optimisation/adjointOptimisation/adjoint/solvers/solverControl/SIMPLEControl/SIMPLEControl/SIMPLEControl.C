@@ -27,7 +27,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SIMPLEControlPascal.H"
+#include "solvers/solverControl/SIMPLEControl/SIMPLEControl/SIMPLEControlPascal.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STARCDCoordinateRotation.H"
-#include "EulerCoordinateRotation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/coordinate/rotation/STARCDCoordinateRotation.H"
+#include "primitives/coordinate/rotation/EulerCoordinateRotation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

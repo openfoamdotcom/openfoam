@@ -39,9 +39,9 @@ SourceFiles
 #ifndef PairCollision_H
 #define PairCollision_H
 
-#include "CollisionModel.H"
-#include "InteractionLists.H"
-#include "WallSiteData.H"
+#include "submodels/Kinematic/CollisionModel/CollisionModel/CollisionModel.H"
+#include "InteractionLists/InteractionLists.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallSiteData/WallSiteData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PairCollision.C"
+    #include "submodels/Kinematic/CollisionModel/PairCollision/PairCollision.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

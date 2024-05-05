@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_MSwindows_H
 #define Foam_MSwindows_H
 
-#include "className.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

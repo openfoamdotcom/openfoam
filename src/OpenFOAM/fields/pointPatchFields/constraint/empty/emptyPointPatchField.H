@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_emptyPointPatchField_H
 #define Foam_emptyPointPatchField_H
 
-#include "pointPatchField.H"
-#include "emptyPointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "meshes/pointMesh/pointPatches/constraint/empty/emptyPointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "emptyPointPatchField.C"
+    #include "fields/pointPatchFields/constraint/empty/emptyPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentTemperatureRadCoupledMixedFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "mappedPatchBase.H"
-#include "basicThermo.H"
-#include "IOField.H"
-#include "mappedPatchFieldBase.H"
+#include "derivedFvPatchFields/turbulentTemperatureRadCoupledMixed/turbulentTemperatureRadCoupledMixedFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "basicThermo/basicThermo.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "fields/fvPatchFields/derived/mappedField/mappedPatchFieldBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

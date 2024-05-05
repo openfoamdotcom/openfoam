@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zone.H"
-#include "dictionary.H"
-#include "HashSet.H"
-#include "IOstream.H"
+#include "meshes/polyMesh/zones/zone/zone.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

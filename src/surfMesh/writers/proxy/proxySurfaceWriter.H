@@ -64,7 +64,7 @@ SourceFiles
 #ifndef Foam_surfaceWriters_proxyWriter_H
 #define Foam_surfaceWriters_proxyWriter_H
 
-#include "surfaceWriter.H"
+#include "writers/common/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

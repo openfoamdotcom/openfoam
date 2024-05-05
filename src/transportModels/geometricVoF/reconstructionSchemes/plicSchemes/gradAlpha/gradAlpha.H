@@ -42,12 +42,12 @@ SourceFiles
 #ifndef gradAlpha_H
 #define gradAlpha_H
 
-#include "typeInfo.H"
-#include "reconstructionSchemes.H"
-#include "volFields.H"
-#include "DynamicField.H"
-#include "dimensionedScalar.H"
-#include "surfaceIteratorPLIC.H"
+#include "db/typeInfo/typeInfo.H"
+#include "reconstructionSchemes/reconstructionSchemes.H"
+#include "fields/volFields/volFields.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "surfaceIterators/surfaceIteratorPLIC.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

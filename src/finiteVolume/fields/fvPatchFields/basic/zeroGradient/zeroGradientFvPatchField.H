@@ -50,7 +50,7 @@ SourceFiles
 #ifndef Foam_zeroGradientFvPatchField_H
 #define Foam_zeroGradientFvPatchField_H
 
-#include "fvPatchField.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zeroGradientFvPatchField.C"
+    #include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

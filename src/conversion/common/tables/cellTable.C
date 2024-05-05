@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellTable.H"
-#include "IOMap.H"
-#include "OFstream.H"
+#include "common/tables/cellTable.H"
+#include "db/IOobjects/IOMap/IOMap.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

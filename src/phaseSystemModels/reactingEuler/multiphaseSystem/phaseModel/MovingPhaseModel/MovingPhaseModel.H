@@ -47,8 +47,8 @@ SourceFiles
 #ifndef MovingPhaseModel_H
 #define MovingPhaseModel_H
 
-#include "reactingEuler_phaseModel.H"
-#include "phaseCompressibleTurbulenceModel.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -254,7 +254,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MovingPhaseModel.C"
+    #include "phaseModel/MovingPhaseModel/MovingPhaseModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

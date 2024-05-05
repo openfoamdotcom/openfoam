@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "polyMeshTools.H"
-#include "unitConversion.H"
-#include "syncTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshTools.H"
+#include "global/constants/unitConversion.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

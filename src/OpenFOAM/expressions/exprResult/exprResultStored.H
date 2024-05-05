@@ -46,8 +46,8 @@ SourceFiles
 #ifndef Foam_expressions_exprResultStored_H
 #define Foam_expressions_exprResultStored_H
 
-#include "exprResult.H"
-#include "exprString.H"
+#include "expressions/exprResult/exprResult.H"
+#include "expressions/exprString/exprString.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

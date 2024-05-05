@@ -50,8 +50,8 @@ SourceFiles
 #ifndef Foam_string_H
 #define Foam_string_H
 
-#include "char.H"
-#include "Hasher.H"
+#include "primitives/chars/char/char.H"
+#include "primitives/hashes/Hash/Hasher.H"
 #include <cstdlib>
 #include <cstring>
 #include <string>
@@ -411,10 +411,10 @@ Ostream& operator<<(Ostream& os, const std::string& val);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "stringI.H"
+#include "primitives/strings/string/stringI.H"
 
 #ifdef NoRepository
-    #include "stringTemplates.C"
+    #include "primitives/strings/string/stringTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

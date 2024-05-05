@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatchMapper.H"
-#include "fvPatch.H"
-#include "fvBoundaryMesh.H"
-#include "fvMesh.H"
-#include "mapPolyMesh.H"
-#include "faceMapper.H"
-#include "demandDrivenData.H"
+#include "fvMesh/fvMeshMapper/fvPatchMapper.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "fvMesh/fvBoundaryMesh/fvBoundaryMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

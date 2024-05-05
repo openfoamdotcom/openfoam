@@ -48,9 +48,9 @@ SourceFiles
 #ifndef Moment_H
 #define Moment_H
 
-#include "AveragingMethod.H"
-#include "pointMesh.H"
-#include "tetIndices.H"
+#include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -178,7 +178,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Moment.C"
+    #include "submodels/MPPIC/AveragingMethods/Moment/Moment.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

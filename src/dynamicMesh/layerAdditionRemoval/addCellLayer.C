@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "layerAdditionRemoval.H"
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "polyTopoChange.H"
-#include "polyTopoChanger.H"
-#include "polyAddPoint.H"
-#include "polyAddCell.H"
-#include "polyAddFace.H"
-#include "polyModifyFace.H"
+#include "layerAdditionRemoval/layerAdditionRemoval.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "polyTopoChange/addObject/polyAddPoint.H"
+#include "polyTopoChange/addObject/polyAddCell.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

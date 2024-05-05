@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Antoine_H
 #define Antoine_H
 
-#include "saturationModel.H"
+#include "saturationModel/saturationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

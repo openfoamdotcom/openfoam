@@ -37,7 +37,7 @@ SourceFiles
 #ifndef averageNeighbourFvGeometryScheme_H
 #define averageNeighbourFvGeometryScheme_H
 
-#include "highAspectRatioFvGeometryScheme.H"
+#include "fvMesh/fvGeometryScheme/highAspectRatio/highAspectRatioFvGeometryScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

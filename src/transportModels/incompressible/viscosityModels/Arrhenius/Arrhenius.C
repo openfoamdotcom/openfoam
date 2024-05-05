@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 
-#include "Arrhenius.H"
+#include "viscosityModels/Arrhenius/Arrhenius.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

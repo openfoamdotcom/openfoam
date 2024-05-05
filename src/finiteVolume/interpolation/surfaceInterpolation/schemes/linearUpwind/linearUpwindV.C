@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearUpwindV.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "interpolation/surfaceInterpolation/schemes/linearUpwind/linearUpwindV.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

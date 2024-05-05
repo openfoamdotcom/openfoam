@@ -37,7 +37,7 @@ Description
 #ifndef adjointNull_H
 #define adjointNull_H
 
-#include "adjointSolver.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

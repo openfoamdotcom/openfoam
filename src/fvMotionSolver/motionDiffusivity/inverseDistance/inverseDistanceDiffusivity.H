@@ -38,8 +38,8 @@ SourceFiles
 #ifndef inverseDistanceDiffusivity_H
 #define inverseDistanceDiffusivity_H
 
-#include "uniformDiffusivity.H"
-#include "wordRes.H"
+#include "motionDiffusivity/uniform/uniformDiffusivity.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

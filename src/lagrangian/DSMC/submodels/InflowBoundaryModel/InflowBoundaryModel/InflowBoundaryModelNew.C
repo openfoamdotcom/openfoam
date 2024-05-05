@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "InflowBoundaryModel.H"
+#include "submodels/InflowBoundaryModel/InflowBoundaryModel/InflowBoundaryModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

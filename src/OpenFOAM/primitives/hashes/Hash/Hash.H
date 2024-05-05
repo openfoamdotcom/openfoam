@@ -38,7 +38,7 @@ Description
 #ifndef Hash_H
 #define Hash_H
 
-#include "Hasher.H"
+#include "primitives/hashes/Hash/Hasher.H"
 #include <cstdint>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

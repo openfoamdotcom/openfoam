@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicReynoldsNumber.H"
+#include "submodels/CloudFunctionObjects/KinematicReynoldsNumber/KinematicReynoldsNumber.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

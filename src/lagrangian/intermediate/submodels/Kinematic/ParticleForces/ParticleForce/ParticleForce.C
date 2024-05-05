@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleForce.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -127,6 +127,6 @@ Foam::scalar Foam::ParticleForce<CloudType>::massAdd
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ParticleForceNew.C"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForceNew.C"
 
 // ************************************************************************* //

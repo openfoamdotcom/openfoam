@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationPointMVC.H"
+#include "interpolation/interpolation/interpolationPointMVC/interpolationPointMVC.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

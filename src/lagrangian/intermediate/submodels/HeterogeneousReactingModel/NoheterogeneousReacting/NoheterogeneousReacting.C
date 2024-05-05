@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NoheterogeneousReacting.H"
+#include "submodels/HeterogeneousReactingModel/NoheterogeneousReacting/NoheterogeneousReacting.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

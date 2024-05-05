@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMeshZipUpCells.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "CircularBuffer.H"
-#include "DynamicList.H"
+#include "polyMeshZipUpCells/polyMeshZipUpCells.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Buffers/CircularBuffer.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // #define DEBUG_ZIPUP 1
 // #define DEBUG_CHAIN 1

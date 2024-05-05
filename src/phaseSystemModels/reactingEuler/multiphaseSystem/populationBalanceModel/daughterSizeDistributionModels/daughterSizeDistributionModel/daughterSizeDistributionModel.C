@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "daughterSizeDistributionModel.H"
-#include "breakupModel.H"
+#include "populationBalanceModel/daughterSizeDistributionModels/daughterSizeDistributionModel/daughterSizeDistributionModel.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

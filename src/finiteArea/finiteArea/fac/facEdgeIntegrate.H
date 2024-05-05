@@ -39,8 +39,8 @@ SourceFiles
 #ifndef facEdgeIntegrate_H
 #define facEdgeIntegrate_H
 
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -88,7 +88,7 @@ namespace fac
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "facEdgeIntegrate.C"
+    #include "finiteArea/fac/facEdgeIntegrate.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

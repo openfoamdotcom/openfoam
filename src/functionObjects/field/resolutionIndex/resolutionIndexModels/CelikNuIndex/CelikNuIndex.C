@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CelikNuIndex.H"
-#include "resolutionIndexModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "resolutionIndex/resolutionIndexModels/CelikNuIndex/CelikNuIndex.H"
+#include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

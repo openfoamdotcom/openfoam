@@ -50,8 +50,8 @@ SourceFiles
 #ifndef CellZoneInjection_H
 #define CellZoneInjection_H
 
-#include "InjectionModelPascal.H"
-#include "distributionModel.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -190,7 +190,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CellZoneInjection.C"
+    #include "submodels/Kinematic/InjectionModel/CellZoneInjection/CellZoneInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

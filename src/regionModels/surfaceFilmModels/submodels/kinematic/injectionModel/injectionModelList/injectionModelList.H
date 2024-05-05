@@ -37,9 +37,9 @@ SourceFiles
 #ifndef injectionModelList_H
 #define injectionModelList_H
 
-#include "PtrList.H"
-#include "injectionModel.H"
-#include "filmSubModelBase.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "submodels/kinematic/injectionModel/injectionModel/injectionModel.H"
+#include "submodels/filmSubModelBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

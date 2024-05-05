@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_DiagonalSolver_H
 #define Foam_DiagonalSolver_H
 
-#include "LduMatrixPascal.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduMatrixPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -96,7 +96,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DiagonalSolverPascal.C"
+    #include "matrices/LduMatrixCaseDir/Solvers/DiagonalSolver/DiagonalSolverPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

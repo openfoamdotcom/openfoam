@@ -41,7 +41,7 @@ SourceFiles
 #ifndef adjointSolverManager_H
 #define adjointSolverManager_H
 
-#include "adjointSolver.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

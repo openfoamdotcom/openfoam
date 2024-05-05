@@ -45,8 +45,8 @@ SourceFiles
 #ifndef Foam_blockEdge_H
 #define Foam_blockEdge_H
 
-#include "searchableSurfaces.H"
-#include "edge.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "meshes/meshShapes/edge/edge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -267,7 +267,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "blockEdgeI.H"
+#include "blockEdges/blockEdge/blockEdgeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

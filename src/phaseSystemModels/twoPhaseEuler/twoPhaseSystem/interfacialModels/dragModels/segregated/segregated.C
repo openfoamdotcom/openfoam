@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "segregated.H"
-#include "phasePair.H"
-#include "fvcGrad.H"
-#include "surfaceInterpolate.H"
-#include "zeroGradientFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/segregated/segregated.H"
+#include "phasePair/phasePair.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

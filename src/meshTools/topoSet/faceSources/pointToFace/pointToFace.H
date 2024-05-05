@@ -114,8 +114,8 @@ SourceFiles
 #ifndef pointToFace_H
 #define pointToFace_H
 
-#include "topoSetFaceSource.H"
-#include "Enum.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

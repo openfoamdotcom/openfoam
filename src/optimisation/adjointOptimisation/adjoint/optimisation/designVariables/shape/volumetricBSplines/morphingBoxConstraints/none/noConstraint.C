@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noConstraint.H"
-#include "volumetricBSplinesDesignVariables.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/shape/volumetricBSplines/morphingBoxConstraints/none/noConstraint.H"
+#include "optimisation/designVariables/shape/volumetricBSplines/volumetricBSplinesDesignVariables.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * * //
 

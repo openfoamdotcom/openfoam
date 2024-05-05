@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCellPointWallModified.H"
+#include "interpolation/interpolation/interpolationCellPointWallModified/interpolationCellPointWallModified.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

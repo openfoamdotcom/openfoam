@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include <type_traits>
-#include "foamVtkOutput.H"
+#include "vtk/output/foamVtkOutput.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

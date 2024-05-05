@@ -50,7 +50,7 @@ SourceFiles
 #ifndef Foam_cylinderAnnulusToCell_H
 #define Foam_cylinderAnnulusToCell_H
 
-#include "cylinderToCell.H"
+#include "topoSet/cellSources/cylinderToCell/cylinderToCell.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

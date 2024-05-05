@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "syncObjects.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "objectRegistry.H"
-#include "mappedPatchBase.H"
+#include "syncObjects/syncObjects.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

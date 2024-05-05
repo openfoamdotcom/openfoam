@@ -8,7 +8,7 @@ Description
 #ifndef HashFwd_H
 #define HashFwd_H
 
-#include "Hash.H"
+#include "primitives/hashes/Hash/Hash.H"
 
 #endif
 

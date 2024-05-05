@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uncorrectedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "finiteVolume/snGradSchemes/uncorrectedSnGrad/uncorrectedSnGrad.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

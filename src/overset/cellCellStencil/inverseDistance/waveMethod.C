@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveMethod.H"
-#include "meshToMeshData.H"
-#include "FaceCellWave.H"
-#include "addToRunTimeSelectionTable.H"
-#include "treeDataCell.H"
+#include "cellCellStencil/inverseDistance/waveMethod.H"
+#include "cellCellStencil/inverseDistance/meshToMeshData.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

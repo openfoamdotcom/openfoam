@@ -35,8 +35,8 @@ Description
 #ifndef barycentricTensor_H
 #define barycentricTensor_H
 
-#include "scalar.H"
-#include "BarycentricTensorPascal.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Barycentric/BarycentricTensorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

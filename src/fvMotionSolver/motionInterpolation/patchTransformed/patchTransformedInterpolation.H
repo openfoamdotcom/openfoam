@@ -58,7 +58,7 @@ SourceFiles
 #ifndef patchTransformedInterpolation_H
 #define patchTransformedInterpolation_H
 
-#include "motionInterpolation.H"
+#include "motionInterpolation/motionInterpolation/motionInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

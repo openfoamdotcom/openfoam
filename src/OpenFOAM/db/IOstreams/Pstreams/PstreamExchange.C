@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "contiguous.H"
-#include "PstreamReduceOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/traits/contiguous.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 // * * * * * * * * * * * * * * * * * Details * * * * * * * * * * * * * * * * //
 
@@ -453,7 +453,7 @@ void exchangeContainer
 } // namespace PstreamDetail
 } // namespace Foam
 
-#include "PstreamExchangeConsensus.C"
+#include "db/IOstreams/Pstreams/PstreamExchangeConsensus.C"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

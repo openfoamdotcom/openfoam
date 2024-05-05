@@ -36,10 +36,10 @@ Description
 #ifndef simple_H
 #define simple_H
 
-#include "incompressiblePrimalSolver.H"
-#include "SIMPLEControlPascal.H"
-#include "IOMRFZoneList.H"
-#include "objective.H"
+#include "solvers/primalSolvers/incompressible/incompressiblePrimalSolver/incompressiblePrimalSolver.H"
+#include "solvers/solverControl/SIMPLEControl/SIMPLEControl/SIMPLEControlPascal.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
+#include "objectives/objective/objective.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

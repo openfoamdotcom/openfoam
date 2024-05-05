@@ -75,8 +75,8 @@ SourceFiles
 #ifndef constantHeatTransfer_H
 #define constantHeatTransfer_H
 
-#include "interRegionHeatTransferModel.H"
-#include "autoPtr.H"
+#include "sources/interRegion/interRegionHeatTransfer/interRegionHeatTransferModel/interRegionHeatTransferModel.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

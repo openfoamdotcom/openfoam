@@ -30,7 +30,7 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoDispersion.H"
+#include "submodels/Kinematic/DispersionModel/NoDispersion/NoDispersion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

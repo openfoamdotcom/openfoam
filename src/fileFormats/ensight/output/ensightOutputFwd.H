@@ -34,7 +34,7 @@ Description
 #ifndef Foam_ensightOutputFwd_H
 #define Foam_ensightOutputFwd_H
 
-#include "DynamicList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -177,7 +177,7 @@ SourceFiles
 #ifndef Foam_wallFunctionBlenders_H
 #define Foam_wallFunctionBlenders_H
 
-#include "scalarFwd.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

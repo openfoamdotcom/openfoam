@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvGeometryScheme.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
+#include "fvMesh/fvGeometryScheme/fvGeometryScheme/fvGeometryScheme.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

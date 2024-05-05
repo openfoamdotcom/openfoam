@@ -38,7 +38,7 @@ SourceFiles
 #ifndef exprTools_expressionEntryStrings_H
 #define exprTools_expressionEntryStrings_H
 
-#include "expressionEntry.H"
+#include "expressions/exprEntry/expressionEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

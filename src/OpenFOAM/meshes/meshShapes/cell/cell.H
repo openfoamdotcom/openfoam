@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_cell_H
 #define Foam_cell_H
 
-#include "faceList.H"
-#include "oppositeFace.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/face/oppositeFace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -178,7 +178,7 @@ inline bool operator!=(const cell& a, const cell& b);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellI.H"
+#include "meshes/meshShapes/cell/cellI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceBox.H"
-#include "mapDistribute.H"
+#include "processorLOD/faceBox/faceBox.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 namespace Foam
 {

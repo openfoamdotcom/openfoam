@@ -44,10 +44,10 @@ SourceFiles
 #ifndef Foam_vtk_coordSetWriter_H
 #define Foam_vtk_coordSetWriter_H
 
-#include "foamVtkPolyWriter.H"
-#include "UPtrList.H"
-#include "Field.H"
-#include "instant.H"
+#include "vtk/write/foamVtkPolyWriter.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "fields/Fields/Field/Field.H"
+#include "db/Time/instant/instant.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -227,7 +227,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkCoordSetWriterTemplates.C"
+    #include "coordSet/writers/vtk/foamVtkCoordSetWriterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

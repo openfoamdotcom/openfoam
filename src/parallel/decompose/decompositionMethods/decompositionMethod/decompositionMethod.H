@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_decompositionMethod_H
 #define Foam_decompositionMethod_H
 
-#include "polyMesh.H"
-#include "CompactListList.H"
-#include "decompositionConstraint.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "decompositionConstraints/decompositionConstraint/decompositionConstraint.H"
 
 namespace Foam
 {

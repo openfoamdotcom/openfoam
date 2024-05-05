@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixedFaPatchField.H"
+#include "fields/faPatchFields/basic/mixed/mixedFaPatchField.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

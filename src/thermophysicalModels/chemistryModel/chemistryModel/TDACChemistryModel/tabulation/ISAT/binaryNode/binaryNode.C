@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binaryNode.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/ISAT/binaryNode/binaryNode.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

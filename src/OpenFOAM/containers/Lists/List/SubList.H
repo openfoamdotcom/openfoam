@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_SubList_H
 #define Foam_SubList_H
 
-#include "List.H"
-#include "labelRange.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/ranges/labelRange/labelRange.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,7 +198,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SubListI.H"
+#include "containers/Lists/List/SubListI.H"
 
 // * * * * * * * * * * * * * * * Implementations * * * * * * * * * * * * * * //
 

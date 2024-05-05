@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Foam_procFacesGAMGProcAgglomeration_H
 #define Foam_procFacesGAMGProcAgglomeration_H
 
-#include "GAMGProcAgglomeration.H"
-#include "labelField.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGProcAgglomerations/GAMGProcAgglomeration/GAMGProcAgglomeration.H"
+#include "fields/Fields/labelField/labelField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

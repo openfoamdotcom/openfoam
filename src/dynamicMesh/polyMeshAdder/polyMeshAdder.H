@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_polyMeshAdder_H
 #define Foam_polyMeshAdder_H
 
-#include "autoPtr.H"
-#include "polyMesh.H"
-#include "mapAddedPolyMesh.H"
-#include "faceCoupleInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapAddedPolyMesh.H"
+#include "polyMeshAdder/faceCoupleInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

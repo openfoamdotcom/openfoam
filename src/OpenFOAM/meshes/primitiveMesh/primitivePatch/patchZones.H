@@ -40,9 +40,9 @@ SourceFiles
 #ifndef patchZones_H
 #define patchZones_H
 
-#include "labelList.H"
-#include "pointField.H"
-#include "polyPatch.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

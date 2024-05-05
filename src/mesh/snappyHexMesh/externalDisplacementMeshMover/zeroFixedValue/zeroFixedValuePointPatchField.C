@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroFixedValuePointPatchField.H"
+#include "externalDisplacementMeshMover/zeroFixedValue/zeroFixedValuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * * //
 

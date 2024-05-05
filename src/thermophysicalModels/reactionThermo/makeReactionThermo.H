@@ -28,9 +28,9 @@ License
 #ifndef makeReactionThermo_H
 #define makeReactionThermo_H
 
-#include "addToRunTimeSelectionTable.H"
-#include "makeThermo.H"
-#include "SpecieMixture.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fluidThermo/makeThermo.H"
+#include "mixtures/SpecieMixture/SpecieMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -61,7 +61,7 @@ SourceFiles
 #ifndef meshWavePatchDistMethod_H
 #define meshWavePatchDistMethod_H
 
-#include "patchDistMethod.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

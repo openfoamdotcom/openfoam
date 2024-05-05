@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_transformGeometricField_H
 #define Foam_transformGeometricField_H
 
-#include "transform.H"
-#include "GeometricField.H"
+#include "primitives/transform/transform.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ tmp<GeometricField<Type, PatchField, GeoMesh>> invTransform
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformGeometricField.C"
+    #include "fields/GeometricFields/transformGeometricField/transformGeometricField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

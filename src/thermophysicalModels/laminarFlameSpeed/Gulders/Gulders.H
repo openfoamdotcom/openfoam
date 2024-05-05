@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Gulders_H
 #define Gulders_H
 
-#include "laminarFlameSpeed.H"
+#include "laminarFlameSpeed/laminarFlameSpeed.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

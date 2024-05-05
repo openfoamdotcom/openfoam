@@ -60,12 +60,12 @@ SourceFiles
 #ifndef cyclicACMIPolyPatch_H
 #define cyclicACMIPolyPatch_H
 
-#include "cyclicAMIPolyPatch.H"
-#include "AMIPatchToPatchInterpolation.H"
-#include "polyBoundaryMesh.H"
-#include "PatchFunction1.H"
-#include "uniformDimensionedFields.H"
-#include "vectorList.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "primitives/Vector/lists/vectorList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -387,7 +387,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cyclicACMIPolyPatchI.H"
+#include "AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatchI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

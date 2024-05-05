@@ -37,8 +37,8 @@ SourceFiles
 #ifndef dynamicMotionSolverTopoFvMesh_H
 #define dynamicMotionSolverTopoFvMesh_H
 
-#include "topoChangerFvMesh.H"
-#include "motionSolver.H"
+#include "topoChangerFvMesh/topoChangerFvMesh.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

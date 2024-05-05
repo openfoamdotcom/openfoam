@@ -54,9 +54,9 @@ See also
 #ifndef solidMixtureProperties_H
 #define solidMixtureProperties_H
 
-#include "solidProperties.H"
-#include "PtrList.H"
-#include "scalarField.H"
+#include "solidProperties/solidProperties/solidProperties.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

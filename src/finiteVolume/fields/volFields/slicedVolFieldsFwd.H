@@ -32,7 +32,7 @@ InClass
 #ifndef Foam_slicedVolFieldsFwd_H
 #define Foam_slicedVolFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

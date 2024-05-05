@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "profiling.H"
-#include "profilingInformation.H"
-#include "profilingSysInfo.H"
-#include "cpuInfo.H"
-#include "memInfo.H"
+#include "global/argList/argList.H"
+#include "global/profiling/profiling.H"
+#include "global/profiling/profilingInformation.H"
+#include "global/profiling/profilingSysInfo.H"
+#include "cpuInfo/cpuInfo.H"
+#include "memInfo/memInfo.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

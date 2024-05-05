@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DispersionRASModel.H"
-#include "demandDrivenData.H"
+#include "submodels/Kinematic/DispersionModel/DispersionRASModel/DispersionRASModel.H"
+#include "include/demandDrivenData.H"
 #include "turbulenceModel.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //

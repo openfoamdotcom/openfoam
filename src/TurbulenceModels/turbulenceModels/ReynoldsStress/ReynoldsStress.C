@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReynoldsStress.H"
-#include "fvc.H"
-#include "fvm.H"
-#include "wallFvPatch.H"
+#include "ReynoldsStress/ReynoldsStress.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

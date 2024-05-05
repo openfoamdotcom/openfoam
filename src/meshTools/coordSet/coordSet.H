@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_coordSet_H
 #define Foam_coordSet_H
 
-#include "pointField.H"
-#include "scalarList.H"
-#include "Enum.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,9 +37,9 @@ SourceFiles
 #ifndef Foam_dimensionSets_H
 #define Foam_dimensionSets_H
 
-#include "scalarMatrices.H"
-#include "dimensionedScalarFwd.H"
-#include "PtrList.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

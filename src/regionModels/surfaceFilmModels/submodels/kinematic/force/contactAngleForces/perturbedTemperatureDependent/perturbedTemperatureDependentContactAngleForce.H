@@ -50,10 +50,10 @@ SourceFiles
 #ifndef perturbedTemperatureDependentContactAngleForce_H
 #define perturbedTemperatureDependentContactAngleForce_H
 
-#include "contactAngleForce.H"
-#include "Function1Pascal.H"
-#include "distributionModel.H"
-#include "Random.H"
+#include "submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "distributionModel/distributionModel.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

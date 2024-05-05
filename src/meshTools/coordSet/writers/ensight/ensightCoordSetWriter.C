@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightCoordSetWriter.H"
-#include "coordSet.H"
-#include "IOmanip.H"
-#include "ensightCase.H"
-#include "ensightGeoFile.H"
-#include "ensightOutput.H"
-#include "ensightPTraits.H"
-#include "coordSetWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "coordSet/writers/ensight/ensightCoordSetWriter.H"
+#include "coordSet/coordSet.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "ensight/file/ensightCase.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "ensight/output/ensightOutput.H"
+#include "ensight/type/ensightPTraits.H"
+#include "coordSet/writers/common/coordSetWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -259,8 +259,8 @@ void Foam::coordSetWriters::ensightWriter::close(const bool force)
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Field writing implementations
 
-#include "ensightCoordSetWriterCollated.C"
-#include "ensightCoordSetWriterUncollated.C"
+#include "coordSet/writers/ensight/ensightCoordSetWriterCollated.C"
+#include "coordSet/writers/ensight/ensightCoordSetWriterUncollated.C"
 
 template<class Type>
 Foam::fileName Foam::coordSetWriters::ensightWriter::writeTemplate

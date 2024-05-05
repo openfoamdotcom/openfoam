@@ -57,8 +57,8 @@ SourceFiles
 #ifndef ThermoLookupTableInjection_H
 #define ThermoLookupTableInjection_H
 
-#include "InjectionModelPascal.H"
-#include "kinematicParcelInjectionDataIOList.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/kinematicParcelInjectionDataIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -196,7 +196,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoLookupTableInjection.C"
+    #include "submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/ThermoLookupTableInjection.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

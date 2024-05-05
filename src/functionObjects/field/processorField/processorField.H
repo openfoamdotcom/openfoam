@@ -84,7 +84,7 @@ SourceFiles
 #ifndef functionObjects_processorField_H
 #define functionObjects_processorField_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

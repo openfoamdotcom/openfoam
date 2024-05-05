@@ -40,12 +40,12 @@ SourceFiles
 #ifndef zoneCPCStencil_H
 #define zoneCPCStencil_H
 
-#include "zoneCellStencils.H"
-#include "boolList.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "indirectPrimitivePatch.H"
-#include "fvMesh.H"
+#include "fvMesh/zoneDistribute/zoneStencils/zoneCellStencils.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

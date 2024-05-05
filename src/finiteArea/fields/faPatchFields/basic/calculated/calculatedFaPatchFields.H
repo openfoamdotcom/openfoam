@@ -28,7 +28,7 @@ License
 #ifndef Foam_calculatedFaPatchFields_H
 #define Foam_calculatedFaPatchFields_H
 
-#include "calculatedFaPatchField.H"
+#include "fields/faPatchFields/basic/calculated/calculatedFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

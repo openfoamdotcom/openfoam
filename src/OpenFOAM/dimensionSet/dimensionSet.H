@@ -53,13 +53,13 @@ SourceFiles
 #ifndef Foam_dimensionSet_H
 #define Foam_dimensionSet_H
 
-#include "bool.H"
-#include "dimensionedScalarFwd.H"
-#include "className.H"
-#include "scalarField.H"
-#include "PtrList.H"
-#include "HashTable.H"
-#include "IOobjectOption.H"
+#include "primitives/bools/bool/bool.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalarFwd.H"
+#include "db/typeInfo/className.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "db/options/IOobjectOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -434,7 +434,7 @@ dimensionSet operator&&(const dimensionSet& ds1, const dimensionSet& ds2);
 
 // Predefined dimensions (eg, dimless, dimMass, dimLength, dimTime, ...)
 // and unit systems
-#include "dimensionSets.H"
+#include "dimensionSet/dimensionSets.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

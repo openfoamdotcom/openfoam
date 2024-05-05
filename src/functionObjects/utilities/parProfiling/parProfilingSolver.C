@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
-#include "parProfilingSolver.H"
-#include "profilingPstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "parProfiling/parProfilingSolver.H"
+#include "global/profiling/profilingPstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

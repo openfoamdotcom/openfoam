@@ -60,9 +60,9 @@ SourceFiles
 #ifndef Foam_wallDist_H
 #define Foam_wallDist_H
 
-#include "MeshObject.H"
-#include "patchDistMethod.H"
-#include "volFields.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethod.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

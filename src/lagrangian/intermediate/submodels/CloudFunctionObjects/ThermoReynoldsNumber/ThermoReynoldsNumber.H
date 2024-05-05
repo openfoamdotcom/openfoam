@@ -90,7 +90,7 @@ SourceFiles
 #ifndef ThermoReynoldsNumber_H
 #define ThermoReynoldsNumber_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -167,7 +167,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoReynoldsNumber.C"
+    #include "submodels/CloudFunctionObjects/ThermoReynoldsNumber/ThermoReynoldsNumber.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

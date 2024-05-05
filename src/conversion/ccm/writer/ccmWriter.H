@@ -91,13 +91,13 @@ SourceFiles
 #ifndef ccmWriter_H
 #define ccmWriter_H
 
-#include "ccmBase.H"
-#include "STARCDCore.H"
+#include "common/ccmBase.H"
+#include "starcd/STARCDCore.H"
 
-#include "fvMesh.H"
-#include "boundaryRegion.H"
-#include "cellTable.H"
-#include "IOobjectList.H"
+#include "fvMesh/fvMesh.H"
+#include "common/tables/boundaryRegion.H"
+#include "common/tables/cellTable.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

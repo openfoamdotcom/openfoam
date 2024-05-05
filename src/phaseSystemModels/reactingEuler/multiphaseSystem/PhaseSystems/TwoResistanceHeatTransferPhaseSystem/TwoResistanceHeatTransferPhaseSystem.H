@@ -44,7 +44,7 @@ SourceFiles
 #ifndef TwoResistanceHeatTransferPhaseSystem_H
 #define TwoResistanceHeatTransferPhaseSystem_H
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TwoResistanceHeatTransferPhaseSystem.C"
+    #include "PhaseSystems/TwoResistanceHeatTransferPhaseSystem/TwoResistanceHeatTransferPhaseSystem.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

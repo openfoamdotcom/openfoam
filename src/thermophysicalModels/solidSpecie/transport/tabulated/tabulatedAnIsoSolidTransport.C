@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tabulatedAnIsoSolidTransport.H"
-#include "IOstreams.H"
+#include "transport/tabulated/tabulatedAnIsoSolidTransport.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

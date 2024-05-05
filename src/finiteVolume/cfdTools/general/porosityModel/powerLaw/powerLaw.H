@@ -49,7 +49,7 @@ SourceFiles
 #ifndef Foam_porosityModels_powerLaw_H
 #define Foam_porosityModels_powerLaw_H
 
-#include "porosityModel.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "powerLawTemplates.C"
+    #include "cfdTools/general/porosityModel/powerLaw/powerLawTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

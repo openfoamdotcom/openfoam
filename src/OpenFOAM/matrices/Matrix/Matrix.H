@@ -50,11 +50,11 @@ SourceFiles
 #ifndef Foam_Matrix_H
 #define Foam_Matrix_H
 
-#include "uLabel.H"
-#include "Pair.H"
-#include "Field.H"
-#include "autoPtr.H"
-#include "complex.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/tuples/Pair.H"
+#include "fields/Fields/Field/Field.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/complex/complex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -626,13 +626,13 @@ Ostream& operator<<(Ostream& os, const Matrix<Form, Type>& mat)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MatrixI.H"
+#include "matrices/Matrix/MatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Matrix.C"
-    #include "MatrixIO.C"
+    #include "matrices/Matrix/Matrix.C"
+    #include "matrices/Matrix/MatrixIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

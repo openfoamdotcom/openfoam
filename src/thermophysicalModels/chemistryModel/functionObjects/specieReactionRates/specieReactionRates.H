@@ -47,9 +47,9 @@ SourceFiles
 #ifndef functionObjects_specieReactionRates_H
 #define functionObjects_specieReactionRates_H
 
-#include "fvMeshFunctionObject.H"
-#include "volRegion.H"
-#include "writeFile.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "functionObjects/volRegion/volRegion.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

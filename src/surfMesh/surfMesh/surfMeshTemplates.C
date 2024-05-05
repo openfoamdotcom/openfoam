@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfMesh.H"
-#include "surfFields.H"
+#include "surfMesh/surfMesh.H"
+#include "surfMesh/fields/surfFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

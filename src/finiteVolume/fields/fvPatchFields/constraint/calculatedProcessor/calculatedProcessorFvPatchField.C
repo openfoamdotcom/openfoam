@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "calculatedProcessorFvPatchField.H"
+#include "fields/fvPatchFields/constraint/calculatedProcessor/calculatedProcessorFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -111,10 +111,10 @@ SourceFiles
 #ifndef patchEdgeSet_H
 #define patchEdgeSet_H
 
-#include "sampledSet.H"
-#include "DynamicList.H"
-#include "HashSet.H"
-#include "plane.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

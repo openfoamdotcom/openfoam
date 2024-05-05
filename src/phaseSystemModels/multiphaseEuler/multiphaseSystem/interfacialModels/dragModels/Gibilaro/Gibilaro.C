@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Gibilaro.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/Gibilaro/Gibilaro.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

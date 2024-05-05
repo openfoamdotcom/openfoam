@@ -51,7 +51,7 @@ See also
 #ifndef Foam_SpatialVector_H
 #define Foam_SpatialVector_H
 
-#include "VectorPascal.H"
+#include "primitives/Vector/VectorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -187,7 +187,7 @@ struct is_contiguous_scalar<SpatialVector<Cmpt>>
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Include inline implementations
-#include "SpatialVectorI.H"
+#include "primitives/spatialVectorAlgebra/SpatialVector/SpatialVectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

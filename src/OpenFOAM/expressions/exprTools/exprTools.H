@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_exprTools_H
 #define Foam_exprTools_H
 
-#include "exprOps.H"
-#include "exprString.H"
+#include "expressions/exprOps/exprOps.H"
+#include "expressions/exprString/exprString.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -110,7 +110,7 @@ List<expressions::exprString> getList
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "exprToolsTemplates.C"
+    #include "expressions/exprTools/exprToolsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

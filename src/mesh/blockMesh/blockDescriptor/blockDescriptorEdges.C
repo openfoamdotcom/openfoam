@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockDescriptor.H"
-#include "lineEdge.H"
-#include "lineDivide.H"
-#include "hexCell.H"
+#include "blockDescriptor/blockDescriptor.H"
+#include "blockEdges/lineEdge/lineEdge.H"
+#include "blockEdges/lineDivide/lineDivide.H"
+#include "meshes/meshShapes/hexCell/hexCell.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

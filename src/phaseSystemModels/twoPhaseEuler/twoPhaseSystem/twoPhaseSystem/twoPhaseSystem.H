@@ -36,13 +36,13 @@ SourceFiles
 #ifndef twoPhaseSystem_H
 #define twoPhaseSystem_H
 
-#include "IOdictionary.H"
-#include "phaseModel.H"
-#include "phasePair.H"
-#include "orderedPhasePair.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "dragModel.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "phaseModel/phaseModel.H"
+#include "phasePair/phasePair.H"
+#include "phasePair/orderedPhasePair.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -245,7 +245,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "twoPhaseSystemTemplates.C"
+    #include "twoPhaseSystem/twoPhaseSystemTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

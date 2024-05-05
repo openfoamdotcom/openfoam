@@ -40,7 +40,7 @@ SourceFiles
 #ifndef eddyDissipationModelBase_H
 #define eddyDissipationModelBase_H
 
-#include "singleStepCombustion.H"
+#include "singleStepCombustion/singleStepCombustion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalShellFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "dictionaryContent.H"
+#include "derivedFvPatchFields/thermalShell/thermalShellFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/dictionary/dictionaryContent/dictionaryContent.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

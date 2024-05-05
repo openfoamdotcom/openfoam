@@ -40,7 +40,7 @@ SourceFiles
 #ifndef basicCombustionMixture_H
 #define basicCombustionMixture_H
 
-#include "basicSpecieMixture.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -100,7 +100,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicCombustionMixtureI.H"
+#include "mixtures/basicCombustionMixture/basicCombustionMixtureI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

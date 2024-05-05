@@ -50,10 +50,10 @@ SourceFiles
 #ifndef cutFaceAdvect_H
 #define cutFaceAdvect_H
 
-#include "cutFace.H"
-#include "fvMesh.H"
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "cellCuts/cutFace/cutFace.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

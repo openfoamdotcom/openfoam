@@ -26,11 +26,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "faMeshReconstructor.H"
-#include "globalIndex.H"
-#include "globalMeshData.H"
-#include "edgeHashes.H"
-#include "ignoreFaPatch.H"
-#include "TimeOpenFOAM.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "faMesh/faPatches/other/ignore/ignoreFaPatch.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

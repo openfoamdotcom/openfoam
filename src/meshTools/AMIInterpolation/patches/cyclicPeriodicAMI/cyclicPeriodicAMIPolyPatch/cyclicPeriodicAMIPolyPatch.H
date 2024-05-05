@@ -37,7 +37,7 @@ SourceFiles
 #ifndef cyclicPeriodicAMIPolyPatch_H
 #define cyclicPeriodicAMIPolyPatch_H
 
-#include "cyclicAMIPolyPatch.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

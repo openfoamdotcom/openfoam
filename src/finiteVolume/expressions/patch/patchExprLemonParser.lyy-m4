@@ -42,17 +42,17 @@ Description
  */
 %include
 {
-#include "exprScanToken.H"
-#include "patchExprDriver.H"
-#include "patchExprParser.H"
-#include "patchExprScanner.H"
-#include "unitConversion.H"
-#include "volFields.H"
-#include "error.H"
-#include "IOmanip.H"
-#include "exprOps.H"
-#include "exprDriverOps.H"
-#include "GeometricFieldOps.H"
+#include "expressions/scanToken/exprScanToken.H"
+#include "expressions/patch/patchExprDriver.H"
+#include "expressions/patch/patchExprParser.H"
+#include "expressions/patch/patchExprScanner.H"
+#include "global/constants/unitConversion.H"
+#include "fields/volFields/volFields.H"
+#include "db/error/error.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "expressions/exprOps/exprOps.H"
+#include "expressions/exprDriver/exprDriverOps.H"
+#include "fields/GeometricFields/GeometricField/GeometricFieldOps.H"
 
 // Enable ParseTrace
 #undef NDEBUG

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveGenerationModel.H"
-#include "unitConversion.H"
+#include "waveGenerationModels/base/waveGenerationModel/waveGenerationModel.H"
+#include "global/constants/unitConversion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

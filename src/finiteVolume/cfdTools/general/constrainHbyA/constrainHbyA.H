@@ -36,7 +36,7 @@ SourceFiles
 #ifndef constrainHbyA_H
 #define constrainHbyA_H
 
-#include "volFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

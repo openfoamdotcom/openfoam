@@ -44,21 +44,21 @@ SourceFiles
 #ifndef Foam_polyMesh_H
 #define Foam_polyMesh_H
 
-#include "objectRegistry.H"
-#include "primitiveMesh.H"
-#include "pointField.H"
-#include "faceList.H"
-#include "cellList.H"
-#include "cellShapeList.H"
-#include "pointIOField.H"
-#include "faceIOList.H"
-#include "labelIOList.H"
-#include "polyBoundaryMesh.H"
-#include "boundBox.H"
-#include "pointZoneMesh.H"
-#include "faceZoneMesh.H"
-#include "cellZoneMesh.H"
-#include "meshState.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/cell/cellList.H"
+#include "meshes/meshShapes/cellShape/cellShapeList.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "meshes/meshShapes/face/faceIOList.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
+#include "meshes/boundBox/boundBox.H"
+#include "meshes/polyMesh/zones/ZoneMesh/pointZoneMesh.H"
+#include "meshes/polyMesh/zones/ZoneMesh/faceZoneMesh.H"
+#include "meshes/polyMesh/zones/ZoneMesh/cellZoneMesh.H"
+#include "meshes/meshState/meshState.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvPatchField.H"
-#include "dictionary.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

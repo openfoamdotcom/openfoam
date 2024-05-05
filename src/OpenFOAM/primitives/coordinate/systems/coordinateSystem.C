@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateSystem.H"
-#include "cartesianCS.H"
-#include "IOstream.H"
-#include "axesRotation.H"
-#include "identityRotation.H"
-#include "transform.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "primitives/coordinate/rotation/axesRotation.H"
+#include "primitives/coordinate/rotation/identityRotation.H"
+#include "primitives/transform/transform.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

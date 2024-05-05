@@ -151,11 +151,11 @@ SourceFiles
 #ifndef populationBalanceModel_H
 #define populationBalanceModel_H
 
-#include "sizeGroup.H"
-#include "reactingEuler_phasePair.H"
-#include "pimpleControl.H"
-#include "phaseCompressibleTurbulenceModelFwd.H"
-#include "HashPtrTable.H"
+#include "diameterModels/velocityGroup/sizeGroup/sizeGroup.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "turbulence/phaseCompressibleTurbulenceModelFwd.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -451,7 +451,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "populationBalanceModelI.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

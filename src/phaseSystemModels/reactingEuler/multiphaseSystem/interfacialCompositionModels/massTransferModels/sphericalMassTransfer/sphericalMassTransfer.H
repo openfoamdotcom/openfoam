@@ -38,7 +38,7 @@ SourceFiles
 #ifndef sphericalMassTransfer_H
 #define sphericalMassTransfer_H
 
-#include "massTransferModel.H"
+#include "interfacialCompositionModels/massTransferModels/massTransferModel/massTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

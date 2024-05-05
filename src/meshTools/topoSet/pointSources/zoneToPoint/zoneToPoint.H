@@ -104,8 +104,8 @@ SourceFiles
 #ifndef zoneToPoint_H
 #define zoneToPoint_H
 
-#include "topoSetPointSource.H"
-#include "wordRes.H"
+#include "topoSet/pointSources/topoSetPointSource/topoSetPointSource.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

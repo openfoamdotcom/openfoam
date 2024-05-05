@@ -39,7 +39,7 @@ SourceFiles
 #ifndef fromFile_H
 #define fromFile_H
 
-#include "controlPointsDefinition.H"
+#include "parameterization/NURBS/NURBS3DVolume/controlPointsDefinition/controlPointsDefinition/controlPointsDefinition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

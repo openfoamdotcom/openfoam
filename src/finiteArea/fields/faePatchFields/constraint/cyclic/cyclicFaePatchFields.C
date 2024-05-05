@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicFaePatchFields.H"
-#include "faePatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/faePatchFields/constraint/cyclic/cyclicFaePatchFields.H"
+#include "fields/faePatchFields/faePatchField/faePatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

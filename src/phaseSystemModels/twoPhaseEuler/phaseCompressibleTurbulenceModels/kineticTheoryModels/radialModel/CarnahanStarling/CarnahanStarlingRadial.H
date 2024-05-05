@@ -36,7 +36,7 @@ SourceFiles
 #ifndef CarnahanStarling_H
 #define CarnahanStarling_H
 
-#include "radialModel.H"
+#include "kineticTheoryModels/radialModel/radialModel/radialModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

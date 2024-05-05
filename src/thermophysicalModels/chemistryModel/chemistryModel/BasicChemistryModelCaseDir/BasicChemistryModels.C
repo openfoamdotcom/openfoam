@@ -31,14 +31,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeChemistryModel.H"
+#include "chemistryModel/makeChemistryModel.H"
 
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 
-#include "StandardChemistryModel.H"
-#include "TDACChemistryModel.H"
-#include "thermoPhysicsTypes.H"
+#include "chemistryModel/StandardChemistryModel/StandardChemistryModel.H"
+#include "chemistryModel/TDACChemistryModel/TDACChemistryModel.H"
+#include "include/thermoPhysicsTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

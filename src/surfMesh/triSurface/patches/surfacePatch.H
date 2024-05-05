@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_surfacePatch_H
 #define Foam_surfacePatch_H
 
-#include "geometricSurfacePatch.H"
+#include "meshes/Identifiers/surface/geometricSurfacePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

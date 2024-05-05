@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedScalarField.H"
+#include "fields/DimensionedFields/DimensionedScalarField/DimensionedScalarField.H"
 
 #define TEMPLATE template<class Type, class GeoMesh>
-#include "DimensionedFieldFunctionsM.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -306,6 +306,6 @@ PRODUCT_OPERATOR(scalarProduct, &&, dotdot)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

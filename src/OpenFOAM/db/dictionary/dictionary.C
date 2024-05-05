@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "error.H"
-#include "JobInfo.H"
-#include "primitiveEntry.H"
-#include "dictionaryEntry.H"
-#include "regExp.H"
-#include "OSHA1stream.H"
-#include "OSstream.H"
-#include "argList.H"
-#include "registerSwitch.H"
+#include "db/dictionary/dictionary.H"
+#include "db/error/error.H"
+#include "global/JobInfo/JobInfo.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "regExp/regExp.H"
+#include "db/IOstreams/hashes/OSHA1stream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
+#include "global/argList/argList.H"
+#include "global/debug/registerSwitch.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

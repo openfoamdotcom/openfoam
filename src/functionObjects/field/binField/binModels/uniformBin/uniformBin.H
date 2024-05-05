@@ -102,9 +102,9 @@ SourceFiles
 #ifndef Foam_binModels_uniformBin_H
 #define Foam_binModels_uniformBin_H
 
-#include "binModel.H"
-#include "writeFile.H"
-#include "coordinateSystem.H"
+#include "binField/binModels/binModel/binModel.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -207,7 +207,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformBinTemplates.C"
+    #include "binField/binModels/uniformBin/uniformBinTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

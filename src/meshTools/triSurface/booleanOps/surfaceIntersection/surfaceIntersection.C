@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceIntersection.H"
-#include "triSurfaceSearch.H"
-#include "OBJstream.H"
-#include "labelPairHashes.H"
-#include "bitSet.H"
-#include "triSurface.H"
-#include "pointIndexHit.H"
-#include "mergePoints.H"
-#include "plane.H"
-#include "edgeIntersections.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "obj/OBJstream.H"
+#include "primitives/tuples/labelPairHashes.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "triSurface/triSurface.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "triSurface/booleanOps/surfaceIntersection/edgeIntersections.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeCombustionTypes.H"
+#include "combustionModel/makeCombustionTypes.H"
 
-#include "CombustionModelPascal.H"
+#include "CombustionModelCaseDir/CombustionModel/CombustionModelPascal.H"
 
-#include "rhoReactionThermo.H"
-#include "psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "psiReactionThermo/psiReactionThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

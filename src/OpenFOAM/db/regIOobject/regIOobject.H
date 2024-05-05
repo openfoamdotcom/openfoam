@@ -41,9 +41,9 @@ SourceFiles
 #ifndef Foam_regIOobject_H
 #define Foam_regIOobject_H
 
-#include "IOobject.H"
-#include "OSspecific.H"
-#include "DynamicList.H"
+#include "db/IOobject/IOobject.H"
+#include "include/OSspecific.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -396,7 +396,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regIOobjectI.H"
+#include "db/regIOobject/regIOobjectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

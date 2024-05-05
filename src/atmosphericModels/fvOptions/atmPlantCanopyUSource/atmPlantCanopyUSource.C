@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmPlantCanopyUSource.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvmSup.H"
+#include "fvOptions/atmPlantCanopyUSource/atmPlantCanopyUSource.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

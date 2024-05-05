@@ -92,10 +92,10 @@ SourceFiles
 #ifndef Foam_functionObjects_wallHeatFlux_H
 #define Foam_functionObjects_wallHeatFlux_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "volFieldsFwd.H"
-#include "HashSet.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

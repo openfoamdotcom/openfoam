@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TomiyamaLiftForce.H"
+#include "submodels/Kinematic/ParticleForces/Lift/TomiyamaLift/TomiyamaLiftForce.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

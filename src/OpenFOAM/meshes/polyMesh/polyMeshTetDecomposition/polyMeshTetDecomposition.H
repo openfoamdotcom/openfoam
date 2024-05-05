@@ -42,10 +42,10 @@ SourceFiles
 #ifndef Foam_polyMeshTetDecomposition_H
 #define Foam_polyMeshTetDecomposition_H
 
-#include "polyMesh.H"
-#include "coupledPolyPatch.H"
-#include "syncTools.H"
-#include "tetIndices.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

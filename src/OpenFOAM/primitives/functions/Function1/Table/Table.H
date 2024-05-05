@@ -82,7 +82,7 @@ SourceFiles
 #ifndef Function1Types_Table_H
 #define Function1Types_Table_H
 
-#include "TableBase.H"
+#include "primitives/functions/Function1/Table/TableBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Table.C"
+    #include "primitives/functions/Function1/Table/Table.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

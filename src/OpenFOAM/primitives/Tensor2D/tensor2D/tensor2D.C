@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensor2D.H"
-#include "quadraticEqn.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "primitives/polynomialEqns/quadraticEqn/quadraticEqn.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

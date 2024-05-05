@@ -43,12 +43,12 @@ SourceFiles
 #ifndef Foam_tetCell_H
 #define Foam_tetCell_H
 
-#include "FixedList.H"
-#include "triFace.H"
-#include "faceList.H"
-#include "edgeList.H"
-#include "pointField.H"
-#include "tetrahedron.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ template<> struct is_contiguous_label<tetCell> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetCellI.H"
+#include "meshes/meshShapes/tetCell/tetCellI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

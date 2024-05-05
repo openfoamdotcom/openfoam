@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extrapolatedCalculatedFaPatchField.H"
-#include "faPatchFieldMapper.H"
+#include "fields/faPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFaPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

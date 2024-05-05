@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interpolationCellPatchConstrained.H"
-#include "volFields.H"
+#include "interpolation/interpolation/interpolationCellPatchConstrained/interpolationCellPatchConstrained.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * Constructor * * * * * * * * * * * * * * * //
 

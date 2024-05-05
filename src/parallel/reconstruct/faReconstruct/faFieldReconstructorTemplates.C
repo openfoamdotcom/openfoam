@@ -27,12 +27,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "faFieldReconstructor.H"
-#include "TimeOpenFOAM.H"
-#include "PtrList.H"
-#include "faPatchFields.H"
-#include "emptyFaPatch.H"
-#include "emptyFaPatchField.H"
-#include "emptyFaePatchField.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "faMesh/faPatches/constraint/empty/emptyFaPatch.H"
+#include "fields/faPatchFields/constraint/empty/emptyFaPatchField.H"
+#include "fields/faePatchFields/constraint/empty/emptyFaePatchField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

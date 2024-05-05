@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "columnFvMesh.H"
-#include "polyBoundaryMeshEntries.H"
-#include "IOobjectList.H"
-#include "fieldDictionary.H"
-#include "vectorIOField.H"
-#include "emptyPolyPatch.H"
-#include "topoSet.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/simplifiedFvMesh/columnFvMesh/columnFvMesh.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshEntries.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "topoSet/cellSources/fieldToCell/fieldDictionary.H"
+#include "fields/Fields/vectorField/vectorIOField.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "topoSet/topoSets/topoSet.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LimitedScheme.H"
-#include "filteredLinear2.H"
-#include "filteredLinear2V.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/LimitedScheme/LimitedScheme.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/filteredLinear2/filteredLinear2.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/filteredLinear2/filteredLinear2V.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

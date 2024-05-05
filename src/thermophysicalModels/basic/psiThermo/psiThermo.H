@@ -41,8 +41,8 @@ SourceFiles
 #ifndef psiThermo_H
 #define psiThermo_H
 
-#include "fluidThermo.H"
-#include "runTimeSelectionTables.H"
+#include "fluidThermo/fluidThermo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

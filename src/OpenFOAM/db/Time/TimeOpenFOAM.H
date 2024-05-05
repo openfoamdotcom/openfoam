@@ -41,21 +41,21 @@ SourceFiles
 #ifndef Foam_Time_H
 #define Foam_Time_H
 
-#include "TimePaths.H"
-#include "objectRegistry.H"
-#include "unwatchedIOdictionary.H"
-#include "FIFOStack.H"
-#include "clock.H"
-#include "cpuTime.H"
-#include "TimeState.H"
-#include "Switch.H"
-#include "instantList.H"
-#include "Enum.H"
-#include "typeInfo.H"
-#include "dlLibraryTable.H"
-#include "functionObjectList.H"
-#include "sigWriteNow.H"
-#include "sigStopAtWriteNow.H"
+#include "db/Time/TimePaths.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOobjects/IOdictionary/unwatchedIOdictionary.H"
+#include "containers/LinkedLists/user/FIFOStack.H"
+#include "global/clock/clock.H"
+#include "cpuTime/cpuTime.H"
+#include "db/Time/TimeState.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/Time/instant/instantList.H"
+#include "primitives/enums/Enum.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "db/functionObjects/functionObjectList/functionObjectList.H"
+#include "signals/sigWriteNow.H"
+#include "signals/sigStopAtWriteNow.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -718,7 +718,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "TimeI.H"
+#include "db/Time/TimeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

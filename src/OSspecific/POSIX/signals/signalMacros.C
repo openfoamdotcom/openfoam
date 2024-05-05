@@ -31,7 +31,7 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 #include <csignal>
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

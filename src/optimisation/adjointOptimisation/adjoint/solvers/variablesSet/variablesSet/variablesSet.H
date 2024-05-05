@@ -36,7 +36,7 @@ Description
 #ifndef variablesSet_H
 #define variablesSet_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -233,7 +233,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "variablesSetTemplates.C"
+    #include "solvers/variablesSet/variablesSet/variablesSetTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

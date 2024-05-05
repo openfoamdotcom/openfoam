@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "gaussFaGrad.H"
-#include "facGrad.H"
-#include "areaFields.H"
-#include "edgeFields.H"
+#include "finiteArea/gradSchemes/gaussFaGrad/gaussFaGrad.H"
+#include "finiteArea/fac/facGrad.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

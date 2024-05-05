@@ -39,12 +39,12 @@ SourceFiles
 #ifndef Foam_ReadFields_H
 #define Foam_ReadFields_H
 
-#include "PtrList.H"
-#include "wordList.H"
-#include "DynamicList.H"
-#include "GeometricField.H"
-#include "HashSet.H"
-#include "LIFOStack.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/LinkedLists/user/LIFOStack.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ void readUniformFields
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReadFieldsTemplatesPascal.C"
+    #include "fields/ReadFields/ReadFieldsTemplatesPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

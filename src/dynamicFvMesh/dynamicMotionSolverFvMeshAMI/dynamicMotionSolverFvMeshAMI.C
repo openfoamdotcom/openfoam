@@ -25,18 +25,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicMotionSolverFvMeshAMI.H"
-#include "addToRunTimeSelectionTable.H"
-#include "motionSolver.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "cyclicAMIPolyPatch.H"
-#include "polyTopoChange.H"
-#include "MeshObject.H"
-#include "lduMesh.H"
-#include "surfaceInterpolate.H"
+#include "dynamicMotionSolverFvMeshAMI/dynamicMotionSolverFvMeshAMI.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
-#include "processorFvPatch.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

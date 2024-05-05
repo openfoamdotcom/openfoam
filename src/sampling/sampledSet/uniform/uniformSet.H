@@ -81,9 +81,9 @@ SourceFiles
 #ifndef uniformSet_H
 #define uniformSet_H
 
-#include "passiveParticleCloud.H"
-#include "sampledSet.H"
-#include "DynamicList.H"
+#include "passiveParticle/passiveParticleCloud.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

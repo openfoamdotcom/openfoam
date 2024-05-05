@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "upwindEdgeInterpolation.H"
+#include "faMesh/faMesh.H"
+#include "interpolation/edgeInterpolation/schemes/upwind/upwindEdgeInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

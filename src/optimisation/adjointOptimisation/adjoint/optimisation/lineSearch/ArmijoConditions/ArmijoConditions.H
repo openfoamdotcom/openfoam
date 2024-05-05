@@ -39,7 +39,7 @@ SourceFiles
 #ifndef ArmijoConditions_H
 #define ArmijoConditions_H
 
-#include "lineSearch.H"
+#include "optimisation/lineSearch/lineSearch/lineSearch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

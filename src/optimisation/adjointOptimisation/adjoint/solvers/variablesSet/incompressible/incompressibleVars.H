@@ -36,12 +36,12 @@ Description
 #ifndef incompressibleVars_H
 #define incompressibleVars_H
 
-#include "variablesSet.H"
-#include "fvMesh.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "RASModelVariables.H"
-#include "solverControl.H"
+#include "solvers/variablesSet/variablesSet/variablesSet.H"
+#include "fvMesh/fvMesh.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/RASModelVariables/RASModelVariables.H"
+#include "solvers/solverControl/solverControl/solverControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -262,7 +262,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "incompressibleVarsI.H"
+#include "solvers/variablesSet/incompressible/incompressibleVarsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_primitives_bool_H
 #define Foam_primitives_bool_H
 
-#include "pTraits.H"
-#include "direction.H"
+#include "primitives/traits/pTraits.H"
+#include "primitives/direction/direction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

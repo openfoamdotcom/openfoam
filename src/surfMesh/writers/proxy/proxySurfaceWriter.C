@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "proxySurfaceWriter.H"
-#include "MeshedSurfaceProxy.H"
-#include "OSspecific.H"
-#include "surfaceWriterMethods.H"
+#include "writers/proxy/proxySurfaceWriter.H"
+#include "MeshedSurfaceProxy/MeshedSurfaceProxy.H"
+#include "include/OSspecific.H"
+#include "writers/common/surfaceWriterMethods.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -101,8 +101,8 @@ SourceFiles
 #ifndef EDC_H
 #define EDC_H
 
-#include "../laminar/laminar.H"
-#include "Enum.H"
+#include "laminar/laminar.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -206,7 +206,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EDC.C"
+    #include "EDC/EDC.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -36,9 +36,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "SHA1.H"
-#include "IOstreams.H"
-#include "foamEndian.H"  // For byte swapping
+#include "primitives/hashes/SHA1/SHA1.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/endian/foamEndian.H"  // For byte swapping
 #include <cstring>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

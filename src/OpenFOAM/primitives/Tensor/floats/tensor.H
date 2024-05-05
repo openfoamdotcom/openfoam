@@ -45,11 +45,11 @@ SourceFiles
 #ifndef Foam_tensor_H
 #define Foam_tensor_H
 
-#include "TensorPascal.H"
-#include "vector.H"
-#include "sphericalTensor.H"
-#include "symmTensor.H"
-#include "complex.H"
+#include "primitives/Tensor/TensorPascal.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/complex/complex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

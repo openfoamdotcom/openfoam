@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faOption.H"
-#include "areaFields.H"
+#include "faOption/faOption.H"
+#include "fields/areaFields/areaFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

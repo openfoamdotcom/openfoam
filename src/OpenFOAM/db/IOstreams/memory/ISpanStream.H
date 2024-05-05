@@ -64,9 +64,9 @@ See Also
 #ifndef Foam_ISpanStream_H
 #define Foam_ISpanStream_H
 
-#include "memoryStreamBuffer.H"
-#include "UList.H"
-#include "ISstream.H"
+#include "db/IOstreams/memory/memoryStreamBuffer.H"
+#include "containers/Lists/List/UList.H"
+#include "db/IOstreams/Sstreams/ISstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

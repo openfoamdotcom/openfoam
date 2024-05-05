@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfaceBase.H"
-#include "polyMesh.H"
-#include "tetMatcher.H"
-#include "cyclicACMIPolyPatch.H"
+#include "surface/isoSurface/isoSurfaceBase.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/cellMatcher/tetMatcher.H"
+#include "AMIInterpolation/patches/cyclicACMI/cyclicACMIPolyPatch/cyclicACMIPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "isoSurfaceBaseMethods.H"
+#include "surface/isoSurface/isoSurfaceBaseMethods.H"
 defineIsoSurfaceInterpolateMethods(Foam::isoSurfaceBase);
 
 

@@ -28,8 +28,8 @@ License
 #ifndef fixedMeanFvPatchFields_H
 #define fixedMeanFvPatchFields_H
 
-#include "fixedMeanFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/derived/fixedMean/fixedMeanFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

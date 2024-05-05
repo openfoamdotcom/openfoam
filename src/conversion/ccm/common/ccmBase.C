@@ -25,8 +25,8 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "ccmBase.H"
-#include "ccmInternal.H"  // include last to avoid any strange interactions
+#include "common/ccmBase.H"
+#include "common/ccmInternal.H"  // include last to avoid any strange interactions
 
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //

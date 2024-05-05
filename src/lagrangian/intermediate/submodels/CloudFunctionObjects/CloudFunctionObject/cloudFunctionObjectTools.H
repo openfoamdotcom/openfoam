@@ -38,8 +38,8 @@ SourceFiles
 #ifndef cloudFunctionObjectTools_collector_H
 #define cloudFunctionObjectTools_collector_H
 
-#include "polyMesh.H"
-#include "boundBox.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

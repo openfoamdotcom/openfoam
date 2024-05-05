@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalHeatFluxSource.H"
-#include "fam.H"
-#include "faScalarMatrix.H"
-#include "physicoChemicalConstants.H"
-#include "zeroGradientFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/externalHeatFluxSource/externalHeatFluxSource.H"
+#include "finiteArea/fam/fam.H"
+#include "faMatrices/faScalarMatrix/faScalarMatrix.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using Foam::constant::physicoChemical::sigma;
 

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef wallPointAddressing_H
 #define wallPointAddressing_H
 
-#include "wallPoint.H"
+#include "cellDist/wallPoint/wallPoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -198,7 +198,7 @@ struct is_contiguous_scalar<wallPointAddressing>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallPointAddressingI.H"
+#include "fvMesh/wallDist/wallDistAddressing/wallPointAddressingI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

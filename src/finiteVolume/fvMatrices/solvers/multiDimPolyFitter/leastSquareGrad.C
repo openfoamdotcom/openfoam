@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "leastSquareGrad.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "wedgePolyPatch.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/leastSquareGrad.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

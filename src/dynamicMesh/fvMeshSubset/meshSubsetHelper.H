@@ -21,7 +21,7 @@ Description
 #ifndef meshSubsetHelper_H
 #define meshSubsetHelper_H
 
-#include "fvMeshSubsetProxy.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubsetProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

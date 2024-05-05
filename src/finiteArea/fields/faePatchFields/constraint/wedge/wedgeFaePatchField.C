@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wedgeFaePatchField.H"
+#include "fields/faePatchFields/constraint/wedge/wedgeFaePatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

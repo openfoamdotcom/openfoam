@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledIsoSurfaceTopo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sampledSurface/isoSurface/sampledIsoSurfaceTopo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

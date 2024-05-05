@@ -52,9 +52,9 @@ SourceFiles
 #ifndef FoamDeprecated_exprFixedValueFvPatchField_H
 #define FoamDeprecated_exprFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchField.H"
-#include "patchExprFieldBase.H"
-#include "patchExprDriver.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
+#include "expressions/fields/base/patchExprFieldBase.H"
+#include "expressions/patch/patchExprDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -178,7 +178,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "exprFixedValueFvPatchField.C"
+    #include "expressions/fields/fvPatchFields/exprFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

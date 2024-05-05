@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facGrad.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "facEdgeIntegrate.H"
-#include "faMesh.H"
-#include "faGradScheme.H"
-#include "gaussFaGrad.H"
+#include "finiteArea/fac/facGrad.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "finiteArea/fac/facEdgeIntegrate.H"
+#include "faMesh/faMesh.H"
+#include "finiteArea/gradSchemes/faGradScheme/faGradScheme.H"
+#include "finiteArea/gradSchemes/gaussFaGrad/gaussFaGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

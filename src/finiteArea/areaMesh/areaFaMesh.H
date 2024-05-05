@@ -39,8 +39,8 @@ Author
 #ifndef areaFaMesh_H
 #define areaFaMesh_H
 
-#include "GeoMesh.H"
-#include "faMesh.H"
+#include "meshes/GeoMesh/GeoMesh.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

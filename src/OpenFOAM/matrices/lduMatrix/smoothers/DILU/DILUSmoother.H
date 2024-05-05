@@ -41,7 +41,7 @@ SourceFiles
 #ifndef DILUSmoother_H
 #define DILUSmoother_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

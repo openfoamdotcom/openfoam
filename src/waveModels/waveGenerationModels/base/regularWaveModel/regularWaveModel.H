@@ -34,7 +34,7 @@ Description
 #ifndef waveModels_regularWaveModel_H
 #define waveModels_regularWaveModel_H
 
-#include "irregularWaveModel.H"
+#include "waveGenerationModels/base/irregularWaveModel/irregularWaveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

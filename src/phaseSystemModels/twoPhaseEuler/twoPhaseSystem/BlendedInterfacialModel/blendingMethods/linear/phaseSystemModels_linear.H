@@ -35,7 +35,7 @@ SourceFiles
 
 #pragma once
 
-#include "blendingMethod.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

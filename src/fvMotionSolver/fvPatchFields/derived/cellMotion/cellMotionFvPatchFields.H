@@ -28,8 +28,8 @@ License
 #ifndef cellMotionFvPatchFields_H
 #define cellMotionFvPatchFields_H
 
-#include "cellMotionFvPatchField.H"
-#include "fieldTypes.H"
+#include "fvPatchFields/derived/cellMotion/cellMotionFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,10 +37,10 @@ SourceFiles
 #ifndef Foam_curve_H
 #define Foam_curve_H
 
-#include "autoPtr.H"
-#include "point.H"
-#include "primitiveFields.H"
-#include "word.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/Fields/primitiveFields.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

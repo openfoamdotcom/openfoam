@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointOutletVelocityFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "emptyFvPatch.H"
+#include "adjointBoundaryConditions/adjointOutletVelocity/adjointOutletVelocityFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ InterpolationFiles
 #ifndef linearInterpolation_H
 #define linearInterpolation_H
 
-#include "topOInterpolationFunction.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyModelState.H"
-#include "IOstreams.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

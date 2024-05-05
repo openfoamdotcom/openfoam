@@ -38,9 +38,9 @@ SourceFiles
 #ifndef phaseChangeModel_H
 #define phaseChangeModel_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
-#include "scalarField.H"
+#include "submodels/filmSubModelBase.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

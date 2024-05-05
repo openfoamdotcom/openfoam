@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_surfaceRegistry_H
 #define Foam_surfaceRegistry_H
 
-#include "objectRegistry.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

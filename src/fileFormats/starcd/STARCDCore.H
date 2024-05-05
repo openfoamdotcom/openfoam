@@ -38,12 +38,12 @@ SourceFiles
 #ifndef STARCDCore_H
 #define STARCDCore_H
 
-#include "IFstream.H"
-#include "Enum.H"
-#include "Map.H"
-#include "point.H"
-#include "FixedList.H"
-#include "List.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "primitives/enums/Enum.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

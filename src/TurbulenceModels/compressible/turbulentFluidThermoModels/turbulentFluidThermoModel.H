@@ -45,13 +45,13 @@ SourceFiles
 #ifndef Foam_turbulentFluidThermoModel_H
 #define Foam_turbulentFluidThermoModel_H
 
-#include "CompressibleTurbulenceModelPascal.H"
-#include "ThermalDiffusivity.H"
-#include "EddyDiffusivity.H"
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
-#include "fluidThermo.H"
+#include "CompressibleTurbulenceModel/CompressibleTurbulenceModelPascal.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "EddyDiffusivity/EddyDiffusivity.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
+#include "fluidThermo/fluidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -83,7 +83,7 @@ namespace Foam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "turbulentFluidThermoModel.C"
+    #include "turbulentFluidThermoModels/turbulentFluidThermoModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

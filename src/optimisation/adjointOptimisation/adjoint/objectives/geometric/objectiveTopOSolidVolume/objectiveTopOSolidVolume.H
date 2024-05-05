@@ -41,7 +41,7 @@ SourceFiles
 #ifndef objectiveTopOSolidVolume_H
 #define objectiveTopOSolidVolume_H
 
-#include "objectiveGeometric.H"
+#include "objectives/geometric/objectiveGeometric/objectiveGeometric.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

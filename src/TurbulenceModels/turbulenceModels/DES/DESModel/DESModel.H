@@ -39,7 +39,7 @@ SourceFiles
 #ifndef LESModels_DESModel_H
 #define LESModels_DESModel_H
 
-#include "DESModelBase.H"
+#include "DES/DESModel/DESModelBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -133,7 +133,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DESModel.C"
+    #include "DES/DESModel/DESModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

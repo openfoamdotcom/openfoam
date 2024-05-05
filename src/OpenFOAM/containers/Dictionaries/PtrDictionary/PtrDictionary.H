@@ -37,8 +37,8 @@ Description
 #ifndef Foam_PtrDictionary_H
 #define Foam_PtrDictionary_H
 
-#include "DictionaryBase.H"
-#include "DLPtrList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/LinkedLists/user/DLPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

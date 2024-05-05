@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveMakerPointPatchVectorField.H"
-#include "mathematicalConstants.H"
-#include "pointPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
-#include "gravityMeshObject.H"
+#include "derivedPointPatchFields/waveMaker/waveMakerPointPatchVectorField.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
 
-#include "polyMesh.H"
-#include "surfaceFields.H"
-#include "volFields.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

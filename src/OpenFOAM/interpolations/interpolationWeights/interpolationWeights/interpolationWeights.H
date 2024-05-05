@@ -39,10 +39,10 @@ SourceFiles
 #ifndef interpolationWeights_H
 #define interpolationWeights_H
 
-#include "scalarField.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "pointField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationWeightsTemplates.C"
+    #include "interpolations/interpolationWeights/interpolationWeights/interpolationWeightsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

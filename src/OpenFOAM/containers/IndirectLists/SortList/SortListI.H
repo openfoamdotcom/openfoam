@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListOps.H"  // For uniqueOrder()
+#include "containers/Lists/ListOps/ListOps.H"  // For uniqueOrder()
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

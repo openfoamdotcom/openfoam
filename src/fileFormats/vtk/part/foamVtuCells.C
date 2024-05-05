@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "foamVtuCells.H"
-#include "foamVtkOutputOptions.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "vtk/part/foamVtuCells.H"
+#include "vtk/output/foamVtkOutputOptions.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

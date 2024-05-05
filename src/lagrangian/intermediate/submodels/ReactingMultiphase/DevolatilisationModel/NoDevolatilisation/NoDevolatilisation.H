@@ -37,7 +37,7 @@ Description
 #ifndef NoDevolatilisation_H
 #define NoDevolatilisation_H
 
-#include "DevolatilisationModel.H"
+#include "submodels/ReactingMultiphase/DevolatilisationModel/DevolatilisationModel/DevolatilisationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -110,7 +110,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoDevolatilisation.C"
+    #include "submodels/ReactingMultiphase/DevolatilisationModel/NoDevolatilisation/NoDevolatilisation.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

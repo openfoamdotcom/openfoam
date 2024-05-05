@@ -87,8 +87,8 @@ SourceFiles
 #ifndef distributionModels_binned_H
 #define distributionModels_binned_H
 
-#include "distributionModel.H"
-#include "Field.H"
+#include "distributionModel/distributionModel.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

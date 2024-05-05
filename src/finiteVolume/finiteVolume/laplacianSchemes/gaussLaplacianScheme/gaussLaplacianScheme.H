@@ -41,7 +41,7 @@ SourceFiles
 #ifndef gaussLaplacianScheme_H
 #define gaussLaplacianScheme_H
 
-#include "laplacianScheme.H"
+#include "finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -180,7 +180,7 @@ defineFvmLaplacianScalarGamma(tensor);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "gaussLaplacianScheme.C"
+    #include "finiteVolume/laplacianSchemes/gaussLaplacianScheme/gaussLaplacianScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

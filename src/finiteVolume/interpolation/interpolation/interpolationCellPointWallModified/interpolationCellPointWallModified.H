@@ -35,8 +35,8 @@ Description
 #ifndef Foam_interpolationCellPointWallModified_H
 #define Foam_interpolationCellPointWallModified_H
 
-#include "interpolationCellPoint.H"
-#include "cellPointWeightWallModified.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "interpolation/interpolation/interpolationCellPointWallModified/cellPointWeightWallModified.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -97,12 +97,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interpolationCellPointWallModifiedI.H"
+#include "interpolation/interpolation/interpolationCellPointWallModified/interpolationCellPointWallModifiedI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPointWallModified.C"
+    #include "interpolation/interpolation/interpolationCellPointWallModified/interpolationCellPointWallModified.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

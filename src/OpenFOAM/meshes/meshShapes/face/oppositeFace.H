@@ -35,7 +35,7 @@ Description
 #ifndef Foam_oppositeFace_H
 #define Foam_oppositeFace_H
 
-#include "face.H"
+#include "meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

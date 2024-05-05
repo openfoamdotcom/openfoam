@@ -73,10 +73,10 @@ Description
 #ifndef Foam_extrudePatchMesh_H
 #define Foam_extrudePatchMesh_H
 
-#include "extrudeModel.H"
-#include "autoPtr.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "extrudeModel/extrudeModel.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

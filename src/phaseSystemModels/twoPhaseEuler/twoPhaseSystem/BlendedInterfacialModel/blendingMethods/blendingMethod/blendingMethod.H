@@ -37,9 +37,9 @@ SourceFiles
 #ifndef blendingMethod_H
 #define blendingMethod_H
 
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
-#include "phaseModel.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

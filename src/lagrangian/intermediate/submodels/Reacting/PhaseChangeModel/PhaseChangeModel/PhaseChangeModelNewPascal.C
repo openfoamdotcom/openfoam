@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseChangeModelPascal.H"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

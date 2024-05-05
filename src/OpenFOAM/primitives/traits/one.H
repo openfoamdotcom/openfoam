@@ -43,7 +43,7 @@ SeeAlso
 #ifndef Foam_one_H
 #define Foam_one_H
 
-#include "labelFwd.H"
+#include "primitives/ints/label/labelFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -107,7 +107,7 @@ inline constexpr Istream& operator>>(Istream& is, one&) noexcept
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Global Operators, Functions
-#include "oneI.H"
+#include "primitives/traits/oneI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

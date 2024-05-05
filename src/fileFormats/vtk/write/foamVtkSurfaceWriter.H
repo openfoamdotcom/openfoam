@@ -48,8 +48,8 @@ SourceFiles
 #ifndef Foam_vtk_surfaceWriter_H
 #define Foam_vtk_surfaceWriter_H
 
-#include "foamVtkPolyWriter.H"
-#include "instant.H"
+#include "vtk/write/foamVtkPolyWriter.H"
+#include "db/Time/instant/instant.H"
 #include <functional>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

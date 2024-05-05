@@ -36,7 +36,7 @@ SourceFiles
 #ifndef mapSubsetMesh_H
 #define mapSubsetMesh_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

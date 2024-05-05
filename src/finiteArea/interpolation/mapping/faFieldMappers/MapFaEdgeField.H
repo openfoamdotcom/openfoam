@@ -39,8 +39,8 @@ Author
 #ifndef MapFaEdgeField_H
 #define MapFaEdgeField_H
 
-#include "Field.H"
-#include "edgeFaMesh.H"
+#include "fields/Fields/Field/Field.H"
+#include "edgeMesh/edgeFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

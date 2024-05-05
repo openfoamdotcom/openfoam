@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "splitCell.H"
-#include "error.H"
+#include "meshCut/splitCell/splitCell.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -52,8 +52,8 @@ SourceFiles
 #ifndef PatchInjection_H
 #define PatchInjection_H
 
-#include "InjectionModelPascal.H"
-#include "patchInjectionBase.H"
+#include "submodels/Kinematic/InjectionModel/InjectionModel/InjectionModelPascal.H"
+#include "submodels/Kinematic/InjectionModel/PatchInjection/patchInjectionBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -210,7 +210,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchInjectionPascal.C"
+    #include "submodels/Kinematic/InjectionModel/PatchInjection/PatchInjectionPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

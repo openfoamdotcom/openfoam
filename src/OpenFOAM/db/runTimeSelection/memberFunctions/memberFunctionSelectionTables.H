@@ -35,7 +35,7 @@ Note
 #ifndef Foam_memberFunctionSelectionTables_H
 #define Foam_memberFunctionSelectionTables_H
 
-#include "runTimeSelectionTables.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

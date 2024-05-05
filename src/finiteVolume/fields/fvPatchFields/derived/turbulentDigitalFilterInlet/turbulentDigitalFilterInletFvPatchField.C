@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentDigitalFilterInletFvPatchField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "faceAreaWeightAMI.H"
-#include "turbulentDFSEMInletFvPatchVectorField.H"
+#include "fields/fvPatchFields/derived/turbulentDigitalFilterInlet/turbulentDigitalFilterInletFvPatchField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "AMIInterpolation/AMIInterpolation/faceAreaWeightAMI/faceAreaWeightAMI.H"
+#include "fields/fvPatchFields/derived/turbulentDFSEMInlet/turbulentDFSEMInletFvPatchVectorField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

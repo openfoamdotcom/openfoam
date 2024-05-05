@@ -39,7 +39,7 @@ SourceFiles
 #ifndef objectiveFlowRate_H
 #define objectiveFlowRate_H
 
-#include "objectiveIncompressible.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

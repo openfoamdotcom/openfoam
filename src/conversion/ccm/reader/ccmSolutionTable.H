@@ -31,9 +31,9 @@ Description
 #ifndef ccmSolutionTable_H
 #define ccmSolutionTable_H
 
-#include "SLList.H"
-#include "Ostream.H"
-#include "wordRes.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

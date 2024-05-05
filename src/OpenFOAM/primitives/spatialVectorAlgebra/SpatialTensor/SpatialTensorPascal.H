@@ -52,8 +52,8 @@ See also
 #ifndef Foam_SpatialTensor_H
 #define Foam_SpatialTensor_H
 
-#include "TensorPascal.H"
-#include "SpatialVectorPascal.H"
+#include "primitives/Tensor/TensorPascal.H"
+#include "primitives/spatialVectorAlgebra/SpatialVector/SpatialVectorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -192,7 +192,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SpatialTensorI.H"
+#include "primitives/spatialVectorAlgebra/SpatialTensor/SpatialTensorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

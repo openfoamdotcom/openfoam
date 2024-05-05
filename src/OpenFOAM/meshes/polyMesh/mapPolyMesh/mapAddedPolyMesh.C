@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapAddedPolyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapAddedPolyMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

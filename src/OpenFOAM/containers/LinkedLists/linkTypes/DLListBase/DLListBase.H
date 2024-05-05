@@ -46,9 +46,9 @@ SourceFiles
 #ifndef Foam_DLListBase_H
 #define Foam_DLListBase_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "stdFoam.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -356,7 +356,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DLListBaseI.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

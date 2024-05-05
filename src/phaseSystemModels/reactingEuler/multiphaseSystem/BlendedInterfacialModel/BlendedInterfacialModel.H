@@ -36,10 +36,10 @@ SourceFiles
 #ifndef BlendedInterfacialModel_H
 #define BlendedInterfacialModel_H
 
-#include "blendingMethod.H"
-#include "reactingEuler_phasePair.H"
-#include "reactingEuler_orderedPhasePair.H"
-#include "geometricZeroField.H"
+#include "BlendedInterfacialModel/blendingMethods/blendingMethod/blendingMethod.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "phasePair/reactingEuler_orderedPhasePair.H"
+#include "fields/GeometricFields/geometricZeroField/geometricZeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -221,7 +221,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "BlendedInterfacialModel.C"
+    #include "BlendedInterfacialModel/BlendedInterfacialModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

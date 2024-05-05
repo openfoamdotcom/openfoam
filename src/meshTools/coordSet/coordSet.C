@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordSet.H"
-#include "globalIndex.H"
+#include "coordSet/coordSet.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

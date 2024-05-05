@@ -38,12 +38,12 @@ SourceFiles
 #ifndef lumpedPointTools_H
 #define lumpedPointTools_H
 
-#include "labelList.H"
-#include "fvMesh.H"
-#include "pointMesh.H"
-#include "pointFields.H"
-#include "Tuple2.H"
-#include "lumpedPointState.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "primitives/tuples/Tuple2.H"
+#include "state/lumpedPointState.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

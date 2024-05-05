@@ -35,8 +35,8 @@ Description
 #ifndef Foam_FieldMapper_H
 #define Foam_FieldMapper_H
 
-#include "mapDistributeBase.H"
-#include "nullObject.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"
+#include "primitives/nullObject/nullObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

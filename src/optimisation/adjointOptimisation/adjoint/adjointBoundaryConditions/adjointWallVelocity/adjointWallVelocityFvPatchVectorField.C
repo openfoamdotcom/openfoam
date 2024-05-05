@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointWallVelocityFvPatchVectorField.H"
-#include "nutUSpaldingWallFunctionFvPatchScalarField.H"
-#include "fvMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "adjointBoundaryConditions/adjointWallVelocity/adjointWallVelocityFvPatchVectorField.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutUSpaldingWallFunction/nutUSpaldingWallFunctionFvPatchScalarField.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "areaFields.H"
-#include "coupledFaPatchField.H"
-#include "registerSwitch.H"
+#include "faMesh/faMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/faPatchFields/basic/coupled/coupledFaPatchField.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

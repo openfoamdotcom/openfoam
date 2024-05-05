@@ -38,8 +38,8 @@ Description
 #ifndef UpwindFitScheme_H
 #define UpwindFitScheme_H
 
-#include "UpwindFitData.H"
-#include "linear.H"
+#include "interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

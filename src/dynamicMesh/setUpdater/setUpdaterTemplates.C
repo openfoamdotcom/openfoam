@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setUpdater.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "mapPolyMesh.H"
-#include "IOobjectList.H"
+#include "setUpdater/setUpdater.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

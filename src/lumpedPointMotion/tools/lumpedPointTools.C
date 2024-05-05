@@ -24,12 +24,12 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 \*---------------------------------------------------------------------------*/
 
-#include "lumpedPointTools.H"
-#include "IFstream.H"
-#include "IOobjectList.H"
-#include "volFields.H"
-#include "points0MotionSolver.H"
-#include "lumpedPointDisplacementPointPatchVectorField.H"
+#include "tools/lumpedPointTools.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/volFields/volFields.H"
+#include "motionSolvers/displacement/points0/points0MotionSolver.H"
+#include "pointPatchFields/lumpedPointDisplacementPointPatchVectorField.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

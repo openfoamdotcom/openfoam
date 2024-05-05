@@ -42,9 +42,9 @@ SourceFiles
 #ifndef Foam_regionProperties_H
 #define Foam_regionProperties_H
 
-#include "HashTable.H"
-#include "wordList.H"
-#include "IOobject.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "primitives/strings/lists/wordList.H"
+#include "db/IOobject/IOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

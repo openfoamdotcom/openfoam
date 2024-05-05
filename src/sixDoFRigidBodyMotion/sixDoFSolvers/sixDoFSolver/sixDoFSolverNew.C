@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFSolver.H"
+#include "sixDoFSolvers/sixDoFSolver/sixDoFSolver.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //
 

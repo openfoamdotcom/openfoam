@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HistogramPascal.H"
-#include "ListOps.H"
+#include "containers/Lists/Histogram/HistogramPascal.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

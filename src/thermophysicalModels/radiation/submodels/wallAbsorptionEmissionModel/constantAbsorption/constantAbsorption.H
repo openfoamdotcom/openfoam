@@ -40,7 +40,7 @@ SourceFiles
 #ifndef radiation_constantAbsorption_H
 #define radiation_constantAbsorption_H
 
-#include "wallAbsorptionEmissionModel.H"
+#include "submodels/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel/wallAbsorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,11 +27,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashSet.H"
-#include "ShapeSensitivitiesBase.H"
-#include "adjointSensitivity.H"
-#include "adjointSolver.H"
-#include "addToRunTimeSelectionTable.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/shapeSensitivityBase/ShapeSensitivitiesBase.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointSensitivity/adjointSensitivity.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

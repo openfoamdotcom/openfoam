@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_IOMap_H
 #define Foam_IOMap_H
 
-#include "Map.H"
-#include "regIOobject.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/regIOobject/regIOobject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -141,7 +141,7 @@ struct is_globalIOobject<IOMap<T>> : std::true_type {};
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "IOMap.C"
+    #include "db/IOobjects/IOMap/IOMap.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -42,7 +42,7 @@ SourceFiles
 #ifndef RBD_cuboid_H
 #define RBD_cuboid_H
 
-#include "rigidBody.H"
+#include "bodies/rigidBody/rigidBody.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -120,7 +120,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cuboidI.H"
+#include "bodies/cuboid/cuboidI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

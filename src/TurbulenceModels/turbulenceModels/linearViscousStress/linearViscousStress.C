@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearViscousStress.H"
-#include "fvc.H"
-#include "fvm.H"
+#include "linearViscousStress/linearViscousStress.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "finiteVolume/fvm/fvm.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

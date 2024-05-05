@@ -27,8 +27,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "scotchDecomp.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 static const char* notImplementedMessage =
 "Attempted to use <scotch> without the scotchDecomp library loaded.\n"

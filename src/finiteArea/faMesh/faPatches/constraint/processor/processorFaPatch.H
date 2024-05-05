@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_processorFaPatch_H
 #define Foam_processorFaPatch_H
 
-#include "coupledFaPatch.H"
-#include "processorLduInterface.H"
+#include "faMesh/faPatches/basic/coupled/coupledFaPatch.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

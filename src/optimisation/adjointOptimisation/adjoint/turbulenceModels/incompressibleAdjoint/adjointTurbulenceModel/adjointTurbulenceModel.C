@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointTurbulenceModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "turbulenceModels/incompressibleAdjoint/adjointTurbulenceModel/adjointTurbulenceModel.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

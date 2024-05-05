@@ -38,11 +38,11 @@ SourceFiles
 #ifndef regionSplit2D_H
 #define regionSplit2D_H
 
-#include "DynamicList.H"
-#include "boolList.H"
-#include "labelList.H"
-#include "indirectPrimitivePatch.H"
-#include "globalIndex.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_labelVector_H
 #define Foam_labelVector_H
 
-#include "label.H"
-#include "VectorPascal.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Vector/VectorPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

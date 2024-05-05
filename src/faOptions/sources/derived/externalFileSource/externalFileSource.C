@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalFileSource.H"
-#include "fam.H"
-#include "faScalarMatrix.H"
-#include "zeroGradientFaPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/externalFileSource/externalFileSource.H"
+#include "finiteArea/fam/fam.H"
+#include "faMatrices/faScalarMatrix/faScalarMatrix.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

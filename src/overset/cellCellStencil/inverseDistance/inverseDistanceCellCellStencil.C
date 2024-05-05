@@ -25,26 +25,26 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inverseDistanceCellCellStencil.H"
-#include "addToRunTimeSelectionTable.H"
-#include "OBJstream.H"
-#include "TimeOpenFOAM.H"
-#include "fvMeshSubset.H"
+#include "cellCellStencil/inverseDistance/inverseDistanceCellCellStencil.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "obj/OBJstream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
 
-#include "globalIndex.H"
-#include "oversetFvPatch.H"
-#include "zeroGradientFvPatchFields.H"
-#include "syncTools.H"
-#include "treeBoundBoxList.H"
-#include "waveMethod.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "oversetPolyPatch/oversetFvPatch.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "cellCellStencil/inverseDistance/waveMethod.H"
 
-#include "regionSplit.H"
-#include "oversetFvPatchFields.H"
-#include "topoDistanceData.H"
-#include "FaceCellWave.H"
+#include "regionSplit/regionSplit.H"
+#include "oversetPolyPatch/oversetFvPatchFields.H"
+#include "meshStructure/topoDistanceData.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
 
-#include "OBJstream.H"
-#include "uindirectPrimitivePatch.H"
+#include "obj/OBJstream.H"
+#include "meshes/primitiveMesh/primitivePatch/compat/uindirectPrimitivePatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

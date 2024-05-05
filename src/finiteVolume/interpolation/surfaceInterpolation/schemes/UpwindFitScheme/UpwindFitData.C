@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "UpwindFitData.H"
-#include "surfaceFields.H"
-#include "volFields.H"
-#include "SVD.H"
-#include "extendedUpwindCellToFaceStencil.H"
+#include "interpolation/surfaceInterpolation/schemes/UpwindFitScheme/UpwindFitData.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/volFields.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedUpwindCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

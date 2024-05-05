@@ -37,9 +37,9 @@ SourceFiles
 #ifndef Foam_FieldOps_H
 #define Foam_FieldOps_H
 
-#include "flipOp.H"
-#include "ListOps.H"
-#include "Tuple2.H"
+#include "primitives/ops/flipOp.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -219,7 +219,7 @@ Tuple2<T1,T2> findMaxData
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FieldOps.C"
+    #include "fields/Fields/Field/FieldOps.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "quadraticDiffusivity.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionDiffusivity/manipulators/quadratic/quadraticDiffusivity.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

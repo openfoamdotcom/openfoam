@@ -31,8 +31,8 @@ SourceFiles
 #ifndef tableReaders_H
 #define tableReaders_H
 
-#include "tableReader.H"
-#include "fieldTypes.H"
+#include "interpolations/interpolationTable/tableReaders/tableReader.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

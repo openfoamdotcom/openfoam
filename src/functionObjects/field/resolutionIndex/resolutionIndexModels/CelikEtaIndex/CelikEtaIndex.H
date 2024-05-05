@@ -140,7 +140,7 @@ SourceFiles
 #ifndef Foam_resolutionIndexModels_CelikEtaIndex_H
 #define Foam_resolutionIndexModels_CelikEtaIndex_H
 
-#include "resolutionIndexModel.H"
+#include "resolutionIndex/resolutionIndexModels/resolutionIndexModel/resolutionIndexModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ISAT.H"
-#include "LUscalarMatrix.H"
-#include "demandDrivenData.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/ISAT/ISAT.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

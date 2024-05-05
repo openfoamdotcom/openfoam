@@ -37,7 +37,7 @@ SourceFiles
 #ifndef simplifiedMeshes_hexCellFvMesh_H
 #define simplifiedMeshes_hexCellFvMesh_H
 
-#include "simplifiedFvMesh.H"
+#include "fvMesh/simplifiedFvMesh/simplifiedFvMesh/simplifiedFvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

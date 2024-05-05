@@ -28,8 +28,8 @@ License
 #ifndef cyclicSlipPointPatchFields_H
 #define cyclicSlipPointPatchFields_H
 
-#include "cyclicSlipPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/constraint/cyclicSlip/cyclicSlipPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

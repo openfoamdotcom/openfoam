@@ -94,10 +94,10 @@ SourceFiles
 #ifndef meanVelocityForce_H
 #define meanVelocityForce_H
 
-#include "autoPtr.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "cellSetOption.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "cellSetOption/cellSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

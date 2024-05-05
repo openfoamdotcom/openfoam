@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalMeshData.H"
-#include "globalIndex.H"
-#include "CompactListList.H"
-#include "processorPolyPatch.H"
-#include "syncTools.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

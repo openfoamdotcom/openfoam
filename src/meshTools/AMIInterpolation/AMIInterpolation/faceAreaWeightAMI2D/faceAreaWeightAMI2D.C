@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceAreaWeightAMI2D.H"
-#include "profiling.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triangle2D.H"
+#include "AMIInterpolation/AMIInterpolation/faceAreaWeightAMI2D/faceAreaWeightAMI2D.H"
+#include "global/profiling/profiling.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "AMIInterpolation/triangle2D/triangle2D.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -80,7 +80,7 @@ SourceFiles
 #ifndef turbulentMixingLengthFrequencyInletFvPatchScalarField_H
 #define turbulentMixingLengthFrequencyInletFvPatchScalarField_H
 
-#include "inletOutletFvPatchFields.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

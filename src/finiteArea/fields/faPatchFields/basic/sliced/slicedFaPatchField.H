@@ -50,8 +50,8 @@ SourceFiles
 #ifndef Foam_slicedFaPatchField_H
 #define Foam_slicedFaPatchField_H
 
-#include "faPatchField.H"
-#include "processorFaPatch.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -241,7 +241,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "slicedFaPatchField.C"
+    #include "fields/faPatchFields/basic/sliced/slicedFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

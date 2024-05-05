@@ -50,7 +50,7 @@ SourceFiles
 #ifndef Foam_coordinateRotations_identity_H
 #define Foam_coordinateRotations_identity_H
 
-#include "coordinateRotation.H"
+#include "primitives/coordinate/rotation/coordinateRotation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -61,8 +61,8 @@ SourceFiles
 #ifndef Foam_sampledPatch_H
 #define Foam_sampledPatch_H
 
-#include "sampledSurface.H"
-#include "MeshedSurfaces.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -361,7 +361,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledPatchTemplates.C"
+    #include "sampledSurface/sampledPatch/sampledPatchTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

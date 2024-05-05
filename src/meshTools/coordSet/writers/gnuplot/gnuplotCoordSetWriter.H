@@ -54,7 +54,7 @@ SourceFiles
 #ifndef Foam_coordSetWriters_gnuplotWriter_H
 #define Foam_coordSetWriters_gnuplotWriter_H
 
-#include "coordSetWriter.H"
+#include "coordSet/writers/common/coordSetWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

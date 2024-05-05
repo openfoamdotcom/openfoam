@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_dynamicMultiMotionSolverFvMesh_H
 #define Foam_dynamicMultiMotionSolverFvMesh_H
 
-#include "dynamicFvMesh.H"
-#include "motionSolver.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,11 +38,11 @@ SourceFiles
 #ifndef basicReactingParcel_H
 #define basicReactingParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "KinematicParcel.H"
-#include "ThermoParcel.H"
-#include "ReactingParcel.H"
+#include "primitives/traits/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/KinematicParcel/KinematicParcel.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcel.H"
+#include "parcels/Templates/ReactingParcel/ReactingParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

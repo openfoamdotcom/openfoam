@@ -42,9 +42,9 @@ SourceFiles
 #ifndef linearSpringDamper_H
 #define linearSpringDamper_H
 
-#include "sixDoFRigidBodyMotionRestraint.H"
-#include "point.H"
-#include "Function1Pascal.H"
+#include "sixDoFRigidBodyMotion/restraints/sixDoFRigidBodyMotionRestraint/sixDoFRigidBodyMotionRestraint.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

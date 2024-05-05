@@ -30,8 +30,8 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "GradientDispersionRAS.H"
-#include "StochasticDispersionRAS.H"
+#include "submodels/Kinematic/DispersionModel/GradientDispersionRAS/GradientDispersionRAS.H"
+#include "submodels/Kinematic/DispersionModel/StochasticDispersionRAS/StochasticDispersionRAS.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

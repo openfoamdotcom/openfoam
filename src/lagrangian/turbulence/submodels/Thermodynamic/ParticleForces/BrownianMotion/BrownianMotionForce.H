@@ -59,8 +59,8 @@ SourceFiles
 #ifndef Foam_BrownianMotionForce_H
 #define Foam_BrownianMotionForce_H
 
-#include "ParticleForce.H"
-#include "Random.H"
+#include "submodels/Kinematic/ParticleForces/ParticleForce/ParticleForce.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "BrownianMotionForce.C"
+    #include "submodels/Thermodynamic/ParticleForces/BrownianMotion/BrownianMotionForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

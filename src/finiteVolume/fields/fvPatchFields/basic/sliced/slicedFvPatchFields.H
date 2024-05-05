@@ -28,8 +28,8 @@ License
 #ifndef slicedFvPatchFields_H
 #define slicedFvPatchFields_H
 
-#include "slicedFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/basic/sliced/slicedFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef correlationFunction_H
 #define correlationFunction_H
 
-#include "bufferedAccumulator.H"
-#include "dictionary.H"
+#include "bufferedAccumulator/bufferedAccumulator.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -168,12 +168,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "correlationFunctionI.H"
+#include "correlationFunction/correlationFunctionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "correlationFunction.C"
+    #include "correlationFunction/correlationFunction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

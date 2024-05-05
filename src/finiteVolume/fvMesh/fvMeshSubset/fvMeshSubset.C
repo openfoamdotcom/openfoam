@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "BitOps.H"
-#include "Pstream.H"
-#include "cyclicPolyPatch.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

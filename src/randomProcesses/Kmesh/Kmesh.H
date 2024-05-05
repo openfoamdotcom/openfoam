@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Kmesh_H
 #define Kmesh_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

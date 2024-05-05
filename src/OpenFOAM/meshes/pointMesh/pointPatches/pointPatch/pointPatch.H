@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_pointPatch_H
 #define Foam_pointPatch_H
 
-#include "labelList.H"
-#include "vectorField.H"
-#include "pointField.H"
-#include "PtrList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

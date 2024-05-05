@@ -93,7 +93,7 @@ SourceFiles
 #ifndef Foam_fv_fanMomentumSource_H
 #define Foam_fv_fanMomentumSource_H
 
-#include "cellSetOption.H"
+#include "cellSetOption/cellSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

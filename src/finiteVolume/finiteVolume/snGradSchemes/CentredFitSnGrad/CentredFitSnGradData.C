@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CentredFitSnGradData.H"
-#include "surfaceFields.H"
-#include "SVD.H"
-#include "extendedCentredCellToFaceStencil.H"
+#include "finiteVolume/snGradSchemes/CentredFitSnGrad/CentredFitSnGradData.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "matrices/scalarMatrices/SVD/SVD.H"
+#include "fvMesh/extendedStencil/cellToFace/extendedCentredCellToFaceStencil.H"
 
 // * * * * * * * * * * * * * * * * Constructors * * * * * * * * * * * * * * //
 

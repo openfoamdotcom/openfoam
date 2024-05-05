@@ -43,15 +43,15 @@ SourceFiles
 #ifndef Foam_fvMatrix_H
 #define Foam_fvMatrix_H
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "lduMatrix.H"
-#include "tmp.H"
-#include "autoPtr.H"
-#include "dimensionedTypes.H"
-#include "className.H"
-#include "lduPrimitiveMeshAssembly.H"
-#include "lduMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "memory/tmp/tmp.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "db/typeInfo/className.H"
+#include "lduPrimitiveMeshAssembly/lduPrimitiveMeshAssembly.H"
+#include "meshes/lduMesh/lduMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -1291,11 +1291,11 @@ tmp<fvMatrix<Type>> operator*
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMatrix.C"
+    #include "fvMatrices/fvMatrix/fvMatrix.C"
 #endif
 
 // Specialisation for scalars
-#include "fvScalarMatrix.H"
+#include "fvMatrices/fvScalarMatrix/fvScalarMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LaakkonenAlopaeusAittamaa.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseCompressibleTurbulenceModel.H"
+#include "populationBalanceModel/breakupModels/LaakkonenAlopaeusAittamaa/LaakkonenAlopaeusAittamaa.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

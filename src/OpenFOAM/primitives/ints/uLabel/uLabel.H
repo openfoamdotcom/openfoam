@@ -39,8 +39,8 @@ Description
 #ifndef Foam_primitives_uLabel_H
 #define Foam_primitives_uLabel_H
 
-#include "uint.H"
-#include "labelFwd.H"
+#include "primitives/ints/uint/uint.H"
+#include "primitives/ints/label/labelFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

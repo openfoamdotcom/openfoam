@@ -48,7 +48,7 @@ SourceFiles
 #ifndef RBD_joints_composite_H
 #define RBD_joints_composite_H
 
-#include "joint.H"
+#include "joints/joint/joint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

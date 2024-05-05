@@ -43,11 +43,11 @@ SourceFiles
 #ifndef basicMultiComponentMixture_H
 #define basicMultiComponentMixture_H
 
-#include "volFields.H"
-#include "PtrList.H"
-#include "basicMixture.H"
-#include "speciesTable.H"
-#include "typeInfo.H"
+#include "fields/volFields/volFields.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "mixtures/basicMixture/basicMixture.H"
+#include "speciesTable/speciesTable.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "basicMultiComponentMixtureI.H"
+#include "mixtures/basicMultiComponentMixture/basicMultiComponentMixtureI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

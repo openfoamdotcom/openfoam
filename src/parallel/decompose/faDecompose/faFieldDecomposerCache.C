@@ -26,11 +26,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "faFieldDecomposer.H"
-#include "fieldsDistributor.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "IOobjectList.H"
-#include "PtrListOps.H"
+#include "parallel/fieldsDistributor/fieldsDistributor.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
 
 // * * * * * * * * * * * * * * * * Declarations  * * * * * * * * * * * * * * //
 

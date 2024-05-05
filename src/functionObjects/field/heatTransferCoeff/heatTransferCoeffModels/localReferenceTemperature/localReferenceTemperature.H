@@ -71,7 +71,7 @@ SourceFiles
 #ifndef heatTransferCoeffModels_localReferenceTemperature_H
 #define heatTransferCoeffModels_localReferenceTemperature_H
 
-#include "heatTransferCoeffModel.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

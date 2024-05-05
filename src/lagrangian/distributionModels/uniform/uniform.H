@@ -100,7 +100,7 @@ SourceFiles
 #ifndef distributionModels_uniform_H
 #define distributionModels_uniform_H
 
-#include "distributionModel.H"
+#include "distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

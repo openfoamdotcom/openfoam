@@ -45,9 +45,9 @@ SourceFiles
 #ifndef IndirectSubList_H
 #define IndirectSubList_H
 
-#include "IndirectListAddressing.H"
-#include "IndirectListBase.H"
-#include "labelRange.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListAddressing.H"
+#include "containers/IndirectLists/IndirectListBase/IndirectListBase.H"
+#include "primitives/ranges/labelRange/labelRange.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

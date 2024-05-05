@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "departureFrequencyModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureFrequencyModels/departureFrequencyModel/departureFrequencyModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

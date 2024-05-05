@@ -39,7 +39,7 @@ SourceFiles
 #ifndef blockEdges_projectEdge_H
 #define blockEdges_projectEdge_H
 
-#include "blockEdge.H"
+#include "blockEdges/blockEdge/blockEdge.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

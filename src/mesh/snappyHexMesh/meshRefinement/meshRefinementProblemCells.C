@@ -26,23 +26,23 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshRefinement.H"
-#include "fvMesh.H"
-#include "syncTools.H"
-#include "TimeOpenFOAM.H"
-#include "refinementSurfaces.H"
-#include "pointSet.H"
-#include "faceSet.H"
-#include "indirectPrimitivePatch.H"
-#include "cellSet.H"
-#include "searchableSurfaces.H"
-#include "polyMeshGeometry.H"
-#include "IOmanip.H"
-#include "unitConversion.H"
-#include "snappySnapDriver.H"
+#include "meshRefinement/meshRefinement.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "motionSmoother/polyMeshGeometry/polyMeshGeometry.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "global/constants/unitConversion.H"
+#include "snappyHexMeshDriver/snappySnapDriver.H"
 
-#include "snapParameters.H"
-#include "motionSmoother.H"
+#include "snappyHexMeshDriver/snapParameters/snapParameters.H"
+#include "motionSmoother/motionSmoother.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

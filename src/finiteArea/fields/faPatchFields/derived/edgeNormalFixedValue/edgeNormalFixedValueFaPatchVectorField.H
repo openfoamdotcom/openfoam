@@ -44,8 +44,8 @@ SourceFiles
 #ifndef edgeNormalFixedValueFaPatchVectorField_H
 #define edgeNormalFixedValueFaPatchVectorField_H
 
-#include "faPatchFields.H"
-#include "fixedValueFaPatchFields.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
+#include "fields/faPatchFields/basic/fixedValue/fixedValueFaPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

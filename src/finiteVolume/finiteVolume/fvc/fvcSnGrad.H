@@ -38,8 +38,8 @@ SourceFiles
 #ifndef fvcSnGrad_H
 #define fvcSnGrad_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -87,7 +87,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcSnGrad.C"
+    #include "finiteVolume/fvc/fvcSnGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

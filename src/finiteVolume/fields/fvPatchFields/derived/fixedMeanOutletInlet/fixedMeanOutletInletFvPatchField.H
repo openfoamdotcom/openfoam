@@ -69,8 +69,8 @@ SourceFiles
 #ifndef fixedMeanOutletInletFvPatchField_H
 #define fixedMeanOutletInletFvPatchField_H
 
-#include "outletInletFvPatchFields.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/derived/outletInlet/outletInletFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fixedMeanOutletInletFvPatchField.C"
+    #include "fields/fvPatchFields/derived/fixedMeanOutletInlet/fixedMeanOutletInletFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

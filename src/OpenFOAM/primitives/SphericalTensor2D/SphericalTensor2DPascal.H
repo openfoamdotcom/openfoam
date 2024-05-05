@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_SphericalTensor2D_H
 #define Foam_SphericalTensor2D_H
 
-#include "contiguous.H"
-#include "VectorSpace.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -163,7 +163,7 @@ struct is_contiguous_scalar<SphericalTensor2D<Cmpt>>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "SphericalTensor2DI.H"
+#include "primitives/SphericalTensor2D/SphericalTensor2DI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicSymmetryFvPatchField.H"
-#include "symmTransformField.H"
+#include "fields/fvPatchFields/basic/basicSymmetry/basicSymmetryFvPatchField.H"
+#include "fields/Fields/symmTransformField/symmTransformField.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

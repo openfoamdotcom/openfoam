@@ -31,9 +31,9 @@ Description
 #ifndef faceZoneMesh_H
 #define faceZoneMesh_H
 
-#include "ZoneMesh.H"
-#include "faceZone.H"
-#include "faceZoneMeshFwd.H"
+#include "meshes/polyMesh/zones/ZoneMesh/ZoneMesh.H"
+#include "meshes/polyMesh/zones/faceZone/faceZone.H"
+#include "meshes/polyMesh/zones/ZoneMesh/faceZoneMeshFwd.H"
 
 #endif
 

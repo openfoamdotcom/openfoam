@@ -37,10 +37,10 @@ SourceFiles
 #ifndef Foam_polySurfaceFields_H
 #define Foam_polySurfaceFields_H
 
-#include "DimensionedField.H"
-#include "polySurfaceGeoMesh.H"
-#include "polySurfacePointGeoMesh.H"
-#include "polySurfaceFieldsFwd.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "polySurface/fields/polySurfaceGeoMesh.H"
+#include "polySurface/fields/polySurfacePointGeoMesh.H"
+#include "polySurface/fields/polySurfaceFieldsFwd.H"
 
 #endif
 

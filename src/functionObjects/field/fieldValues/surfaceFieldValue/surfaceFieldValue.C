@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceFieldValue.H"
-#include "fvMesh.H"
-#include "emptyPolyPatch.H"
-#include "coupledPolyPatch.H"
-#include "sampledSurface.H"
-#include "indirectPrimitivePatch.H"
-#include "PatchTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fieldValues/surfaceFieldValue/surfaceFieldValue.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

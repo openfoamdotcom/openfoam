@@ -42,9 +42,9 @@ SourceFiles
 #ifndef drippingInjection_H
 #define drippingInjection_H
 
-#include "injectionModel.H"
-#include "distributionModel.H"
-#include "Random.H"
+#include "submodels/kinematic/injectionModel/injectionModel/injectionModel.H"
+#include "distributionModel/distributionModel.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

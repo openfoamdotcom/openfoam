@@ -130,8 +130,8 @@ SourceFiles
 #ifndef atmCoriolisUSource_H
 #define atmCoriolisUSource_H
 
-#include "cellSetOption.H"
-#include "dimensionedVector.H"
+#include "cellSetOption/cellSetOption.H"
+#include "dimensionedTypes/dimensionedVector/dimensionedVector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

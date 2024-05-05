@@ -53,10 +53,10 @@ SourceFiles
 #ifndef Foam_sampledSet_H
 #define Foam_sampledSet_H
 
-#include "coordSet.H"
-#include "autoPtr.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "coordSet/coordSet.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

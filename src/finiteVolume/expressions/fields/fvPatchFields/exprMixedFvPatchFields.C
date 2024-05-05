@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprMixedFvPatchField.H"
-#include "fieldTypes.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/fields/fvPatchFields/exprMixedFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CollisionModel.H"
+#include "submodels/Kinematic/CollisionModel/CollisionModel/CollisionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -67,6 +67,6 @@ Foam::CollisionModel<CloudType>::~CollisionModel()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CollisionModelNew.C"
+#include "submodels/Kinematic/CollisionModel/CollisionModel/CollisionModelNew.C"
 
 // ************************************************************************* //

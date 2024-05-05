@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "setFlow.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvcFlux.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcSurfaceIntegrate.H"
+#include "setFlow/setFlow.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "backwardFaDdtScheme.H"
-#include "faMesh.H"
+#include "finiteArea/ddtSchemes/backwardFaDdtScheme/backwardFaDdtScheme.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

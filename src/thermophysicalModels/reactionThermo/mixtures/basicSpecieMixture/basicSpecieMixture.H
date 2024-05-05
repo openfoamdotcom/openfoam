@@ -42,8 +42,8 @@ SourceFiles
 #ifndef basicSpecieMixture_H
 #define basicSpecieMixture_H
 
-#include "basicMultiComponentMixture.H"
-#include "specieElement.H"
+#include "mixtures/basicMultiComponentMixture/basicMultiComponentMixture.H"
+#include "specieElement/specieElement.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

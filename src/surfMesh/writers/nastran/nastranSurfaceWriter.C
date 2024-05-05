@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nastranSurfaceWriter.H"
-#include "Pair.H"
-#include "IOmanip.H"
-#include "ListOps.H"
-#include "OSspecific.H"
-#include "surfaceWriterMethods.H"
-#include "addToRunTimeSelectionTable.H"
+#include "writers/nastran/nastranSurfaceWriter.H"
+#include "primitives/tuples/Pair.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "include/OSspecific.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -49,7 +49,7 @@ namespace surfaceWriters
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Field writing implementation
-#include "nastranSurfaceWriterImpl.C"
+#include "writers/nastran/nastranSurfaceWriterImpl.C"
 
 // Field writing methods
 defineSurfaceWriterWriteFields(Foam::surfaceWriters::nastranWriter);

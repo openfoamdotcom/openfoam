@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kinematicThinFilm.H"
-#include "addToRunTimeSelectionTable.H"
-#include "uniformDimensionedFields.H"
-#include "volFields.H"
+#include "liquidFilm/kinematicThinFilm/kinematicThinFilm.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

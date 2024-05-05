@@ -27,9 +27,9 @@ Description
     Hashing functions, mostly from Bob Jenkins
 \*---------------------------------------------------------------------------*/
 
-#include "Hasher.H"
-#include "HasherInt.H"
-#include "foamEndianFwd.H"  // For big/little endian defines
+#include "primitives/hashes/Hash/Hasher.H"
+#include "primitives/hashes/Hash/HasherInt.H"
+#include "primitives/endian/foamEndianFwd.H"  // For big/little endian defines
 
 // Left-rotate a 32-bit value and carry by nBits
 #define bitRotateLeft(x, nBits)  (((x) << (nBits)) | ((x) >> (32 - (nBits))))

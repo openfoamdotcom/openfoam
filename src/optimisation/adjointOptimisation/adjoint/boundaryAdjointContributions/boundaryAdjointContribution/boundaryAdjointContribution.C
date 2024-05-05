@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundaryAdjointContribution.H"
-#include "fvPatchFieldsFwd.H"
+#include "boundaryAdjointContributions/boundaryAdjointContribution/boundaryAdjointContribution.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

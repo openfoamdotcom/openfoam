@@ -34,7 +34,7 @@ Description
 #ifndef GeoMesh_H
 #define GeoMesh_H
 
-#include "objectRegistry.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

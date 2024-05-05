@@ -41,10 +41,10 @@ SourceFiles
 #ifndef foam_gltf_accessor_H
 #define foam_gltf_accessor_H
 
-#include "foamGltfBase.H"
-#include "Field.H"
-#include "label.H"
-#include "word.H"
+#include "gltf/foamGltfBase.H"
+#include "fields/Fields/Field/Field.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/strings/word/word.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -157,7 +157,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamGltfAccessorTemplates.C"
+    #include "gltf/foamGltfAccessorTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

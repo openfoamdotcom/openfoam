@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeIntersections.H"
-#include "triSurfaceSearch.H"
-#include "OFstream.H"
-#include "triSurface.H"
-#include "pointIndexHit.H"
-#include "treeDataTriSurface.H"
-#include "indexedOctree.H"
-#include "meshTools.H"
-#include "plane.H"
-#include "Random.H"
-#include "unitConversion.H"
-#include "treeBoundBox.H"
+#include "triSurface/booleanOps/surfaceIntersection/edgeIntersections.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "triSurface/triSurface.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "indexedOctree/treeDataTriSurface.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshTools/meshTools.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "primitives/random/Random/Random.H"
+#include "global/constants/unitConversion.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

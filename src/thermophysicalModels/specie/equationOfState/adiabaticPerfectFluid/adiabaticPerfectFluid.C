@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adiabaticPerfectFluid.H"
-#include "IOstreams.H"
+#include "equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

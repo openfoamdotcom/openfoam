@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "omegaWallFunctionFvPatchScalarField.H"
-#include "nutWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallFunctions/omegaWallFunctions/omegaWallFunction/omegaWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
 #include "turbulenceModel.H"
-#include "fvMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

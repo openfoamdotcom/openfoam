@@ -71,8 +71,8 @@ SourceFiles
 #ifndef Foam_MeshObject_H
 #define Foam_MeshObject_H
 
-#include "regIOobject.H"
-#include "objectRegistry.H"
+#include "db/regIOobject/regIOobject.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -286,7 +286,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MeshObjectDeCased.C"
+    #include "meshes/MeshObject/MeshObjectDeCased.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

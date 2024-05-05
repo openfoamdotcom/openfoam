@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_pyramid_H
 #define Foam_pyramid_H
 
-#include "point.H"
-#include "face.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -149,7 +149,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pyramidI.H"
+#include "meshes/primitiveShapes/pyramid/pyramidI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

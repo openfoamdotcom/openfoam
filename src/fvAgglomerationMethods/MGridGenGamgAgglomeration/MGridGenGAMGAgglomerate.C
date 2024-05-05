@@ -29,8 +29,8 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "MGridGenGAMGAgglomeration.H"
-#include "fvMesh.H"
-#include "syncTools.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

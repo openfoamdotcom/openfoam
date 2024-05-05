@@ -43,7 +43,7 @@ SourceFiles
 #ifndef eddyDissipationDiffusionModel_H
 #define eddyDissipationDiffusionModel_H
 
-#include "eddyDissipationModelBase.H"
+#include "eddyDissipationModelBase/eddyDissipationModelBase.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

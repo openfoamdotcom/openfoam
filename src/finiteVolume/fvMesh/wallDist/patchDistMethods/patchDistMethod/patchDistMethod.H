@@ -38,13 +38,13 @@ SourceFiles
 #ifndef patchDistMethod_H
 #define patchDistMethod_H
 
-#include "dictionary.H"
-#include "HashSet.H"
-#include "volFieldsFwd.H"
-#include "mapPolyMesh.H"
-#include "fixedValueFvPatchFields.H"
-#include "zeroGradientFvPatchFields.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -171,7 +171,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "patchDistMethodTemplates.C"
+    #include "fvMesh/wallDist/patchDistMethods/patchDistMethod/patchDistMethodTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

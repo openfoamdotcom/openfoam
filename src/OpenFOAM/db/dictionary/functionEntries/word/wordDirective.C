@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wordDirective.H"
-#include "dictionary.H"
-#include "stringOps.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/word/wordDirective.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

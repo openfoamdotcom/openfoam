@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "integratedNonUniformTableThermophysicalFunction.H"
-#include "specie.H"
-#include "addToRunTimeSelectionTable.H"
+#include "thermophysicalFunctions/integratedNonUniformTable/integratedNonUniformTableThermophysicalFunction.H"
+#include "specie/specie.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

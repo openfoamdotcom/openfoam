@@ -38,8 +38,8 @@ SourceFiles
 #ifndef regionModels_surfaceFilmModels_heatTransferModel_H
 #define regionModels_surfaceFilmModels_heatTransferModel_H
 
-#include "filmSubModelBase.H"
-#include "runTimeSelectionTables.H"
+#include "submodels/filmSubModelBase.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

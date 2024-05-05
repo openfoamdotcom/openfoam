@@ -42,7 +42,7 @@ SourceFiles
 #ifndef PCG_H
 #define PCG_H
 
-#include "lduMatrix.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

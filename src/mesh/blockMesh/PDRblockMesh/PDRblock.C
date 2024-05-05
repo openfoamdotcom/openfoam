@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRblock.H"
-#include "ListOps.H"
-#include "emptyPolyPatch.H"
-#include "gradingDescriptors.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "gradingDescriptor/gradingDescriptors.H"
 
 // Output when verbosity is enabled
 #undef  Log

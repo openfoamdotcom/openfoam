@@ -38,7 +38,7 @@ SourceFiles
 #ifndef EulerD2dt2Scheme_H
 #define EulerD2dt2Scheme_H
 
-#include "d2dt2Scheme.H"
+#include "finiteVolume/d2dt2Schemes/d2dt2Scheme/d2dt2Scheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EulerD2dt2Scheme.C"
+    #include "finiteVolume/d2dt2Schemes/EulerD2dt2Scheme/EulerD2dt2Scheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

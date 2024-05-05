@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faBoundaryMeshEntries.H"
-#include "processorFaPatch.H"
+#include "faMesh/faBoundaryMesh/faBoundaryMeshEntries.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

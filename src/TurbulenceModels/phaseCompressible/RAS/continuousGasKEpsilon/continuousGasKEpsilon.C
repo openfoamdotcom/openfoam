@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "continuousGasKEpsilon.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/phaseCompressible/RAS/continuousGasKEpsilon/continuousGasKEpsilon.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 #include "twoPhaseSystem.H"
-#include "virtualMassModel.H"
-#include "dragModel.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OFFsurfaceFormat.H"
-#include "clock.H"
-#include "Fstream.H"
-#include "StringStream.H"
-#include "faceTraits.H"
+#include "surfaceFormats/off/OFFsurfaceFormat.H"
+#include "global/clock/clock.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "meshes/meshShapes/traits/faceTraits.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobject.H"
-#include "dictionary.H"
-#include "foamVersion.H"
-#include "fileOperation.H"
-#include "Pstream.H"
+#include "db/IOobject/IOobject.H"
+#include "db/dictionary/dictionary.H"
+#include "include/foamVersion.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

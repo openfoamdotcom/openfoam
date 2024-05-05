@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "offsetSurface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "barycentric2D.H"
+#include "offsetSurface/offsetSurface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "primitives/Barycentric2D/barycentric2D/barycentric2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

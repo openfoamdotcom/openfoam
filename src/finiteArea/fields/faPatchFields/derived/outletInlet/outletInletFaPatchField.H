@@ -73,7 +73,7 @@ SourceFiles
 #ifndef Foam_outletInletFaPatchField_H
 #define Foam_outletInletFaPatchField_H
 
-#include "mixedFaPatchField.H"
+#include "fields/faPatchFields/basic/mixed/mixedFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -181,7 +181,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "outletInletFaPatchField.C"
+    #include "fields/faPatchFields/derived/outletInlet/outletInletFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

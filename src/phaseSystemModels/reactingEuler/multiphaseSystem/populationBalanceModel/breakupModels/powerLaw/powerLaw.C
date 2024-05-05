@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "powerLaw.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cfdTools/general/porosityModel/powerLaw/powerLaw.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

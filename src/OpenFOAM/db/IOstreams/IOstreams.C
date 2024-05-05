@@ -29,9 +29,9 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreamOption.H"
-#include "IOstreams.H"
-#include "OFstream.H"
+#include "db/options/IOstreamOption.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

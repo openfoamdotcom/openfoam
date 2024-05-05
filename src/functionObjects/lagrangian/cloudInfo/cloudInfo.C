@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudInfo.H"
-#include "cloud.H"
-#include "kinematicCloud.H"
-#include "dictionary.H"
-#include "mathematicalConstants.H"
-#include "PstreamReduceOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cloudInfo/cloudInfo.H"
+#include "fields/cloud/cloud.H"
+#include "clouds/baseClasses/kinematicCloud/kinematicCloud.H"
+#include "db/dictionary/dictionary.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_profilingPstream_H
 #define Foam_profilingPstream_H
 
-#include "cpuTime.H"
-#include "FixedList.H"
+#include "cpuTime/cpuTime.H"
+#include "containers/Lists/FixedList/FixedList.H"
 #include <memory>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

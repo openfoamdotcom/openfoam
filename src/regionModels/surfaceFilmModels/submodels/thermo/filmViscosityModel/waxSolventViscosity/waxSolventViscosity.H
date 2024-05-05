@@ -37,7 +37,7 @@ SourceFiles
 #ifndef waxSolventViscosity_H
 #define waxSolventViscosity_H
 
-#include "filmViscosityModel.H"
+#include "submodels/thermo/filmViscosityModel/filmViscosityModel/filmViscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

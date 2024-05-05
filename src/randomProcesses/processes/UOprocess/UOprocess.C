@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 
-#include "UOprocess.H"
-#include "Kmesh.H"
-#include "dictionary.H"
+#include "processes/UOprocess/UOprocess.H"
+#include "Kmesh/Kmesh.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

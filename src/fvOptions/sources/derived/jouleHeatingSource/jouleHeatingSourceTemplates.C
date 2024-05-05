@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyFvPatchField.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchField.H"
 
 template<class Type>
 void Foam::fv::jouleHeatingSource::initialiseSigma

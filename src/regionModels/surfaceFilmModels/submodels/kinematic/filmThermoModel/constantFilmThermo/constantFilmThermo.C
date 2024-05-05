@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantFilmThermo.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/kinematic/filmThermoModel/constantFilmThermo/constantFilmThermo.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

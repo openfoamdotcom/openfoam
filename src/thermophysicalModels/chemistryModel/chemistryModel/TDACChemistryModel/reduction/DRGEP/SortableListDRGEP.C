@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 #include <algorithm>
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

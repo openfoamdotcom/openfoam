@@ -38,9 +38,9 @@ SourceFiles
 #ifndef shapeDesignVariables_H
 #define shapeDesignVariables_H
 
-#include "designVariables.H"
-#include "displacementMethod.H"
-#include "runTimeSelectionTables.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
+#include "displacementMethod/displacementMethod/displacementMethod.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

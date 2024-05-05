@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "X3DsurfaceFormatCore.H"
-#include "Ostream.H"
+#include "surfaceFormats/x3d/X3DsurfaceFormatCore.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

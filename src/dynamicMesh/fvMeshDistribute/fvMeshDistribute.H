@@ -52,8 +52,8 @@ SourceFiles
 #ifndef Foam_fvMeshDistribute_H
 #define Foam_fvMeshDistribute_H
 
-#include "Field.H"
-#include "fvMeshSubset.H"
+#include "fields/Fields/Field/Field.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -419,7 +419,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshDistributeTemplates.C"
+    #include "fvMeshDistribute/fvMeshDistributeTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

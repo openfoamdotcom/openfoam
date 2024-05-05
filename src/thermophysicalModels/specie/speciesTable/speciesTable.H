@@ -34,8 +34,8 @@ Description
 #ifndef speciesTable_H
 #define speciesTable_H
 
-#include "wordList.H"
-#include "hashedWordList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/strings/lists/hashedWordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

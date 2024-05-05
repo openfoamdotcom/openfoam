@@ -45,7 +45,7 @@ SourceFiles
 #ifndef betaMaxReynoldsDarcy_H
 #define betaMaxReynoldsDarcy_H
 
-#include "betaMax.H"
+#include "optimisation/designVariables/topODesignVariables/betaMax/betaMax/betaMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

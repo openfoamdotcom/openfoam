@@ -29,7 +29,7 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "token.H"
+#include "db/IOstreams/token/token.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

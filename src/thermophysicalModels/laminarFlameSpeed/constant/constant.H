@@ -37,7 +37,7 @@ SourceFiles
 #ifndef constant_H
 #define constant_H
 
-#include "laminarFlameSpeed.H"
+#include "laminarFlameSpeed/laminarFlameSpeed.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

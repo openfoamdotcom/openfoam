@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "specifiedRotation.H"
-#include "dictionary.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/coordinate/rotation/specifiedRotation.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

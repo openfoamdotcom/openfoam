@@ -49,8 +49,8 @@ SourceFiles
 #ifndef functionEntry_H
 #define functionEntry_H
 
-#include "primitiveEntry.H"
-#include "memberFunctionSelectionTables.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "functionEntryTemplates.C"
+    #include "db/dictionary/functionEntries/functionEntry/functionEntryTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

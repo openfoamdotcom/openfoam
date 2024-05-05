@@ -34,8 +34,8 @@ Description
 #ifndef Foam_stringOpsEvaluate_H
 #define Foam_stringOpsEvaluate_H
 
-#include "labelFwd.H"
-#include "stringOpenFOAM.H"
+#include "primitives/ints/label/labelFwd.H"
+#include "primitives/strings/string/stringOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

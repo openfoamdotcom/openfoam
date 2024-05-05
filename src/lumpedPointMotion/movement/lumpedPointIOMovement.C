@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lumpedPointIOMovement.H"
-#include "TimeOpenFOAM.H"
+#include "movement/lumpedPointIOMovement.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

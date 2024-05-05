@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "massTransferModel.H"
-#include "reactingEuler_phasePair.H"
-#include "BlendedInterfacialModel.H"
+#include "interfacialCompositionModels/massTransferModels/massTransferModel/massTransferModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

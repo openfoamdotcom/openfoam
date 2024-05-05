@@ -48,9 +48,9 @@ SourceFiles
 #ifndef Foam_PatchTools_H
 #define Foam_PatchTools_H
 
-#include "autoPtr.H"
-#include "globalIndex.H"
-#include "primitivePatch.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -323,7 +323,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchTools.C"
+    #include "meshes/primitiveMesh/PatchTools/PatchTools.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

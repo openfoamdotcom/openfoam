@@ -106,12 +106,12 @@ SourceFiles
 #ifndef functionObjects_ddt2_H
 #define functionObjects_ddt2_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
-#include "OFstream.H"
-#include "regExp.H"
-#include "HashSet.H"
-#include "wordRes.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "regExp/regExp.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -209,7 +209,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ddt2Templates.C"
+    #include "ddt2/ddt2Templates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

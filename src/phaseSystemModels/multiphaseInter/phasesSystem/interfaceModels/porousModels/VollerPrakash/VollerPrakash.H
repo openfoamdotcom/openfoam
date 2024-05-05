@@ -66,7 +66,7 @@ SourceFiles
 #ifndef porousModels_VollerPrakash_H
 #define porousModels_VollerPrakash_H
 
-#include "porousModel.H"
+#include "interfaceModels/porousModels/porousModel/porousModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ License
 #ifndef surfaceSlipDisplacementFvPatchFields_H
 #define surfaceSlipDisplacementFvPatchFields_H
 
-#include "surfaceSlipDisplacementFvPatchField.H"
-#include "fieldTypes.H"
+#include "fvPatchFields/derived/surfaceSlipDisplacement/surfaceSlipDisplacementFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

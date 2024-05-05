@@ -70,8 +70,8 @@ SourceFiles
 #ifndef tensor2D_H
 #define tensor2D_H
 
-#include "Tensor2DPascal.H"
-#include "complex.H"
+#include "primitives/Tensor2D/Tensor2DPascal.H"
+#include "primitives/complex/complex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -133,7 +133,7 @@ Tensor2D<complex> eigenVectors(const tensor2D& T);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sphericalTensor2D.H"
+#include "primitives/SphericalTensor2D/sphericalTensor2D/sphericalTensor2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

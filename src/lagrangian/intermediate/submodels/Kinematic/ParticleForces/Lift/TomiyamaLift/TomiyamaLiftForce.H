@@ -40,7 +40,7 @@ SourceFiles
 #ifndef TomiyamaLiftForce_H
 #define TomiyamaLiftForce_H
 
-#include "LiftForce.H"
+#include "submodels/Kinematic/ParticleForces/Lift/LiftForce/LiftForce.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "TomiyamaLiftForce.C"
+    #include "submodels/Kinematic/ParticleForces/Lift/TomiyamaLift/TomiyamaLiftForce.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

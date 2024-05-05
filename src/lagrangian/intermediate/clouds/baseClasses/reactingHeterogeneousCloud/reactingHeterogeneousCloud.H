@@ -37,7 +37,7 @@ SourceFiles
 #ifndef reactingHeterogeneousCloud_H
 #define reactingHeterogeneousCloud_H
 
-#include "typeInfo.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "randomCoalescence.H"
-#include "addToRunTimeSelectionTable.H"
+#include "diameterModels/IATE/IATEsources/randomCoalescence/randomCoalescence.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

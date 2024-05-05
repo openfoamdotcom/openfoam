@@ -85,7 +85,7 @@ SourceFiles
 #ifndef functionObjects_writeCellCentres_H
 #define functionObjects_writeCellCentres_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

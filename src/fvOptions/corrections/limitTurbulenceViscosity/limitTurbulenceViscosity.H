@@ -81,8 +81,8 @@ SourceFiles
 #ifndef fv_limitTurbulenceViscosity_H
 #define fv_limitTurbulenceViscosity_H
 
-#include "cellSetOption.H"
-#include "writeFile.H"
+#include "cellSetOption/cellSetOption.H"
+#include "db/functionObjects/writeFile/writeFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

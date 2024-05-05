@@ -38,8 +38,8 @@ SourceFiles
 #ifndef regionFaModels_filmSubModelBase_H
 #define regionFaModels_filmSubModelBase_H
 
-#include "liquidFilmBase.H"
-#include "subModelBase.H"
+#include "liquidFilm/liquidFilmBase.H"
+#include "primitives/subModelBase/subModelBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,12 +124,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "filmSubModelBaseI.H"
+#include "submodels/filmSubModelBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "filmSubModelBaseTemplates.C"
+    #include "submodels/filmSubModelBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

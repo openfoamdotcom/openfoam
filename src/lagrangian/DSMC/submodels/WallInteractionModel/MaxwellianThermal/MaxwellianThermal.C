@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MaxwellianThermal.H"
-#include "constants.H"
+#include "submodels/WallInteractionModel/MaxwellianThermal/MaxwellianThermal.H"
+#include "global/constants/constants.H"
 
 using namespace Foam::constant;
 

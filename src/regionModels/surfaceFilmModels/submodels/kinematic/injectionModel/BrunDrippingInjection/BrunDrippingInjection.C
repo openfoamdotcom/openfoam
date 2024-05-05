@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BrunDrippingInjection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "kinematicSingleLayer.H"
+#include "submodels/kinematic/injectionModel/BrunDrippingInjection/BrunDrippingInjection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "kinematicSingleLayer/kinematicSingleLayer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

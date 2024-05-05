@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Gosman.H"
-#include "reactingEuler_phasePair.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "dragModel.H"
+#include "interfacialModels/turbulentDispersionModels/Gosman/Gosman.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

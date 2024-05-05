@@ -27,14 +27,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simple.H"
-#include "findRefCell.H"
-#include "constrainHbyA.H"
-#include "constrainPressure.H"
-#include "adjustPhi.H"
-#include "TimeOpenFOAM.H"
-#include "fvOptions.H"
-#include "addToRunTimeSelectionTable.H"
+#include "solvers/primalSolvers/incompressible/simple/simple.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
+#include "cfdTools/general/constrainHbyA/constrainHbyA.H"
+#include "cfdTools/general/constrainPressure/constrainPressure.H"
+#include "cfdTools/general/adjustPhi/adjustPhi.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

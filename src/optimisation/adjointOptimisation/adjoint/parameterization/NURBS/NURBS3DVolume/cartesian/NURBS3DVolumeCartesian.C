@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NURBS3DVolumeCartesian.H"
-#include "addToRunTimeSelectionTable.H"
+#include "parameterization/NURBS/NURBS3DVolume/cartesian/NURBS3DVolumeCartesian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

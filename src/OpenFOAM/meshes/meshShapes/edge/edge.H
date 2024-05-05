@@ -48,9 +48,9 @@ SourceFiles
 #ifndef Foam_edge_H
 #define Foam_edge_H
 
-#include "labelPair.H"
-#include "line.H"
-#include "pointField.H"
+#include "primitives/tuples/labelPair.H"
+#include "meshes/primitiveShapes/line/line.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -381,7 +381,7 @@ inline bool operator!=(const edge& a, const edge& b);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "edgeI.H"
+#include "meshes/meshShapes/edge/edgeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

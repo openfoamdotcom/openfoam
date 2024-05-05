@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pressureControl.H"
-#include "findRefCell.H"
+#include "cfdTools/general/pressureControl/pressureControl.H"
+#include "cfdTools/general/findRefCell/findRefCell.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

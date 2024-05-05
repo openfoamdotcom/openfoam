@@ -28,7 +28,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReadHex.H"
+#include "db/IOstreams/Sstreams/ReadHex.H"
 #include <cctype>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

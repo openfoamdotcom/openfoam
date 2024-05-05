@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedFunctionObject.H"
-#include "volFields.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "dictionaryContent.H"
-#include "addToRunTimeSelectionTable.H"
+#include "codedFunctionObject/codedFunctionObject.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "db/dictionary/dictionaryContent/dictionaryContent.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

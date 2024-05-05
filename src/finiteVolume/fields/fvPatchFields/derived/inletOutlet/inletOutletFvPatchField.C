@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inletOutletFvPatchField.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CoulaloglouTavlaridesCoalescence.H"
-#include "addToRunTimeSelectionTable.H"
-#include "phaseCompressibleTurbulenceModel.H"
+#include "populationBalanceModel/coalescenceModels/CoulaloglouTavlaridesCoalescence/CoulaloglouTavlaridesCoalescence.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

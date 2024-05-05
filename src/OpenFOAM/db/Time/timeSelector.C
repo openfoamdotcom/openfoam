@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timeSelector.H"
-#include "ListOps.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

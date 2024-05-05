@@ -101,9 +101,9 @@ SourceFiles
 #ifndef functionObjects_blendingFactor_H
 #define functionObjects_blendingFactor_H
 
-#include "fieldExpression.H"
-#include "writeFile.H"
-#include "convectionScheme.H"
+#include "fieldExpression/fieldExpression.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "finiteVolume/convectionSchemes/convectionScheme/convectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -201,7 +201,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "blendingFactorTemplates.C"
+    #include "blendingFactor/blendingFactorTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

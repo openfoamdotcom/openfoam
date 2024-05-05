@@ -37,7 +37,7 @@ SourceFiles
 #ifndef twoPhaseSystem_H
 #define twoPhaseSystem_H
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

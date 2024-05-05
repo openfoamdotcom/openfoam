@@ -52,9 +52,9 @@ SourceFiles
 #ifndef holeToFace_H
 #define holeToFace_H
 
-#include "topoSetFaceSource.H"
-#include "bitSet.H"
-#include "mapDistribute.H"
+#include "topoSet/faceSources/topoSetFaceSource/topoSetFaceSource.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

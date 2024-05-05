@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldCoordinateSystemTransform.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "transformGeometricField.H"
+#include "fieldCoordinateSystemTransform/fieldCoordinateSystemTransform.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/transformGeometricField/transformGeometricField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

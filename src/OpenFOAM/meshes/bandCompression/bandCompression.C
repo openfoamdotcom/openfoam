@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "bandCompression.H"
-#include "bitSet.H"
-#include "CircularBuffer.H"
-#include "CompactListList.H"
-#include "DynamicList.H"
-#include "IOstreams.H"
+#include "meshes/bandCompression/bandCompression.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/Buffers/CircularBuffer.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

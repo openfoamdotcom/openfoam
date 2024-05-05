@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprScanToken.H"
-#include "patchExprScanner.H"
-#include "patchExprDriver.H"
-#include "patchExprLemonParser.h"
-#include "patchExprParser.H"
-#include "Enum.H"
+#include "expressions/scanToken/exprScanToken.H"
+#include "expressions/patch/patchExprScanner.H"
+#include "expressions/patch/patchExprDriver.H"
+#include "expressions/patch/patchExprLemonParser.h"
+#include "expressions/patch/patchExprParser.H"
+#include "primitives/enums/Enum.H"
 
 #pragma GCC diagnostic ignored "-Wimplicit-fallthrough"
 #pragma GCC diagnostic ignored "-Wunused-const-variable"

@@ -78,8 +78,8 @@ SourceFiles
 #ifndef Foam_functionObjects_volRegion_H
 #define Foam_functionObjects_volRegion_H
 
-#include "writeFile.H"
-#include "Enum.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -219,7 +219,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "volRegionI.H"
+#include "functionObjects/volRegion/volRegionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

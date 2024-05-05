@@ -42,8 +42,8 @@ SourceFiles
 #ifndef RectangularMatrix_H
 #define RectangularMatrix_H
 
-#include "Matrix.H"
-#include "SquareMatrix.H"
+#include "matrices/Matrix/Matrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -152,7 +152,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "RectangularMatrixI.H"
+#include "matrices/RectangularMatrix/RectangularMatrixI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

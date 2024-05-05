@@ -55,10 +55,10 @@ SourceFiles
 #ifndef multiDirRefinement_H
 #define multiDirRefinement_H
 
-#include "refinementIterator.H"
-#include "vectorField.H"
-#include "Map.H"
-#include "className.H"
+#include "meshCut/meshModifiers/refinementIterator/refinementIterator.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -30,14 +30,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 #include "MSwindows.H"
-#include "fileName.H"
-#include "fileStat.H"
-#include "DynamicList.H"
-#include "CStringList.H"
-#include "IOstreams.H"
-#include "Pstream.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "fileStat/fileStat.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/strings/lists/CStringList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 #undef DebugInfo    // Windows name clash with OpenFOAM messageStream
 
 #include <cassert>

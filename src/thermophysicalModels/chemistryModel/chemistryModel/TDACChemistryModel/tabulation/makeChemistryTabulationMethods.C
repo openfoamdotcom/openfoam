@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "makeChemistryTabulationMethods.H"
+#include "chemistryModel/TDACChemistryModel/tabulation/makeChemistryTabulationMethods.H"
 
-#include "thermoPhysicsTypes.H"
+#include "include/thermoPhysicsTypes.H"
 
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

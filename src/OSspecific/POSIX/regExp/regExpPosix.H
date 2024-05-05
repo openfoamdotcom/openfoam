@@ -67,7 +67,7 @@ SourceFiles
 #ifndef Foam_regExpPosix_H
 #define Foam_regExpPosix_H
 
-#include "regExpCxx.H"
+#include "primitives/strings/regex/regExpCxx.H"
 #include <regex.h>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -263,7 +263,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "regExpPosixI.H"
+#include "regExp/regExpPosixI.H"
 
 #endif
 

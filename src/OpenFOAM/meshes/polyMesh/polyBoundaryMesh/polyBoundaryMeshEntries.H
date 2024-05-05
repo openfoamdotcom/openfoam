@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_polyBoundaryMeshEntries_H
 #define Foam_polyBoundaryMeshEntries_H
 
-#include "regIOobject.H"
-#include "PtrList.H"
-#include "entry.H"
-#include "wordList.H"
+#include "db/regIOobject/regIOobject.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "db/dictionary/entry/entry.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

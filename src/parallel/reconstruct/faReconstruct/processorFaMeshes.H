@@ -40,11 +40,11 @@ SourceFiles
 #ifndef Foam_processorFaMeshes_H
 #define Foam_processorFaMeshes_H
 
-#include "PtrList.H"
-#include "faMesh.H"
-#include "fvMesh.H"
-#include "IOobjectList.H"
-#include "labelIOList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "faMesh/faMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "primitives/ints/lists/labelIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

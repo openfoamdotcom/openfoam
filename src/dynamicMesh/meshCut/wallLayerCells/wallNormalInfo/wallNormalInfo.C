@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallNormalInfo.H"
+#include "meshCut/wallLayerCells/wallNormalInfo/wallNormalInfo.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

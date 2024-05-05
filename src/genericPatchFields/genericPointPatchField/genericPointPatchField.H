@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_genericPointPatchField_H
 #define Foam_genericPointPatchField_H
 
-#include "calculatedPointPatchField.H"
-#include "genericPatchFieldBase.H"
+#include "fields/pointPatchFields/basic/calculated/calculatedPointPatchField.H"
+#include "common/genericPatchFieldBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -159,7 +159,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "genericPointPatchField.C"
+    #include "genericPointPatchField/genericPointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

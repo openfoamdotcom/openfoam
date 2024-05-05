@@ -80,8 +80,8 @@ SourceFiles
 #ifndef cellMatcher_H
 #define cellMatcher_H
 
-#include "cellModel.H"
-#include "Map.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -275,7 +275,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellMatcherI.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcherI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

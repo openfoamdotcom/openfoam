@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldMinMax.H"
-#include "fieldTypes.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fieldMinMax/fieldMinMax.H"
+#include "fields/Fields/fieldTypes.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

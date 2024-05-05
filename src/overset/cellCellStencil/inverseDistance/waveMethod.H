@@ -37,7 +37,7 @@ SourceFiles
 #ifndef waveMethod_H
 #define waveMethod_H
 
-#include "meshToMeshMethod.H"
+#include "meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NURBS3DSurface.H"
-#include "vtkSurfaceWriter.H"
-#include "OFstream.H"
+#include "parameterization/NURBS/NURBS3DSurface/NURBS3DSurface.H"
+#include "writers/vtk/vtkSurfaceWriter.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

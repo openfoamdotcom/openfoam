@@ -40,7 +40,7 @@ SourceFiles
 #ifndef setUpdater_H
 #define setUpdater_H
 
-#include "polyMeshModifier.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -119,7 +119,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #ifdef NoRepository
-    #include "setUpdaterTemplates.C"
+    #include "setUpdater/setUpdaterTemplates.C"
 #endif
 
 

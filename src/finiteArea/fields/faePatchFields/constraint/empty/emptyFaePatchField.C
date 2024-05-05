@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "emptyFaePatchField.H"
-#include "faPatchFieldMapper.H"
+#include "fields/faePatchFields/constraint/empty/emptyFaePatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

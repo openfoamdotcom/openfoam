@@ -9,7 +9,7 @@ Description
 #ifndef FoamCompat_UIndirectList_H
 #define FoamCompat_UIndirectList_H
 
-#include "IndirectList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 #endif
 

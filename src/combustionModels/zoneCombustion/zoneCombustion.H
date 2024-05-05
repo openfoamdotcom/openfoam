@@ -40,7 +40,7 @@ SourceFiles
 #ifndef zoneCombustion_H
 #define zoneCombustion_H
 
-#include "CombustionModelPascal.H"
+#include "CombustionModelCaseDir/CombustionModel/CombustionModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -134,7 +134,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "zoneCombustion.C"
+    #include "zoneCombustion/zoneCombustion.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

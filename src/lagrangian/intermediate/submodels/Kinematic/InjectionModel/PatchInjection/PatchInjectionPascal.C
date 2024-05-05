@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchInjectionPascal.H"
-#include "distributionModel.H"
+#include "submodels/Kinematic/InjectionModel/PatchInjection/PatchInjectionPascal.H"
+#include "distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

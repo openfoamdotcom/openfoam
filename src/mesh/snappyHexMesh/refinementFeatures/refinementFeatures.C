@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "refinementFeatures.H"
-#include "TimeOpenFOAM.H"
-#include "Tuple2.H"
-#include "DynamicField.H"
-#include "featureEdgeMesh.H"
-#include "meshRefinement.H"
+#include "refinementFeatures/refinementFeatures.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/tuples/Tuple2.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "edgeMesh/featureEdgeMesh/featureEdgeMesh.H"
+#include "meshRefinement/meshRefinement.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

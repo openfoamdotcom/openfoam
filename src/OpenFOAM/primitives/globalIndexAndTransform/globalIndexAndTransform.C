@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndexAndTransform.H"
-#include "cyclicPolyPatch.H"
-#include "DynamicField.H"
-#include "globalMeshData.H"
+#include "primitives/globalIndexAndTransform/globalIndexAndTransform.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * Private Static Data Members * * * * * * * * * * * //
 

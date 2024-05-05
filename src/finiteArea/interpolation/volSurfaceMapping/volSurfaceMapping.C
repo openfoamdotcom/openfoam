@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volSurfaceMapping.H"
+#include "interpolation/volSurfaceMapping/volSurfaceMapping.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

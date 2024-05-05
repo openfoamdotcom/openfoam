@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PecletNo.H"
+#include "PecletNo/PecletNo.H"
 #include "turbulenceModel.H"
-#include "surfaceInterpolate.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

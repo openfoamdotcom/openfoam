@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Kutadeladze.H"
-#include "addToRunTimeSelectionTable.H"
-#include "uniformDimensionedFields.H"
-#include "phasePairKey.H"
-#include "phaseSystem.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/nucleateFluxModels/Kutadeladze/Kutadeladze.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "phasePair/phasePairKey.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

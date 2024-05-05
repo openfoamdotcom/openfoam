@@ -26,20 +26,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "slicedVolFields.H"
-#include "slicedSurfaceFields.H"
-#include "SubField.H"
-#include "demandDrivenData.H"
-#include "fvMeshLduAddressing.H"
-#include "mapPolyMesh.H"
-#include "MapFvFields.H"
-#include "fvMeshMapper.H"
-#include "mapClouds.H"
-#include "MeshObject.H"
-#include "fvMatrix.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/volFields/slicedVolFields.H"
+#include "fields/surfaceFields/slicedSurfaceFields.H"
+#include "fields/Fields/Field/SubField.H"
+#include "include/demandDrivenData.H"
+#include "fvMesh/fvMeshLduAddressing.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "interpolation/mapping/fvFieldMappers/MapFvFields.H"
+#include "fvMesh/fvMeshMapper/fvMeshMapper.H"
+#include "fields/cloud/mapClouds.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigma.H"
-#include "DESModel.H"
-#include "fvOptions.H"
+#include "LES/sigma/sigma.H"
+#include "DES/DESModel/DESModel.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

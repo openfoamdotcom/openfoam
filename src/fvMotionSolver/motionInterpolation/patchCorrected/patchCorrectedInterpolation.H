@@ -63,7 +63,7 @@ SourceFiles
 #ifndef patchCorrectedInterpolation_H
 #define patchCorrectedInterpolation_H
 
-#include "motionInterpolation.H"
+#include "motionInterpolation/motionInterpolation/motionInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -158,7 +158,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchCorrectedInterpolationTemplates.C"
+#include "motionInterpolation/patchCorrected/patchCorrectedInterpolationTemplates.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "HashOps.H"
-#include "emptyPolyPatch.H"
-#include "mapPolyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -39,11 +39,11 @@ SourceFiles
 #ifndef leastSquareGrad_H
 #define leastSquareGrad_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "OFstream.H"
-#include "multiDimPolyFitter.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/multiDimPolyFitter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

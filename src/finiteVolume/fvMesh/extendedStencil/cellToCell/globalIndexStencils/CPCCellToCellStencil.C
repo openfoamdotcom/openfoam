@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CPCCellToCellStencil.H"
-#include "syncTools.H"
-#include "dummyTransform.H"
+#include "fvMesh/extendedStencil/cellToCell/globalIndexStencils/CPCCellToCellStencil.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/syncTools/dummyTransform.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

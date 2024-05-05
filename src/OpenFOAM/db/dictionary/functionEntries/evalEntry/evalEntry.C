@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "evalEntry.H"
-#include "dictionary.H"
-#include "OTstream.H"
-#include "stringOps.H"
-#include "fieldExprDriver.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/evalEntry/evalEntry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Tstreams/OTstream.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "expressions/fields/fieldExprDriver.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 #include <cctype>
 
 #undef  DetailInfo

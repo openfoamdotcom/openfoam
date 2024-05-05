@@ -87,7 +87,7 @@ SourceFiles
 #ifndef Foam_functionObjects_multiphaseInterHtcModel_H
 #define Foam_functionObjects_multiphaseInterHtcModel_H
 
-#include "fieldExpression.H"
+#include "fieldExpression/fieldExpression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

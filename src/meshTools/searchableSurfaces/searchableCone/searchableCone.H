@@ -55,7 +55,7 @@ SourceFiles
 #ifndef searchableCone_H
 #define searchableCone_H
 
-#include "searchableSurface.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

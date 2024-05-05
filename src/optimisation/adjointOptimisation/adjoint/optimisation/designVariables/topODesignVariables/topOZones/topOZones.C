@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "topOZones.H"
-#include "cellSet.H"
+#include "optimisation/designVariables/topODesignVariables/topOZones/topOZones.H"
+#include "topoSet/topoSets/cellSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

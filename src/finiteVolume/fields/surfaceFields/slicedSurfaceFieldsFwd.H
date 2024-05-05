@@ -32,7 +32,7 @@ InClass
 #ifndef Foam_slicedSurfaceFieldsFwd_H
 #define Foam_slicedSurfaceFieldsFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

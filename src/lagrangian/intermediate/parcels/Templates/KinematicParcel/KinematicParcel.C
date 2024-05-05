@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicParcel.H"
-#include "forceSuSp.H"
-#include "integrationScheme.H"
-#include "meshTools.H"
-#include "cloudSolution.H"
+#include "parcels/Templates/KinematicParcel/KinematicParcel.H"
+#include "submodels/Kinematic/ParticleForces/forceSuSp/forceSuSp.H"
+#include "integrationScheme/integrationScheme/integrationScheme.H"
+#include "meshTools/meshTools.H"
+#include "clouds/Templates/KinematicCloud/cloudSolution/cloudSolution.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -486,6 +486,6 @@ void Foam::KinematicParcel<ParcelType>::transformProperties
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "KinematicParcelIO.C"
+#include "parcels/Templates/KinematicParcel/KinematicParcelIO.C"
 
 // ************************************************************************* //

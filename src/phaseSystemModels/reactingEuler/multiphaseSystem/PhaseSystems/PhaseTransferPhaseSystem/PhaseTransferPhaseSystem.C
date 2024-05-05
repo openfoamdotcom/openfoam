@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhaseTransferPhaseSystem.H"
-#include "phaseTransferModel.H"
-#include "fvmSup.H"
+#include "PhaseSystems/PhaseTransferPhaseSystem/PhaseTransferPhaseSystem.H"
+#include "interfacialModels/phaseTransferModels/phaseTransferModel/phaseTransferModel.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //
 

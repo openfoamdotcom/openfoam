@@ -41,14 +41,14 @@ SourceFiles
 #ifndef Foam_topoSetSource_H
 #define Foam_topoSetSource_H
 
-#include "pointField.H"
-#include "labelList.H"
-#include "faceList.H"
-#include "typeInfo.H"
-#include "autoPtr.H"
-#include "Enum.H"
-#include "HashTable.H"
-#include "runTimeSelectionTables.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/enums/Enum.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,9 +28,9 @@ License
 #ifndef Foam_pointList_H
 #define Foam_pointList_H
 
-#include "point.H"
-#include "List.H"
-#include "SubList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

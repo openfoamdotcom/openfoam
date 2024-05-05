@@ -77,8 +77,8 @@ SourceFiles
 #ifndef Foam_timeVaryingMappedFixedValueFvPatchField_H
 #define Foam_timeVaryingMappedFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchFields.H"
-#include "MappedFile.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "PatchFunction1/MappedFile/MappedFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -203,7 +203,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "timeVaryingMappedFixedValueFvPatchField.C"
+    #include "fields/fvPatchFields/derived/timeVaryingMappedFixedValue/timeVaryingMappedFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

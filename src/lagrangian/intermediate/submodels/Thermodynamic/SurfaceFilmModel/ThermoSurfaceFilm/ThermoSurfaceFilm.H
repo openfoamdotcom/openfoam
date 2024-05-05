@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_ThermoSurfaceFilm_H
 #define Foam_ThermoSurfaceFilm_H
 
-#include "KinematicSurfaceFilm.H"
-#include "UPtrList.H"
+#include "submodels/Kinematic/SurfaceFilmModel/KinematicSurfaceFilm/KinematicSurfaceFilm.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -184,7 +184,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ThermoSurfaceFilm.C"
+    #include "submodels/Thermodynamic/SurfaceFilmModel/ThermoSurfaceFilm/ThermoSurfaceFilm.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

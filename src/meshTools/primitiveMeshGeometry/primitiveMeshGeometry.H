@@ -37,8 +37,8 @@ SourceFiles
 #ifndef primitiveMeshGeometry_H
 #define primitiveMeshGeometry_H
 
-#include "pointFields.H"
-#include "HashSet.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

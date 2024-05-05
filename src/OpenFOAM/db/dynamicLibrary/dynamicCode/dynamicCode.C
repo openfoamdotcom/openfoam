@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dynamicCode.H"
-#include "dynamicCodeContext.H"
-#include "dlLibraryTable.H"
-#include "argList.H"
-#include "stringOps.H"
-#include "Fstream.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "OSspecific.H"
-#include "etcFiles.H"
-#include "dictionary.H"
-#include "foamVersion.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCodeContext.H"
+#include "db/dynamicLibrary/dlLibraryTable/dlLibraryTable.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "include/OSspecific.H"
+#include "global/etcFiles/etcFiles.H"
+#include "db/dictionary/dictionary.H"
+#include "include/foamVersion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

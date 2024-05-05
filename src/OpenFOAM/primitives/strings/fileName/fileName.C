@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileName.H"
-#include "wordRe.H"
-#include "wordList.H"
-#include "DynamicList.H"
-#include "OSspecific.H"
-#include "fileOperation.H"
-#include "stringOps.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "primitives/strings/lists/wordList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "include/OSspecific.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoCloudPascal.H"
-#include "ThermoParcel.H"
+#include "clouds/Templates/ThermoCloud/ThermoCloudPascal.H"
+#include "parcels/Templates/ThermoParcel/ThermoParcel.H"
 
-#include "HeatTransferModelPascal.H"
+#include "submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModelPascal.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

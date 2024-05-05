@@ -35,7 +35,7 @@ Description
 #ifndef waveModels_Grimshaw_H
 #define waveModels_Grimshaw_H
 
-#include "solitaryWaveModel.H"
+#include "waveGenerationModels/base/solitaryWaveModel/solitaryWaveModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

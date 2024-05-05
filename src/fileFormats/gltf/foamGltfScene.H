@@ -41,15 +41,15 @@ SourceFiles
 #ifndef Foam_gltf_scene_H
 #define Foam_gltf_scene_H
 
-#include "fileName.H"
-#include "foamGltfList.H"
-#include "foamGltfObject.H"
-#include "foamGltfMesh.H"
-#include "foamGltfBufferView.H"
-#include "foamGltfAccessor.H"
-#include "foamGltfAnimation.H"
-#include "scalarField.H"
-#include "vectorField.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "gltf/foamGltfList.H"
+#include "gltf/foamGltfObject.H"
+#include "gltf/foamGltfMesh.H"
+#include "gltf/foamGltfBufferView.H"
+#include "gltf/foamGltfAccessor.H"
+#include "gltf/foamGltfAnimation.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/vectorField/vectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamGltfSceneTemplates.C"
+    #include "gltf/foamGltfSceneTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

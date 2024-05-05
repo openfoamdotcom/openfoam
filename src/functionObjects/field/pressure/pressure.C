@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pressure.H"
-#include "volFields.H"
-#include "basicThermo.H"
-#include "uniformDimensionedFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "pressure/pressure.H"
+#include "fields/volFields/volFields.H"
+#include "basicThermo/basicThermo.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

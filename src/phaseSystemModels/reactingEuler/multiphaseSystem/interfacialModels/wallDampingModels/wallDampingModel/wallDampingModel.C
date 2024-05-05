@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallDampingModel.H"
-#include "reactingEuler_phasePair.H"
+#include "interfacialModels/wallDampingModels/wallDampingModel/wallDampingModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

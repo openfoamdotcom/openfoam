@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "egrMixture.H"
-#include "fvMesh.H"
+#include "mixtures/egrMixture/egrMixture.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

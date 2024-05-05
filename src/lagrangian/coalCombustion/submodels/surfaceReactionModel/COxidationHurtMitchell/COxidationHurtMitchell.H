@@ -54,7 +54,7 @@ Description
 #ifndef COxidationHurtMitchell_H
 #define COxidationHurtMitchell_H
 
-#include "SurfaceReactionModel.H"
+#include "submodels/ReactingMultiphase/SurfaceReactionModel/SurfaceReactionModel/SurfaceReactionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -182,7 +182,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "COxidationHurtMitchell.C"
+    #include "submodels/surfaceReactionModel/COxidationHurtMitchell/COxidationHurtMitchell.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

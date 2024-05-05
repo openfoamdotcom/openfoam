@@ -38,8 +38,8 @@ Description
 #ifndef SIMPLEControlOpt_H
 #define SIMPLEControlOpt_H
 
-#include "SIMPLEControlPascal.H"
-#include "subCycleTime.H"
+#include "solvers/solverControl/SIMPLEControl/SIMPLEControl/SIMPLEControlPascal.H"
+#include "db/Time/subCycleTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

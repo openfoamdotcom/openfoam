@@ -40,9 +40,9 @@ Note
 #ifndef Foam_edgeHashes_H
 #define Foam_edgeHashes_H
 
-#include "edge.H"
-#include "HashSet.H"
-#include "HashTable.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

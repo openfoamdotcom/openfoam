@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_treeDataPrimitivePatch_H
 #define Foam_treeDataPrimitivePatch_H
 
-#include "treeBoundBoxList.H"
-#include "volumeType.H"
+#include "meshes/treeBoundBox/treeBoundBoxList.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -327,7 +327,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "treeDataPrimitivePatch.C"
+    #include "indexedOctree/treeDataPrimitivePatch.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef linearValveLayersFvMesh_H
 #define linearValveLayersFvMesh_H
 
-#include "topoChangerFvMesh.H"
-#include "motionSolver.H"
+#include "topoChangerFvMesh/topoChangerFvMesh.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

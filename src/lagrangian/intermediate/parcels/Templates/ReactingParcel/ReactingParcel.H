@@ -44,9 +44,9 @@ SourceFiles
 #ifndef ReactingParcel_H
 #define ReactingParcel_H
 
-#include "particle.H"
-#include "SLGThermo.H"
-#include "demandDrivenEntry.H"
+#include "particle/particle.H"
+#include "SLGThermo/SLGThermo.H"
+#include "primitives/demandDrivenEntry/demandDrivenEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -524,13 +524,13 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactingParcelI.H"
-#include "ReactingParcelTrackingDataI.H"
+#include "parcels/Templates/ReactingParcel/ReactingParcelI.H"
+#include "parcels/Templates/ReactingParcel/ReactingParcelTrackingDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ReactingParcel.C"
+    #include "parcels/Templates/ReactingParcel/ReactingParcel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

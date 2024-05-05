@@ -38,8 +38,8 @@ SourceFiles
 #ifndef orientedSurface_H
 #define orientedSurface_H
 
-#include "triSurface.H"
-#include "typeInfo.H"
+#include "triSurface/triSurface.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

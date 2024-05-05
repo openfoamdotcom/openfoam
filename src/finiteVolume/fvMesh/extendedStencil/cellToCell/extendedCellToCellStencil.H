@@ -38,8 +38,8 @@ SourceFiles
 #ifndef extendedCellToCellStencil_H
 #define extendedCellToCellStencil_H
 
-#include "mapDistribute.H"
-#include "volFields.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -98,7 +98,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "extendedCellToCellStencilTemplates.C"
+    #include "fvMesh/extendedStencil/cellToCell/extendedCellToCellStencilTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

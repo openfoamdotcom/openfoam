@@ -49,10 +49,10 @@ SourceFiles
 #ifndef Foam_vtk_polyWriter_H
 #define Foam_vtk_polyWriter_H
 
-#include "foamVtkFileWriter.H"
-#include "pointField.H"
-#include "edgeList.H"
-#include "faceList.H"
+#include "vtk/file/foamVtkFileWriter.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/meshShapes/face/faceList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -253,7 +253,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkPolyWriterTemplates.C"
+    #include "vtk/write/foamVtkPolyWriterTemplates.C"
 #endif
 
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_structuredDecomp_H
 #define Foam_structuredDecomp_H
 
-#include "decompositionMethod.H"
-#include "wordRes.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 namespace Foam
 {

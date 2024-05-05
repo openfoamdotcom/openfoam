@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Tenneti_H
 #define Tenneti_H
 
-#include "dragModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

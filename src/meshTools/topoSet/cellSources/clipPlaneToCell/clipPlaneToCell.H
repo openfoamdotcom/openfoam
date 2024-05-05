@@ -88,8 +88,8 @@ SourceFiles
 #ifndef Foam_clipPlaneToCell_H
 #define Foam_clipPlaneToCell_H
 
-#include "topoSetCellSource.H"
-#include "point.H"
+#include "topoSet/cellSources/topoSetCellSource/topoSetCellSource.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

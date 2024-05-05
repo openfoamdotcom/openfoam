@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "colourTable.H"
-#include "colourTools.H"
-#include "ListOps.H"
+#include "colours/colourTable.H"
+#include "colours/colourTools.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

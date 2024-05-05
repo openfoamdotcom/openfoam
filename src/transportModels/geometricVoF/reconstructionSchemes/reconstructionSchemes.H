@@ -37,15 +37,15 @@ SourceFiles
 #ifndef reconstructionSchemes_H
 #define reconstructionSchemes_H
 
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "dimensionedScalar.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "IOdictionary.H"
-#include "DynamicField.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfacesFwd.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurface/MeshedSurfacesFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -91,10 +91,10 @@ SourceFiles
 #ifndef Foam_wallDistAddressing_H
 #define Foam_wallDistAddressing_H
 
-#include "MeshObject.H"
-#include "FaceCellWave.H"
-#include "cellDistFuncs.H"
-#include "volFields.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "cellDist/cellDistFuncs.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -281,7 +281,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wallDistAddressingTemplates.C"
+    #include "fvMesh/wallDist/wallDistAddressing/wallDistAddressingTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallFunctionCoefficients.H"
-#include "dictionary.H"
-#include "MinMax.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionCoefficients/wallFunctionCoefficients.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

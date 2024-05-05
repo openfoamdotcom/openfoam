@@ -55,12 +55,12 @@ SourceFiles
 #ifndef faceCollapser_H
 #define faceCollapser_H
 
-#include "labelList.H"
-#include "point.H"
-#include "Map.H"
-#include "HashSet.H"
-#include "typeInfo.H"
-#include "edgeList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/typeInfo/typeInfo.H"
+#include "meshes/meshShapes/edge/edgeList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

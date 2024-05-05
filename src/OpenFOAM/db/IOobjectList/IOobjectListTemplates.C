@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOobjectList.H"
-#include "predicates.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "primitives/predicates/predicates.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -32,11 +32,11 @@ Description
 #ifndef makeSolidChemistrySolverType_H
 #define makeSolidChemistrySolverType_H
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "noChemistrySolver.H"
-#include "EulerImplicit.H"
-#include "ode.H"
+#include "chemistrySolver/noChemistrySolver/noChemistrySolver.H"
+#include "chemistrySolver/EulerImplicit/EulerImplicit.H"
+#include "chemistrySolver/ode/ode.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

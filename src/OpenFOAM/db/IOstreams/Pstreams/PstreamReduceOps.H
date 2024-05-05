@@ -35,9 +35,9 @@ Description
 #ifndef Foam_PstreamReduceOps_H
 #define Foam_PstreamReduceOps_H
 
-#include "Pstream.H"
-#include "FixedList.H"
-#include "ops.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/ops/ops.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

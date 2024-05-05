@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMatrix.H"
-#include "cyclicACMIFvPatchField.H"
-#include "transformField.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "fields/fvPatchFields/constraint/cyclicACMI/cyclicACMIFvPatchField.H"
+#include "fields/Fields/transformField/transformField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

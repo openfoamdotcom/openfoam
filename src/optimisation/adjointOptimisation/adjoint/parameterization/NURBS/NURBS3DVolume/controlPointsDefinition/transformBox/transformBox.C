@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
-#include "transformBox.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "parameterization/NURBS/NURBS3DVolume/controlPointsDefinition/transformBox/transformBox.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

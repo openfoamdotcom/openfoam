@@ -48,7 +48,7 @@ SourceFiles
 #ifndef Foam_coordinateRotations_cylindrical_H
 #define Foam_coordinateRotations_cylindrical_H
 
-#include "axesRotation.H"
+#include "primitives/coordinate/rotation/axesRotation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

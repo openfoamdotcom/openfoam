@@ -40,12 +40,12 @@ SourceFiles
 #ifndef optimisationManager_H
 #define optimisationManager_H
 
-#include "runTimeSelectionTables.H"
-#include "IOdictionary.H"
-#include "primalSolver.H"
-#include "designVariables.H"
-#include "designVariablesUpdate.H"
-#include "adjointSolverManager.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "solvers/primalSolvers/primalSolver/primalSolver.H"
+#include "optimisation/designVariables/designVariables/designVariables.H"
+#include "optimisation/optimisationManager/optimisationManager/designVariablesUpdate/designVariablesUpdate.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

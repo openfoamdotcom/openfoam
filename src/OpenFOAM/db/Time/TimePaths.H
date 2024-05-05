@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_TimePaths_H
 #define Foam_TimePaths_H
 
-#include "fileName.H"
-#include "instantList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/Time/instant/instantList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -206,7 +206,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "TimePathsI.H"
+#include "db/Time/TimePathsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "LunPressure.H"
-#include "addToRunTimeSelectionTable.H"
+#include "kineticTheoryModels/granularPressureModel/Lun/LunPressure.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

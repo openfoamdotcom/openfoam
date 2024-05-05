@@ -157,10 +157,10 @@ SourceFiles
 #ifndef fv_jouleHeatingSource_H
 #define fv_jouleHeatingSource_H
 
-#include "fvOption.H"
-#include "Function1Pascal.H"
-#include "coordinateSystem.H"
-#include "volFields.H"
+#include "cfdTools/general/fvOptions/fvOption.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -282,7 +282,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "jouleHeatingSourceTemplates.C"
+    #include "sources/derived/jouleHeatingSource/jouleHeatingSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

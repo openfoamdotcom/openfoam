@@ -28,7 +28,7 @@ License
 #ifndef Foam_ignoreFaPatchFields_H
 #define Foam_ignoreFaPatchFields_H
 
-#include "ignoreFaPatchField.H"
+#include "fields/faPatchFields/derived/ignore/ignoreFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

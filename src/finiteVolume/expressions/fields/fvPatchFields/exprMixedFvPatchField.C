@@ -25,8 +25,8 @@ License
     along with OpenFOAM.  If not, see <http://www.gnu.org/licenses/>.
 \*---------------------------------------------------------------------------*/
 
-#include "exprMixedFvPatchField.H"
-#include "dictionaryContent.H"
+#include "expressions/fields/fvPatchFields/exprMixedFvPatchField.H"
+#include "db/dictionary/dictionaryContent/dictionaryContent.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

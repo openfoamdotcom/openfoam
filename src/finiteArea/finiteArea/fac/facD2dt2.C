@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facD2dt2.H"
-#include "faMesh.H"
-#include "faD2dt2Scheme.H"
+#include "finiteArea/fac/facD2dt2.H"
+#include "faMesh/faMesh.H"
+#include "finiteArea/d2dt2Schemes/faD2dt2Scheme/faD2dt2Scheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

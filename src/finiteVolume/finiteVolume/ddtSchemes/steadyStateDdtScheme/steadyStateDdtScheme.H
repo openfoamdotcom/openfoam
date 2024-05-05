@@ -40,7 +40,7 @@ SourceFiles
 #ifndef steadyStateDdtScheme_H
 #define steadyStateDdtScheme_H
 
-#include "ddtScheme.H"
+#include "finiteVolume/ddtSchemes/ddtScheme/ddtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -229,7 +229,7 @@ tmp<surfaceScalarField> steadyStateDdtScheme<scalar>::fvcDdtPhiCorr
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "steadyStateDdtScheme.C"
+    #include "finiteVolume/ddtSchemes/steadyStateDdtScheme/steadyStateDdtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

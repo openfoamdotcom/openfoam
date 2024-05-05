@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BilgerMixtureFraction.H"
-#include "basicThermo.H"
-#include "reactingMixture.H"
-#include "thermoPhysicsTypes.H"
-#include "scalarRange.H"
-#include "basicChemistryModel.H"
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
-#include "BasicChemistryModelPascal.H"
-#include "addToRunTimeSelectionTable.H"
+#include "functionObjects/BilgerMixtureFraction/BilgerMixtureFraction.H"
+#include "basicThermo/basicThermo.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "include/thermoPhysicsTypes.H"
+#include "primitives/ranges/scalarRange/scalarRange.H"
+#include "chemistryModel/basicChemistryModel/basicChemistryModel.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "chemistryModel/BasicChemistryModelCaseDir/BasicChemistryModelPascal.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

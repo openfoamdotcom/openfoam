@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AMIInterpolation.H"
-#include "cyclicACMIGAMGInterface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Map.H"
+#include "AMIInterpolation/AMIInterpolation/AMIInterpolation.H"
+#include "AMIInterpolation/GAMG/interfaces/cyclicACMIGAMGInterface/cyclicACMIGAMGInterface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

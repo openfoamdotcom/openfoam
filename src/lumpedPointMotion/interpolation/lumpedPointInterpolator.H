@@ -43,10 +43,10 @@ SourceFiles
 #ifndef Foam_lumpedPointInterpolator_H
 #define Foam_lumpedPointInterpolator_H
 
-#include "Pair.H"
-#include "triFace.H"
-#include "scalarList.H"
-#include "barycentric2D.H"
+#include "primitives/tuples/Pair.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/Barycentric2D/barycentric2D/barycentric2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "lumpedPointInterpolatorI.H"
+#include "interpolation/lumpedPointInterpolatorI.H"
 
 #endif
 

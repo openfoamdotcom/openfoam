@@ -28,8 +28,8 @@ License
 #ifndef processorCyclicFvPatchFields_H
 #define processorCyclicFvPatchFields_H
 
-#include "processorCyclicFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/constraint/processorCyclic/processorCyclicFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

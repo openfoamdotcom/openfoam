@@ -44,7 +44,7 @@ SourceFiles
 #ifndef Foam_mapDistributePolyMesh_H
 #define Foam_mapDistributePolyMesh_H
 
-#include "mapDistribute.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

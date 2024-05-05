@@ -42,7 +42,7 @@ SourceFiles
 #ifndef sensitivityShapeESI_H
 #define sensitivityShapeESI_H
 
-#include "ShapeSensitivitiesBase.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/shapeSensitivityBase/ShapeSensitivitiesBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

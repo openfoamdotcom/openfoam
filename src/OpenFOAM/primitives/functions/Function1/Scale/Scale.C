@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Scale.H"
+#include "primitives/functions/Function1/Scale/Scale.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseCompressibleTurbulenceModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "compressible_makeTurbulenceModel.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulentFluidThermoModels/compressible_makeTurbulenceModel.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -74,16 +74,16 @@ defineTurbulenceModelTypes
 // "kEpsilon.H"
 // "kOmegaSST.H"
 
-#include "kOmegaSSTSato.H"
+#include "TurbulenceModels/phaseCompressible/RAS/kOmegaSSTSato/kOmegaSSTSato.H"
 makeRASModel(kOmegaSSTSato);
 
-#include "mixtureKEpsilon.H"
+#include "TurbulenceModels/phaseCompressible/RAS/mixtureKEpsilon/mixtureKEpsilon.H"
 makeRASModel(mixtureKEpsilon);
 
-#include "LaheyKEpsilon.H"
+#include "TurbulenceModels/phaseCompressible/RAS/LaheyKEpsilon/LaheyKEpsilon.H"
 makeRASModel(LaheyKEpsilon);
 
-#include "continuousGasKEpsilon.H"
+#include "TurbulenceModels/phaseCompressible/RAS/continuousGasKEpsilon/continuousGasKEpsilon.H"
 makeRASModel(continuousGasKEpsilon);
 
 
@@ -94,13 +94,13 @@ makeRASModel(continuousGasKEpsilon);
 // "Smagorinsky.H"
 // "kEqn.H"
 
-#include "SmagorinskyZhang.H"
+#include "TurbulenceModels/phaseCompressible/LES/SmagorinskyZhang/SmagorinskyZhang.H"
 makeLESModel(SmagorinskyZhang);
 
-#include "NicenoKEqn.H"
+#include "TurbulenceModels/phaseCompressible/LES/Niceno/NicenoKEqn.H"
 makeLESModel(NicenoKEqn);
 
-#include "continuousGasKEqn.H"
+#include "TurbulenceModels/phaseCompressible/LES/continuousGasKEqn/continuousGasKEqn.H"
 makeLESModel(continuousGasKEqn);
 
 
@@ -108,11 +108,11 @@ makeLESModel(continuousGasKEqn);
 // Additional models
 // -------------------------------------------------------------------------- //
 
-#include "kineticTheoryModel.H"
+#include "kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.H"
 makeTurbulenceModel
 (phaseModelPhaseCompressibleTurbulenceModel, RAS, kineticTheoryModel);
 
-#include "phasePressureModel.H"
+#include "phasePressureModel/phasePressureModel.H"
 makeTurbulenceModel
 (phaseModelPhaseCompressibleTurbulenceModel, RAS, phasePressureModel);
 

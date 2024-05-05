@@ -42,7 +42,7 @@ SourceFiles
 #ifndef DiagonalMatrix_H
 #define DiagonalMatrix_H
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 #include <numeric>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -115,7 +115,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DiagonalMatrix.C"
+    #include "matrices/DiagonalMatrix/DiagonalMatrix.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

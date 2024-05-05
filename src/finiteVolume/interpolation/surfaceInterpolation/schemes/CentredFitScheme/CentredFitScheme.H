@@ -38,8 +38,8 @@ Description
 #ifndef CentredFitScheme_H
 #define CentredFitScheme_H
 
-#include "CentredFitData.H"
-#include "linear.H"
+#include "interpolation/surfaceInterpolation/schemes/CentredFitScheme/CentredFitData.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

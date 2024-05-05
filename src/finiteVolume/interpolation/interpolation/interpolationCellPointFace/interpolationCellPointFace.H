@@ -34,7 +34,7 @@ Description
 #ifndef Foam_interpolationCellPointFace_H
 #define Foam_interpolationCellPointFace_H
 
-#include "interpolation.H"
+#include "interpolation/interpolation/interpolation/interpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -114,7 +114,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "interpolationCellPointFace.C"
+    #include "interpolation/interpolation/interpolationCellPointFace/interpolationCellPointFace.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -29,12 +29,12 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "StringStream.H"
-#include "fileName.H"
-#include "dictionary.H"
-#include "JobInfo.H"
-#include "Pstream.H"
+#include "db/error/error.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/dictionary/dictionary.H"
+#include "global/JobInfo/JobInfo.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -40,13 +40,13 @@ SourceFiles
 #ifndef faceReflecting_H
 #define faceReflecting_H
 
-#include "fvMesh.H"
-#include "wallPolyPatch.H"
-#include "triSurfaceTools.H"
-#include "vectorList.H"
-#include "distributedTriSurfaceMesh.H"
-#include "faceShading.H"
-#include "solarCalculator.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "radiationModels/solarLoad/faceShading/faceShading.H"
+#include "submodels/solarCalculator/solarCalculator.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

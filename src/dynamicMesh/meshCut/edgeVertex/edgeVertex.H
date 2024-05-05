@@ -38,8 +38,8 @@ SourceFiles
 #ifndef edgeVertex_H
 #define edgeVertex_H
 
-#include "label.H"
-#include "polyMesh.H"
+#include "primitives/ints/label/label.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

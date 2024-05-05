@@ -39,7 +39,7 @@ SourceFiles
 #ifndef sensitivityShapeFI_H
 #define sensitivityShapeFI_H
 
-#include "ShapeSensitivitiesBase.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/shapeSensitivityBase/ShapeSensitivitiesBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

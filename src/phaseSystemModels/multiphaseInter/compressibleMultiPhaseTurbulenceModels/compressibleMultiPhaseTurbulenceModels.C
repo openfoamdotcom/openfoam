@@ -25,17 +25,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompressibleTurbulenceModelPascal.H"
+#include "CompressibleTurbulenceModel/CompressibleTurbulenceModelPascal.H"
 #include "compressibleTurbulenceModel.H"
-#include "multiphaseSystem.H"
-#include "addToRunTimeSelectionTable.H"
-#include "compressible_makeTurbulenceModel.H"
+#include "multiphaseSystem/multiphaseSystem.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulentFluidThermoModels/compressible_makeTurbulenceModel.H"
 
-#include "ThermalDiffusivity.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 using namespace Foam::multiphaseInter;
 
@@ -78,17 +78,17 @@ makeBaseTurbulenceModel
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Stokes.H"
+#include "laminar/Stokes/Stokes.H"
 makeLaminarModel(Stokes);
 
-#include "generalizedNewtonian.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonian.H"
 makeLaminarModel(generalizedNewtonian);
 
 // -------------------------------------------------------------------------- //
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "kEpsilon.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
 
@@ -96,10 +96,10 @@ makeRASModel(kEpsilon);
 // LES models
 // -------------------------------------------------------------------------- //
 
-#include "Smagorinsky.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
 makeLESModel(Smagorinsky);
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 makeLESModel(kEqn);
 
 

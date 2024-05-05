@@ -44,7 +44,7 @@ SourceFiles
 #ifndef vanAlbada_H
 #define vanAlbada_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

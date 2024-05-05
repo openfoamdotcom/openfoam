@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "WallCollisionRecord.H"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/WallCollisionRecord/WallCollisionRecord.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -99,7 +99,7 @@ void Foam::WallCollisionRecord<Type>::operator=
 
 // * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * * * //
 
-#include "WallCollisionRecordIO.C"
+#include "parcels/Templates/CollidingParcel/CollisionRecordList/WallCollisionRecord/WallCollisionRecordIO.C"
 
 
 // ************************************************************************* //

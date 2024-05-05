@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprValue.H"
+#include "expressions/value/exprValue.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

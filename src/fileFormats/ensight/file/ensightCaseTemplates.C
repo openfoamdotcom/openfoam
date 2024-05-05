@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloud.H"
-#include "ensightPTraits.H"
+#include "fields/cloud/cloud.H"
+#include "ensight/type/ensightPTraits.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -72,9 +72,9 @@ SourceFiles
 #ifndef functionEntries_ifeqEntry_H
 #define functionEntries_ifeqEntry_H
 
-#include "functionEntry.H"
-#include "DynamicList.H"
-#include "Tuple2.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

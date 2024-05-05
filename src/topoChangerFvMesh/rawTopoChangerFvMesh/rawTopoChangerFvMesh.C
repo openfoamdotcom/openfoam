@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rawTopoChangerFvMesh.H"
-#include "mapPolyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
-#include "linear.H"
+#include "rawTopoChangerFvMesh/rawTopoChangerFvMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

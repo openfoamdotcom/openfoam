@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "externalCoupled.H"
-#include "stringListOps.H"
-#include "addToRunTimeSelectionTable.H"
-#include "OSspecific.H"
-#include "Fstream.H"
-#include "volFields.H"
-#include "globalIndex.H"
-#include "fvMesh.H"
-#include "DynamicField.H"
+#include "externalCoupled/externalCoupled.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "fields/volFields/volFields.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -39,10 +39,10 @@ SourceFiles
 #ifndef Foam_pointToPointPlanarInterpolation_H
 #define Foam_pointToPointPlanarInterpolation_H
 
-#include "FixedList.H"
-#include "instantList.H"
-#include "Pair.H"
-#include "cartesianCS.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "db/Time/instant/instantList.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -216,7 +216,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "pointToPointPlanarInterpolationTemplates.C"
+    #include "triSurface/triSurfaceTools/pointToPointPlanarInterpolationTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

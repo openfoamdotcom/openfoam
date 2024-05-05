@@ -56,8 +56,8 @@ SourceFiles
 #ifndef Foam_coordSetWriters_nastranWriter_H
 #define Foam_coordSetWriters_nastranWriter_H
 
-#include "coordSetWriter.H"
-#include "NASCore.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "nastran/NASCore.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

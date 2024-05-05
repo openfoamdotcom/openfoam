@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fixedGradientFaPatchField.H"
-#include "dictionary.H"
+#include "fields/faPatchFields/basic/fixedGradient/fixedGradientFaPatchField.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

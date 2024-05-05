@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveMesh.H"
-#include "cell.H"
-#include "bitSet.H"
-#include "DynamicList.H"
-#include "ListOps.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/meshShapes/cell/cell.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

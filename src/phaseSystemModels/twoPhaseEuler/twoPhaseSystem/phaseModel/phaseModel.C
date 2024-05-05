@@ -26,19 +26,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseModel.H"
+#include "phaseModel/phaseModel.H"
 #include "twoPhaseSystem.H"
-#include "diameterModel.H"
-#include "fvMatrix.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "dragModel.H"
-#include "heatTransferModel.H"
-#include "fixedValueFvsPatchFields.H"
-#include "fixedValueFvPatchFields.H"
-#include "slipFvPatchFields.H"
-#include "partialSlipFvPatchFields.H"
-#include "fvcFlux.H"
-#include "surfaceInterpolate.H"
+#include "diameterModels/diameterModel/diameterModel.H"
+#include "fvMatrices/fvMatrix/fvMatrix.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/slip/slipFvPatchFields.H"
+#include "fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchFields.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

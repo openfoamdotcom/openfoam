@@ -39,11 +39,11 @@ SourceFiles
 #ifndef Foam_OBJstream_H
 #define Foam_OBJstream_H
 
-#include "OFstream.H"
-#include "point.H"
-#include "edge.H"
-#include "face.H"
-#include "triangle.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

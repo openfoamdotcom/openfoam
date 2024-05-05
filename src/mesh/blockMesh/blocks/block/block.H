@@ -43,9 +43,9 @@ SourceFiles
 #ifndef block_H
 #define block_H
 
-#include "blockDescriptor.H"
-#include "cellShapeList.H"
-#include "hexCell.H"
+#include "blockDescriptor/blockDescriptor.H"
+#include "meshes/meshShapes/cellShape/cellShapeList.H"
+#include "meshes/meshShapes/hexCell/hexCell.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -242,7 +242,7 @@ Ostream& operator<<(Ostream& os, const block& blk);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "blockI.H"
+#include "blocks/block/blockI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

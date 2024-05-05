@@ -28,8 +28,8 @@ License
 #ifndef Foam_cellShapeList_H
 #define Foam_cellShapeList_H
 
-#include "cellShape.H"
-#include "List.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

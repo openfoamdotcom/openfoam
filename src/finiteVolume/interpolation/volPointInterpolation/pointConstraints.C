@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointConstraints.H"
-#include "emptyPointPatch.H"
-#include "polyMesh.H"
-#include "pointMesh.H"
-#include "globalMeshData.H"
-#include "twoDPointCorrector.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "meshes/pointMesh/pointPatches/constraint/empty/emptyPointPatch.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

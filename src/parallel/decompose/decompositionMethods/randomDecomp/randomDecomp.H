@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Foam_randomDecomp_H
 #define Foam_randomDecomp_H
 
-#include "decompositionMethod.H"
+#include "decompositionMethod/decompositionMethod.H"
 
 namespace Foam
 {

@@ -1,6 +1,6 @@
-#include "scalar.H"
-#include "vector.H"
-#include "curveTools.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "graph/curveTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

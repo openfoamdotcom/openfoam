@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 #include <typeinfo>
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //

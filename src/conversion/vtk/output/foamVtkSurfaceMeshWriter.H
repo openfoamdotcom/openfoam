@@ -21,7 +21,7 @@ Description
 #ifndef Foam_vtk_surfaceMeshWriter_H
 #define Foam_vtk_surfaceMeshWriter_H
 
-#include "foamVtkIndPatchGeoFieldsWriter.H"
+#include "vtk/output/foamVtkIndPatchGeoFieldsWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

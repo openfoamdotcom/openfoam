@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseSystem.H"
-#include "surfaceTensionModel.H"
-#include "aspectRatioModel.H"
-#include "surfaceInterpolate.H"
-#include "fvcDdt.H"
-#include "localEulerDdtScheme.H"
+#include "phaseSystem/phaseSystem.H"
+#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "interfacialModels/aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
 
-#include "dragModel.H"
-#include "BlendedInterfacialModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

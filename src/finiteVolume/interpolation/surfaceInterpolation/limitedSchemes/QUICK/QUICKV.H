@@ -45,7 +45,7 @@ SourceFiles
 #ifndef QUICKV_H
 #define QUICKV_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

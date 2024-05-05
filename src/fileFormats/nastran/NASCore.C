@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NASCore.H"
-#include "IOmanip.H"
-#include "Ostream.H"
-#include "parsing.H"
-#include "defineDebugSwitch.H"
+#include "nastran/NASCore.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "primitives/strings/parsing/parsing.H"
+#include "global/debug/defineDebugSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

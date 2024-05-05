@@ -41,14 +41,14 @@ SourceFiles
 #ifndef edgeFields_H
 #define edgeFields_H
 
-#include "objectRegistry.H"
-#include "GeometricFields.H"
-#include "edgeFaMesh.H"
-#include "fieldTypes.H"
-#include "faMesh.H"
-#include "faePatchFields.H"
-#include "edgeFieldsFwd.H"
-#include "calculatedFaePatchFields.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "fields/GeometricFields/GeometricField/GeometricFields.H"
+#include "edgeMesh/edgeFaMesh.H"
+#include "fields/Fields/fieldTypes.H"
+#include "faMesh/faMesh.H"
+#include "fields/faePatchFields/faePatchField/faePatchFields.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "fields/faePatchFields/basic/calculated/calculatedFaePatchFields.H"
 
 #endif
 

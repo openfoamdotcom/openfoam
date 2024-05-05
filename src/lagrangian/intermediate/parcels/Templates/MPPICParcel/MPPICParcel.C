@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MPPICParcel.H"
+#include "parcels/Templates/MPPICParcel/MPPICParcel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -122,6 +122,6 @@ bool Foam::MPPICParcel<ParcelType>::move
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "MPPICParcelIO.C"
+#include "parcels/Templates/MPPICParcel/MPPICParcelIO.C"
 
 // ************************************************************************* //

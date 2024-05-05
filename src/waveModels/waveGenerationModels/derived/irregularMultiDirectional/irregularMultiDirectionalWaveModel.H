@@ -35,8 +35,8 @@ Description
 #ifndef waveModels_irregularMultiDirectional_H
 #define waveModels_irregularMultiDirectional_H
 
-#include "irregularWaveModel.H"
-#include "scalarList.H"
+#include "waveGenerationModels/base/irregularWaveModel/irregularWaveModel.H"
+#include "primitives/Scalar/lists/scalarList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

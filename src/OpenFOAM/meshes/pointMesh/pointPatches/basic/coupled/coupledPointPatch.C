@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coupledPointPatch.H"
-#include "pointBoundaryMesh.H"
+#include "meshes/pointMesh/pointPatches/basic/coupled/coupledPointPatch.H"
+#include "meshes/pointMesh/pointBoundaryMesh/pointBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

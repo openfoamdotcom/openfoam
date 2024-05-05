@@ -71,7 +71,7 @@ SourceFiles
 #ifndef sampledMeshedSurfaceNormal_H
 #define sampledMeshedSurfaceNormal_H
 
-#include "sampledMeshedSurface.H"
+#include "sampledSurface/sampledMeshedSurface/sampledMeshedSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

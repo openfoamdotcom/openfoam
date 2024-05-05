@@ -43,7 +43,7 @@ Description
 #ifndef Function1Types_Uniform_H
 #define Function1Types_Uniform_H
 
-#include "Constant.H"
+#include "primitives/functions/Function1/Constant/Constant.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

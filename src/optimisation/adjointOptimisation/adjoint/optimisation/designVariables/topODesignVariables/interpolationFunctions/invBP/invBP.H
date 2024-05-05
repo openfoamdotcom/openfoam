@@ -47,7 +47,7 @@ SourceFiles
 #ifndef invBP_H
 #define invBP_H
 
-#include "topOInterpolationFunction.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

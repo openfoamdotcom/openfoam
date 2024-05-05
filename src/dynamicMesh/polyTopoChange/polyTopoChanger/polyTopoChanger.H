@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_polyTopoChanger_H
 #define Foam_polyTopoChanger_H
 
-#include "regIOobject.H"
-#include "PtrList.H"
-#include "polyMeshModifier.H"
+#include "db/regIOobject/regIOobject.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "polyTopoChange/polyMeshModifier/polyMeshModifier.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

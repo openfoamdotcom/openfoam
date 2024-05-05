@@ -38,9 +38,9 @@ SourceFiles
 #ifndef basicKinematicParcel_H
 #define basicKinematicParcel_H
 
-#include "contiguous.H"
-#include "particle.H"
-#include "KinematicParcel.H"
+#include "primitives/traits/contiguous.H"
+#include "particle/particle.H"
+#include "parcels/Templates/KinematicParcel/KinematicParcel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

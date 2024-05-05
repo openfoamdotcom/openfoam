@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RelaxationPascal.H"
+#include "submodels/MPPIC/DampingModels/Relaxation/RelaxationPascal.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

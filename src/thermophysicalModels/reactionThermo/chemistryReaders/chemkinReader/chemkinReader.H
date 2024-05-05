@@ -42,14 +42,14 @@ SourceFiles
 #ifndef chemkinReader_H
 #define chemkinReader_H
 
-#include "chemistryReader.H"
-#include "fileName.H"
-#include "typeInfo.H"
-#include "DynamicList.H"
-#include "labelList.H"
-#include "speciesTable.H"
-#include "atomicWeights.H"
-#include "reactionTypes.H"
+#include "chemistryReaders/chemistryReader/chemistryReader.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/typeInfo/typeInfo.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "speciesTable/speciesTable.H"
+#include "atomicWeights/atomicWeights.H"
+#include "include/reactionTypes.H"
 
 #include <FlexLexer.h>
 

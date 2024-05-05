@@ -28,7 +28,7 @@ License
 #ifndef Foam_dimensionedScalarFwd_H
 #define Foam_dimensionedScalarFwd_H
 
-#include "scalarFwd.H"
+#include "primitives/Scalar/scalar/scalarFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

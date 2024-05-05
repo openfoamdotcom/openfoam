@@ -40,7 +40,7 @@ SourceFiles
 #ifndef objectiveUniformityPatch_H
 #define objectiveUniformityPatch_H
 
-#include "objectiveIncompressible.H"
+#include "objectives/incompressible/objectiveIncompressible/objectiveIncompressible.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

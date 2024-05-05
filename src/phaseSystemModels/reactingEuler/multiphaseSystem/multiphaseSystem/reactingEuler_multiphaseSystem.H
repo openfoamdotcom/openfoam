@@ -37,7 +37,7 @@ SourceFiles
 #ifndef reactingEuler_multiphaseSystem_H
 #define reactingEuler_multiphaseSystem_H
 
-#include "phaseSystem.H"
+#include "phaseSystem/phaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

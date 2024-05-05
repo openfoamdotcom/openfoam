@@ -39,7 +39,7 @@ SourceFiles
 #ifndef Foam_LPtrList_H
 #define Foam_LPtrList_H
 
-#include "LList.H"
+#include "containers/LinkedLists/accessTypes/LList/LList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -474,8 +474,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "LPtrList.C"
-    #include "LPtrListIO.C"
+    #include "containers/LinkedLists/accessTypes/LPtrList/LPtrList.C"
+    #include "containers/LinkedLists/accessTypes/LPtrList/LPtrListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

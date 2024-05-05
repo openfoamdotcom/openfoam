@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_hashedWordList_H
 #define Foam_hashedWordList_H
 
-#include "wordList.H"
-#include "HashTable.H"
+#include "primitives/strings/lists/wordList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ inline Istream& operator>>(Istream& is, hashedWordList& list);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "hashedWordListI.H"
+#include "primitives/strings/lists/hashedWordListI.H"
 
 #endif
 

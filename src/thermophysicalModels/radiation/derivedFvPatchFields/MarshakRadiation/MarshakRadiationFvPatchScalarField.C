@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MarshakRadiationFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "radiationModel.H"
-#include "physicoChemicalConstants.H"
-#include "boundaryRadiationProperties.H"
+#include "derivedFvPatchFields/MarshakRadiation/MarshakRadiationFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationProperties.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

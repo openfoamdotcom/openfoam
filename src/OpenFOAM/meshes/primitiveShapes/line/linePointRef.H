@@ -4,7 +4,7 @@
 #ifndef FoamCompat_linePointRef_H
 #define FoamCompat_linePointRef_H
 
-#include "line.H"
+#include "meshes/primitiveShapes/line/line.H"
 
 #endif
 

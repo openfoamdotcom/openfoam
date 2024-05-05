@@ -37,8 +37,8 @@ SourceFiles
 #ifndef famD2dt2_H
 #define famD2dt2_H
 
-#include "areaFieldsFwd.H"
-#include "faMatrix.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "faMatrices/faMatrix/faMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

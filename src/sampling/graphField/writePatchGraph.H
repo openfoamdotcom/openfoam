@@ -37,7 +37,7 @@ SourceFiles
 #ifndef writePatchGraph_H
 #define writePatchGraph_H
 
-#include "volFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -47,7 +47,7 @@ SourceFiles
 #ifndef Foam_OppositeFaceCellWave_H
 #define Foam_OppositeFaceCellWave_H
 
-#include "FaceCellWave.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,7 +150,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "OppositeFaceCellWave.C"
+    #include "structuredRenumber/OppositeFaceCellWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

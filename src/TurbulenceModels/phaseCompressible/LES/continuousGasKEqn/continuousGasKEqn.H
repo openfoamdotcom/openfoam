@@ -60,7 +60,7 @@ SourceFiles
 #ifndef continuousGasKEqn_H
 #define continuousGasKEqn_H
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "continuousGasKEqn.C"
+    #include "TurbulenceModels/phaseCompressible/LES/continuousGasKEqn/continuousGasKEqn.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

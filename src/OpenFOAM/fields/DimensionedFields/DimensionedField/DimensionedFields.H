@@ -28,10 +28,10 @@ License
 #ifndef Foam_DimensionedFields_H
 #define Foam_DimensionedFields_H
 
-#include "DimensionedScalarField.H"
+#include "fields/DimensionedFields/DimensionedScalarField/DimensionedScalarField.H"
 //#include "DimensionedVectorField.H"
-#include "DimensionedTensorField.H"
-#include "DimensionedSphericalTensorField.H"
+#include "fields/DimensionedFields/DimensionedTensorField/DimensionedTensorField.H"
+#include "fields/DimensionedFields/DimensionedSphericalTensorField/DimensionedSphericalTensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

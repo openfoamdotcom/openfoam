@@ -38,7 +38,7 @@ SourceFiles
 #ifndef VTKedgeFormat_H
 #define VTKedgeFormat_H
 
-#include "edgeMesh.H"
+#include "edgeMesh/edgeMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,9 +27,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "timer.H"
-#include "error.H"
-#include "defineDebugSwitch.H"
+#include "signals/timer.H"
+#include "db/error/error.H"
+#include "global/debug/defineDebugSwitch.H"
 #include "MSwindows.H"
 #undef DebugInfo        // Windows name clash with OpenFOAM messageStream
 
@@ -39,7 +39,7 @@ License
 #include <windows.h>
 
 // File-local functions
-#include "signalMacros.C"
+#include "signals/signalMacros.C"
 
 #undef  SIGALRM
 #define SIGALRM 14

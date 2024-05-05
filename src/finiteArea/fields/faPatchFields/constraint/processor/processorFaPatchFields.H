@@ -28,7 +28,7 @@ License
 #ifndef Foam_processorFaPatchFields_H
 #define Foam_processorFaPatchFields_H
 
-#include "processorFaPatchField.H"
+#include "fields/faPatchFields/constraint/processor/processorFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

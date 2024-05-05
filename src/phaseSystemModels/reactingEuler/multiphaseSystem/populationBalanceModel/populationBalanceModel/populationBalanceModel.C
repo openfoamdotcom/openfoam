@@ -26,20 +26,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "populationBalanceModel.H"
-#include "coalescenceModel.H"
-#include "breakupModel.H"
-#include "binaryBreakupModel.H"
-#include "driftModel.H"
-#include "nucleationModel.H"
-#include "phaseSystem.H"
-#include "surfaceTensionModel.H"
-#include "fvmDdt.H"
-#include "fvcDdt.H"
-#include "fvmSup.H"
-#include "fvcSup.H"
-#include "fvcDiv.H"
-#include "phaseCompressibleTurbulenceModel.H"
+#include "populationBalanceModel/populationBalanceModel/populationBalanceModel.H"
+#include "populationBalanceModel/coalescenceModels/coalescenceModel/coalescenceModel.H"
+#include "populationBalanceModel/breakupModels/breakupModel/breakupModel.H"
+#include "populationBalanceModel/binaryBreakupModels/binaryBreakupModel/binaryBreakupModel.H"
+#include "populationBalanceModel/driftModels/driftModel/driftModel.H"
+#include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
+#include "phaseSystem/phaseSystem.H"
+#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvc/fvcDdt.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "finiteVolume/fvc/fvcSup.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
 
 // * * * * * * * * * * * * Private Member Functions * * * * * * * * * * * * //
 

@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_solidParticleCloud_H
 #define Foam_solidParticleCloud_H
 
-#include "CloudPascal.H"
+#include "Cloud/CloudPascal.H"
 #include "solidParticle.H"
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

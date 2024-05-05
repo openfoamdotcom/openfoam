@@ -39,8 +39,8 @@ SourceFiles
 #ifndef pointEdgeCollapse_H
 #define pointEdgeCollapse_H
 
-#include "point.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -237,7 +237,7 @@ template<> struct is_contiguous<pointEdgeCollapse> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "pointEdgeCollapseI.H"
+#include "polyTopoChange/polyTopoChange/pointEdgeCollapse/pointEdgeCollapseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "strainRateFunction.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/strainRateFunction/strainRateFunction.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

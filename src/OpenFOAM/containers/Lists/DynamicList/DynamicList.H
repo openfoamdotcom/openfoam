@@ -45,7 +45,7 @@ SourceFiles
 #ifndef Foam_DynamicList_H
 #define Foam_DynamicList_H
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -499,13 +499,13 @@ inline void Swap(DynamicList<T, SizeMinA>& a, DynamicList<T, SizeMinB>& b)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DynamicListI.H"
+#include "containers/Lists/DynamicList/DynamicListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DynamicList.C"
-    #include "DynamicListIO.C"
+    #include "containers/Lists/DynamicList/DynamicList.C"
+    #include "containers/Lists/DynamicList/DynamicListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

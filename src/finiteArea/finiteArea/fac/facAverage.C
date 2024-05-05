@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facAverage.H"
-#include "facEdgeIntegrate.H"
-#include "faMesh.H"
+#include "finiteArea/fac/facAverage.H"
+#include "finiteArea/fac/facEdgeIntegrate.H"
+#include "faMesh/faMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

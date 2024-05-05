@@ -41,9 +41,9 @@ SourceFiles
 #ifndef Foam_OTstream_H
 #define Foam_OTstream_H
 
-#include "token.H"
-#include "Ostream.H"
-#include "DynamicList.H"
+#include "db/IOstreams/token/token.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

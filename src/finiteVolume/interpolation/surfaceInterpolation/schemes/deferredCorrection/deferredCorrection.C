@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "deferredCorrection.H"
+#include "interpolation/surfaceInterpolation/schemes/deferredCorrection/deferredCorrection.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

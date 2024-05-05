@@ -39,13 +39,13 @@ SourceFiles
 #ifndef Foam_Cloud_H
 #define Foam_Cloud_H
 
-#include "cloud.H"
-#include "IDLList.H"
-#include "IOField.H"
-#include "CompactIOField.H"
-#include "polyMesh.H"
-#include "bitSet.H"
-#include "wordRes.H"
+#include "fields/cloud/cloud.H"
+#include "containers/LinkedLists/user/IDLList.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -303,7 +303,7 @@ Ostream& operator<<(Ostream& os, const Cloud<ParticleType>& c);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CloudPascal.C"
+    #include "Cloud/CloudPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "loopControl.H"
-#include "fvSolution.H"
-#include "solutionControl.H"
+#include "cfdTools/general/solutionControl/loopControl/loopControl.H"
+#include "finiteVolume/fvSolution/fvSolution.H"
+#include "cfdTools/general/solutionControl/solutionControl/solutionControl.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

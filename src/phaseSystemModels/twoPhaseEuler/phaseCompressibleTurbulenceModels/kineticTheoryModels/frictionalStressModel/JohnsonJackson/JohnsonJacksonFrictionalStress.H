@@ -36,7 +36,7 @@ SourceFiles
 #ifndef JohnsonJackson_H
 #define JohnsonJackson_H
 
-#include "frictionalStressModel.H"
+#include "kineticTheoryModels/frictionalStressModel/frictionalStressModel/frictionalStressModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

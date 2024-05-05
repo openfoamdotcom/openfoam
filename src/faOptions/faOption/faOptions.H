@@ -37,9 +37,9 @@ SourceFiles
 #ifndef Foam_fa_options_H
 #define Foam_fa_options_H
 
-#include "faOptionList.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
+#include "faOption/faOptionList.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ License
 #ifndef mixedFvPatchFields_H
 #define mixedFvPatchFields_H
 
-#include "mixedFvPatchField.H"
-#include "fieldTypes.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

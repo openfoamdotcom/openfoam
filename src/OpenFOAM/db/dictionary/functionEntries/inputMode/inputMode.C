@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "inputMode.H"
-#include "dictionary.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/inputMode/inputMode.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

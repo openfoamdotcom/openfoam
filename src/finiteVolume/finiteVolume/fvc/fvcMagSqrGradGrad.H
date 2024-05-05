@@ -39,7 +39,7 @@ SourceFiles
 #ifndef fvcMagSqrGradGrad_H
 #define fvcMagSqrGradGrad_H
 
-#include "volFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -73,7 +73,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcMagSqrGradGrad.C"
+    #include "finiteVolume/fvc/fvcMagSqrGradGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

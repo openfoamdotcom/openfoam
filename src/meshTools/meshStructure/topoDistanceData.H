@@ -40,8 +40,8 @@ SourceFiles
 #ifndef topoDistanceData_H
 #define topoDistanceData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -243,12 +243,12 @@ struct is_contiguous_scalar<topoDistanceData<Type>> :
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "topoDistanceData.C"
+    #include "meshStructure/topoDistanceData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "topoDistanceDataI.H"
+#include "meshStructure/topoDistanceDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

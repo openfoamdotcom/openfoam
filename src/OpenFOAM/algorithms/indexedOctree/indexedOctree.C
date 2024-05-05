@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedOctree.H"
-#include "line.H"
-#include "OFstream.H"
-#include "ListOps.H"
-#include "memInfo.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshes/primitiveShapes/line/line.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "memInfo/memInfo.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

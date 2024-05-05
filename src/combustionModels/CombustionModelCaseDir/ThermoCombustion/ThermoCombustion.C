@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoCombustion.H"
+#include "CombustionModelCaseDir/ThermoCombustion/ThermoCombustion.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

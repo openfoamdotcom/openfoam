@@ -61,8 +61,8 @@ SourceFiles
 #ifndef Foam_sampledFaceZone_H
 #define Foam_sampledFaceZone_H
 
-#include "sampledSurface.H"
-#include "MeshedSurfaces.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -333,7 +333,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledFaceZoneTemplates.C"
+    #include "sampledSurface/sampledFaceZone/sampledFaceZoneTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

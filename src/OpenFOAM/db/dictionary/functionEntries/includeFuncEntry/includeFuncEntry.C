@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "includeFuncEntry.H"
-#include "functionObjectList.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "db/dictionary/functionEntries/includeFuncEntry/includeFuncEntry.H"
+#include "db/functionObjects/functionObjectList/functionObjectList.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

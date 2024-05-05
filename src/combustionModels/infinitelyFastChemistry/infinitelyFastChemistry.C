@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "infinitelyFastChemistry.H"
+#include "infinitelyFastChemistry/infinitelyFastChemistry.H"
 
 namespace Foam
 {

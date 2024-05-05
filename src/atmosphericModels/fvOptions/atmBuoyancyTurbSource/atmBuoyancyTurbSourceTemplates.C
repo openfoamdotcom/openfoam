@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmBuoyancyTurbSource.H"
-#include "volFields.H"
+#include "fvOptions/atmBuoyancyTurbSource/atmBuoyancyTurbSource.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

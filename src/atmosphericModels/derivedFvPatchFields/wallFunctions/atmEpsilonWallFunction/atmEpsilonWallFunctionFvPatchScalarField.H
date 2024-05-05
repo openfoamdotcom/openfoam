@@ -90,8 +90,8 @@ SourceFiles
 #ifndef atmEpsilonWallFunctionFvPatchScalarField_H
 #define atmEpsilonWallFunctionFvPatchScalarField_H
 
-#include "epsilonWallFunctionFvPatchScalarField.H"
-#include "PatchFunction1.H"
+#include "derivedFvPatchFields/wallFunctions/epsilonWallFunctions/epsilonWallFunction/epsilonWallFunctionFvPatchScalarField.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

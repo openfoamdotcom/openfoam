@@ -27,7 +27,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volBSplinesBase.H"
+#include "parameterization/NURBS/NURBS3DVolume/volBSplinesBase/volBSplinesBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

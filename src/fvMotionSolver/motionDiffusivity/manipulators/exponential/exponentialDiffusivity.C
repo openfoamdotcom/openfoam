@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exponentialDiffusivity.H"
-#include "surfaceFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionDiffusivity/manipulators/exponential/exponentialDiffusivity.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -77,8 +77,8 @@ SourceFiles
 #ifndef nutUTabulatedWallFunctionFvPatchScalarField_H
 #define nutUTabulatedWallFunctionFvPatchScalarField_H
 
-#include "nutWallFunctionFvPatchScalarField.H"
-#include "uniformInterpolationTable.H"
+#include "derivedFvPatchFields/wallFunctions/nutWallFunctions/nutWallFunction/nutWallFunctionFvPatchScalarField.H"
+#include "interpolations/uniformInterpolationTable/uniformInterpolationTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

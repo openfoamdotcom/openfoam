@@ -28,8 +28,8 @@ License
 #ifndef Foam_surfZoneIdentifierList_H
 #define Foam_surfZoneIdentifierList_H
 
-#include "surfZoneIdentifier.H"
-#include "List.H"
+#include "meshes/Identifiers/surface/surfZoneIdentifier.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

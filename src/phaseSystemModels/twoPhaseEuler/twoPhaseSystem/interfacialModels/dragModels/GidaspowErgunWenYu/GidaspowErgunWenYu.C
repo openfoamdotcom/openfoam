@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GidaspowErgunWenYu.H"
-#include "phasePair.H"
-#include "Ergun.H"
-#include "WenYu.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfacialModels/dragModels/GidaspowErgunWenYu/GidaspowErgunWenYu.H"
+#include "phasePair/phasePair.H"
+#include "interfacialModels/dragModels/Ergun/Ergun.H"
+#include "interfacialModels/dragModels/WenYu/WenYu.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

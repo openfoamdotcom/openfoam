@@ -68,7 +68,7 @@ SourceFiles
 #ifndef Foam_fa_limitVelocity_H
 #define Foam_fa_limitVelocity_H
 
-#include "faceSetOption.H"
+#include "faceSetOption/faceSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

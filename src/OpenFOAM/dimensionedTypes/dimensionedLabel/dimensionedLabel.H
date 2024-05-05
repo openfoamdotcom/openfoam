@@ -36,8 +36,8 @@ SourceFiles
 #ifndef Foam_dimensionedLabel_H
 #define Foam_dimensionedLabel_H
 
-#include "dimensionedType.H"
-#include "label.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

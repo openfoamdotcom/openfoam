@@ -98,13 +98,13 @@ SourceFiles
 #ifndef Foam_IOobject_H
 #define Foam_IOobject_H
 
-#include "fileName.H"
-#include "typeInfo.H"
-#include "refPtr.H"  // For autoPtr, refPtr, tmp, stdFoam
-#include "Enum.H"
-#include "InfoProxy.H"
-#include "IOobjectOption.H"
-#include "IOstreamOption.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/typeInfo/typeInfo.H"
+#include "memory/refPtr/refPtr.H"  // For autoPtr, refPtr, tmp, stdFoam
+#include "primitives/enums/Enum.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "db/options/IOobjectOption.H"
+#include "db/options/IOstreamOption.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -731,7 +731,7 @@ struct is_globalIOobject : std::false_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IOobjectI.H"
+#include "db/IOobject/IOobjectI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

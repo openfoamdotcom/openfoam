@@ -66,14 +66,14 @@ SourceFiles
 #ifndef expressions_patchExprDriver_H
 #define expressions_patchExprDriver_H
 
-#include "patchExprFwd.H"
-#include "fvExprDriver.H"
-#include "exprFieldAssociation.H"
-#include "Enum.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "genericRagelLemonDriver.H"
+#include "expressions/patch/patchExprFwd.H"
+#include "expressions/base/fvExprDriver.H"
+#include "expressions/traits/exprFieldAssociation.H"
+#include "primitives/enums/Enum.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "primitives/strings/parsing/genericRagelLemonDriver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -345,10 +345,10 @@ tmp<Field<bool>> parseDriver::getPointField<bool>(const word& fldName);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "patchExprDriverI.H"
+#include "expressions/patch/patchExprDriverI.H"
 
 #ifdef NoRepository
-    #include "patchExprDriverTemplates.C"
+    #include "expressions/patch/patchExprDriverTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

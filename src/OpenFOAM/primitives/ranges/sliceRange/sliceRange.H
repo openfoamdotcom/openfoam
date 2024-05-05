@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_sliceRange_H
 #define Foam_sliceRange_H
 
-#include "labelFwd.H"
+#include "primitives/ints/label/labelFwd.H"
 #include <iterator>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -570,7 +570,7 @@ inline bool operator>=
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "sliceRangeI.H"
+#include "primitives/ranges/sliceRange/sliceRangeI.H"
 
 #endif
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTSato.H"
-#include "fvOptions.H"
+#include "TurbulenceModels/phaseCompressible/RAS/kOmegaSSTSato/kOmegaSSTSato.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 #include "twoPhaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

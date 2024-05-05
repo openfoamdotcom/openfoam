@@ -39,11 +39,11 @@ SourceFiles
 #ifndef Foam_lagrangianReconstructor_H
 #define Foam_lagrangianReconstructor_H
 
-#include "cloud.H"
-#include "polyMesh.H"
-#include "IOobjectList.H"
-#include "CompactIOField.H"
-#include "fvMesh.H"
+#include "fields/cloud/cloud.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

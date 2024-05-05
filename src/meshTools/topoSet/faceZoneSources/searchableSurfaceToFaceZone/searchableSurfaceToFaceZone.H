@@ -86,8 +86,8 @@ SourceFiles
 #ifndef Foam_searchableSurfaceToFaceZone_H
 #define Foam_searchableSurfaceToFaceZone_H
 
-#include "topoSetFaceZoneSource.H"
-#include "searchableSurface.H"
+#include "topoSet/faceZoneSources/topoSetFaceZoneSource/topoSetFaceZoneSource.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "noiseModel.H"
-#include "functionObject.H"
-#include "argList.H"
-#include "fft.H"
-#include "OFstream.H"
+#include "noise/noiseModels/noiseModel/noiseModel.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "global/argList/argList.H"
+#include "fft/fft.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

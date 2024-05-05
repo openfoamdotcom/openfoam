@@ -40,8 +40,8 @@ Note
 #ifndef Foam_argListRunControl_H
 #define Foam_argListRunControl_H
 
-#include "UPstream.H"
-#include "IOstreams.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

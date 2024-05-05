@@ -42,10 +42,10 @@ SourceFiles
 #ifndef greyMeanSolidAbsorptionEmission_H
 #define greyMeanSolidAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
-#include "solidThermo.H"
-#include "basicSpecieMixture.H"
-#include "zeroGradientFvPatchFields.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
+#include "solidThermo/solidThermo.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

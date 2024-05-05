@@ -34,7 +34,7 @@ Description
 #ifndef fa_H
 #define fa_H
 
-#include "className.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

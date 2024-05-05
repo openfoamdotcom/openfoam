@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volumeExprDriver.H"
-#include "fvPatch.H"
-#include "error.H"
+#include "expressions/volume/volumeExprDriver.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

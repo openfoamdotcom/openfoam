@@ -49,10 +49,10 @@ SourceFiles
 #ifndef displacementMotionSolverMeshMover_H
 #define displacementMotionSolverMeshMover_H
 
-#include "externalDisplacementMeshMover.H"
-#include "displacementMotionSolver.H"
-#include "motionSmootherAlgo.H"
-#include "fieldSmoother.H"
+#include "externalDisplacementMeshMover/externalDisplacementMeshMover.H"
+#include "motionSolvers/displacement/displacement/displacementMotionSolver.H"
+#include "motionSmoother/motionSmootherAlgo.H"
+#include "externalDisplacementMeshMover/fieldSmoother/fieldSmoother.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

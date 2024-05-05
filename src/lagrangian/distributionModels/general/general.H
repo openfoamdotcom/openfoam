@@ -97,10 +97,10 @@ SourceFiles
 #ifndef distributionModels_general_H
 #define distributionModels_general_H
 
-#include "distributionModel.H"
-#include "VectorPascal.H"
-#include "VectorSpace.H"
-#include "Field.H"
+#include "distributionModel/distributionModel.H"
+#include "primitives/Vector/VectorPascal.H"
+#include "primitives/VectorSpace/VectorSpace.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

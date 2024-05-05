@@ -41,8 +41,8 @@ SourceFiles
 #ifndef Foam_emptyFaePatchField_H
 #define Foam_emptyFaePatchField_H
 
-#include "faePatchField.H"
-#include "emptyFaPatch.H"
+#include "fields/faePatchFields/faePatchField/faePatchField.H"
+#include "faMesh/faPatches/constraint/empty/emptyFaPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "emptyFaePatchField.C"
+    #include "fields/faePatchFields/constraint/empty/emptyFaePatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

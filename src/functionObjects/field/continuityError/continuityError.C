@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "continuityError.H"
-#include "volFields.H"
-#include "fvcDiv.H"
-#include "addToRunTimeSelectionTable.H"
+#include "continuityError/continuityError.H"
+#include "fields/volFields/volFields.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

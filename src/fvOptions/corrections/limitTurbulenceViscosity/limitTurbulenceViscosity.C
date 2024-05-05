@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "limitTurbulenceViscosity.H"
-#include "fvMesh.H"
-#include "transportModel.H"
-#include "fluidThermo.H"
+#include "corrections/limitTurbulenceViscosity/limitTurbulenceViscosity.H"
+#include "fvMesh/fvMesh.H"
+#include "transportModel/transportModel.H"
+#include "fluidThermo/fluidThermo.H"
 #include "turbulenceModel.H"
-#include "processorFvPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

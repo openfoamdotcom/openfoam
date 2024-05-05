@@ -83,11 +83,11 @@ SourceFiles
 #ifndef temperatureCoupledBase_H
 #define temperatureCoupledBase_H
 
-#include "scalarField.H"
-#include "Enum.H"
-#include "fvPatch.H"
-#include "PatchFunction1.H"
-#include "fvPatchFieldMapper.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/enums/Enum.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

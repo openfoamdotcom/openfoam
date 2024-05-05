@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "steadyOptimisation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/optimisationManager/steadyOptimisation/steadyOptimisation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

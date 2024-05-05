@@ -34,9 +34,9 @@ Description
 #ifndef pointField_H
 #define pointField_H
 
-#include "point.H"
-#include "primitiveFields.H"
-#include "pointFieldFwd.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/Fields/primitiveFields.H"
+#include "meshes/primitiveShapes/point/pointFieldFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

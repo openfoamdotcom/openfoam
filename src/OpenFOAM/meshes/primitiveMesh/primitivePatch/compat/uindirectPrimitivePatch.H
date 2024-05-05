@@ -10,7 +10,7 @@ Description
 #ifndef FoamCompat_uindirectPrimitivePatch_H
 #define FoamCompat_uindirectPrimitivePatch_H
 
-#include "indirectPrimitivePatch.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 #endif
 

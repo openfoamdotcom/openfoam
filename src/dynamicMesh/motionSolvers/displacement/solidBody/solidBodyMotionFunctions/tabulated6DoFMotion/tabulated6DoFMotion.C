@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tabulated6DoFMotion.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Tuple2.H"
-#include "IFstream.H"
-#include "interpolateSplineXY.H"
-#include "unitConversion.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/tabulated6DoFMotion/tabulated6DoFMotion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "interpolations/interpolateSplineXY/interpolateSplineXY.H"
+#include "global/constants/unitConversion.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

@@ -57,7 +57,7 @@ SourceFiles
 #ifndef relaxedNonOrthoGaussLaplacianScheme_H
 #define relaxedNonOrthoGaussLaplacianScheme_H
 
-#include "laplacianScheme.H"
+#include "finiteVolume/laplacianSchemes/laplacianScheme/laplacianScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -200,7 +200,7 @@ defineFvmLaplacianScalarGamma(tensor);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "relaxedNonOrthoGaussLaplacianScheme.C"
+    #include "finiteVolume/laplacianSchemes/relaxedNonOrthoGaussLaplacianScheme/relaxedNonOrthoGaussLaplacianScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

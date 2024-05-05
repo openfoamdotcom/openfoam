@@ -44,8 +44,8 @@ SourceFiles
 #ifndef Foam_Pstream_H
 #define Foam_Pstream_H
 
-#include "UPstream.H"
-#include "DynamicList.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // Legacy
 // #define Foam_Pstream_scatter_nobroadcast
@@ -664,11 +664,11 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PstreamBroadcast.C"
-    #include "PstreamGather.C"
-    #include "PstreamCombineGather.C"
-    #include "PstreamGatherList.C"
-    #include "PstreamExchange.C"
+    #include "db/IOstreams/Pstreams/PstreamBroadcast.C"
+    #include "db/IOstreams/Pstreams/PstreamGather.C"
+    #include "db/IOstreams/Pstreams/PstreamCombineGather.C"
+    #include "db/IOstreams/Pstreams/PstreamGatherList.C"
+    #include "db/IOstreams/Pstreams/PstreamExchange.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

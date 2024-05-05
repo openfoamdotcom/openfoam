@@ -87,8 +87,8 @@ SourceFiles
 #ifndef Function1Types_CodedFunction1_H
 #define Function1Types_CodedFunction1_H
 
-#include "Function1Pascal.H"
-#include "codedBase.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -215,7 +215,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CodedFunction1.C"
+    #include "primitives/functions/Function1/Coded/CodedFunction1.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

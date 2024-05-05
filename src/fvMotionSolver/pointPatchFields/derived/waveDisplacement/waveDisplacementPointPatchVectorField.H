@@ -37,7 +37,7 @@ SourceFiles
 #ifndef waveDisplacementPointPatchVectorField_H
 #define waveDisplacementPointPatchVectorField_H
 
-#include "fixedValuePointPatchField.H"
+#include "fields/pointPatchFields/basic/fixedValue/fixedValuePointPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

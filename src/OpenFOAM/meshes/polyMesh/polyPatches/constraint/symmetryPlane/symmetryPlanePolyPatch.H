@@ -37,7 +37,7 @@ SourceFiles
 #ifndef symmetryPlanePolyPatch_H
 #define symmetryPlanePolyPatch_H
 
-#include "polyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

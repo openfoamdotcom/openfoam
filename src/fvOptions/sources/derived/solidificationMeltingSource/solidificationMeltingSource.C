@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidificationMeltingSource.H"
-#include "fvMatrices.H"
-#include "basicThermo.H"
-#include "gravityMeshObject.H"
-#include "zeroGradientFvPatchFields.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "geometricOneField.H"
+#include "sources/derived/solidificationMeltingSource/solidificationMeltingSource.H"
+#include "fvMatrices/fvMatrices.H"
+#include "basicThermo/basicThermo.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

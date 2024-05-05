@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileOperation.H"
-#include "Pstream.H"
-#include "OSspecific.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "include/OSspecific.H"
 #include <fstream>
 #include <cinttypes>
 

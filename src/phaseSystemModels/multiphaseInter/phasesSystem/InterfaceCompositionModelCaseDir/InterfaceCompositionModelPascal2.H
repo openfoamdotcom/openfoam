@@ -38,7 +38,7 @@ SourceFiles
 #ifndef InterfaceCompositionModelPascal2_H
 #define InterfaceCompositionModelPascal2_H
 
-#include "interfaceCompositionModel.H"
+#include "interfaceCompositionModel/interfaceCompositionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

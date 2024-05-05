@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicSlipFvPatchField.H"
+#include "fields/fvPatchFields/constraint/cyclicSlip/cyclicSlipFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

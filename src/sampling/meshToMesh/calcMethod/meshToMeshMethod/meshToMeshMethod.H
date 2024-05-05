@@ -38,9 +38,9 @@ SourceFiles
 #ifndef meshToMeshMethod_H
 #define meshToMeshMethod_H
 
-#include "polyMesh.H"
-#include "pointList.H"
-#include "Tuple2.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "primitives/tuples/Tuple2.H"
 
 namespace Foam
 {
@@ -204,7 +204,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshToMeshMethodI.H"
+#include "meshToMesh/calcMethod/meshToMeshMethod/meshToMeshMethodI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

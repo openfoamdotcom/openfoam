@@ -49,10 +49,10 @@ SourceFiles
 #ifndef Foam_faPatchField_H
 #define Foam_faPatchField_H
 
-#include "faPatch.H"
-#include "DimensionedField.H"
-#include "fieldTypes.H"
-#include "scalarField.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -638,14 +638,14 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faPatchField.C"
-    #include "faPatchFieldNew.C"
-    #include "calculatedFaPatchField.H"
-    #include "zeroGradientFaPatchField.H"
+    #include "fields/faPatchFields/faPatchField/faPatchField.C"
+    #include "fields/faPatchFields/faPatchField/faPatchFieldNew.C"
+    #include "fields/faPatchFields/basic/calculated/calculatedFaPatchField.H"
+    #include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchField.H"
 #endif
 
 // Runtime selection macros
-#include "faPatchFieldMacros.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldMacros.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

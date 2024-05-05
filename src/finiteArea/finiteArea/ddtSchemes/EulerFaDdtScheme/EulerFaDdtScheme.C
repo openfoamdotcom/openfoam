@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "EulerFaDdtScheme.H"
-#include "facDiv.H"
-#include "faMatrices.H"
+#include "finiteArea/ddtSchemes/EulerFaDdtScheme/EulerFaDdtScheme.H"
+#include "finiteArea/fac/facDiv.H"
+#include "faMatrices/faMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

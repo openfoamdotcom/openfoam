@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "entry.H"
-#include "primitiveEntry.H"
-#include "dictionaryEntry.H"
-#include "functionEntry.H"
-#include "includeEntry.H"
-#include "stringOps.H"
-#include "dictionaryListEntry.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "db/dictionary/functionEntries/functionEntry/functionEntry.H"
+#include "db/dictionary/functionEntries/includeEntry/includeEntry.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/dictionary/dictionaryListEntry/dictionaryListEntry.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

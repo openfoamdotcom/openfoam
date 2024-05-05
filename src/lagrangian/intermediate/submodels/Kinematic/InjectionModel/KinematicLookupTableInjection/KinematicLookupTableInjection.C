@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicLookupTableInjection.H"
-#include "scalarIOList.H"
+#include "submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/KinematicLookupTableInjection.H"
+#include "primitives/Scalar/lists/scalarIOList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

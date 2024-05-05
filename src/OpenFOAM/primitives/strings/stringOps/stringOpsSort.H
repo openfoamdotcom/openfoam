@@ -37,7 +37,7 @@ SourceFiles
 #ifndef stringOpsSort_H
 #define stringOpsSort_H
 
-#include "stringOps.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SphereDragForce.H"
+#include "submodels/Kinematic/ParticleForces/Drag/SphereDrag/SphereDragForce.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ Description
 #ifndef MapGeometricFields_H
 #define MapGeometricFields_H
 
-#include "polyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -52,8 +52,8 @@ SourceFiles
 #ifndef topoCellLooper_H
 #define topoCellLooper_H
 
-#include "hexCellLooper.H"
-#include "typeInfo.H"
+#include "meshCut/cellLooper/hexCellLooper.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

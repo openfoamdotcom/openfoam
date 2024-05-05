@@ -29,8 +29,8 @@ License
 #ifndef HashSet_C
 #define HashSet_C
 
-#include "HashSet.H"
-#include "FixedList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

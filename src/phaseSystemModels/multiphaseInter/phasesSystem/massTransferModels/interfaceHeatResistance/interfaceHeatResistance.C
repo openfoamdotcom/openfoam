@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceHeatResistance.H"
-#include "constants.H"
-#include "cutCellIso.H"
-#include "volPointInterpolation.H"
-#include "wallPolyPatch.H"
-#include "fvcSmooth.H"
+#include "massTransferModels/interfaceHeatResistance/interfaceHeatResistance.H"
+#include "global/constants/constants.H"
+#include "cellCuts/cutCell/cutCellIso.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
 using namespace Foam::constant;
 

@@ -27,12 +27,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointFarFieldPressureFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "ATCUaGradU.H"
+#include "adjointBoundaryConditions/adjointFarFieldPressure/adjointFarFieldPressureFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "ATCModel/ATCUaGradU/ATCUaGradU.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

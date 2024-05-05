@@ -66,10 +66,10 @@ SourceFiles
 #ifndef Foam_isoSurfacePoint_H
 #define Foam_isoSurfacePoint_H
 
-#include "bitSet.H"
-#include "volFields.H"
-#include "slicedVolFields.H"
-#include "isoSurfaceBase.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "fields/volFields/volFields.H"
+#include "fields/volFields/slicedVolFields.H"
+#include "surface/isoSurface/isoSurfaceBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -411,7 +411,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "isoSurfacePointTemplates.C"
+    #include "surface/isoSurface/isoSurfacePointTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

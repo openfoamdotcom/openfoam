@@ -26,22 +26,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyTopoChange.H"
-#include "polyMesh.H"
-#include "polyAddPoint.H"
-#include "polyModifyPoint.H"
-#include "polyRemovePoint.H"
-#include "polyAddFace.H"
-#include "polyModifyFace.H"
-#include "polyRemoveFace.H"
-#include "polyAddCell.H"
-#include "polyModifyCell.H"
-#include "polyRemoveCell.H"
-#include "CircularBuffer.H"
-#include "CompactListList.H"
-#include "objectMap.H"
-#include "processorPolyPatch.H"
-#include "mapPolyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/addObject/polyAddPoint.H"
+#include "polyTopoChange/modifyObject/polyModifyPoint.H"
+#include "polyTopoChange/removeObject/polyRemovePoint.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/removeObject/polyRemoveFace.H"
+#include "polyTopoChange/addObject/polyAddCell.H"
+#include "polyTopoChange/modifyObject/polyModifyCell.H"
+#include "polyTopoChange/removeObject/polyRemoveCell.H"
+#include "containers/Buffers/CircularBuffer.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "meshes/polyMesh/mapPolyMesh/objectMap/objectMap.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

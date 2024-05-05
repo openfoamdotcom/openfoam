@@ -26,22 +26,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "isoSurfaceTopo.H"
-#include "polyMesh.H"
-#include "volFields.H"
-#include "edgeHashes.H"
-#include "tetCell.H"
-#include "DynamicField.H"
-#include "syncTools.H"
-#include "indirectPrimitivePatch.H"
-#include "polyMeshTetDecomposition.H"
-#include "foamVtkInternalMeshWriter.H"
-#include "foamVtkLineWriter.H"
-#include "foamVtkSurfaceWriter.H"
+#include "surface/isoSurface/isoSurfaceTopo.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "meshes/meshShapes/tetCell/tetCell.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "output/vtk/mesh/foamVtkInternalMeshWriter.H"
+#include "vtk/write/foamVtkLineWriter.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "isoSurfaceBaseMethods.H"
+#include "surface/isoSurface/isoSurfaceBaseMethods.H"
 defineIsoSurfaceInterpolateMethods(Foam::isoSurfaceTopo);
 
 

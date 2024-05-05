@@ -26,18 +26,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sigFpe.H"
-#include "error.H"
-#include "JobInfo.H"
-#include "OSspecific.H"
-#include "IOstreams.H"
-#include "UList.H"
-#include "Switch.H"
+#include "signals/sigFpe.H"
+#include "db/error/error.H"
+#include "global/JobInfo/JobInfo.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/List/UList.H"
+#include "primitives/bools/Switch/Switch.H"
 #include <algorithm>
 #include <limits>
 
 // File-local functions
-#include "signalMacros.C"
+#include "signals/signalMacros.C"
 
 #if defined(__linux__) && defined(__GNUC__)
     #ifndef __USE_GNU
@@ -49,7 +49,7 @@ License
 
 // Special handling for APPLE
 #ifdef __APPLE__
-    #include "feexceptErsatz.H"
+    #include "signals/feexceptErsatz.H"
 #endif
 
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nucleationSiteModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/nucleationSiteModels/nucleationSiteModel/nucleationSiteModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

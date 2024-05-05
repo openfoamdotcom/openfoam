@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directions.H"
-#include "polyMesh.H"
-#include "twoDPointCorrector.H"
-#include "directionInfo.H"
-#include "MeshWave.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "hexMatcher.H"
-#include "globalMeshData.H"
+#include "meshCut/directions/directions.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
+#include "meshCut/directions/directionInfo/directionInfo.H"
+#include "algorithms/MeshWave/MeshWave.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "meshes/meshShapes/cellMatcher/hexMatcher.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

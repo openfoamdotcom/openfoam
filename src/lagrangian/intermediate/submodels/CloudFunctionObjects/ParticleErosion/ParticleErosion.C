@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ParticleErosion.H"
+#include "submodels/CloudFunctionObjects/ParticleErosion/ParticleErosion.H"
 
 // * * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * //
 

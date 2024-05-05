@@ -37,11 +37,11 @@ SourceFiles
 #ifndef diagTensorField_H
 #define diagTensorField_H
 
-#include "tensorField.H"
-#include "diagTensor.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "primitives/DiagTensor/diagTensor/diagTensor.H"
 
 #define TEMPLATE
-#include "FieldFunctionsM.H"
+#include "fields/Fields/Field/FieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -75,7 +75,7 @@ BINARY_TYPE_OPERATOR(vector, vector, diagTensor, /, divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

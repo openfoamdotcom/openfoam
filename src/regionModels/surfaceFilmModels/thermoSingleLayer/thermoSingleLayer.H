@@ -44,8 +44,8 @@ SourceFiles
 #ifndef Foam_thermoSingleLayer_H
 #define Foam_thermoSingleLayer_H
 
-#include "kinematicSingleLayer.H"
-#include "SLGThermo.H"
+#include "kinematicSingleLayer/kinematicSingleLayer.H"
+#include "SLGThermo/SLGThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -419,7 +419,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermoSingleLayerI.H"
+#include "thermoSingleLayer/thermoSingleLayerI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

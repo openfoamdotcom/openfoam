@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sampledPlane.H"
+#include "sampledSurface/sampledPlane/sampledPlane.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

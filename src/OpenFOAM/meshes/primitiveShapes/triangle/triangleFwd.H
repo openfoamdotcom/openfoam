@@ -34,7 +34,7 @@ Description
 #ifndef Foam_triangleFwd_H
 #define Foam_triangleFwd_H
 
-#include "point.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

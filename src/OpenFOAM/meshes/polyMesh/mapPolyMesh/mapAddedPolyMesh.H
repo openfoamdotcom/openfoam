@@ -43,7 +43,7 @@ SourceFiles
 #ifndef mapAddedPolyMesh_H
 #define mapAddedPolyMesh_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -112,10 +112,10 @@ SourceFiles
 #ifndef functionObjects_fluxSummary_H
 #define functionObjects_fluxSummary_H
 
-#include "fvMeshFunctionObject.H"
-#include "writeFile.H"
-#include "vector.H"
-#include "DynamicList.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/Vector/floats/vector.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

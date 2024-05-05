@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "zeroGradientPointPatchField.H"
+#include "fields/pointPatchFields/basic/zeroGradient/zeroGradientPointPatchField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

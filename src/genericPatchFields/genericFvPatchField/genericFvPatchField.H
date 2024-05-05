@@ -43,8 +43,8 @@ SourceFiles
 #ifndef genericFvPatchField_H
 #define genericFvPatchField_H
 
-#include "calculatedFvPatchField.H"
-#include "genericPatchFieldBase.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchField.H"
+#include "common/genericPatchFieldBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "genericFvPatchField.C"
+    #include "genericFvPatchField/genericFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

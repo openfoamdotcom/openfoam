@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ThermoLookupTableInjection.H"
-#include "scalarIOList.H"
+#include "submodels/Thermodynamic/InjectionModel/ThermoLookupTableInjection/ThermoLookupTableInjection.H"
+#include "primitives/Scalar/lists/scalarIOList.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

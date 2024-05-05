@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchToPatchInterpolationDeCased.H"
+#include "interpolations/patchToPatchInterpolation/PatchToPatchInterpolationDeCased.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -177,7 +177,7 @@ bool PatchToPatchInterpolation<FromPatch, ToPatch>::movePoints()
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-    #include "CalcPatchToPatchWeights.C"
-    #include "PatchToPatchInterpolate.C"
+    #include "interpolations/patchToPatchInterpolation/CalcPatchToPatchWeights.C"
+    #include "interpolations/patchToPatchInterpolation/PatchToPatchInterpolate.C"
 
 // ************************************************************************* //

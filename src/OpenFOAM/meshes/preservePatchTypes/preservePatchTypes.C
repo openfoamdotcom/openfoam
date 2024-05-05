@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "preservePatchTypes.H"
-#include "polyBoundaryMeshEntries.H"
-#include "polyBoundaryMesh.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshEntries.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMesh.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

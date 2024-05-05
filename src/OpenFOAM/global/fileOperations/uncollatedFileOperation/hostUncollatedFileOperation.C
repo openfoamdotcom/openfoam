@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "hostUncollatedFileOperation.H"
-#include "fileOperationInitialise.H"
-#include "addToRunTimeSelectionTable.H"
+#include "global/fileOperations/uncollatedFileOperation/hostUncollatedFileOperation.H"
+#include "global/fileOperations/fileOperation/fileOperationInitialise.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 /* * * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * */
 

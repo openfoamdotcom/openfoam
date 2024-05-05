@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rPolynomial.H"
+#include "equationOfState/rPolynomial/rPolynomial.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

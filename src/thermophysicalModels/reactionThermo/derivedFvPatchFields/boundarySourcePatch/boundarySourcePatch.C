@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "boundarySourcePatch.H"
+#include "derivedFvPatchFields/boundarySourcePatch/boundarySourcePatch.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

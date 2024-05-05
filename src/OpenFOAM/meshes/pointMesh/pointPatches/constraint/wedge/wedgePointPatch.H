@@ -37,8 +37,8 @@ SourceFiles
 #ifndef wedgePointPatch_H
 #define wedgePointPatch_H
 
-#include "facePointPatch.H"
-#include "wedgePolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

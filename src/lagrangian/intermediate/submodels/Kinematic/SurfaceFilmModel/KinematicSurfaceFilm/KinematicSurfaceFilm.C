@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "KinematicSurfaceFilm.H"
-#include "surfaceFilmRegionModel.H"
-#include "liquidFilmModel.H"
-#include "addToRunTimeSelectionTable.H"
-#include "unitConversion.H"
-#include "Pstream.H"
+#include "submodels/Kinematic/SurfaceFilmModel/KinematicSurfaceFilm/KinematicSurfaceFilm.H"
+#include "surfaceFilmRegionModel/surfaceFilmRegionModel.H"
+#include "liquidFilm/liquidFilmModel/liquidFilmModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/unitConversion.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 using namespace Foam::constant::mathematical;
 

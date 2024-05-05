@@ -45,9 +45,9 @@ SourceFiles
 #ifndef functionObjects_valueAverageBase_H
 #define functionObjects_valueAverageBase_H
 
-#include "writeFile.H"
-#include "Enum.H"
-#include "stateFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "primitives/enums/Enum.H"
+#include "db/functionObjects/stateFunctionObject/stateFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -179,7 +179,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "valueAverageBaseTemplates.C"
+    #include "db/functionObjects/valueAverageBase/valueAverageBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

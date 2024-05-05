@@ -37,9 +37,9 @@ SourceFiles
 #ifndef pyrolysisModel_H
 #define pyrolysisModel_H
 
-#include "runTimeSelectionTables.H"
-#include "volFieldsFwd.H"
-#include "regionModel1D.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "regionModel1D/regionModel1D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

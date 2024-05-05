@@ -38,9 +38,9 @@ SourceFiles
 #ifndef Foam_complexVectorField_H
 #define Foam_complexVectorField_H
 
-#include "complex.H"
-#include "complexVector.H"
-#include "vectorField.H"
+#include "primitives/complex/complex.H"
+#include "primitives/Vector/complex/complexVector.H"
+#include "fields/Fields/vectorField/vectorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

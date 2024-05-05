@@ -27,10 +27,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "faFieldDecomposer.H"
-#include "GeometricField.H"
-#include "IOobjectList.H"
-#include "processorFaPatchField.H"
-#include "processorFaePatchField.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/faPatchFields/constraint/processor/processorFaPatchField.H"
+#include "fields/faePatchFields/constraint/processor/processorFaePatchField.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

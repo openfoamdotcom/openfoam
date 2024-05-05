@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_processorLduInterface_H
 #define Foam_processorLduInterface_H
 
-#include "lduInterface.H"
-#include "primitiveFieldsFwd.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorLduInterfaceTemplates.C"
+    #include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

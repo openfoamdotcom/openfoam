@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingParcel.H"
-#include "IOstreams.H"
+#include "parcels/Templates/ReactingParcel/ReactingParcel.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

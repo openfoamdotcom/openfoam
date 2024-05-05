@@ -54,16 +54,16 @@ SourceFiles
 #ifndef triSurfaceMesh_H
 #define triSurfaceMesh_H
 
-#include "searchableSurface.H"
-#include "treeBoundBox.H"
-#include "objectRegistry.H"
-#include "indexedOctree.H"
-#include "treeDataTriSurface.H"
-#include "treeDataPrimitivePatch.H"
-#include "treeDataEdge.H"
-#include "edgeHashes.H"
-#include "triSurface.H"
-#include "triSurfaceRegionSearch.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataTriSurface.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "algorithms/indexedOctree/treeDataEdge.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceRegionSearch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

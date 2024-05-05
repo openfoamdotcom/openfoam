@@ -318,9 +318,9 @@ SourceFiles
 #ifndef functionObjects_stabilityBlendingFactor_H
 #define functionObjects_stabilityBlendingFactor_H
 
-#include "fieldExpression.H"
-#include "writeFile.H"
-#include "volFields.H"
+#include "fieldExpression/fieldExpression.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regularisationRadiusIsotropic.H"
-#include "fvm.H"
-#include "addToRunTimeSelectionTable.H"
+#include "optimisation/designVariables/topODesignVariables/regularisation/regularisationRadius/isotropic/regularisationRadiusIsotropic.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

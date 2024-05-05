@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseForces.H"
-#include "addToRunTimeSelectionTable.H"
-#include "BlendedInterfacialModel.H"
-#include "dragModel.H"
-#include "virtualMassModel.H"
-#include "liftModel.H"
-#include "wallLubricationModel.H"
-#include "turbulentDispersionModel.H"
+#include "phaseForces/phaseForces.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
+#include "interfacialModels/liftModels/liftModel/liftModel.H"
+#include "interfacialModels/wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
+#include "interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -67,7 +67,7 @@ SourceFiles
 #ifndef HeatTransferCoeff_H
 #define HeatTransferCoeff_H
 
-#include "CloudFunctionObject.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HeatTransferCoeffPascal.C"
+    #include "submodels/CloudFunctionObjects/HeatTransferCoeff/HeatTransferCoeffPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

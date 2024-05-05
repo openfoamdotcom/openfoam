@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "moleculeCloud.H"
-#include "fvMesh.H"
-#include "unitConversion.H"
+#include "moleculeCloud/moleculeCloud.H"
+#include "fvMesh/fvMesh.H"
+#include "global/constants/unitConversion.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

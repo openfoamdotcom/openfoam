@@ -41,7 +41,7 @@ SourceFiles
 #ifndef topoSetCellSource_H
 #define topoSetCellSource_H
 
-#include "topoSetSource.H"
+#include "topoSet/topoSetSource/topoSetSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

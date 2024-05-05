@@ -47,12 +47,12 @@ SourceFiles
 #ifndef DMDModel_H
 #define DMDModel_H
 
-#include "fvMesh.H"
-#include "dictionary.H"
-#include "HashSet.H"
-#include "runTimeSelectionTables.H"
-#include "writeFile.H"
-#include "OFstream.H"
+#include "fvMesh/fvMesh.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

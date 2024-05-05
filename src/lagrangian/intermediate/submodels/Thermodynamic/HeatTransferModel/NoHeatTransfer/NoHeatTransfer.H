@@ -57,7 +57,7 @@ SourceFiles
 #ifndef NoHeatTransfer_H
 #define NoHeatTransfer_H
 
-#include "HeatTransferModelPascal.H"
+#include "submodels/Thermodynamic/HeatTransferModel/HeatTransferModel/HeatTransferModelPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -139,7 +139,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "NoHeatTransfer.C"
+    #include "submodels/Thermodynamic/HeatTransferModel/NoHeatTransfer/NoHeatTransfer.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

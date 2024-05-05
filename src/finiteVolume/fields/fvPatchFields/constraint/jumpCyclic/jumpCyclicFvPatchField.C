@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "jumpCyclicFvPatchField.H"
+#include "fields/fvPatchFields/constraint/jumpCyclic/jumpCyclicFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

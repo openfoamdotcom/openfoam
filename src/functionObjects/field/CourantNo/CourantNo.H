@@ -89,8 +89,8 @@ SourceFiles
 #ifndef functionObjects_CourantNo_H
 #define functionObjects_CourantNo_H
 
-#include "fieldExpression.H"
-#include "volFields.H"
+#include "fieldExpression/fieldExpression.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

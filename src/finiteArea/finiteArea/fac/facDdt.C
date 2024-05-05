@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "facDdt.H"
-#include "faMesh.H"
-#include "faDdtScheme.H"
+#include "finiteArea/fac/facDdt.H"
+#include "faMesh/faMesh.H"
+#include "finiteArea/ddtSchemes/faDdtScheme/faDdtScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

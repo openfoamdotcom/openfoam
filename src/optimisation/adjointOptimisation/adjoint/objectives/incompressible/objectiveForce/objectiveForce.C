@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectiveForce.H"
-#include "addToRunTimeSelectionTable.H"
+#include "objectives/incompressible/objectiveForce/objectiveForce.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

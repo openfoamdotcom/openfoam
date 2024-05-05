@@ -53,7 +53,7 @@ SourceFiles
 #ifndef JohnsonJacksonParticleThetaFvPatchScalarField_H
 #define JohnsonJacksonParticleThetaFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

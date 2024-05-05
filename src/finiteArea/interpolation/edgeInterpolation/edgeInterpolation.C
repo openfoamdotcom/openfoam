@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMesh.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "demandDrivenData.H"
-#include "faPatchFields.H"
+#include "faMesh/faMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "include/demandDrivenData.H"
+#include "fields/faPatchFields/faPatchField/faPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

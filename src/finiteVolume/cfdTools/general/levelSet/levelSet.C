@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "levelSet.H"
-#include "cut.H"
-#include "polyMeshTetDecomposition.H"
-#include "tetIndices.H"
+#include "cfdTools/general/levelSet/levelSet.H"
+#include "meshes/primitiveShapes/cut/cut.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

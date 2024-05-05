@@ -158,8 +158,8 @@ SourceFiles
 #ifndef functionObjects_fieldAverage_H
 #define functionObjects_fieldAverage_H
 
-#include "fvMeshFunctionObject.H"
-#include "FIFOStack.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "containers/LinkedLists/user/FIFOStack.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -349,7 +349,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldAverageTemplates.C"
+    #include "fieldAverage/fieldAverageTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

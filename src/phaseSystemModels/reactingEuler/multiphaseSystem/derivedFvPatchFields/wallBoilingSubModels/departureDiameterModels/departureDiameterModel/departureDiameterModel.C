@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "departureDiameterModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/departureDiameterModels/departureDiameterModel/departureDiameterModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

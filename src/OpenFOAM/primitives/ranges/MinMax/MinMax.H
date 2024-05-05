@@ -84,11 +84,11 @@ Description
 #ifndef Foam_MinMax_H
 #define Foam_MinMax_H
 
-#include "scalar.H"
-#include "zero.H"
-#include "Pair.H"
-#include "Tuple2.H"
-#include "VectorSpace.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/traits/zero.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/VectorSpace/VectorSpace.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -296,14 +296,14 @@ word name(const MinMax<T>& range)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "MinMaxI.H"
+#include "primitives/ranges/MinMax/MinMaxI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #endif
 
 // Global Functions and Operators
-#include "MinMaxOps.H"
+#include "primitives/ranges/MinMax/MinMaxOps.H"
 
 
 // ************************************************************************* //

@@ -41,7 +41,7 @@ SourceFiles
 #ifndef Foam_ijkMesh_H
 #define Foam_ijkMesh_H
 
-#include "ijkAddressing.H"
+#include "meshes/ijkMesh/ijkAddressing.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -138,7 +138,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ijkMeshI.H"
+#include "meshes/ijkMesh/ijkMeshI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

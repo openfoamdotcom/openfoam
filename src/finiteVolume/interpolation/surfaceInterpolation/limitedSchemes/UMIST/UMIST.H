@@ -43,7 +43,7 @@ SourceFiles
 #ifndef UMIST_H
 #define UMIST_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

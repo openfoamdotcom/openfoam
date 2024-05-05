@@ -41,7 +41,7 @@ SourceFiles
 #ifndef updateableSnGrad_H
 #define updateableSnGrad_H
 
-#include "primitiveFieldsFwd.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

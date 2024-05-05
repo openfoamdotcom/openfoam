@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "crankConRod.H"
-#include "unitConversion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "engineTime/crankConRod/crankConRod.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

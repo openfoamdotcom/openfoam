@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cloudSet.H"
-#include "sampledSet.H"
-#include "meshSearch.H"
-#include "DynamicList.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "word.H"
-#include "DynamicField.H"
+#include "sampledSet/cloud/cloudSet.H"
+#include "sampledSet/sampledSet/sampledSet.H"
+#include "meshSearch/meshSearch.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/strings/word/word.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

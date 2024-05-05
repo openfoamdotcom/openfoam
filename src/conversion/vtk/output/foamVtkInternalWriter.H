@@ -51,9 +51,9 @@ SourceFiles
 #ifndef Foam_vtk_internalWriter_H
 #define Foam_vtk_internalWriter_H
 
-#include "foamVtkInternalMeshWriter.H"
-#include "volFields.H"
-#include "pointFields.H"
+#include "output/vtk/mesh/foamVtkInternalMeshWriter.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,7 +183,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "foamVtkInternalWriterTemplates.C"
+    #include "vtk/output/foamVtkInternalWriterTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

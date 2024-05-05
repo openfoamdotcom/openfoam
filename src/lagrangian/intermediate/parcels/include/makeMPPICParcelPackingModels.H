@@ -31,9 +31,9 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "NoPacking.H"
-#include "Explicit.H"
-#include "Implicit.H"
+#include "submodels/MPPIC/PackingModels/NoPacking/NoPacking.H"
+#include "submodels/MPPIC/PackingModels/Explicit/Explicit.H"
+#include "submodels/MPPIC/PackingModels/Implicit/Implicit.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

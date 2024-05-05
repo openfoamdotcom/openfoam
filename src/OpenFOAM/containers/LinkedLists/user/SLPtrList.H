@@ -34,9 +34,9 @@ Description
 #ifndef Foam_SLPtrList_H
 #define Foam_SLPtrList_H
 
-#include "LPtrList.H"
-#include "SLListBase.H"
-#include "SLPtrListFwd.H"
+#include "containers/LinkedLists/accessTypes/LPtrList/LPtrList.H"
+#include "containers/LinkedLists/linkTypes/SLListBase/SLListBase.H"
+#include "containers/LinkedLists/user/SLPtrListFwd.H"
 
 #endif
 

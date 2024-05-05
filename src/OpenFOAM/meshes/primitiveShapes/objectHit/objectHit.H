@@ -36,8 +36,8 @@ Description
 #ifndef Foam_objectHit_H
 #define Foam_objectHit_H
 
-#include "bool.H"
-#include "label.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

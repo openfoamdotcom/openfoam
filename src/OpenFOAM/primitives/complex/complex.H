@@ -39,10 +39,10 @@ SourceFiles
 #ifndef Foam_primitives_complex_H
 #define Foam_primitives_complex_H
 
-#include "scalar.H"
-#include "word.H"
-#include "zero.H"
-#include "contiguous.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/traits/zero.H"
+#include "primitives/traits/contiguous.H"
 #include <complex>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -373,7 +373,7 @@ word name(const complex& c);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "complexI.H"
+#include "primitives/complex/complexI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

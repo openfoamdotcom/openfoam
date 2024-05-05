@@ -36,9 +36,9 @@ SourceFiles
 #ifndef checkFireEdges_H
 #define checkFireEdges_H
 
-#include "faceList.H"
-#include "labelList.H"
-#include "point.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

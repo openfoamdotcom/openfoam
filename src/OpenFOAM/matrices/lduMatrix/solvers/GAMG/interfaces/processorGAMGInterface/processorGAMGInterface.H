@@ -38,8 +38,8 @@ SourceFiles
 #ifndef processorGAMGInterface_H
 #define processorGAMGInterface_H
 
-#include "GAMGInterface.H"
-#include "processorLduInterface.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterface.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/processorLduInterface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

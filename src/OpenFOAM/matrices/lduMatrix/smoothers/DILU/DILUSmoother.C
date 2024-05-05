@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DILUSmoother.H"
-#include "DILUPreconditioner.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/smoothers/DILU/DILUSmoother.H"
+#include "matrices/lduMatrix/preconditioners/DILUPreconditioner/DILUPreconditioner.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 #include <algorithm>
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "twoDPointCorrector.H"
-#include "polyMesh.H"
-#include "wedgePolyPatch.H"
-#include "emptyPolyPatch.H"
-#include "SubField.H"
-#include "meshTools.H"
-#include "demandDrivenData.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "fields/Fields/Field/SubField.H"
+#include "meshTools/meshTools.H"
+#include "include/demandDrivenData.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

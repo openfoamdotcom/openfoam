@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmetryFaePatchField.H"
+#include "fields/faePatchFields/constraint/symmetry/symmetryFaePatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

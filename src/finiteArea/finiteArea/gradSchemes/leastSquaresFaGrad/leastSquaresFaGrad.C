@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "leastSquaresFaGrad.H"
-#include "leastSquaresFaVectors.H"
-#include "gaussFaGrad.H"
-#include "faMesh.H"
-#include "areaFaMesh.H"
-#include "edgeFaMesh.H"
-#include "GeometricField.H"
-#include "zeroGradientFaPatchField.H"
+#include "finiteArea/gradSchemes/leastSquaresFaGrad/leastSquaresFaGrad.H"
+#include "finiteArea/gradSchemes/leastSquaresFaGrad/leastSquaresFaVectors.H"
+#include "finiteArea/gradSchemes/gaussFaGrad/gaussFaGrad.H"
+#include "faMesh/faMesh.H"
+#include "areaMesh/areaFaMesh.H"
+#include "edgeMesh/edgeFaMesh.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "fields/faPatchFields/basic/zeroGradient/zeroGradientFaPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

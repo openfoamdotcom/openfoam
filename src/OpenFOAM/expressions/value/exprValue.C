@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprValue.H"
-#include "ITstream.H"
-#include "Switch.H"
+#include "expressions/value/exprValue.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "primitives/bools/Switch/Switch.H"
 #include <cstring>  // For memcpy, memset
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

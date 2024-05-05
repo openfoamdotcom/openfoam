@@ -41,8 +41,8 @@ Description
 #ifndef Foam_processorLODs_cellBox
 #define Foam_processorLODs_cellBox
 
-#include "faceBox.H"
-#include "cellList.H"
+#include "processorLOD/faceBox/faceBox.H"
+#include "meshes/meshShapes/cell/cellList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,8 +28,8 @@ License
 #ifndef oversetFvPatchFields_H
 #define oversetFvPatchFields_H
 
-#include "oversetFvPatchField.H"
-#include "fieldTypes.H"
+#include "oversetPolyPatch/oversetFvPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

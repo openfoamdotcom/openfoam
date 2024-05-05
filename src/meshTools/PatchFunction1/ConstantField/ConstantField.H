@@ -50,7 +50,7 @@ SourceFiles
 #ifndef Foam_PatchFunction1Types_ConstantField_H
 #define Foam_PatchFunction1Types_ConstantField_H
 
-#include "PatchFunction1.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -232,10 +232,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ConstantFieldI.H"
+#include "PatchFunction1/ConstantField/ConstantFieldI.H"
 
 #ifdef NoRepository
-    #include "ConstantField.C"
+    #include "PatchFunction1/ConstantField/ConstantField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

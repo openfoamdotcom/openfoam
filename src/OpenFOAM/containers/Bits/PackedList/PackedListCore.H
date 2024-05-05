@@ -37,7 +37,7 @@ SourceFiles
 #ifndef PackedListCore_H
 #define PackedListCore_H
 
-#include "className.H"
+#include "db/typeInfo/className.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

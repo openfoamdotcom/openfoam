@@ -37,7 +37,7 @@ SourceFiles
 #ifndef processorCyclicGAMGInterfaceField_H
 #define processorCyclicGAMGInterfaceField_H
 
-#include "processorGAMGInterfaceField.H"
+#include "matrices/lduMatrix/solvers/GAMG/interfaceFields/processorGAMGInterfaceField/processorGAMGInterfaceField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

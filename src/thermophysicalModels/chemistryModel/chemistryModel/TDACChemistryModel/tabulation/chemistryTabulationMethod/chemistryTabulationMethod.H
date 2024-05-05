@@ -37,10 +37,10 @@ SourceFiles
 #ifndef chemistryTabulationMethod_H
 #define chemistryTabulationMethod_H
 
-#include "IOdictionary.H"
-#include "scalarField.H"
-#include "Switch.H"
-#include "runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -181,8 +181,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "chemistryTabulationMethod.C"
-    #include "chemistryTabulationMethodNew.C"
+    #include "chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethod.C"
+    #include "chemistryModel/TDACChemistryModel/tabulation/chemistryTabulationMethod/chemistryTabulationMethodNew.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

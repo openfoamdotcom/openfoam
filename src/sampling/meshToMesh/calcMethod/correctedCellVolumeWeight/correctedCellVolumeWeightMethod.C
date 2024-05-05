@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correctedCellVolumeWeightMethod.H"
-#include "addToRunTimeSelectionTable.H"
+#include "meshToMesh/calcMethod/correctedCellVolumeWeight/correctedCellVolumeWeightMethod.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

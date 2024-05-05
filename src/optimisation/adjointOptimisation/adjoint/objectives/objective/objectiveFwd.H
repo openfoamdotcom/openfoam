@@ -30,7 +30,7 @@ License
 #ifndef objectiveFwd_H
 #define objectiveFwd_H
 
-#include "fieldTypes.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

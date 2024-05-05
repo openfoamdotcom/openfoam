@@ -42,7 +42,7 @@ SourceFiles
 #ifndef wallPointData_H
 #define wallPointData_H
 
-#include "wallPoint.H"
+#include "cellDist/wallPoint/wallPoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -193,12 +193,12 @@ struct is_contiguous_scalar<wallPointData<Type>> : is_contiguous_scalar<Type>{};
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wallPointData.C"
+    #include "cellDist/wallPoint/wallPointData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "wallPointDataI.H"
+#include "cellDist/wallPoint/wallPointDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

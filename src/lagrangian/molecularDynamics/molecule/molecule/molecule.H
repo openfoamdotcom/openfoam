@@ -40,10 +40,10 @@ SourceFiles
 #ifndef molecule_H
 #define molecule_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
-#include "diagTensor.H"
+#include "particle/particle.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/DiagTensor/diagTensor/diagTensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -394,7 +394,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "moleculeI.H"
+#include "molecule/moleculeI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

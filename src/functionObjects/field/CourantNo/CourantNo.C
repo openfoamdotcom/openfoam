@@ -27,10 +27,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "CourantNo.H"
-#include "surfaceFields.H"
-#include "fvcSurfaceIntegrate.H"
-#include "zeroGradientFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvcSurfaceIntegrate.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

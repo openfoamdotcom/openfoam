@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceCorrectedSnGrad.H"
-#include "volPointInterpolation.H"
-#include "triangle.H"
+#include "finiteVolume/snGradSchemes/faceCorrectedSnGrad/faceCorrectedSnGrad.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

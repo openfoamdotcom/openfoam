@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mappedWallPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mappedPolyPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

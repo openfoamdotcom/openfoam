@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "multiNormal.H"
-#include "mathematicalConstants.H"
-#include "MathFunctions.H"
-#include "ListOps.H"
-#include "addToRunTimeSelectionTable.H"
+#include "multiNormal/multiNormal.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "primitives/functions/Math/MathFunctions.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "velocityLaplacianFvMotionSolver.H"
-#include "motionInterpolation.H"
-#include "motionDiffusivity.H"
-#include "fvmLaplacian.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvOptions.H"
+#include "fvMotionSolvers/velocity/laplacian/velocityLaplacianFvMotionSolver.H"
+#include "motionInterpolation/motionInterpolation/motionInterpolation.H"
+#include "motionDiffusivity/motionDiffusivity/motionDiffusivity.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

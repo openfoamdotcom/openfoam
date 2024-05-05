@@ -40,8 +40,8 @@ SourceFiles
 #ifndef bound_H
 #define bound_H
 
-#include "dimensionedScalar.H"
-#include "volFieldsFwd.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

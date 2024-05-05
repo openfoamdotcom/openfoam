@@ -7,8 +7,8 @@ Description
 #ifndef Tstream_H
 #define Tstream_H
 
-#include "ITstream.H"
-#include "OTstream.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/Tstreams/OTstream.H"
 
 #endif
 

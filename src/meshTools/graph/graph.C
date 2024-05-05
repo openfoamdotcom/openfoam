@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "graph.H"
-#include "OFstream.H"
-#include "IOmanip.H"
-#include "OSspecific.H"
-#include "SubField.H"
+#include "graph/graph.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "include/OSspecific.H"
+#include "fields/Fields/Field/SubField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

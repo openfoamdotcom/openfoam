@@ -49,10 +49,10 @@ SourceFiles
 #ifndef searchableSurfaceCollection_H
 #define searchableSurfaceCollection_H
 
-#include "searchableSurface.H"
-#include "treeBoundBox.H"
-#include "cartesianCS.H"
-#include "UPtrList.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

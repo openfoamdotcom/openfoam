@@ -37,8 +37,8 @@ SourceFiles
 #ifndef boundaryRadiationProperties_H
 #define boundaryRadiationProperties_H
 
-#include "MeshObject.H"
-#include "boundaryRadiationPropertiesPatch.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "submodels/boundaryRadiationProperties/boundaryRadiationPropertiesPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

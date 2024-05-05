@@ -40,7 +40,7 @@ SourceFiles
 #ifndef displacementMethodelasticityMotionSolver_H
 #define displacementMethodelasticityMotionSolver_H
 
-#include "displacementMethod.H"
+#include "displacementMethod/displacementMethod/displacementMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

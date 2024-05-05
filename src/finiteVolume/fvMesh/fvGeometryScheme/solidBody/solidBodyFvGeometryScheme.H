@@ -56,7 +56,7 @@ SourceFiles
 #ifndef solidBodyFvGeometryScheme_H
 #define solidBodyFvGeometryScheme_H
 
-#include "basicFvGeometryScheme.H"
+#include "fvMesh/fvGeometryScheme/basic/basicFvGeometryScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

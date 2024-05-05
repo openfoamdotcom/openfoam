@@ -39,8 +39,8 @@ SourceFiles
 #ifndef Foam_complexVector_H
 #define Foam_complexVector_H
 
-#include "complex.H"
-#include "vector.H"
+#include "primitives/complex/complex.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -50,7 +50,7 @@ namespace Foam
 }
 
 // Functions
-#include "complexVectorI.H"
+#include "primitives/Vector/complex/complexVectorI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

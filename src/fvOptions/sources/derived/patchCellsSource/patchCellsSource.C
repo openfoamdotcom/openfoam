@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchCellsSource.H"
-#include "boundarySourcePatch.H"
-#include "fvMatrices.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/patchCellsSource/patchCellsSource.H"
+#include "derivedFvPatchFields/boundarySourcePatch/boundarySourcePatch.H"
+#include "fvMatrices/fvMatrices.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

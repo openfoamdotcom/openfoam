@@ -37,7 +37,7 @@ SourceFiles
 #ifndef solid_C_H
 #define solid_C_H
 
-#include "solidProperties.H"
+#include "solidProperties/solidProperties/solidProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

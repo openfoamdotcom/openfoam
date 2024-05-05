@@ -184,9 +184,9 @@ SourceFiles
 #ifndef functionObjects_energyTransport_H
 #define functionObjects_energyTransport_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFields.H"
-#include "fvOptionList.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFields.H"
+#include "cfdTools/general/fvOptions/fvOptionList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

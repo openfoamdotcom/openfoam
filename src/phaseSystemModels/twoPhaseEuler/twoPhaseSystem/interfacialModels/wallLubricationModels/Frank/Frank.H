@@ -53,7 +53,7 @@ SourceFiles
 #ifndef Frank_H
 #define Frank_H
 
-#include "wallLubricationModel.H"
+#include "interfacialModels/wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicChemistryModel.H"
-#include "basicThermo.H"
+#include "chemistryModel/basicChemistryModel/basicChemistryModel.H"
+#include "basicThermo/basicThermo.H"
 
 // * * * * * * * * * * * * * * * * Selectors * * * * * * * * * * * * * * * * //
 

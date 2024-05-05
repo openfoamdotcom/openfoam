@@ -46,10 +46,10 @@ SeeAlso
 #ifndef Foam_PatchFunction1_H
 #define Foam_PatchFunction1_H
 
-#include "patchFunction1Base.H"
-#include "coordinateScaling.H"
-#include "Field.H"
-#include "HashPtrTable.H"
+#include "PatchFunction1/PatchFunction1/patchFunction1Base.H"
+#include "PatchFunction1/coordinateScaling/coordinateScaling.H"
+#include "fields/Fields/Field/Field.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -331,8 +331,8 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PatchFunction1.C"
-    #include "PatchFunction1New.C"
+    #include "PatchFunction1/PatchFunction1/PatchFunction1.C"
+    #include "PatchFunction1/PatchFunction1/PatchFunction1New.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

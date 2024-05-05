@@ -39,13 +39,13 @@ SourceFiles
 #ifndef reconstructedDistanceFunction_H
 #define reconstructedDistanceFunction_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "globalIndex.H"
-#include "Map.H"
-#include "zoneDistribute.H"
-#include "dimensionedScalar.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "containers/HashTables/Map/Map.H"
+#include "fvMesh/zoneDistribute/zoneDistribute.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

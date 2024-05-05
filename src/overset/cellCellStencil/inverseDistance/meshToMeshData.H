@@ -39,8 +39,8 @@ SourceFiles
 #ifndef meshToMeshData_H
 #define meshToMeshData_H
 
-#include "point.H"
-#include "tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -232,7 +232,7 @@ template<> struct is_contiguous_label<meshToMeshData> : std::true_type {};
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "meshToMeshDataI.H"
+#include "cellCellStencil/inverseDistance/meshToMeshDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "simpleControl.H"
-#include "TimeOpenFOAM.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

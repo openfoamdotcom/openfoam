@@ -41,11 +41,11 @@ SourceFiles
 #ifndef faAreaMapper_H
 #define faAreaMapper_H
 
-#include "morphFieldMapper.H"
-#include "faMesh.H"
-#include "faceMapper.H"
-#include "HashSet.H"
-#include "mapPolyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/morphFieldMapper.H"
+#include "faMesh/faMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/faceMapper/faceMapper.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

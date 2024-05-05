@@ -41,9 +41,9 @@ SourceFiles
 #ifndef Foam_coupledFvPatchField_H
 #define Foam_coupledFvPatchField_H
 
-#include "LduInterfaceFieldPascal.H"
-#include "fvPatchField.H"
-#include "coupledFvPatch.H"
+#include "matrices/LduMatrixCaseDir/LduMatrix/LduInterfaceField/LduInterfaceFieldPascal.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -280,7 +280,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "coupledFvPatchField.C"
+    #include "fields/fvPatchFields/basic/coupled/coupledFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

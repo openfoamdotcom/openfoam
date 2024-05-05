@@ -37,8 +37,8 @@ SourceFiles
 #ifndef mappedWallPointPatch_H
 #define mappedWallPointPatch_H
 
-#include "wallPointPatch.H"
-#include "mappedWallPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/derived/wall/wallPointPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

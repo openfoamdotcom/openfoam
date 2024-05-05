@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PstreamBuffers.H"
-#include "bitSet.H"
-#include "debug.H"
-#include "registerSwitch.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "global/debug/debug.H"
+#include "global/debug/registerSwitch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

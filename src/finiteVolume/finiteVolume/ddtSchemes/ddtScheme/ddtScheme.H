@@ -41,12 +41,12 @@ SourceFiles
 #ifndef ddtScheme_H
 #define ddtScheme_H
 
-#include "tmp.H"
-#include "dimensionedType.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "memory/tmp/tmp.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -388,7 +388,7 @@ tmp<surfaceScalarField> SS<scalar>::fvcDdtPhiCorr                              \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ddtScheme.C"
+    #include "finiteVolume/ddtSchemes/ddtScheme/ddtScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

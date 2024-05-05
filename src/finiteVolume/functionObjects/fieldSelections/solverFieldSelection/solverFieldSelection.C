@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solverFieldSelection.H"
-#include "fvMesh.H"
-#include "volMesh.H"
-#include "fvPatchField.H"
+#include "functionObjects/fieldSelections/solverFieldSelection/solverFieldSelection.H"
+#include "fvMesh/fvMesh.H"
+#include "volMesh/volMesh.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

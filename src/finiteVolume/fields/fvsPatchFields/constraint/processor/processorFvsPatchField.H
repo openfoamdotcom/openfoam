@@ -37,8 +37,8 @@ SourceFiles
 #ifndef processorFvsPatchField_H
 #define processorFvsPatchField_H
 
-#include "coupledFvsPatchField.H"
-#include "processorFvPatch.H"
+#include "fields/fvsPatchFields/basic/coupled/coupledFvsPatchField.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -153,7 +153,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "processorFvsPatchField.C"
+    #include "fields/fvsPatchFields/constraint/processor/processorFvsPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

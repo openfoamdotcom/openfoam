@@ -42,8 +42,8 @@ SourceFiles
 #ifndef dynamicTopODesignVariables_H
 #define dynamicTopODesignVariables_H
 
-#include "topODesignVariables.H"
-#include "marchingCells.H"
+#include "optimisation/designVariables/topODesignVariables/topODesignVariables.H"
+#include "optimisation/designVariables/topODesignVariables/marchingCells/marchingCells.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

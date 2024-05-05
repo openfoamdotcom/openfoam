@@ -80,7 +80,7 @@ SourceFiles
 #ifndef setAndNormalToFaceZone_H
 #define setAndNormalToFaceZone_H
 
-#include "topoSetFaceZoneSource.H"
+#include "topoSet/faceZoneSources/topoSetFaceZoneSource/topoSetFaceZoneSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

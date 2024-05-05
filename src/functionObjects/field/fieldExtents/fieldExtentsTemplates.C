@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldExtents.H"
-#include "volFields.H"
-#include "boundBox.H"
+#include "fieldExtents/fieldExtents.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

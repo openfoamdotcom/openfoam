@@ -44,7 +44,7 @@ SourceFiles
 #ifndef SuperBee_H
 #define SuperBee_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

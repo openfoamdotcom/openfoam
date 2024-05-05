@@ -69,7 +69,7 @@ SourceFiles
 #ifndef Function1Types_ramp_H
 #define Function1Types_ramp_H
 
-#include "Function1Pascal.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constantViscosity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/filmViscosityModel/constantViscosity/constantViscosity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

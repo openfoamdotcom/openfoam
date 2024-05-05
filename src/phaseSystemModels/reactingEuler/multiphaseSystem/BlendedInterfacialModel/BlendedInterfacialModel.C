@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BlendedInterfacialModel.H"
-#include "fixedValueFvsPatchFields.H"
-#include "surfaceInterpolate.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
+#include "fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

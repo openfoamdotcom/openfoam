@@ -38,7 +38,7 @@ SourceFiles
 #ifndef SortableListEFA_H
 #define SortableListEFA_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -133,7 +133,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SortableListEFA.C"
+    #include "chemistryModel/TDACChemistryModel/reduction/EFA/SortableListEFA.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

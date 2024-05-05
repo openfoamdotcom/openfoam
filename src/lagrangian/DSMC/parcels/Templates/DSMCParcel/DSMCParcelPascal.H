@@ -40,11 +40,11 @@ SourceFiles
 #ifndef DSMCParcel_H
 #define DSMCParcel_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
-#include "contiguous.H"
-#include "DSMCCloudPascal.H"
+#include "particle/particle.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/traits/contiguous.H"
+#include "clouds/Templates/DSMCCloud/DSMCCloudPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -307,12 +307,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DSMCParcelI.H"
+#include "parcels/Templates/DSMCParcel/DSMCParcelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DSMCParcelPascal.C"
+    #include "parcels/Templates/DSMCParcel/DSMCParcelPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

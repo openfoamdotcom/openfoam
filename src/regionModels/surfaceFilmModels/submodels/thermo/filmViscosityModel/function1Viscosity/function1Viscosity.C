@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "function1Viscosity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "submodels/thermo/filmViscosityModel/function1Viscosity/function1Viscosity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

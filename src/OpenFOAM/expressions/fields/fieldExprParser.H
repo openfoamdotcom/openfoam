@@ -34,8 +34,8 @@ Description
 #ifndef expressions_fieldExprParser_H
 #define expressions_fieldExprParser_H
 
-#include "exprScanToken.H"
-#include "fieldExprFwd.H"
+#include "expressions/scanToken/exprScanToken.H"
+#include "expressions/fields/fieldExprFwd.H"
 
 namespace Foam
 {

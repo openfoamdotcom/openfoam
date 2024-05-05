@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "correctedSnGrad.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "linear.H"
-#include "fvcGrad.H"
-#include "gaussGrad.H"
+#include "finiteVolume/snGradSchemes/correctedSnGrad/correctedSnGrad.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "interpolation/surfaceInterpolation/schemes/linear/linear.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

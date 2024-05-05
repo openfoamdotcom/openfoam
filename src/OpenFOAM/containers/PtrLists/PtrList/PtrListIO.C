@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PtrList.H"
-#include "Istream.H"
-#include "INew.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/INew.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

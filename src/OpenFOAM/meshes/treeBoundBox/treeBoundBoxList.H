@@ -4,7 +4,7 @@
 #ifndef FoamCompat_treeBoundBoxList_H
 #define FoamCompat_treeBoundBoxList_H
 
-#include "treeBoundBox.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 #endif
 

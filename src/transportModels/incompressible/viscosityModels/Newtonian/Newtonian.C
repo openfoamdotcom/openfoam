@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Newtonian.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
+#include "viscosityModels/Newtonian/Newtonian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

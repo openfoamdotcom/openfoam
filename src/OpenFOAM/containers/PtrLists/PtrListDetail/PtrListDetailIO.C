@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PtrListDetail.H"
-#include "error.H"
-#include "Ostream.H"
+#include "containers/PtrLists/PtrListDetail/PtrListDetail.H"
+#include "db/error/error.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

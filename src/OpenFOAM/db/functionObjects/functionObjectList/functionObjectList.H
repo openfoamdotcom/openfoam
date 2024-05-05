@@ -81,13 +81,13 @@ SourceFiles
 #ifndef Foam_functionObjectList_H
 #define Foam_functionObjectList_H
 
-#include "PtrList.H"
-#include "functionObject.H"
-#include "SHA1Digest.H"
-#include "HashTable.H"
-#include "IOdictionary.H"
-#include "HashSet.H"
-#include "functionObjectProperties.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "db/functionObjects/functionObject/functionObject.H"
+#include "primitives/hashes/SHA1/SHA1Digest.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/functionObjects/functionObjectProperties/functionObjectProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -61,7 +61,7 @@ SourceFiles
 #ifndef MathFunctions_H
 #define MathFunctions_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

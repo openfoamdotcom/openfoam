@@ -68,12 +68,12 @@ SourceFiles
 #ifndef Foam_regionModels_thermalShellModel_H
 #define Foam_regionModels_thermalShellModel_H
 
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "areaFieldsFwd.H"
-#include "volFieldsFwd.H"
-#include "regionFaModel.H"
-#include "faOptions.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "regionFaModel/regionFaModel.H"
+#include "faOption/faOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

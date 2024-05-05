@@ -78,7 +78,7 @@ SourceFiles
 #ifndef functionObjects_multiRegion_H
 #define functionObjects_multiRegion_H
 
-#include "timeFunctionObject.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

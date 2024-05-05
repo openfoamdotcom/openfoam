@@ -90,7 +90,7 @@ SourceFiles
 #ifndef Foam_cylinderToPoint_H
 #define Foam_cylinderToPoint_H
 
-#include "topoSetPointSource.H"
+#include "topoSet/pointSources/topoSetPointSource/topoSetPointSource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

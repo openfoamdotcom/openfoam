@@ -25,20 +25,20 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRblock.H"
-#include "ListOps.H"
-#include "gradingDescriptors.H"
-#include "objectRegistry.H"
-#include "TimeOpenFOAM.H"
-#include "IOdictionary.H"
-#include "Fstream.H"
-#include "OTstream.H"
-#include "edgeHashes.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "gradingDescriptor/gradingDescriptors.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/Tstreams/OTstream.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
 
-#include "cellModel.H"
-#include "blockMesh.H"
-#include "polyMesh.H"
-#include "searchableSphere.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "blockMesh/blockMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "searchableSurfaces/searchableSphere/searchableSphere.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

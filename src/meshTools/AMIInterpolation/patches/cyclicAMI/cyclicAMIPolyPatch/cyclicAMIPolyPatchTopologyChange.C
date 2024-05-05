@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicAMIPolyPatch.H"
-#include "SubField.H"
-#include "vectorList.H"
-#include "polyTopoChange.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "fields/Fields/Field/SubField.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "polyTopoChange/polyTopoChange.H"
 
 // * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * * //
 

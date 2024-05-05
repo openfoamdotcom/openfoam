@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformMixedFvPatchField.H"
+#include "fields/fvPatchFields/derived/uniformMixed/uniformMixedFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -39,9 +39,9 @@ SourceFiles
 #ifndef Foam_mergedSurf_H
 #define Foam_mergedSurf_H
 
-#include "meshedSurf.H"
-#include "globalIndex.H"
-#include "stdFoam.H"
+#include "meshedSurf/meshedSurf.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "include/stdFoam.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

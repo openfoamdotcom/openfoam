@@ -27,9 +27,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "readFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

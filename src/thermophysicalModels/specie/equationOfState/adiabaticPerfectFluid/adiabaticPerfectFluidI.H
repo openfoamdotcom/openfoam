@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adiabaticPerfectFluid.H"
+#include "equationOfState/adiabaticPerfectFluid/adiabaticPerfectFluid.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

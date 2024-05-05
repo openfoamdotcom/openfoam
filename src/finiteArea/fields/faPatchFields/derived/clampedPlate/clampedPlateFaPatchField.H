@@ -59,7 +59,7 @@ SourceFiles
 #ifndef clampedPlateFaPatchField_H
 #define clampedPlateFaPatchField_H
 
-#include "faPatchField.H"
+#include "fields/faPatchFields/faPatchField/faPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

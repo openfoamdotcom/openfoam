@@ -49,8 +49,8 @@ SourceFiles
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "dictionary.H"
-#include "exprString.H"
+#include "db/dictionary/dictionary.H"
+#include "expressions/exprString/exprString.H"
 
 namespace Foam
 {

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "interpolationCell.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "interpolation/interpolation/interpolationCell/interpolationCell.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

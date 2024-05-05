@@ -48,8 +48,8 @@ SourceFiles
 #ifndef expInterpolation_H
 #define expInterpolation_H
 
-#include "topOInterpolationFunction.H"
-#include "Function1Pascal.H"
+#include "optimisation/designVariables/topODesignVariables/interpolationFunctions/interpolationFunction/topOInterpolationFunction.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

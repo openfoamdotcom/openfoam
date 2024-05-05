@@ -34,9 +34,9 @@ Description
 #ifndef polyModifyPoint_H
 #define polyModifyPoint_H
 
-#include "label.H"
-#include "point.H"
-#include "topoAction.H"
+#include "primitives/ints/label/label.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "polyTopoChange/topoAction/topoAction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

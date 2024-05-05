@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "atmAmbientTurbSource.H"
-#include "volFields.H"
+#include "fvOptions/atmAmbientTurbSource/atmAmbientTurbSource.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * *  Member Functions * * * * * * * * * * * * * //
 

@@ -114,9 +114,9 @@ SourceFiles
 #ifndef externalCoupledTemperatureMixedFvPatchScalarField_H
 #define externalCoupledTemperatureMixedFvPatchScalarField_H
 
-#include "externalCoupledMixedFvPatchFields.H"
-#include "Function1Pascal.H"
-#include "Enum.H"
+#include "externalCoupled/externalCoupledMixed/externalCoupledMixedFvPatchFields.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

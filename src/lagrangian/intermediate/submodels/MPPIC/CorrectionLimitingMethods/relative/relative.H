@@ -45,7 +45,7 @@ SourceFiles
 #ifndef relative_H
 #define relative_H
 
-#include "CorrectionLimitingMethod.H"
+#include "submodels/MPPIC/CorrectionLimitingMethods/CorrectionLimitingMethod/CorrectionLimitingMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

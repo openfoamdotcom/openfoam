@@ -37,7 +37,7 @@ Note
 #ifndef expressions_fieldExprScanner_H
 #define expressions_fieldExprScanner_H
 
-#include "fieldExprFwd.H"
+#include "expressions/fields/fieldExprFwd.H"
 
 namespace Foam
 {

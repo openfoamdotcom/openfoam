@@ -89,8 +89,8 @@ SourceFiles
 #ifndef fv_atmPlantCanopyTSource_H
 #define fv_atmPlantCanopyTSource_H
 
-#include "cellSetOption.H"
-#include "fvMatrices.H"
+#include "cellSetOption/cellSetOption.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

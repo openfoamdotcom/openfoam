@@ -41,10 +41,10 @@ SourceFiles
 #ifndef Foam_polySurface_H
 #define Foam_polySurface_H
 
-#include "objectRegistry.H"
-#include "primitivePatch.H"
-#include "meshedSurf.H"
-#include "polySurfaceFieldsFwd.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "meshedSurf/meshedSurf.H"
+#include "polySurface/fields/polySurfaceFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -463,7 +463,7 @@ polySurface::fieldData<polySurfacePointGeoMesh>() const
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "polySurfaceTemplates.C"
+    #include "polySurface/polySurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

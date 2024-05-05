@@ -38,9 +38,9 @@ SourceFiles
 #ifndef fvcLaplacian_H
 #define fvcLaplacian_H
 
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -241,7 +241,7 @@ namespace fvc
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvcLaplacian.C"
+    #include "finiteVolume/fvc/fvcLaplacian.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

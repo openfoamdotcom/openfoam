@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "semiPermeableBaffleVelocityFvPatchVectorField.H"
-#include "semiPermeableBaffleMassFractionFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "psiReactionThermo.H"
-#include "rhoReactionThermo.H"
+#include "derivedFvPatchFields/semiPermeableBaffle/semiPermeableBaffleVelocity/semiPermeableBaffleVelocityFvPatchVectorField.H"
+#include "derivedFvPatchFields/semiPermeableBaffle/semiPermeableBaffleMassFraction/semiPermeableBaffleMassFractionFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "psiReactionThermo/psiReactionThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

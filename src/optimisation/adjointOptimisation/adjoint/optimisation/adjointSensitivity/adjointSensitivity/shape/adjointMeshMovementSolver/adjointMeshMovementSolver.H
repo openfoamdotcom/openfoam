@@ -52,9 +52,9 @@ SourceFiles
 #ifndef adjointMeshMovementSolver_H
 #define adjointMeshMovementSolver_H
 
-#include "boundaryFieldsFwd.H"
-#include "createZeroField.H"
-#include "variablesSet.H"
+#include "global/boundaryFieldsFwd.H"
+#include "global/createZeroField.H"
+#include "solvers/variablesSet/variablesSet/variablesSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

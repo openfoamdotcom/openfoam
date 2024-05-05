@@ -44,10 +44,10 @@ SourceFiles
 #ifndef directions_H
 #define directions_H
 
-#include "List.H"
-#include "vectorField.H"
-#include "Enum.H"
-#include "point.H"
+#include "containers/Lists/List/List.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "primitives/enums/Enum.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

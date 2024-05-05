@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "vectorTensorTransform.H"
-#include "coupledPolyPatch.H"
+#include "primitives/globalIndexAndTransform/vectorTensorTransform/vectorTensorTransform.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

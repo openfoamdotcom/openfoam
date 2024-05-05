@@ -52,10 +52,10 @@ Description
 #ifndef Foam_ensightFaces_H
 #define Foam_ensightFaces_H
 
-#include "ensightPart.H"
-#include "face.H"
-#include "FixedList.H"
-#include "bitSet.H"
+#include "ensight/part/part/ensightPart.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -286,7 +286,7 @@ Ostream& operator<<(Ostream&, const InfoProxy<ensightFaces>&);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ensightFacesI.H"
+#include "ensight/part/faces/ensightFacesI.H"
 
 #endif
 

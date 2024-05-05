@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PoissonPatchDistMethod.H"
-#include "fvcGrad.H"
-#include "fvmLaplacian.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMesh/wallDist/patchDistMethods/Poisson/PoissonPatchDistMethod.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

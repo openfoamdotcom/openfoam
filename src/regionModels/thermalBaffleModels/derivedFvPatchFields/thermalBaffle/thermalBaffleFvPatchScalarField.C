@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalBaffleFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "emptyPolyPatch.H"
-#include "mappedWallPolyPatch.H"
+#include "derivedFvPatchFields/thermalBaffle/thermalBaffleFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

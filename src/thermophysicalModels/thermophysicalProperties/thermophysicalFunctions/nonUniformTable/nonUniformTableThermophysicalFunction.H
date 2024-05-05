@@ -61,9 +61,9 @@ Usage
 #ifndef nonUniformTableThermophysicalFunction_H
 #define nonUniformTableThermophysicalFunction_H
 
-#include "thermophysicalFunction.H"
-#include "MinMax.H"
-#include "Tuple2.H"
+#include "thermophysicalFunctions/thermophysicalFunction/thermophysicalFunction.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -144,7 +144,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "nonUniformTableThermophysicalFunctionI.H"
+#include "thermophysicalFunctions/nonUniformTable/nonUniformTableThermophysicalFunctionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

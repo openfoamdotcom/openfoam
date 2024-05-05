@@ -98,9 +98,9 @@ SourceFiles
 #ifndef Foam_fa_faceSetOption_H
 #define Foam_fa_faceSetOption_H
 
-#include "faOption.H"
-#include "faceSet.H"
-#include "TimeOpenFOAM.H"
+#include "faOption/faOption.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -257,7 +257,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "faceSetOptionI.H"
+#include "faceSetOption/faceSetOptionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

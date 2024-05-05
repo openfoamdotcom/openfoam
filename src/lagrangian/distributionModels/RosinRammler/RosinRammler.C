@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "RosinRammler.H"
-#include "MathFunctions.H"
-#include "addToRunTimeSelectionTable.H"
+#include "RosinRammler/RosinRammler.H"
+#include "primitives/functions/Math/MathFunctions.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

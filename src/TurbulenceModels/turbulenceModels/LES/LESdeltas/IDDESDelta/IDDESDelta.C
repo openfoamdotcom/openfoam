@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IDDESDelta.H"
-#include "addToRunTimeSelectionTable.H"
-#include "wallDist.H"
-#include "maxDeltaxyz.H"
+#include "LES/LESdeltas/IDDESDelta/IDDESDelta.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "LES/LESdeltas/maxDeltaxyz/maxDeltaxyz.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

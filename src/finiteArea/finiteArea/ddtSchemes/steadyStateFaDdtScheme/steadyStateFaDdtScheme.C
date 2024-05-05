@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "steadyStateFaDdtScheme.H"
-#include "facDiv.H"
-#include "faMatrices.H"
+#include "finiteArea/ddtSchemes/steadyStateFaDdtScheme/steadyStateFaDdtScheme.H"
+#include "finiteArea/fac/facDiv.H"
+#include "faMatrices/faMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

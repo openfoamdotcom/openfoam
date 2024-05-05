@@ -35,8 +35,8 @@ SourceFiles
 #ifndef cellCellStencilObject_H
 #define cellCellStencilObject_H
 
-#include "cellCellStencil.H"
-#include "MeshObject.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencil.H"
+#include "meshes/MeshObject/MeshObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -43,10 +43,10 @@ SourceFiles
 #ifndef solidChemistryModel_H
 #define solidChemistryModel_H
 
-#include "Reaction.H"
-#include "ODESystem.H"
-#include "volFields.H"
-#include "simpleMatrix.H"
+#include "reaction/ReactionsCaseDir/Reaction/Reaction.H"
+#include "ODESystem/ODESystem.H"
+#include "fields/volFields/volFields.H"
+#include "matrices/simpleMatrix/simpleMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -245,12 +245,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solidChemistryModelI.H"
+#include "solidChemistryModel/solidChemistryModelI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "solidChemistryModel.C"
+    #include "solidChemistryModel/solidChemistryModel.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

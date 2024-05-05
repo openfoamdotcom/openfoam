@@ -96,9 +96,9 @@ SourceFiles
 #ifndef atmBoundaryLayerInletKFvPatchScalarField_H
 #define atmBoundaryLayerInletKFvPatchScalarField_H
 
-#include "fvPatchFields.H"
-#include "inletOutletFvPatchFields.H"
-#include "atmBoundaryLayer.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/derived/inletOutlet/inletOutletFvPatchFields.H"
+#include "derivedFvPatchFields/atmBoundaryLayer/atmBoundaryLayer.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

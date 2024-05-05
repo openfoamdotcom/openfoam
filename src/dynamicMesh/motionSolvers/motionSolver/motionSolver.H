@@ -38,11 +38,11 @@ SourceFiles
 #ifndef motionSolver_H
 #define motionSolver_H
 
-#include "IOdictionary.H"
-#include "pointField.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

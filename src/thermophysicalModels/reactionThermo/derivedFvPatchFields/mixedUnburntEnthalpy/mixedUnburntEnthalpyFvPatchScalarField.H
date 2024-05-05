@@ -40,7 +40,7 @@ SourceFiles
 #ifndef mixedUnburntEnthalpyFvPatchScalarField_H
 #define mixedUnburntEnthalpyFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

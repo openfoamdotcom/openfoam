@@ -40,8 +40,8 @@ SourceFiles
 #ifndef cuttingSurface_H
 #define cuttingSurface_H
 
-#include "searchableSurface.H"
-#include "cuttingSurfaceBase.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "surface/cutting/cuttingSurfaceBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

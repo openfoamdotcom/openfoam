@@ -28,8 +28,8 @@ License
 #ifndef fixedNormalSlipPointPatchFields_H
 #define fixedNormalSlipPointPatchFields_H
 
-#include "fixedNormalSlipPointPatchField.H"
-#include "fieldTypes.H"
+#include "fields/pointPatchFields/derived/fixedNormalSlip/fixedNormalSlipPointPatchField.H"
+#include "fields/Fields/fieldTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

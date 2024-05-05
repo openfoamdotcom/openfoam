@@ -38,8 +38,8 @@ SourceFiles
 #ifndef genericPointPatch_H
 #define genericPointPatch_H
 
-#include "facePointPatch.H"
-#include "genericPolyPatch.H"
+#include "meshes/pointMesh/pointPatches/facePointPatch/facePointPatch.H"
+#include "meshes/polyMesh/polyPatches/basic/generic/genericPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

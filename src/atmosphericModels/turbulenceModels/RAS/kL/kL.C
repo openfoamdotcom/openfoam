@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kL.H"
-#include "fvOptions.H"
-#include "bound.H"
-#include "gravityMeshObject.H"
-#include "wallDist.H"
+#include "turbulenceModels/RAS/kL/kL.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

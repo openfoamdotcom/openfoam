@@ -28,8 +28,8 @@ License
 #ifndef Foam_scalarListIOList_H
 #define Foam_scalarListIOList_H
 
-#include "scalarList.H"
-#include "CompactIOList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "db/IOobjects/CompactIOList/CompactIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PhiScheme.H"
-#include "interfaceCompression.H"
+#include "interpolation/surfaceInterpolation/limitedSchemes/PhiScheme/PhiScheme.H"
+#include "interfaceCompression/interfaceCompression.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

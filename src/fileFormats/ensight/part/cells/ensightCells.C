@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightCells.H"
-#include "error.H"
-#include "bitSet.H"
-#include "polyMesh.H"
-#include "cellModel.H"
-#include "manifoldCellsMeshObject.H"
+#include "ensight/part/cells/ensightCells.H"
+#include "db/error/error.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "common/manifoldCellsMeshObject.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

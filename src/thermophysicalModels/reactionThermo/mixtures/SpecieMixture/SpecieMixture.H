@@ -40,8 +40,8 @@ SourceFiles
 #ifndef SpecieMixture_H
 #define SpecieMixture_H
 
-#include "scalar.H"
-#include "volFields.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -258,7 +258,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SpecieMixture.C"
+    #include "mixtures/SpecieMixture/SpecieMixture.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -39,15 +39,15 @@ Note
 #ifndef Foam_fieldTypes_H
 #define Foam_fieldTypes_H
 
-#include "label.H"
-#include "scalar.H"
-#include "vector.H"
-#include "sphericalTensor.H"
-#include "symmTensor.H"
-#include "tensor.H"
-#include "triad.H"
-#include "macros.H"
-#include "wordList.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/triad/triad.H"
+#include "include/macros.H"
+#include "primitives/strings/lists/wordList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

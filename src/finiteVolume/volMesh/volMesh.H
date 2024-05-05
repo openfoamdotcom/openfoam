@@ -35,9 +35,9 @@ Description
 #ifndef volMesh_H
 #define volMesh_H
 
-#include "GeoMesh.H"
-#include "fvMesh.H"
-#include "primitiveMesh.H"
+#include "meshes/GeoMesh/GeoMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
 #include <type_traits>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

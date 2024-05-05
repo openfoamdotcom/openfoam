@@ -40,11 +40,11 @@ SourceFiles
 #ifndef TimeScaleModel_H
 #define TimeScaleModel_H
 
-#include "constants.H"
-#include "Field.H"
-#include "FieldField.H"
-#include "dictionary.H"
-#include "runTimeSelectionTables.H"
+#include "global/constants/constants.H"
+#include "fields/Fields/Field/Field.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "db/dictionary/dictionary.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

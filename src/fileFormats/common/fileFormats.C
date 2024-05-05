@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fileFormats.H"
-#include "dictionary.H"
+#include "common/fileFormats.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

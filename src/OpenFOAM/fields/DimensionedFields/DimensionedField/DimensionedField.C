@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DimensionedField.H"
-#include "dimensionedType.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -606,8 +606,8 @@ COMPUTED_ASSIGNMENT(scalar, /=)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DimensionedFieldIO.C"
-#include "DimensionedFieldNew.C"
-#include "DimensionedFieldFunctions.C"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldIO.C"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldNew.C"
+#include "fields/DimensionedFields/DimensionedField/DimensionedFieldFunctions.C"
 
 // ************************************************************************* //

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef basicFvGeometryScheme_H
 #define basicFvGeometryScheme_H
 
-#include "fvGeometryScheme.H"
+#include "fvMesh/fvGeometryScheme/fvGeometryScheme/fvGeometryScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

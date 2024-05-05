@@ -43,8 +43,8 @@ SourceFiles
 #ifndef Foam_coupledFaPatch_H
 #define Foam_coupledFaPatch_H
 
-#include "lduInterface.H"
-#include "faPatch.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterface.H"
+#include "faMesh/faPatches/faPatch/faPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

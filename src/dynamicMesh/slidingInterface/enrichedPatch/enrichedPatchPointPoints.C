@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "enrichedPatch.H"
-#include "primitiveMesh.H"
-#include "DynamicList.H"
+#include "slidingInterface/enrichedPatch/enrichedPatch.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

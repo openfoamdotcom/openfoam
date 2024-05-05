@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "unwatchedIOdictionary.H"
-#include "objectRegistry.H"
-#include "Pstream.H"
-#include "TimeOpenFOAM.H"
+#include "db/IOobjects/IOdictionary/unwatchedIOdictionary.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -76,7 +76,7 @@ SourceFiles
 
 #pragma once
 
-#include "partitioningModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/partitioningModels/partitioningModel/partitioningModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_patchFunction1Base_H
 #define Foam_patchFunction1Base_H
 
-#include "dictionary.H"
-#include "polyPatch.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

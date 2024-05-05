@@ -38,10 +38,10 @@ SourceFiles
 #ifndef Foam_processorMeshes_H
 #define Foam_processorMeshes_H
 
-#include "PtrList.H"
-#include "fvMesh.H"
-#include "IOobjectList.H"
-#include "labelIOList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fvMesh/fvMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "primitives/ints/lists/labelIOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

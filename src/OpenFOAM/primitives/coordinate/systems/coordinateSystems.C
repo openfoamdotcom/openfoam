@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coordinateSystems.H"
-#include "predicates.H"
-#include "PtrListOps.H"
-#include "TimeOpenFOAM.H"
+#include "primitives/coordinate/systems/coordinateSystems.H"
+#include "primitives/predicates/predicates.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

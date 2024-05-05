@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cpuTimePosix.H"
+#include "cpuTime/cpuTimePosix.H"
 #include <unistd.h>
 
 // * * * * * * * * * * * * * * * Static Members  * * * * * * * * * * * * * * //

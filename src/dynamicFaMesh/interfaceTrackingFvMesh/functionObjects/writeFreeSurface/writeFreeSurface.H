@@ -37,7 +37,7 @@ SourceFiles
 #ifndef Foam_functionObjects_writeFreeSurface_H
 #define Foam_functionObjects_writeFreeSurface_H
 
-#include "fvMeshFunctionObject.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

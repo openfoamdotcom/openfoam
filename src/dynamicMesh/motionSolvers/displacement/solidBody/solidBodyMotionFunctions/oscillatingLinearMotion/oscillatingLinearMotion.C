@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oscillatingLinearMotion.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionSolvers/displacement/solidBody/solidBodyMotionFunctions/oscillatingLinearMotion/oscillatingLinearMotion.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

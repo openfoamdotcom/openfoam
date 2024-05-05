@@ -71,8 +71,8 @@ SourceFiles
 #ifndef Foam_parallelFvGeometryScheme_H
 #define Foam_parallelFvGeometryScheme_H
 
-#include "basicFvGeometryScheme.H"
-#include "coupledPolyPatch.H"
+#include "fvMesh/fvGeometryScheme/basic/basicFvGeometryScheme.H"
+#include "meshes/polyMesh/polyPatches/basic/coupled/coupledPolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

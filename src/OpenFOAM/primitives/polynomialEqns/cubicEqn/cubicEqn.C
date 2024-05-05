@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearEqn.H"
-#include "quadraticEqn.H"
-#include "cubicEqn.H"
+#include "primitives/polynomialEqns/linearEqn/linearEqn.H"
+#include "primitives/polynomialEqns/quadraticEqn/quadraticEqn.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -110,7 +110,7 @@ SourceFiles
 #ifndef plenumPressureFvPatchScalarField_H
 #define plenumPressureFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

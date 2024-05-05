@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "edgeMeshFormat.H"
-#include "IOobject.H"
-#include "IFstream.H"
-#include "clock.H"
-#include "TimeOpenFOAM.H"
-#include "featureEdgeMesh.H"
+#include "edgeMesh/edgeFormats/edgeMesh/edgeMeshFormat.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "global/clock/clock.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "edgeMesh/featureEdgeMesh/featureEdgeMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

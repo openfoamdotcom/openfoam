@@ -91,12 +91,12 @@ SourceFiles
 #ifndef mappedPatchBase_H
 #define mappedPatchBase_H
 
-#include "pointField.H"
-#include "Tuple2.H"
-#include "pointIndexHit.H"
-#include "AMIPatchToPatchInterpolation.H"
-#include "coupleGroupIdentifier.H"
-#include "uniformDimensionedFields.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/tuples/Tuple2.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "AMIInterpolation/AMIInterpolation/AMIPatchToPatchInterpolation.H"
+#include "meshes/Identifiers/patch/coupleGroupIdentifier.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -662,12 +662,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "mappedPatchBaseI.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "mappedPatchBaseTemplates.C"
+    #include "mappedPatches/mappedPolyPatch/mappedPatchBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

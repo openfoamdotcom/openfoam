@@ -39,10 +39,10 @@ SourceFiles
 #ifndef Foam_HashTableCore_H
 #define Foam_HashTableCore_H
 
-#include "label.H"
-#include "uLabel.H"
-#include "className.H"
-#include "nullObject.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "db/typeInfo/className.H"
+#include "primitives/nullObject/nullObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -108,7 +108,7 @@ struct HashTableCore
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "HashTableCoreI.H"
+#include "containers/HashTables/HashTable/HashTableCoreI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

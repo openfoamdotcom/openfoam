@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STLCore.H"
-#include "STLReader.H"
-#include "Fstream.H"
-#include "triSurface.H"
+#include "stl/STLCore.H"
+#include "stl/STLReader.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

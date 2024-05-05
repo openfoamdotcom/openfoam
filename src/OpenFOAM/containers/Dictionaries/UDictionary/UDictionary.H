@@ -39,8 +39,8 @@ Description
 #ifndef Foam_UDictionary_H
 #define Foam_UDictionary_H
 
-#include "DictionaryBase.H"
-#include "UIDLList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/LinkedLists/user/UIDLList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

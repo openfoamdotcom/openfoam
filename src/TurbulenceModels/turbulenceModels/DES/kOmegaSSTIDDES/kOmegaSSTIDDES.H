@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Foam_kOmegaSSTIDDES_H
 #define Foam_kOmegaSSTIDDES_H
 
-#include "kOmegaSSTDES.H"
+#include "DES/kOmegaSSTDES/kOmegaSSTDES.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -165,7 +165,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "kOmegaSSTIDDES.C"
+    #include "DES/kOmegaSSTIDDES/kOmegaSSTIDDES.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

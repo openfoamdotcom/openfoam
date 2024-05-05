@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SubStrings.H"
+#include "primitives/strings/lists/SubStrings.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

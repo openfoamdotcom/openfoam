@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "blockFace.H"
-#include "blockMeshTools.H"
-#include "blockVertex.H"
+#include "blockFaces/blockFace/blockFace.H"
+#include "blockMeshTools/blockMeshTools.H"
+#include "blockVertices/blockVertex/blockVertex.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

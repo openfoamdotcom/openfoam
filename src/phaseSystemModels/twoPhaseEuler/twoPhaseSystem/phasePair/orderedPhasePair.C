@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "orderedPhasePair.H"
-#include "aspectRatioModel.H"
+#include "phasePair/orderedPhasePair.H"
+#include "interfacialModels/aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

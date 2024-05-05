@@ -25,22 +25,22 @@ License
 
 \*----------------------------------------------------------------------------*/
 
-#include "ccmReader.H"
+#include "reader/ccmReader.H"
 
-#include "emptyPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "Fstream.H"
-#include "IOdictionary.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
-#include "ccmBoundaryInfo.H"
-#include "indirectPrimitivePatch.H"
-#include "SortableList.H"
-#include "mergePoints.H"
-#include "bitSet.H"
-#include "ListOps.H"
+#include "reader/ccmBoundaryInfo.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
-#include "ccmInternal.H" // include last to avoid any strange interactions
+#include "common/ccmInternal.H" // include last to avoid any strange interactions
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

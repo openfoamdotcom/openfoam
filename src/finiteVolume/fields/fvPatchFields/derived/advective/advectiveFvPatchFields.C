@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "advectiveFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/derived/advective/advectiveFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

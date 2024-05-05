@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightOutputCloud.H"
-#include "ensightPTraits.H"
-#include "globalIndex.H"
+#include "conversion/ensight/ensightOutputCloud.H"
+#include "ensight/type/ensightPTraits.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

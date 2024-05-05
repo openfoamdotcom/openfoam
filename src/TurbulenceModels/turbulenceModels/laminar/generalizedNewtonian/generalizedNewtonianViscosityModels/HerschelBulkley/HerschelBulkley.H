@@ -38,8 +38,8 @@ SourceFiles
 #ifndef HerschelBulkley_H
 #define HerschelBulkley_H
 
-#include "generalizedNewtonianViscosityModel.H"
-#include "dimensionedScalar.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/generalizedNewtonianViscosityModel/generalizedNewtonianViscosityModel.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

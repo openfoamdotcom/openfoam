@@ -58,12 +58,12 @@ SourceFiles
 #ifndef Foam_tetIndices_H
 #define Foam_tetIndices_H
 
-#include "label.H"
-#include "tetrahedron.H"
-#include "triangle.H"
-#include "polyMesh.H"
-#include "triFace.H"
-#include "face.H"
+#include "primitives/ints/label/label.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "meshes/meshShapes/face/face.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -255,7 +255,7 @@ inline bool operator>=(const tetIndices& a, const tetIndices& b) noexcept
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tetIndicesI.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/tetIndicesI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

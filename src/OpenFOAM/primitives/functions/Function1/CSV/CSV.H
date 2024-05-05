@@ -56,10 +56,10 @@ SourceFiles
 #ifndef Foam_Function1Types_CSV_H
 #define Foam_Function1Types_CSV_H
 
-#include "Function1Pascal.H"
-#include "TableBase.H"
-#include "Tuple2.H"
-#include "labelList.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/functions/Function1/Table/TableBase.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -172,7 +172,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "CSV.C"
+    #include "primitives/functions/Function1/CSV/CSV.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -34,8 +34,8 @@ Description
 #ifndef pointBoundaryMeshMapper_H
 #define pointBoundaryMeshMapper_H
 
-#include "PtrList.H"
-#include "pointPatchMapper.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "meshes/pointMesh/pointMeshMapper/pointPatchMapper.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

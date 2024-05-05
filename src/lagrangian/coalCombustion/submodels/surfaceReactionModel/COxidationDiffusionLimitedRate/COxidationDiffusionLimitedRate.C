@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "COxidationDiffusionLimitedRate.H"
-#include "mathematicalConstants.H"
+#include "submodels/surfaceReactionModel/COxidationDiffusionLimitedRate/COxidationDiffusionLimitedRate.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant;
 

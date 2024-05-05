@@ -100,7 +100,7 @@ SourceFiles
 #ifndef FixedValueConstraint_H
 #define FixedValueConstraint_H
 
-#include "cellSetOption.H"
+#include "cellSetOption/cellSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -170,7 +170,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "FixedValueConstraint.C"
+    #include "constraints/general/fixedValueConstraint/FixedValueConstraint.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

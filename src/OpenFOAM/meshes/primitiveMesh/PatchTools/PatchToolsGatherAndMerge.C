@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "mergePoints.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/meshTools/mergePoints.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshToMesh0.H"
+#include "meshToMesh0/meshToMesh0.H"
 
-#include "treeDataCell.H"
-#include "treeDataFace.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "indexedOctree/treeDataFace.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

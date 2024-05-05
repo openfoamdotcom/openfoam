@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Pstream.H"
-#include "PstreamBuffers.H"
-#include "flipOp.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "primitives/ops/flipOp.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

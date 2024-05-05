@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchEdgeSet.H"
-#include "polyMesh.H"
-#include "addToRunTimeSelectionTable.H"
-#include "searchableSurface.H"
-#include "TimeOpenFOAM.H"
-#include "mergePoints.H"
+#include "sampledSet/patchEdge/patchEdgeSet.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/meshTools/mergePoints.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

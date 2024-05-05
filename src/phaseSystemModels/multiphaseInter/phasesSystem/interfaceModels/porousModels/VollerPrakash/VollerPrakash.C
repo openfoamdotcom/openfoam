@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VollerPrakash.H"
-#include "phasePair.H"
-#include "addToRunTimeSelectionTable.H"
+#include "interfaceModels/porousModels/VollerPrakash/VollerPrakash.H"
+#include "phasePair/phasePair.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

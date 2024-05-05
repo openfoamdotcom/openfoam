@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "regionToCell.H"
-#include "regionSplit.H"
-#include "emptyPolyPatch.H"
-#include "cellSet.H"
-#include "syncTools.H"
-#include "addToRunTimeSelectionTable.H"
+#include "topoSet/cellSources/regionToCell/regionToCell.H"
+#include "regionSplit/regionSplit.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

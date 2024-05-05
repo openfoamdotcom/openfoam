@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "buoyancyTurbSource.H"
-#include "gravityMeshObject.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/buoyancyTurbSource/buoyancyTurbSource.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

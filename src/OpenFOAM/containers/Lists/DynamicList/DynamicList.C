@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DynamicList.H"
-#include "labelRange.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/ranges/labelRange/labelRange.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

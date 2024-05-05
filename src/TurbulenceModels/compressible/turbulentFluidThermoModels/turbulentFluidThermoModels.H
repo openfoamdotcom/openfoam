@@ -25,18 +25,18 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompressibleTurbulenceModelPascal.H"
-#include "compressibleTransportModel.H"
-#include "fluidThermo.H"
-#include "addToRunTimeSelectionTable.H"
-#include "compressible_makeTurbulenceModel.H"
+#include "CompressibleTurbulenceModel/CompressibleTurbulenceModelPascal.H"
+#include "compressibleTransportModel/compressibleTransportModel.H"
+#include "fluidThermo/fluidThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "turbulentFluidThermoModels/compressible_makeTurbulenceModel.H"
 
-#include "ThermalDiffusivity.H"
-#include "EddyDiffusivity.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "EddyDiffusivity/EddyDiffusivity.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

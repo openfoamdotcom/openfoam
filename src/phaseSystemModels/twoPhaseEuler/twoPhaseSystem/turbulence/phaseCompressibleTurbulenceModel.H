@@ -34,10 +34,10 @@ Description
 #ifndef phaseCompressibleTurbulenceModel_H
 #define phaseCompressibleTurbulenceModel_H
 
-#include "phaseCompressibleTurbulenceModelFwd.H"
-#include "PhaseCompressibleTurbulenceModelPascal.H"
-#include "ThermalDiffusivity.H"
-#include "phaseModel.H"
+#include "turbulence/phaseCompressibleTurbulenceModelFwd.H"
+#include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

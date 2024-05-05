@@ -28,8 +28,8 @@ License
 #ifndef Foam_sphericalTensorIOField_H
 #define Foam_sphericalTensorIOField_H
 
-#include "sphericalTensorField.H"
-#include "IOField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorField.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

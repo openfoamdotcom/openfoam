@@ -28,8 +28,8 @@ License
 #ifndef Foam_labelIOList_H
 #define Foam_labelIOList_H
 
-#include "label.H"
-#include "IOList.H"
+#include "primitives/ints/label/label.H"
+#include "db/IOobjects/IOList/IOList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

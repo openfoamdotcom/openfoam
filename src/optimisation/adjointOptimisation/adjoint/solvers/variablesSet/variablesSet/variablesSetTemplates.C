@@ -27,8 +27,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "localIOdictionary.H"
-#include "FieldField.H"
+#include "db/IOobjects/IOdictionary/localIOdictionary.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

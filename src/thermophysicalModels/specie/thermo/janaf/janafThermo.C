@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "janafThermo.H"
-#include "IOstreams.H"
+#include "thermo/janaf/janafThermo.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

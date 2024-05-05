@@ -37,8 +37,8 @@ SourceFiles
 #ifndef cellAspectRatio_H
 #define cellAspectRatio_H
 
-#include "MeshObject.H"
-#include "polyMesh.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

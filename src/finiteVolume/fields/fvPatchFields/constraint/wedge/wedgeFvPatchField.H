@@ -53,8 +53,8 @@ SourceFiles
 #ifndef wedgeFvPatchField_H
 #define wedgeFvPatchField_H
 
-#include "transformFvPatchField.H"
-#include "wedgeFvPatch.H"
+#include "fields/fvPatchFields/basic/transform/transformFvPatchField.H"
+#include "fvMesh/fvPatches/constraint/wedge/wedgeFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -173,7 +173,7 @@ void wedgeFvPatchField<scalar>::evaluate
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wedgeFvPatchField.C"
+    #include "fields/fvPatchFields/constraint/wedge/wedgeFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

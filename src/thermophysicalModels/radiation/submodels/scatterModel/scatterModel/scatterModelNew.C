@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "scatterModel.H"
+#include "db/error/error.H"
+#include "submodels/scatterModel/scatterModel/scatterModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

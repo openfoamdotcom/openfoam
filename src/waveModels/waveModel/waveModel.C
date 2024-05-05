@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "waveModel.H"
-#include "fvMesh.H"
-#include "polyPatch.H"
-#include "gravityMeshObject.H"
-#include "volFields.H"
-#include "fvPatchFields.H"
+#include "waveModel/waveModel.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "fields/volFields/volFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
 
 using namespace Foam::constant;
 

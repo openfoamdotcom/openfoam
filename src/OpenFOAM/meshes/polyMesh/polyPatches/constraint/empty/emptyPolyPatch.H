@@ -37,7 +37,7 @@ SourceFiles
 #ifndef emptyPolyPatch_H
 #define emptyPolyPatch_H
 
-#include "polyPatch.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

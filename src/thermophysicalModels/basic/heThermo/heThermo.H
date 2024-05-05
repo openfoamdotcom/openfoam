@@ -38,7 +38,7 @@ SourceFiles
 #ifndef heThermo_H
 #define heThermo_H
 
-#include "basicMixture.H"
+#include "mixtures/basicMixture/basicMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -351,7 +351,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
 #ifdef NoRepository
-    #include "heThermo.C"
+    #include "heThermo/heThermo.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

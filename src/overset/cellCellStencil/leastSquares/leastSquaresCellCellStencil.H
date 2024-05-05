@@ -42,7 +42,7 @@ SourceFiles
 #ifndef cellCellStencils_leastSquares_H
 #define cellCellStencils_leastSquares_H
 
-#include "inverseDistanceCellCellStencil.H"
+#include "cellCellStencil/inverseDistance/inverseDistanceCellCellStencil.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

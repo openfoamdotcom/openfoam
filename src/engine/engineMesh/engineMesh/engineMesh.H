@@ -37,10 +37,10 @@ SourceFiles
 #ifndef engineMesh_H
 #define engineMesh_H
 
-#include "engineTime.H"
-#include "fvMesh.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "engineTime/engineTime/engineTime.H"
+#include "fvMesh/fvMesh.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

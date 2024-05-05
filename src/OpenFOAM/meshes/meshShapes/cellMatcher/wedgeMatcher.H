@@ -40,7 +40,7 @@ SourceFiles
 #ifndef wedgeMatcher_H
 #define wedgeMatcher_H
 
-#include "cellMatcher.H"
+#include "meshes/meshShapes/cellMatcher/cellMatcher.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

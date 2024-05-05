@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Foam_transformList_H
 #define Foam_transformList_H
 
-#include "transform.H"
-#include "List.H"
-#include "Map.H"
-#include "edgeHashes.H"
-#include "tensorField.H"
+#include "primitives/transform/transform.H"
+#include "containers/Lists/List/List.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "fields/Fields/tensorField/tensorField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -117,7 +117,7 @@ template<> inline void transformList(const tensorField&, EdgeMap<scalar>&) {}
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "transformList.C"
+    #include "fields/Fields/transformList/transformList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

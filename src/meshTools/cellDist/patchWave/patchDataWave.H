@@ -45,10 +45,10 @@ SourceFiles
 #ifndef patchDataWave_H
 #define patchDataWave_H
 
-#include "cellDistFuncs.H"
-#include "FieldField.H"
-#include "UPtrList.H"
-#include "MeshWave.H"
+#include "cellDist/cellDistFuncs.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "algorithms/MeshWave/MeshWave.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -213,7 +213,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "patchDataWave.C"
+    #include "cellDist/patchWave/patchDataWave.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

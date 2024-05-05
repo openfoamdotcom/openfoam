@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "uLabel.H"
+#include "db/error/error.H"
+#include "primitives/ints/uLabel/uLabel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

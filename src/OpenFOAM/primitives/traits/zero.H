@@ -44,7 +44,7 @@ SeeAlso
 #ifndef Foam_zero_H
 #define Foam_zero_H
 
-#include "labelFwd.H"
+#include "primitives/ints/label/labelFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -126,7 +126,7 @@ inline constexpr Istream& operator>>(Istream& is, zero&) noexcept
 
 // Global Operators, Functions
 
-#include "zeroI.H"
+#include "primitives/traits/zeroI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef phaseChange_H
 #define phaseChange_H
 
-#include "IATEsource.H"
+#include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,9 +38,9 @@ SourceFiles
 #ifndef ensightPart_H
 #define ensightPart_H
 
-#include "ensightGeoFile.H"
-#include "labelList.H"
-#include "typeInfo.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

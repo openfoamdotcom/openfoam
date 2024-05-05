@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CSV.H"
-#include "DynamicList.H"
-#include "ListOps.H"
+#include "primitives/functions/Function1/CSV/CSV.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

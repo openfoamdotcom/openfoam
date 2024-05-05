@@ -42,7 +42,7 @@ SourceFiles
 #ifndef Foam_IntRange_H
 #define Foam_IntRange_H
 
-#include "labelFwd.H"
+#include "primitives/ints/label/labelFwd.H"
 #include <iterator>
 #include <type_traits>
 
@@ -638,7 +638,7 @@ inline constexpr bool operator>=
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "IntRangeI.H"
+#include "primitives/ranges/IntRange/IntRangeI.H"
 
 #endif
 

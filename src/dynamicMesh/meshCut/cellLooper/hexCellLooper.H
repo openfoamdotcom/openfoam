@@ -45,8 +45,8 @@ SourceFiles
 #ifndef hexCellLooper_H
 #define hexCellLooper_H
 
-#include "geomCellLooper.H"
-#include "typeInfo.H"
+#include "meshCut/cellLooper/geomCellLooper.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

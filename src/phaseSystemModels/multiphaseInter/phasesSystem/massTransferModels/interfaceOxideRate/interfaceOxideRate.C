@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceOxideRate.H"
-#include "cutCellIso.H"
-#include "volPointInterpolation.H"
-#include "timeVaryingMassSorptionFvPatchScalarField.H"
+#include "massTransferModels/interfaceOxideRate/interfaceOxideRate.H"
+#include "cellCuts/cutCell/cutCellIso.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "derivedFvPatchFields/timeVaryingMassSorption/timeVaryingMassSorptionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

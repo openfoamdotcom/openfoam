@@ -38,7 +38,7 @@ SourceFiles
 #ifndef EulerFaD2dt2Scheme_H
 #define EulerFaD2dt2Scheme_H
 
-#include "faD2dt2Scheme.H"
+#include "finiteArea/d2dt2Schemes/faD2dt2Scheme/faD2dt2Scheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

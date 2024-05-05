@@ -74,7 +74,7 @@ SourceFiles
 #ifndef meltingEvaporationModels_interfaceHeatResistance_H
 #define meltingEvaporationModels_interfaceHeatResistance_H
 
-#include "InterfaceCompositionModelPascal2.H"
+#include "InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal2.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * * * * *//
 

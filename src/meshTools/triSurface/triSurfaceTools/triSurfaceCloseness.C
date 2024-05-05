@@ -25,15 +25,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceTools.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
 
-#include "triSurface.H"
-#include "triSurfaceMesh.H"
-#include "triSurfaceFields.H"
-#include "MeshedSurface.H"
-#include "OFstream.H"
-#include "unitConversion.H"
-#include "meshTools.H"
+#include "triSurface/triSurface.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "global/constants/unitConversion.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

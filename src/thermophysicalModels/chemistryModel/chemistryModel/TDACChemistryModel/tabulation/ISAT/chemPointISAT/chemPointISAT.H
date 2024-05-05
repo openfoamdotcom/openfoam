@@ -452,7 +452,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "chemPointISAT.C"
+    #include "chemistryModel/TDACChemistryModel/tabulation/ISAT/chemPointISAT/chemPointISAT.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "triangleFuncs.H"
-#include "triangle.H"
-#include "treeBoundBox.H"
-#include "SortableList.H"
-#include "boolList.H"
+#include "triSurface/triangleFuncs/triangleFuncs.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "primitives/bools/lists/boolList.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

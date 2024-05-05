@@ -60,10 +60,10 @@ SourceFiles
 #ifndef Foam_GAMGSolver_H
 #define Foam_GAMGSolver_H
 
-#include "GAMGAgglomeration.H"
-#include "lduMatrix.H"
-#include "primitiveFields.H"
-#include "LUscalarMatrix.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "fields/Fields/primitiveFields.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

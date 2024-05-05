@@ -65,8 +65,8 @@ Description
 #ifndef Foam_HashSet_H
 #define Foam_HashSet_H
 
-#include "HashTable.H"
-#include "IndirectList.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -491,7 +491,7 @@ HashSet<Key, Hash> operator-
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "HashSet.C"
+    #include "containers/HashTables/HashSet/HashSet.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

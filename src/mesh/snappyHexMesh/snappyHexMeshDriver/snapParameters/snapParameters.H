@@ -37,9 +37,9 @@ SourceFiles
 #ifndef snapParameters_H
 #define snapParameters_H
 
-#include "dictionary.H"
-#include "scalar.H"
-#include "Switch.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

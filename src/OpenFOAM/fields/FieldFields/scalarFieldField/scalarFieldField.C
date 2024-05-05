@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarFieldField.H"
+#include "fields/FieldFields/scalarFieldField/scalarFieldField.H"
 
 #define TEMPLATE template<template<class> class Field>
-#include "FieldFieldFunctionsM.C"
+#include "fields/FieldFields/FieldField/FieldFieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -199,6 +199,6 @@ BesselFunc(yn)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

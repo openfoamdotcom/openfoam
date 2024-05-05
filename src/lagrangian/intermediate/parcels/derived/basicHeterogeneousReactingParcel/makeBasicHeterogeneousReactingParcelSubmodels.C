@@ -25,30 +25,30 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicHeterogeneousReactingCloud.H"
+#include "clouds/derived/basicHeterogeneousReactingCloud/basicHeterogeneousReactingCloud.H"
 
-#include "makeReactingParcelCloudFunctionObjects.H"
+#include "parcels/include/makeReactingParcelCloudFunctionObjects.H"
 
 // Kinematic
-#include "makeThermoParcelForces.H" // thermo variant
-#include "makeParcelDispersionModels.H"
-#include "makeReactingParcelInjectionModels.H" // Reacting variant
-#include "makeParcelPatchInteractionModels.H"
-#include "makeParcelStochasticCollisionModels.H"
-#include "makeReactingParcelSurfaceFilmModels.H" // Reacting variant
-#include "makeHeterogeneousReactingParcelHeterogeneousReactingModels.H"
+#include "parcels/include/makeThermoParcelForces.H" // thermo variant
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeReactingParcelInjectionModels.H" // Reacting variant
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeParcelStochasticCollisionModels.H"
+#include "parcels/include/makeReactingParcelSurfaceFilmModels.H" // Reacting variant
+#include "parcels/include/makeHeterogeneousReactingParcelHeterogeneousReactingModels.H"
 
 // Thermodynamic
-#include "makeParcelHeatTransferModels.H"
+#include "parcels/include/makeParcelHeatTransferModels.H"
 
 // Reacting
-#include "makeReactingMultiphaseParcelCompositionModels.H"
-#include "makeReactingParcelPhaseChangeModels.H"
+#include "parcels/include/makeReactingMultiphaseParcelCompositionModels.H"
+#include "parcels/include/makeReactingParcelPhaseChangeModels.H"
 
 // MPPIC sub-models
-#include "makeMPPICParcelDampingModels.H"
-#include "makeMPPICParcelIsotropyModels.H"
-#include "makeMPPICParcelPackingModels.H"
+#include "parcels/include/makeMPPICParcelDampingModels.H"
+#include "parcels/include/makeMPPICParcelIsotropyModels.H"
+#include "parcels/include/makeMPPICParcelPackingModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

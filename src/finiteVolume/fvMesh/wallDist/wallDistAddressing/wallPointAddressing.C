@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallPointAddressing.H"
+#include "fvMesh/wallDist/wallDistAddressing/wallPointAddressing.H"
 
 // * * * * * * * * * * * * * * * IOstream Operators  * * * * * * * * * * * * //
 

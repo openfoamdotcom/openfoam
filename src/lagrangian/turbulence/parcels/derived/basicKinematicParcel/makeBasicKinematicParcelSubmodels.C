@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicKinematicCloud.H"
-#include "makeParcelTurbulenceDispersionModels.H"
+#include "clouds/derived/basicKinematicCloud/basicKinematicCloud.H"
+#include "parcels/include/makeParcelTurbulenceDispersionModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

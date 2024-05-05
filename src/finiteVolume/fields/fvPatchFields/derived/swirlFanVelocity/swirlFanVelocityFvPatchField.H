@@ -126,8 +126,8 @@ SourceFiles
 #ifndef swirlFanVelocityFvPatchField_H
 #define swirlFanVelocityFvPatchField_H
 
-#include "fixedJumpFvPatchField.H"
-#include "Function1Pascal.H"
+#include "fields/fvPatchFields/derived/fixedJump/fixedJumpFvPatchField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,8 +40,8 @@ SourceFiles
 #ifndef midPoint_H
 #define midPoint_H
 
-#include "surfaceInterpolationScheme.H"
-#include "volFields.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolationScheme/surfaceInterpolationScheme.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

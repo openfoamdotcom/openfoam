@@ -116,8 +116,8 @@ SourceFiles
 #ifndef sampledMeshedSurface_H
 #define sampledMeshedSurface_H
 
-#include "sampledSurface.H"
-#include "MeshedSurfaces.H"
+#include "sampledSurface/sampledSurface/sampledSurface.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -392,7 +392,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "sampledMeshedSurfaceTemplates.C"
+    #include "sampledSurface/sampledMeshedSurface/sampledMeshedSurfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

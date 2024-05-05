@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "upwindFECCellToFaceStencilObject.H"
+#include "fvMesh/extendedStencil/cellToFace/MeshObjects/upwindFECCellToFaceStencilObject.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

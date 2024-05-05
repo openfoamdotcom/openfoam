@@ -92,9 +92,9 @@ SourceFiles
 #ifndef functionObjects_momentumError_H
 #define functionObjects_momentumError_H
 
-#include "fvMeshFunctionObject.H"
-#include "volFieldsFwd.H"
-#include "zoneSubSet.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "zoneSubSet/zoneSubSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyDegree1.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/multiDimPolyFunctions/polyDegree1.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

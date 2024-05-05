@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "oversetLduInterfaceField.H"
+#include "oversetCoupledPolyPatch/oversetLduInterfaceField/oversetLduInterfaceField.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

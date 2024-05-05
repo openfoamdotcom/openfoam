@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "snappySnapDriver.H"
+#include "snappyHexMeshDriver/snappySnapDriver.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

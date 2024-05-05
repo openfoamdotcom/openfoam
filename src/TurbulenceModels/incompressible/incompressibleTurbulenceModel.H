@@ -39,7 +39,7 @@ SourceFiles
 #define incompressibleTurbulenceModel_H
 
 #include "turbulenceModel.H"
-#include "geometricOneField.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

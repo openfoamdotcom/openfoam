@@ -88,8 +88,8 @@ SourceFiles
 #ifndef Foam_RASModels_EBRSM_H
 #define Foam_RASModels_EBRSM_H
 
-#include "RASModel.H"
-#include "ReynoldsStress.H"
+#include "RAS/RASModel/RASModel.H"
+#include "ReynoldsStress/ReynoldsStress.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -238,7 +238,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "EBRSM.C"
+    #include "RAS/EBRSM/EBRSM.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -48,9 +48,9 @@ SourceFiles
 #ifndef Foam_surfaceLocation_H
 #define Foam_surfaceLocation_H
 
-#include "pointIndexHit.H"
-#include "triangle.H"
-#include "InfoProxy.H"
+#include "meshes/primitiveShapes/objectHit/pointIndexHit.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

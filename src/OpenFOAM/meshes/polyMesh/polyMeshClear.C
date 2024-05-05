@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "primitiveMesh.H"
-#include "globalMeshData.H"
-#include "MeshObject.H"
-#include "indexedOctree.H"
-#include "treeDataCell.H"
-#include "pointMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "meshes/pointMesh/pointMesh.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

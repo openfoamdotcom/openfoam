@@ -26,7 +26,7 @@ See Also
 #ifndef cellModeller_H
 #define cellModeller_H
 
-#include "cellModel.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

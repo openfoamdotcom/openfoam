@@ -46,13 +46,13 @@ SourceFiles
 #ifndef Foam_Field_H
 #define Foam_Field_H
 
-#include "tmp.H"
-#include "direction.H"
-#include "labelList.H"
-#include "keyType.H"
-#include "scalarList.H"
-#include "VectorSpace.H"
-#include "IOobjectOption.H"
+#include "memory/tmp/tmp.H"
+#include "primitives/direction/direction.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/strings/keyType/keyType.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/VectorSpace/VectorSpace.H"
+#include "db/options/IOobjectOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -540,11 +540,11 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "FieldI.H"
-#include "FieldFunctions.H"
+#include "fields/Fields/Field/FieldI.H"
+#include "fields/Fields/Field/FieldFunctions.H"
 
 #ifdef NoRepository
-    #include "Field.C"
+    #include "fields/Fields/Field/Field.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

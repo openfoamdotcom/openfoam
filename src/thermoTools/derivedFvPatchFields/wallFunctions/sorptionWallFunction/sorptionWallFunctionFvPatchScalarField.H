@@ -152,11 +152,11 @@ SourceFiles
 #ifndef Foam_sorptionWallFunctionFvPatchScalarFields_H
 #define Foam_sorptionWallFunctionFvPatchScalarFields_H
 
-#include "fvPatchFields.H"
-#include "fixedGradientFvPatchFields.H"
-#include "wallFunctionCoefficients.H"
-#include "wallFunctionBlenders.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionCoefficients/wallFunctionCoefficients.H"
+#include "derivedFvPatchFields/wallFunctions/wallFunction/wallFunctionBlenders/wallFunctionBlenders.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

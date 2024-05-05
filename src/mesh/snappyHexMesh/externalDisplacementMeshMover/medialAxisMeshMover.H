@@ -47,10 +47,10 @@ SourceFiles
 #ifndef medialAxisMeshMover_H
 #define medialAxisMeshMover_H
 
-#include "externalDisplacementMeshMover.H"
-#include "motionSmootherAlgo.H"
-#include "snappyLayerDriver.H"
-#include "fieldSmoother.H"
+#include "externalDisplacementMeshMover/externalDisplacementMeshMover.H"
+#include "motionSmoother/motionSmootherAlgo.H"
+#include "snappyHexMeshDriver/snappyLayerDriver.H"
+#include "externalDisplacementMeshMover/fieldSmoother/fieldSmoother.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

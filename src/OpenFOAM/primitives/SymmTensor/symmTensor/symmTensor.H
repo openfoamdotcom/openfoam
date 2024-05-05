@@ -44,10 +44,10 @@ SourceFiles
 #ifndef symmTensor_H
 #define symmTensor_H
 
-#include "SymmTensorPascal.H"
-#include "vector.H"
-#include "sphericalTensor.H"
-#include "tensor.H"
+#include "primitives/SymmTensor/SymmTensorPascal.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

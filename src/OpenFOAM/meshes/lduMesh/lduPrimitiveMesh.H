@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_lduPrimitiveMesh_H
 #define Foam_lduPrimitiveMesh_H
 
-#include "lduMesh.H"
-#include "labelList.H"
+#include "meshes/lduMesh/lduMesh.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -333,7 +333,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "lduPrimitiveMeshTemplates.C"
+    #include "meshes/lduMesh/lduPrimitiveMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

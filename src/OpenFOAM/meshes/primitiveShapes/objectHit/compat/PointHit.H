@@ -4,7 +4,7 @@
 #ifndef FoamCompat_PointHit_H
 #define FoamCompat_PointHit_H
 
-#include "pointHit.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
 
 #endif
 

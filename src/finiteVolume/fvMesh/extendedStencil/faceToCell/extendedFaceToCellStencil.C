@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedFaceToCellStencil.H"
+#include "fvMesh/extendedStencil/faceToCell/extendedFaceToCellStencil.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchInjectionBase.H"
-#include "polyMesh.H"
-#include "SubField.H"
-#include "Random.H"
-#include "triangle.H"
-#include "volFields.H"
-#include "polyMeshTetDecomposition.H"
+#include "submodels/Kinematic/InjectionModel/PatchInjection/patchInjectionBase.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fields/Fields/Field/SubField.H"
+#include "primitives/random/Random/Random.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/polyMeshTetDecomposition/polyMeshTetDecomposition.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -54,11 +54,11 @@ SourceFiles
 #ifndef phasePressureModel_H
 #define phasePressureModel_H
 
-#include "RASModel.H"
-#include "eddyViscosity.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "EddyDiffusivity.H"
-#include "reactingEuler_phaseModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "eddyViscosity/eddyViscosity.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "EddyDiffusivity/EddyDiffusivity.H"
+#include "phaseModel/phaseModel/reactingEuler_phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

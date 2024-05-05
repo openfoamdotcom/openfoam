@@ -93,10 +93,10 @@ SourceFiles
 #ifndef functionObjects_fvExpressionField_H
 #define functionObjects_fvExpressionField_H
 
-#include "fvMeshFunctionObject.H"
-#include "volumeExprDriver.H"
-#include "Enum.H"
-#include "dimensionSet.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "expressions/volume/volumeExprDriver.H"
+#include "primitives/enums/Enum.H"
+#include "dimensionSet/dimensionSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,8 +36,8 @@ Description
 #ifndef incompressiblePrimalSolver_H
 #define incompressiblePrimalSolver_H
 
-#include "primalSolver.H"
-#include "incompressibleVars.H"
+#include "solvers/primalSolvers/primalSolver/primalSolver.H"
+#include "solvers/variablesSet/incompressible/incompressibleVars.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

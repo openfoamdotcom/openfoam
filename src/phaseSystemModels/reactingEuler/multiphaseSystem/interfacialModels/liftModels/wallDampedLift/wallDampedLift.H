@@ -36,8 +36,8 @@ SourceFiles
 #ifndef wallDampedLift_H
 #define wallDampedLift_H
 
-#include "liftModel.H"
-#include "wallDampingModel.H"
+#include "interfacialModels/liftModels/liftModel/liftModel.H"
+#include "interfacialModels/wallDampingModels/wallDampingModel/wallDampingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

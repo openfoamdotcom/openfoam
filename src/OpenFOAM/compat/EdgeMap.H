@@ -3,7 +3,7 @@
 #ifndef FoamCompat_EdgeMap_H
 #define FoamCompat_EdgeMap_H
 
-#include "edgeHashes.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
 
 #endif
 

@@ -37,8 +37,8 @@ SourceFiles
 #ifndef LandauTellerReactionRate_H
 #define LandauTellerReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -124,7 +124,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "LandauTellerReactionRateI.H"
+#include "reaction/reactionRate/LandauTellerReactionRate/LandauTellerReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,8 +40,8 @@ SourceFiles
 #ifndef Foam_PtrListDictionary_H
 #define Foam_PtrListDictionary_H
 
-#include "DictionaryBase.H"
-#include "PtrList.H"
+#include "containers/Dictionaries/DictionaryBase/DictionaryBase.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -116,7 +116,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "PtrListDictionary.C"
+    #include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

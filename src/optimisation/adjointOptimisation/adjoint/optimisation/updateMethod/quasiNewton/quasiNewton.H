@@ -39,8 +39,8 @@ SourceFiles
 #ifndef quasiNewton_H
 #define quasiNewton_H
 
-#include "updateMethod.H"
-#include "scalarMatrices.H"
+#include "optimisation/updateMethod/updateMethod/updateMethod.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

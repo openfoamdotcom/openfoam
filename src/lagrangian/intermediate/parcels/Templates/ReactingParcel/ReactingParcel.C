@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ReactingParcel.H"
-#include "specie.H"
-#include "CompositionModel.H"
-#include "PhaseChangeModelPascal.H"
-#include "mathematicalConstants.H"
+#include "parcels/Templates/ReactingParcel/ReactingParcel.H"
+#include "specie/specie.H"
+#include "submodels/Reacting/CompositionModel/CompositionModel/CompositionModel.H"
+#include "submodels/Reacting/PhaseChangeModel/PhaseChangeModel/PhaseChangeModelPascal.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant::mathematical;
 
@@ -667,6 +667,6 @@ void Foam::ReactingParcel<ParcelType>::calc
 
 // * * * * * * * * * * * * * * IOStream operators  * * * * * * * * * * * * * //
 
-#include "ReactingParcelIO.C"
+#include "parcels/Templates/ReactingParcel/ReactingParcelIO.C"
 
 // ************************************************************************* //

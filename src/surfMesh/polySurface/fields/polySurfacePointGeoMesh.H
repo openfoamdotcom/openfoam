@@ -34,8 +34,8 @@ Description
 #ifndef Foam_polySurfacePointGeoMesh_H
 #define Foam_polySurfacePointGeoMesh_H
 
-#include "polySurface.H"
-#include "GeoMesh.H"
+#include "polySurface/polySurface.H"
+#include "meshes/GeoMesh/GeoMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

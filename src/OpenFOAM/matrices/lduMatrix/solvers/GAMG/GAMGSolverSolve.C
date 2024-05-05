@@ -28,9 +28,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GAMGSolver.H"
-#include "SubField.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGSolver.H"
+#include "fields/Fields/Field/SubField.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedCellToCellStencil.H"
+#include "fvMesh/extendedStencil/cellToCell/extendedCellToCellStencil.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

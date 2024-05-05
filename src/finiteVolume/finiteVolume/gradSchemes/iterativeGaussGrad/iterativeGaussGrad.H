@@ -58,7 +58,7 @@ SourceFiles
 #ifndef iterativeGaussGrad_H
 #define iterativeGaussGrad_H
 
-#include "gaussGrad.H"
+#include "finiteVolume/gradSchemes/gaussGrad/gaussGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,7 +156,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "iterativeGaussGrad.C"
+    #include "finiteVolume/gradSchemes/iterativeGaussGrad/iterativeGaussGrad.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,22 +26,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicKinematicMPPICCloud.H"
+#include "clouds/derived/basicKinematicMPPICCloud/basicKinematicMPPICCloud.H"
 
-#include "makeParcelCloudFunctionObjects.H"
+#include "parcels/include/makeParcelCloudFunctionObjects.H"
 
 // Kinematic sub-models
-#include "makeParcelForces.H"
-#include "makeParcelDispersionModels.H"
-#include "makeParcelInjectionModels.H"
-#include "makeParcelPatchInteractionModels.H"
-#include "makeParcelStochasticCollisionModels.H"
-#include "makeParcelSurfaceFilmModels.H"
+#include "parcels/include/makeParcelForces.H"
+#include "parcels/include/makeParcelDispersionModels.H"
+#include "parcels/include/makeParcelInjectionModels.H"
+#include "parcels/include/makeParcelPatchInteractionModels.H"
+#include "parcels/include/makeParcelStochasticCollisionModels.H"
+#include "parcels/include/makeParcelSurfaceFilmModels.H"
 
 // MPPIC sub-models
-#include "makeMPPICParcelDampingModels.H"
-#include "makeMPPICParcelIsotropyModels.H"
-#include "makeMPPICParcelPackingModels.H"
+#include "parcels/include/makeMPPICParcelDampingModels.H"
+#include "parcels/include/makeMPPICParcelIsotropyModels.H"
+#include "parcels/include/makeMPPICParcelPackingModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

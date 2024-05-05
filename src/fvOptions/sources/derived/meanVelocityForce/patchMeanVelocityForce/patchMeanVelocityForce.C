@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "patchMeanVelocityForce.H"
-#include "processorCyclicPolyPatch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/derived/meanVelocityForce/patchMeanVelocityForce/patchMeanVelocityForce.H"
+#include "meshes/polyMesh/polyPatches/constraint/processorCyclic/processorCyclicPolyPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

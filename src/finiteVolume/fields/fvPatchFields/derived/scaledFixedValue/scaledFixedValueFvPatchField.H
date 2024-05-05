@@ -74,8 +74,8 @@ SeeAlso
 #ifndef scaledFixedValueFvPatchField_H
 #define scaledFixedValueFvPatchField_H
 
-#include "fixedValueFvPatchField.H"
-#include "PatchFunction1.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchField.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -220,7 +220,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "scaledFixedValueFvPatchField.C"
+    #include "fields/fvPatchFields/derived/scaledFixedValue/scaledFixedValueFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

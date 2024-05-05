@@ -37,7 +37,7 @@
 // #define HAVE_LIBZ
 
 #ifdef HAVE_LIBZ
-#include "gzstream.h"
+#include "db/IOstreams/gzstream/gzstream.h"
 #include <iostream>
 #include <cstring>  // for memcpy
 

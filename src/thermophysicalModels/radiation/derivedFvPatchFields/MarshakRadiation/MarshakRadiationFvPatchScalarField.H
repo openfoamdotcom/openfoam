@@ -64,7 +64,7 @@ SourceFiles
 #ifndef radiation_MarshakRadiationFvPatchScalarField_H
 #define radiation_MarshakRadiationFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

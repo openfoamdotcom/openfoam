@@ -56,6 +56,6 @@ surfaceScalarField faceMask
     localMin<scalar>(mesh).interpolate(cellMask)
 );
 
-#include "setCellMask.H"
+#include "include/setCellMask.H"
 
 // ************************************************************************* //

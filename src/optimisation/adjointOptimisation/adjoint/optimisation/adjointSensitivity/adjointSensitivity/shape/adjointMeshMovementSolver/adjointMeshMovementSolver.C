@@ -27,14 +27,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointMeshMovementSolver.H"
-#include "adjointEikonalSolver.H"
-#include "adjointSolver.H"
-#include "fvc.H"
-#include "fvm.H"
-#include "ShapeSensitivitiesBase.H"
-#include "reverseLinear.H"
-#include "volFieldsFwd.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/adjointMeshMovementSolver/adjointMeshMovementSolver.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/adjointEikonalSolver/adjointEikonalSolver.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "finiteVolume/fvm/fvm.H"
+#include "optimisation/adjointSensitivity/adjointSensitivity/shape/shapeSensitivityBase/ShapeSensitivitiesBase.H"
+#include "interpolation/surfaceInterpolation/schemes/reverseLinear/reverseLinear.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

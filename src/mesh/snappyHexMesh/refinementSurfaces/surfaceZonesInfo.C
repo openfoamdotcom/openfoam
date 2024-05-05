@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceZonesInfo.H"
-#include "searchableSurface.H"
-#include "searchableSurfaces.H"
-#include "polyMesh.H"
-#include "dictionary.H"
+#include "refinementSurfaces/surfaceZonesInfo.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
+#include "db/error/error.H"
 // <algorithm> already included by stdFoam.H
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

@@ -40,10 +40,10 @@ SourceFiles
 #ifndef Foam_polyBoundaryMesh_H
 #define Foam_polyBoundaryMesh_H
 
-#include "regIOobject.H"
-#include "polyPatch.H"
-#include "labelPair.H"
-#include "HashSet.H"
+#include "db/regIOobject/regIOobject.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "primitives/tuples/labelPair.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -427,7 +427,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "polyBoundaryMeshTemplates.C"
+    #include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -57,19 +57,19 @@ SourceFiles
 #ifndef KinematicCloud_H
 #define KinematicCloud_H
 
-#include "particle.H"
-#include "CloudPascal.H"
-#include "kinematicCloud.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "Random.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "fvMatrices.H"
-#include "cloudSolution.H"
+#include "particle/particle.H"
+#include "Cloud/CloudPascal.H"
+#include "clouds/baseClasses/kinematicCloud/kinematicCloud.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/random/Random/Random.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fvMatrices/fvMatrices.H"
+#include "clouds/Templates/KinematicCloud/cloudSolution/cloudSolution.H"
 
-#include "ParticleForceList.H"
-#include "CloudFunctionObjectList.H"
+#include "submodels/ForceTypes/ParticleForceList/ParticleForceList.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObjectList/CloudFunctionObjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -720,12 +720,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "KinematicCloudI.H"
+#include "clouds/Templates/KinematicCloud/KinematicCloudI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "KinematicCloudPascal.C"
+    #include "clouds/Templates/KinematicCloud/KinematicCloudPascal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

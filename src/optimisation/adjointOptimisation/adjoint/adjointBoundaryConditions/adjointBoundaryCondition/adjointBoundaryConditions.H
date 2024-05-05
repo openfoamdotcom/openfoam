@@ -29,8 +29,8 @@ License
 #ifndef adjointBoundaryConditions_H
 #define adjointBoundaryConditions_H
 
-#include "adjointBoundaryCondition.H"
-#include "adjointBoundaryConditionsFwd.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryCondition.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryConditionsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

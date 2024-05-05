@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "exprResult.H"
-#include "vector.H"
-#include "tensor.H"
-#include "symmTensor.H"
-#include "sphericalTensor.H"
-#include "Switch.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/exprResult/exprResult.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/SphericalTensor/sphericalTensor/sphericalTensor.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightOutput.H"
-#include "ensightPTraits.H"
-#include "globalIndex.H"
+#include "ensight/output/ensightOutput.H"
+#include "ensight/type/ensightPTraits.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

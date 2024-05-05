@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interRegionExplicitPorositySource.H"
-#include "fvMesh.H"
-#include "fvMatrices.H"
-#include "porosityModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "sources/interRegion/interRegionExplicitPorositySource/interRegionExplicitPorositySource.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMatrices/fvMatrices.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

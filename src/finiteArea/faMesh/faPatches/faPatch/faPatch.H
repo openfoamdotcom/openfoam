@@ -45,14 +45,14 @@ SourceFiles
 #ifndef Foam_faPatch_H
 #define Foam_faPatch_H
 
-#include "patchIdentifier.H"
-#include "labelList.H"
-#include "pointField.H"
-#include "typeInfo.H"
-#include "PtrList.H"
-#include "faPatchFieldsFwd.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "meshes/Identifiers/patch/patchIdentifier.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "db/typeInfo/typeInfo.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/faPatchFields/faPatchField/faPatchFieldsFwd.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -503,7 +503,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "faPatchTemplates.C"
+    #include "faMesh/faPatches/faPatch/faPatchTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

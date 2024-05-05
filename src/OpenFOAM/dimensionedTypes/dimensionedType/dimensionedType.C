@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionedType.H"
-#include "dictionary.H"
+#include "dimensionedTypes/dimensionedType/dimensionedType.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

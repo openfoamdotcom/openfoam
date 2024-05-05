@@ -44,8 +44,8 @@ Description
 #ifndef polyline_H
 #define polyline_H
 
-#include "extrudeModel.H"
-#include "blockEdgeList.H"
+#include "extrudeModel/extrudeModel.H"
+#include "blockEdges/blockEdge/blockEdgeList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

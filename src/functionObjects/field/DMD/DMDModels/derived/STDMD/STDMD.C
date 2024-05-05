@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "STDMD.H"
-#include "EigenMatrix.H"
-#include "QRMatrix.H"
-#include "addToRunTimeSelectionTable.H"
+#include "DMD/DMDModels/derived/STDMD/STDMD.H"
+#include "matrices/EigenMatrix/EigenMatrix.H"
+#include "matrices/QRMatrix/QRMatrix.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant::mathematical;
 

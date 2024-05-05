@@ -43,9 +43,9 @@ SourceFiles
 #ifndef Foam_List_H
 #define Foam_List_H
 
-#include "autoPtr.H"
-#include "UList.H"
-#include "SLListFwd.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "containers/Lists/List/UList.H"
+#include "containers/LinkedLists/user/SLListFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -460,13 +460,13 @@ void sortedOrder
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ListI.H"
+#include "containers/Lists/List/ListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "List.C"
-    #include "ListIO.C"
+    #include "containers/Lists/List/List.C"
+    #include "containers/Lists/List/ListIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

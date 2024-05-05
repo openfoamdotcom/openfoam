@@ -43,13 +43,13 @@ SourceFiles
 #ifndef Foam_triFace_H
 #define Foam_triFace_H
 
-#include "FixedList.H"
-#include "edgeList.H"
-#include "pointHit.H"
-#include "intersection.H"
-#include "pointField.H"
-#include "triangle.H"
-#include "ListListOps.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/primitiveShapes/objectHit/pointHit.H"
+#include "meshes/primitiveShapes/triangle/intersection.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -436,10 +436,10 @@ inline bool operator!=(const triFace& a, const triFace& b);
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "triFaceI.H"
+#include "meshes/meshShapes/triFace/triFaceI.H"
 
 #ifdef NoRepository
-    #include "triFaceTemplates.C"
+    #include "meshes/meshShapes/triFace/triFaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

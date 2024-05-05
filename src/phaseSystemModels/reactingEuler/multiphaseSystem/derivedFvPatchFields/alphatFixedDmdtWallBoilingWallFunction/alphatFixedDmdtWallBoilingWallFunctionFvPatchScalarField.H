@@ -79,7 +79,7 @@ SourceFiles
 #ifndef alphatFixedDmdtWallBoilingWallFunctionFvPatchScalarField_H
 #define alphatFixedDmdtWallBoilingWallFunctionFvPatchScalarField_H
 
-#include "alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField.H"
+#include "derivedFvPatchFields/alphatPhaseChangeJayatillekeWallFunction/alphatPhaseChangeJayatillekeWallFunctionFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

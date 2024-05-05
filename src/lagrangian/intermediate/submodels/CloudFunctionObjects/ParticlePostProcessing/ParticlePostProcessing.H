@@ -93,9 +93,9 @@ SourceFiles
 #ifndef Foam_ParticlePostProcessing_H
 #define Foam_ParticlePostProcessing_H
 
-#include "CloudFunctionObject.H"
-#include "writeFile.H"
-#include "cloudFunctionObjectTools.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
+#include "db/functionObjects/writeFile/writeFile.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/cloudFunctionObjectTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -220,7 +220,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "ParticlePostProcessing.C"
+    #include "submodels/CloudFunctionObjects/ParticlePostProcessing/ParticlePostProcessing.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

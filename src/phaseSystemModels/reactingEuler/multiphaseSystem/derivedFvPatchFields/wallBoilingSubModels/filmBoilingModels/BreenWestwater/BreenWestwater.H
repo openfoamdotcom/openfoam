@@ -70,7 +70,7 @@ SourceFiles
 #ifndef BreenWestwater_H
 #define BreenWestwater_H
 
-#include "filmBoilingModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/filmBoilingModels/filmBoilingModel/filmBoilingModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

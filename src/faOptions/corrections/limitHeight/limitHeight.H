@@ -72,7 +72,7 @@ SourceFiles
 #ifndef fa_limitHeight_H
 #define fa_limitHeight_H
 
-#include "faceSetOption.H"
+#include "faceSetOption/faceSetOption.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

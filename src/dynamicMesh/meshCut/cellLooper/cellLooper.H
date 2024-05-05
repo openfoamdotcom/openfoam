@@ -51,11 +51,11 @@ SourceFiles
 #ifndef cellLooper_H
 #define cellLooper_H
 
-#include "edgeVertex.H"
-#include "vector.H"
-#include "boolList.H"
-#include "scalarField.H"
-#include "DynamicList.H"
+#include "meshCut/edgeVertex/edgeVertex.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/bools/lists/boolList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

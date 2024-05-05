@@ -46,9 +46,9 @@ SourceFiles
 #ifndef functionObjects_runTimeControl_H
 #define functionObjects_runTimeControl_H
 
-#include "fvMeshFunctionObject.H"
-#include "Map.H"
-#include "Enum.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

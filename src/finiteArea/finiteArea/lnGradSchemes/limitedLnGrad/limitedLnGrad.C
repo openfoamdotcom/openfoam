@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fa.H"
-#include "limitedLnGrad.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "correctedLnGrad.H"
+#include "finiteArea/fa/fa.H"
+#include "finiteArea/lnGradSchemes/limitedLnGrad/limitedLnGrad.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "finiteArea/lnGradSchemes/correctedLnGrad/correctedLnGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

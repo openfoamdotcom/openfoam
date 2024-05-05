@@ -104,7 +104,7 @@ SourceFiles
 #ifndef heatTransferCoeffModels_ReynoldsAnalogy_H
 #define heatTransferCoeffModels_ReynoldsAnalogy_H
 
-#include "heatTransferCoeffModel.H"
+#include "heatTransferCoeff/heatTransferCoeffModels/heatTransferCoeffModel/heatTransferCoeffModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

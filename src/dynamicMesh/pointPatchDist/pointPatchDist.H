@@ -38,7 +38,7 @@ SourceFiles
 #ifndef pointPatchDist_H
 #define pointPatchDist_H
 
-#include "pointFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

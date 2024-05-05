@@ -118,7 +118,7 @@ SourceFiles
 #ifndef distributionModels_exponential_H
 #define distributionModels_exponential_H
 
-#include "distributionModel.H"
+#include "distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

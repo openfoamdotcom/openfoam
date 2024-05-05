@@ -38,9 +38,9 @@ SourceFiles
 #ifndef facD2dt2_H
 #define facD2dt2_H
 
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "dimensionedTypes.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "dimensionedTypes/dimensionedTypes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

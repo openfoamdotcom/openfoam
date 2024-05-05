@@ -90,12 +90,12 @@ SourceFiles
 #ifndef Foam_HashTable_H
 #define Foam_HashTable_H
 
-#include "stdFoam.H"
-#include "word.H"
-#include "zero.H"
-#include "Hash.H"
-#include "HashTableDetail.H"
-#include "HashTableCore.H"
+#include "include/stdFoam.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/traits/zero.H"
+#include "primitives/hashes/Hash/Hash.H"
+#include "containers/HashTables/HashTable/HashTableDetail.H"
+#include "containers/HashTables/HashTable/HashTableCore.H"
 
 #include <iterator>
 
@@ -1033,14 +1033,14 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "HashTableI.H"
-#include "HashTableIterI.H"
+#include "containers/HashTables/HashTable/HashTableI.H"
+#include "containers/HashTables/HashTable/HashTableIterI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifndef NoHashTableC  // Excluded from token.H
 #ifdef NoRepository
-    #include "HashTable.C"
+    #include "containers/HashTables/HashTable/HashTable.C"
 #endif
 #endif
 

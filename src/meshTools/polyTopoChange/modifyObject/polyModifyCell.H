@@ -34,8 +34,8 @@ Description
 #ifndef polyModifyCell_H
 #define polyModifyCell_H
 
-#include "label.H"
-#include "topoAction.H"
+#include "primitives/ints/label/label.H"
+#include "polyTopoChange/topoAction/topoAction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

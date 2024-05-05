@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "preserveBafflesConstraint.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
-#include "localPointRegion.H"
+#include "decompositionConstraints/preserveBaffles/preserveBafflesConstraint.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "regionSplit/localPointRegion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

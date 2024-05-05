@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "NonSphereDragForce.H"
+#include "submodels/Kinematic/ParticleForces/Drag/NonSphereDrag/NonSphereDragForce.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

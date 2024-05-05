@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "forces.H"
-#include "fvcGrad.H"
-#include "porosityModel.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "cartesianCS.H"
-#include "addToRunTimeSelectionTable.H"
+#include "forces/forces.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "cfdTools/general/porosityModel/porosityModel/porosityModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

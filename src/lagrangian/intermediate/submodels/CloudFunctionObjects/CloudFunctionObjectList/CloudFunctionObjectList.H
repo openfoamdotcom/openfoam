@@ -39,8 +39,8 @@ SourceFiles
 #ifndef CloudFunctionObjectList_H
 #define CloudFunctionObjectList_H
 
-#include "PtrList.H"
-#include "CloudFunctionObject.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObject/CloudFunctionObject.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -156,10 +156,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CloudFunctionObjectListI.H"
+#include "submodels/CloudFunctionObjects/CloudFunctionObjectList/CloudFunctionObjectListI.H"
 
 #ifdef NoRepository
-    #include "CloudFunctionObjectList.C"
+    #include "submodels/CloudFunctionObjects/CloudFunctionObjectList/CloudFunctionObjectList.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

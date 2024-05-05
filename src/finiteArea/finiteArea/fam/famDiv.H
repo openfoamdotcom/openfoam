@@ -38,10 +38,10 @@ SourceFiles
 #ifndef famDiv_H
 #define famDiv_H
 
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "edgeInterpolationScheme.H"
-#include "faMatrix.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "interpolation/edgeInterpolation/edgeInterpolationScheme/edgeInterpolationScheme.H"
+#include "faMatrices/faMatrix/faMatrix.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -93,10 +93,10 @@ namespace fam
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Template specialisation
-#include "vectorFamDiv.H"
+#include "finiteArea/fam/vectorFamDiv.H"
 
 #ifdef NoRepository
-    #include "famDiv.C"
+    #include "finiteArea/fam/famDiv.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -40,9 +40,9 @@ SourceFiles
 #ifndef Foam_fvMeshSubsetProxy_H
 #define Foam_fvMeshSubsetProxy_H
 
-#include "fvMeshSubset.H"
-#include "wordRes.H"
-#include "zeroGradientFvPatchField.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -292,7 +292,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fvMeshSubsetProxyTemplates.C"
+    #include "fvMesh/fvMeshSubset/fvMeshSubsetProxyTemplates.C"
 #endif
 
 #endif

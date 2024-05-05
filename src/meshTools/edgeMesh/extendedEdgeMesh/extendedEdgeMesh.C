@@ -26,17 +26,17 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extendedEdgeMesh.H"
-#include "surfaceFeatures.H"
-#include "triSurface.H"
-#include "Random.H"
-#include "TimeOpenFOAM.H"
-#include "OBJstream.H"
-#include "DynamicField.H"
-#include "edgeMeshFormatsCore.H"
-#include "IOmanip.H"
-#include "searchableSurface.H"
-#include "triSurfaceMesh.H"
+#include "edgeMesh/extendedEdgeMesh/extendedEdgeMesh.H"
+#include "triSurface/surfaceFeatures/surfaceFeatures.H"
+#include "triSurface/triSurface.H"
+#include "primitives/random/Random/Random.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "obj/OBJstream.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "edgeMesh/edgeFormats/edgeMeshFormatsCore.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

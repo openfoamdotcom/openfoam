@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "GeometricSphericalTensorField.H"
-#include "sphericalTensorFieldField.H"
+#include "fields/GeometricFields/GeometricSphericalTensorField/GeometricSphericalTensorField.H"
+#include "fields/FieldFields/sphericalTensorFieldField/sphericalTensorFieldField.H"
 
 #define TEMPLATE template<template<class> class PatchField, class GeoMesh>
-#include "GeometricFieldFunctionsM.C"
+#include "fields/GeometricFields/GeometricField/GeometricFieldFunctionsM.C"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 
@@ -82,6 +82,6 @@ BINARY_TYPE_OPERATOR(sphericalTensor, scalar, sphericalTensor, /, '|', divide)
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "undefFieldFunctionsM.H"
+#include "fields/Fields/Field/undefFieldFunctionsM.H"
 
 // ************************************************************************* //

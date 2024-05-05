@@ -72,10 +72,10 @@ SourceFiles
 #ifndef Foam_surfaceWriters_x3dWriter_H
 #define Foam_surfaceWriters_x3dWriter_H
 
-#include "surfaceWriter.H"
-#include "X3DsurfaceFormatCore.H"
-#include "colourTable.H"
-#include "MinMax.H"
+#include "writers/common/surfaceWriter.H"
+#include "surfaceFormats/x3d/X3DsurfaceFormatCore.H"
+#include "colours/colourTable.H"
+#include "primitives/ranges/MinMax/MinMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,34 +25,34 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "thermoPhysicsTypes.H"
+#include "include/thermoPhysicsTypes.H"
 
-#include "rhoConst.H"
-#include "perfectFluid.H"
-#include "Boussinesq.H"
+#include "equationOfState/rhoConst/rhoConst.H"
+#include "equationOfState/perfectFluid/perfectFluid.H"
+#include "equationOfState/Boussinesq/Boussinesq.H"
 
-#include "pureMixture.H"
-#include "multiComponentMixture.H"
-#include "reactingMixture.H"
-#include "SpecieMixture.H"
+#include "mixtures/pureMixture/pureMixture.H"
+#include "mixtures/multiComponentMixture/multiComponentMixture.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "mixtures/SpecieMixture/SpecieMixture.H"
 
-#include "rhoThermo.H"
-#include "rhoReactionThermo.H"
-#include "heRhoThermo.H"
+#include "rhoThermo/rhoThermo.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
+#include "rhoThermo/heRhoThermo.H"
 
-#include "solidThermo.H"
-#include "heSolidThermo.H"
-#include "solidThermoPhysicsTypes.H"
+#include "solidThermo/solidThermo.H"
+#include "solidThermo/heSolidThermo.H"
+#include "include/solidThermoPhysicsTypes.H"
 
-#include "kineticGasEvaporation.H"
-#include "Lee.H"
-#include "interfaceHeatResistance.H"
-#include "interfaceOxideRate.H"
-#include "diffusionGasEvaporation.H"
+#include "massTransferModels/kineticGasEvaporation/kineticGasEvaporation.H"
+#include "massTransferModels/Lee/Lee.H"
+#include "massTransferModels/interfaceHeatResistance/interfaceHeatResistance.H"
+#include "massTransferModels/interfaceOxideRate/interfaceOxideRate.H"
+#include "massTransferModels/diffusionGasEvaporation/diffusionGasEvaporation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

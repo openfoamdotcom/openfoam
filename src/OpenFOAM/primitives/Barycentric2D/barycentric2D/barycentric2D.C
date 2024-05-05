@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "barycentric2D.H"
-#include "Random.H"
+#include "primitives/Barycentric2D/barycentric2D/barycentric2D.H"
+#include "primitives/random/Random/Random.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

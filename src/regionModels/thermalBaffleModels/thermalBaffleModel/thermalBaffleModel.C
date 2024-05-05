@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermalBaffleModel.H"
-#include "fvMesh.H"
-#include "mappedVariableThicknessWallPolyPatch.H"
-#include "wedgePolyPatch.H"
+#include "thermalBaffleModel/thermalBaffleModel.H"
+#include "fvMesh/fvMesh.H"
+#include "mappedPatches/mappedPolyPatch/mappedVariableThicknessWallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

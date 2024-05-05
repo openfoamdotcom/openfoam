@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "CatmullRomSpline.H"
+#include "blockEdges/splineEdge/CatmullRomSpline.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cuttingSurface.H"
-#include "dictionary.H"
-#include "fvMesh.H"
+#include "surface/cutting/cuttingSurface.H"
+#include "db/dictionary/dictionary.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

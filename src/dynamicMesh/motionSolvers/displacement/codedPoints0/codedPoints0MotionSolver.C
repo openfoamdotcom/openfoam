@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "codedPoints0MotionSolver.H"
-#include "dictionary.H"
-#include "TimeOpenFOAM.H"
-#include "dynamicCode.H"
-#include "addToRunTimeSelectionTable.H"
+#include "motionSolvers/displacement/codedPoints0/codedPoints0MotionSolver.H"
+#include "db/dictionary/dictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/dynamicLibrary/dynamicCode/dynamicCode.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

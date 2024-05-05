@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "AveragingMethod.H"
-#include "runTimeSelectionTables.H"
-#include "pointMesh.H"
+#include "submodels/MPPIC/AveragingMethods/AveragingMethod/AveragingMethod.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "meshes/pointMesh/pointMesh.H"
 
 // * * * * * * * * * * * * Protected Member Functions  * * * * * * * * * * * //
 

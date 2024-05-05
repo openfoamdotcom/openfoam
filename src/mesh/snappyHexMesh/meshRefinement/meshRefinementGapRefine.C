@@ -26,19 +26,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "meshRefinement.H"
-#include "TimeOpenFOAM.H"
-#include "refinementSurfaces.H"
-#include "refinementFeatures.H"
-#include "shellSurfaces.H"
-#include "triSurfaceMesh.H"
-#include "treeDataCell.H"
-#include "searchableSurfaces.H"
-#include "DynamicField.H"
-#include "transportData.H"
-#include "FaceCellWave.H"
-#include "volFields.H"
-#include "zeroGradientFvPatchFields.H"
+#include "meshRefinement/meshRefinement.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "refinementSurfaces/refinementSurfaces.H"
+#include "refinementFeatures/refinementFeatures.H"
+#include "shellSurfaces/shellSurfaces.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "algorithms/indexedOctree/treeDataCell.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "meshRefinement/transportData.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "fields/volFields/volFields.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

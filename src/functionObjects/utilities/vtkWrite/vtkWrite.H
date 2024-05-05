@@ -138,12 +138,12 @@ SourceFiles
 #ifndef Foam_functionObjects_vtkWrite_H
 #define Foam_functionObjects_vtkWrite_H
 
-#include "timeFunctionObject.H"
-#include "foamVtkInternalWriter.H"
-#include "foamVtkPatchWriter.H"
-#include "foamVtkSeriesWriter.H"
-#include "fvMeshSubsetProxy.H"
-#include "searchableSurfaces.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "vtk/output/foamVtkInternalWriter.H"
+#include "vtk/output/foamVtkPatchWriter.H"
+#include "vtk/file/foamVtkSeriesWriter.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubsetProxy.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

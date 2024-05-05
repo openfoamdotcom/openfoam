@@ -40,10 +40,10 @@ SourceFiles
 #ifndef faceCells_H
 #define faceCells_H
 
-#include "zeroATCcells.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "ATCModel/zeroATCcells/zeroATCcells/zeroATCcells.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

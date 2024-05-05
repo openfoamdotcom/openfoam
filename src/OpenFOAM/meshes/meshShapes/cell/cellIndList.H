@@ -29,8 +29,8 @@ License
 #define Foam_cellIndList_H
 
 // Include all normal list typedefs as well
-#include "cellList.H"
-#include "IndirectList.H"
+#include "meshes/meshShapes/cell/cellList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

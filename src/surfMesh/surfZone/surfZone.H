@@ -40,10 +40,10 @@ SourceFiles
 #ifndef surfZone_H
 #define surfZone_H
 
-#include "surfZoneIdentifier.H"
-#include "labelRange.H"
-#include "autoPtr.H"
-#include "dictionary.H"
+#include "meshes/Identifiers/surface/surfZoneIdentifier.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -41,9 +41,9 @@ SourceFiles
 #ifndef tabulated6DoFAcceleration_H
 #define tabulated6DoFAcceleration_H
 
-#include "primitiveFields.H"
-#include "Vector2DPascal.H"
-#include "TimeOpenFOAM.H"
+#include "fields/Fields/primitiveFields.H"
+#include "primitives/Vector2D/Vector2DPascal.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

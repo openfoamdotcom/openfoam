@@ -37,7 +37,7 @@ SourceFiles
 #ifndef solid_ash_H
 #define solid_ash_H
 
-#include "solidProperties.H"
+#include "solidProperties/solidProperties/solidProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

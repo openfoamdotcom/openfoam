@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylindricalRotation.H"
-#include "addToRunTimeSelectionTable.H"
+#include "primitives/coordinate/rotation/cylindricalRotation.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "particleDistribution.H"
-#include "addToRunTimeSelectionTable.H"
-#include "general.H"
-#include "fvMesh.H"
-#include "cloud.H"
+#include "particleDistribution/particleDistribution.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "general/general.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/cloud/cloud.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

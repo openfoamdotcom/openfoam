@@ -37,7 +37,7 @@ SourceFiles
 #ifndef mapPatchChange_H
 #define mapPatchChange_H
 
-#include "labelList.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

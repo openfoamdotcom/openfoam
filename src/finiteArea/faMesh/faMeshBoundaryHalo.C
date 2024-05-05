@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faMeshBoundaryHalo.H"
-#include "faMesh.H"
-#include "globalIndex.H"
-#include "Pstream.H"
+#include "faMesh/faMeshBoundaryHalo.H"
+#include "faMesh/faMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

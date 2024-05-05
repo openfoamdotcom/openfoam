@@ -102,8 +102,8 @@ SourceFiles
 #ifndef turbulentInletFvPatchField_H
 #define turbulentInletFvPatchField_H
 
-#include "Random.H"
-#include "fixedValueFvPatchFields.H"
+#include "primitives/random/Random/Random.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -268,7 +268,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "turbulentInletFvPatchField.C"
+    #include "fields/fvPatchFields/derived/turbulentInlet/turbulentInletFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

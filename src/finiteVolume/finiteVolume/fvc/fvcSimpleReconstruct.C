@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcReconstruct.H"
-#include "fvMesh.H"
-#include "extrapolatedCalculatedFvPatchFields.H"
+#include "finiteVolume/fvc/fvcReconstruct.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/fvPatchFields/basic/extrapolatedCalculated/extrapolatedCalculatedFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

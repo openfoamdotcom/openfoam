@@ -45,16 +45,16 @@ SourceFiles
 #ifndef Foam_UList_H
 #define Foam_UList_H
 
-#include "bool.H"
-#include "label.H"
-#include "uLabel.H"
-#include "zero.H"
-#include "one.H"
-#include "contiguous.H"
-#include "stdFoam.H"
-#include "nullObject.H"
-#include "Hash.H"
-#include "ListPolicy.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/traits/zero.H"
+#include "primitives/traits/one.H"
+#include "primitives/traits/contiguous.H"
+#include "include/stdFoam.H"
+#include "primitives/nullObject/nullObject.H"
+#include "primitives/hashes/Hash/Hash.H"
+#include "containers/Lists/policy/ListPolicy.H"
 
 #include <iterator>
 #include <vector>  // i.e, std::vector
@@ -759,14 +759,14 @@ struct sizeOp
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "UListI.H"
+#include "containers/Lists/List/UListI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "UList.C"
-    #include "UListIO.C"
-    #include "stdVectorIO.C"
+    #include "containers/Lists/List/UList.C"
+    #include "containers/Lists/List/UListIO.C"
+    #include "containers/Lists/List/stdVectorIO.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

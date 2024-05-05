@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "histogramModel.H"
-#include "fvMesh.H"
-#include "ListOps.H"
+#include "histogram/histogramModels/histogramModel/histogramModel.H"
+#include "fvMesh/fvMesh.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

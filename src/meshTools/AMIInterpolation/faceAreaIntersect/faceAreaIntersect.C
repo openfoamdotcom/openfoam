@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceAreaIntersect.H"
+#include "AMIInterpolation/faceAreaIntersect/faceAreaIntersect.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

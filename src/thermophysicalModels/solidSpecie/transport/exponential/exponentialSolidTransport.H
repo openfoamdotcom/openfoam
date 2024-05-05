@@ -178,10 +178,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "exponentialSolidTransportI.H"
+#include "transport/exponential/exponentialSolidTransportI.H"
 
 #ifdef NoRepository
-    #include "exponentialSolidTransport.C"
+    #include "transport/exponential/exponentialSolidTransport.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

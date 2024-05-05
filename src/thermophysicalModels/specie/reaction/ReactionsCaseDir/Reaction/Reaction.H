@@ -40,11 +40,11 @@ SourceFiles
 #ifndef Foam_Reaction_H
 #define Foam_Reaction_H
 
-#include "speciesTable.H"
-#include "HashPtrTable.H"
-#include "scalarField.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
+#include "speciesTable/speciesTable.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -347,12 +347,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "ReactionI.H"
+#include "reaction/ReactionsCaseDir/Reaction/ReactionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "Reaction.C"
+    #include "reaction/ReactionsCaseDir/Reaction/Reaction.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

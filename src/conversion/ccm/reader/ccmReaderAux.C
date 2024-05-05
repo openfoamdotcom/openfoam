@@ -32,9 +32,9 @@ Description
 
 \*----------------------------------------------------------------------------*/
 
-#include "OFstream.H"
-#include "ccmReader.H"
-#include "ccmInternal.H"  // include last to avoid any strange interactions
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "reader/ccmReader.H"
+#include "common/ccmInternal.H"  // include last to avoid any strange interactions
 
 
 // * * * * * * * * * * * * * * * Static Functions  * * * * * * * * * * * * * //

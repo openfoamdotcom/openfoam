@@ -86,9 +86,9 @@ SourceFiles
 
 #pragma once
 
-#include "fvMeshFunctionObject.H"
-#include "surfaceFieldsFwd.H"
-#include "Tuple2.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "primitives/tuples/Tuple2.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -175,7 +175,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "surfaceInterpolateTemplates.C"
+    #include "surfaceInterpolate/surfaceInterpolateTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

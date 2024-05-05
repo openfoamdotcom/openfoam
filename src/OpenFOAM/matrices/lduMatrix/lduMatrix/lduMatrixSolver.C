@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "lduMatrix.H"
-#include "diagonalSolver.H"
-#include "PrecisionAdaptor.H"
+#include "matrices/lduMatrix/lduMatrix/lduMatrix.H"
+#include "matrices/lduMatrix/solvers/diagonalSolver/diagonalSolver.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

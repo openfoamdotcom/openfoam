@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "pointFieldDecomposer.H"
-#include "processorPointPatchFields.H"
+#include "fields/pointPatchFields/constraint/processor/processorPointPatchFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

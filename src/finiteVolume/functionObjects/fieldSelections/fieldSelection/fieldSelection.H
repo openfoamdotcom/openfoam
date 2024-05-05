@@ -42,9 +42,9 @@ SourceFiles
 #ifndef Foam_functionObjects_fieldSelection_H
 #define Foam_functionObjects_fieldSelection_H
 
-#include "fieldInfo.H"
-#include "DynamicList.H"
-#include "HashSet.H"
+#include "functionObjects/fieldSelections/fieldSelection/fieldInfo.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,12 +155,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "fieldSelectionI.H"
+#include "functionObjects/fieldSelections/fieldSelection/fieldSelectionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "fieldSelectionTemplates.C"
+    #include "functionObjects/fieldSelections/fieldSelection/fieldSelectionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ensightCells.H"
-#include "polyMesh.H"
-#include "globalIndex.H"
-#include "globalMeshData.H"
-#include "ListOps.H"
-#include "manifoldCellsMeshObject.H"
+#include "ensight/part/cells/ensightCells.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "common/manifoldCellsMeshObject.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

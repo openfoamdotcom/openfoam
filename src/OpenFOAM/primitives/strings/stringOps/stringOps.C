@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringOps.H"
-#include "typeInfo.H"
-#include "etcFiles.H"
-#include "UPstream.H"
-#include "StringStream.H"
-#include "OSstream.H"
-#include "OSspecific.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/typeInfo/typeInfo.H"
+#include "global/etcFiles/etcFiles.H"
+#include "db/IOstreams/Pstreams/UPstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "db/IOstreams/Sstreams/OSstream.H"
+#include "include/OSspecific.H"
 #include <cctype>
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //

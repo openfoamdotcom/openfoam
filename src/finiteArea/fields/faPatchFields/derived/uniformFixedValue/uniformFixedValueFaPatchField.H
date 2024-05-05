@@ -70,8 +70,8 @@ SourceFiles
 #ifndef Foam_uniformFixedValueFaPatchField_H
 #define Foam_uniformFixedValueFaPatchField_H
 
-#include "fixedValueFaPatchField.H"
-#include "Function1Pascal.H"
+#include "fields/faPatchFields/basic/fixedValue/fixedValueFaPatchField.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -185,7 +185,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "uniformFixedValueFaPatchField.C"
+    #include "fields/faPatchFields/derived/uniformFixedValue/uniformFixedValueFaPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "clock.H"
+#include "global/clock/clock.H"
 
 #include <string>
 #include <sstream>

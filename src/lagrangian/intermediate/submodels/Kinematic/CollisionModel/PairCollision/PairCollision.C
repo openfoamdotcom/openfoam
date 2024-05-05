@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PairCollision.H"
-#include "PairModel.H"
-#include "WallModel.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairCollision.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/PairModel/PairModel/PairModel.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallModel/WallModel/WallModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

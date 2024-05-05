@@ -63,8 +63,8 @@ SourceFiles
 #ifndef Foam_solidIsothermalReactionRate_H
 #define Foam_solidIsothermalReactionRate_H
 
-#include "scalarField.H"
-#include "typeInfo.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -161,7 +161,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "solidIsothermalReactionRateI.H"
+#include "reaction/reactionRate/solidIsothermalReactionRate/solidIsothermalReactionRateI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

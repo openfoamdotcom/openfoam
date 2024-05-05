@@ -25,22 +25,22 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkOutput.H"
+#include "vtk/output/foamVtkOutput.H"
 
-#include "foamVtkFormatter.H"
-#include "foamVtkAsciiFormatter.H"
-#include "foamVtkBase64Formatter.H"
-#include "foamVtkAppendBase64Formatter.H"
-#include "foamVtkAppendRawFormatter.H"
-#include "foamVtkLegacyAsciiFormatter.H"
-#include "foamVtkLegacyRawFormatter.H"
-#include "foamVersion.H"
-#include "typeInfo.H"
-#include "globalIndex.H"
-#include "instant.H"
-#include "Fstream.H"
-#include "Pstream.H"
-#include "OSspecific.H"
+#include "vtk/format/foamVtkFormatter.H"
+#include "vtk/format/foamVtkAsciiFormatter.H"
+#include "vtk/format/foamVtkBase64Formatter.H"
+#include "vtk/format/foamVtkAppendBase64Formatter.H"
+#include "vtk/format/foamVtkAppendRawFormatter.H"
+#include "vtk/format/foamVtkLegacyAsciiFormatter.H"
+#include "vtk/format/foamVtkLegacyRawFormatter.H"
+#include "include/foamVersion.H"
+#include "db/typeInfo/typeInfo.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "db/Time/instant/instant.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * * //
 

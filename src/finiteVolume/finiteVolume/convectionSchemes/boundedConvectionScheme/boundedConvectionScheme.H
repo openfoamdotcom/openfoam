@@ -47,7 +47,7 @@ SourceFiles
 #ifndef boundedConvectionScheme_H
 #define boundedConvectionScheme_H
 
-#include "convectionScheme.H"
+#include "finiteVolume/convectionSchemes/convectionScheme/convectionScheme.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -147,7 +147,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "boundedConvectionScheme.C"
+    #include "finiteVolume/convectionSchemes/boundedConvectionScheme/boundedConvectionScheme.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -41,8 +41,8 @@ SeeAlso
 #ifndef findRefCells_H
 #define findRefCells_H
 
-#include "label.H"
-#include "volFields.H"
+#include "primitives/ints/label/label.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

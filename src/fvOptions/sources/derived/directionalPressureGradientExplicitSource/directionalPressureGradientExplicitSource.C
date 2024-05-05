@@ -25,19 +25,19 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "directionalPressureGradientExplicitSource.H"
-#include "fvMatrices.H"
-#include "DimensionedField.H"
-#include "IFstream.H"
-#include "addToRunTimeSelectionTable.H"
-#include "transform.H"
-#include "surfaceInterpolate.H"
+#include "sources/derived/directionalPressureGradientExplicitSource/directionalPressureGradientExplicitSource.H"
+#include "fvMatrices/fvMatrices.H"
+#include "fields/DimensionedFields/DimensionedField/DimensionedField.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/transform/transform.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 #include "turbulenceModel.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "vectorFieldIOField.H"
-#include "FieldField.H"
-#include "emptyFvPatchFields.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
+#include "fields/FieldFields/FieldField/FieldField.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

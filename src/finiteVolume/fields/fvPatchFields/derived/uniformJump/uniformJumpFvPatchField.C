@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformJumpFvPatchField.H"
+#include "fields/fvPatchFields/derived/uniformJump/uniformJumpFvPatchField.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

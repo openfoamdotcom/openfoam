@@ -37,8 +37,8 @@ SourceFiles
 #ifndef wedgePointPatchField_H
 #define wedgePointPatchField_H
 
-#include "pointPatchField.H"
-#include "wedgePointPatch.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "meshes/pointMesh/pointPatches/constraint/wedge/wedgePointPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -145,7 +145,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "wedgePointPatchField.C"
+    #include "fields/pointPatchFields/constraint/wedge/wedgePointPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

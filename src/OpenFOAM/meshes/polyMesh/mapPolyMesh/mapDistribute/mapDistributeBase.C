@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mapDistributeBase.H"
-#include "bitSet.H"
-#include "commSchedule.H"
-#include "labelPairHashes.H"
-#include "globalIndex.H"
-#include "ListOps.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributeBase.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "parallel/commSchedule/commSchedule.H"
+#include "primitives/tuples/labelPairHashes.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

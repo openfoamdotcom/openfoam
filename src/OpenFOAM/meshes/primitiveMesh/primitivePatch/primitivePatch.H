@@ -47,7 +47,7 @@ Description
 #ifndef Foam_primitivePatch_H
 #define Foam_primitivePatch_H
 
-#include "PrimitivePatchPascal.H"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -55,9 +55,9 @@ SourceFiles
 #ifndef polynomialFunction_H
 #define polynomialFunction_H
 
-#include "scalarList.H"
-#include "Ostream.H"
-#include "runTimeSelectionTables.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

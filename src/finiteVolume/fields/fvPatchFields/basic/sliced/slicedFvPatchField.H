@@ -50,8 +50,8 @@ SourceFiles
 #ifndef Foam_slicedFvPatchField_H
 #define Foam_slicedFvPatchField_H
 
-#include "fvPatchField.H"
-#include "processorFvPatch.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -240,7 +240,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "slicedFvPatchField.C"
+    #include "fields/fvPatchFields/basic/sliced/slicedFvPatchField.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

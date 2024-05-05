@@ -27,10 +27,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "kOmegaSSTBase.H"
-#include "fvOptions.H"
-#include "bound.H"
-#include "wallDist.H"
+#include "Base/kOmegaSST/kOmegaSSTBase.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/bound/bound.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ Description
 #ifndef Foam_ensightPTraits_H
 #define Foam_ensightPTraits_H
 
-#include "fieldTypes.H"
-#include "direction.H"
+#include "fields/Fields/fieldTypes.H"
+#include "primitives/direction/direction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,8 +37,8 @@ Description
 #ifndef Foam_mapClouds_H
 #define Foam_mapClouds_H
 
-#include "cloud.H"
-#include "objectRegistry.H"
+#include "fields/cloud/cloud.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

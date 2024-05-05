@@ -55,7 +55,7 @@ SourceFiles
 #ifndef betaMaxDarcy_H
 #define betaMaxDarcy_H
 
-#include "betaMax.H"
+#include "optimisation/designVariables/topODesignVariables/betaMax/betaMax/betaMax.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

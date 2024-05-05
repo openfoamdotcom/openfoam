@@ -36,7 +36,7 @@ Description
 #ifndef Foam_Instant_H
 #define Foam_Instant_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 #include <utility>  // std::move
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

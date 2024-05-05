@@ -38,9 +38,9 @@ SourceFiles
 #ifndef fv_options_H
 #define fv_options_H
 
-#include "fvOptionList.H"
-#include "IOdictionary.H"
-#include "autoPtr.H"
+#include "cfdTools/general/fvOptions/fvOptionList.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "volumeExprDriver.H"
-#include "volumeExprScanner.H"
-#include "error.H"
-#include "fvPatch.H"
-#include "fvMesh.H"
-#include "className.H"
-#include "addToRunTimeSelectionTable.H"
+#include "expressions/volume/volumeExprDriver.H"
+#include "expressions/volume/volumeExprScanner.H"
+#include "db/error/error.H"
+#include "fvMesh/fvPatches/fvPatch/fvPatch.H"
+#include "fvMesh/fvMesh.H"
+#include "db/typeInfo/className.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

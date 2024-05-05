@@ -34,8 +34,8 @@ Description
 #ifndef Foam_UIDLList_H
 #define Foam_UIDLList_H
 
-#include "UILList.H"
-#include "DLListBase.H"
+#include "containers/LinkedLists/accessTypes/UILList/UILList.H"
+#include "containers/LinkedLists/linkTypes/DLListBase/DLListBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

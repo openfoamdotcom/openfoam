@@ -40,9 +40,9 @@ SourceFiles
 #ifndef NURBS3DCurve_H
 #define NURBS3DCurve_H
 
-#include "NURBSbasis.H"
-#include "vectorField.H"
-#include "OFstream.H"
+#include "parameterization/NURBS/NURBSbasis/NURBSbasis.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

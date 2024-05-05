@@ -36,8 +36,8 @@ SourceFiles
 #ifndef kinematicParcelInjectionDataIOList_H
 #define kinematicParcelInjectionDataIOList_H
 
-#include "GlobalIOList.H"
-#include "kinematicParcelInjectionData.H"
+#include "db/IOobjects/GlobalIOList/GlobalIOList.H"
+#include "submodels/Kinematic/InjectionModel/KinematicLookupTableInjection/kinematicParcelInjectionData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

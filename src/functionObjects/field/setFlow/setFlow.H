@@ -137,11 +137,11 @@ SourceFiles
 #ifndef functionObjects_setFlow_H
 #define functionObjects_setFlow_H
 
-#include "fvMeshFunctionObject.H"
-#include "Function1Pascal.H"
-#include "Enum.H"
-#include "point.H"
-#include "volFieldsFwd.H"
+#include "functionObjects/fvMeshFunctionObject/fvMeshFunctionObject.H"
+#include "primitives/functions/Function1/Function1/Function1Pascal.H"
+#include "primitives/enums/Enum.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/volFields/volFieldsFwd.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

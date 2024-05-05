@@ -74,8 +74,8 @@ SourceFiles
 #ifndef codedPoints0MotionSolver_H
 #define codedPoints0MotionSolver_H
 
-#include "motionSolver.H"
-#include "codedBase.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
+#include "db/dynamicLibrary/codedBase/codedBase.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

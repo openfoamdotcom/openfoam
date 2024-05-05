@@ -50,9 +50,9 @@ SourceFiles
 #ifndef momentOfInertia_H
 #define momentOfInertia_H
 
-#include "triFaceList.H"
-#include "triSurface.H"
-#include "polyMesh.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
+#include "triSurface/triSurface.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

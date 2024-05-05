@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
-#include "multiphaseInterSystem.H"
-#include "multiphaseSystem.H"
-#include "MassTransferPhaseSystem.H"
+#include "multiphaseInterSystem/multiphaseInterSystem.H"
+#include "multiphaseSystem/multiphaseSystem.H"
+#include "MassTransferPhaseSystem/MassTransferPhaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

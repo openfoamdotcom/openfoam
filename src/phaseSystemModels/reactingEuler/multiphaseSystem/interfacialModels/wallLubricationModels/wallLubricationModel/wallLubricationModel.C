@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "wallLubricationModel.H"
-#include "reactingEuler_phasePair.H"
-#include "fvcFlux.H"
-#include "surfaceInterpolate.H"
-#include "wallFvPatch.H"
-#include "BlendedInterfacialModel.H"
+#include "interfacialModels/wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
+#include "phasePair/reactingEuler_phasePair.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

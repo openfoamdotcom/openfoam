@@ -40,7 +40,7 @@ SourceFiles
 #ifndef adaptiveSolver_H
 #define adaptiveSolver_H
 
-#include "ODESolver.H"
+#include "ODESolvers/ODESolver/ODESolver.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

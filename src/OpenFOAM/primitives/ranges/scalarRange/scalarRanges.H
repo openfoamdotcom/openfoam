@@ -41,8 +41,8 @@ SourceFiles
 #ifndef Foam_scalarRanges_H
 #define Foam_scalarRanges_H
 
-#include "scalarRange.H"
-#include "List.H"
+#include "primitives/ranges/scalarRange/scalarRange.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

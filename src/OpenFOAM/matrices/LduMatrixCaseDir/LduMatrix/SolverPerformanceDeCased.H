@@ -39,8 +39,8 @@ SourceFiles
 #ifndef SolverPerformance_H
 #define SolverPerformance_H
 
-#include "word.H"
-#include "FixedList.H"
+#include "primitives/strings/word/word.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -298,7 +298,7 @@ const scalar solverPerformance##Type::vsmall_(VSMALL);                         \
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "SolverPerformanceDeCased.C"
+    #include "matrices/LduMatrixCaseDir/LduMatrix/SolverPerformanceDeCased.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

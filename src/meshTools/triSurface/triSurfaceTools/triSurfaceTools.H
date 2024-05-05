@@ -51,18 +51,18 @@ SourceFiles
 #ifndef triSurfaceTools_H
 #define triSurfaceTools_H
 
-#include "boolList.H"
-#include "pointField.H"
-#include "vectorField.H"
-#include "triadFieldFwd.H"
-#include "DynamicList.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "FixedList.H"
-#include "Pair.H"
-#include "vector2D.H"
-#include "triangle.H"
-#include "surfaceLocation.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "fields/Fields/triadField/triadFieldFwd.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/Vector2D/floats/vector2D.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "triSurface/surfaceLocation/surfaceLocation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

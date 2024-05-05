@@ -42,7 +42,7 @@ SourceFiles
 #ifndef psiuReactionThermo_H
 #define psiuReactionThermo_H
 
-#include "psiReactionThermo.H"
+#include "psiReactionThermo/psiReactionThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "Map.H"
+#include "containers/HashTables/Map/Map.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 
@@ -513,16 +513,16 @@ Foam::PrimitivePatch<FaceList, PointField>::operator=
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PrimitivePatchAddressing.C"
-#include "PrimitivePatchEdgeLoops.C"
-#include "PrimitivePatchClear.C"
-#include "PrimitivePatchBdryFaces.C"
-#include "PrimitivePatchBdryPoints.C"
-#include "PrimitivePatchLocalPointOrder.C"
-#include "PrimitivePatchMeshData.C"
-#include "PrimitivePatchMeshEdges.C"
-#include "PrimitivePatchPointAddressing.C"
-#include "PrimitivePatchProjectPoints.C"
-#include "PrimitivePatchCheck.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchAddressing.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchEdgeLoops.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchClear.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchBdryFaces.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchBdryPoints.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchLocalPointOrder.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchMeshData.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchMeshEdges.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchPointAddressing.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchProjectPoints.C"
+#include "meshes/primitiveMesh/PrimitivePatchCaseDir/PrimitivePatchCheck.C"
 
 // ************************************************************************* //

@@ -42,7 +42,7 @@ SourceFiles
 #ifndef directionalWallPointData_H
 #define directionalWallPointData_H
 
-#include "wallPointData.H"
+#include "cellDist/wallPoint/wallPointData.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -183,12 +183,12 @@ is_contiguous_scalar<wallPoint> {};
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "directionalWallPointData.C"
+    #include "cellDist/directionalWallPoint/directionalWallPointData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "directionalWallPointDataI.H"
+#include "cellDist/directionalWallPoint/directionalWallPointDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

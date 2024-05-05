@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "singleLayerRegion.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "zeroGradientFvPatchFields.H"
+#include "singleLayerRegion/singleLayerRegion.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

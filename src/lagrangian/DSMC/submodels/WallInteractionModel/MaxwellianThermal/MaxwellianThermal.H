@@ -36,7 +36,7 @@ Description
 #ifndef MaxwellianThermal_H
 #define MaxwellianThermal_H
 
-#include "WallInteractionModel.H"
+#include "submodels/WallInteractionModel/WallInteractionModel/WallInteractionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -85,7 +85,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "MaxwellianThermal.C"
+    #include "submodels/WallInteractionModel/MaxwellianThermal/MaxwellianThermal.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

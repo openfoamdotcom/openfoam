@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkCoordSetWriter.H"
-#include "foamVtkOutput.H"
-#include "globalIndex.H"
+#include "coordSet/writers/vtk/foamVtkCoordSetWriter.H"
+#include "vtk/output/foamVtkOutput.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

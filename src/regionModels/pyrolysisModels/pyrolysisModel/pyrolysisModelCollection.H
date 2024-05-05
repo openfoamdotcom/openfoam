@@ -40,8 +40,8 @@ SourceFiles
 #ifndef pyrolysisModelCollection_H
 #define pyrolysisModelCollection_H
 
-#include "PtrList.H"
-#include "pyrolysisModel.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "pyrolysisModel/pyrolysisModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

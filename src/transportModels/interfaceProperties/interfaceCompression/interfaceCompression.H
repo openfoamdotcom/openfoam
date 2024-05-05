@@ -38,7 +38,7 @@ SourceFiles
 #ifndef interfaceCompression_H
 #define interfaceCompression_H
 
-#include "vector.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

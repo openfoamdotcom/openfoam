@@ -68,7 +68,7 @@ SourceFiles
 #ifndef Jeschar_H
 #define Jeschar_H
 
-#include "MHFModel.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/MHFModels/MHFModel/MHFModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

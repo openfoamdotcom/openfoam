@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkSurfaceFieldWriter.H"
-#include "emptyFvsPatchFields.H"
-#include "fvsPatchFields.H"
-#include "surfaceFields.H"
+#include "vtk/output/foamVtkSurfaceFieldWriter.H"
+#include "fields/fvsPatchFields/constraint/empty/emptyFvsPatchFields.H"
+#include "fields/fvsPatchFields/fvsPatchField/fvsPatchFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

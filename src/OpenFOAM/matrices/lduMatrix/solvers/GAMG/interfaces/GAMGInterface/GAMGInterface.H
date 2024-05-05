@@ -39,9 +39,9 @@ SourceFiles
 #ifndef GAMGInterface_H
 #define GAMGInterface_H
 
-#include "autoPtr.H"
-#include "lduInterfacePtrsList.H"
-#include "GAMGAgglomeration.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "matrices/lduMatrix/lduAddressing/lduInterface/lduInterfacePtrsList.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -324,7 +324,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "GAMGInterfaceTemplates.C"
+    #include "matrices/lduMatrix/solvers/GAMG/interfaces/GAMGInterface/GAMGInterfaceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

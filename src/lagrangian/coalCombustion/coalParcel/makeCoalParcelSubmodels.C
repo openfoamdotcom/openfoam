@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "coalCloud.H"
-#include "makeCoalParcelSurfaceReactionModels.H"
+#include "coalCloud/coalCloud.H"
+#include "include/makeCoalParcelSurfaceReactionModels.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

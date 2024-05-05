@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "binModel.H"
-#include "fvMesh.H"
-#include "cartesianCS.H"
+#include "binField/binModels/binModel/binModel.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

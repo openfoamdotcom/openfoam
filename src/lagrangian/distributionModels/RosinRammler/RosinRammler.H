@@ -138,7 +138,7 @@ SourceFiles
 #ifndef RosinRammler_H
 #define RosinRammler_H
 
-#include "distributionModel.H"
+#include "distributionModel/distributionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

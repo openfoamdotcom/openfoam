@@ -53,14 +53,14 @@ SourceFiles
 #ifndef isoAlpha_H
 #define isoAlpha_H
 
-#include "autoPtr.H"
-#include "dimensionedScalar.H"
-#include "reconstructionSchemes.H"
-#include "typeInfo.H"
-#include "volFields.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "reconstructionSchemes/reconstructionSchemes.H"
+#include "db/typeInfo/typeInfo.H"
+#include "fields/volFields/volFields.H"
 
-#include "surfaceIteratorIso.H"
-#include "volPointInterpolation.H"
+#include "surfaceIterators/surfaceIteratorIso.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

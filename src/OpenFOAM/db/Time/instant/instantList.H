@@ -34,8 +34,8 @@ Description
 #ifndef Foam_instantList_H
 #define Foam_instantList_H
 
-#include "instant.H"
-#include "List.H"
+#include "db/Time/instant/instant.H"
+#include "containers/Lists/List/List.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

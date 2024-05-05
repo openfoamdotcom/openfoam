@@ -39,9 +39,9 @@ SourceFiles
 #ifndef extendedFaceToCellStencil_H
 #define extendedFaceToCellStencil_H
 
-#include "mapDistribute.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -101,7 +101,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "extendedFaceToCellStencilTemplates.C"
+    #include "fvMesh/extendedStencil/faceToCell/extendedFaceToCellStencilTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

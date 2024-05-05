@@ -40,7 +40,7 @@ SourceFiles
 #ifndef WallSiteData_H
 #define WallSiteData_H
 
-#include "label.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -131,12 +131,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "WallSiteDataI.H"
+#include "submodels/Kinematic/CollisionModel/PairCollision/WallSiteData/WallSiteDataI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "WallSiteData.C"
+    #include "submodels/Kinematic/CollisionModel/PairCollision/WallSiteData/WallSiteData.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
