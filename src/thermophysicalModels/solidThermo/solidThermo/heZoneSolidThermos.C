@@ -45,7 +45,7 @@ License
 #include "transport/tabulated/tabulatedSolidTransport.H"
 #include "transport/tabulated/tabulatedAnIsoSolidTransport.H"
 #include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

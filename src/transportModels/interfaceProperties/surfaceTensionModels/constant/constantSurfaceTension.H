@@ -50,7 +50,7 @@ SourceFiles
 #ifndef constantSurfaceTension_H
 #define constantSurfaceTension_H
 
-#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

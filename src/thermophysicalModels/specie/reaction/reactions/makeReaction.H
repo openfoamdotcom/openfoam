@@ -40,7 +40,7 @@ Description
 #include "reaction/ReactionsCaseDir/ReversibleReaction/ReversibleReaction.H"
 #include "reaction/ReactionsCaseDir/NonEquilibriumReversibleReaction/NonEquilibriumReversibleReaction.H"
 
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 
 #include "transport/sutherland/sutherlandTransport.H"
 #include "thermo/janaf/janafThermo.H"

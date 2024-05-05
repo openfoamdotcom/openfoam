@@ -43,7 +43,7 @@ SourceFiles
 #ifndef eConstThermo_H
 #define eConstThermo_H
 
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

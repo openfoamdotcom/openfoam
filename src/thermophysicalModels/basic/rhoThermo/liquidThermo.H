@@ -28,7 +28,7 @@ License
 #include "rhoThermo/rhoThermo.H"
 #include "rhoThermo/heRhoThermo.H"
 #include "mixtures/pureMixture/pureMixture.H"
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 #include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
 #include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
 #include "thermophysicalPropertiesSelector/thermophysicalPropertiesSelector.H"

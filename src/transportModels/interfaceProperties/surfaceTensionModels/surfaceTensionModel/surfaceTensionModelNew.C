@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
 #include "surfaceTensionModels/constant/constantSurfaceTension.H"
 
 // * * * * * * * * * * * * * * * * Selector  * * * * * * * * * * * * * * * * //

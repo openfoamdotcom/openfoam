@@ -37,7 +37,7 @@ License
 #include "thermo/hConst/hConstThermo.H"
 #include "thermo/janaf/janafThermo.H"
 #include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 #include "equationOfState/rhoConst/rhoConst.H"
 #include "equationOfState/rPolynomial/rPolynomial.H"
 #include "equationOfState/perfectFluid/perfectFluid.H"

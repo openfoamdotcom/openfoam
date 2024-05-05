@@ -41,7 +41,7 @@ License
 #include "mixtures/multiComponentMixture/multiComponentMixture.H"
 
 #include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

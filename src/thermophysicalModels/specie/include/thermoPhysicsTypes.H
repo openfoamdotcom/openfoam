@@ -48,7 +48,7 @@ Description
 
 #include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
 #include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 #include "transport/sutherland/sutherlandTransport.H"
 #include "transport/const/constTransport.H"
 

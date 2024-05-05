@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/thermo/filmRadiationModel/noRadiation/noRadiation.H"
+#include "radiationModels/noRadiation/noRadiation.H"
 #include "global/constants/physicoChemical/physicoChemicalConstants.H"
 #include "fvMesh/fvMesh.H"
 #include "db/Time/TimeOpenFOAM.H"

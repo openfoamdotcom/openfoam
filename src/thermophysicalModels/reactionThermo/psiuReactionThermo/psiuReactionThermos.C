@@ -35,7 +35,7 @@ License
 #include "equationOfState/perfectGas/perfectGas.H"
 #include "thermo/hConst/hConstThermo.H"
 #include "thermo/janaf/janafThermo.H"
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 #include "transport/const/constTransport.H"
 #include "transport/sutherland/sutherlandTransport.H"
 

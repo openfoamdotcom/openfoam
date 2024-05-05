@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 
 /* * * * * * * * * * * * * * * private static data * * * * * * * * * * * * * */
 

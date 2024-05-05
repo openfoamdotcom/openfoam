@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cfdTools/general/porosityModel/powerLaw/powerLaw.H"
+#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/powerLaw/powerLaw.H"
 #include "fields/volFields/volFields.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 

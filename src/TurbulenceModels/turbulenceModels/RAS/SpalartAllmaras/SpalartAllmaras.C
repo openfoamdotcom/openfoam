@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/SpalartAllmaras/SpalartAllmaras.H"
+#include "RAS/SpalartAllmaras/SpalartAllmaras.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

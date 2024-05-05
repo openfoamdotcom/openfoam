@@ -47,7 +47,7 @@ License
 #include "mixtures/pureMixture/pureMixture.H"
 #include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
 #include "thermo/sensibleInternalEnergy/sensibleInternalEnergy.H"
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 
 #include "include/solidThermoPhysicsTypes.H"
 

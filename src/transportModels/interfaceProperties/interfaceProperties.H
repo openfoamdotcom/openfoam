@@ -52,7 +52,7 @@ SourceFiles
 #define interfaceProperties_H
 
 #include "db/IOobjects/IOdictionary/IOdictionary.H"
-#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
 #include "fields/volFields/volFields.H"
 #include "fields/surfaceFields/surfaceFields.H"
 

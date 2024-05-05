@@ -50,7 +50,7 @@ Description
 #include "transport/tabulated/tabulatedSolidTransport.H"
 
 #include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
-#include "thermo/thermo.H"
+#include "thermo/thermo/thermo.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

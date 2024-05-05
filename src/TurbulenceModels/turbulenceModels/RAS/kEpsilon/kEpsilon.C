@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 #include "cfdTools/general/fvOptions/fvOptions.H"
 #include "cfdTools/general/bound/bound.H"
 
