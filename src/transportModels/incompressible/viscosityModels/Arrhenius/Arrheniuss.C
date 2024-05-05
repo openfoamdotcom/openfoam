@@ -29,10 +29,10 @@ License
 
 #include "viscosityModels/Arrhenius/Arrhenius.H"
 
-#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/BirdCarreau/BirdCarreau.H"
-#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/Casson/Casson.H"
-#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/CrossPowerLaw/CrossPowerLaw.H"
-#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/HerschelBulkley/HerschelBulkley.H"
+#include "viscosityModels/BirdCarreau/BirdCarreau.H"
+#include "viscosityModels/Casson/Casson.H"
+#include "viscosityModels/CrossPowerLaw/CrossPowerLaw.H"
+#include "viscosityModels/HerschelBulkley/HerschelBulkley.H"
 #include "viscosityModels/Newtonian/Newtonian.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -29,7 +29,7 @@ License
 
 #include "psiReactionThermo/psiReactionThermo.H"
 #include "rhoReactionThermo/rhoReactionThermo.H"
-#include "turbulenceModels/turbulenceModelVariables/RAS/laminar/laminar.H"
+#include "laminar/laminar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

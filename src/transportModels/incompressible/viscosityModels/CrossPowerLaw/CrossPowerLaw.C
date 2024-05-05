@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/CrossPowerLaw/CrossPowerLaw.H"
+#include "viscosityModels/CrossPowerLaw/CrossPowerLaw.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "fields/surfaceFields/surfaceFields.H"
 

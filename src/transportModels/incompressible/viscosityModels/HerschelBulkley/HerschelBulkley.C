@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/HerschelBulkley/HerschelBulkley.H"
+#include "viscosityModels/HerschelBulkley/HerschelBulkley.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "fields/surfaceFields/surfaceFields.H"
 

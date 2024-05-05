@@ -52,7 +52,7 @@ SourceFiles
 #ifndef strainRateFunction_H
 #define strainRateFunction_H
 
-#include "kineticTheoryModels/viscosityModel/viscosityModel/viscosityModel.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
 #include "fields/volFields/volFields.H"
 #include "primitives/functions/Function1/Function1/Function1Pascal.H"
 

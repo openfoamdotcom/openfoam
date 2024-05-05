@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "laminar/generalizedNewtonian/generalizedNewtonianViscosityModels/Casson/Casson.H"
+#include "viscosityModels/Casson/Casson.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "fields/surfaceFields/surfaceFields.H"
 

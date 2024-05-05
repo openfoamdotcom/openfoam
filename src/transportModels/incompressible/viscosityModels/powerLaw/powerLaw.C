@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cfdTools/general/porosityModel/powerLaw/powerLaw.H"
+#include "viscosityModels/powerLaw/powerLaw.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "fields/surfaceFields/surfaceFields.H"
 

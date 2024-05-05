@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Newtonian_H
 #define Newtonian_H
 
-#include "kineticTheoryModels/viscosityModel/viscosityModel/viscosityModel.H"
+#include "viscosityModels/viscosityModel/viscosityModel.H"
 #include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 #include "fields/volFields/volFields.H"
 

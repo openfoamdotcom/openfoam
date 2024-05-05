@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/laminar/laminar.H"
+#include "laminar/laminar.H"
 #include "finiteVolume/fvm/fvmSup.H"
 #include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
 
