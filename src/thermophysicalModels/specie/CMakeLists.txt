@@ -15,5 +15,16 @@ target_include_directories(specie PUBLIC
   .
   PRIVATE
   ${OPENFOAM_SRC_DIR}/thermophysicalModels/thermophysicalProperties
+  ${OPENFOAM_SRC_DIR}/regionModels/pyrolysisModels
+  ${OPENFOAM_SRC_DIR}/finiteVolume
+  ${OPENFOAM_SRC_DIR}/regionModels/regionModel
+  ${OPENFOAM_SRC_DIR}/meshTools
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/solidChemistryModel
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/chemistryModel
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/basic
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/solidThermo
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/reactionThermo
+  ${OPENFOAM_SRC_DIR}/transportModels/compressible
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/radiation
 )
 install(TARGETS specie DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

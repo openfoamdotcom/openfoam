@@ -20,5 +20,13 @@ target_compile_definitions(fluidThermophysicalModels PUBLIC WM_LABEL_SIZE=${WM_L
 target_link_libraries(fluidThermophysicalModels PUBLIC compressibleTransportModels thermophysicalProperties)
 target_include_directories(fluidThermophysicalModels PUBLIC
   .
+  PRIVATE
+  ${OPENFOAM_SRC_DIR}/regionModels/pyrolysisModels
+  ${OPENFOAM_SRC_DIR}/regionModels/regionModel
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/solidChemistryModel
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/chemistryModel
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/solidThermo
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/reactionThermo
+  ${OPENFOAM_SRC_DIR}/thermophysicalModels/radiation
 )
 install(TARGETS fluidThermophysicalModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
