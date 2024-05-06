@@ -40,18 +40,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "CMULES.H"
-#include "EulerDdtScheme.H"
-#include "localEulerDdtScheme.H"
-#include "CrankNicolsonDdtScheme.H"
-#include "subCycle.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/CrankNicolsonDdtScheme/CrankNicolsonDdtScheme.H"
+#include "algorithms/subCycle/subCycle.H"
 #include "compressibleInterPhaseTransportModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "CorrectPhiPascal.H"
-#include "fvcSmooth.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -65,17 +65,17 @@ int main(int argc, char *argv[])
         " adaptive re-meshing."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "initContinuityErrs.H"
-    #include "createDyMControls.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "include/createDyMControls.H"
     #include "createFields.H"
-    #include "createUf.H"
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/incompressible/createUf.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     volScalarField& p = mixture.p();
     volScalarField& T = mixture.T();
@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
+        #include "include/readDyMControls.H"
 
         // Store divU and divUp from the previous mesh so that it can be mapped
         // and used in correctPhi to ensure the corrected phi has the
@@ -97,13 +97,13 @@ int main(int argc, char *argv[])
 
         if (LTS)
         {
-            #include "setRDeltaT.H"
+            #include "solvers/multiphase/VoF/setRDeltaT.H"
         }
         else
         {
-            #include "CourantNo.H"
-            #include "alphaCourantNo.H"
-            #include "setDeltaT.H"
+            #include "cfdTools/incompressible/CourantNo.H"
+            #include "solvers/multiphase/VoF/alphaCourantNo.H"
+            #include "cfdTools/general/include/setDeltaT.H"
         }
 
         ++runTime;
@@ -146,22 +146,22 @@ int main(int argc, char *argv[])
 
                 if (mesh.changing() && checkMeshCourantNo)
                 {
-                    #include "meshCourantNo.H"
+                    #include "include/meshCourantNo.H"
                 }
             }
 
-            #include "alphaControls.H"
+            #include "cfdTools/general/include/alphaControls.H"
             #include "compressibleAlphaEqnSubCycle.H"
 
             turbulence.correctPhasePhi();
 
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
             #include "TEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

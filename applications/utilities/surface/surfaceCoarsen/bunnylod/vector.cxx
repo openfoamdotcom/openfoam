@@ -2,7 +2,7 @@
 #include <cmath>
 #include <cassert>
 
-#include "vector.hxx"
+#include "bunnylod/vector.hxx"
 
 float  sqr(float a) {return a*a;}
 

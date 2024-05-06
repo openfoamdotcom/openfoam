@@ -58,8 +58,8 @@ Author
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "faCFD.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "include/faCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -70,10 +70,10 @@ int main(int argc, char *argv[])
         "Passive scalar transport finiteArea equation solver."
     );
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createFaMesh.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "include/createFaMesh.H"
     #include "createFaFields.H"
     #include "createVolFields.H"
 

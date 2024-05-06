@@ -43,11 +43,11 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "distributedTriSurfaceMesh.H"
-#include "mapDistribute.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 #include "decompositionModel.H"
 
 using namespace Foam;
@@ -116,8 +116,8 @@ int main(int argc, char *argv[])
         "Preserve surface outside of mesh bounds"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     runTime.functionObjects().off();
 
     const auto surfFileName = args.get<fileName>(1);
@@ -189,7 +189,7 @@ int main(int argc, char *argv[])
     List<List<treeBoundBox>> meshBb(Pstream::nProcs());
     if (distType == distributedTriSurfaceMesh::FOLLOW)
     {
-        #include "createPolyMesh.H"
+        #include "include/createPolyMesh.H"
 
         meshBb[Pstream::myProcNo()] = List<treeBoundBox>
         (

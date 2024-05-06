@@ -36,11 +36,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "DiagonalMatrix.H"
-#include "RectangularMatrix.H"
-#include "scalar.H"
-#include "complex.H"
-#include "TestTools.H"
+#include "matrices/DiagonalMatrix/DiagonalMatrix.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/complex/complex.H"
+#include "test/TestTools/TestTools.H"
 
 using namespace Foam;
 

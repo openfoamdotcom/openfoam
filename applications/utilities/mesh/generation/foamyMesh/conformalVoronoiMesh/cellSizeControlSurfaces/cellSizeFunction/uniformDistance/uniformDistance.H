@@ -37,7 +37,7 @@ SourceFiles
 #ifndef uniformDistance_H
 #define uniformDistance_H
 
-#include "cellSizeFunction.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/cellSizeFunction/cellSizeFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

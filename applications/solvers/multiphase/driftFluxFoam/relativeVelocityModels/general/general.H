@@ -37,7 +37,7 @@ SourceFiles
 #ifndef general_H
 #define general_H
 
-#include "relativeVelocityModel.H"
+#include "relativeVelocityModel/relativeVelocityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

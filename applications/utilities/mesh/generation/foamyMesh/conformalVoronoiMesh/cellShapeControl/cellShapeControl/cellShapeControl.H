@@ -38,20 +38,20 @@ SourceFiles
 #ifndef cellShapeControl_H
 #define cellShapeControl_H
 
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "tensor.H"
-#include "point.H"
-#include "primitiveFieldsFwd.H"
-#include "pointFieldFwd.H"
-#include "TimeOpenFOAM.H"
-#include "searchableSurfaces.H"
-#include "conformationSurfaces.H"
-#include "cellAspectRatioControl.H"
-#include "cellSizeAndAlignmentControls.H"
-#include "cellShapeControlMesh.H"
-#include "backgroundMeshDecomposition.H"
-#include "cvControls.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/Fields/primitiveFieldsFwd.H"
+#include "meshes/primitiveShapes/point/pointFieldFwd.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "cellShapeControl/cellAspectRatioControl/cellAspectRatioControl.H"
+#include "cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControls.H"
+#include "cellShapeControl/cellShapeControlMesh/cellShapeControlMesh.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "cvControls/cvControls.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -155,7 +155,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellShapeControlI.H"
+#include "cellShapeControl/cellShapeControl/cellShapeControlI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,9 +28,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OSspecific.H"
-#include "Switch.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"
+#include "primitives/bools/Switch/Switch.H"
 
 using namespace Foam;
 
@@ -129,7 +129,7 @@ int main(int argc, char *argv[])
     argList::addArgument("srcFile");
     argList::addArgument("dstFile");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     #ifdef _WIN32
     args.readIfPresent("maxPath", maxPath);

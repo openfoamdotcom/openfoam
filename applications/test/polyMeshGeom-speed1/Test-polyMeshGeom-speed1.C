@@ -28,12 +28,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "clockTime.H"
-#include "TimeOpenFOAM.H"
-#include "PDRblock.H"
-#include "polyMesh.H"
-#include "ListOps.H"
+#include "global/argList/argList.H"
+#include "global/clockTime/clockTime.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 
@@ -608,7 +608,7 @@ int main(int argc, char *argv[])
     argList::noFunctionObjects();
     argList::addOption("nCells", "number", "The number of cells");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const scalar cellCount(args.getOrDefault<scalar>("nCells", 1000));
 

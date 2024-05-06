@@ -44,10 +44,10 @@ License
 #include "PDRlegacy.H"
 
 // OpenFOAM includes
-#include "error.H"
-#include "IFstream.H"
-#include "stringOps.H"
-#include "OSspecific.H"
+#include "db/error/error.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "include/OSspecific.H"
 
 #define XMESH_TAG "xmesh"
 #define YMESH_TAG "ymesh"

@@ -37,11 +37,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "basicKinematicCollidingCloud.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "clouds/derived/basicKinematicCollidingCloud/basicKinematicCollidingCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -60,12 +60,12 @@ int main(int argc, char *argv[])
         "specify alternative cloud name. default is 'kinematicCloud'"
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "createControl.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

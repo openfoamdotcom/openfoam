@@ -37,11 +37,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "barotropicCompressibilityModel.H"
-#include "incompressibleTwoPhaseMixture.H"
-#include "turbulentTransportModel.H"
-#include "pimpleControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "barotropicCompressibilityModel/barotropicCompressibilityModel.H"
+#include "incompressibleTwoPhaseMixture/incompressibleTwoPhaseMixture.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -53,17 +53,17 @@ int main(int argc, char *argv[])
         " model from which the compressibility of the liquid/vapour 'mixture'"
         " is obtained."
     );
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
-    #include "createControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "include/createControls.H"
     #include "createFields.H"
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     turbulence->validate();
 
@@ -74,8 +74,8 @@ int main(int argc, char *argv[])
     while (runTime.run())
     {
         #include "readControls.H"
-        #include "CourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
         Info<< "Time = " << runTime.timeName() << nl << endl;
@@ -83,14 +83,14 @@ int main(int argc, char *argv[])
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "rhoEqn.H"
+            #include "cfdTools/compressible/rhoEqn.H"
             #include "alphavPsi.H"
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

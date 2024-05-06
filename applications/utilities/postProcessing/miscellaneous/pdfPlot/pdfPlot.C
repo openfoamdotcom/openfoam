@@ -34,10 +34,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "distributionModel.H"
-#include "makeGraph.H"
-#include "OFstream.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "distributionModel/distributionModel.H"
+#include "graphField/makeGraph.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -48,8 +48,8 @@ int main(int argc, char *argv[])
         "Generate a graph of a probability distribution function"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     #include "createFields.H"
 
     label iCheck = 100;

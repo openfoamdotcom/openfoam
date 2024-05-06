@@ -17,10 +17,10 @@ Description
     Test uniform list/field
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "vector.H"
-#include "IOstreams.H"
-#include "UniformField.H"
+#include "global/argList/argList.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "fields/Fields/UniformField/UniformField.H"
 
 using namespace Foam;
 

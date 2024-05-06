@@ -38,16 +38,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
+#include "cfdTools/general/include/fvCFD.H"
 
-#include "triSurface.H"
-#include "triSurfaceTools.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
 
-#include "implicitFunction.H"
+#include "implicitFunctions/implicitFunction.H"
 
-#include "cutCellIso.H"
-#include "cutFaceIso.H"
-#include "OBJstream.H"
+#include "cellCuts/cutCell/cutCellIso.H"
+#include "cellCuts/cutFace/cutFaceIso.H"
+#include "obj/OBJstream.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -151,13 +151,13 @@ int main(int argc, char *argv[])
         "file",
         "Alternative setAlphaFieldDict dictionary"
     );
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word dictName("setAlphaFieldDict");
-    #include "setSystemMeshDictionaryIO.H"
+    #include "include/setSystemMeshDictionaryIO.H"
 
     IOdictionary setAlphaFieldDict(dictIO);
 

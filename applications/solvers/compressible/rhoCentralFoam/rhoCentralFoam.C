@@ -37,14 +37,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "psiThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "fixedRhoFvPatchScalarField.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "psiThermo/psiThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "rho/fixedRhoFvPatchScalarField.H"
 #include "directionInterpolate.H"
-#include "localEulerDdtScheme.H"
-#include "fvcSmooth.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -58,15 +58,15 @@ int main(int argc, char *argv[])
     );
 
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "createTimeControls.H"
+    #include "cfdTools/general/include/createTimeControls.H"
 
     turbulence->validate();
 
@@ -84,11 +84,11 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
+        #include "cfdTools/general/include/readTimeControls.H"
 
         if (!LTS)
         {
-            #include "setDeltaT.H"
+            #include "cfdTools/general/include/setDeltaT.H"
 
             ++runTime;
 
@@ -185,7 +185,7 @@ int main(int argc, char *argv[])
 
         if (LTS)
         {
-            #include "setRDeltaT.H"
+            #include "solvers/multiphase/VoF/setRDeltaT.H"
 
             ++runTime;
         }

@@ -30,8 +30,8 @@ Description
     Test label ranges
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "labelRanges.H"
+#include "global/argList/argList.H"
+#include "primitives/ranges/labelRange/labelRanges.H"
 
 using namespace Foam;
 

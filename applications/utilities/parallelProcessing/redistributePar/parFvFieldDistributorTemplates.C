@@ -27,18 +27,18 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "parFvFieldDistributor.H"
-#include "TimeOpenFOAM.H"
-#include "PtrList.H"
-#include "fvPatchFields.H"
-#include "emptyFvPatch.H"
-#include "emptyFvPatchField.H"
-#include "emptyFvsPatchField.H"
-#include "IOobjectList.H"
-#include "mapDistributePolyMesh.H"
-#include "processorFvPatch.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchField.H"
+#include "fields/fvsPatchFields/constraint/empty/emptyFvsPatchField.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
-#include "distributedFieldMapper.H"
-#include "distributedFvPatchFieldMapper.H"
+#include "fields/Fields/Field/distributedFieldMapper.H"
+#include "fields/fvPatchFields/fvPatchField/distributedFvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

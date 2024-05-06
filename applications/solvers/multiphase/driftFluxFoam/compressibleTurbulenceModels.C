@@ -26,13 +26,13 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "CompressibleTurbulenceModel.H"
-#include "incompressibleTwoPhaseInteractingMixture.H"
-#include "addToRunTimeSelectionTable.H"
+#include "incompressibleTwoPhaseInteractingMixture/incompressibleTwoPhaseInteractingMixture.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "makeTurbulenceModel.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -82,7 +82,7 @@ makeBaseTurbulenceModel
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Stokes.H"
+#include "laminar/Stokes/Stokes.H"
 makeLaminarModel(Stokes);
 
 
@@ -90,10 +90,10 @@ makeLaminarModel(Stokes);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "kEpsilon.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
-#include "buoyantKEpsilon.H"
+#include "RAS/buoyantKEpsilon/buoyantKEpsilon.H"
 makeRASModel(buoyantKEpsilon);
 
 
@@ -101,10 +101,10 @@ makeRASModel(buoyantKEpsilon);
 // LES models
 // -------------------------------------------------------------------------- //
 
-#include "Smagorinsky.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
 makeLESModel(Smagorinsky);
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 makeLESModel(kEqn);
 
 

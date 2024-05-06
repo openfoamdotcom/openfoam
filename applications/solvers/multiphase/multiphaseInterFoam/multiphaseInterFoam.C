@@ -38,13 +38,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
 #include "multiphaseMixture.H"
-#include "turbulentTransportModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "CorrectPhiPascal.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -57,22 +57,22 @@ int main(int argc, char *argv[])
         "With optional mesh motion and mesh topology changes."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "initContinuityErrs.H"
-    #include "createDyMControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "include/createDyMControls.H"
     #include "createFields.H"
     #include "initCorrectPhi.H"
-    #include "createUfIfPresent.H"
+    #include "cfdTools/incompressible/createUfIfPresent.H"
 
     turbulence->validate();
 
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     const surfaceScalarField& rhoPhi(mixture.rhoPhi());
 
@@ -82,10 +82,10 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
-        #include "CourantNo.H"
-        #include "alphaCourantNo.H"
-        #include "setDeltaT.H"
+        #include "include/readDyMControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "solvers/multiphase/VoF/alphaCourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -127,7 +127,7 @@ int main(int argc, char *argv[])
 
                     if (checkMeshCourantNo)
                     {
-                        #include "meshCourantNo.H"
+                        #include "include/meshCourantNo.H"
                     }
                 }
             }
@@ -135,12 +135,12 @@ int main(int argc, char *argv[])
             mixture.solve();
             rho = mixture.rho();
 
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

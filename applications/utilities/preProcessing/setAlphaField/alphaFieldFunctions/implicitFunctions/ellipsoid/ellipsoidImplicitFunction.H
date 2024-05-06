@@ -40,8 +40,8 @@ SourceFiles
 #ifndef implicitFunction_ellipsoidImplicitFunction_H
 #define implicitFunction_ellipsoidImplicitFunction_H
 
-#include "implicitFunction.H"
-#include "mathematicalConstants.H"
+#include "implicitFunctions/implicitFunction.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IndirectList.H"
-#include "DynamicList.H"
-#include "IOstreams.H"
-#include "ListOps.H"
-#include "labelIndList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/ints/lists/labelIndList.H"
 
 using namespace Foam;
 

@@ -31,8 +31,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "vector2D.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "primitives/Vector2D/floats/vector2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -52,10 +52,10 @@ namespace Foam
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     GeometricField<vector2D, fvPatchField, volMesh> fld
     (

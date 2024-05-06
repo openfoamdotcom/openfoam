@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "patchSummaryTemplates.H"
-#include "IOmanip.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

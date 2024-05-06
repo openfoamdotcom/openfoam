@@ -51,18 +51,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "engineTime.H"
-#include "engineMesh.H"
-#include "psiuReactionThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "laminarFlameSpeed.H"
-#include "ignition.H"
-#include "Switch.H"
-#include "OFstream.H"
-#include "mathematicalConstants.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "engineTime/engineTime/engineTime.H"
+#include "engineMesh/engineMesh/engineMesh.H"
+#include "psiuReactionThermo/psiuReactionThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "laminarFlameSpeed/laminarFlameSpeed.H"
+#include "ignition/ignition.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,20 +76,20 @@ int main(int argc, char *argv[])
 
     #define CREATE_TIME createEngineTime.H
     #define CREATE_MESH createEngineMesh.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createEngineTime.H"
-    #include "createEngineMesh.H"
-    #include "createControl.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createEngineTime.H"
+    #include "include/createEngineMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "readCombustionProperties.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "createRhoUf.H"
-    #include "initContinuityErrs.H"
-    #include "readEngineTimeControls.H"
-    #include "compressibleCourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/compressible/createRhoUf.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "include/readEngineTimeControls.H"
+    #include "fluid/compressibleCourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
     #include "startSummary.H"
 
     turbulence->validate();
@@ -100,9 +100,9 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readEngineTimeControls.H"
-        #include "compressibleCourantNo.H"
-        #include "setDeltaT.H"
+        #include "include/readEngineTimeControls.H"
+        #include "fluid/compressibleCourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -110,12 +110,12 @@ int main(int argc, char *argv[])
 
         mesh.move();
 
-        #include "rhoEqn.H"
+        #include "cfdTools/compressible/rhoEqn.H"
 
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
 
             #include "ftEqn.H"
             #include "bEqn.H"
@@ -130,7 +130,7 @@ int main(int argc, char *argv[])
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

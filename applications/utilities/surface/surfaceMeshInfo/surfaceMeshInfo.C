@@ -64,11 +64,11 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "profiling.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "global/profiling/profiling.H"
+#include "db/Time/TimeOpenFOAM.H"
 
-#include "UnsortedMeshedSurfaces.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurfaces.H"
 
 using namespace Foam;
 

@@ -34,13 +34,13 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "clockTime.H"
-#include "triSurface.H"
-#include "MeshedSurfaces.H"
-#include "UnsortedMeshedSurfaces.H"
-#include "STLReader.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/clockTime/clockTime.H"
+#include "triSurface/triSurface.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurfaces.H"
+#include "stl/STLReader.H"
 
 using namespace Foam;
 
@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
         "ASCII parser type: 0=Flex, 1=Ragel, 2=Manual"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const auto importName = args.get<fileName>(1);
 

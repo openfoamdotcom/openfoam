@@ -34,18 +34,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "singlePhaseTransportModel.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
 #include "DPMIncompressibleTurbulenceModel.H"
-#include "pimpleControl.H"
-#include "CorrectPhiPascal.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
 
 #ifdef MPPIC
-    #include "basicKinematicCloud.H"
+    #include "clouds/derived/basicKinematicCloud/basicKinematicCloud.H"
     #define basicKinematicTypeCloud basicKinematicCloud
 #else
-    #include "basicKinematicCollidingCloud.H"
+    #include "clouds/derived/basicKinematicCollidingCloud/basicKinematicCollidingCloud.H"
     #define basicKinematicTypeCloud basicKinematicCollidingCloud
 #endif
 
@@ -65,23 +65,23 @@ int main(int argc, char *argv[])
         "specify alternative cloud name. default is 'kinematicCloud'"
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "createDyMControls.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "include/createDyMControls.H"
     #include "createFields.H"
     #include "createUcf.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     Info<< "\nStarting time loop\n" << endl;
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
-        #include "CourantNo.H"
-        #include "setDeltaT.H"
+        #include "include/readDyMControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -105,7 +105,7 @@ int main(int argc, char *argv[])
 
         if (mesh.changing() && checkMeshCourantNo)
         {
-            #include "meshCourantNo.H"
+            #include "include/meshCourantNo.H"
         }
 
         continuousPhaseTransport.correct();
@@ -145,7 +145,7 @@ int main(int argc, char *argv[])
             // --- PISO loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

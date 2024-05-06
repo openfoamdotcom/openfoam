@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceSelection.H"
-#include "fvMesh.H"
+#include "faceSelection/faceSelection.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

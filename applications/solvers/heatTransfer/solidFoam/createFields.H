@@ -109,5 +109,5 @@ else if (mesh.solutionDict().found("PIMPLE"))
         );
 }
 
-#include "createRadiationModel.H"
-#include "createFvOptions.H"
+#include "include/createRadiationModel.H"
+#include "cfdTools/general/include/createFvOptions.H"

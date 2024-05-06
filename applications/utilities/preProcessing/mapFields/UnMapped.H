@@ -29,8 +29,8 @@ License
 #ifndef UnMapped_H
 #define UnMapped_H
 
-#include "IOobjectList.H"
-#include "OSspecific.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "include/OSspecific.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellShapeControlMesh.H"
-#include "cellSizeAndAlignmentControls.H"
-#include "pointIOField.H"
-#include "scalarIOField.H"
-#include "triadIOField.H"
-#include "tetrahedron.H"
-#include "plane.H"
-#include "transform.H"
-#include "meshTools.H"
+#include "cellShapeControl/cellShapeControlMesh/cellShapeControlMesh.H"
+#include "cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControls.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/triadField/triadIOField.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "primitives/transform/transform.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

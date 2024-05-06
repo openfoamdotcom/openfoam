@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "caseInfo.H"
-#include "TimeOpenFOAM.H"
+#include "caseInfo/caseInfo.H"
+#include "db/Time/TimeOpenFOAM.H"
 #include "boundaryInfo.H"
 #include "boundaryTemplates.H"
 

@@ -46,25 +46,25 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "IOdictionary.H"
-#include "twoDPointCorrector.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
 
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "meshSearch.H"
-#include "cellClassification.H"
-#include "cellSet.H"
-#include "cellInfo.H"
-#include "MeshWave.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "meshSearch/meshSearch.H"
+#include "cellClassification/cellClassification.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "cellClassification/cellInfo.H"
+#include "algorithms/MeshWave/MeshWave.H"
 #include "edgeStats.H"
-#include "treeDataTriSurface.H"
-#include "indexedOctree.H"
-#include "globalMeshData.H"
+#include "indexedOctree/treeDataTriSurface.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 using namespace Foam;
 
@@ -345,9 +345,9 @@ int main(int argc, char *argv[])
 
     argList::noParallel();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     // Mesh edge statistics calculator
     edgeStats edgeCalc(mesh);

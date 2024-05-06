@@ -37,7 +37,7 @@ SourceFiles
 #ifndef linearDistance_H
 #define linearDistance_H
 
-#include "cellSizeFunction.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/cellSizeFunction/cellSizeFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

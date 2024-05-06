@@ -35,10 +35,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 
-#include "edgeMesh.H"
+#include "edgeMesh/edgeMesh.H"
 
 using namespace Foam;
 

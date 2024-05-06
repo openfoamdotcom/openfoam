@@ -36,16 +36,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "multiphaseSystem.H"
-#include "phaseModel.H"
-#include "dragModel.H"
-#include "heatTransferModel.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "pimpleControl.H"
-#include "IOMRFZoneList.H"
-#include "CorrectPhiPascal.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "multiphaseSystem/multiphaseSystem.H"
+#include "phaseModel/phaseModel.H"
+#include "interfacialModels/dragModels/dragModel/dragModel.H"
+#include "interfacialModels/heatTransferModels/heatTransferModel/heatTransferModel.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/MRF/IOMRFZoneList.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -57,19 +57,19 @@ int main(int argc, char *argv[])
         " heat-transfer."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
-    #include "createTimeControls.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/general/include/createTimeControls.H"
     #include "correctPhi.H"
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     scalar slamDampCoeff
     (
@@ -92,9 +92,9 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
-        #include "CourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
         Info<< "Time = " << runTime.timeName() << nl << endl;
@@ -108,15 +108,15 @@ int main(int argc, char *argv[])
             #include "zonePhaseVolumes.H"
 
             //#include "TEqns.H"
-            #include "UEqns.H"
+            #include "pUf/UEqns.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
-            #include "DDtU.H"
+            #include "pUf/DDtU.H"
         }
 
         runTime.write();

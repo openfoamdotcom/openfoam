@@ -31,14 +31,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "clockTime.H"
-#include "MeshedSurfaces.H"
-#include "indexedOctree.H"
-#include "AABBTree.H"
-#include "treeDataPrimitivePatch.H"
-#include "Random.H"
-#include "ListListOps.H"
+#include "global/argList/argList.H"
+#include "global/clockTime/clockTime.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/AABBTree/AABBTree.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "primitives/random/Random/Random.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
 
 using namespace Foam;
 

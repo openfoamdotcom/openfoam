@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "labelledTri.H"
-#include "edge.H"
-#include "faceList.H"
-#include "triFaceList.H"
-#include "pointList.H"
-#include "ListOps.H"
+#include "global/argList/argList.H"
+#include "meshes/meshShapes/labelledTri/labelledTri.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
+#include "meshes/primitiveShapes/point/pointList.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 

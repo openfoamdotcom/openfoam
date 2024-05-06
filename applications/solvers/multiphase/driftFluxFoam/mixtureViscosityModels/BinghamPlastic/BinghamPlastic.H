@@ -39,7 +39,7 @@ SourceFiles
 #ifndef BinghamPlastic_H
 #define BinghamPlastic_H
 
-#include "plastic.H"
+#include "plastic/plastic.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

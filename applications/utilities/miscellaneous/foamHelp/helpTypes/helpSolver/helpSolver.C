@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "helpSolver.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvMesh.H"
+#include "helpSolver/helpSolver.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

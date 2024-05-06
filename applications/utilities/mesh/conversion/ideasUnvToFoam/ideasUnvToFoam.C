@@ -41,17 +41,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "IFstream.H"
-#include "cellModel.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "DynamicList.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 #include <cassert>
-#include "MeshedSurfaces.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 using namespace Foam;
 
@@ -663,8 +663,8 @@ int main(int argc, char *argv[])
         "Dump boundary faces as boundaryFaces.obj (for debugging)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const auto ideasName = args.get<fileName>(1);
     IFstream inFile(ideasName);

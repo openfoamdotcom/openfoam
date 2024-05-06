@@ -39,7 +39,7 @@ Note
 #ifndef HashFunction_H
 #define HashFunction_H
 
-#include "Hash.H"
+#include "primitives/hashes/Hash/Hash.H"
 
 #ifdef FULLDEBUG
 #define HashTypeInfo(Args)  void info() { std::cerr<< "" Args << "\n"; }
@@ -120,13 +120,13 @@ struct HashFun
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Various
-#include "edge.H"
-#include "face.H"
-#include "triFace.H"
-#include "Pair.H"
-#include "Tuple2.H"
-#include "DynamicList.H"
-#include "FixedList.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 namespace Foam
 {

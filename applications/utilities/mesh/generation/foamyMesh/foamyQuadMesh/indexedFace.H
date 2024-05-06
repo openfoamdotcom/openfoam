@@ -35,7 +35,7 @@ Description
 #ifndef Foam_CGAL_indexedFace_H
 #define Foam_CGAL_indexedFace_H
 
-#include "indexedVertex.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

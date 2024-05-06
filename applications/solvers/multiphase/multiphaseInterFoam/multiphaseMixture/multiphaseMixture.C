@@ -27,16 +27,16 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "multiphaseMixture.H"
-#include "TimeOpenFOAM.H"
-#include "subCycle.H"
-#include "MULES.H"
-#include "surfaceInterpolate.H"
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
-#include "fvcDiv.H"
-#include "fvcFlux.H"
-#include "unitConversion.H"
-#include "alphaContactAngleFvPatchScalarField.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "algorithms/subCycle/subCycle.H"
+#include "fvMatrices/solvers/MULES/MULES.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcFlux.H"
+#include "global/constants/unitConversion.H"
+#include "alphaContactAngle/alphaContactAngleFvPatchScalarField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

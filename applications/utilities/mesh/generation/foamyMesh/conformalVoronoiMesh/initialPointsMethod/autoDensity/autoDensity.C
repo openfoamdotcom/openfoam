@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "autoDensity.H"
-#include "addToRunTimeSelectionTable.H"
+#include "initialPointsMethod/autoDensity/autoDensity.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

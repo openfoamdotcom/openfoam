@@ -36,7 +36,7 @@ SourceFiles
 #ifndef adjointOutletVelocityFvPatchVectorField_H
 #define adjointOutletVelocityFvPatchVectorField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ROMmodel.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "dictionary.H"
+#include "ROMmodels/ROMmodel/ROMmodel.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

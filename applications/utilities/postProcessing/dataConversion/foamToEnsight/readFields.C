@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "readFields.H"
-#include "volFields.H"
+#include "readFields/readFields.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

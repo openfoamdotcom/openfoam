@@ -33,7 +33,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 autoPtr<compressible::turbulenceModel> turbulence;
 
@@ -61,9 +61,9 @@ if (turbulencePropertiesHeader.typeHeaderOk<IOdictionary>(false))
         );
 }
 
-#include "createDpdt.H"
+#include "cfdTools/compressible/createDpdt.H"
 
-#include "createK.H"
+#include "cfdTools/general/include/createK.H"
 
-#include "createRadiationModel.H"
-#include "createFvOptions.H"
+#include "include/createRadiationModel.H"
+#include "cfdTools/general/include/createFvOptions.H"

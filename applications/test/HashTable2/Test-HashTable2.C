@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashTable.H"
-#include "HashPtrTable.H"
-#include "Map.H"
-#include "FlatOutput.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/HashTables/HashPtrTable/HashPtrTable.H"
+#include "containers/HashTables/Map/Map.H"
+#include "db/IOstreams/output/FlatOutput.H"
 
 using namespace Foam;
 

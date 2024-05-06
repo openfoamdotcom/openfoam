@@ -39,7 +39,7 @@ SourceFiles
 #ifndef bodyCentredCubic_H
 #define bodyCentredCubic_H
 
-#include "initialPointsMethod.H"
+#include "initialPointsMethod/initialPointsMethod/initialPointsMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

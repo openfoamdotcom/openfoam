@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_passivePositionParticle_H
 #define Foam_passivePositionParticle_H
 
-#include "passiveParticle.H"
+#include "passiveParticle/passiveParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

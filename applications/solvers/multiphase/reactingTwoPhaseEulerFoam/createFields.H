@@ -1,6 +1,6 @@
-#include "createRDeltaT.H"
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
+#include "cfdTools/general/include/createRDeltaT.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
 
 Info<< "Creating phaseSystem\n" << endl;
 
@@ -17,7 +17,7 @@ dimensionedScalar pMin
     fluid
 );
 
-#include "gh.H"
+#include "cfdTools/general/include/gh.H"
 
 volScalarField& p = fluid.phase1().thermoRef().p();
 

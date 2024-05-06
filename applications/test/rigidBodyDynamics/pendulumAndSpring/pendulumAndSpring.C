@@ -31,16 +31,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyMotion.H"
-#include "masslessBody.H"
-#include "sphere.H"
-#include "joints.H"
-#include "rigidBodyRestraint.H"
-#include "rigidBodyModelState.H"
-#include "Fstream.H"
-#include "constants.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "rigidBodyMotion/rigidBodyMotion.H"
+#include "bodies/masslessBody/masslessBody.H"
+#include "bodies/sphere/sphere.H"
+#include "joints/joints.H"
+#include "restraints/restraint/rigidBodyRestraint.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "global/constants/constants.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 using namespace Foam;
 using namespace RBD;
@@ -50,8 +50,8 @@ using namespace Foam::constant::mathematical;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     dictionary pendulumAndSpringDict(IFstream("pendulumAndSpring")());
 
     // Create the pendulumAndSpring model from dictionary

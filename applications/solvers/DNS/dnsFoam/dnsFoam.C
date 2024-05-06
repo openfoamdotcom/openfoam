@@ -34,13 +34,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "Kmesh.H"
-#include "UOprocess.H"
-#include "fft.H"
-#include "calcEk.H"
-#include "graph.H"
-#include "pisoControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "Kmesh/Kmesh.H"
+#include "processes/UOprocess/UOprocess.H"
+#include "fft/fft.H"
+#include "fft/calcEk.H"
+#include "graph/graph.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -51,14 +51,14 @@ int main(int argc, char *argv[])
         "Direct numerical simulation for boxes of isotropic turbulence."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMeshNoClear.H"
-    #include "createControl.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoClear.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -122,7 +122,7 @@ int main(int argc, char *argv[])
 
             phi = phiHbyA - pEqn.flux();
 
-            #include "continuityErrs.H"
+            #include "cfdTools/incompressible/continuityErrs.H"
 
             U = HbyA - rAU*fvc::grad(p);
             U.correctBoundaryConditions();

@@ -30,9 +30,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensor2D.H"
-#include "vector2DField.H"
-#include "IOstreams.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "fields/Fields/vector2DField/vector2DField.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

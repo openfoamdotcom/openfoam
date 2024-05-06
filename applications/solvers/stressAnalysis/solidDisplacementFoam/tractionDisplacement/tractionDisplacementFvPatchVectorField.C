@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "tractionDisplacementFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volFields.H"
+#include "tractionDisplacement/tractionDisplacementFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

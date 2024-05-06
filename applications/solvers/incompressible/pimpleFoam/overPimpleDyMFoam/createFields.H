@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 
 label pRefCell = 0;
@@ -53,10 +53,10 @@ mesh.setFluxRequired(p.name());
 
 }
 // Mask field for zeroing out contributions on hole cells
-#include "createCellMask.H"
+#include "include/createCellMask.H"
 
 // Create bool field with interpolated cells
-#include "createInterpolatedCells.H"
+#include "include/createInterpolatedCells.H"
 
 singlePhaseTransportModel laminarTransport(U, phi);
 

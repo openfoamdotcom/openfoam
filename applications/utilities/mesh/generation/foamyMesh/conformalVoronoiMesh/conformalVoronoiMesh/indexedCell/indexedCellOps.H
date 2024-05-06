@@ -37,8 +37,8 @@ SourceFiles
 #ifndef indexedCellOps_H
 #define indexedCellOps_H
 
-#include "label.H"
-#include "FixedList.H"
+#include "primitives/ints/label/label.H"
+#include "containers/Lists/FixedList/FixedList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -69,7 +69,7 @@ Foam::FixedList<Foam::label, 4> processorsAttached(const CellType& c);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "indexedCellOpsTemplates.C"
+    #include "conformalVoronoiMesh/indexedCell/indexedCellOpsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

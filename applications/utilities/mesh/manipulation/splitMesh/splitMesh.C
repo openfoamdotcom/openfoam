@@ -49,16 +49,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "faceSet.H"
-#include "attachDetach.H"
-#include "attachPolyTopoChanger.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "attachDetach/attachDetach.H"
+#include "polyTopoChange/attachPolyTopoChanger/attachPolyTopoChanger.H"
 #include "regionSide.H"
-#include "primitivePatch.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -124,15 +124,15 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::addArgument("faceSet", "The faces used for splitting");
     argList::addArgument("master", "The master patch name");
     argList::addArgument("slave", "The slave patch name");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

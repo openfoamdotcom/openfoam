@@ -31,11 +31,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "BinSum.H"
-#include "IOstreams.H"
-#include "Random.H"
-#include "scalarField.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/BinSum/BinSum.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/random/Random/Random.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 using namespace Foam;
 

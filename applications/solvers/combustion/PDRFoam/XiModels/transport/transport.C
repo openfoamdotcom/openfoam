@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "transport.H"
-#include "surfaceInterpolate.H"
-#include "fvmDdt.H"
-#include "fvcLaplacian.H"
-#include "fvmDiv.H"
-#include "fvmSup.H"
-#include "addToRunTimeSelectionTable.H"
+#include "XiModels/transport/transport.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvm/fvmDdt.H"
+#include "finiteVolume/fvc/fvcLaplacian.H"
+#include "finiteVolume/fvm/fvmDiv.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

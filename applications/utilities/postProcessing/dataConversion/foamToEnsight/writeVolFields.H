@@ -21,8 +21,8 @@ Description
 #ifndef ensight_writeVolFields_H
 #define ensight_writeVolFields_H
 
-#include "readFields.H"
-#include "fvMesh.H"
+#include "readFields/readFields.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -103,8 +103,8 @@ SourceFiles
 #ifndef Foam_DirLister_H
 #define Foam_DirLister_H
 
-#include "fileNameList.H"
-#include "wordList.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "primitives/strings/lists/wordList.H"
 #include <dirent.h>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 
 Info<< "Reading incompressibleTwoPhaseInteractingMixture\n" << endl;
@@ -85,9 +85,9 @@ autoPtr
 );
 
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 
 volScalarField p
@@ -131,5 +131,5 @@ mesh.setFluxRequired(alpha1.name());
 // MULES Correction
 tmp<surfaceScalarField> talphaPhiCorr0;
 
-#include "createMRF.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvOptions.H"

@@ -36,12 +36,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "simpleControl.H"
-#include "IOporosityModelList.H"
-#include "fvOptions.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/porosityModel/porosityModel/IOporosityModelList.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -55,17 +55,17 @@ int main(int argc, char *argv[])
     );
 
     #define CREATE_FIELDS_2 createPorousZones.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createPorousZones.H"
     #include "setPorosityTreatment.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -79,8 +79,8 @@ int main(int argc, char *argv[])
 
         // Pressure-velocity SIMPLE corrector
         {
-            #include "UEqn.H"
-            #include "pEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/pEqn.H"
         }
 
         laminarTransport.correct();

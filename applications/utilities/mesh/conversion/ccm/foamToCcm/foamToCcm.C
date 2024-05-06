@@ -64,16 +64,16 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
 
-#include "volFields.H"
-#include "OFstream.H"
-#include "IOobjectList.H"
-#include "scalarIOField.H"
-#include "tensorIOField.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/tensorField/tensorIOField.H"
 
-#include "ccm.H"
+#include "common/ccm.H"
 
 using namespace Foam;
 
@@ -120,8 +120,8 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // The times list
     instantList timeDirs = Foam::timeSelector::select0(runTime, args);
@@ -172,7 +172,7 @@ int main(int argc, char *argv[])
     if (optMesh)
     {
         // convert mesh only
-        #include "createPolyMesh.H"
+        #include "include/createPolyMesh.H"
 
         forAll(timeDirs, timeI)
         {
@@ -205,7 +205,7 @@ int main(int argc, char *argv[])
     else
     {
         // convert fields with or without converting mesh
-        #include "createNamedMesh.H"
+        #include "include/createNamedMesh.H"
 
         // #include "checkHasMovingMesh.H"
         // #include "checkHasLagrangian.H"

@@ -15,14 +15,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "ITstream.H"
-#include "uLabel.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "primitives/ints/uLabel/uLabel.H"
 
-#include "exprTraits.H"
-#include "error.H"
-#include "stringList.H"
-#include "exprScanToken.H"
+#include "expressions/traits/exprTraits.H"
+#include "db/error/error.H"
+#include "primitives/strings/lists/stringList.H"
+#include "expressions/scanToken/exprScanToken.H"
 
 using namespace Foam;
 

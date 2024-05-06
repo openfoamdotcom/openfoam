@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "BinghamPlastic.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcGrad.H"
+#include "BinghamPlastic/BinghamPlastic.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

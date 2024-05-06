@@ -28,15 +28,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "pTraits.H"
-#include "contiguous.H"
-#include "boolVector.H"  // A FixedList pretending to be a vector
-#include "vector.H"
-#include "tensor.H"
-#include "complex.H"
-#include "uLabel.H"
-#include "Switch.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/traits/pTraits.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/Vector/bools/boolVector.H"  // A FixedList pretending to be a vector
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/complex/complex.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/bools/Switch/Switch.H"
 
 #include <type_traits>
 

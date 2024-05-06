@@ -31,11 +31,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "IOstreams.H"
-#include "scalar.H"
-#include "sigFpe.H"
-#include "argList.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "signals/sigFpe.H"
+#include "global/argList/argList.H"
 
 #include <cmath>
 

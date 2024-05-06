@@ -28,12 +28,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OCountStream.H"
-#include "SpanStream.H"
-#include "StringStream.H"
-#include "Fstream.H"
-#include "IOstreams.H"
-#include "argList.H"
+#include "db/IOstreams/memory/OCountStream.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "global/argList/argList.H"
 
 using namespace Foam;
 
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 {
     argList::addOption("write", "file", "test writing to file");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     OCountStream cnt;
     OCharStream cstr;

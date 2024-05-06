@@ -29,13 +29,13 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "DirLister.H"
-#include "fileNameList.H"
-#include "wordRes.H"
-#include "predicates.H"
-#include "FlatOutput.H"
-#include "error.H"
-#include "stringOps.H"
-#include "scalar.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/predicates/predicates.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "db/error/error.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 using namespace Foam;
 

@@ -55,7 +55,7 @@ while (pimple.correctNonOrthogonal())
 }
 
 // Excludes error in interpolated/hole cells
-#include "continuityErrs.H"
+#include "cfdTools/incompressible/continuityErrs.H"
 
 
 {

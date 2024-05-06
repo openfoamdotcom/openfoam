@@ -54,10 +54,10 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "MeshedSurfaces.H"
-#include "stringListOps.H"
-#include "geometricSurfacePatch.H"
+#include "global/argList/argList.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "meshes/Identifiers/surface/geometricSurfacePatch.H"
 
 using namespace Foam;
 

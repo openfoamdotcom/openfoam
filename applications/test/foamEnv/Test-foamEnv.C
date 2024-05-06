@@ -33,8 +33,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OSspecific.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"
 
 using namespace Foam;
 

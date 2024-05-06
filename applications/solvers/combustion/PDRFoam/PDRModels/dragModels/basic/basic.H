@@ -82,8 +82,8 @@ SourceFiles
 #ifndef basic_H
 #define basic_H
 
-#include "PDRDragModel.H"
-#include "XiEqModel.H"
+#include "PDRModels/dragModels/PDRDragModel/PDRDragModel.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
 
 
 namespace Foam

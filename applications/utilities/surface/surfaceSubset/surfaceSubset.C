@@ -36,17 +36,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurfaceSearch.H"
-#include "MeshedSurfaces.H"
-#include "argList.H"
-#include "Fstream.H"
-#include "IOdictionary.H"
-#include "boundBox.H"
-#include "indexedOctree.H"
-#include "treeDataTriSurface.H"
-#include "Random.H"
-#include "volumeType.H"
-#include "plane.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "meshes/boundBox/boundBox.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataTriSurface.H"
+#include "primitives/random/Random/Random.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 using namespace Foam;
 

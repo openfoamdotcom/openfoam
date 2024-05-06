@@ -75,8 +75,8 @@ SourceFiles
 #ifndef implicitFunctions_composedFunctionImplicitFunction_H
 #define implicitFunctions_composedFunctionImplicitFunction_H
 
-#include "implicitFunction.H"
-#include "scalarField.H"
+#include "implicitFunctions/implicitFunction.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

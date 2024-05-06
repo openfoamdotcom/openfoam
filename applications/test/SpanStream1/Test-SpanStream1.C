@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "SpanStream.H"
-#include "wordList.H"
-#include "IOstreams.H"
-#include "argList.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "primitives/strings/lists/wordList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "global/argList/argList.H"
 
 #include <cctype>
 #include <cstdio>

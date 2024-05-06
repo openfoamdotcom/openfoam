@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldFromFile.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triSurfaceMesh.H"
-#include "triSurfaceFields.H"
-#include "TimeOpenFOAM.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/fieldFromFile/fieldFromFile.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

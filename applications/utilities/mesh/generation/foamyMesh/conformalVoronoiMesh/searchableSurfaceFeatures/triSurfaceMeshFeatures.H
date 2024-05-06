@@ -37,7 +37,7 @@ SourceFiles
 #ifndef triSurfaceMeshFeatures_H
 #define triSurfaceMeshFeatures_H
 
-#include "searchableSurfaceFeatures.H"
+#include "searchableSurfaceFeatures/searchableSurfaceFeatures.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

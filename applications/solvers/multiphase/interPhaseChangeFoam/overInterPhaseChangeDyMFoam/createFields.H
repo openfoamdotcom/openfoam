@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 
 Info<< "Creating phaseChangeTwoPhaseMixture\n" << endl;
@@ -65,9 +65,9 @@ autoPtr<incompressible::turbulenceModel> turbulence
 );
 
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 
 volScalarField p
@@ -108,7 +108,7 @@ if (p_rgh.needReference())
 mesh.setFluxRequired(p_rgh.name());
 mesh.setFluxRequired(alpha1.name());
 
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createFvOptions.H"
 
 IOobject alphaPhi10Header
 (
@@ -147,7 +147,7 @@ surfaceScalarField alphaPhi10
 }
 
 // Mask field for zeroing out contributions on hole cells
-#include "createCellMask.H"
+#include "include/createCellMask.H"
 
 // Create bool field with interpolated cells
-#include "createInterpolatedCells.H"
+#include "include/createInterpolatedCells.H"

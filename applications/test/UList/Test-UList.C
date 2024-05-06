@@ -34,14 +34,14 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "IOstreams.H"
-#include "SpanStream.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/memory/SpanStream.H"
 
-#include "labelList.H"
-#include "ListOps.H"
-#include "SubList.H"
-#include "FlatOutput.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/Lists/List/SubList.H"
+#include "db/IOstreams/output/FlatOutput.H"
 
 using namespace Foam;
 

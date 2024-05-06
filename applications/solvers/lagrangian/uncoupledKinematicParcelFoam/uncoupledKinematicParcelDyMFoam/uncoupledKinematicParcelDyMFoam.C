@@ -33,11 +33,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "psiThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "basicKinematicCloud.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "psiThermo/psiThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "clouds/derived/basicKinematicCloud/basicKinematicCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -57,13 +57,13 @@ int main(int argc, char *argv[])
     );
 
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
     #include "createFields.H"
-    #include "compressibleCourantNo.H"
+    #include "fluid/compressibleCourantNo.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

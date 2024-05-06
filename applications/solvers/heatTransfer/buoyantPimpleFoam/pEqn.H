@@ -101,8 +101,8 @@ else
     thermo.correctRho(psi*p - psip0, rhoMin, rhoMax);
 }
 
-#include "rhoEqn.H"
-#include "compressibleContinuityErrs.H"
+#include "cfdTools/compressible/rhoEqn.H"
+#include "cfdTools/compressible/compressibleContinuityErrs.H"
 
 rho = thermo.rho();
 

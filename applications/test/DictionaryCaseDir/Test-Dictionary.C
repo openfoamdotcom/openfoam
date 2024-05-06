@@ -32,13 +32,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
-#include "IOstreams.H"
+#include "db/IOstreams/IOstreams.H"
 #include "Dictionary.H"
-#include "PtrDictionary.H"
+#include "containers/Dictionaries/PtrDictionary/PtrDictionary.H"
 
 using namespace Foam;
 

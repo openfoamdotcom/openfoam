@@ -31,22 +31,22 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "IOobjectList.H"
-#include "IOmanip.H"
-#include "OFstream.H"
-#include "Pstream.H"
-#include "HashOps.H"
-#include "regionProperties.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "regionModel/regionProperties/regionProperties.H"
 
-#include "fvc.H"
-#include "faMesh.H"
-#include "fvMesh.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "faMesh/faMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // file-format/conversion
-#include "ensightFaMesh.H"
-#include "ensightMesh.H"
+#include "output/ensight/ensightFaMesh.H"
+#include "ensight/mesh/ensightMesh.H"
 
 using namespace Foam;
 
@@ -202,7 +202,7 @@ int main(int argc, char *argv[])
 
     argList::addVerboseOption();
 
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
     argList::addBoolOption
     (
@@ -226,7 +226,7 @@ int main(int argc, char *argv[])
         true  // mark as an advanced option
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // ------------------------------------------------------------------------
     // Configuration
@@ -244,16 +244,16 @@ int main(int argc, char *argv[])
 
     // ------------------------------------------------------------------------
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 
     // Handle -allRegions, -regions, -region
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     // ------------------------------------------------------------------------
 
-    #include "createNamedMeshes.H"
+    #include "include/createNamedMeshes.H"
 
     // ------------------------------------------------------------------------
     /// #include "createMeshAccounting.H"

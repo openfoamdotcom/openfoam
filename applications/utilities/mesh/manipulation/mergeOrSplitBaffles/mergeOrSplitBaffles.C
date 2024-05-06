@@ -62,22 +62,22 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "syncTools.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "meshTools.H"
-#include "polyTopoChange.H"
-#include "polyRemoveFace.H"
-#include "polyModifyFace.H"
-#include "indirectPrimitivePatch.H"
-#include "processorPolyPatch.H"
-#include "localPointRegion.H"
-#include "duplicatePoints.H"
-#include "ReadFieldsPascal.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "meshTools/meshTools.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/removeObject/polyRemoveFace.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "regionSplit/localPointRegion.H"
+#include "polyTopoChange/polyTopoChange/duplicatePoints.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -284,8 +284,8 @@ int main(int argc, char *argv[])
         "Merge them or duplicate the points."
     );
 
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
     argList::addOption
     (
         "dict",
@@ -305,9 +305,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
     const polyBoundaryMesh& patches = mesh.boundaryMesh();
@@ -333,7 +333,7 @@ int main(int argc, char *argv[])
     if (readDict)
     {
         const word dictName;
-        #include "setSystemMeshDictionaryIO.H"
+        #include "include/setSystemMeshDictionaryIO.H"
 
         Info<< "Reading " << dictIO.name() << nl << endl;
         IOdictionary dict(dictIO);

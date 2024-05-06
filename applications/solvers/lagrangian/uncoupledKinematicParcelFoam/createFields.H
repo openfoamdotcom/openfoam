@@ -1,4 +1,4 @@
-#include "readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
 
 Info<< "Reading thermophysical properties\n" << endl;
 
@@ -35,7 +35,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 Info<< "Creating turbulence model\n" << endl;
 autoPtr<compressible::turbulenceModel> turbulence

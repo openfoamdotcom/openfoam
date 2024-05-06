@@ -32,10 +32,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "IOmanip.H"
-#include "scalar.H"
-#include "List.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "containers/Lists/List/List.H"
 
 using namespace Foam;
 

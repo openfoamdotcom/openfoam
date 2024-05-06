@@ -34,8 +34,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "tabulatedWallFunction.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "tabulatedWallFunction/tabulatedWallFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -46,9 +46,9 @@ int main(int argc, char *argv[])
         "Generates a table suitable for use by tabulated wall functions"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     IOdictionary dict
     (

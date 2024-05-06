@@ -35,10 +35,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 #include "mergePolyMesh.H"
-#include "topoSet.H"
+#include "topoSet/topoSets/topoSet.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
         "Merge two meshes"
     );
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::addArgument("masterCase");
     argList::addOption

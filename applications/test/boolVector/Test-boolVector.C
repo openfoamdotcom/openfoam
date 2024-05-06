@@ -31,9 +31,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "boolVector.H"
-#include "IOstreams.H"
-#include "Switch.H"
+#include "primitives/Vector/bools/boolVector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/bools/Switch/Switch.H"
 
 using namespace Foam;
 

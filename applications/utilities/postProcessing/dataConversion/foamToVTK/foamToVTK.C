@@ -130,31 +130,31 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "pointMesh.H"
-#include "emptyPolyPatch.H"
-#include "volPointInterpolation.H"
-#include "faceZoneMesh.H"
-#include "areaFields.H"
-#include "fvMeshSubsetProxy.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "HashOps.H"
-#include "regionProperties.H"
-#include "stringListOps.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "meshes/polyMesh/zones/ZoneMesh/faceZoneMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubsetProxy.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "primitives/strings/lists/stringListOps.H"
 
-#include "CloudPascal.H"
-#include "readFields.H"
+#include "Cloud/CloudPascal.H"
+#include "readFields/readFields.H"
 #include "reportFields.H"
 
-#include "foamVtmWriter.H"
-#include "foamVtkInternalWriter.H"
-#include "foamVtkPatchWriter.H"
-#include "foamVtkSurfaceMeshWriter.H"
-#include "foamVtkLagrangianWriter.H"
-#include "foamVtkSurfaceFieldWriter.H"
-#include "foamVtkWriteTopoSet.H"
-#include "foamVtkSeriesWriter.H"
+#include "vtk/file/foamVtmWriter.H"
+#include "vtk/output/foamVtkInternalWriter.H"
+#include "vtk/output/foamVtkPatchWriter.H"
+#include "vtk/output/foamVtkSurfaceMeshWriter.H"
+#include "conversion/vtk/foamVtkLagrangianWriter.H"
+#include "vtk/output/foamVtkSurfaceFieldWriter.H"
+#include "output/vtk/topoSet/foamVtkWriteTopoSet.H"
+#include "vtk/file/foamVtkSeriesWriter.H"
 
 #include "writeAreaFields.H"
 #include "writeDimFields.H"
@@ -162,7 +162,7 @@ Note
 #include "writePointFields.H"
 #include "writeSurfaceFields.H"
 
-#include "memInfo.H"
+#include "memInfo/memInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -435,7 +435,7 @@ int main(int argc, char *argv[])
     );
     argList::addOptionCompat("one-boundary", {"allPatches", 1806});
 
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
     argList::addOption
     (
@@ -481,7 +481,7 @@ int main(int argc, char *argv[])
         "Directory name for VTK output (default: 'VTK')"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     /// const int optVerbose = args.verbose();
     const bool decomposePoly = args.found("poly-decomp");
@@ -623,7 +623,7 @@ int main(int argc, char *argv[])
     // Non-mandatory
     const wordRes selectedFaceZones(args.getList<wordRe>("faceZones", false));
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 
@@ -631,7 +631,7 @@ int main(int argc, char *argv[])
     HashTable<vtk::seriesWriter, fileName> vtkSeries;
 
     // Handle -allRegions, -regions, -region
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     // Names for sets and zones
     word cellSelectionName;
@@ -714,7 +714,7 @@ int main(int argc, char *argv[])
     cpuTime timer;
     Info<< "Initial memory " << Foam::memInfo{}.size() << " kB" << endl;
 
-    #include "createNamedMeshes.H"
+    #include "include/createNamedMeshes.H"
     #include "createMeshAccounting.H"
 
     Info<< "VTK mesh topology: "

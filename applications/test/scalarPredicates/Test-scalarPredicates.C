@@ -31,15 +31,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "labelList.H"
-#include "scalarList.H"
-#include "scalarPredicates.H"
-#include "FlatOutput.H"
-#include "Tuple2.H"
-#include "SpanStream.H"
-#include "ops.H"
-#include "bitSet.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/predicates/scalar/scalarPredicates.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "primitives/ops/ops.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 using namespace Foam;
 

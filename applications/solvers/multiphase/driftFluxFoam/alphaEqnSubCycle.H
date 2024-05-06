@@ -34,7 +34,7 @@
             !(++alphaSubCycle).end();
         )
         {
-            #include "alphaEqn.H"
+            #include "solvers/multiphase/VoF/alphaEqn.H"
             alphaPhiSum += (runTime.deltaT()/totalDeltaT)*alphaPhi;
         }
 
@@ -42,7 +42,7 @@
     }
     else
     {
-        #include "alphaEqn.H"
+        #include "solvers/multiphase/VoF/alphaEqn.H"
     }
 
     // Apply the diffusion term separately to allow implicit solution

@@ -35,8 +35,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "helpType.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "helpType/helpType.H"
 
 using namespace Foam;
 
@@ -44,14 +44,14 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     #include "addToolOption.H"
 
     // Intercept request for any -option (eg, -doc, -help)
     // when it is the first argument
     if (argc > 1 && '-' == *argv[1])
     {
-        #include "setRootCase.H"
+        #include "include/setRootCase.H"
     }
     else if (argc < 2)
     {
@@ -80,9 +80,9 @@ int main(int argc, char *argv[])
 
     utility().init();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     utility().execute(args, mesh);
 

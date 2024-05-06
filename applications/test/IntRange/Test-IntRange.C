@@ -17,10 +17,10 @@ Description
     Test integer range
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "labelPair.H"
-#include "IntRange.H"
-#include "SpanStream.H"
+#include "global/argList/argList.H"
+#include "primitives/tuples/labelPair.H"
+#include "primitives/ranges/IntRange/IntRange.H"
+#include "db/IOstreams/memory/SpanStream.H"
 
 using namespace Foam;
 

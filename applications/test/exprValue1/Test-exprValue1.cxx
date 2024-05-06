@@ -18,11 +18,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "ITstream.H"
-#include "exprValue.H"
-#include "Pstream.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "expressions/value/exprValue.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 using namespace Foam;
 
@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
     argList::noBanner();
     argList::noCheckProcessorDirectories();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // Aborts
     // expressions::exprValue value(std::string(""));

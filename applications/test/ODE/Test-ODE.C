@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOmanip.H"
-#include "ODESystem.H"
-#include "ODESolver.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "ODESystem/ODESystem.H"
+#include "ODESolvers/ODESolver/ODESolver.H"
 
 using namespace Foam;
 

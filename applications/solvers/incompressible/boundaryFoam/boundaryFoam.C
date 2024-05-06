@@ -40,12 +40,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "fvOptions.H"
-#include "wallFvPatch.H"
-#include "makeGraph.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "graphField/makeGraph.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -58,11 +58,11 @@ int main(int argc, char *argv[])
     );
 
     argList::noParallel();
-    #include "addCheckCaseOptions.H"
+    #include "include/addCheckCaseOptions.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
     #include "createFields.H"
     #include "interrogateWallPatches.H"
 

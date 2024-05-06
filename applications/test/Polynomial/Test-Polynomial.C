@@ -33,12 +33,12 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "Polynomial.H"
-#include "FixedList.H"
-#include "polynomialFunction.H"
-#include "ITstream.H"
-#include "OTstream.H"
-#include "Random.H"
-#include "cpuTime.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/functions/Polynomial/polynomialFunction.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/Tstreams/OTstream.H"
+#include "primitives/random/Random/Random.H"
+#include "cpuTime/cpuTime.H"
 
 using namespace Foam;
 

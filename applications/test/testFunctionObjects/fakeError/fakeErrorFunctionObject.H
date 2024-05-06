@@ -63,8 +63,8 @@ SourceFiles
 #ifndef functionObjects_fakeErrorFunctionObject_H
 #define functionObjects_fakeErrorFunctionObject_H
 
-#include "timeFunctionObject.H"
-#include "Switch.H"
+#include "db/functionObjects/timeFunctionObject/timeFunctionObject.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,9 +32,9 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include <typeinfo>
-#include "foamVersion.H"
-#include "Switch.H"
-#include "IOstreams.H"
+#include "include/foamVersion.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

@@ -27,9 +27,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "boundaryInfo.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "processorPolyPatch.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -90,11 +90,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "pisoControl.H"
-#include "dynamicFvMesh.H"
-#include "cellCellStencilObject.H"
-#include "localMin.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControl.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -142,11 +142,11 @@ int main(int argc, char *argv[])
         "Execute functionObjects"
     );
 
-    #include "addRegionOption.H"
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createNamedDynamicFvMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createNamedDynamicFvMesh.H"
 
     pisoControl potentialFlow(mesh, "potentialFlow");
 

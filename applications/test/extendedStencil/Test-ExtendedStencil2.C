@@ -31,15 +31,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "TimeOpenFOAM.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
 
-#include "CFCCellToCellStencil.H"
+#include "fvMesh/extendedStencil/cellToCell/globalIndexStencils/CFCCellToCellStencil.H"
 
 
 using namespace Foam;
@@ -107,15 +107,15 @@ void writeStencilStats(const labelListList& stencil)
 
 int main(int argc, char *argv[])
 {
-    #include "addTimeOptions.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addTimeOptions.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Get times list
     instantList Times = runTime.times();
-    #include "checkTimeOptions.H"
+    #include "include/checkTimeOptions.H"
     runTime.setTime(Times[startTime], startTime);
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
 
     //---- CELL CENTRED STENCIL -----

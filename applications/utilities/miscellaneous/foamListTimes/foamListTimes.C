@@ -53,13 +53,13 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "autoPtr.H"
-#include "profiling.H"
-#include "timeSelector.H"
-#include "TimePaths.H"
-#include "ListOps.H"
-#include "stringOps.H"
+#include "global/argList/argList.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "global/profiling/profiling.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/TimePaths.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 using namespace Foam;
 
@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
     );
     profiling::disable(); // Disable profiling (and its output)
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool removeFiles(args.found("rm"));
     bool verbose(args.verbose());

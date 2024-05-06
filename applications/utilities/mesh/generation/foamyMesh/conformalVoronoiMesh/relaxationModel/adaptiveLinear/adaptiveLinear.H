@@ -40,7 +40,7 @@ SourceFiles
 #ifndef adaptiveLinear_H
 #define adaptiveLinear_H
 
-#include "relaxationModel.H"
+#include "relaxationModel/relaxationModel/relaxationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

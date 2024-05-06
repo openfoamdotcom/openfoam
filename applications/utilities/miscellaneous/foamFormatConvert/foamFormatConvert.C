@@ -56,25 +56,25 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "cellIOList.H"
-#include "IOobjectList.H"
-#include "IOPtrList.H"
-#include "cloud.H"
-#include "labelIOField.H"
-#include "scalarIOField.H"
-#include "sphericalTensorIOField.H"
-#include "symmTensorIOField.H"
-#include "tensorIOField.H"
-#include "labelFieldIOField.H"
-#include "vectorFieldIOField.H"
-#include "passiveParticleCloud.H"
-#include "fieldDictionary.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "meshes/meshShapes/cell/cellIOList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "fields/cloud/cloud.H"
+#include "fields/Fields/labelField/labelIOField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/sphericalTensorField/sphericalTensorIOField.H"
+#include "fields/Fields/symmTensorField/symmTensorIOField.H"
+#include "fields/Fields/tensorField/tensorIOField.H"
+#include "fields/Fields/labelField/labelFieldIOField.H"
+#include "fields/Fields/vectorField/vectorFieldIOField.H"
+#include "passiveParticle/passiveParticleCloud.H"
+#include "topoSet/cellSources/fieldToCell/fieldDictionary.H"
 
 #include "writeMeshObject.H"
 
@@ -261,8 +261,8 @@ int main(int argc, char *argv[])
         "Enable expansion of dictionary directives - #include, #codeStream etc"
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
 
     // enable noConstant by switching
     if (!args.found("noConstant"))
@@ -276,7 +276,7 @@ int main(int argc, char *argv[])
     }
 
 
-    #include "createTime.H"
+    #include "include/createTime.H"
     // Optional mesh (used to read Clouds)
     autoPtr<polyMesh> meshPtr;
 
@@ -300,7 +300,7 @@ int main(int argc, char *argv[])
 
 
     // Specified region or default region
-    #include "getRegionOption.H"
+    #include "include/getRegionOption.H"
     if (!polyMesh::regionName(regionName).empty())
     {
         Info<< "Using region " << regionName << nl << endl;

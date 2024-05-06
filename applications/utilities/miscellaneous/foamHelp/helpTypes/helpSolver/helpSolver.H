@@ -46,7 +46,7 @@ SourceFiles
 #ifndef helpSolver_H
 #define helpSolver_H
 
-#include "helpType.H"
+#include "helpType/helpType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

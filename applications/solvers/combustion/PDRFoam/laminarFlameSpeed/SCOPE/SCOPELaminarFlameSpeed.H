@@ -64,7 +64,7 @@ SourceFiles
 #ifndef SCOPE_H
 #define SCOPE_H
 
-#include "laminarFlameSpeed.H"
+#include "laminarFlameSpeed/laminarFlameSpeed.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

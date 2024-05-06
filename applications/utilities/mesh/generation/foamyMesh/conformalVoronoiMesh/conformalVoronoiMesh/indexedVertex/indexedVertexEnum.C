@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedVertexEnum.H"
-#include "Pstream.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexEnum.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

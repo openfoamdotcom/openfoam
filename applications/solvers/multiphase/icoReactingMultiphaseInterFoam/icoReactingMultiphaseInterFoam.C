@@ -41,15 +41,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "subCycle.H"
-#include "multiphaseSystem.H"
-#include "turbulentFluidThermoModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "radiationModel.H"
-#include "CorrectPhiPascal.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "algorithms/subCycle/subCycle.H"
+#include "multiphaseSystem/multiphaseSystem.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -64,24 +64,24 @@ int main(int argc, char *argv[])
         " adaptive re-meshing."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
 
-    #include "initContinuityErrs.H"
-    #include "createDyMControls.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "include/createDyMControls.H"
 
     #include "createFields.H"
     #include "createFieldRefs.H"
 
     #include "initCorrectPhi.H"
-    #include "createUfIfPresent.H"
+    #include "cfdTools/incompressible/createUfIfPresent.H"
 
-    #include "createFvOptions.H"
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/general/include/createFvOptions.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     turbulence->validate();
 
@@ -91,11 +91,11 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
+        #include "include/readDyMControls.H"
 
-        #include "CourantNo.H"
-        #include "alphaCourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "solvers/multiphase/VoF/alphaCourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -130,14 +130,14 @@ int main(int argc, char *argv[])
                     }
                 }
             }
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
             #include "YEqns.H"
             #include "TEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

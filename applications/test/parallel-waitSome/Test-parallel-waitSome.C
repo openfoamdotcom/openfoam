@@ -33,14 +33,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "IOstreams.H"
-#include "Switch.H"
-#include "clockTime.H"
+#include "containers/Lists/List/List.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "global/clockTime/clockTime.H"
 
 using namespace Foam;
 
@@ -152,7 +152,7 @@ int main(int argc, char *argv[])
     const label transferSize = 10;
     label sleepSeconds = 5;
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     args.readIfPresent("sleep", sleepSeconds);
     const bool waitAll = args.found("wait-all");

@@ -31,7 +31,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtmWriter.H"
+#include "vtk/file/foamVtmWriter.H"
 
 using namespace Foam;
 

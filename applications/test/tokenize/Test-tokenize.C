@@ -30,13 +30,13 @@ Description
     Test the tokenizing of various things
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "IFstream.H"
-#include "SpanStream.H"
-#include "cpuTime.H"
-#include "DynamicList.H"
+#include "global/argList/argList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "cpuTime/cpuTime.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 using namespace Foam;
 

@@ -36,13 +36,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarMatrices.H"
-#include "RectangularMatrix.H"
-#include "SquareMatrix.H"
-#include "complex.H"
-#include "IOmanip.H"
-#include "EigenMatrix.H"
-#include "TestTools.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "primitives/complex/complex.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "matrices/EigenMatrix/EigenMatrix.H"
+#include "test/TestTools/TestTools.H"
 
 using namespace Foam;
 

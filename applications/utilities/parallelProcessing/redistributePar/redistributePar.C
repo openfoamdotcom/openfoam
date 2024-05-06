@@ -72,36 +72,36 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "sigFpe.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "fvMeshTools.H"
-#include "fvMeshDistribute.H"
-#include "fieldsDistributor.H"
-#include "decompositionMethod.H"
+#include "global/argList/argList.H"
+#include "signals/sigFpe.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
+#include "fvMeshDistribute/fvMeshDistribute.H"
+#include "parallel/fieldsDistributor/fieldsDistributor.H"
+#include "decompositionMethod/decompositionMethod.H"
 #include "decompositionModel.H"
-#include "timeSelector.H"
-#include "PstreamReduceOps.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "IOmapDistributePolyMesh.H"
-#include "IOobjectList.H"
-#include "globalIndex.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/IOmapDistributePolyMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "parallel/globalIndex/globalIndex.H"
 #include "loadOrCreateMesh.H"
-#include "processorFvPatchField.H"
-#include "topoSet.H"
-#include "regionProperties.H"
+#include "fields/fvPatchFields/constraint/processor/processorFvPatchField.H"
+#include "topoSet/topoSets/topoSet.H"
+#include "regionModel/regionProperties/regionProperties.H"
 
 #include "parFvFieldDistributor.H"
 #include "parPointFieldDistributor.H"
-#include "hexRef8Data.H"
-#include "meshRefinement.H"
-#include "pointFields.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
+#include "meshRefinement/meshRefinement.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
-#include "faMeshSubset.H"
-#include "faMeshTools.H"
-#include "faMeshDistributor.H"
+#include "faMesh/faMeshSubset/faMeshSubset.H"
+#include "faMesh/faMeshTools/faMeshTools.H"
+#include "distributed/faMeshDistributor.H"
 #include "parFaFieldDistributorCache.H"
 
 #include "redistributeLagrangian.H"
@@ -1211,9 +1211,9 @@ int main(int argc, char *argv[])
     // enable -zeroTime to prevent accidentally trashing the initial fields
     timeSelector::addOptions(true, true);
 
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::addBoolOption("decompose", "Decompose case");
     argList::addBoolOption("reconstruct", "Reconstruct case");
     argList::addVerboseOption
@@ -1282,7 +1282,7 @@ int main(int argc, char *argv[])
     fileOperation::nProcsFilter(0);
 
     // Need this line since we don't include "setRootCase.H"
-    #include "foamDlOpenLibs.H"
+    #include "include/foamDlOpenLibs.H"
 
     const bool reconstruct = args.found("reconstruct");
     const bool writeCellDist = args.found("cellDist");
@@ -1554,7 +1554,7 @@ int main(int argc, char *argv[])
         args.getOrDefault<fileName>("decomposeParDict", "");
 
     // Get region names
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     if (regionNames.size() == 1 && regionNames[0] != polyMesh::defaultRegion)
     {

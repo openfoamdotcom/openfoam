@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "indexedOctree.H"
-#include "treeDataEdge.H"
-#include "OFstream.H"
-#include "extendedFeatureEdgeMesh.H"
-#include "fvCFD.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "algorithms/indexedOctree/treeDataEdge.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "edgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMesh.H"
+#include "cfdTools/general/include/fvCFD.H"
 
 using namespace Foam;
 
@@ -43,9 +43,9 @@ using namespace Foam;
 int main(int argc, char *argv[])
 {
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     fileName sFeatFileName("unit_cube_rotated.extendedFeatureEdgeMesh");
 

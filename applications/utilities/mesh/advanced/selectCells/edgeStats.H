@@ -37,8 +37,8 @@ SourceFiles
 #ifndef Foam_edgeStats_H
 #define Foam_edgeStats_H
 
-#include "direction.H"
-#include "scalar.H"
+#include "primitives/direction/direction.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

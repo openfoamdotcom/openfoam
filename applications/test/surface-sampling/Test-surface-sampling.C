@@ -31,17 +31,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "profiling.H"
-#include "clockTime.H"
+#include "global/argList/argList.H"
+#include "global/profiling/profiling.H"
+#include "global/clockTime/clockTime.H"
 
-#include "fileName.H"
-#include "sampledSurfaces.H"
-#include "IOstreams.H"
-#include "OSspecific.H"
-#include "profiling.H"
-#include "ReadFieldsPascal.H"
-#include "volFields.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "sampledSurface/sampledSurfaces/sampledSurfaces.H"
+#include "db/IOstreams/IOstreams.H"
+#include "include/OSspecific.H"
+#include "global/profiling/profiling.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "fields/volFields/volFields.H"
 
 using namespace Foam;
 
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Disallow function objects
     argList::addVerboseOption("additional verbosity");
-    #include "addProfilingOption.H"
+    #include "include/addProfilingOption.H"
 
     argList::addOption
     (
@@ -68,8 +68,8 @@ int main(int argc, char *argv[])
     argList::addOption("output", "Begin output iteration (default: 10000)");
     argList::addOption("count", "Number of writes (default: 1)");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const int verbose = args.verbose();
     const label firstOutput = args.getOrDefault("output", 10000);

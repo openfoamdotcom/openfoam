@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedCell.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCell.H"
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 

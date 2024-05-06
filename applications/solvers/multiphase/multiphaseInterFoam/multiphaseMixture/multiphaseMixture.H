@@ -46,11 +46,11 @@ SourceFiles
 #define multiphaseMixture_H
 
 #include "incompressible/transportModel/transportModel.H"
-#include "IOdictionary.H"
-#include "phase.H"
-#include "PtrDictionary.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "phase/phase.H"
+#include "containers/Dictionaries/PtrDictionary/PtrDictionary.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

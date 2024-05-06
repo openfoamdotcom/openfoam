@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvcDdt.H"
+#include "finiteVolume/fvc/fvcDdt.H"
 #include "twoPhaseMixtureThermo.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

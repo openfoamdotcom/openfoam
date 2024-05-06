@@ -31,17 +31,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "PatchFunction1.H"
-#include "IOdictionary.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "PatchFunction1/PatchFunction1/PatchFunction1.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     IOdictionary function1Properties
     (

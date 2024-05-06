@@ -32,14 +32,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "timeSelector.H"
-#include "volFields.H"
-#include "IOobjectList.H"
-#include "foamVtkSeriesWriter.H"
-#include "lumpedPointTools.H"
-#include "lumpedPointIOMovement.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "vtk/file/foamVtkSeriesWriter.H"
+#include "tools/lumpedPointTools.H"
+#include "movement/lumpedPointIOMovement.H"
 
 using namespace Foam;
 
@@ -96,16 +96,16 @@ int main(int argc, char *argv[])
     timeSelector::addOptions(true, false);
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
 
     const bool withVTK = args.found("vtk");
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     autoPtr<lumpedPointIOMovement> movement = lumpedPointIOMovement::New(mesh);
 

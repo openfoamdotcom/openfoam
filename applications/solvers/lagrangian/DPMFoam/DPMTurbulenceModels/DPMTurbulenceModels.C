@@ -26,13 +26,13 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "DPMIncompressibleTurbulenceModel.H"
-#include "singlePhaseTransportModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "makeTurbulenceModel.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -66,22 +66,22 @@ makeBaseTurbulenceModel
     makeTemplatedTurbulenceModel                                               \
     (singlePhaseTransportModelDPMIncompressibleTurbulenceModel, LES, Type)
 
-#include "Stokes.H"
+#include "laminar/Stokes/Stokes.H"
 makeLaminarModel(Stokes);
 
-#include "kEpsilon.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
-#include "realizableKE.H"
+#include "RAS/realizableKE/realizableKE.H"
 makeRASModel(realizableKE);
 
-#include "kOmegaSST.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
 makeRASModel(kOmegaSST);
 
-#include "Smagorinsky.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
 makeLESModel(Smagorinsky);
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 makeLESModel(kEqn);
 
 // ************************************************************************* //

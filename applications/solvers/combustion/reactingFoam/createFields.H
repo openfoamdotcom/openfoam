@@ -1,4 +1,4 @@
-#include "createRDeltaT.H"
+#include "cfdTools/general/include/createRDeltaT.H"
 
 Info<< "Reading thermophysical properties\n" << endl;
 autoPtr<psiReactionThermo> pThermo(psiReactionThermo::New(mesh));
@@ -43,7 +43,7 @@ volVectorField U
 
 volScalarField& p = thermo.p();
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 pressureControl pressureControl(p, rho, pimple.dict(), false);
 
@@ -89,9 +89,9 @@ volScalarField Qdot
     dimensionedScalar(dimEnergy/dimVolume/dimTime, Zero)
 );
 
-#include "createDpdt.H"
+#include "cfdTools/compressible/createDpdt.H"
 
-#include "createK.H"
+#include "cfdTools/general/include/createK.H"
 
-#include "createMRF.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvOptions.H"

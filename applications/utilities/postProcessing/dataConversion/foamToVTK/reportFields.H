@@ -35,12 +35,12 @@ Description
 #ifndef foamToVtkReportFields_H
 #define foamToVtkReportFields_H
 
-#include "UPtrList.H"
-#include "Ostream.H"
-#include "areaFields.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "IOobjectList.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

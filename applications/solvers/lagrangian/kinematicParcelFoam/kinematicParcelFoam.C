@@ -35,15 +35,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "surfaceFilmModel.H"
-#include "basicKinematicCloud.H"
-#include "fvOptions.H"
-#include "pimpleControl.H"
-#include "CorrectPhiPascal.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "surfaceFilmModel/surfaceFilmModel.H"
+#include "clouds/derived/basicKinematicCloud/basicKinematicCloud.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -57,23 +57,23 @@ int main(int argc, char *argv[])
     );
 
     #define CREATE_MESH createMeshesPostProcess.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "initContinuityErrs.H"
-    #include "createDyMControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "include/createDyMControls.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
     #include "createRegionControls.H"
-    #include "createUfIfPresent.H"
+    #include "cfdTools/incompressible/createUfIfPresent.H"
 
     turbulence->validate();
 
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -81,9 +81,9 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
-        #include "CourantNo.H"
-        #include "setMultiRegionDeltaT.H"
+        #include "include/readDyMControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "include/setMultiRegionDeltaT.H"
 
         ++runTime;
 
@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
 
             if (checkMeshCourantNo)
             {
-                #include "meshCourantNo.H"
+                #include "include/meshCourantNo.H"
             }
         }
 
@@ -125,12 +125,12 @@ int main(int argc, char *argv[])
             // --- PIMPLE loop
             while (pimple.loop())
             {
-                #include "UEqn.H"
+                #include "fluid/UEqn.H"
 
                 // --- Pressure corrector loop
                 while (pimple.correct())
                 {
-                    #include "pEqn.H"
+                    #include "fluid/pEqn.H"
                 }
 
                 if (pimple.turbCorr())

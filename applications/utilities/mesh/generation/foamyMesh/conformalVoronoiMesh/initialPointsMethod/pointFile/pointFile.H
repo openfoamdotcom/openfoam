@@ -39,10 +39,10 @@ SourceFiles
 #ifndef pointFile_H
 #define pointFile_H
 
-#include "fileName.H"
-#include "pointIOField.H"
-#include "Switch.H"
-#include "initialPointsMethod.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "initialPointsMethod/initialPointsMethod/initialPointsMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

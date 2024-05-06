@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "GAMGAgglomeration.H"
-#include "OFstream.H"
-#include "meshTools.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "matrices/lduMatrix/solvers/GAMG/GAMGAgglomerations/GAMGAgglomeration/GAMGAgglomeration.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Main program:
@@ -52,13 +52,13 @@ int main(int argc, char *argv[])
         "normalise agglomeration (0..1)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     bool writeObj = args.found("writeObj");
     bool normalise = args.found("normalise");
 
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     const fvSolution& sol = static_cast<const fvSolution&>(mesh);
     const dictionary& pDict = sol.subDict("solvers").subDict("p");

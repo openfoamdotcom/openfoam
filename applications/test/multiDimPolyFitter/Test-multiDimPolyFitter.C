@@ -30,10 +30,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "multiDimPolyFitter.H"
-#include "labelVector.H"
-#include "Field.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fvMatrices/solvers/multiDimPolyFitter/multiDimPolyFitter.H"
+#include "primitives/Vector/ints/labelVector.H"
+#include "fields/Fields/Field/Field.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -43,8 +43,8 @@ SourceFiles
 
 #include "PDRutils.H"
 #include "PDRarrays.H"
-#include "PDRblock.H"
-#include "symmTensor2D.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "primitives/SymmTensor2D/symmTensor2D/symmTensor2D.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@
             !(++alphaSubCycle).end();
         )
         {
-            #include "alphaEqn.H"
+            #include "solvers/multiphase/VoF/alphaEqn.H"
             rhoPhiSum += (runTime.deltaT()/totalDeltaT)*rhoPhi;
         }
 
@@ -45,7 +45,7 @@
     }
     else
     {
-        #include "alphaEqn.H"
+        #include "solvers/multiphase/VoF/alphaEqn.H"
     }
 
     rho == alpha1*rho1 + alpha2*rho2;

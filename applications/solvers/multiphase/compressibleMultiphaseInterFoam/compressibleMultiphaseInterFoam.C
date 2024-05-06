@@ -40,10 +40,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
+#include "cfdTools/general/include/fvCFD.H"
 #include "multiphaseMixtureThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "pimpleControl.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -55,17 +55,17 @@ int main(int argc, char *argv[])
         " using VOF phase-fraction based interface capturing."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
-    #include "createTimeControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "cfdTools/general/include/createTimeControls.H"
     #include "createFields.H"
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     volScalarField& p = mixture.p();
     volScalarField& T = mixture.T();
@@ -78,10 +78,10 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
-        #include "CourantNo.H"
-        #include "alphaCourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "solvers/multiphase/VoF/alphaCourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -94,13 +94,13 @@ int main(int argc, char *argv[])
 
             solve(fvm::ddt(rho) + fvc::div(mixture.rhoPhi()));
 
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
             #include "TEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

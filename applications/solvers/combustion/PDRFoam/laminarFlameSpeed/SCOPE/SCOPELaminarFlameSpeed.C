@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "IFstream.H"
-#include "SCOPELaminarFlameSpeed.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "laminarFlameSpeed/SCOPE/SCOPELaminarFlameSpeed.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

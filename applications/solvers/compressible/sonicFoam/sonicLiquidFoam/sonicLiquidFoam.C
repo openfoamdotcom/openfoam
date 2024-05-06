@@ -35,8 +35,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "pimpleControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -48,15 +48,15 @@ int main(int argc, char *argv[])
         " of a compressible liquid."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
-        #include "compressibleCourantNo.H"
+        #include "fluid/compressibleCourantNo.H"
 
         solve(fvm::ddt(rho) + fvc::div(phi));
 
@@ -119,7 +119,7 @@ int main(int argc, char *argv[])
                 phi += pEqn.flux();
 
                 solve(fvm::ddt(rho) + fvc::div(phi));
-                #include "compressibleContinuityErrs.H"
+                #include "cfdTools/compressible/compressibleContinuityErrs.H"
 
                 U -= rAU*fvc::grad(p);
                 U.correctBoundaryConditions();

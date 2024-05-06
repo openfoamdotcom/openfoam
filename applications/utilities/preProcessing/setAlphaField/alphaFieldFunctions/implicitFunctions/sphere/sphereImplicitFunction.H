@@ -40,8 +40,8 @@ SourceFiles
 #ifndef implicitFunction_sphereImplicitFunction_H
 #define implicitFunction_sphereImplicitFunction_H
 
-#include "implicitFunction.H"
-#include "point.H"
+#include "implicitFunctions/implicitFunction.H"
+#include "meshes/primitiveShapes/point/point.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

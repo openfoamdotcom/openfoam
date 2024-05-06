@@ -36,12 +36,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "twoPhaseSystem.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "twoPhaseSystem/twoPhaseSystem.H"
 #include "PhaseCompressibleTurbulenceModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "fixedValueFvsPatchFields.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "fields/fvsPatchFields/basic/fixedValue/fixedValueFvsPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -54,18 +54,18 @@ int main(int argc, char *argv[])
         "Eg, gas bubbles in a liquid including heat-transfer."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "createTimeControls.H"
+    #include "cfdTools/general/include/createTimeControls.H"
     #include "CourantNos.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     bool faceMomentum
     (
@@ -89,9 +89,9 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
+        #include "cfdTools/general/include/readTimeControls.H"
         #include "CourantNos.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
         Info<< "Time = " << runTime.timeName() << nl << endl;

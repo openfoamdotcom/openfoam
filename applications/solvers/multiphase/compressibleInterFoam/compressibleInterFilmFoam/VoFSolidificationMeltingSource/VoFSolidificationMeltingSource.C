@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoFSolidificationMeltingSource.H"
+#include "VoFSolidificationMeltingSource/VoFSolidificationMeltingSource.H"
 #include "twoPhaseMixtureThermo.H"
-#include "zeroGradientFvPatchFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

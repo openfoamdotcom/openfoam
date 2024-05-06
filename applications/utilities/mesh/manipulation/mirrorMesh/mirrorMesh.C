@@ -35,11 +35,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 #include "mirrorFvMesh.H"
-#include "mapPolyMesh.H"
-#include "hexRef8Data.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
 
 using namespace Foam;
 
@@ -55,15 +55,15 @@ int main(int argc, char *argv[])
     argList::addOption("dict", "file", "Alternative mirrorMeshDict");
     argList::setAdvanced("decomposeParDict");
 
-    #include "addOverwriteOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool overwrite = args.found("overwrite");
 
     const word dictName("mirrorMeshDict");
 
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
 
     Info<< "Reading " << dictIO.name() << nl << endl;
 

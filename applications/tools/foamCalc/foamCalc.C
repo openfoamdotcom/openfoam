@@ -48,11 +48,11 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "exprString.H"
-#include "stringOps.H"
-#include "fieldExprParser.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "expressions/exprString/exprString.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "expressions/fields/fieldExprParser.H"
 
 using namespace Foam;
 

@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "plane.H"
-#include "tetrahedron.H"
-#include "pointConversion.H"
-#include "CGALTriangulation3DKernel.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "conformalVoronoiMesh/pointConversion.H"
+#include "conformalVoronoiMesh/CGALTriangulation3DKernel.H"
 
 
 template<class Cell>

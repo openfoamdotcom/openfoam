@@ -27,11 +27,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PDRsetFields.H"
-#include "PDRobstacle.H"
+#include "obstacles/PDRobstacle.H"
 #include "PDRpatchDef.H"
 #include "PDRutils.H"
 #include "PDRutilsInternal.H"
-#include "ListOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 #include <cstdlib>
 #include <cstdio>

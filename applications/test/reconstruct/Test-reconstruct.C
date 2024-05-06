@@ -28,16 +28,16 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
+#include "cfdTools/general/include/fvCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     surfaceScalarField phi(vector(1, 0, 0) & mesh.Sf());
 

@@ -34,12 +34,12 @@ Description
 #ifndef caseInfo_H
 #define caseInfo_H
 
-#include "boolList.H"
-#include "labelList.H"
-#include "wordList.H"
-#include "HashSet.H"
-#include "wordRes.H"
-#include "IOdictionary.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 #include "boundaryInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

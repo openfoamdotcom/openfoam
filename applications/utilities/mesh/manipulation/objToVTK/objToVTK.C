@@ -35,11 +35,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OFstream.H"
-#include "StringStream.H"
-#include "point.H"
-#include "DynamicList.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 using namespace Foam;
 

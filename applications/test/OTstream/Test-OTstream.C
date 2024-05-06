@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "ITstream.H"
-#include "OTstream.H"
-#include "primitiveFields.H"
-#include "argList.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/Tstreams/OTstream.H"
+#include "fields/Fields/primitiveFields.H"
+#include "global/argList/argList.H"
 
 using namespace Foam;
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef linearSpatial_H
 #define linearSpatial_H
 
-#include "cellSizeFunction.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/cellSizeFunction/cellSizeFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

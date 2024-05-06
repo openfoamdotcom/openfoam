@@ -27,10 +27,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PDRmeshArrays.H"
-#include "PDRblock.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "IjkField.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/ijkMesh/IjkField.H"
 
 // Notes
 //
@@ -278,7 +278,7 @@ void Foam::PDRmeshArrays::read
     const PDRblock& pdrBlock
 )
 {
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
     classify(mesh, pdrBlock);
 }
 

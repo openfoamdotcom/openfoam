@@ -70,12 +70,12 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 
-#include "MeshedSurfaces.H"
-#include "coordinateSystems.H"
-#include "cartesianCS.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "primitives/coordinate/systems/coordinateSystems.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
 
 using namespace Foam;
 

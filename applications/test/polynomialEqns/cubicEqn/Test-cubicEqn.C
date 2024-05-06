@@ -35,9 +35,9 @@ Description
 #include <ctime>
 #include <random>
 
-#include "cubicEqn.H"
-#include "vector.H"
-#include "scalarList.H"
+#include "primitives/polynomialEqns/cubicEqn/cubicEqn.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Scalar/lists/scalarList.H"
 
 using namespace Foam;
 

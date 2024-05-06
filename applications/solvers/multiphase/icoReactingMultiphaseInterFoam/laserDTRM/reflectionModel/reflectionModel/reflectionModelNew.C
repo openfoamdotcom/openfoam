@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "error.H"
-#include "reflectionModel.H"
+#include "db/error/error.H"
+#include "reflectionModel/reflectionModel/reflectionModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

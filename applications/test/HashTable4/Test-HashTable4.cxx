@@ -28,12 +28,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "HashSet.H"
-#include "HashTable.H"
-#include "Map.H"
-#include "cpuTime.H"
-#include "memInfo.H"
+#include "global/argList/argList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/HashTables/Map/Map.H"
+#include "cpuTime/cpuTime.H"
+#include "memInfo/memInfo.H"
 
 #include <map>
 #include <set>

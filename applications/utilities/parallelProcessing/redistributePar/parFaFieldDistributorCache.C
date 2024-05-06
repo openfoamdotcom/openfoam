@@ -27,11 +27,11 @@ License
 
 #include "parFaFieldDistributorCache.H"
 
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "fieldsDistributor.H"
-#include "faMeshDistributor.H"
-#include "faMeshSubset.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "parallel/fieldsDistributor/fieldsDistributor.H"
+#include "distributed/faMeshDistributor.H"
+#include "faMesh/faMeshSubset/faMeshSubset.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

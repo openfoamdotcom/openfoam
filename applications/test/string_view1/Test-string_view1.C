@@ -28,9 +28,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringOpenFOAM.H"
-#include "IOstreams.H"
-#include "List.H"
+#include "primitives/strings/string/stringOpenFOAM.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/List/List.H"
 
 using namespace Foam;
 

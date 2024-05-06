@@ -40,8 +40,8 @@ SourceFiles
 #ifndef implicitFunction_paraboloidImplicitFunction_H
 #define implicitFunction_paraboloidImplicitFunction_H
 
-#include "implicitFunction.H"
-#include "mathematicalConstants.H"
+#include "implicitFunctions/implicitFunction.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

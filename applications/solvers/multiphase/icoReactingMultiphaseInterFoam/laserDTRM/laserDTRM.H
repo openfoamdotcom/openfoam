@@ -53,17 +53,17 @@ SourceFiles
 #ifndef radiationModellaserDTRM_H
 #define radiationModellaserDTRM_H
 
-#include "radiationModel.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "CloudPascal.H"
-#include "DTRMParticle.H"
-#include "reflectionModel.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "Cloud/CloudPascal.H"
+#include "DTRMParticle/DTRMParticle.H"
+#include "reflectionModel/reflectionModel/reflectionModel.H"
 #include "Function1.H"
-#include "interpolation2DTable.H"
-#include "labelField.H"
-#include "phasePairKey.H"
-#include "Enum.H"
+#include "interpolations/interpolation2DTable/interpolation2DTable.H"
+#include "fields/Fields/labelField/labelField.H"
+#include "phasePair/phasePairKey.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

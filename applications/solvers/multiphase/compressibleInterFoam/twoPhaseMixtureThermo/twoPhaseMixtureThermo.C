@@ -27,9 +27,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "twoPhaseMixtureThermo.H"
-#include "gradientEnergyFvPatchScalarField.H"
-#include "mixedEnergyFvPatchScalarField.H"
-#include "collatedFileOperation.H"
+#include "derivedFvPatchFields/gradientEnergy/gradientEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/mixedEnergy/mixedEnergyFvPatchScalarField.H"
+#include "global/fileOperations/collatedFileOperation/collatedFileOperation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

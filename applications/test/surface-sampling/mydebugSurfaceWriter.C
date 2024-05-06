@@ -26,18 +26,18 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "mydebugSurfaceWriter.H"
-#include "globalIndex.H"
-#include "argList.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "IOmanip.H"
-#include "TimeOpenFOAM.H"
-#include "pointIOField.H"
-#include "primitivePatch.H"
-#include "profiling.H"
-#include "surfaceWriterMethods.H"
-#include "PrecisionAdaptor.H"
-#include "addToRunTimeSelectionTable.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "global/profiling/profiling.H"
+#include "writers/common/surfaceWriterMethods.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

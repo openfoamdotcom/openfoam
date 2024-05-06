@@ -54,10 +54,10 @@ SourceFiles
 #ifndef Foam_parPointFieldDistributor_H
 #define Foam_parPointFieldDistributor_H
 
-#include "PtrList.H"
-#include "pointMesh.H"
-#include "pointFieldsFwd.H"
-#include "Switch.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/GeometricFields/pointFields/pointFieldsFwd.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

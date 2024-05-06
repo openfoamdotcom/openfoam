@@ -38,7 +38,7 @@ while (pimple.correctNonOrthogonal())
     }
 }
 
-#include "continuityErrs.H"
+#include "cfdTools/incompressible/continuityErrs.H"
 
 // Explicitly relax pressure for momentum corrector
 p_gh.relax();

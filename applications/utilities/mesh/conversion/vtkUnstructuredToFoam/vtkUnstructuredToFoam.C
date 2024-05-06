@@ -41,11 +41,11 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "IFstream.H"
-#include "vtkUnstructuredReader.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "vtk/read/vtkUnstructuredReader.H"
 
 using namespace Foam;
 
@@ -63,8 +63,8 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::addArgument("vtk-file", "The input legacy ascii vtk file");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     IFstream mshStream(args.get<fileName>(1));
 

@@ -34,11 +34,11 @@ Description
 
 #include <memory>
 #include <iostream>
-#include "autoPtr.H"
-#include "refPtr.H"
-#include "tmp.H"
-#include "PtrMap.H"
-#include "primitiveFields.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/refPtr/refPtr.H"
+#include "memory/tmp/tmp.H"
+#include "containers/HashTables/PtrMap/PtrMap.H"
+#include "fields/Fields/primitiveFields.H"
 
 using namespace Foam;
 

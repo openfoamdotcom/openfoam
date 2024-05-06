@@ -31,8 +31,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "foamVtkSeriesWriter.H"
-#include "argList.H"
+#include "vtk/file/foamVtkSeriesWriter.H"
+#include "global/argList/argList.H"
 
 using namespace Foam;
 

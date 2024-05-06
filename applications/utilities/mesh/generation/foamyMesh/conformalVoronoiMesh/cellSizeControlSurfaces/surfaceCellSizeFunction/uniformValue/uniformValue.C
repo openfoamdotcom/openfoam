@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformValue.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/uniformValue/uniformValue.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

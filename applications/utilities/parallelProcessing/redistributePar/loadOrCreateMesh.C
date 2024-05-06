@@ -27,10 +27,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "loadOrCreateMesh.H"
-#include "faMesh.H"
-#include "Pstream.H"
-#include "OSspecific.H"
-#include "decomposedBlockData.H"
+#include "faMesh/faMesh.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "include/OSspecific.H"
+#include "db/IOobjects/decomposedBlockData/decomposedBlockData.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

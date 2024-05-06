@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "parFvFieldDistributor.H"
-#include "bitSet.H"
+#include "containers/Bits/bitSet/bitSet.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -57,17 +57,17 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "autoPtr.H"
-#include "profiling.H"
-#include "timeSelector.H"
-#include "Enum.H"
-#include "TimePaths.H"
-#include "ListOps.H"
-#include "stringOps.H"
-#include "regionProperties.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "global/profiling/profiling.H"
+#include "db/Time/timeSelector.H"
+#include "primitives/enums/Enum.H"
+#include "db/Time/TimePaths.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 using namespace Foam;
 
@@ -243,8 +243,8 @@ int main(int argc, char *argv[])
 
     timeSelector::addOptions(true, true);  // constant(true), zero(true)
 
-    #include "addAllRegionOptions.H"
-    #include "setRootCase.H"
+    #include "include/addAllRegionOptions.H"
+    #include "include/setRootCase.H"
 
     wordList regionNames0;
     {
@@ -255,7 +255,7 @@ int main(int argc, char *argv[])
         const auto& runTime = *dummyTimePtr;
 
         // Handle -allRegions, -regions, -region
-        #include "getAllRegionOptions.H"
+        #include "include/getAllRegionOptions.H"
 
         regionNames0 = std::move(regionNames);
     }

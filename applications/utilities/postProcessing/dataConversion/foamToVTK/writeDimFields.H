@@ -19,8 +19,8 @@ Description
 #ifndef FoamToVTK_writeDimFields_H
 #define FoamToVTK_writeDimFields_H
 
-#include "readFields.H"
-#include "foamVtkInternalWriter.H"
+#include "readFields/readFields.H"
+#include "vtk/output/foamVtkInternalWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

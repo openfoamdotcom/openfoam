@@ -35,14 +35,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "dynamicFvMesh.H"
-#include "pimpleControl.H"
-#include "cyclicAMIPolyPatch.H"
-#include "PatchTools.H"
-#include "foamVtkSurfaceWriter.H"
-#include "functionObject.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "AMIInterpolation/patches/cyclicAMI/cyclicAMIPolyPatch/cyclicAMIPolyPatch.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "db/functionObjects/functionObject/functionObject.H"
 
 using namespace Foam;
 
@@ -161,17 +161,17 @@ int main(int argc, char *argv[])
         "Mesh motion and topological mesh changes utility"
     );
 
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
     argList::addBoolOption
     (
         "checkAMI",
         "Check AMI weights and write VTK files of the AMI patches"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedDynamicFvMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedDynamicFvMesh.H"
 
     const bool checkAMI = args.found("checkAMI");
 

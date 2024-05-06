@@ -68,8 +68,8 @@ p = p_rgh + rho*gh;
 // Thermodynamic density update
 thermo.correctRho(psi*p - psip0);
 
-#include "rhoEqn.H"
-#include "compressibleContinuityErrs.H"
+#include "cfdTools/compressible/rhoEqn.H"
+#include "cfdTools/compressible/compressibleContinuityErrs.H"
 
 if (pressureControl.limit(p))
 {

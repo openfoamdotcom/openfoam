@@ -36,7 +36,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 pressureControl pressureControl(p, rho, simple.dict());
 
@@ -56,5 +56,5 @@ autoPtr<compressible::turbulenceModel> turbulence
 
 dimensionedScalar initialMass = fvc::domainIntegrate(rho);
 
-#include "createMRF.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvOptions.H"

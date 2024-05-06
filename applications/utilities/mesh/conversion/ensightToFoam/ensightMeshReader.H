@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_ensightMeshReader_H
 #define Foam_ensightMeshReader_H
 
-#include "meshReader.H"
+#include "common/reader/meshReader.H"
 //#include "ensightReadFile.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

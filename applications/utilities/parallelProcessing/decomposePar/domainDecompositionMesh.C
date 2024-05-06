@@ -33,9 +33,9 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "domainDecomposition.H"
-#include "IOstreams.H"
-#include "bitSet.H"
-#include "cyclicPolyPatch.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

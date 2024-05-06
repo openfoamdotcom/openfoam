@@ -35,15 +35,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 #include "hexBlock.H"
-#include "polyMesh.H"
-#include "wallPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "preservePatchTypes.H"
-#include "cellShape.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
 
 using namespace Foam;
 
@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
 
     const scalar scaleFactor = args.getOrDefault<scalar>("scale", 1);
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     IFstream cfxFile(args.get<fileName>(1));
 

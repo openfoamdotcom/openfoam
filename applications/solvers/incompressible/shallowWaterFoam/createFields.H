@@ -1,4 +1,4 @@
-#include "readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
 
 Info<< "Reading field h\n" << endl;
 volScalarField h
@@ -71,7 +71,7 @@ volScalarField hTotal
 );
 hTotal.write();
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 Info<< "Creating Coriolis Force" << endl;
 const dimensionedVector F("F", ((2.0*Omega) & gHat)*gHat);

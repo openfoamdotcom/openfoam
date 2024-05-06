@@ -37,7 +37,7 @@ SourceFiles
 #ifndef radiation_noReflection_H
 #define radiation_noReflection_H
 
-#include "reflectionModel.H"
+#include "reflectionModel/reflectionModel/reflectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

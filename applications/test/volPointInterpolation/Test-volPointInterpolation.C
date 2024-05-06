@@ -28,17 +28,17 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "volPointInterpolation.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     Info<< "Reading field p\n" << endl;
     volScalarField p

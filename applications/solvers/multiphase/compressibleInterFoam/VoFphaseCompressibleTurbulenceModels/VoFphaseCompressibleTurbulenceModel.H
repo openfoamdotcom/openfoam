@@ -36,8 +36,8 @@ Description
 
 #include "VoFphaseCompressibleTurbulenceModelFwd.H"
 #include "PhaseCompressibleTurbulenceModel.H"
-#include "ThermalDiffusivity.H"
-#include "fluidThermo.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "fluidThermo/fluidThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

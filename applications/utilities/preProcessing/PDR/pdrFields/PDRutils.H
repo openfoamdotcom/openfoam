@@ -35,7 +35,7 @@ Description
 #define PDRutils_H
 
 #include "PDRarrays.H"
-#include "PDRblock.H"
+#include "PDRblockMesh/PDRblock.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

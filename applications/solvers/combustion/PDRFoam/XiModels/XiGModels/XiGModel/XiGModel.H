@@ -40,10 +40,10 @@ SourceFiles
 #ifndef XiGModel_H
 #define XiGModel_H
 
-#include "IOdictionary.H"
-#include "psiuReactionThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "psiuReactionThermo/psiuReactionThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

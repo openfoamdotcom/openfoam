@@ -31,12 +31,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "labelList.H"
-#include "wordList.H"
-#include "predicates.H"
-#include "FlatOutput.H"
-#include "regExp.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/predicates/predicates.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "regExp/regExp.H"
 
 using namespace Foam;
 

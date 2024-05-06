@@ -46,7 +46,7 @@ SourceFiles
 #ifndef Foam_ROMmodel_H
 #define Foam_ROMmodel_H
 
-#include "runTimeSelectionTables.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,11 +26,11 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "edgeStats.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "Ostream.H"
-#include "twoDPointCorrector.H"
-#include "IOdictionary.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "twoDPointCorrector/twoDPointCorrector.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

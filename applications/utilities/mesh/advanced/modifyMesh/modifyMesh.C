@@ -54,20 +54,20 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "boundaryCutter.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshCut/meshModifiers/boundaryCutter/boundaryCutter.H"
 #include "cellSplitter.H"
-#include "edgeCollapser.H"
-#include "meshTools.H"
-#include "Pair.H"
-#include "globalIndex.H"
-#include "topoSet.H"
+#include "polyTopoChange/polyTopoChange/edgeCollapser.H"
+#include "meshTools/meshTools.H"
+#include "primitives/tuples/Pair.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "topoSet/topoSets/topoSet.H"
 #include "processorMeshes.H"
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 using namespace Foam;
 
@@ -338,14 +338,14 @@ int main(int argc, char *argv[])
         "Manipulate mesh elements.\n"
         "For example, moving points, splitting/collapsing edges etc."
     );
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::addOption("dict", "file", "Alternative modifyMeshDict");
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 
@@ -355,7 +355,7 @@ int main(int argc, char *argv[])
 
     // Read meshing dictionary
     const word dictName("modifyMeshDict");
-    #include "setSystemMeshDictionaryIO.H"
+    #include "include/setSystemMeshDictionaryIO.H"
     const IOdictionary dict(dictIO);
 
     // Read all from the dictionary.

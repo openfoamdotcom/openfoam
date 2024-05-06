@@ -34,16 +34,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "solidThermo.H"
-#include "radiationModel.H"
-#include "fvOptions.H"
-#include "simpleControl.H"
-#include "pimpleControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "solidThermo/solidThermo.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
 #include "dummyCourantNo.H"
-#include "solidRegionDiffNo.H"
-#include "coordinateSystem.H"
+#include "solid/solidRegionDiffNo.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -55,12 +55,12 @@ int main(int argc, char *argv[])
     );
 
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
 
@@ -90,15 +90,15 @@ int main(int argc, char *argv[])
     {
         pimpleControl pimple(mesh);
 
-        #include "createDyMControls.H"
+        #include "include/createDyMControls.H"
 
         while (runTime.run())
         {
-            #include "readDyMControls.H"
-            #include "readSolidTimeControls.H"
+            #include "include/readDyMControls.H"
+            #include "solid/readSolidTimeControls.H"
 
             #include "solidDiffusionNo.H"
-            #include "setMultiRegionDeltaT.H"
+            #include "include/setMultiRegionDeltaT.H"
 
             ++runTime;
 
@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
 
                     if (mesh.changing() && checkMeshCourantNo)
                     {
-                        #include "meshCourantNo.H"
+                        #include "include/meshCourantNo.H"
                     }
                 }
 

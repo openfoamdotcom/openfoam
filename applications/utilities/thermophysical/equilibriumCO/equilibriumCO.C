@@ -34,21 +34,21 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "dictionary.H"
-#include "IFstream.H"
-#include "OSspecific.H"
-#include "IOmanip.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "thermo.H"
-#include "janafThermo.H"
-#include "absoluteEnthalpy.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "thermo/thermo/thermo.H"
+#include "thermo/janaf/janafThermo.H"
+#include "thermo/absoluteEnthalpy/absoluteEnthalpy.H"
 
-#include "SLPtrList.H"
-#include "IOdictionary.H"
+#include "containers/LinkedLists/user/SLPtrList.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 using namespace Foam;
 
@@ -67,8 +67,8 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     Info<< nl << "Reading thermodynamic data IOdictionary" << endl;
 

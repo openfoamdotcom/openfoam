@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoFPatchTransfer.H"
+#include "VoFPatchTransfer/VoFPatchTransfer.H"
 #include "twoPhaseMixtureThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

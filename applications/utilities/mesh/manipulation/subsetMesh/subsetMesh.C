@@ -42,16 +42,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubsetter.H"  // Not fvMeshSubset (need two-step subsetting)
-#include "argList.H"
-#include "IOobjectList.H"
-#include "volFields.H"
-#include "topoDistanceData.H"
-#include "FaceCellWave.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "ReadFieldsPascal.H"
+#include "fvMeshSubset/fvMeshSubsetter.H"  // Not fvMeshSubset (need two-step subsetting)
+#include "global/argList/argList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/volFields/volFields.H"
+#include "meshStructure/topoDistanceData.H"
+#include "algorithms/MeshWave/FaceCellWave.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -333,8 +333,8 @@ int main(int argc, char *argv[])
         " various shapes."
     );
 
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
     argList::addArgument
     (
         "cell-selection",
@@ -378,10 +378,10 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // arg[1] = word (cellSet) or wordRes (cellZone)
     // const word selectionName = args[1];

@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearDistance.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triSurfaceMesh.H"
-#include "triSurfaceFields.H"
-#include "volumeType.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/linearDistance/linearDistance.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

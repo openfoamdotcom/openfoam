@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 Info<< "Constructing multiphaseMixtureThermo\n" << endl;
 multiphaseMixtureThermo mixture(U, phi);
@@ -48,9 +48,9 @@ dimensionedScalar pMin("pMin", dimPressure, mixture);
 mesh.setFluxRequired(p_rgh.name());
 
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 
 // Construct compressible turbulence model
@@ -65,4 +65,4 @@ autoPtr<compressible::turbulenceModel> turbulence
     )
 );
 
-#include "createK.H"
+#include "cfdTools/general/include/createK.H"

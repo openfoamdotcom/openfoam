@@ -38,8 +38,8 @@ SourceFiles
 #ifndef immiscibleIncompressibleThreePhaseMixture_H
 #define immiscibleIncompressibleThreePhaseMixture_H
 
-#include "incompressibleThreePhaseMixture.H"
-#include "threePhaseInterfaceProperties.H"
+#include "incompressibleThreePhaseMixture/incompressibleThreePhaseMixture.H"
+#include "threePhaseInterfaceProperties/threePhaseInterfaceProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

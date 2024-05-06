@@ -30,9 +30,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "primitiveFields.H"
-#include "PrecisionAdaptor.H"
+#include "global/argList/argList.H"
+#include "fields/Fields/primitiveFields.H"
+#include "memory/PrecisionAdaptor/PrecisionAdaptor.H"
 
 using namespace Foam;
 

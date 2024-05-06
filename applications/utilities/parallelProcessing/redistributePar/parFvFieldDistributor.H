@@ -44,9 +44,9 @@ SourceFiles
 #ifndef Foam_parFvFieldDistributor_H
 #define Foam_parFvFieldDistributor_H
 
-#include "PtrList.H"
-#include "fvMesh.H"
-#include "Switch.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

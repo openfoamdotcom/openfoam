@@ -38,12 +38,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "OFstream.H"
-#include "foamVtkSeriesWriter.H"
-#include "lumpedPointTools.H"
-#include "lumpedPointIOMovement.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "vtk/file/foamVtkSeriesWriter.H"
+#include "tools/lumpedPointTools.H"
+#include "movement/lumpedPointIOMovement.H"
 
 using namespace Foam;
 
@@ -135,7 +135,7 @@ int main(int argc, char *argv[])
     );
     argList::addArgument("responseFile");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const label maxOut = Foam::max(0, args.getOrDefault<label>("max", 0));
     const label span   = Foam::max(1, args.getOrDefault<label>("span", 1));
@@ -167,7 +167,7 @@ int main(int argc, char *argv[])
                 << exit(FatalError);
         }
 
-        #include "createTime.H"
+        #include "include/createTime.H"
 
         // Create movement without a mesh
         autoPtr<lumpedPointIOMovement> movementPtr =
@@ -273,7 +273,7 @@ int main(int argc, char *argv[])
     {
         Info<< "dry-run: creating states only" << nl;
 
-        #include "createTime.H"
+        #include "include/createTime.H"
 
         // Create movement without a mesh
         autoPtr<lumpedPointIOMovement> movementPtr =
@@ -351,11 +351,11 @@ int main(int argc, char *argv[])
     // test patch movement
     // ----------------------------------------------------------------------
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     runTime.setTime(instant(runTime.constant()), 0);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // Create movement with mesh
     autoPtr<lumpedPointIOMovement> movementPtr =

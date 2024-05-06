@@ -36,7 +36,7 @@ SourceFiles
 #ifndef fluentFvMesh_H
 #define fluentFvMesh_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

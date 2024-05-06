@@ -31,14 +31,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "bitSet.H"
-#include "vector.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "IOstreams.H"
+#include "containers/Lists/List/List.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 
@@ -90,8 +90,8 @@ void testBroadcast(bitSet& values)
 int main(int argc, char *argv[])
 {
     argList::noCheckProcessorDirectories();
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     {
         label value = -1;

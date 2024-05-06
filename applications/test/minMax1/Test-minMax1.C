@@ -28,15 +28,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "TimeOpenFOAM.H"
-#include "BitOps.H"
-#include "HashOps.H"
-#include "ListOps.H"
-#include "scalarField.H"
-#include "complexField.H"
-#include "MinMax.H"
-#include "dimensionedScalar.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/complex/complexField.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
 
 using namespace Foam;
 
@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 {
     argList::noCheckProcessorDirectories();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     Info<< "Test min/max " << nl;
 

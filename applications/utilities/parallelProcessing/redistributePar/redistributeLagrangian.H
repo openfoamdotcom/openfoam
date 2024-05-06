@@ -34,7 +34,7 @@ Description
 
 #include "parLagrangianDistributor.H"
 #include "unmappedPassivePositionParticleCloud.H"
-#include "fileOperation.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

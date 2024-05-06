@@ -26,17 +26,17 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "laserDTRM.H"
-#include "fvmLaplacian.H"
-#include "fvmSup.H"
-#include "absorptionEmissionModel.H"
-#include "scatterModel.H"
-#include "constants.H"
-#include "unitConversion.H"
-#include "interpolationCell.H"
-#include "interpolationCellPoint.H"
-#include "Random.H"
-#include "OBJstream.H"
-#include "addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvm/fvmLaplacian.H"
+#include "finiteVolume/fvm/fvmSup.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
+#include "submodels/scatterModel/scatterModel/scatterModel.H"
+#include "global/constants/constants.H"
+#include "global/constants/unitConversion.H"
+#include "interpolation/interpolation/interpolationCell/interpolationCell.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "primitives/random/Random/Random.H"
+#include "obj/OBJstream.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 using namespace Foam::constant;
 

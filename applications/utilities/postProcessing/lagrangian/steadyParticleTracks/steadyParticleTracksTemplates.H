@@ -29,9 +29,9 @@ License
 #ifndef Foam_steadyParticleTracksTemplates_H
 #define Foam_steadyParticleTracksTemplates_H
 
-#include "OFstream.H"
-#include "IOobjectList.H"
-#include "IOField.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOobjects/IOField/IOField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

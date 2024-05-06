@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalar.H"
-#include "complex.H"
-#include "Matrix.H"
-#include "Random.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/complex/complex.H"
+#include "matrices/Matrix/Matrix.H"
+#include "primitives/random/Random/Random.H"
 #include <chrono>
 
 using namespace Foam;

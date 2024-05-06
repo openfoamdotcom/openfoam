@@ -32,12 +32,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "nullObject.H"
-#include "List.H"
-#include "HashSet.H"
-#include "faceList.H"
-#include "pointField.H"
-#include "IOstreams.H"
+#include "primitives/nullObject/nullObject.H"
+#include "containers/Lists/List/List.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

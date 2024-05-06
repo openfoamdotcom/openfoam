@@ -31,14 +31,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "boolList.H"
-#include "bitSet.H"
-#include "HashSet.H"
-#include "ListOps.H"
-#include "cpuTime.H"
-#include "SpanStream.H"
-#include "FlatOutput.H"
+#include "global/argList/argList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "cpuTime/cpuTime.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "db/IOstreams/output/FlatOutput.H"
 #include <vector>
 #include <unordered_set>
 

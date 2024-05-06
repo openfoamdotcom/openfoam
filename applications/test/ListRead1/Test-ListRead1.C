@@ -31,23 +31,23 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "argList.H"
-#include "wordRes.H"
+#include "include/OSspecific.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/wordRes/wordRes.H"
 
-#include "IOstreams.H"
-#include "Fstream.H"
-#include "scalar.H"
-#include "vector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
 
-#include "labelRange.H"
-#include "scalarList.H"
-#include "HashOps.H"
-#include "ListOps.H"
-#include "IndirectList.H"
-#include "SubList.H"
-#include "SliceList.H"
-#include "ListPolicy.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/Lists/List/SubList.H"
+#include "containers/IndirectLists/SliceList/SliceList.H"
+#include "containers/Lists/policy/ListPolicy.H"
 
 #include <list>
 #include <numeric>

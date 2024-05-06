@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
+#include "global/argList/argList.H"
 
-#include "vector.H"
-#include "IFstream.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
-#include "BSpline.H"
-#include "CatmullRomSpline.H"
+#include "blockEdges/BSplineEdge/BSpline.H"
+#include "blockEdges/splineEdge/CatmullRomSpline.H"
 
 using namespace Foam;
 

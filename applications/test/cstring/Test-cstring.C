@@ -28,14 +28,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "CStringList.H"
-#include "DynamicList.H"
-#include "IOstreams.H"
-#include "fileNameList.H"
-#include "stringOps.H"
-#include "stringList.H"
-#include "wordList.H"
-#include "SubStrings.H"
+#include "primitives/strings/lists/CStringList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "primitives/strings/lists/stringList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/strings/lists/SubStrings.H"
 
 using namespace Foam;
 

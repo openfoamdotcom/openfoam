@@ -31,15 +31,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "coordinateSystems.H"
-#include "identityRotation.H"
-#include "cartesianCS.H"
-#include "indirectCS.H"
-#include "Fstream.H"
-#include "IOstreams.H"
-#include "transform.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/coordinate/systems/coordinateSystems.H"
+#include "primitives/coordinate/rotation/identityRotation.H"
+#include "primitives/coordinate/systems/cartesianCS.H"
+#include "primitives/coordinate/systems/indirectCS.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/transform/transform.H"
 
 using namespace Foam;
 
@@ -166,7 +166,7 @@ int main(int argc, char *argv[])
     {
         Info<<"using case for tests" << nl;
 
-        #include "createTime.H"
+        #include "include/createTime.H"
 
         const coordinateSystems& systems = coordinateSystems::New(runTime);
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "immiscibleIncompressibleThreePhaseMixture.H"
+#include "immiscibleIncompressibleThreePhaseMixture/immiscibleIncompressibleThreePhaseMixture.H"
 
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

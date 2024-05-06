@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "conformationSurfaces.H"
-#include "conformalVoronoiMesh.H"
-#include "triSurface.H"
-#include "searchableSurfaceFeatures.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "conformalVoronoiMesh/conformalVoronoiMesh.H"
+#include "triSurface/triSurface.H"
+#include "searchableSurfaceFeatures/searchableSurfaceFeatures.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

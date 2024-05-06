@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellSizeAndAlignmentControl.H"
-#include "addToRunTimeSelectionTable.H"
+#include "cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

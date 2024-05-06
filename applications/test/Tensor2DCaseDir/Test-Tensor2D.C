@@ -41,13 +41,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "vector2DField.H"
-#include "tensor2D.H"
-#include "symmTensor2D.H"
-#include "transform.H"
-#include "Random.H"
-#include "scalar.H"
-#include "complex.H"
+#include "fields/Fields/vector2DField/vector2DField.H"
+#include "primitives/Tensor2D/tensor2D/tensor2D.H"
+#include "primitives/SymmTensor2D/symmTensor2D/symmTensor2D.H"
+#include "primitives/transform/transform.H"
+#include "primitives/random/Random/Random.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/complex/complex.H"
 
 using namespace Foam;
 

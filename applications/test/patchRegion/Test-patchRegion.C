@@ -28,14 +28,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "PatchTools.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "patchEdgeFaceRegions.H"
-#include "PatchEdgeFaceWave.H"
-#include "globalIndex.H"
-#include "syncTools.H"
+#include "global/argList/argList.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "algorithms/PatchEdgeFaceWave/patchEdgeFaceRegions.H"
+#include "algorithms/PatchEdgeFaceWave/PatchEdgeFaceWave.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 using namespace Foam;
 
@@ -48,12 +48,12 @@ int main(int argc, char *argv[])
 {
     argList::addArgument("patch");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word patchName = args[1];
 
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
 
     Info<< "Mesh read in = "
         << runTime.cpuTimeIncrement()

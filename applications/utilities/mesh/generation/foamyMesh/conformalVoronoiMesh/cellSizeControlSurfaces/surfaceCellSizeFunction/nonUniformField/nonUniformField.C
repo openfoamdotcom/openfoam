@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "nonUniformField.H"
-#include "triSurfaceMesh.H"
-#include "searchableSurface.H"
-#include "addToRunTimeSelectionTable.H"
-#include "TimeOpenFOAM.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/nonUniformField/nonUniformField.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

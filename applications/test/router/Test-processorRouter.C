@@ -28,17 +28,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "label.H"
-#include "labelList.H"
-#include "Fstream.H"
-#include "point.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
+#include "global/argList/argList.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
 #include "router.H"
-#include "processorPolyPatch.H"
-#include "typeInfo.H"
-#include "Gather.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "db/typeInfo/typeInfo.H"
+#include "Gather/Gather.H"
 
 
 using namespace Foam;
@@ -91,9 +91,9 @@ point meshCentre(const polyMesh& mesh)
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     word procLabel = '[' + word(name(Pstream::myProcNo())) + "]-";
 

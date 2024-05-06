@@ -31,8 +31,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "stringOps.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 using namespace Foam;
 
@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
     argList::noBanner();
     argList::noParallel();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     {
         string test =

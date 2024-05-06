@@ -32,18 +32,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "SubList.H"
-#include "DynamicList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "OSspecific.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "containers/Lists/List/SubList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "include/OSspecific.H"
 #include "POSIX.H"
-#include "Switch.H"
-#include "etcFiles.H"
-#include "Pair.H"
-#include "Tuple2.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "global/etcFiles/etcFiles.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
 #include <fstream>
 
 using namespace Foam;
@@ -253,7 +253,7 @@ int main(int argc, char *argv[])
     argList::addBoolOption("dirname", "basename/dirname tables");
     argList::addNote("runs default tests or specified ones only");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // Run default tests, unless specific tests are requested
     const bool defaultTests =

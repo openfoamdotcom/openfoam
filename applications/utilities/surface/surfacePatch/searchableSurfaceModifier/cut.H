@@ -39,10 +39,10 @@ SourceFiles
 #ifndef searchableSurfaceModifiers_cut_H
 #define searchableSurfaceModifiers_cut_H
 
-#include "searchableSurfaceModifier.H"
-#include "wordRes.H"
-#include "faceList.H"
-#include "pointField.H"
+#include "searchableSurfaceModifier/searchableSurfaceModifier.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

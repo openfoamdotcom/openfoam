@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedVertex.H"
-#include "point.H"
-#include "Istream.H"
-#include "Ostream.H"
-#include "StringStream.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertex.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "db/IOstreams/IOstreams/Istream.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 // * * * * * * * * * * * * * * * *  IOStream operators * * * * * * * * * * * //
 

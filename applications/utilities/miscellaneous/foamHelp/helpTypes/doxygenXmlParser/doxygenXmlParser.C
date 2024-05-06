@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "doxygenXmlParser.H"
-#include "regExp.H"
+#include "doxygenXmlParser/doxygenXmlParser.H"
+#include "regExp/regExp.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

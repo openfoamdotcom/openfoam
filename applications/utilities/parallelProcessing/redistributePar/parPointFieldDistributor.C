@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "parPointFieldDistributor.H"
-#include "processorPointPatch.H"
+#include "meshes/pointMesh/pointPatches/constraint/processor/processorPointPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

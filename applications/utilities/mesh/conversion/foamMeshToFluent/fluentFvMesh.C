@@ -31,13 +31,13 @@ License
 
 using std::ios;
 
-#include "TimeOpenFOAM.H"
+#include "db/Time/TimeOpenFOAM.H"
 #include "fluentFvMesh.H"
-#include "primitiveMesh.H"
-#include "wallFvPatch.H"
-#include "symmetryPlaneFvPatch.H"
-#include "symmetryFvPatch.H"
-#include "cellModel.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/fvPatches/constraint/symmetryPlane/symmetryPlaneFvPatch.H"
+#include "fvMesh/fvPatches/constraint/symmetry/symmetryFvPatch.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

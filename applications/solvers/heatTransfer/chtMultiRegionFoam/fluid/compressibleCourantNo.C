@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "compressibleCourantNo.H"
-#include "fvc.H"
+#include "fluid/compressibleCourantNo.H"
+#include "finiteVolume/fvc/fvc.H"
 
 Foam::scalar Foam::compressibleCourantNo
 (

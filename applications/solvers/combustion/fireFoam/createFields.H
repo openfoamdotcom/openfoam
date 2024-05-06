@@ -47,9 +47,9 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
-#include "createMRF.H"
+#include "cfdTools/general/include/createMRF.H"
 
 
 Info<< "Creating turbulence model\n" << endl;
@@ -71,10 +71,10 @@ autoPtr<CombustionModel<psiReactionThermo>> combustion
 );
 
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
-#include "readpRef.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
+#include "cfdTools/general/include/readpRef.H"
 
 volScalarField p_rgh
 (
@@ -116,12 +116,12 @@ volScalarField Qdot
     dimensionedScalar(dimEnergy/dimVolume/dimTime, Zero)
 );
 
-#include "createDpdt.H"
+#include "cfdTools/compressible/createDpdt.H"
 
-#include "createK.H"
+#include "cfdTools/general/include/createK.H"
 
 #include "createClouds.H"
 #include "createSurfaceFilmModel.H"
 #include "createPyrolysisModel.H"
-#include "createRadiationModel.H"
-#include "createFvOptions.H"
+#include "include/createRadiationModel.H"
+#include "cfdTools/general/include/createFvOptions.H"

@@ -33,9 +33,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "etcFiles.H"
-#include "foamVersion.H"
+#include "global/argList/argList.H"
+#include "global/etcFiles/etcFiles.H"
+#include "include/foamVersion.H"
 
 using namespace Foam;
 

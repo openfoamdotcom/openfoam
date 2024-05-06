@@ -38,7 +38,7 @@ SourceFiles
 #ifndef piecewiseLinearRamp_H
 #define piecewiseLinearRamp_H
 
-#include "faceAreaWeightModel.H"
+#include "faceAreaWeightModel/faceAreaWeightModel/faceAreaWeightModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

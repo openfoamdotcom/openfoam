@@ -40,14 +40,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "vector.H"
-#include "labelVector.H"
-#include "tensor.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/Vector/ints/labelVector.H"
+#include "primitives/Tensor/floats/tensor.H"
 #include "Distribution.H"
-#include "Random.H"
-#include "dimensionedTypes.H"
-#include "argList.H"
-#include "PstreamReduceOps.H"
+#include "primitives/random/Random/Random.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -55,7 +55,7 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     Random R(918273);
 

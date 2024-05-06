@@ -53,7 +53,7 @@
 
     p = p_rgh + rho*gh;
 
-    #include "continuityErrs.H"
+    #include "cfdTools/incompressible/continuityErrs.H"
 
     // For closed-volume cases adjust the pressure level
     // to obey overall mass continuity

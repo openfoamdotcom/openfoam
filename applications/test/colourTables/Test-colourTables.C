@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "colourTable.H"
-#include "IOstreams.H"
+#include "colours/colourTable.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

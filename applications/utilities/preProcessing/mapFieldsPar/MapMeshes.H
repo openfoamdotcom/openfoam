@@ -31,7 +31,7 @@ License
 #include "MapVolFields.H"
 #include "mapLagrangian.H"
 #include "UnMapped.H"
-#include "pointMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

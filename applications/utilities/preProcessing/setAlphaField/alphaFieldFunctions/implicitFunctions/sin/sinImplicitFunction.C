@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sinImplicitFunction.H"
-#include "addToRunTimeSelectionTable.H"
+#include "implicitFunctions/sin/sinImplicitFunction.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

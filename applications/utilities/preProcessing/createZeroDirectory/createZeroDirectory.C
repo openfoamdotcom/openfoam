@@ -80,10 +80,10 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "volFields.H"
-#include "IOdictionary.H"
-#include "caseInfo.H"
+#include "global/argList/argList.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "caseInfo/caseInfo.H"
 #include "boundaryTemplates.H"
 #include "solverTemplate.H"
 
@@ -222,8 +222,8 @@ int main(int argc, char *argv[])
         "Read case set-up templates from specified location"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     Info<< "Reading controlDict" << nl << endl;
 

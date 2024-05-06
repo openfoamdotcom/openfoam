@@ -64,19 +64,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "simpleControl.H"
-#include "fvOptions.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
-#include "dynamicFvMesh.H"
-#include "cellCellStencilObject.H"
-#include "localMin.H"
-#include "interpolationCellPoint.H"
-#include "fvMeshSubset.H"
-#include "transform.H"
-#include "oversetAdjustPhi.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "primitives/transform/transform.H"
+#include "oversetAdjustPhi/oversetAdjustPhi.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -88,16 +88,16 @@ int main(int argc, char *argv[])
     );
 
     #define CREATE_MESH createUpdatedDynamicFvMesh.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
     #include "createUpdatedDynamicFvMesh.H"
-    #include "createControl.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createOversetFields.H"
-    #include "createFvOptions.H"
-    #include "initContinuityErrs.H"
+    #include "cfdTools/general/include/createFvOptions.H"
+    #include "fluid/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -111,8 +111,8 @@ int main(int argc, char *argv[])
 
         // --- Pressure-velocity SIMPLE corrector
         {
-            #include "UEqn.H"
-            #include "pEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/pEqn.H"
         }
 
         laminarTransport.correct();

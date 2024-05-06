@@ -27,12 +27,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "channelIndex.H"
-#include "boolList.H"
-#include "syncTools.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "TimeOpenFOAM.H"
-#include "SortableList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "containers/Lists/SortableList/SortableList.H"
 
 // * * * * * * * * * * * * * Static Member Data  * * * * * * * * * * * * * * //
 

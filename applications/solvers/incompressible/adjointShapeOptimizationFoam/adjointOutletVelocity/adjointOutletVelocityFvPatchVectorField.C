@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointOutletVelocityFvPatchVectorField.H"
-#include "volFields.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
-#include "fvPatchFieldMapper.H"
+#include "adjointOutletVelocity/adjointOutletVelocityFvPatchVectorField.H"
+#include "fields/volFields/volFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

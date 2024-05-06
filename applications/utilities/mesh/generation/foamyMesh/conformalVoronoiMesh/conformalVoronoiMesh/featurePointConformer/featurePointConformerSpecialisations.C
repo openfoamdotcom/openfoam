@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "featurePointConformer.H"
-#include "vectorTools.H"
-#include "pointFeatureEdgesTypes.H"
-#include "conformalVoronoiMesh.H"
-#include "pointConversion.H"
+#include "conformalVoronoiMesh/featurePointConformer/featurePointConformer.H"
+#include "vectorTools/vectorTools.H"
+#include "conformalVoronoiMesh/featurePointConformer/pointFeatureEdgesTypes.H"
+#include "conformalVoronoiMesh/conformalVoronoiMesh.H"
+#include "conformalVoronoiMesh/pointConversion.H"
 
 using namespace Foam::vectorTools;
 

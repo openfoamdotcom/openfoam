@@ -81,18 +81,18 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "ReadFieldsPascal.H"
-#include "regionProperties.H"
-#include "transformField.H"
-#include "transformGeometricField.H"
-#include "axisAngleRotation.H"
-#include "EulerCoordinateRotation.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "fields/GeometricFields/transformGeometricField/transformGeometricField.H"
+#include "primitives/coordinate/rotation/axisAngleRotation.H"
+#include "primitives/coordinate/rotation/EulerCoordinateRotation.H"
 
 using namespace Foam;
 using namespace Foam::coordinateRotations;
@@ -330,8 +330,8 @@ int main(int argc, char *argv[])
     // Compatibility with surfaceTransformPoints
     argList::addOptionCompat("scale", {"write-scale", 0});
 
-    #include "addAllRegionOptions.H"
-    #include "setRootCase.H"
+    #include "include/addAllRegionOptions.H"
+    #include "include/setRootCase.H"
 
     const bool doRotateFields = args.found("rotateFields");
 
@@ -371,7 +371,7 @@ int main(int argc, char *argv[])
 
     // ------------------------------------------------------------------------
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     if (args.found("time"))
     {
@@ -387,7 +387,7 @@ int main(int argc, char *argv[])
     }
 
     // Handle -allRegions, -regions, -region
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     // ------------------------------------------------------------------------
 

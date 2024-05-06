@@ -81,9 +81,9 @@ SourceFiles
 #ifndef VoFSolidificationMeltingSource_H
 #define VoFSolidificationMeltingSource_H
 
-#include "fvMesh.H"
-#include "volFields.H"
-#include "cellSetOption.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "cellSetOption/cellSetOption.H"
 #include "Function1.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -210,7 +210,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "VoFSolidificationMeltingSourceTemplates.C"
+    #include "VoFSolidificationMeltingSource/VoFSolidificationMeltingSourceTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

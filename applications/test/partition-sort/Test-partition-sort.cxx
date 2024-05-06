@@ -31,9 +31,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IndirectList.H"
-#include "SortList.H"
-#include "Random.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/IndirectLists/SortList/SortList.H"
+#include "primitives/random/Random/Random.H"
 
 #include <algorithm>
 #include <iterator>

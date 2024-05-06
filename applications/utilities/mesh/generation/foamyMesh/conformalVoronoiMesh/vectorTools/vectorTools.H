@@ -34,8 +34,8 @@ Description
 #ifndef vectorTools_H
 #define vectorTools_H
 
-#include "vector.H"
-#include "unitConversion.H"
+#include "primitives/Vector/floats/vector.H"
+#include "global/constants/unitConversion.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

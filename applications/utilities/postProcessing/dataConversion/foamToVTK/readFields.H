@@ -38,10 +38,10 @@ SourceFiles
 #ifndef FoamToVTK_readFields_H
 #define FoamToVTK_readFields_H
 
-#include "fvMeshSubsetProxy.H"
-#include "objectRegistry.H"
-#include "IOobjectList.H"
-#include "PtrList.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubsetProxy.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -117,7 +117,7 @@ PtrList<const GeoField> readFields
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "readFields.C"
+    #include "readFields/readFields.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

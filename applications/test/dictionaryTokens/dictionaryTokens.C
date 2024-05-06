@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "dictionaryTokens.H"
-#include "IOstream.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
 
 // * * * * * * * * * * * * * Static Member Functions * * * * * * * * * * * * //
 

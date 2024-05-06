@@ -20,8 +20,8 @@
 #ifndef PROGRESSIVE_MESH_H
 #define PROGRESSIVE_MESH_H
 
-#include "vector.hxx"
-#include "list.hxx"
+#include "bunnylod/vector.hxx"
+#include "bunnylod/list.hxx"
 
 class tridata {
   public:

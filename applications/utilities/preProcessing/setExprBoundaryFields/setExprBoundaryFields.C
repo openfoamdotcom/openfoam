@@ -38,16 +38,16 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "pointMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "patchExprDriver.H"
-#include "timeSelector.H"
-#include "readFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "expressions/patch/patchExprDriver.H"
+#include "db/Time/timeSelector.H"
+#include "readFields/readFields.H"
 
 using namespace Foam;
 
@@ -97,8 +97,8 @@ int main(int argc, char *argv[])
         "Evaluate but do not write"
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
 
     const bool dryrun      = args.dryRun();
     const bool backup      = args.found("backup");
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 
     const word dictName("setExprBoundaryFieldsDict");
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     instantList times = timeSelector::select0(runTime, args);
 
@@ -126,9 +126,9 @@ int main(int argc, char *argv[])
             << exit(FatalError);
     }
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
-    #include "setSystemMeshDictionaryIO.H"
+    #include "include/setSystemMeshDictionaryIO.H"
     IOdictionary setExprDict(dictIO);
 
     IOstreamOption streamOpt(runTime.writeFormat());

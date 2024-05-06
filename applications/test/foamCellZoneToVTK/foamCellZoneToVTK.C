@@ -32,11 +32,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "foamVtkInternalMeshWriter.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "output/vtk/mesh/foamVtkInternalMeshWriter.H"
 
 using namespace Foam;
 
@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
     );
     timeSelector::addOptions();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     word cellZoneName;
     args.readIfPresent("cellZone", cellZoneName);
@@ -83,13 +83,13 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 
     fileName exportName("zonemesh-" + cellZoneName);
 
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
 
     forAll(timeDirs, timei)
     {

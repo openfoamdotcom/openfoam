@@ -31,8 +31,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellModel.H"
-#include "cellModeller.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "meshes/meshShapes/cellModel/cellModeller.H"
 
 using namespace Foam;
 

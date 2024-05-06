@@ -39,9 +39,9 @@ Author
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "faCFD.H"
-#include "loopControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "include/faCFD.H"
+#include "cfdTools/general/solutionControl/loopControl/loopControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -53,25 +53,25 @@ int main(int argc, char *argv[])
         " of Newtonian fluids in liquid film formulation."
     );
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createFaMesh.H"
-    #include "readGravitationalAcceleration.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "include/createFaMesh.H"
+    #include "cfdTools/general/include/readGravitationalAcceleration.H"
     #include "readTransportProperties.H"
     #include "createFaFields.H"
     #include "createFvFields.H"
-    #include "createTimeControls.H"
+    #include "cfdTools/general/include/createTimeControls.H"
 
     Info<< "\nStarting time loop\n" << endl;
 
     while (runTime.run())
     {
         #include "readSolutionControls.H"
-        #include "readTimeControls.H"
+        #include "cfdTools/general/include/readTimeControls.H"
         #include "surfaceCourantNo.H"
         #include "capillaryCourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 

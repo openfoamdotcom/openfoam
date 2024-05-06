@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

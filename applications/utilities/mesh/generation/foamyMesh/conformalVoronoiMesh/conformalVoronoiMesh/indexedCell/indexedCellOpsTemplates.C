@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedCellOps.H"
-#include "Pstream.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCellOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

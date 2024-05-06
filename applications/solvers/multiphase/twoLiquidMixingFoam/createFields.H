@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 Info<< "Reading transportProperties\n" << endl;
 incompressibleTwoPhaseMixture mixture(U, phi);
@@ -70,9 +70,9 @@ autoPtr<incompressible::turbulenceModel> turbulence
 );
 
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 
 volScalarField p

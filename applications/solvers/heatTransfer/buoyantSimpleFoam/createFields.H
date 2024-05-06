@@ -33,7 +33,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 Info<< "Creating turbulence model\n" << endl;
 autoPtr<compressible::turbulenceModel> turbulence
@@ -48,9 +48,9 @@ autoPtr<compressible::turbulenceModel> turbulence
 );
 
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 
 Info<< "Reading field p_rgh\n" << endl;
@@ -86,10 +86,10 @@ mesh.setFluxRequired(p_rgh.name());
 dimensionedScalar initialMass = fvc::domainIntegrate(rho);
 dimensionedScalar totalVolume = sum(mesh.V());
 
-#include "createMRF.H"
-#include "createRadiationModel.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "include/createRadiationModel.H"
 
 const dimensionedScalar rhoMax("rhoMax", dimDensity, GREAT, simple.dict());
 const dimensionedScalar rhoMin("rhoMin", dimDensity, Zero, simple.dict());
 
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createFvOptions.H"

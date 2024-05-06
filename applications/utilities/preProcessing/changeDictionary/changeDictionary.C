@@ -76,12 +76,12 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOobjectList.H"
-#include "IOPtrList.H"
-#include "volFields.H"
-#include "stringListOps.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "fields/volFields/volFields.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "db/Time/timeSelector.H"
 
 using namespace Foam;
 
@@ -433,10 +433,10 @@ int main(int argc, char *argv[])
         "Disable matching keys to patch groups"
     );
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Optionally override controlDict time with -time options
     instantList times = timeSelector::selectIfPresent(runTime, args);
@@ -463,7 +463,7 @@ int main(int argc, char *argv[])
             instance = runTime.timeName();
         }
 
-        #include "createNamedMesh.H"
+        #include "include/createNamedMesh.H"
 
         const bool literalRE = args.found("literalRE");
         if (literalRE)
@@ -506,7 +506,7 @@ int main(int argc, char *argv[])
         // Get the replacement rules from a dictionary
 
         const word dictName("changeDictionaryDict");
-        #include "setSystemMeshDictionaryIO.H"
+        #include "include/setSystemMeshDictionaryIO.H"
         IOdictionary dict(dictIO);
 
         const dictionary* replaceDictsPtr = &dict;

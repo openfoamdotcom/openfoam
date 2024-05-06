@@ -31,15 +31,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "argList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "global/argList/argList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
 
-#include "areaFields.H"
-#include "fieldTypes.H"
-#include "pointFields.H"
-#include "volFields.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/volFields/volFields.H"
 
 using namespace Foam;
 

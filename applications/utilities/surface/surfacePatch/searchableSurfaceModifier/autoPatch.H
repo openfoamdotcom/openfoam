@@ -38,7 +38,7 @@ SourceFiles
 #ifndef autoPatch_H
 #define autoPatch_H
 
-#include "searchableSurfaceModifier.H"
+#include "searchableSurfaceModifier/searchableSurfaceModifier.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

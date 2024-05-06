@@ -27,8 +27,8 @@ Description
     Test scalar ranges
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "scalarRanges.H"
+#include "global/argList/argList.H"
+#include "primitives/ranges/scalarRange/scalarRanges.H"
 
 using namespace Foam;
 

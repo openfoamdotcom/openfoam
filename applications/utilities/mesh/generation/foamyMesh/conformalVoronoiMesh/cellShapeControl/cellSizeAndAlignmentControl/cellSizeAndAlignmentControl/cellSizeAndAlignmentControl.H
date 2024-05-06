@@ -37,11 +37,11 @@ SourceFiles
 #ifndef cellSizeAndAlignmentControl_H
 #define cellSizeAndAlignmentControl_H
 
-#include "dictionary.H"
-#include "conformationSurfaces.H"
-#include "TimeOpenFOAM.H"
-#include "quaternion.H"
-#include "triadField.H"
+#include "db/dictionary/dictionary.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/quaternion/quaternion.H"
+#include "fields/Fields/triadField/triadField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

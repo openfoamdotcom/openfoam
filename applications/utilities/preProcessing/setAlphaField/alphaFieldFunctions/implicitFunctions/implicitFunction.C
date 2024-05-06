@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "implicitFunction.H"
-#include "error.H"
+#include "implicitFunctions/implicitFunction.H"
+#include "db/error/error.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

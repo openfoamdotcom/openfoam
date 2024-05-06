@@ -1,4 +1,4 @@
-#include "createDyMControls.H"
+#include "include/createDyMControls.H"
 
 scalar maxAcousticCo
 (

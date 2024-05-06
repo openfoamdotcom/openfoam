@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PDRarrays.H"
-#include "PDRblock.H"
+#include "PDRblockMesh/PDRblock.H"
 
 // * * * * * * * * * * * * * * * Local Functions * * * * * * * * * * * * * * //
 

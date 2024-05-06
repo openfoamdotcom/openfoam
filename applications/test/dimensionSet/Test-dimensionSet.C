@@ -28,9 +28,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "dimensionSet.H"
-#include "dimensionedScalar.H"
-#include "IOmanip.H"
+#include "dimensionSet/dimensionSet.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 #include <tuple>
 
 using namespace Foam;

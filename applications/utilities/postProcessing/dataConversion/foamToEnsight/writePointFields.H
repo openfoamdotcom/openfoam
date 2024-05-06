@@ -21,9 +21,9 @@ Description
 #ifndef ensight_writePointFields_H
 #define ensight_writePointFields_H
 
-#include "readFields.H"
-#include "ensightMesh.H"
-#include "fvMesh.H"
+#include "readFields/readFields.H"
+#include "ensight/mesh/ensightMesh.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

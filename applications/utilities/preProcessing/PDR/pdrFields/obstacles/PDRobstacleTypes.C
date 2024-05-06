@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRobstacleTypes.H"
-#include "PDRobstacleTypes.H"
-#include "Enum.H"
-#include "unitConversion.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "obstacles/PDRobstacleTypes.H"
+#include "obstacles/PDRobstacleTypes.H"
+#include "primitives/enums/Enum.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 using namespace Foam::constant;
 

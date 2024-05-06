@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "macros.H"
-#include "IOstreams.H"
-#include "List.H"
-#include "HashSet.H"
+#include "include/macros.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/List/List.H"
+#include "containers/HashTables/HashSet/HashSet.H"
 
 #include <typeinfo>
 #include <type_traits>

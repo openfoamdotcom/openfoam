@@ -30,14 +30,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 
-#include "IOstreams.H"
-#include "scalar.H"
-#include "vector.H"
-#include "ListOps.H"
-#include "Pstream.H"
-#include "argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "global/argList/argList.H"
 
 using namespace Foam;
 

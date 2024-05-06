@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "dictionary.H"
-#include "vector.H"
-#include "SpanStream.H"
-#include "formattingEntry.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "db/dictionary/formattingEntry/formattingEntry.H"
 
 using namespace Foam;
 

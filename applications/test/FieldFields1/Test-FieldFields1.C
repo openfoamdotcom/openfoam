@@ -28,10 +28,10 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensorField.H"
-#include "tensorField.H"
-#include "FieldFields.H"
-#include "Random.H"
+#include "fields/Fields/symmTensorField/symmTensorField.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "fields/FieldFields/FieldField/FieldFields.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 

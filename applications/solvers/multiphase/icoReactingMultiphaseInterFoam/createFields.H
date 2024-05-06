@@ -44,9 +44,9 @@
 
 
     Info<< "Calculating field g.h\n" << endl;
-    #include "readGravitationalAcceleration.H"
-    #include "readhRef.H"
-    #include "gh.H"
+    #include "cfdTools/general/include/readGravitationalAcceleration.H"
+    #include "cfdTools/general/include/readhRef.H"
+    #include "cfdTools/general/include/gh.H"
 
     volScalarField  p
     (

@@ -55,7 +55,7 @@ SourceFiles
 #ifndef SpaldingsLaw_H
 #define SpaldingsLaw_H
 
-#include "tabulatedWallFunction.H"
+#include "tabulatedWallFunction/tabulatedWallFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

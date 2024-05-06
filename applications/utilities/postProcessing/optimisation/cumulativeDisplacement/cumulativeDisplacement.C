@@ -36,13 +36,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "emptyFvPatch.H"
-#include "coupledFvPatch.H"
-#include "pointMesh.H"
-#include "pointPatchField.H"
-#include "pointPatchFieldsFwd.H"
-#include "syncTools.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fvMesh/fvPatches/constraint/empty/emptyFvPatch.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchField.H"
+#include "fields/pointPatchFields/pointPatchField/pointPatchFieldsFwd.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -50,12 +50,12 @@ int main(int argc, char *argv[])
 {
     timeSelector::addOptions();
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     instantList timeDirs = timeSelector::select0(runTime, args);
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
     #include "createFields.H"
 
     // polyPatch::pointNormals will give the wrong result for points

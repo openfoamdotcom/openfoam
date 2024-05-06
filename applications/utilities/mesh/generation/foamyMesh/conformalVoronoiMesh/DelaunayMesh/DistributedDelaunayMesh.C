@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DistributedDelaunayMesh.H"
-#include "meshSearch.H"
-#include "mapDistribute.H"
-#include "zeroGradientFvPatchFields.H"
-#include "pointConversion.H"
-#include "indexedVertexEnum.H"
-#include "IOmanip.H"
+#include "DelaunayMesh/DistributedDelaunayMesh.H"
+#include "meshSearch/meshSearch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "conformalVoronoiMesh/pointConversion.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexEnum.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 #include <algorithm>
 #include <random>
 

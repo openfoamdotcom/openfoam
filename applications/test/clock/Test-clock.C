@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "clock.H"
-#include "clockTime.H"
-#include "clockValue.H"
-#include "cpuTime.H"
+#include "include/OSspecific.H"
+#include "global/clock/clock.H"
+#include "global/clockTime/clockTime.H"
+#include "global/clockValue/clockValue.H"
+#include "cpuTime/cpuTime.H"
 
 using namespace Foam;
 

@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 // Creating e based thermo
 autoPtr<twoPhaseMixtureEThermo> thermo
@@ -89,9 +89,9 @@ autoPtr<incompressible::turbulenceModel> turbulence
     incompressible::turbulenceModel::New(U, phi, thermo())
 );
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 volScalarField& p = thermo->p();
 
@@ -120,8 +120,8 @@ if (p_rgh.needReference())
 mesh.setFluxRequired(p_rgh.name());
 mesh.setFluxRequired(alpha1.name());
 
-#include "createMRF.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvOptions.H"
 
 // Turbulent Prandtl number
 dimensionedScalar Prt("Prt", dimless, thermo->transportPropertiesDict());

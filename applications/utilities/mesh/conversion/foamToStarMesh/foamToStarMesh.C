@@ -55,12 +55,12 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "STARCDMeshWriter.H"
-#include "IOdictionary.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "starcd/STARCDMeshWriter.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 using namespace Foam;
 
@@ -87,8 +87,8 @@ int main(int argc, char *argv[])
         "Suppress writing a boundary (.bnd) file"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 
@@ -102,7 +102,7 @@ int main(int argc, char *argv[])
     const scalar scaleFactor = args.getOrDefault<scalar>("scale", 1000);
     const bool  writeBndFile = !args.found("noBnd");
 
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
 
     forAll(timeDirs, timeI)
     {

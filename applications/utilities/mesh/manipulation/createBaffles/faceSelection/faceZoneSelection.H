@@ -37,10 +37,10 @@ SourceFiles
 #ifndef faceZoneSelection_H
 #define faceZoneSelection_H
 
-#include "faceSelection.H"
-#include "pointField.H"
-#include "boolList.H"
-#include "volFields.H"
+#include "faceSelection/faceSelection.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "primitives/bools/lists/boolList.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

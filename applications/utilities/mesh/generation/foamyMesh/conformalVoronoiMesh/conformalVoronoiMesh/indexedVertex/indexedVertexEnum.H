@@ -37,7 +37,7 @@ SourceFiles
 #ifndef indexedVertexEnum_H
 #define indexedVertexEnum_H
 
-#include "Enum.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

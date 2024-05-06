@@ -37,20 +37,20 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "turbulentFluidThermoModel.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
 
-#include "twoPhaseSystem.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "pimpleControl.H"
-#include "fixedGradientFvPatchFields.H"
-#include "regionProperties.H"
-#include "solidRegionDiffNo.H"
-#include "solidThermo.H"
-#include "radiationModel.H"
-#include "fvOptions.H"
-#include "coordinateSystem.H"
-#include "loopControl.H"
+#include "twoPhaseSystem/twoPhaseSystem.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "solid/solidRegionDiffNo.H"
+#include "solidThermo/solidThermo.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "cfdTools/general/solutionControl/loopControl/loopControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -65,29 +65,29 @@ int main(int argc, char *argv[])
 
     #define NO_CONTROL
     #define CREATE_MESH createMeshesPostProcess.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     #include "createMeshes.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
-    #include "createTimeControls.H"
-    #include "readSolidTimeControls.H"
-    #include "compressibleMultiRegionCourantNo.H"
-    #include "solidRegionDiffusionNo.H"
-    #include "setInitialMultiRegionDeltaT.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/general/include/createTimeControls.H"
+    #include "solid/readSolidTimeControls.H"
+    #include "fluid/compressibleMultiRegionCourantNo.H"
+    #include "solid/solidRegionDiffusionNo.H"
+    #include "include/setInitialMultiRegionDeltaT.H"
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
-        #include "readSolidTimeControls.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "solid/readSolidTimeControls.H"
         #include "readPIMPLEControls.H"
 
-        #include "compressibleMultiRegionCourantNo.H"
-        #include "solidRegionDiffusionNo.H"
-        #include "setMultiRegionDeltaT.H"
+        #include "fluid/compressibleMultiRegionCourantNo.H"
+        #include "solid/solidRegionDiffusionNo.H"
+        #include "include/setMultiRegionDeltaT.H"
 
         ++runTime;
 
@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
         {
             forAll(fluidRegions, i)
             {
-                #include "storeOldFluidFields.H"
+                #include "fluid/storeOldFluidFields.H"
             }
         }
 
@@ -112,9 +112,9 @@ int main(int argc, char *argv[])
 
                 Info<< "\nSolving for fluid region "
                     << fluidRegions[i].name() << endl;
-                #include "readFluidMultiRegionPIMPLEControls.H"
-                #include "setRegionFluidFields.H"
-                #include "solveFluid.H"
+                #include "fluid/readFluidMultiRegionPIMPLEControls.H"
+                #include "fluid/setRegionFluidFields.H"
+                #include "fluid/solveFluid.H"
             }
 
             forAll(solidRegions, i)
@@ -123,9 +123,9 @@ int main(int argc, char *argv[])
 
                 Info<< "\nSolving for solid region "
                     << solidRegions[i].name() << endl;
-                #include "readSolidMultiRegionPIMPLEControls.H"
-                #include "setRegionSolidFields.H"
-                #include "solveSolid.H"
+                #include "solid/readSolidMultiRegionPIMPLEControls.H"
+                #include "solid/setRegionSolidFields.H"
+                #include "solid/solveSolid.H"
             }
 
             // Additional loops for energy solution only
@@ -143,10 +143,10 @@ int main(int argc, char *argv[])
 
                         Info<< "\nSolving for fluid region "
                             << fluidRegions[i].name() << endl;
-                        #include "readFluidMultiRegionPIMPLEControls.H"
-                        #include "setRegionFluidFields.H"
+                        #include "fluid/readFluidMultiRegionPIMPLEControls.H"
+                        #include "fluid/setRegionFluidFields.H"
                         frozenFlow = true;
-                        #include "solveFluid.H"
+                        #include "fluid/solveFluid.H"
                     }
 
                     forAll(solidRegions, i)
@@ -155,9 +155,9 @@ int main(int argc, char *argv[])
 
                         Info<< "\nSolving for solid region "
                             << solidRegions[i].name() << endl;
-                        #include "readSolidMultiRegionPIMPLEControls.H"
-                        #include "setRegionSolidFields.H"
-                        #include "solveSolid.H"
+                        #include "solid/readSolidMultiRegionPIMPLEControls.H"
+                        #include "solid/setRegionSolidFields.H"
+                        #include "solid/solveSolid.H"
                     }
                 }
             }

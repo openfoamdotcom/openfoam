@@ -38,17 +38,17 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "pointMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "exprOps.H"
-#include "volumeExprDriver.H"
-#include "timeSelector.H"
-#include "readFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "expressions/exprOps/exprOps.H"
+#include "expressions/volume/volumeExprDriver.H"
+#include "db/Time/timeSelector.H"
+#include "readFields/readFields.H"
 
 
 using namespace Foam;
@@ -617,10 +617,10 @@ int main(int argc, char *argv[])
     );
     #endif
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const word dictName("setExprFieldsDict");
 
@@ -636,7 +636,7 @@ int main(int argc, char *argv[])
     // Disable dimension checking during operations
     dimensionSet::checking(false);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     autoPtr<surfaceScalarField> dummyPhi;
 
@@ -699,7 +699,7 @@ int main(int argc, char *argv[])
                 << endl;
         }
 
-        #include "setSystemMeshDictionaryIO.H"
+        #include "include/setSystemMeshDictionaryIO.H"
         exprDictPtr.reset(new IOdictionary(dictIO));
     }
 

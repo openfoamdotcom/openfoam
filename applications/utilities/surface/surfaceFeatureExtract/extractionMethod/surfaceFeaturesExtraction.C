@@ -26,10 +26,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "surfaceFeaturesExtraction.H"
-#include "dictionary.H"
-#include "ListOps.H"
-#include "error.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/dictionary/dictionary.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/error/error.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

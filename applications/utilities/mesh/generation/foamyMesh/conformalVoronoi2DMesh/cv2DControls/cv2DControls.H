@@ -38,9 +38,9 @@ SourceFiles
 #ifndef cv2DControls_H
 #define cv2DControls_H
 
-#include "Switch.H"
-#include "dictionary.H"
-#include "boundBox.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -259,7 +259,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cv2DControlsI.H"
+#include "cv2DControls/cv2DControlsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

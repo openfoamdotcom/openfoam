@@ -30,14 +30,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "IFstream.H"
-#include "specie.H"
-#include "perfectGas.H"
-#include "hConstThermo.H"
-#include "sensibleEnthalpy.H"
-#include "thermo.H"
-#include "constTransport.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "thermo/hConst/hConstThermo.H"
+#include "thermo/sensibleEnthalpy/sensibleEnthalpy.H"
+#include "thermo/thermo/thermo.H"
+#include "transport/const/constTransport.H"
 
 using namespace Foam;
 

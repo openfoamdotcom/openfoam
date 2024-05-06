@@ -1,5 +1,5 @@
-#include "scalar.H"
-#include "indirectPrimitivePatch.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
 
 namespace Foam
 {

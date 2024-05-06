@@ -44,22 +44,22 @@ Description
    ------ local definitions
  \* ------------------------------------------------------------------------- */
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "StringStream.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "cellShape.H"
-#include "faceSet.H"
-#include "cellSet.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
-#include "readHexLabel.H"
+#include "db/IOstreams/Sstreams/readHexLabel.H"
 #include "cellShapeRecognition.H"
-#include "repatchPolyTopoChanger.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
 
 // Flex may use register, which is deprecated and incompatible with C++17
 #pragma clang diagnostic ignored "-Wdeprecated-register"
@@ -838,7 +838,7 @@ endOfSection               {space}")"{space}
 %%
 
 
-#include "fileName.H"
+#include "primitives/strings/fileName/fileName.H"
 #include <fstream>
 
 // Find label of face.
@@ -910,7 +910,7 @@ int main(int argc, char *argv[])
     const bool writeSets  = args.found("writeSets");
     const bool writeZones = args.found("writeZones");
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const auto fluentFile = args.get<fileName>(1);
     std::ifstream fluentStream(fluentFile);

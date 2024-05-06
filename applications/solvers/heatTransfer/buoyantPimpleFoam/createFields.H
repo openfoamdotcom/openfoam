@@ -1,4 +1,4 @@
-#include "createRDeltaT.H"
+#include "cfdTools/general/include/createRDeltaT.H"
 
 Info<< "Reading thermophysical properties\n" << endl;
 
@@ -35,7 +35,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 pressureControl pressureControl(p, rho, pimple.dict(), false);
 
@@ -52,9 +52,9 @@ autoPtr<compressible::turbulenceModel> turbulence
 );
 
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 
 Info<< "Reading field p_rgh\n" << endl;
@@ -100,13 +100,13 @@ if (p_rgh.needReference())
 
 dimensionedScalar initialMass("initialMass", fvc::domainIntegrate(rho));
 
-#include "createDpdt.H"
+#include "cfdTools/compressible/createDpdt.H"
 
-#include "createK.H"
+#include "cfdTools/general/include/createK.H"
 
-#include "createMRF.H"
-#include "createRadiationModel.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "include/createRadiationModel.H"
+#include "cfdTools/general/include/createFvOptions.H"
 
 
 const dimensionedScalar rhoMax("rhoMax", dimDensity, GREAT, pimple.dict());

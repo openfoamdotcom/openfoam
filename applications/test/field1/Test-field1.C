@@ -32,8 +32,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveFields.H"
-#include "IOstreams.H"
+#include "fields/Fields/primitiveFields.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

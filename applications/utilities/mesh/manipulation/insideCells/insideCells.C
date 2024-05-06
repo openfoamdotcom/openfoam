@@ -37,13 +37,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "triSurface.H"
-#include "triSurfaceSearch.H"
-#include "cellSet.H"
-#include "globalMeshData.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 using namespace Foam;
 
@@ -62,9 +62,9 @@ int main(int argc, char *argv[])
     argList::addArgument("surfaceFile");
     argList::addArgument("cellSet");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const auto surfName = args.get<fileName>(1);
     const auto setName  = args.get<fileName>(2);

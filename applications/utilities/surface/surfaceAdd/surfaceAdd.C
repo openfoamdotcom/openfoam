@@ -38,12 +38,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "triSurface.H"
-#include "Fstream.H"
-#include "triFace.H"
-#include "triFaceList.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "meshes/meshShapes/triFace/triFace.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
 
 using namespace Foam;
 

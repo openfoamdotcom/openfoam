@@ -28,9 +28,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
 
 using namespace Foam;
 
@@ -43,11 +43,11 @@ int main(int argc, char *argv[])
     // timeSelector::addOptions();
     timeSelector::addOptions(true, true);
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     Info<< "Using fileHandler: " << fileHandler().type() << endl;
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 

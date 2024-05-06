@@ -34,8 +34,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "md.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "mdTools/md.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -47,13 +47,13 @@ int main(int argc, char *argv[])
     );
 
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
     #include "createFields.H"
-    #include "temperatureAndPressureVariables.H"
+    #include "mdTools/temperatureAndPressureVariables.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -69,8 +69,8 @@ int main(int argc, char *argv[])
 
         molecules.evolve();
 
-        #include "meanMomentumEnergyAndNMols.H"
-        #include "temperatureAndPressure.H"
+        #include "mdTools/meanMomentumEnergyAndNMols.H"
+        #include "mdTools/temperatureAndPressure.H"
 
         runTime.write();
 

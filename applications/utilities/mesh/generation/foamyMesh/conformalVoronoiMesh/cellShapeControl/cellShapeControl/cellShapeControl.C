@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellShapeControl.H"
-#include "pointField.H"
-#include "scalarField.H"
-#include "triadField.H"
-#include "cellSizeAndAlignmentControl.H"
-#include "searchableSurfaceControl.H"
-#include "cellSizeFunction.H"
-#include "indexedVertexOps.H"
+#include "cellShapeControl/cellShapeControl/cellShapeControl.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/triadField/triadField.H"
+#include "cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl.H"
+#include "cellShapeControl/cellSizeAndAlignmentControl/searchableSurfaceControl/searchableSurfaceControl.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/cellSizeFunction/cellSizeFunction.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexOps.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

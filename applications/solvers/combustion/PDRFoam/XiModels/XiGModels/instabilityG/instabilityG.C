@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "instabilityG.H"
-#include "addToRunTimeSelectionTable.H"
+#include "XiModels/XiGModels/instabilityG/instabilityG.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

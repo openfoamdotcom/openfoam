@@ -37,13 +37,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "OFstream.H"
-#include "instantList.H"
-#include "IOobjectList.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/Time/instant/instantList.H"
+#include "db/IOobjectList/IOobjectList.H"
 #include "itoa.H"
-#include "CloudPascal.H"
-#include "passiveParticle.H"
+#include "Cloud/CloudPascal.H"
+#include "passiveParticle/passiveParticle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -62,9 +62,9 @@ int main(int argc, char *argv[])
         cloud::prefix
     });
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
     #include "readConversionProperties.H"
 
     // get the available time-steps

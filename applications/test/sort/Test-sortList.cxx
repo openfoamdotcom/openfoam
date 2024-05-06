@@ -29,12 +29,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "SortList.H"
-#include "SortableList.H"
-#include "IndirectList.H"
-#include "ListOps.H"
-#include "HashSet.H"
-#include "stringOps.H"
+#include "containers/IndirectLists/SortList/SortList.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 using namespace Foam;
 

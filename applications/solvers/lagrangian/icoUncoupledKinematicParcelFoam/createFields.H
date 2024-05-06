@@ -1,4 +1,4 @@
-#include "readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
 
 Info<< "Reading field U\n" << endl;
 volVectorField U
@@ -14,7 +14,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 singlePhaseTransportModel laminarTransport(U, phi);
 

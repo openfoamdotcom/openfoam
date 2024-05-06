@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniformDistance.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volumeType.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/uniformDistance/uniformDistance.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

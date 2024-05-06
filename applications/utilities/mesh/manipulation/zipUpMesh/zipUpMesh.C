@@ -38,11 +38,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "polyMeshZipUpCells.H"
-#include "boolList.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyMeshZipUpCells/polyMeshZipUpCells.H"
+#include "primitives/bools/lists/boolList.H"
 
 using namespace Foam;
 
@@ -58,11 +58,11 @@ int main(int argc, char *argv[])
         " hex mesh conversion or integration or coupled math face pairs."
     );
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedPolyMesh.H"
 
     if (polyMeshZipUpCells(mesh))
     {

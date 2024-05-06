@@ -38,8 +38,8 @@ SourceFiles
 #ifndef Foam_expressions_exprValueFieldTag_H
 #define Foam_expressions_exprValueFieldTag_H
 
-#include "exprValue.H"
-#include "List.H"  // For ListPolicy
+#include "expressions/value/exprValue.H"
+#include "containers/Lists/List/List.H"  // For ListPolicy
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

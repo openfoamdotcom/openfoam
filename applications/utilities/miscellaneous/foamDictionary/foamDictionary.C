@@ -129,12 +129,12 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "profiling.H"
-#include "TimeOpenFOAM.H"
-#include "Fstream.H"
-#include "etcFiles.H"
-#include "includeEntry.H"
+#include "global/argList/argList.H"
+#include "global/profiling/profiling.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "global/etcFiles/etcFiles.H"
+#include "db/dictionary/functionEntries/includeEntry/includeEntry.H"
 
 using namespace Foam;
 

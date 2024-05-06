@@ -27,8 +27,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "regionSide.H"
-#include "meshTools.H"
-#include "primitiveMesh.H"
+#include "meshTools/meshTools.H"
+#include "meshes/primitiveMesh/primitiveMesh.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

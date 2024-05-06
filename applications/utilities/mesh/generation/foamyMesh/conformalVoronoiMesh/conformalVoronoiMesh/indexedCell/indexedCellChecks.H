@@ -76,7 +76,7 @@ namespace foamyHexMeshChecks
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "indexedCellChecks.C"
+    #include "conformalVoronoiMesh/indexedCell/indexedCellChecks.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

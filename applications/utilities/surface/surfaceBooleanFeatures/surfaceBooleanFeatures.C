@@ -73,19 +73,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "featureEdgeMesh.H"
-#include "extendedFeatureEdgeMesh.H"
-#include "triSurfaceSearch.H"
-#include "triSurfaceMesh.H"
-#include "OFstream.H"
-#include "booleanSurface.H"
-#include "edgeIntersections.H"
-#include "meshTools.H"
-#include "DynamicField.H"
-#include "Enum.H"
+#include "triSurface/triSurface.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "edgeMesh/featureEdgeMesh/featureEdgeMesh.H"
+#include "edgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMesh.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "triSurface/booleanOps/booleanSurface/booleanSurface.H"
+#include "triSurface/booleanOps/surfaceIntersection/edgeIntersections.H"
+#include "meshTools/meshTools.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "primitives/enums/Enum.H"
 
 #ifndef NO_CGAL
 
@@ -1600,8 +1600,8 @@ int main(int argc, char *argv[])
         " 'mixed' (keep all)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word action(args[1]);
 

@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "vector.H"
-#include "IOstreams.H"
-#include "PstreamReduceOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 using namespace Foam;
 
@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
     argList::addVerboseOption();
     argList::addOption("repeat", "count");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const label repeat = args.getOrDefault<label>("repeat", 1);
     const int optVerbose = args.verbose();

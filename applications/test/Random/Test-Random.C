@@ -31,7 +31,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "Random.H"
+#include "primitives/random/Random/Random.H"
 
 #include <cstdlib>
 #include <iostream>

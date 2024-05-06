@@ -28,14 +28,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "labelList.H"
-#include "FixedList.H"
-#include "sliceRange.H"
-#include "IndirectList.H"
-#include "IndirectSubList.H"
-#include "SliceList.H"
-#include "Random.H"
+#include "global/argList/argList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/ranges/sliceRange/sliceRange.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/IndirectLists/IndirectSubList/IndirectSubList.H"
+#include "containers/IndirectLists/SliceList/SliceList.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 

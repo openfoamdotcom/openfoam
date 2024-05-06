@@ -69,7 +69,7 @@ SourceFiles
 #ifndef fixedRhoFvPatchScalarField_H
 #define fixedRhoFvPatchScalarField_H
 
-#include "fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

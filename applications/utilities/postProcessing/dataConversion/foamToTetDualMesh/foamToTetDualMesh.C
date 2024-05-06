@@ -35,12 +35,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "TimeOpenFOAM.H"
-#include "IOobjectList.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 using namespace Foam;
 
@@ -150,18 +150,18 @@ int main(int argc, char *argv[])
         "Convert polyMesh results to tetDualMesh"
     );
 
-    #include "addOverwriteOption.H"
-    #include "addTimeOptions.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addTimeOptions.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     // Get times list
     instantList Times = runTime.times();
-    #include "checkTimeOptions.H"
+    #include "include/checkTimeOptions.H"
     runTime.setTime(Times[startTime], startTime);
 
     // Read the mesh
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // Read the tetDualMesh
     Info<< "Create tetDualMesh for time = "

@@ -36,10 +36,10 @@ SourceFiles
 #ifndef relativeVelocityModel_H
 #define relativeVelocityModel_H
 
-#include "fvCFD.H"
-#include "dictionary.H"
-#include "incompressibleTwoPhaseInteractingMixture.H"
-#include "runTimeSelectionTables.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "db/dictionary/dictionary.H"
+#include "incompressibleTwoPhaseInteractingMixture/incompressibleTwoPhaseInteractingMixture.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

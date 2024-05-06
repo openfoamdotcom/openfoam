@@ -37,13 +37,13 @@ SourceFiles
 #ifndef Foam_DTRMParticle_H
 #define Foam_DTRMParticle_H
 
-#include "particle.H"
-#include "IOstream.H"
-#include "autoPtr.H"
-#include "interpolationCell.H"
-#include "volFieldsFwd.H"
-#include "reflectionModel.H"
-#include "interpolationCellPoint.H"
+#include "particle/particle.H"
+#include "db/IOstreams/IOstreams/IOstream.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "interpolation/interpolation/interpolationCell/interpolationCell.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "reflectionModel/reflectionModel/reflectionModel.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -316,7 +316,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DTRMParticleI.H"
+#include "DTRMParticle/DTRMParticleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

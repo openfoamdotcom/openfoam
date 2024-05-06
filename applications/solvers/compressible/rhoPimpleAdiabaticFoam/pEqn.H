@@ -75,8 +75,8 @@
 
     phiByRho = phi/fvc::interpolate(rho);
 
-    #include "rhoEqn.H"
-    #include "compressibleContinuityErrs.H"
+    #include "cfdTools/compressible/rhoEqn.H"
+    #include "cfdTools/compressible/compressibleContinuityErrs.H"
 
     // Explicitly relax pressure for momentum corrector
     p.relax();

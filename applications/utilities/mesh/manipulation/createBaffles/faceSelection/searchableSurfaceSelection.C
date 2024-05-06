@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceSelection.H"
-#include "addToRunTimeSelectionTable.H"
-#include "syncTools.H"
-#include "searchableSurface.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
+#include "faceSelection/searchableSurfaceSelection.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

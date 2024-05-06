@@ -55,24 +55,24 @@ SourceFiles
 #ifndef backgroundMeshDecomposition_H
 #define backgroundMeshDecomposition_H
 
-#include "fvMesh.H"
-#include "hexRef8.H"
-#include "cellSet.H"
-#include "meshTools.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "decompositionMethod.H"
-#include "fvMeshDistribute.H"
-#include "removeCells.H"
-#include "mapDistributePolyMesh.H"
-#include "globalIndex.H"
-#include "treeBoundBox.H"
-#include "primitivePatch.H"
-#include "labelList.H"
-#include "indexedOctree.H"
-#include "treeDataPrimitivePatch.H"
-#include "volumeType.H"
-#include "CGALTriangulation3Ddefs.H"
+#include "fvMesh/fvMesh.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshTools/meshTools.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "fvMeshDistribute/fvMeshDistribute.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "primitives/ints/lists/labelList.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "indexedOctree/treeDataPrimitivePatch.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
+#include "conformalVoronoiMesh/CGALTriangulation3Ddefs.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -331,10 +331,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "backgroundMeshDecompositionI.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecompositionI.H"
 
 #ifdef NoRepository
-    #include "backgroundMeshDecompositionTemplates.C"
+    #include "backgroundMeshDecomposition/backgroundMeshDecompositionTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

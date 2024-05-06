@@ -42,17 +42,17 @@ Description
    ------ local definitions
  \* ------------------------------------------------------------------------ */
 
-#include "cyclicPolyPatch.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "polyMeshZipUpCells.H"
-#include "wallPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "oldCyclicPolyPatch.H"
-#include "IFstream.H"
-#include "readHexLabel.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyMeshZipUpCells/polyMeshZipUpCells.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/oldCyclic/oldCyclicPolyPatch.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Sstreams/readHexLabel.H"
 
 // Flex may use register, which is deprecated and incompatible with C++17
 #pragma clang diagnostic ignored "-Wdeprecated-register"
@@ -834,7 +834,7 @@ int main(int argc, char *argv[])
     }
 
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const auto fluentFile = args.get<fileName>(1);
     IFstream fluentStream(fluentFile);

@@ -31,17 +31,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "TimeOpenFOAM.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "removeFaces.H"
-#include "mapPolyMesh.H"
-#include "polyTopoChange.H"
-#include "fvCFD.H"
-#include "Random.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "polyTopoChange/polyTopoChange/removeFaces.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 
@@ -51,11 +51,11 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addTimeOptions.H"
+    #include "include/addTimeOptions.H"
     argList::addArgument("inflate (true|false)");
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     const Switch inflate(args[1]);
 
@@ -218,7 +218,7 @@ int main(int argc, char *argv[])
         // Check mesh volume conservation
         if (mesh.moving())
         {
-            #include "volContinuity.H"
+            #include "cfdTools/general/include/volContinuity.H"
         }
         else
         {

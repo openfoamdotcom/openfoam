@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "rayShooting.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triSurfaceMesh.H"
+#include "initialPointsMethod/rayShooting/rayShooting.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

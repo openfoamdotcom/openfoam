@@ -37,10 +37,10 @@ SourceFiles
 #define incompressibleThreePhaseMixture_H
 
 #include "incompressible/transportModel/transportModel.H"
-#include "IOdictionary.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 #include "incompressible/viscosityModels/viscosityModel/viscosityModel.H"
-#include "dimensionedScalar.H"
-#include "volFields.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

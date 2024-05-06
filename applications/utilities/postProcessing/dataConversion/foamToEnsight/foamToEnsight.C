@@ -117,39 +117,39 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "IOobjectList.H"
-#include "IOmanip.H"
-#include "OFstream.H"
-#include "Pstream.H"
-#include "HashOps.H"
-#include "regionProperties.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "regionModel/regionProperties/regionProperties.H"
 
-#include "fvc.H"
-#include "fvMesh.H"
-#include "fieldTypes.H"
-#include "volFields.H"
-#include "scalarIOField.H"
-#include "vectorIOField.H"
+#include "finiteVolume/fvc/fvc.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/Fields/fieldTypes.H"
+#include "fields/volFields/volFields.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "fields/Fields/vectorField/vectorIOField.H"
 
 // file-format/conversion
-#include "ensightCase.H"
-#include "ensightGeoFile.H"
-#include "ensightFaMesh.H"
-#include "ensightMesh.H"
-#include "ensightOutputCloud.H"
-#include "ensightOutputAreaField.H"
-#include "ensightOutputVolField.H"
+#include "ensight/file/ensightCase.H"
+#include "ensight/file/ensightGeoFile.H"
+#include "output/ensight/ensightFaMesh.H"
+#include "ensight/mesh/ensightMesh.H"
+#include "conversion/ensight/ensightOutputCloud.H"
+#include "ensight/output/ensightOutputAreaField.H"
+#include "ensight/output/ensightOutputVolField.H"
 
 // local files
-#include "readFields.H"
+#include "readFields/readFields.H"
 #include "writeVolFields.H"
 #include "writeDimFields.H"
 #include "writePointFields.H"
 #include "writeAreaFields.H"
 
-#include "memInfo.H"
+#include "memInfo/memInfo.H"
 
 #undef foamToEnsight_useTimeIndex
 
@@ -171,7 +171,7 @@ int main(int argc, char *argv[])
 
     argList::addVerboseOption();
 
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
     argList::addBoolOption
     (
@@ -323,7 +323,7 @@ int main(int argc, char *argv[])
     );
     argList::addOptionCompat("cellZones", {"cellZone", 1912});
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // ------------------------------------------------------------------------
     // Configuration
@@ -436,12 +436,12 @@ int main(int argc, char *argv[])
 
     // ------------------------------------------------------------------------
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 
     // Handle -allRegions, -regions, -region
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     // ------------------------------------------------------------------------
     // Directory management
@@ -465,7 +465,7 @@ int main(int argc, char *argv[])
     cpuTime timer;
     Info<< "Initial memory " << Foam::memInfo{}.size() << " kB" << endl;
 
-    #include "createNamedMeshes.H"
+    #include "include/createNamedMeshes.H"
     #include "createMeshAccounting.H"
 
     if (Pstream::master())

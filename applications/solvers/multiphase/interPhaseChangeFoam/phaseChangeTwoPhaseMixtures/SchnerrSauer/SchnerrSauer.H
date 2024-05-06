@@ -46,7 +46,7 @@ SourceFiles
 #ifndef SchnerrSauer_H
 #define SchnerrSauer_H
 
-#include "phaseChangeTwoPhaseMixture.H"
+#include "phaseChangeTwoPhaseMixture/phaseChangeTwoPhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * //
 

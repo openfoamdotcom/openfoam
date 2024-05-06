@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "piecewiseLinearRamp.H"
-#include "addToRunTimeSelectionTable.H"
+#include "faceAreaWeightModel/piecewiseLinearRamp/piecewiseLinearRamp.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

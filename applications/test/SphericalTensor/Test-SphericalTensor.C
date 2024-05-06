@@ -42,8 +42,8 @@ Description
 #include "SymmTensor.H"
 #include "SphericalTensor.H"
 #include "DiagTensor.H"
-#include "scalar.H"
-#include "complex.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/complex/complex.H"
 
 using namespace Foam;
 

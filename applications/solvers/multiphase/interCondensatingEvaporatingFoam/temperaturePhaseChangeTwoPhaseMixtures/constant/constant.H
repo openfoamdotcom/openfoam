@@ -38,7 +38,7 @@ SourceFiles
 #ifndef constant_H
 #define constant_H
 
-#include "temperaturePhaseChangeTwoPhaseMixture.H"
+#include "temperaturePhaseChangeTwoPhaseMixtures/temperaturePhaseChangeTwoPhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * //
 

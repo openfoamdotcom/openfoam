@@ -3,18 +3,18 @@
     {
         if (frozenFlow)
         {
-            #include "EEqn.H"
+            #include "fluid/EEqn.H"
         }
         else
         {
             p_rgh.storePrevIter();
             rho.storePrevIter();
 
-            #include "UEqn.H"
-            #include "EEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/EEqn.H"
             if (!coupled)
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
                 turb.correct();
             }
         }

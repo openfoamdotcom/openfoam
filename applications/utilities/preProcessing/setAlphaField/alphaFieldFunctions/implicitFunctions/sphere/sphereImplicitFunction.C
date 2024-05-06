@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sphereImplicitFunction.H"
-#include "addToRunTimeSelectionTable.H"
+#include "implicitFunctions/sphere/sphereImplicitFunction.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

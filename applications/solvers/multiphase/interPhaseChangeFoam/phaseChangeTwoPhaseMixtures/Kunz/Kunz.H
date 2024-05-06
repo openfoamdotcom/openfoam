@@ -52,7 +52,7 @@ SourceFiles
 #ifndef Kunz_H
 #define Kunz_H
 
-#include "phaseChangeTwoPhaseMixture.H"
+#include "phaseChangeTwoPhaseMixture/phaseChangeTwoPhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * //
 

@@ -26,8 +26,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "domainDecompositionDryRun.H"
-#include "foamVtkInternalMeshWriter.H"
-#include "volFields.H"
+#include "output/vtk/mesh/foamVtkInternalMeshWriter.H"
+#include "fields/volFields/volFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

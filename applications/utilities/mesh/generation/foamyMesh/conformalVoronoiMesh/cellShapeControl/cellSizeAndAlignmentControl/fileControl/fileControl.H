@@ -36,7 +36,7 @@ SourceFiles
 #ifndef fileControl_H
 #define fileControl_H
 
-#include "cellSizeAndAlignmentControl.H"
+#include "cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

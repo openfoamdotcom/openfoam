@@ -40,10 +40,10 @@ SourceFiles
 #ifndef implicitFunction_H
 #define implicitFunction_H
 
-#include "autoPtr.H"
-#include "dictionary.H"
-#include "vector.H"
-#include "runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -47,9 +47,9 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "fvOptions.H"
-#include "pimpleControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -60,13 +60,13 @@ int main(int argc, char *argv[])
         "Acoustic solver solving the acoustic pressure wave equation."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createRegionControls.H"
 
     #include "readTransportProperties.H"

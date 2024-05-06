@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "MatrixTools.H"
-#include "LUscalarMatrix.H"
-#include "LLTMatrix.H"
-#include "Random.H"
-#include "SortList.H"
-#include "Switch.H"
+#include "matrices/Matrix/MatrixTools.H"
+#include "matrices/LUscalarMatrix/LUscalarMatrix.H"
+#include "matrices/LLTMatrix/LLTMatrix.H"
+#include "primitives/random/Random/Random.H"
+#include "containers/IndirectLists/SortList/SortList.H"
+#include "primitives/bools/Switch/Switch.H"
 
 using namespace Foam;
 using namespace Foam::MatrixTools;

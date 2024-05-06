@@ -35,13 +35,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "fluidThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "simpleControl.H"
-#include "pressureControl.H"
-#include "fvOptions.H"
-#include "IOporosityModelList.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fluidThermo/fluidThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/pressureControl/pressureControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/porosityModel/porosityModel/IOporosityModelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -53,16 +53,16 @@ int main(int argc, char *argv[])
         "with implicit or explicit porosity treatment and optional sources."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createZones.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -76,9 +76,9 @@ int main(int argc, char *argv[])
 
         // Pressure-velocity SIMPLE corrector
         {
-            #include "UEqn.H"
-            #include "EEqn.H"
-            #include "pEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/EEqn.H"
+            #include "fluid/pEqn.H"
         }
 
         turbulence->correct();

@@ -1,5 +1,5 @@
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
 
 Info<< "Creating twoPhaseSystem\n" << endl;
 
@@ -21,7 +21,7 @@ dimensionedScalar pMin
     fluid
 );
 
-#include "gh.H"
+#include "cfdTools/general/include/gh.H"
 
 Info<< "Reading field p_rgh\n" << endl;
 volScalarField p_rgh
@@ -81,5 +81,5 @@ Info<< "Creating field kinetic energy K\n" << endl;
 volScalarField K1(IOobject::groupName("K", phase1.name()), 0.5*magSqr(U1));
 volScalarField K2(IOobject::groupName("K", phase2.name()), 0.5*magSqr(U2));
 
-#include "createMRF.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvOptions.H"

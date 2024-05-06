@@ -100,20 +100,20 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "regionSplit.H"
-#include "fvMeshSubset.H"
-#include "IOobjectList.H"
-#include "volFields.H"
-#include "faceSet.H"
-#include "cellSet.H"
-#include "polyTopoChange.H"
-#include "removeCells.H"
-#include "edgeHashes.H"
-#include "syncTools.H"
-#include "ReadFieldsPascal.H"
-#include "mappedWallPolyPatch.H"
-#include "fvMeshTools.H"
+#include "global/argList/argList.H"
+#include "regionSplit/regionSplit.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/volFields/volFields.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChange/removeCells.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -1440,8 +1440,8 @@ int main(int argc, char *argv[])
     (
         "Split mesh into multiple regions (detected by walking across faces)"
     );
-    #include "addRegionOption.H"
-    #include "addOverwriteOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addOverwriteOption.H"
     argList::addBoolOption
     (
         "cellZones",
@@ -1515,9 +1515,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

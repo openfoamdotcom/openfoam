@@ -34,16 +34,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "fluidThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "simpleControl.H"
-#include "pressureControl.H"
-#include "fvOptions.H"
-#include "cellCellStencilObject.H"
-#include "localMin.H"
-#include "oversetAdjustPhi.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "fluidThermo/fluidThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/pressureControl/pressureControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
+#include "oversetAdjustPhi/oversetAdjustPhi.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -55,16 +55,16 @@ int main(int argc, char *argv[])
     );
 
     #define CREATE_MESH createUpdatedDynamicFvMesh.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
     #include "createUpdatedDynamicFvMesh.H"
-    #include "createControl.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "createFvOptions.H"
-    #include "initContinuityErrs.H"
+    #include "cfdTools/general/include/createFvOptions.H"
+    #include "fluid/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -77,9 +77,9 @@ int main(int argc, char *argv[])
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
         // Pressure-velocity SIMPLE corrector
-        #include "UEqn.H"
-        #include "EEqn.H"
-        #include "pEqn.H"
+        #include "fluid/UEqn.H"
+        #include "fluid/EEqn.H"
+        #include "fluid/pEqn.H"
 
         turbulence->correct();
 

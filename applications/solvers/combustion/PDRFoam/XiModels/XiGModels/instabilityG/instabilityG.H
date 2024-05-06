@@ -40,7 +40,7 @@ SourceFiles
 #ifndef instabilityG_H
 #define instabilityG_H
 
-#include "XiGModel.H"
+#include "XiModels/XiGModels/XiGModel/XiGModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

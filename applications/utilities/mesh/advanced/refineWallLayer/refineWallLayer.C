@@ -50,12 +50,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyTopoChange.H"
-#include "cellCuts.H"
-#include "cellSet.H"
-#include "meshCutter.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshCut/cellCuts/cellCuts.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshCut/meshModifiers/meshCutter/meshCutter.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -69,7 +69,7 @@ int main(int argc, char *argv[])
         "Refine cells next to specified patches."
     );
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::addArgument
     (
         "patches",
@@ -91,9 +91,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

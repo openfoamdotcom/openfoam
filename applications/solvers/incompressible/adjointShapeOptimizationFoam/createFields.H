@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 
 label pRefCell = 0;
@@ -121,4 +121,4 @@ volScalarField alpha
 zeroCells(alpha, inletCells);
 //zeroCells(alpha, outletCells);
 
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createFvOptions.H"

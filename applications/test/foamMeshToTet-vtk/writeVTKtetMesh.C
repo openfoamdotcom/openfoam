@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "polyMesh.H"
-#include "Fstream.H"
-#include "tetMatcher.H"
-#include "foamVtkInternalMeshWriter.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "meshes/meshShapes/cellMatcher/tetMatcher.H"
+#include "output/vtk/mesh/foamVtkInternalMeshWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

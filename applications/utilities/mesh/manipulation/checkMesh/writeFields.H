@@ -1,4 +1,4 @@
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 namespace Foam
 {

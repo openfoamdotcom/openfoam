@@ -62,8 +62,8 @@ SourceFiles
 #ifndef compressiblePDRkEpsilon_H
 #define compressiblePDRkEpsilon_H
 
-#include "kEpsilon.H"
-#include "turbulentFluidThermoModel.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

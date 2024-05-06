@@ -51,24 +51,24 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMeshSubset.H"
-#include "argList.H"
-#include "cellSet.H"
-#include "BitOps.H"
-#include "IOobjectList.H"
-#include "volFields.H"
-#include "mapPolyMesh.H"
-#include "faceSet.H"
-#include "cellSet.H"
-#include "pointSet.H"
-#include "syncTools.H"
-#include "ReadFieldsPascal.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "polyAddFace.H"
-#include "regionSplit.H"
-#include "Tuple2.H"
-#include "cyclicFvPatch.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "global/argList/argList.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "regionSplit/regionSplit.H"
+#include "primitives/tuples/Tuple2.H"
+#include "fvMesh/fvPatches/constraint/cyclic/cyclicFvPatch.H"
 
 using namespace Foam;
 
@@ -648,13 +648,13 @@ int main(int argc, char *argv[])
     (
         "Mesh and field preparation utility for PDR type simulations."
     );
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     // Read control dictionary
     // ~~~~~~~~~~~~~~~~~~~~~~~

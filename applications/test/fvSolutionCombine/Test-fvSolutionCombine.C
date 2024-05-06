@@ -32,10 +32,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "wordRe.H"
-#include "OSspecific.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/strings/wordRe/wordRe.H"
+#include "include/OSspecific.H"
 
 using namespace Foam;
 

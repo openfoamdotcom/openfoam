@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "relativeVelocityModel.H"
-#include "fixedValueFvPatchFields.H"
-#include "slipFvPatchFields.H"
-#include "partialSlipFvPatchFields.H"
+#include "relativeVelocityModel/relativeVelocityModel.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
+#include "fields/fvPatchFields/derived/slip/slipFvPatchFields.H"
+#include "fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchFields.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

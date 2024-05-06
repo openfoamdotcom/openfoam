@@ -37,12 +37,12 @@ SourceFiles
 #ifndef temperaturePhaseChangeTwoPhaseMixture_H
 #define temperaturePhaseChangeTwoPhaseMixture_H
 
-#include "thermoIncompressibleTwoPhaseMixture.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "volFields.H"
-#include "dimensionedScalar.H"
-#include "fvMatrices.H"
+#include "thermoIncompressibleTwoPhaseMixture/thermoIncompressibleTwoPhaseMixture.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "fvMatrices/fvMatrices.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

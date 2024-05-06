@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "wordList.H"
-#include "ListOps.H"
-#include "FlatOutput.H"
-#include "IOstreams.H"
+#include "primitives/strings/lists/wordList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

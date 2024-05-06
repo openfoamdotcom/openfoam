@@ -43,18 +43,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshedSurface.H"
-#include "UnsortedMeshedSurface.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "ListListOps.H"
-#include "indirectPrimitivePatch.H"
-#include "globalMeshData.H"
-#include "globalIndex.H"
-#include "timeSelector.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurface.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "meshes/primitiveMesh/primitivePatch/indirectPrimitivePatch.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "db/Time/timeSelector.H"
 
 using namespace Foam;
 
@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
 
     argList::addArgument("output", "The output surface file");
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addBoolOption
     (
         "excludeProcPatches",
@@ -153,8 +153,8 @@ int main(int argc, char *argv[])
     );
     argList::addOptionCompat("exclude-patches", {"excludePatches", 2306});
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const auto userOutFileName = args.get<fileName>(1);
 
@@ -201,7 +201,7 @@ int main(int argc, char *argv[])
 
     Info<< "Reading mesh from time " << runTime.value() << endl;
 
-    #include "createNamedPolyMesh.H"
+    #include "include/createNamedPolyMesh.H"
 
     // User specified times
     instantList timeDirs = timeSelector::select0(runTime, args);

@@ -28,9 +28,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "PDRblock.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "PDRblockMesh/PDRblock.H"
 
 using namespace Foam;
 
@@ -44,12 +44,12 @@ int main(int argc, char *argv[])
     argList::noFunctionObjects();
     argList::addOption("dict", "file", "Alternative PDRblockMeshDict");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word dictName("PDRblockMeshDict");
 
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
 
     Info<< "Reading " << dictIO.name() << nl << endl;
 

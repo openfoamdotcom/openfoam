@@ -31,15 +31,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "Pair.H"
-#include "Tuple2.H"
-#include "IOstreams.H"
-#include "PstreamReduceOps.H"
-#include "SHA1.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
+#include "primitives/hashes/SHA1/SHA1.H"
 
 // Include MPI without any C++ bindings
 #ifndef MPICH_SKIP_MPICXX
@@ -84,7 +84,7 @@ int main(int argc, char *argv[])
     // Check -verbose before initialisation
     UPstream::debug = argList::verbose(argc, argv);
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool optPrintTree = args.found("print-tree");
 

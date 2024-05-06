@@ -35,8 +35,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "IFstream.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
         FatalError.exit();
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     fileNameList fieldNames = readDir(runTime.timePath(), fileName::FILE);
     dictionary fieldNameDict;
@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
     if (fieldNameDict.found("epsilon")) nameMap.add("ED", word("epsilon"));
     if (fieldNameDict.found("nuEff")) nameMap.add("VIS", word("nuEff"));
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     IFstream smapFile(args.get<fileName>(1));
 

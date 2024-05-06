@@ -48,17 +48,17 @@ Description
 // For EOF only
 #include <cstdio>
 
-#include "scalar.H"
-#include "StringStream.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "preservePatchTypes.H"
-#include "cellShape.H"
-#include "SLList.H"
-#include "SLPtrList.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "containers/LinkedLists/user/SLList.H"
+#include "containers/LinkedLists/user/SLPtrList.H"
 
 // Flex may use register, which is deprecated and incompatible with C++17
 #pragma clang diagnostic ignored "-Wdeprecated-register"
@@ -273,7 +273,7 @@ elementType           ^{space}"TYPE"{cspace}
 %%
 
 
-#include "fileName.H"
+#include "primitives/strings/fileName/fileName.H"
 #include <fstream>
 
 
@@ -325,7 +325,7 @@ int main(int argc, char *argv[])
 
     const scalar scaleFactor = args.getOrDefault<scalar>("scale", 1);
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const auto ansysFile = args.get<fileName>(1);
     std::ifstream ansysStream(ansysFile);

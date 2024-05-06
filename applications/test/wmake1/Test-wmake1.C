@@ -33,7 +33,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
+#include "global/argList/argList.H"
 
 namespace Foam
 {

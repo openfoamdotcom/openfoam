@@ -42,23 +42,23 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "cyclicPolyPatch.H"
-#include "syncTools.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "faceSet.H"
-#include "IOPtrList.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "wordRes.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "primitives/strings/wordRes/wordRes.H"
 #include "processorMeshes.H"
-#include "IOdictionary.H"
-#include "regionProperties.H"
-#include "faceAreaWeightAMI2D.H"
-#include "fvMeshTools.H"
-#include "ReadFieldsPascal.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "AMIInterpolation/AMIInterpolation/faceAreaWeightAMI2D/faceAreaWeightAMI2D.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
 
 using namespace Foam;
 
@@ -720,8 +720,8 @@ int main(int argc, char *argv[])
         " from existing patches or from a faceSet"
     );
 
-    #include "addOverwriteOption.H"
-    #include "addAllRegionOptions.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addAllRegionOptions.H"
 
     argList::addOption("dict", "file", "Alternative createPatchDict");
     argList::addBoolOption
@@ -732,13 +732,13 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "getAllRegionOptions.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/getAllRegionOptions.H"
 
     const bool overwrite = args.found("overwrite");
 
-    #include "createNamedMeshes.H"
+    #include "include/createNamedMeshes.H"
 
     const bool writeObj = args.found("writeObj");
 
@@ -763,7 +763,7 @@ int main(int argc, char *argv[])
         oldInstances[meshi] = mesh.pointsInstance();
 
         const word dictName("createPatchDict");
-        #include "setSystemMeshDictionaryIO.H"
+        #include "include/setSystemMeshDictionaryIO.H"
         Info<< "Reading " << dictIO.instance()/dictIO.name() << nl << endl;
 
         dicts.set(meshi, new IOdictionary(dictIO));

@@ -67,9 +67,9 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "fvCFD.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "cfdTools/general/include/fvCFD.H"
 #include "ROMmodels/ROMmodel/ROMmodel.H"
 
 using namespace Foam;
@@ -100,13 +100,13 @@ int main(int argc, char *argv[])
     argList::removeOption("world");
 
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word dictName("ROMfieldsDict");
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
     Info<< "Reading " << dictIO.name() << nl << endl;
     IOdictionary dict(dictIO);
 
@@ -118,7 +118,7 @@ int main(int argc, char *argv[])
             << exit(FatalError);
     }
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

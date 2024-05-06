@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedCellEnum.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCellEnum.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

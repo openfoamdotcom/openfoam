@@ -21,8 +21,8 @@ Description
 #ifndef ensight_writeAreaFields_H
 #define ensight_writeAreaFields_H
 
-#include "readFields.H"
-#include "areaFaMesh.H"
+#include "readFields/readFields.H"
+#include "areaMesh/areaFaMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

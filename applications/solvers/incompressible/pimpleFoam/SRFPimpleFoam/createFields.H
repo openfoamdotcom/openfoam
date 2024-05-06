@@ -72,4 +72,4 @@ autoPtr<incompressible::turbulenceModel> turbulence
     incompressible::turbulenceModel::New(U, phi, laminarTransport)
 );
 
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createFvOptions.H"

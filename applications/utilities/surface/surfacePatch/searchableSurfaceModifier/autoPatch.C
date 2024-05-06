@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "autoPatch.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFeatures.H"
-#include "triSurfaceMesh.H"
-#include "PatchTools.H"
+#include "searchableSurfaceModifier/autoPatch.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "triSurface/surfaceFeatures/surfaceFeatures.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

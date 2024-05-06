@@ -35,19 +35,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
 
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "volMesh.H"
-#include "surfaceMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "ReadFieldsPascal.H"
-#include "interpolationWeights.H"
-#include "uniformInterpolate.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "volMesh/volMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "interpolations/interpolationWeights/interpolationWeights/interpolationWeights.H"
+#include "fields/GeometricFields/GeometricField/uniformInterpolate.H"
 
 using namespace Foam;
 
@@ -200,7 +200,7 @@ int main(int argc, char *argv[])
     );
 
     timeSelector::addOptions();
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addOption
     (
         "fields",
@@ -223,8 +223,8 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Non-mandatory
     const wordRes selectedFields(args.getList<wordRe>("fields", false));
@@ -269,7 +269,7 @@ int main(int argc, char *argv[])
     );
 
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     Info<< "Interpolating fields for times:" << endl;
 

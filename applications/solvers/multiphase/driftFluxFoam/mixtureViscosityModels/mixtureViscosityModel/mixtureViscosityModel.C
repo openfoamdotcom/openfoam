@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "mixtureViscosityModel.H"
-#include "volFields.H"
-#include "surfaceMesh.H"
+#include "mixtureViscosityModel/mixtureViscosityModel.H"
+#include "fields/volFields/volFields.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

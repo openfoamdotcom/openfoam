@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "planeImplicitFunction.H"
-#include "addToRunTimeSelectionTable.H"
+#include "implicitFunctions/plane/planeImplicitFunction.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

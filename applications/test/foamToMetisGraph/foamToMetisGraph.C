@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 
@@ -47,9 +47,9 @@ int main(int argc, char *argv[])
         "Create a metis graph file representation for an OpenFOAM mesh"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const labelListList& cellCells = mesh.cellCells();
 

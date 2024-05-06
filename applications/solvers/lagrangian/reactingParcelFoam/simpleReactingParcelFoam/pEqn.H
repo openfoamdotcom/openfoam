@@ -41,7 +41,7 @@ p.relax();
 // Thermodynamic density update
 thermo.correctRho(psi*p - psip0);
 
-#include "compressibleContinuityErrs.H"
+#include "cfdTools/compressible/compressibleContinuityErrs.H"
 
 U = HbyA - rAU*fvc::grad(p);
 U.correctBoundaryConditions();

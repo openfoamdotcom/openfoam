@@ -28,15 +28,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "labelList.H"
-#include "scalarField.H"
-#include "vectorField.H"
-#include "DynamicList.H"
-#include "Random.H"
-#include "exprValue.H"
+#include "global/argList/argList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/ints/lists/labelList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "primitives/random/Random/Random.H"
+#include "expressions/value/exprValue.H"
 #include "exprValueFieldTag.H"
 
 using namespace Foam;
@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
 
     argList::noCheckProcessorDirectories();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     {
         scalarField fld1(20);

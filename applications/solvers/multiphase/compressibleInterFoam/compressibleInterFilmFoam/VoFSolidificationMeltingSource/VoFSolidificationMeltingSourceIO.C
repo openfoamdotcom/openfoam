@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "VoFSolidificationMeltingSource.H"
+#include "VoFSolidificationMeltingSource/VoFSolidificationMeltingSource.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

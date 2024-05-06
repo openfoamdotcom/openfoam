@@ -27,9 +27,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "SpanStream.H"
-#include "StringStream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 using namespace Foam;
 

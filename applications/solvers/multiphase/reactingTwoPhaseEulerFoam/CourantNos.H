@@ -1,4 +1,4 @@
-#include "CourantNo.H"
+#include "cfdTools/incompressible/CourantNo.H"
 
 {
     scalar UrCoNum = 0.5*gMax

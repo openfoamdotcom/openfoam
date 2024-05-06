@@ -34,12 +34,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "fluidThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "simpleControl.H"
-#include "pressureControl.H"
-#include "fvOptions.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fluidThermo/fluidThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/pressureControl/pressureControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -50,16 +50,16 @@ int main(int argc, char *argv[])
         "Steady-state solver for compressible turbulent flow."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -72,8 +72,8 @@ int main(int argc, char *argv[])
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
         // Pressure-velocity SIMPLE corrector
-        #include "UEqn.H"
-        #include "EEqn.H"
+        #include "fluid/UEqn.H"
+        #include "fluid/EEqn.H"
 
         if (simple.consistent())
         {
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
         }
         else
         {
-            #include "pEqn.H"
+            #include "fluid/pEqn.H"
         }
 
         turbulence->correct();

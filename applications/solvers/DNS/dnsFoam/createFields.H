@@ -28,7 +28,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 mesh.setFluxRequired(p.name());
 

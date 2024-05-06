@@ -38,16 +38,16 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 
-#include "triSurfaceMesh.H"
-#include "indexedOctree.H"
-#include "treeBoundBox.H"
-#include "bitSet.H"
-#include "unitConversion.H"
-#include "searchableSurfaces.H"
-#include "IOdictionary.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "algorithms/indexedOctree/indexedOctree.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "global/constants/unitConversion.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 using namespace Foam;
 
@@ -269,11 +269,11 @@ int main(int argc, char *argv[])
     argList::addArgument("hookTolerance", "The point merge tolerance");
     argList::addOption("dict", "file", "Alternative surfaceHookUpDict");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word dictName("surfaceHookUpDict");
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
 
     Info<< "Reading " << dictIO.name() << nl << endl;
 

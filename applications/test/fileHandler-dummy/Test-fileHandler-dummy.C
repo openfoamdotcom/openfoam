@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "fileOperation.H"
-#include "Switch.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "primitives/bools/Switch/Switch.H"
 
 using namespace Foam;
 
@@ -53,7 +53,7 @@ int main(int argc, char *argv[])
         "Force use of dummy handler (and provoke NotImplemented)"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool optForce = args.found("force");
 

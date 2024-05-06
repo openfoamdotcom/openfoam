@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cylinderImplicitFunction.H"
-#include "addToRunTimeSelectionTable.H"
+#include "implicitFunctions/cylinder/cylinderImplicitFunction.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

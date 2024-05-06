@@ -44,6 +44,6 @@ volScalarField rho
 );
 
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 mesh.setFluxRequired(p.name());

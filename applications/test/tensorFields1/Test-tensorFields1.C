@@ -29,8 +29,8 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensorField.H"
-#include "Random.H"
+#include "fields/Fields/tensorField/tensorField.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 

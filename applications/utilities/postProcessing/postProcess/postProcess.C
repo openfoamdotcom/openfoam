@@ -34,16 +34,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "profiling.H"
-#include "timeSelector.H"
-#include "ReadFieldsPascal.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "uniformDimensionedFields.H"
-#include "fileFieldSelection.H"
-#include "mapPolyMesh.H"
+#include "global/argList/argList.H"
+#include "global/profiling/profiling.H"
+#include "db/Time/timeSelector.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
+#include "functionObjects/fieldSelections/fileFieldSelection/fileFieldSelection.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
 
 using namespace Foam;
 
@@ -160,14 +160,14 @@ int main(int argc, char *argv[])
     );
 
     timeSelector::addOptions();
-    #include "addProfilingOption.H"
-    #include "addRegionOption.H"
-    #include "addFunctionObjectOptions.H"
+    #include "include/addProfilingOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addFunctionObjectOptions.H"
 
     // Set functionObject post-processing mode
     functionObject::postProcess = true;
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (args.found("list"))
     {
@@ -175,9 +175,9 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
     instantList timeDirs = timeSelector::select0(runTime, args);
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // Initialize the set of selected fields from the command-line options
     functionObjects::fileFieldSelection fields(mesh);

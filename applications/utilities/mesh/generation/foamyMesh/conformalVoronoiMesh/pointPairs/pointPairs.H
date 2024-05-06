@@ -42,7 +42,7 @@ Description
 #ifndef pointPairs_H
 #define pointPairs_H
 
-#include "labelPairHashes.H"
+#include "primitives/tuples/labelPairHashes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -150,7 +150,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "pointPairs.C"
+    #include "pointPairs/pointPairs.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

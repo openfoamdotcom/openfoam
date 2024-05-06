@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceAreaWeightModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "faceAreaWeightModel/faceAreaWeightModel/faceAreaWeightModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

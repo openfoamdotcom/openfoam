@@ -32,10 +32,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "tetrahedron.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "cut.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "searchableSurfaceModifier/cut.H"
 
 using namespace Foam;
 

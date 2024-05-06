@@ -43,14 +43,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "cellSet.H"
-#include "multiDirRefinement.H"
-#include "labelIOList.H"
-#include "IOdictionary.H"
-#include "syncTools.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshCut/meshModifiers/multiDirRefinement/multiDirRefinement.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 
 using namespace Foam;
 
@@ -163,8 +163,8 @@ int main(int argc, char *argv[])
         "Refine cells in multiple directions"
     );
 
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
 
     argList::addOption("dict", "file", "Alternative refineMeshDict");
 
@@ -176,9 +176,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

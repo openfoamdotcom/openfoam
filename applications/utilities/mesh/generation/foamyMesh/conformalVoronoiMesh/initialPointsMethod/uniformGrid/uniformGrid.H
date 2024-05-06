@@ -39,7 +39,7 @@ SourceFiles
 #ifndef uniformGrid_H
 #define uniformGrid_H
 
-#include "initialPointsMethod.H"
+#include "initialPointsMethod/initialPointsMethod/initialPointsMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

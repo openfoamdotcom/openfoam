@@ -31,16 +31,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalar.H"
-#include "FlatOutput.H"
-#include "SpanStream.H"
-#include "NASCore.H"
-#include "parsing.H"
-#include "Tuple2.H"
-#include "Switch.H"
-#include "dictionary.H"
-#include "primitiveFields.H"
-#include "labelVector.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "nastran/NASCore.H"
+#include "primitives/strings/parsing/parsing.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/Fields/primitiveFields.H"
+#include "primitives/Vector/ints/labelVector.H"
 
 using namespace Foam;
 

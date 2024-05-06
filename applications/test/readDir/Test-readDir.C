@@ -28,9 +28,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OSspecific.H"
-#include "fileNameList.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"
+#include "primitives/strings/lists/fileNameList.H"
 
 using namespace Foam;
 
@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::addBoolOption("dir", "list directories instead of files");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     fileName::Type listType = fileName::FILE;
 

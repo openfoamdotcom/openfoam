@@ -38,9 +38,9 @@ SourceFiles
 #ifndef ensight_readFields_H
 #define ensight_readFields_H
 
-#include "instantList.H"
-#include "IOobjectList.H"
-#include "fvPatchField.H"
+#include "db/Time/instant/instantList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

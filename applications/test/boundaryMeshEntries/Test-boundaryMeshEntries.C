@@ -31,14 +31,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
+#include "global/argList/argList.H"
 
-#include "fileName.H"
-#include "IOstreams.H"
-#include "polyMesh.H"
-#include "polyBoundaryMeshEntries.H"
-#include "OSspecific.H"
-#include "TimeOpenFOAM.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "db/IOstreams/IOstreams.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyBoundaryMesh/polyBoundaryMeshEntries.H"
+#include "include/OSspecific.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 using namespace Foam;
 
@@ -50,8 +50,8 @@ int main(int argc, char *argv[])
     argList::noFunctionObjects();  // Disallow function objects
     argList::addVerboseOption("additional verbosity");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     fileName coherentInst;
     coherentInst =

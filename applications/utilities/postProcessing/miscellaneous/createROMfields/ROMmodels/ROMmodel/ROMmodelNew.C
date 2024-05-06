@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ROMmodel.H"
-#include "dictionary.H"
+#include "ROMmodels/ROMmodel/ROMmodel.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

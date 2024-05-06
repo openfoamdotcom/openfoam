@@ -28,7 +28,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include <iostream>
-#include "PtrMap.H"
+#include "containers/HashTables/PtrMap/PtrMap.H"
 
 using namespace Foam;
 

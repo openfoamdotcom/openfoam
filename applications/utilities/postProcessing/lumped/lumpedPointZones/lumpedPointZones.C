@@ -33,13 +33,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
 
-#include "lumpedPointTools.H"
-#include "lumpedPointIOMovement.H"
-#include "fvMesh.H"
+#include "tools/lumpedPointTools.H"
+#include "movement/lumpedPointIOMovement.H"
+#include "fvMesh/fvMesh.H"
 
 using namespace Foam;
 
@@ -74,9 +74,9 @@ int main(int argc, char *argv[])
 
     argList::addVerboseOption();
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool noInterpolate = args.found("no-interpolate");
 
@@ -108,7 +108,7 @@ int main(int argc, char *argv[])
 
     runTime.setTime(instant(runTime.constant()), 0);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     autoPtr<lumpedPointIOMovement> movement = lumpedPointIOMovement::New(mesh);
 

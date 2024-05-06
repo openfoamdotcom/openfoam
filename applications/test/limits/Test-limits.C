@@ -30,11 +30,11 @@ Description
 
 #include <cmath>
 #include <limits>
-#include "int.H"
-#include "uint.H"
-#include "scalar.H"
-#include "word.H"
-#include "IOstreams.H"
+#include "primitives/ints/int/int.H"
+#include "primitives/ints/uint/uint.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/strings/word/word.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

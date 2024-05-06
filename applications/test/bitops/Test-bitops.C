@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "bool.H"
-#include "BitOps.H"
-#include "IOstreams.H"
-#include "stdFoam.H"
+#include "primitives/bools/bool/bool.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "db/IOstreams/IOstreams.H"
+#include "include/stdFoam.H"
 
 #include <type_traits>
 #include <limits>

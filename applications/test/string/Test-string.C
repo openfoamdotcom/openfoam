@@ -29,17 +29,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fieldExprFwd.H"
-#include "int.H"
-#include "uint.H"
-#include "scalar.H"
-#include "Switch.H"
-#include "fileName.H"
-#include "stringList.H"
-#include "stringOps.H"
-#include "dictionary.H"
-#include "IOstreams.H"
-#include "OSspecific.H"
+#include "expressions/fields/fieldExprFwd.H"
+#include "primitives/ints/int/int.H"
+#include "primitives/ints/uint/uint.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/strings/lists/stringList.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/IOstreams.H"
+#include "include/OSspecific.H"
 
 
 using namespace Foam;

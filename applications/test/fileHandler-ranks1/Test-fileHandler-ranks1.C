@@ -31,15 +31,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "fileOperation.H"
-#include "IOstreams.H"
-#include "ITstream.H"
-#include "OSspecific.H"
-#include "Pstream.H"
-#include "SHA1.H"
-#include "stringOps.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/hashes/SHA1/SHA1.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 using namespace Foam;
 
@@ -216,7 +216,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     bitSet useProc;
 

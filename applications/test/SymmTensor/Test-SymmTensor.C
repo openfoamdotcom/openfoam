@@ -40,11 +40,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "symmTensor.H"
-#include "transform.H"
-#include "Random.H"
-#include "scalar.H"
-#include "complex.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/transform/transform.H"
+#include "primitives/random/Random/Random.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/complex/complex.H"
 
 using namespace Foam;
 

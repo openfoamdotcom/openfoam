@@ -28,14 +28,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "line.H"
-#include "Random.H"
-#include "triangle.H"
-#include "triangleFuncs.H"
-#include "treeBoundBox.H"
-#include "ListOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/primitiveShapes/line/line.H"
+#include "primitives/random/Random/Random.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "triSurface/triangleFuncs/triangleFuncs.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 

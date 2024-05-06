@@ -1,2 +1,2 @@
-#include "createFluidFields.H"
-#include "createSolidFields.H"
+#include "fluid/createFluidFields.H"
+#include "solid/createSolidFields.H"

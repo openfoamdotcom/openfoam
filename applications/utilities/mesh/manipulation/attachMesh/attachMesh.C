@@ -34,10 +34,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "attachPolyTopoChanger.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/attachPolyTopoChanger/attachPolyTopoChanger.H"
 
 using namespace Foam;
 
@@ -50,14 +50,14 @@ int main(int argc, char *argv[])
         "Attach topologically detached mesh using prescribed mesh modifiers"
     );
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::noParallel();
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "ensightFileName.H"
-#include "ensightVarName.H"
-#include "IOstreams.H"
+#include "global/argList/argList.H"
+#include "ensight/name/ensightFileName.H"
+#include "ensight/name/ensightVarName.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

@@ -38,12 +38,12 @@ SourceFiles
 #ifndef extrude2DMesh_H
 #define extrude2DMesh_H
 
-#include "typeInfo.H"
-#include "label.H"
-#include "scalar.H"
-#include "labelList.H"
-#include "dictionary.H"
-#include "extrudeModel.H"
+#include "db/typeInfo/typeInfo.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/dictionary/dictionary.H"
+#include "extrudeModel/extrudeModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

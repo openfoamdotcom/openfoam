@@ -31,9 +31,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "stringOps.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 using namespace Foam;
 

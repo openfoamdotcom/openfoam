@@ -42,13 +42,13 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "scalarMatrices.H"
-#include "RectangularMatrix.H"
-#include "SquareMatrix.H"
-#include "scalar.H"
-#include "complex.H"
-#include "IOmanip.H"
-#include "TestTools.H"
+#include "matrices/scalarMatrices/scalarMatrices.H"
+#include "matrices/RectangularMatrix/RectangularMatrix.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/complex/complex.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "test/TestTools/TestTools.H"
 
 using namespace Foam;
 

@@ -39,8 +39,8 @@ SourceFiles
 #ifndef autoDensity_H
 #define autoDensity_H
 
-#include "initialPointsMethod.H"
-#include "treeBoundBox.H"
+#include "initialPointsMethod/initialPointsMethod/initialPointsMethod.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

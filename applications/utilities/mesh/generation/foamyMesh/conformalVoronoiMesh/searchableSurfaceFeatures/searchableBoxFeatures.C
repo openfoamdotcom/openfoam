@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableBoxFeatures.H"
-#include "addToRunTimeSelectionTable.H"
-#include "treeBoundBox.H"
+#include "searchableSurfaceFeatures/searchableBoxFeatures.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

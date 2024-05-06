@@ -46,9 +46,9 @@ SourceFiles
 #ifndef compressibleInterPhaseTransportModel_H
 #define compressibleInterPhaseTransportModel_H
 
-#include "twoPhaseMixture.H"
+#include "twoPhaseMixture/twoPhaseMixture.H"
 #include "twoPhaseMixtureThermo.H"
-#include "turbulentFluidThermoModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
 #include "VoFphaseCompressibleTurbulenceModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

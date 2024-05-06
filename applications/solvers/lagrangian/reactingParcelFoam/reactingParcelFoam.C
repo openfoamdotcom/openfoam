@@ -36,21 +36,21 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "turbulentFluidThermoModel.H"
-#include "surfaceFilmModel.H"
-#include "rhoReactionThermo.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "surfaceFilmModel/surfaceFilmModel.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 #include "CombustionModel.H"
-#include "radiationModel.H"
-#include "SLGThermo.H"
-#include "fvOptions.H"
-#include "pimpleControl.H"
-#include "pressureControl.H"
-#include "CorrectPhiPascal.H"
-#include "localEulerDdtScheme.H"
-#include "fvcSmooth.H"
-#include "cloudMacros.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "SLGThermo/SLGThermo.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/pressureControl/pressureControl.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
+#include "include/cloudMacros.H"
 
 #ifndef CLOUD_BASE_TYPE
     #define CLOUD_BASE_TYPE ReactingMultiphase
@@ -72,25 +72,25 @@ int main(int argc, char *argv[])
     );
 
     #define CREATE_MESH createMeshesPostProcess.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "createDyMControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "include/createDyMControls.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
     #include "createRegionControls.H"
-    #include "initContinuityErrs.H"
-    #include "createRhoUfIfPresent.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/compressible/createRhoUfIfPresent.H"
 
     turbulence->validate();
 
     if (!LTS)
     {
-        #include "compressibleCourantNo.H"
-        #include "setInitialDeltaT.H"
+        #include "fluid/compressibleCourantNo.H"
+        #include "cfdTools/general/include/setInitialDeltaT.H"
     }
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -99,7 +99,7 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
+        #include "include/readDyMControls.H"
 
         // Store divrhoU from the previous mesh
         // so that it can be mapped and used in correctPhi
@@ -119,12 +119,12 @@ int main(int argc, char *argv[])
 
         if (LTS)
         {
-            #include "setRDeltaT.H"
+            #include "solvers/multiphase/VoF/setRDeltaT.H"
         }
         else
         {
-            #include "compressibleCourantNo.H"
-            #include "setMultiRegionDeltaT.H"
+            #include "fluid/compressibleCourantNo.H"
+            #include "include/setMultiRegionDeltaT.H"
         }
 
         ++runTime;
@@ -165,7 +165,7 @@ int main(int argc, char *argv[])
 
             if (checkMeshCourantNo)
             {
-                #include "meshCourantNo.H"
+                #include "include/meshCourantNo.H"
             }
         }
 
@@ -176,20 +176,20 @@ int main(int argc, char *argv[])
         {
             if (pimple.nCorrPIMPLE() <= 1)
             {
-                #include "rhoEqn.H"
+                #include "cfdTools/compressible/rhoEqn.H"
             }
 
             // --- PIMPLE loop
             while (pimple.loop())
             {
-                #include "UEqn.H"
-                #include "YEqn.H"
-                #include "EEqn.H"
+                #include "fluid/UEqn.H"
+                #include "fluid/YEqn.H"
+                #include "fluid/EEqn.H"
 
                 // --- Pressure corrector loop
                 while (pimple.correct())
                 {
-                    #include "pEqn.H"
+                    #include "fluid/pEqn.H"
                 }
 
                 if (pimple.turbCorr())

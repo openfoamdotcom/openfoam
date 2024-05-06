@@ -31,11 +31,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fieldTypes.H"
+#include "global/argList/argList.H"
+#include "fields/Fields/fieldTypes.H"
 #include "Function1.H"
-#include "PtrList.H"
-#include "Fstream.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
 
 using namespace Foam;
 
@@ -62,7 +62,7 @@ int main(int argc, char *argv[])
     argList::addArgument("...");
     argList::addArgument("fileN");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const scalar begTime = args.getOrDefault<scalar>("begin", 0);
     const scalar endTime = args.getOrDefault<scalar>("end", 1);

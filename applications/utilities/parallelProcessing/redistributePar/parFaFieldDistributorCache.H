@@ -37,11 +37,11 @@ SourceFiles
 #ifndef Foam_parFaFieldDistributorCache_H
 #define Foam_parFaFieldDistributorCache_H
 
-#include "faMesh.H"
-#include "faMeshDistributor.H"
-#include "areaFieldsFwd.H"
-#include "edgeFieldsFwd.H"
-#include "PtrList.H"
+#include "faMesh/faMesh.H"
+#include "distributed/faMeshDistributor.H"
+#include "fields/areaFields/areaFieldsFwd.H"
+#include "fields/edgeFields/edgeFieldsFwd.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

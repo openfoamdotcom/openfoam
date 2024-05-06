@@ -29,13 +29,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "wordList.H"
-#include "IOstreams.H"
-#include "argList.H"
-#include "ITstream.H"
-#include "ListOps.H"
-#include "stringListOps.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 using namespace Foam;
 

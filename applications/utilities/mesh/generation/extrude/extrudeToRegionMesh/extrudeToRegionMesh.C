@@ -122,28 +122,28 @@ Notes:
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "polyTopoChange.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "mappedWallPolyPatch.H"
-#include "createShellMesh.H"
-#include "syncTools.H"
-#include "cyclicPolyPatch.H"
-#include "wedgePolyPatch.H"
-#include "nonuniformTransformCyclicPolyPatch.H"
-#include "extrudeModel.H"
-#include "globalIndex.H"
-#include "faceSet.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "mappedPatches/mappedPolyPatch/mappedWallPolyPatch.H"
+#include "createShellMesh/createShellMesh.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/nonuniformTransformCyclic/nonuniformTransformCyclicPolyPatch.H"
+#include "extrudeModel/extrudeModel.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "topoSet/topoSets/faceSet.H"
 
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 //#include "ReadFieldsPascal.H"
-#include "fvMeshTools.H"
-#include "OBJstream.H"
-#include "PatchTools.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
+#include "obj/OBJstream.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -1440,17 +1440,17 @@ int main(int argc, char *argv[])
         "Create region mesh by extruding a faceZone or faceSet"
     );
 
-    #include "addRegionOption.H"
-    #include "addOverwriteOption.H"
+    #include "include/addRegionOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::addOption
     (
         "dict", "file", "Alternative extrudeToRegionMeshDict"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     if (mesh.boundaryMesh().checkParallelSync(true))
     {
@@ -1470,7 +1470,7 @@ int main(int argc, char *argv[])
 
     const word dictName("extrudeToRegionMeshDict");
 
-    #include "setSystemMeshDictionaryIO.H"
+    #include "include/setSystemMeshDictionaryIO.H"
 
     IOdictionary dict(dictIO);
 

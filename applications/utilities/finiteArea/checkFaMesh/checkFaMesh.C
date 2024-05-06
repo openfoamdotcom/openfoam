@@ -36,18 +36,18 @@ Original Authors
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "argList.H"
-#include "faMesh.H"
-#include "polyMesh.H"
-#include "areaFaMesh.H"
-#include "edgeFaMesh.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "processorFaPatch.H"
-#include "foamVtkIndPatchWriter.H"
-#include "foamVtkLineWriter.H"
-#include "faMeshTools.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "faMesh/faMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "areaMesh/areaFaMesh.H"
+#include "edgeMesh/edgeFaMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "faMesh/faPatches/constraint/processor/processorFaPatch.H"
+#include "output/vtk/patch/foamVtkIndPatchWriter.H"
+#include "vtk/write/foamVtkLineWriter.H"
+#include "faMesh/faMeshTools/faMeshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,10 +76,10 @@ int main(int argc, char *argv[])
         true  // Advanced option
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedPolyMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedPolyMesh.H"
 
     int geometryOrder(1);
     if (args.readIfPresent("geometryOrder", geometryOrder))

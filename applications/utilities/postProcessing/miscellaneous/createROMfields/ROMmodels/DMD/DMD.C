@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DMD.H"
-#include "readFields.H"
-#include "addToRunTimeSelectionTable.H"
+#include "ROMmodels/DMD/DMD.H"
+#include "readFields/readFields.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 
@@ -44,7 +44,7 @@ namespace ROMmodels
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 // Implementation
-#include "DMDImpl.C"
+#include "ROMmodels/DMD/DMDImpl.C"
 
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //

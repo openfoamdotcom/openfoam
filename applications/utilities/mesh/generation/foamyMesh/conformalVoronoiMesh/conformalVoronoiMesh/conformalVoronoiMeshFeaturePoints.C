@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "conformalVoronoiMesh.H"
-#include "vectorTools.H"
-#include "triangle.H"
-#include "tetrahedron.H"
-#include "Circulator.H"
-#include "DelaunayMeshTools.H"
-#include "OBJstream.H"
+#include "conformalVoronoiMesh/conformalVoronoiMesh.H"
+#include "vectorTools/vectorTools.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "containers/Circulators/Circulator.H"
+#include "DelaunayMeshTools/DelaunayMeshTools.H"
+#include "obj/OBJstream.H"
 
 using namespace Foam::vectorTools;
 

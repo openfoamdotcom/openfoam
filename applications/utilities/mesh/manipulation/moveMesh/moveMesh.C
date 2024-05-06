@@ -35,10 +35,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "motionSolver.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "motionSolvers/motionSolver/motionSolver.H"
 
 using namespace Foam;
 
@@ -65,9 +65,9 @@ int main(int argc, char *argv[])
         "Override endTime (eg, for shorter tests)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     scalar timeVal = 0;
     if (args.readIfPresent("deltaT", timeVal))

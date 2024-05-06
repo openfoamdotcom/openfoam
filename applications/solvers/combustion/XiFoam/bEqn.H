@@ -30,7 +30,7 @@ if (ign.ignited())
     n /= mgb;
 
 
-    #include "StCorr.H"
+    #include "include/StCorr.H"
 
     // Calculate turbulent flame speed flux
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,7 +60,7 @@ if (ign.ignited())
 
     // Add ignition cell contribution to b-equation
     // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    #include "ignite.H"
+    #include "ignition/ignite.H"
 
 
     // Solve for b

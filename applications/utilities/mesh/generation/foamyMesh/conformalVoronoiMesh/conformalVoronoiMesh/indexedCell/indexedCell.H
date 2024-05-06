@@ -50,15 +50,15 @@ SourceFiles
 
 #include "CGAL/Triangulation_3.h"
 #include "CGAL/Delaunay_triangulation_cell_base_with_circumcenter_3.h"
-#include "indexedVertex.H"
-#include "List.H"
-#include "globalIndex.H"
-#include "Pstream.H"
-#include "InfoProxy.H"
-#include "tetCell.H"
-#include "typeInfo.H"
-#include "vectorTools.H"
-#include "indexedCellEnum.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertex.H"
+#include "containers/Lists/List/List.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "meshes/meshShapes/tetCell/tetCell.H"
+#include "db/typeInfo/typeInfo.H"
+#include "vectorTools/vectorTools.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCellEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -270,10 +270,10 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "indexedCellI.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCellI.H"
 
 #ifdef NoRepository
-    #include "indexedCell.C"
+    #include "conformalVoronoiMesh/indexedCell/indexedCell.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -120,8 +120,8 @@ SourceFiles
 #define ROMmodels_DMD_H
 
 #include "ROMmodels/ROMmodel/ROMmodel.H"
-#include "dimensionSet.H"
-#include "complex.H"
+#include "dimensionSet/dimensionSet.H"
+#include "primitives/complex/complex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,14 +32,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "syncTools.H"
-#include "argList.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "Random.H"
-#include "PackedList.H"
-#include "flipOp.H"
-#include "pointList.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/random/Random/Random.H"
+#include "containers/Bits/PackedList/PackedList.H"
+#include "primitives/ops/flipOp.H"
+#include "meshes/primitiveShapes/point/pointList.H"
 
 using namespace Foam;
 
@@ -939,9 +939,9 @@ void testFaceSync(const polyMesh& mesh, Random& rndGen)
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
 
     Random rndGen(5341*(Pstream::myProcNo()+1));

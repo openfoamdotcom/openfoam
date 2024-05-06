@@ -39,8 +39,8 @@ SourceFiles
 #ifndef maxwellSlipUFvPatchVectorField_H
 #define maxwellSlipUFvPatchVectorField_H
 
-#include "partialSlipFvPatchFields.H"
-#include "Switch.H"
+#include "fields/fvPatchFields/derived/partialSlip/partialSlipFvPatchFields.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

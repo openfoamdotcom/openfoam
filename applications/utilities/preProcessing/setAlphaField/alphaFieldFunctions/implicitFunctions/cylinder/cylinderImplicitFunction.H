@@ -40,9 +40,9 @@ SourceFiles
 #ifndef implicitFunction_cylinderImplicitFunction_H
 #define implicitFunction_cylinderImplicitFunction_H
 
-#include "implicitFunction.H"
-#include "point.H"
-#include "tensor.H"
+#include "implicitFunctions/implicitFunction.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

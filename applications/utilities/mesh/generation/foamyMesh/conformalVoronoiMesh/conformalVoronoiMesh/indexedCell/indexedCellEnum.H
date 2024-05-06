@@ -37,8 +37,8 @@ SourceFiles
 #ifndef indexedCellEnum_H
 #define indexedCellEnum_H
 
-#include "contiguous.H"
-#include "Enum.H"
+#include "primitives/traits/contiguous.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

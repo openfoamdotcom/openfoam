@@ -32,13 +32,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "IOstreams.H"
-#include "FlatOutput.H"
-#include "PtrListOps.H"
-#include "objectRegistry.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 using namespace Foam;
 
@@ -156,9 +156,9 @@ int main(int argc, char *argv[])
     );
     argList::addArgument("recursive (true|false)");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     recursive = Switch(args[1]);
 

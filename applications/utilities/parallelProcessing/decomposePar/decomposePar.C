@@ -141,26 +141,26 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "OSspecific.H"
-#include "IOobjectList.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "include/OSspecific.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 #include "decompositionModel.H"
 #include "domainDecomposition.H"
 #include "domainDecompositionDryRun.H"
 
-#include "regionProperties.H"
+#include "regionModel/regionProperties/regionProperties.H"
 
-#include "fieldsDistributor.H"
+#include "parallel/fieldsDistributor/fieldsDistributor.H"
 
 #include "fvFieldDecomposer.H"
-#include "pointFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 #include "pointFieldDecomposer.H"
 
 #include "lagrangianFieldDecomposer.H"
 
-#include "emptyFaPatch.H"
+#include "faMesh/faPatches/constraint/empty/emptyFaPatch.H"
 #include "faFieldDecomposer.H"
 #include "faMeshDecomposition.H"
 
@@ -327,7 +327,7 @@ int main(int argc, char *argv[])
         "Alternative decomposePar dictionary file"
     );
 
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
     argList::addDryRunOption
     (
@@ -412,7 +412,7 @@ int main(int argc, char *argv[])
     // Allow explicit -constant, have zero from time range
     timeSelector::addOptions(true, false);  // constant(true), zero(false)
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool writeCellDist    = args.found("cellDist");
 
@@ -432,7 +432,7 @@ int main(int argc, char *argv[])
 
 
     // Set time from database
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     // Allow override of time (unless dry-run)
     instantList times;
@@ -480,7 +480,7 @@ int main(int argc, char *argv[])
     }
 
     // Get region names
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     const bool optRegions =
         (regionNames.size() != 1 || regionNames[0] != polyMesh::defaultRegion);

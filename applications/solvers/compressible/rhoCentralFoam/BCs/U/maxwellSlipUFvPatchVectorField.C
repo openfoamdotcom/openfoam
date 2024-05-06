@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "maxwellSlipUFvPatchVectorField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "mathematicalConstants.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "fvcGrad.H"
+#include "U/maxwellSlipUFvPatchVectorField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "finiteVolume/fvc/fvcGrad.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

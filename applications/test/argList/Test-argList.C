@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "MinMax.H"
-#include "Switch.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "primitives/bools/Switch/Switch.H"
 
 using namespace Foam;
 
@@ -126,7 +126,7 @@ int main(int argc, char *argv[])
     // Check -verbose before initialisation
     UPstream::debug = argList::verbose(argc, argv);
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     Pout<< "command-line ("
         << args.options().size() << " options, "

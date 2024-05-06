@@ -32,10 +32,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
 
 namespace Foam
 {
@@ -56,8 +56,8 @@ int main(int argc, char *argv[])
     argList::noParallel();
     timeSelector::addOptions();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 
@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
         exportName += '-' + args.globalCaseName();
     }
 
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
 
     forAll(timeDirs, timei)
     {

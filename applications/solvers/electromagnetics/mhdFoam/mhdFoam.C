@@ -53,8 +53,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "pisoControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -67,15 +67,15 @@ int main(int argc, char *argv[])
         " under the influence of a magnetic field."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -85,7 +85,7 @@ int main(int argc, char *argv[])
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
-        #include "CourantNo.H"
+        #include "cfdTools/incompressible/CourantNo.H"
 
         {
             fvVectorMatrix UEqn
@@ -135,7 +135,7 @@ int main(int argc, char *argv[])
                     }
                 }
 
-                #include "continuityErrs.H"
+                #include "cfdTools/incompressible/continuityErrs.H"
 
                 U = HbyA - rAU*fvc::grad(p);
                 U.correctBoundaryConditions();

@@ -31,12 +31,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "triSurface.H"
-#include "triSurfaceMesh.H"
-#include "surfaceIntersection.H"
-#include "OBJstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "triSurface/triSurface.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "obj/OBJstream.H"
 
 using namespace Foam;
 
@@ -132,8 +132,8 @@ int main(int argc, char *argv[])
     argList::addArgument("surface file");
     argList::addArgument("surface file");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const scalar scaleFactor = args.getOrDefault<scalar>("scale", -1);
 

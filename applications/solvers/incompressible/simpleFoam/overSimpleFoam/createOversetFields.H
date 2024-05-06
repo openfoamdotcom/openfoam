@@ -16,9 +16,9 @@
 }
 
 // Mask field for zeroing out contributions on hole cells
-#include "createCellMask.H"
+#include "include/createCellMask.H"
 
-#include "createInterpolatedCells.H"
+#include "include/createInterpolatedCells.H"
 
 bool adjustFringe
 (

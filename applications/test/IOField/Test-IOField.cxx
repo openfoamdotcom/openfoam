@@ -32,12 +32,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOField.H"
-#include "IOList.H"
-#include "primitiveFields.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjects/IOList/IOList.H"
+#include "fields/Fields/primitiveFields.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 using namespace Foam;
 
@@ -188,11 +188,11 @@ int main(int argc, char *argv[])
     argList::addBoolOption("label", "Use label for tests (default)");
     argList::addBoolOption("ref", "Test writing by ref");
 
-    #include "addTimeOptions.H"
+    #include "include/addTimeOptions.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     label sz = 0;
     if (Pstream::myProcNo() % 2)

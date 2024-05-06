@@ -50,12 +50,12 @@ SourceFiles
 // ------------------------------------------------------------------------- //
 
 #include "CGAL/Triangulation_3.h"
-#include "CGALTriangulation3DKernel.H"
-#include "tensor.H"
-#include "triad.H"
-#include "InfoProxy.H"
-#include "point.H"
-#include "indexedVertexEnum.H"
+#include "conformalVoronoiMesh/CGALTriangulation3DKernel.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/triad/triad.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexEnum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -371,10 +371,10 @@ namespace Foam
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "indexedVertexI.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexI.H"
 
 #ifdef NoRepository
-    #include "indexedVertex.C"
+    #include "conformalVoronoiMesh/indexedVertex/indexedVertex.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "general.H"
-#include "addToRunTimeSelectionTable.H"
-#include "Tuple2.H"
-#include "Switch.H"
+#include "general/general.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/bools/Switch/Switch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

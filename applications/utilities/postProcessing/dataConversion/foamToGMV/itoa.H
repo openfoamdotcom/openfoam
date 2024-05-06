@@ -27,8 +27,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "word.H"
-#include "label.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/ints/label/label.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -40,8 +40,8 @@ SourceFiles
 #ifndef implicitFunction_planeImplicitFunction_H
 #define implicitFunction_planeImplicitFunction_H
 
-#include "implicitFunction.H"
-#include "mathematicalConstants.H"
+#include "implicitFunctions/implicitFunction.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

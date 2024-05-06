@@ -32,15 +32,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "quaternion.H"
-#include "septernion.H"
-#include "unitConversion.H"
-#include "Tuple2.H"
-#include "IOstreams.H"
-#include "transform.H"
-#include "axisAngleRotation.H"
-#include "EulerCoordinateRotation.H"
+#include "global/argList/argList.H"
+#include "primitives/quaternion/quaternion.H"
+#include "primitives/septernion/septernion.H"
+#include "global/constants/unitConversion.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/transform/transform.H"
+#include "primitives/coordinate/rotation/axisAngleRotation.H"
+#include "primitives/coordinate/rotation/EulerCoordinateRotation.H"
 
 using namespace Foam;
 using namespace Foam::coordinateRotations;

@@ -40,10 +40,10 @@ Description
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "CGALTriangulation3DKernel.H"
+#include "conformalVoronoiMesh/CGALTriangulation3DKernel.H"
 
-#include "indexedVertex.H"
-#include "indexedCell.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertex.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCell.H"
 
 typedef CGAL::indexedVertex<K>     Vb;
 typedef CGAL::indexedCell<K>       Cb;

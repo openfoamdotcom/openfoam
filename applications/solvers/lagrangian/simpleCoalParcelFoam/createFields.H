@@ -1,4 +1,4 @@
-#include "readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
 
 
 Info<< "Reading thermophysical properties\n" << endl;
@@ -49,7 +49,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 mesh.setFluxRequired(p.name());
 
@@ -97,6 +97,6 @@ volScalarField Qdot
     dimensionedScalar(dimEnergy/dimVolume/dimTime, Zero)
 );
 
-#include "createMRF.H"
-#include "createRadiationModel.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "include/createRadiationModel.H"
 #include "createClouds.H"

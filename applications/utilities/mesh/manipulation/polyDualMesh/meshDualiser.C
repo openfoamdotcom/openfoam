@@ -27,13 +27,13 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "meshDualiser.H"
-#include "meshTools.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "edgeFaceCirculator.H"
-#include "mergePoints.H"
-#include "OFstream.H"
+#include "meshTools/meshTools.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "edgeFaceCirculator/edgeFaceCirculator.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

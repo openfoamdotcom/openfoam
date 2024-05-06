@@ -1,7 +1,7 @@
-#include "vector.H"
-#include "IOstreams.H"
-#include "vectorTools.H"
-#include "unitConversion.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "vectorTools/vectorTools.H"
+#include "global/constants/unitConversion.H"
 
 using namespace Foam;
 

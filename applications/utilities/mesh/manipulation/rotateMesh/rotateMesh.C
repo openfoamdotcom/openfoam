@@ -35,15 +35,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "regionProperties.H"
-#include "transformGeometricField.H"
-#include "IOobjectList.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "fields/GeometricFields/transformGeometricField/transformGeometricField.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 using namespace Foam;
 
@@ -105,8 +105,8 @@ int main(int argc, char *argv[])
     argList::addArgument("from", "The vector to rotate from");
     argList::addArgument("to",   "The vector to rotate to");
 
-    #include "addAllRegionOptions.H"
-    #include "setRootCase.H"
+    #include "include/addAllRegionOptions.H"
+    #include "include/setRootCase.H"
 
     const vector n1(args.get<vector>(1).normalise());
     const vector n2(args.get<vector>(2).normalise());
@@ -115,14 +115,14 @@ int main(int argc, char *argv[])
 
     // ------------------------------------------------------------------------
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     // Handle -allRegions, -regions, -region
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     // ------------------------------------------------------------------------
 
-    #include "createNamedMeshes.H"
+    #include "include/createNamedMeshes.H"
 
     forAll(regionNames, regioni)
     {

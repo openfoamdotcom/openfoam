@@ -1,4 +1,4 @@
-#include "createRDeltaT.H"
+#include "cfdTools/general/include/createRDeltaT.H"
 
 Info<< "Reading thermophysical properties\n" << endl;
 
@@ -38,7 +38,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 pressureControl pressureControl(p, rho, pimple.dict(), false);
 
@@ -56,13 +56,13 @@ autoPtr<compressible::turbulenceModel> turbulence
     )
 );
 
-#include "createDpdt.H"
+#include "cfdTools/compressible/createDpdt.H"
 
-#include "createK.H"
+#include "cfdTools/general/include/createK.H"
 
-#include "createMRF.H"
+#include "cfdTools/general/include/createMRF.H"
 
 const dimensionedScalar rhoMax("rhoMax", dimDensity, GREAT, pimple.dict());
 const dimensionedScalar rhoMin("rhoMin", dimDensity, Zero, pimple.dict());
 
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createFvOptions.H"

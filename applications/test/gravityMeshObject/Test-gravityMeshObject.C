@@ -28,12 +28,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "MeshObject.H"
-#include "gravityMeshObject.H"
-#include "IOobjectList.H"
-#include "IOstreams.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "meshes/MeshObject/MeshObject.H"
+#include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 using namespace Foam;
 
@@ -50,8 +50,8 @@ void printInfo(const meshObjects::gravity& g)
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     IOobjectList objects(runTime, runTime.constant());
 

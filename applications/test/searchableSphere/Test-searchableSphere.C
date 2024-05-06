@@ -31,11 +31,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "searchableSphere.H"
-#include "unitConversion.H"
-#include "Random.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "searchableSurfaces/searchableSphere/searchableSphere.H"
+#include "global/constants/unitConversion.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 using namespace Foam::constant::mathematical;
@@ -193,7 +193,7 @@ int main(int argc, char *argv[])
 {
 
     argList::noBanner();
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // Use dummy Time for objectRegistry
     autoPtr<Time> dummyTimePtr(Time::New());

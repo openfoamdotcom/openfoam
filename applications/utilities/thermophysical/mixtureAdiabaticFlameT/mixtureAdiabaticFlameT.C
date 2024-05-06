@@ -36,17 +36,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "dictionary.H"
-#include "IFstream.H"
-#include "OSspecific.H"
-#include "etcFiles.H"
+#include "global/argList/argList.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "include/OSspecific.H"
+#include "global/etcFiles/etcFiles.H"
 
-#include "specie.H"
-#include "perfectGas.H"
-#include "thermo.H"
-#include "janafThermo.H"
-#include "absoluteEnthalpy.H"
+#include "specie/specie.H"
+#include "equationOfState/perfectGas/perfectGas.H"
+#include "thermo/thermo/thermo.H"
+#include "thermo/janaf/janafThermo.H"
+#include "thermo/absoluteEnthalpy/absoluteEnthalpy.H"
 #include "mixture.H"
 
 using namespace Foam;

@@ -43,9 +43,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "block.H"
-#include "mathematicalConstants.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "blocks/block/block.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam::constant;
 
@@ -81,9 +81,9 @@ int main(int argc, char *argv[])
         "create the block mesh and exit"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
+    #include "include/createTime.H"
     #include "createFields.H"
 
     if (args.found("createBlockMesh"))
@@ -94,7 +94,7 @@ int main(int argc, char *argv[])
         return 0;
     }
 
-    #include "createMesh.H"
+    #include "include/createMesh.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

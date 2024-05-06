@@ -37,11 +37,11 @@ SourceFiles
 #ifndef tabulatedWallFunction_H
 #define tabulatedWallFunction_H
 
-#include "dictionary.H"
-#include "polyMesh.H"
-#include "runTimeSelectionTables.H"
-#include "Switch.H"
-#include "uniformInterpolationTable.H"
+#include "db/dictionary/dictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "interpolations/uniformInterpolationTable/uniformInterpolationTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,7 +140,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "tabulatedWallFunctionI.H"
+#include "tabulatedWallFunction/tabulatedWallFunctionI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

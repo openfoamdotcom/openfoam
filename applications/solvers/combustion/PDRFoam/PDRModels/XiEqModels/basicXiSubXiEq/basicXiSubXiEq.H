@@ -68,7 +68,7 @@ SourceFiles
 #ifndef basicSubGrid_H
 #define basicSubGrid_H
 
-#include "XiEqModel.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

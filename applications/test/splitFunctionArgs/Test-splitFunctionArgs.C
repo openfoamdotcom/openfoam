@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "IFstream.H"
-#include "dictionary.H"
-#include "stringOps.H"
-#include "Tuple2.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "primitives/tuples/Tuple2.H"
 
 using namespace Foam;
 

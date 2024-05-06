@@ -32,9 +32,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "point.H"
-#include "DynamicField.H"
-#include "IOstreams.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

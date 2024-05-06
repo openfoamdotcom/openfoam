@@ -45,19 +45,19 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "timeSelector.H"
-#include "IOdictionary.H"
-#include "polyMesh.H"
-#include "entry.H"
-#include "IOPtrList.H"
-#include "cyclicPolyPatch.H"
-#include "dictionaryEntry.H"
-#include "IOobjectList.H"
-#include "volFields.H"
-#include "pointFields.H"
-#include "surfaceFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/dictionary/entry/entry.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/volFields/volFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 using namespace Foam;
 
@@ -389,10 +389,10 @@ int main(int argc, char *argv[])
         "enableFunctionEntries",
         "Enable expansion of dictionary directives - #include, #codeStream etc"
     );
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
 
     // Make sure we do not use the master-only reading since we read
@@ -412,7 +412,7 @@ int main(int argc, char *argv[])
     fileName regionPrefix;
     {
         // Specified region or default region
-        #include "getRegionOption.H"
+        #include "include/getRegionOption.H"
 
         regionPrefix = polyMesh::regionName(regionName);
     }

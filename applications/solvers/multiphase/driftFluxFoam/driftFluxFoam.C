@@ -38,17 +38,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "CMULES.H"
-#include "subCycle.H"
-#include "incompressibleTwoPhaseInteractingMixture.H"
-#include "relativeVelocityModel.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "algorithms/subCycle/subCycle.H"
+#include "incompressibleTwoPhaseInteractingMixture/incompressibleTwoPhaseInteractingMixture.H"
+#include "relativeVelocityModel/relativeVelocityModel.H"
 #include "turbulenceModel.H"
 #include "CompressibleTurbulenceModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "gaussLaplacianScheme.H"
-#include "uncorrectedSnGrad.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "finiteVolume/laplacianSchemes/gaussLaplacianScheme/gaussLaplacianScheme.H"
+#include "finiteVolume/snGradSchemes/uncorrectedSnGrad/uncorrectedSnGrad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -62,16 +62,16 @@ int main(int argc, char *argv[])
         " similar separation problems."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
-    #include "createTimeControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "cfdTools/general/include/createTimeControls.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     volScalarField& alpha2(mixture.alpha2());
     const dimensionedScalar& rho1 = mixture.rhod();
@@ -86,9 +86,9 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
-        #include "CourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -97,20 +97,20 @@ int main(int argc, char *argv[])
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "alphaControls.H"
+            #include "cfdTools/general/include/alphaControls.H"
 
             UdmModel.correct();
 
-            #include "alphaEqnSubCycle.H"
+            #include "solvers/multiphase/VoF/alphaEqnSubCycle.H"
 
             mixture.correct();
 
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

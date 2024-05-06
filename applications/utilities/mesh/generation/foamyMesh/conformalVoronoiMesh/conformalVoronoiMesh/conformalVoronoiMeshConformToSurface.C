@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "conformalVoronoiMesh.H"
-#include "backgroundMeshDecomposition.H"
-#include "vectorTools.H"
-#include "indexedCellChecks.H"
-#include "IOmanip.H"
-#include "OBJstream.H"
+#include "conformalVoronoiMesh/conformalVoronoiMesh.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "vectorTools/vectorTools.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCellChecks.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "obj/OBJstream.H"
 
 using namespace Foam::vectorTools;
 

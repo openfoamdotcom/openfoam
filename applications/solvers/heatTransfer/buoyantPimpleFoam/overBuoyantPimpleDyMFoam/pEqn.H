@@ -75,8 +75,8 @@ while (pimple.correctNonOrthogonal())
 
 p = p_rgh + rho*gh;
 
-#include "rhoEqn.H"
-#include "compressibleContinuityErrs.H"
+#include "cfdTools/compressible/rhoEqn.H"
+#include "cfdTools/compressible/compressibleContinuityErrs.H"
 
 if (p_rgh.needReference())
 {

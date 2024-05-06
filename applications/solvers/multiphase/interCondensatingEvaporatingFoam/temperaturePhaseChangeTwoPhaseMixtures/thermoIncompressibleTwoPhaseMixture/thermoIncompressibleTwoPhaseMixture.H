@@ -37,7 +37,7 @@ SourceFiles
 #ifndef thermoIncompressibleTwoPhaseMixture_H
 #define thermoIncompressibleTwoPhaseMixture_H
 
-#include "incompressibleTwoPhaseMixture.H"
+#include "incompressibleTwoPhaseMixture/incompressibleTwoPhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

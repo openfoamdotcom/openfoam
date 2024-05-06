@@ -51,8 +51,8 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 #include "ensightMeshReader.H"
 
 using namespace Foam;

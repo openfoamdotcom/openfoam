@@ -36,7 +36,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 pressureControl pressureControl(p, rho, simple.dict());
 
@@ -56,7 +56,7 @@ autoPtr<compressible::turbulenceModel> turbulence
 
 dimensionedScalar initialMass = fvc::domainIntegrate(rho);
 
-#include "createMRF.H"
+#include "cfdTools/general/include/createMRF.H"
 
 //- Overset specific
 
@@ -76,7 +76,7 @@ dimensionedScalar initialMass = fvc::domainIntegrate(rho);
 }
 
 // Mask field for zeroing out contributions on hole cells
-#include "createCellMask.H"
+#include "include/createCellMask.H"
 
-#include "createInterpolatedCells.H"
+#include "include/createInterpolatedCells.H"
 

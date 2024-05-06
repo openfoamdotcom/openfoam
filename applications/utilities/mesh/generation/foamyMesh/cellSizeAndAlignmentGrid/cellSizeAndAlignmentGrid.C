@@ -31,26 +31,26 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "CGALTriangulation3DKernel.H"
+#include "conformalVoronoiMesh/CGALTriangulation3DKernel.H"
 
-#include "indexedVertex.H"
-#include "indexedCell.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertex.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCell.H"
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "DistributedDelaunayMesh.H"
-#include "backgroundMeshDecomposition.H"
-#include "searchableSurfaces.H"
-#include "conformationSurfaces.H"
-#include "PrintTable.H"
-#include "Random.H"
-#include "boundBox.H"
-#include "point.H"
-#include "cellShapeControlMesh.H"
-#include "triadField.H"
-#include "scalarIOField.H"
-#include "pointIOField.H"
-#include "triadIOField.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "DelaunayMesh/DistributedDelaunayMesh.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "PrintTable/PrintTable.H"
+#include "primitives/random/Random/Random.H"
+#include "meshes/boundBox/boundBox.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "cellShapeControl/cellShapeControlMesh/cellShapeControlMesh.H"
+#include "fields/Fields/triadField/triadField.H"
+#include "fields/Fields/scalarField/scalarIOField.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "fields/Fields/triadField/triadIOField.H"
 
 using namespace Foam;
 
@@ -266,8 +266,8 @@ void refine
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -64,7 +64,7 @@ SourceFiles
 #ifndef Foam_mydebugSurfaceWriter_H
 #define Foam_mydebugSurfaceWriter_H
 
-#include "surfaceWriter.H"
+#include "writers/common/surfaceWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

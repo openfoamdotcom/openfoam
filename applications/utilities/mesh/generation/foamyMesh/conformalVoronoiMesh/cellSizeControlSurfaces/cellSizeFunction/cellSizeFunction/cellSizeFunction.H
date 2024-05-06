@@ -37,13 +37,13 @@ SourceFiles
 #ifndef cellSizeFunction_H
 #define cellSizeFunction_H
 
-#include "point.H"
-#include "conformalVoronoiMesh.H"
-#include "searchableSurface.H"
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "surfaceCellSizeFunction.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "conformalVoronoiMesh/conformalVoronoiMesh.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/surfaceCellSizeFunction/surfaceCellSizeFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -27,10 +27,10 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "solverTemplate.H"
-#include "TimeOpenFOAM.H"
-#include "IOPtrList.H"
-#include "polyMesh.H"
-#include "regionProperties.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "regionModel/regionProperties/regionProperties.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

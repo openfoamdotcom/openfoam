@@ -37,7 +37,7 @@ SourceFiles
 #define PolyhedronReader_H
 
 #include "CGALIndexedPolyhedron.H"
-#include "triSurface.H"
+#include "triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

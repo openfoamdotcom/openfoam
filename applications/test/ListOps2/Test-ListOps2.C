@@ -30,14 +30,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "List.H"
-#include "FixedList.H"
-#include "DynamicList.H"
-#include "SubList.H"
-#include "ListOps.H"
-#include "FlatOutput.H"
-#include "UPtrList.H"
+#include "global/argList/argList.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/Lists/List/SubList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "containers/PtrLists/UPtrList/UPtrList.H"
 
 using namespace Foam;
 

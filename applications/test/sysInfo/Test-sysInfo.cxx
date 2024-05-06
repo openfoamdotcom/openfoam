@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "profilingSysInfo.H"
-#include "IOstreams.H"
-#include "foamEndian.H"  // For run-time tests
-#include "cpuInfo.H"
+#include "global/profiling/profilingSysInfo.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/endian/foamEndian.H"  // For run-time tests
+#include "cpuInfo/cpuInfo.H"
 
 using namespace Foam;
 

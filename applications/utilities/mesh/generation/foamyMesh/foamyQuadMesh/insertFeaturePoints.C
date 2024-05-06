@@ -26,8 +26,8 @@ License
 \*----------------------------------------------------------------------------*/
 
 #include "CV2D.H"
-#include "plane.H"
-#include "unitConversion.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "global/constants/unitConversion.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

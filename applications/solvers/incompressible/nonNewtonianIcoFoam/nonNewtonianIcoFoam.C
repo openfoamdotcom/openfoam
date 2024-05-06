@@ -34,9 +34,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
-#include "pisoControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -48,15 +48,15 @@ int main(int argc, char *argv[])
         " of non-Newtonian fluids."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMeshNoClear.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMeshNoClear.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
-        #include "CourantNo.H"
+        #include "cfdTools/incompressible/CourantNo.H"
 
         fluid.correct();
 
@@ -122,7 +122,7 @@ int main(int argc, char *argv[])
                 }
             }
 
-            #include "continuityErrs.H"
+            #include "cfdTools/incompressible/continuityErrs.H"
 
             U = HbyA - rAU*fvc::grad(p);
             U.correctBoundaryConditions();

@@ -39,8 +39,8 @@ SourceFiles
 #ifndef implicitFunction_sinImplicitFunction_H
 #define implicitFunction_sinImplicitFunction_H
 
-#include "implicitFunction.H"
-#include "mathematicalConstants.H"
+#include "implicitFunctions/implicitFunction.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,9 +29,9 @@ License
 #ifndef MapConsistentVolFields_H
 #define MapConsistentVolFields_H
 
-#include "GeometricField.H"
-#include "meshToMesh.H"
-#include "IOobjectList.H"
+#include "fields/GeometricFields/GeometricField/GeometricField.H"
+#include "meshToMesh/meshToMesh.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

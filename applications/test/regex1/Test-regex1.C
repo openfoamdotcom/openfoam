@@ -28,17 +28,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "IFstream.H"
-#include "Switch.H"
+#include "global/argList/argList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "primitives/bools/Switch/Switch.H"
 
-#include "stringOps.H"
-#include "SubStrings.H"
-#include "regExpCxx.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "primitives/strings/lists/SubStrings.H"
+#include "primitives/strings/regex/regExpCxx.H"
 #ifndef _WIN32
-#include "regExpPosix.H"
+#include "regExp/regExpPosix.H"
 #endif
 
 using namespace Foam;
@@ -315,7 +315,7 @@ int main(int argc, char *argv[])
     argList::addArgument("fileN");
     argList::noMandatoryArgs();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // Newer compilers support regex directly
     #ifdef _GLIBCXX_RELEASE

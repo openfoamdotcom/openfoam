@@ -51,15 +51,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "IFstream.H"
-#include "cellModel.H"
-#include "repatchPolyTopoChanger.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "List.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "containers/Lists/List/List.H"
 
 using namespace Foam;
 
@@ -1312,13 +1312,13 @@ int main(int argc, char *argv[])
         "Retain raw orientation for prisms/hexs"
     );
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Specified region or default region
-    #include "getRegionOption.H"
+    #include "include/getRegionOption.H"
 
     if (!polyMesh::regionName(regionName).empty())
     {

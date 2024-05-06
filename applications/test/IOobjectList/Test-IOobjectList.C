@@ -28,14 +28,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
-#include "timeSelector.H"
-#include "IOobjectList.H"
-#include "hashedWordList.H"
-#include "labelIOList.H"
-#include "scalarIOList.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "primitives/strings/lists/hashedWordList.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "primitives/Scalar/lists/scalarIOList.H"
 
 using namespace Foam;
 
@@ -247,8 +247,8 @@ int main(int argc, char *argv[])
     // timeSelector::addOptions();
     timeSelector::addOptions(true, true);
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     wordRes matcher;
     if (args.readListIfPresent<wordRe>("filter", matcher))

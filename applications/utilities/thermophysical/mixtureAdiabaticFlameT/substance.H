@@ -38,9 +38,9 @@ SourceFiles
 #ifndef substance_H
 #define substance_H
 
-#include "scalar.H"
-#include "word.H"
-#include "Istream.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/strings/word/word.H"
+#include "db/IOstreams/IOstreams/Istream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

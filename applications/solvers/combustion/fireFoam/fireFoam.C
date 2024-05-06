@@ -35,18 +35,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "turbulentFluidThermoModel.H"
-#include "basicReactingCloud.H"
-#include "surfaceFilmModel.H"
-#include "pyrolysisModelCollection.H"
-#include "radiationModel.H"
-#include "SLGThermo.H"
-#include "solidChemistryModel.H"
-#include "psiReactionThermo.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "clouds/derived/basicReactingCloud/basicReactingCloud.H"
+#include "surfaceFilmModel/surfaceFilmModel.H"
+#include "pyrolysisModel/pyrolysisModelCollection.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "SLGThermo/SLGThermo.H"
+#include "solidChemistryModel/solidChemistryModel.H"
+#include "psiReactionThermo/psiReactionThermo.H"
 #include "CombustionModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -58,19 +58,19 @@ int main(int argc, char *argv[])
         " with reacting particle clouds, surface film and pyrolysis modelling."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "initContinuityErrs.H"
-    #include "createTimeControls.H"
-    #include "compressibleCourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/general/include/createTimeControls.H"
+    #include "fluid/compressibleCourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
     #include "createRegionControls.H"
 
     turbulence->validate();
@@ -81,11 +81,11 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
-        #include "compressibleCourantNo.H"
-        #include "solidRegionDiffusionNo.H"
-        #include "setMultiRegionDeltaT.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "fluid/compressibleCourantNo.H"
+        #include "solid/solidRegionDiffusionNo.H"
+        #include "include/setMultiRegionDeltaT.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -102,18 +102,18 @@ int main(int argc, char *argv[])
 
         if (solvePrimaryRegion)
         {
-            #include "rhoEqn.H"
+            #include "cfdTools/compressible/rhoEqn.H"
 
             // --- PIMPLE loop
             while (pimple.loop())
             {
-                #include "UEqn.H"
+                #include "fluid/UEqn.H"
                 #include "YEEqn.H"
 
                 // --- Pressure corrector loop
                 while (pimple.correct())
                 {
-                    #include "pEqn.H"
+                    #include "fluid/pEqn.H"
                 }
 
                 if (pimple.turbCorr())

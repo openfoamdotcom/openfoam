@@ -38,8 +38,8 @@ SourceFiles
 #ifndef PDRlegacy_H
 #define PDRlegacy_H
 
-#include "PDRblock.H"
-#include "fileName.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "primitives/strings/fileName/fileName.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,9 +37,9 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "surfaceWriter.H"
-#include "MeshedSurfaces.H"
+#include "global/argList/argList.H"
+#include "writers/common/surfaceWriter.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 using namespace Foam;
 
@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
     argList::addArgument("inputFile");
     argList::addArgument("outputFile");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const auto importName = args.get<fileName>(1);
     const auto exportName = args.get<fileName>(2);

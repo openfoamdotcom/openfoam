@@ -32,11 +32,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "MatrixTools.H"
-#include "QRMatrix.H"
-#include "complex.H"
-#include "IOmanip.H"
-#include "TestTools.H"
+#include "matrices/Matrix/MatrixTools.H"
+#include "matrices/QRMatrix/QRMatrix.H"
+#include "primitives/complex/complex.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "test/TestTools/TestTools.H"
 
 #define PRINTALL false
 

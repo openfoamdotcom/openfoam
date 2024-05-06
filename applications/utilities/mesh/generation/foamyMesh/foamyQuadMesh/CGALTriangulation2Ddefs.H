@@ -45,7 +45,7 @@ Description
 
 #include "CGALTriangulation2DKernel.H"
 
-#include "indexedVertex.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertex.H"
 #include "indexedFace.H"
 
 typedef CGAL::indexedVertex<K>                           Vb;

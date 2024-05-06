@@ -34,14 +34,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "rhoThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "LESModel.H"
-#include "radiationModel.H"
-#include "fvOptions.H"
-#include "simpleControl.H"
-#include "pimpleControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "rhoThermo/rhoThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "LES/LESModel/LESModel.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -53,12 +53,12 @@ int main(int argc, char *argv[])
     );
 
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
 
             while (simple.correctNonOrthogonal())
             {
-                #include "EEqn.H"
+                #include "fluid/EEqn.H"
             }
 
             runTime.write();
@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
 
             while (pimple.correctNonOrthogonal())
             {
-                #include "EEqn.H"
+                #include "fluid/EEqn.H"
             }
 
             runTime.write();

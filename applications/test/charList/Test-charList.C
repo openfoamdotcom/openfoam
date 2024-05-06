@@ -31,17 +31,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "argList.H"
-#include "IOstreams.H"
-#include "messageStream.H"
+#include "include/OSspecific.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/error/messageStream.H"
 
-#include "charList.H"
-#include "labelList.H"
-#include "SpanStream.H"
-#include "ListOps.H"
-#include "SubList.H"
-#include "FlatOutput.H"
+#include "primitives/chars/lists/charList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/Lists/List/SubList.H"
+#include "db/IOstreams/output/FlatOutput.H"
 
 #include <numeric>
 
@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::noFunctionObjects();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // Info<< "Known compound tokens: "
     //     << token::compound::emptyConstructorTablePtr_->sortedToc() << nl;

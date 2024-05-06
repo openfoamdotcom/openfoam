@@ -49,10 +49,10 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "FIREMeshReader.H"
-#include "checkFireEdges.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fire/FIREMeshReader.H"
+#include "fire/checkFireEdges.H"
 
 using namespace Foam;
 

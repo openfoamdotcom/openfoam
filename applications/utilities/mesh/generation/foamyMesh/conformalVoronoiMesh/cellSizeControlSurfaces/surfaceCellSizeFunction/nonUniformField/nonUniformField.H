@@ -37,10 +37,10 @@ SourceFiles
 #ifndef nonUniformField_H
 #define nonUniformField_H
 
-#include "triSurfaceFields.H"
-#include "primitivePatchInterpolation.H"
-#include "surfaceCellSizeFunction.H"
-#include "cellSizeCalculationType.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "interpolations/primitivePatchInterpolation/primitivePatchInterpolation.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/surfaceCellSizeFunction/surfaceCellSizeFunction.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/cellSizeCalculationType/cellSizeCalculationType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -34,7 +34,7 @@ Description
 #include <ctime>
 #include <random>
 
-#include "linearEqn.H"
+#include "primitives/polynomialEqns/linearEqn/linearEqn.H"
 
 using namespace Foam;
 

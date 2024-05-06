@@ -26,8 +26,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "extractFromFile.H"
-#include "edgeMesh.H"
-#include "addToRunTimeSelectionTable.H"
+#include "edgeMesh/edgeMesh.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

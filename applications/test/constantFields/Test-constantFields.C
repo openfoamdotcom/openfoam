@@ -31,15 +31,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "geometricOneField.H"
-#include "geometricZeroField.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fields/GeometricFields/geometricOneField/geometricOneField.H"
+#include "fields/GeometricFields/geometricZeroField/geometricZeroField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     {
         geometricZeroField fld0;

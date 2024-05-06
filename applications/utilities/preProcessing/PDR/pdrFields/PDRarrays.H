@@ -39,10 +39,10 @@ SourceFiles
 #ifndef PDRarrays_H
 #define PDRarrays_H
 
-#include "symmTensor.H"
-#include "symmTensor2D.H"
-#include "SquareMatrix.H"
-#include "IjkField.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/SymmTensor2D/symmTensor2D/symmTensor2D.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "meshes/ijkMesh/IjkField.H"
 #include <functional>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

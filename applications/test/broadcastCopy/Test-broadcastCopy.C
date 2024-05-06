@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OSspecific.H"
-#include "fileOperation.H"
-#include "Pstream.H"
-#include "Switch.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "primitives/bools/Switch/Switch.H"
 
 using namespace Foam;
 
@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
     argList::addBoolOption("even", "Broadcast to even directories only");
     argList::addBoolOption("relative", "Copy relative to output dir");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const auto srcFile = args.get<fileName>(1);
 

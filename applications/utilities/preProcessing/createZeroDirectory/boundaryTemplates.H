@@ -38,7 +38,7 @@ Description
 #ifndef boundaryTemplates_H
 #define boundaryTemplates_H
 
-#include "dictionary.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef rayShooting_H
 #define rayShooting_H
 
-#include "initialPointsMethod.H"
+#include "initialPointsMethod/initialPointsMethod/initialPointsMethod.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

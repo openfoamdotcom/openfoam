@@ -34,14 +34,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "clockTime.H"
-#include "primitiveFields.H"
-#include "surfaceReader.H"
-#include "surfaceWriter.H"
-#include "foamVtkSurfaceWriter.H"
-#include "MappedFileFilterField.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/clockTime/clockTime.H"
+#include "fields/Fields/primitiveFields.H"
+#include "readers/common/surfaceReader.H"
+#include "writers/common/surfaceWriter.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "PatchFunction1/MappedFile/MappedFileFilterField.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

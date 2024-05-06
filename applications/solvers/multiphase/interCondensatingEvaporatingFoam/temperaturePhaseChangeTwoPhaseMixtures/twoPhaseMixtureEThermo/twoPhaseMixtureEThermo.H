@@ -36,10 +36,10 @@ SourceFiles
 #ifndef twoPhaseMixtureEThermo_H
 #define twoPhaseMixtureEThermo_H
 
-#include "volFields.H"
+#include "fields/volFields/volFields.H"
 
-#include "basicThermo.H"
-#include "thermoIncompressibleTwoPhaseMixture.H"
+#include "basicThermo/basicThermo.H"
+#include "thermoIncompressibleTwoPhaseMixture/thermoIncompressibleTwoPhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,14 +32,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndex.H"
-#include "globalMeshData.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "IndirectList.H"
-#include "IOstreams.H"
-#include "Random.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 
@@ -48,9 +48,9 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     // Global numbering of cells (proc0 elements first, then proc1, etc.)
     const globalIndex globalNumbering(mesh.nCells());

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceModifier.H"
-#include "triSurface.H"
+#include "searchableSurfaceModifier/searchableSurfaceModifier.H"
+#include "triSurface/triSurface.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

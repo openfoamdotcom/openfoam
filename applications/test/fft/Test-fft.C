@@ -18,9 +18,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fft.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fft/fft.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -41,7 +41,7 @@ int main(int argc, char *argv[])
 {
     argList::noParallel();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // Simple ones - http://www.sccon.ca/sccon/fft/fft3.htm
     {

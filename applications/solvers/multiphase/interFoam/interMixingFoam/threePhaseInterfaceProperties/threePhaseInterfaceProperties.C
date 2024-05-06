@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "threePhaseInterfaceProperties.H"
-#include "alphaContactAngleTwoPhaseFvPatchScalarField.H"
-#include "mathematicalConstants.H"
-#include "surfaceInterpolate.H"
-#include "fvcDiv.H"
-#include "fvcGrad.H"
-#include "fvcSnGrad.H"
-#include "unitConversion.H"
+#include "threePhaseInterfaceProperties/threePhaseInterfaceProperties.H"
+#include "alphaContactAngle/alphaContactAngleTwoPhaseFvPatchScalarField.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
+#include "finiteVolume/fvc/fvcDiv.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "finiteVolume/fvc/fvcSnGrad.H"
+#include "global/constants/unitConversion.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

@@ -18,9 +18,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "refPtr.H"
-#include "fstreamPointer.H"
+#include "global/argList/argList.H"
+#include "memory/refPtr/refPtr.H"
+#include "db/IOstreams/Fstreams/fstreamPointer.H"
 
 using namespace Foam;
 
@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 
     argList::noMandatoryArgs();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (args.size() <= 1)
     {

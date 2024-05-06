@@ -35,12 +35,12 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "FixedList.H"
-#include "Fstream.H"
-#include "List.H"
-#include "IPstream.H"
-#include "OPstream.H"
+#include "global/argList/argList.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "containers/Lists/List/List.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
 #include <numeric>
 
 using namespace Foam;
@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
     argList::addBoolOption("no-wait", "test with skipping request waits");
     argList::addNote("runs default tests or specified ones only");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool optNowaiting = args.found("no-wait");
 

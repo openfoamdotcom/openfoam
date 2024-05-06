@@ -38,17 +38,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
-#include "cellCellStencilObject.H"
-#include "localMin.H"
-#include "oversetAdjustPhi.H"
-#include "oversetPatchPhiErr.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
+#include "oversetAdjustPhi/oversetAdjustPhi.H"
+#include "oversetPatchPhiErr/oversetPatchPhiErr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -60,21 +60,21 @@ int main(int argc, char *argv[])
         " on a moving mesh."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "createDyMControls.H"
-    #include "initContinuityErrs.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "include/createDyMControls.H"
+    #include "fluid/initContinuityErrs.H"
 
     #include "createFields.H"
-    #include "createUf.H"
-    #include "createMRF.H"
-    #include "createFvOptions.H"
-    #include "createControls.H"
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/incompressible/createUf.H"
+    #include "cfdTools/general/include/createMRF.H"
+    #include "cfdTools/general/include/createFvOptions.H"
+    #include "include/createControls.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     turbulence->validate();
 
@@ -84,12 +84,12 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
-        #include "readOversetDyMControls.H"
+        #include "include/readDyMControls.H"
+        #include "include/readOversetDyMControls.H"
 
-        #include "CourantNo.H"
+        #include "cfdTools/incompressible/CourantNo.H"
 
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -99,27 +99,27 @@ int main(int argc, char *argv[])
 
         if (mesh.changing())
         {
-            #include "setCellMask.H"
-            #include "setInterpolatedCells.H"
-            #include "correctPhiFaceMask.H"
+            #include "include/setCellMask.H"
+            #include "include/setInterpolatedCells.H"
+            #include "include/correctPhiFaceMask.H"
 
             fvc::makeRelative(phi, U);
 
             if (checkMeshCourantNo)
             {
-                #include "meshCourantNo.H"
+                #include "include/meshCourantNo.H"
             }
         }
 
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

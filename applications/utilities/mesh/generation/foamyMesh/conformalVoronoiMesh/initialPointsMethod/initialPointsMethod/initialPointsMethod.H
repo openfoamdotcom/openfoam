@@ -37,13 +37,13 @@ SourceFiles
 #ifndef initialPointsMethod_H
 #define initialPointsMethod_H
 
-#include "point.H"
-#include "conformalVoronoiMesh.H"
-#include "backgroundMeshDecomposition.H"
-#include "dictionary.H"
-#include "Random.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "conformalVoronoiMesh/conformalVoronoiMesh.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/random/Random/Random.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "backgroundMeshDecomposition.H"
-#include "pointConversion.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "conformalVoronoiMesh/pointConversion.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

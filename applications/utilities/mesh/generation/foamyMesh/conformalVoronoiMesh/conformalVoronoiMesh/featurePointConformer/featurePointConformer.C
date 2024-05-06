@@ -26,16 +26,16 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "featurePointConformer.H"
-#include "cvControls.H"
-#include "conformationSurfaces.H"
-#include "conformalVoronoiMesh.H"
-#include "cellShapeControl.H"
-#include "DelaunayMeshTools.H"
-#include "Circulator.H"
-#include "backgroundMeshDecomposition.H"
-#include "autoPtr.H"
-#include "mapDistribute.H"
+#include "conformalVoronoiMesh/featurePointConformer/featurePointConformer.H"
+#include "cvControls/cvControls.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "conformalVoronoiMesh/conformalVoronoiMesh.H"
+#include "cellShapeControl/cellShapeControl/cellShapeControl.H"
+#include "DelaunayMeshTools/DelaunayMeshTools.H"
+#include "containers/Circulators/Circulator.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -43,8 +43,8 @@ Description
    ------ local definitions
  \* ------------------------------------------------------------------------- */
 
-#include "scalarList.H"
-#include "StringStream.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 // For EOF only
 #include <cstdio>
@@ -54,12 +54,12 @@ Description
 
 using namespace Foam;
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "emptyPolyPatch.H"
-#include "preservePatchTypes.H"
-#include "cellShape.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
 
 label nPoints = 0;
 label nCells = 0;
@@ -623,7 +623,7 @@ mtype                 {space}"MTYPE:"{space}
 %%
 
 
-#include "fileName.H"
+#include "primitives/strings/fileName/fileName.H"
 #include <fstream>
 
 int main(int argc, char *argv[])
@@ -651,7 +651,7 @@ int main(int argc, char *argv[])
 
     const scalar scaleFactor = args.getOrDefault<scalar>("scale", 1);
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const auto gambitFile = args.get<fileName>(1);
     std::ifstream gambitStream(gambitFile);

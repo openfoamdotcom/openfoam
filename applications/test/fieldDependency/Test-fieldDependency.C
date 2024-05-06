@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
-#include "fvCFD.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
+#include "cfdTools/general/include/fvCFD.H"
 
 using namespace Foam;
 
@@ -41,9 +41,9 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     Info<< "Creating field T\n" << endl;
     volScalarField T

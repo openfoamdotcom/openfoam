@@ -37,9 +37,9 @@ SourceFiles
 #ifndef cellSizeCalculationType_H
 #define cellSizeCalculationType_H
 
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
-#include "triSurfaceFields.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "triSurface/fields/triSurfaceFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

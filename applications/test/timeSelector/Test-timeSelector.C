@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "TimeOpenFOAM.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
 
 using namespace Foam;
 
@@ -68,8 +68,8 @@ int main(int argc, char *argv[])
 
     argList::addOption("relative", "PATH", "Test relativePath");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     Pout<< "Time" << nl
         << "rootPath:   " << runTime.rootPath() << nl

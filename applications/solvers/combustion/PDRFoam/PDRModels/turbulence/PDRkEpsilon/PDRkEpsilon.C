@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRkEpsilon.H"
-#include "PDRDragModel.H"
-#include "addToRunTimeSelectionTable.H"
+#include "PDRModels/turbulence/PDRkEpsilon/PDRkEpsilon.H"
+#include "PDRModels/dragModels/PDRDragModel/PDRDragModel.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

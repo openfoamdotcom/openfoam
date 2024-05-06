@@ -44,20 +44,20 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "polyAddFace.H"
-#include "ReadFieldsPascal.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "fvMeshMapper.H"
-#include "faceSelection.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fvMesh/fvMeshMapper/fvMeshMapper.H"
+#include "faceSelection/faceSelection.H"
 
-#include "fvMeshTools.H"
-#include "topoSet.H"
-#include "processorPolyPatch.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
+#include "topoSet/topoSets/topoSet.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -441,14 +441,14 @@ int main(int argc, char *argv[])
     );
 
     argList::addOption("dict", "file", "Alternative createBafflesDict");
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
 
     const bool overwrite = args.found("overwrite");
@@ -456,7 +456,7 @@ int main(int argc, char *argv[])
     const word oldInstance = mesh.pointsInstance();
 
     const word dictName("createBafflesDict");
-    #include "setSystemMeshDictionaryIO.H"
+    #include "include/setSystemMeshDictionaryIO.H"
 
     bool internalFacesOnly(false);
 

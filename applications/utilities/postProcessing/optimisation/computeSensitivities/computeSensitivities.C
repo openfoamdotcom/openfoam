@@ -33,22 +33,22 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "optimisationManager.H"
-#include "primalSolver.H"
-#include "adjointSolver.H"
-#include "incompressibleVars.H"
-#include "incompressibleAdjointVars.H"
-#include "adjointBoundaryCondition.H"
-#include "adjointSolverManager.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "optimisation/optimisationManager/optimisationManager/optimisationManager.H"
+#include "solvers/primalSolvers/primalSolver/primalSolver.H"
+#include "solvers/adjointSolvers/adjointSolver/adjointSolver.H"
+#include "solvers/variablesSet/incompressible/incompressibleVars.H"
+#include "solvers/variablesSet/incompressibleAdjoint/incompressibleAdjointVars.H"
+#include "adjointBoundaryConditions/adjointBoundaryCondition/adjointBoundaryCondition.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

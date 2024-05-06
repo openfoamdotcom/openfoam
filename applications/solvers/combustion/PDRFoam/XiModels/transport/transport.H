@@ -40,9 +40,9 @@ SourceFiles
 #ifndef transport_H
 #define transport_H
 
-#include "XiModel.H"
-#include "XiEqModel.H"
-#include "XiGModel.H"
+#include "XiModels/XiModel/XiModel.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
+#include "XiModels/XiGModels/XiGModel/XiGModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

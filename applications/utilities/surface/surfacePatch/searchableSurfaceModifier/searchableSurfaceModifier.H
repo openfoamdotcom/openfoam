@@ -38,11 +38,11 @@ SourceFiles
 #ifndef searchableSurfaceModifier_H
 #define searchableSurfaceModifier_H
 
-#include "dictionary.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "labelList.H"
+#include "db/dictionary/dictionary.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/ints/lists/labelList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

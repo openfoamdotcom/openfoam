@@ -19,9 +19,9 @@ Description
 #ifndef FoamToVTK_writeVolFields_H
 #define FoamToVTK_writeVolFields_H
 
-#include "readFields.H"
-#include "foamVtkInternalWriter.H"
-#include "foamVtkPatchWriter.H"
+#include "readFields/readFields.H"
+#include "vtk/output/foamVtkInternalWriter.H"
+#include "vtk/output/foamVtkPatchWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

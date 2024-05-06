@@ -28,15 +28,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "DynamicList.H"
-#include "DynamicField.H"
-#include "IOstreams.H"
-#include "ITstream.H"
-#include "OTstream.H"
-#include "FlatOutput.H"
-#include "ListOps.H"
-#include "labelRange.H"
-#include "labelIndList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/Tstreams/OTstream.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "primitives/ints/lists/labelIndList.H"
 
 using namespace Foam;
 

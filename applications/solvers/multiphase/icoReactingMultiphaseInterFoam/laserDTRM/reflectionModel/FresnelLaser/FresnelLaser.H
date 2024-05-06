@@ -43,7 +43,7 @@ SourceFiles
 #ifndef radiation_FresnelLaser_H
 #define radiation_FresnelLaser_H
 
-#include "reflectionModel.H"
+#include "reflectionModel/reflectionModel/reflectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

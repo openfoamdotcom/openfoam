@@ -34,16 +34,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "NURBS3DVolume.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "parameterization/NURBS/NURBS3DVolume/NURBS3DVolume/NURBS3DVolume.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     const dictionary NURBSdict
     (

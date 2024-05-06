@@ -61,7 +61,7 @@
         }
     }
 
-    #include "continuityErrs.H"
+    #include "cfdTools/incompressible/continuityErrs.H"
 
     // Correct Uf if the mesh is moving
     fvc::correctUf(Uf, U, phi);

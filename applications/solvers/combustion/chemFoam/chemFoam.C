@@ -36,15 +36,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "psiReactionThermo.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "psiReactionThermo/psiReactionThermo.H"
 #include "BasicChemistryModel.H"
-#include "reactingMixture.H"
-#include "chemistrySolver.H"
-#include "OFstream.H"
-#include "thermoPhysicsTypes.H"
-#include "basicSpecieMixture.H"
-#include "hexCellFvMesh.H"
+#include "mixtures/reactingMixture/reactingMixture.H"
+#include "chemistrySolver/chemistrySolver/chemistrySolver.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/thermoPhysicsTypes.H"
+#include "mixtures/basicSpecieMixture/basicSpecieMixture.H"
+#include "fvMesh/simplifiedFvMesh/hexCellFvMesh/hexCellFvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -60,15 +60,15 @@ int main(int argc, char *argv[])
 
     #define CREATE_MESH createSingleCellMesh.H
     #define NO_CONTROL
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
     #include "createSingleCellMesh.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
     #include "readInitialConditions.H"
-    #include "createControls.H"
+    #include "include/createControls.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -78,15 +78,15 @@ int main(int argc, char *argv[])
     {
         #include "readControls.H"
 
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
         #include "solveChemistry.H"
-        #include "YEqn.H"
+        #include "fluid/YEqn.H"
         #include "hEqn.H"
-        #include "pEqn.H"
+        #include "fluid/pEqn.H"
 
         #include "output.H"
 

@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalIndex.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IOstreams.H"
-#include "Random.H"
-#include "IndirectList.H"
-#include "SliceList.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/random/Random/Random.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "containers/IndirectLists/SliceList/SliceList.H"
 
 using namespace Foam;
 

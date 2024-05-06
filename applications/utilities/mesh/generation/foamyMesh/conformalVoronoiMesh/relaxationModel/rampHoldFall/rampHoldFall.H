@@ -39,7 +39,7 @@ SourceFiles
 #ifndef rampHoldFall_H
 #define rampHoldFall_H
 
-#include "relaxationModel.H"
+#include "relaxationModel/relaxationModel/relaxationModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

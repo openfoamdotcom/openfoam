@@ -15,10 +15,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelList.H"
-#include "autoPtr.H"
-#include "ZoneMesh.H"
-#include "topoSet.H"
+#include "primitives/ints/lists/labelList.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/polyMesh/zones/ZoneMesh/ZoneMesh.H"
+#include "topoSet/topoSets/topoSet.H"
 
 namespace Foam
 {

@@ -33,19 +33,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "triSurface.H"
-#include "searchableSurfaces.H"
-#include "conformationSurfaces.H"
-#include "cellShapeControl.H"
-#include "backgroundMeshDecomposition.H"
-#include "cellShape.H"
-#include "DynamicField.H"
-#include "isoSurfaceCell.H"
-#include "foamVtkSurfaceWriter.H"
-#include "syncTools.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "triSurface/triSurface.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "cellShapeControl/cellShapeControl/cellShapeControl.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "fields/Fields/DynamicField/DynamicField.H"
+#include "surface/isoSurface/isoSurfaceCell.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
 #include "decompositionModel.H"
 
 using namespace Foam;
@@ -401,8 +401,8 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool writeMesh = args.found("writeMesh");
 
@@ -517,7 +517,7 @@ int main(int argc, char *argv[])
     // Distribute the initial mesh
     if (Pstream::parRun())
     {
-        #include "createNamedMesh.H"
+        #include "include/createNamedMesh.H"
         Info<< "Loaded mesh:" << endl;
         printMeshData(mesh);
 

@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "List.H"
-#include "SubList.H"
-#include "ListOps.H"
-#include "labelField.H"
-#include "MinMax.H"
-#include "face.H"
+#include "global/argList/argList.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/List/SubList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "fields/Fields/labelField/labelField.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "meshes/meshShapes/face/face.H"
 
 using namespace Foam;
 

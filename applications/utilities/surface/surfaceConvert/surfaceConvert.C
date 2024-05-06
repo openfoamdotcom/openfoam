@@ -57,12 +57,12 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "triSurface.H"
-#include "OFstream.H"
-#include "OSspecific.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 using namespace Foam;
 

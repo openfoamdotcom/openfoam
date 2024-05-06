@@ -47,7 +47,7 @@ SourceFiles
 #ifndef interfaceHeatResistance_H
 #define interfaceHeatResistance_H
 
-#include "temperaturePhaseChangeTwoPhaseMixture.H"
+#include "temperaturePhaseChangeTwoPhaseMixtures/temperaturePhaseChangeTwoPhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * //
 

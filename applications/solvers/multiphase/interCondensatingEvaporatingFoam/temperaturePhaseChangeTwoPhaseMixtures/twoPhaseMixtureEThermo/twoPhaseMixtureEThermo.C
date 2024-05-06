@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "twoPhaseMixtureEThermo.H"
+#include "twoPhaseMixtureEThermo/twoPhaseMixtureEThermo.H"
 
-#include "zeroGradientFvPatchFields.H"
-#include "fixedEnergyFvPatchScalarField.H"
-#include "gradientEnergyFvPatchScalarField.H"
-#include "mixedEnergyFvPatchScalarField.H"
-#include "twoPhaseMixtureEThermo.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "derivedFvPatchFields/fixedEnergy/fixedEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/gradientEnergy/gradientEnergyFvPatchScalarField.H"
+#include "derivedFvPatchFields/mixedEnergy/mixedEnergyFvPatchScalarField.H"
+#include "twoPhaseMixtureEThermo/twoPhaseMixtureEThermo.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -1,12 +1,12 @@
 #include "writeFields.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "polyMeshTools.H"
-#include "syncTools.H"
-#include "tetrahedron.H"
-#include "regionSplit.H"
-#include "wallDist.H"
-#include "cellAspectRatio.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshTools.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "regionSplit/regionSplit.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "fvMesh/fvGeometryScheme/highAspectRatio/cellAspectRatio.H"
 
 using namespace Foam;
 

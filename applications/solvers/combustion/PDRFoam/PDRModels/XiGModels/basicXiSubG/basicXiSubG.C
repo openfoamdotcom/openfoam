@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicXiSubG.H"
-#include "addToRunTimeSelectionTable.H"
+#include "PDRModels/XiGModels/basicXiSubG/basicXiSubG.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

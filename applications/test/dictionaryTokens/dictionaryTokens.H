@@ -65,10 +65,10 @@ SourceFiles
 #ifndef dictionaryTokens_H
 #define dictionaryTokens_H
 
-#include "dictionary.H"
-#include "primitiveEntry.H"
-#include "dictionaryEntry.H"
-#include "dictionaryListEntry.H"
+#include "db/dictionary/dictionary.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
+#include "db/dictionary/dictionaryListEntry/dictionaryListEntry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

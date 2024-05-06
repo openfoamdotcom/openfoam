@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "ListOps.H"
-#include "face.H"
-#include "Circulator.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/meshShapes/face/face.H"
+#include "containers/Circulators/Circulator.H"
 
 
 using namespace Foam;

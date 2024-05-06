@@ -39,8 +39,8 @@ SourceFiles
 #ifndef phase_H
 #define phase_H
 
-#include "volFields.H"
-#include "dictionaryEntry.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionaryEntry/dictionaryEntry.H"
 #include "incompressible/viscosityModels/viscosityModel/viscosityModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

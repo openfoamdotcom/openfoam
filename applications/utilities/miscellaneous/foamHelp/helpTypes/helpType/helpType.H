@@ -38,9 +38,9 @@ SourceFiles
 #ifndef helpType_H
 #define helpType_H
 
-#include "runTimeSelectionTables.H"
-#include "autoPtr.H"
-#include "argList.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "global/argList/argList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

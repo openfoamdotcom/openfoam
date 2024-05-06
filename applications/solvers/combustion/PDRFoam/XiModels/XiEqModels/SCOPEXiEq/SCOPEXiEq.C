@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "SCOPEXiEq.H"
-#include "addToRunTimeSelectionTable.H"
+#include "XiModels/XiEqModels/SCOPEXiEq/SCOPEXiEq.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

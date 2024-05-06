@@ -31,10 +31,10 @@ InClass
 #ifndef Foam_writeFluentFields_H
 #define Foam_writeFluentFields_H
 
-#include "volFields.H"
-#include "dictionary.H"
-#include "IOobjectList.H"
-#include "Ostream.H"
+#include "fields/volFields/volFields.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/IOstreams/IOstreams/Ostream.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

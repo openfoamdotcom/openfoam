@@ -28,7 +28,7 @@ License
 
 #include "PDRsetFields.H"
 #include "PDRutilsInternal.H"
-#include "mathematicalConstants.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 #ifndef FULLDEBUG
 #ifndef NDEBUG

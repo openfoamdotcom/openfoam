@@ -31,14 +31,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "IFstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
-#include "faceList.H"
-#include "triFaceList.H"
-#include "HashSet.H"
-#include "HashTable.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/HashTable/HashTable.H"
 
 using namespace Foam;
 

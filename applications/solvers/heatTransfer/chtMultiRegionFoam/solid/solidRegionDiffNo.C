@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "solidRegionDiffNo.H"
-#include "surfaceInterpolate.H"
+#include "solid/solidRegionDiffNo.H"
+#include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

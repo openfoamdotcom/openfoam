@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellAspectRatioControl.H"
-#include "vectorTools.H"
+#include "cellShapeControl/cellAspectRatioControl/cellAspectRatioControl.H"
+#include "vectorTools/vectorTools.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

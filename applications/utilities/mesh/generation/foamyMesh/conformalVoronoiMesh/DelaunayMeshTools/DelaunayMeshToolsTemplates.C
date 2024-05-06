@@ -25,12 +25,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DelaunayMeshTools.H"
-#include "meshTools.H"
-#include "OFstream.H"
-#include "pointConversion.H"
-#include "pointIOField.H"
-#include "indexedVertexOps.H"
+#include "DelaunayMeshTools/DelaunayMeshTools.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "conformalVoronoiMesh/pointConversion.H"
+#include "meshes/primitiveShapes/point/pointIOField.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexOps.H"
 
 // * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * * //
 

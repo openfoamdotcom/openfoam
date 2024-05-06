@@ -30,15 +30,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "complex.H"
-#include "complexFields.H"
-#include "scalarField.H"
-#include "diagTensor.H"
-#include "symmTensor.H"
-#include "symmTensor2D.H"
-#include "ListOps.H"
-#include "ops.H"
+#include "global/argList/argList.H"
+#include "primitives/complex/complex.H"
+#include "fields/Fields/complex/complexFields.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "primitives/DiagTensor/diagTensor/diagTensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/SymmTensor2D/symmTensor2D/symmTensor2D.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/ops/ops.H"
 
 using namespace Foam;
 

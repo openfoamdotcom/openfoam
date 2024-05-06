@@ -34,8 +34,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "md.H"
-#include "fvCFD.H"
+#include "mdTools/md.H"
+#include "cfdTools/general/include/fvCFD.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -45,9 +45,9 @@ int main(int argc, char *argv[])
     (
         "Initialises fields for a molecular dynamics (MD) simulation"
     );
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     IOdictionary mdInitialiseDict
     (

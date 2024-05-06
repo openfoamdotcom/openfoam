@@ -51,8 +51,8 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "profiling.H"
+#include "global/argList/argList.H"
+#include "global/profiling/profiling.H"
 
 using namespace Foam;
 
@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
     argList args(argc, argv, false, true);
 
     // Force dlOpen of FOAM_DLOPEN_LIBS (principally for Windows applications)
-    #include "foamDlOpenLibs.H"
+    #include "include/foamDlOpenLibs.H"
 
     const bool testOr = args.found("or");
     const bool detail = args.found("detail");

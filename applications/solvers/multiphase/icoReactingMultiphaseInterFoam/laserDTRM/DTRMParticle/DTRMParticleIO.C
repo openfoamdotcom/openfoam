@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DTRMParticle.H"
-#include "IOstreams.H"
+#include "DTRMParticle/DTRMParticle.H"
+#include "db/IOstreams/IOstreams.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "IOstreams.H"
-#include "Random.H"
+#include "containers/Lists/List/List.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     argList::noCheckProcessorDirectories();
     argList::addBoolOption("non-blocking", "Test with non-blocking receives");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool optNonBlocking = args.found("non-blocking");
 

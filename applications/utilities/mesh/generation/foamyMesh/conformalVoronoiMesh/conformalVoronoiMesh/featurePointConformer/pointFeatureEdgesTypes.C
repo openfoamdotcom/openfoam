@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointFeatureEdgesTypes.H"
+#include "conformalVoronoiMesh/featurePointConformer/pointFeatureEdgesTypes.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

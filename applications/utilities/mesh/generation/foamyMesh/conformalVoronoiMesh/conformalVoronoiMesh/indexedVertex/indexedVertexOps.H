@@ -37,7 +37,7 @@ SourceFiles
 #ifndef indexedVertexOps_H
 #define indexedVertexOps_H
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -70,7 +70,7 @@ inline bool uninitialised(const VertexType& v);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "indexedVertexOpsTemplates.C"
+    #include "conformalVoronoiMesh/indexedVertex/indexedVertexOpsTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

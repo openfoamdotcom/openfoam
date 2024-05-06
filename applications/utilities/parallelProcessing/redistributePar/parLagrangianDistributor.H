@@ -42,8 +42,8 @@ SourceFiles
 #ifndef Foam_parLagrangianDistributor_H
 #define Foam_parLagrangianDistributor_H
 
-#include "PtrList.H"
-#include "fvMesh.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
+#include "fvMesh/fvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

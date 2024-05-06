@@ -37,7 +37,7 @@ SourceFiles
 #ifndef collapseBase_H
 #define collapseBase_H
 
-#include "triSurface.H"
+#include "triSurface/triSurface.H"
 
 using namespace Foam;
 

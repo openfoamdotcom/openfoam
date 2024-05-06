@@ -31,14 +31,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "uLabel.H"
-#include "boolList.H"
-#include "DynamicList.H"
-#include "IOstreams.H"
-#include "ITstream.H"
-#include "SpanStream.H"
-#include "bitSet.H"
-#include "FlatOutput.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "db/IOstreams/output/FlatOutput.H"
 
 // #define TEST_SFINAE
 

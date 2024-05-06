@@ -34,12 +34,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "searchableSurfaces.H"
-#include "conformationSurfaces.H"
-#include "triSurfaceMesh.H"
-#include "labelVector.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "primitives/Vector/ints/labelVector.H"
 
 #include "MarchingCubes.h"
 
@@ -61,8 +61,8 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const auto n = args.get<labelVector>(1);
     const auto exportName = args.get<fileName>(2);

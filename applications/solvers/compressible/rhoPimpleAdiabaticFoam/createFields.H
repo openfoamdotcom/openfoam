@@ -81,7 +81,7 @@ autoPtr<compressible::turbulenceModel> turbulence
 
 mesh.setFluxRequired(p.name());
 
-#include "createMRF.H"
+#include "cfdTools/general/include/createMRF.H"
 
 Info<< "Creating compressibility field psi\n" << endl;
 volScalarField psi("psi", 1.0/((thermo.Cp() - thermo.Cv())*T));

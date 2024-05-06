@@ -35,14 +35,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "boundaryMesh.H"
-#include "repatchPolyTopoChanger.H"
-#include "unitConversion.H"
-#include "OFstream.H"
-#include "ListOps.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "boundaryMesh/boundaryMesh.H"
+#include "polyTopoChange/repatchPolyTopoChanger/repatchPolyTopoChanger.H"
+#include "global/constants/unitConversion.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 
@@ -80,16 +80,16 @@ int main(int argc, char *argv[])
         "Divides external faces into patches based on feature angle"
     );
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::noParallel();
     argList::noFunctionObjects();  // Never use function objects
 
     argList::addArgument("featureAngle", "in degrees [0-180]");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "CV2D.H"
-#include "OFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

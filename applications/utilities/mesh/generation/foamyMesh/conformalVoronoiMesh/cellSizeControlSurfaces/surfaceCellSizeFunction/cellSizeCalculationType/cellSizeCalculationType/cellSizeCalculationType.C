@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cellSizeCalculationType.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triSurfaceMesh.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/cellSizeCalculationType/cellSizeCalculationType.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

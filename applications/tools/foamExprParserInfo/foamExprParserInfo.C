@@ -71,12 +71,12 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "List.H"
-#include "fieldExprParser.H"
-#include "patchExprParser.H"
-#include "volumeExprParser.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/List/List.H"
+#include "expressions/fields/fieldExprParser.H"
+#include "expressions/patch/patchExprParser.H"
+#include "expressions/volume/volumeExprParser.H"
 
 using namespace Foam;
 

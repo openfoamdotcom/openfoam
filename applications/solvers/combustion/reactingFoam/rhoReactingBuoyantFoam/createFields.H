@@ -1,4 +1,4 @@
-#include "createRDeltaT.H"
+#include "cfdTools/general/include/createRDeltaT.H"
 
 Info<< "Reading thermophysical properties\n" << endl;
 autoPtr<rhoReactionThermo> pThermo(rhoReactionThermo::New(mesh));
@@ -46,7 +46,7 @@ volVectorField U
 volScalarField& p = thermo.p();
 
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 mesh.setFluxRequired(p.name());
 
@@ -68,9 +68,9 @@ autoPtr<CombustionModel<rhoReactionThermo>> reaction
     CombustionModel<rhoReactionThermo>::New(thermo, turbulence())
 );
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 Info<< "Reading field p_rgh\n" << endl;
 volScalarField p_rgh
@@ -111,9 +111,9 @@ volScalarField Qdot
     dimensionedScalar(dimEnergy/dimVolume/dimTime, Zero)
 );
 
-#include "createDpdt.H"
+#include "cfdTools/compressible/createDpdt.H"
 
-#include "createK.H"
+#include "cfdTools/general/include/createK.H"
 
-#include "createMRF.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvOptions.H"

@@ -32,15 +32,15 @@ Description
 \*---------------------------------------------------------------------------*/
 
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "meshTools.H"
-#include "TimeOpenFOAM.H"
-#include "OFstream.H"
-#include "mappedPolyPatch.H"
-#include "mappedFixedValueFvPatchFields.H"
-#include "fvCFD.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "meshTools/meshTools.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "mappedPatches/mappedPolyPatch/mappedPolyPatch.H"
+#include "fields/fvPatchFields/derived/mappedFixedValue/mappedFixedValueFvPatchFields.H"
+#include "cfdTools/general/include/fvCFD.H"
 
 using namespace Foam;
 
@@ -51,10 +51,10 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addTimeOptions.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/addTimeOptions.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     wordList patchFieldTypes
     (

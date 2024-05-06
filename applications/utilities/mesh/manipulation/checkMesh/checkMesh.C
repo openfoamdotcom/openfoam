@@ -72,16 +72,16 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "globalMeshData.H"
-#include "vtkCoordSetWriter.H"
-#include "vtkSurfaceWriter.H"
-#include "IOdictionary.H"
-#include "regionProperties.H"
-#include "polyMeshTools.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "coordSet/writers/vtk/vtkCoordSetWriter.H"
+#include "writers/vtk/vtkSurfaceWriter.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshTools.H"
 
 #include "checkTools.H"
 #include "checkTopology.H"
@@ -89,8 +89,8 @@ Usage
 #include "checkMeshQuality.H"
 #include "writeFields.H"
 
-#include "OFstream.H"
-#include "JSONformatter.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "json/JSONformatter.H"
 
 using namespace Foam;
 
@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
     );
 
     timeSelector::addOptions();
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
     argList::addBoolOption
     (
@@ -162,11 +162,11 @@ int main(int argc, char *argv[])
     );
 
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "getAllRegionOptions.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/getAllRegionOptions.H"
     instantList timeDirs = timeSelector::select0(runTime, args);
-    #include "createNamedMeshes.H"
+    #include "include/createNamedMeshes.H"
 
     const bool noTopology  = args.found("noTopology");
     const bool allGeometry = args.found("allGeometry");

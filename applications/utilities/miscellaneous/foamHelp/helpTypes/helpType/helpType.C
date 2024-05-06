@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "helpType.H"
-#include "doxygenXmlParser.H"
+#include "helpType/helpType.H"
+#include "doxygenXmlParser/doxygenXmlParser.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

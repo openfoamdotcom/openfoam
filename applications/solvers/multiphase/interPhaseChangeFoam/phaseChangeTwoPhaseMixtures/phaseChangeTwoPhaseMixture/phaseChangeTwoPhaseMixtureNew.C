@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "phaseChangeTwoPhaseMixture.H"
-#include "incompressibleTwoPhaseMixture.H"
-#include "surfaceMesh.H"
+#include "phaseChangeTwoPhaseMixture/phaseChangeTwoPhaseMixture.H"
+#include "incompressibleTwoPhaseMixture/incompressibleTwoPhaseMixture.H"
+#include "surfaceMesh/surfaceMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

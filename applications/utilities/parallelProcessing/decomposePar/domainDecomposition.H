@@ -40,11 +40,11 @@ SourceFiles
 #ifndef domainDecomposition_H
 #define domainDecomposition_H
 
-#include "fvMesh.H"
-#include "labelList.H"
-#include "point.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
+#include "fvMesh/fvMesh.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
 
 namespace Foam
 {

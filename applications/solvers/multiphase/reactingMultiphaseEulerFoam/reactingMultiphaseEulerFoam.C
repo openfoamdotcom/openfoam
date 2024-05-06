@@ -36,32 +36,32 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "multiphaseSystem.H"
-#include "phaseCompressibleTurbulenceModel.H"
-#include "pimpleControl.H"
-#include "localEulerDdtScheme.H"
-#include "fvcSmooth.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "multiphaseSystem/multiphaseSystem.H"
+#include "turbulence/phaseCompressibleTurbulenceModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
-    #include "createTimeControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "cfdTools/general/include/createTimeControls.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
 
     if (!LTS)
     {
-        #include "CourantNo.H"
-        #include "setInitialDeltaT.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setInitialDeltaT.H"
     }
 
     Switch faceMomentum
@@ -79,7 +79,7 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
+        #include "cfdTools/general/include/readTimeControls.H"
 
         int nEnergyCorrectors
         (
@@ -88,12 +88,12 @@ int main(int argc, char *argv[])
 
         if (LTS)
         {
-            #include "setRDeltaT.H"
+            #include "solvers/multiphase/VoF/setRDeltaT.H"
         }
         else
         {
-            #include "CourantNo.H"
-            #include "setDeltaT.H"
+            #include "cfdTools/incompressible/CourantNo.H"
+            #include "cfdTools/general/include/setDeltaT.H"
         }
 
         runTime++;

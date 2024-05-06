@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "adjointOutletPressureFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchMapper.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "adjointOutletPressure/adjointOutletPressureFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fvMesh/fvMeshMapper/fvPatchMapper.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

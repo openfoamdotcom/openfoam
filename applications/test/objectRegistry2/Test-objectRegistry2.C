@@ -31,17 +31,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fvCFD.H"
-#include "fvMesh.H"
-#include "volFields.H"
-#include "timeSelector.H"
-#include "ReadFieldsPascal.H"
-#include "IOstreams.H"
-#include "PtrListOps.H"
-#include "IOobjectList.H"
-#include "objectRegistry.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/volFields/volFields.H"
+#include "db/Time/timeSelector.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/objectRegistry/objectRegistry.H"
 
 using namespace Foam;
 
@@ -372,7 +372,7 @@ int main(int argc, char *argv[])
 
     argList::addVerboseOption("increase debug value");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const int optVerbose = args.verbose();
 
@@ -410,8 +410,8 @@ int main(int argc, char *argv[])
 //        Info<<"limit names: " << matcher << nl;
 //    }
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 

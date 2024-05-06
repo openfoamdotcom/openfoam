@@ -28,14 +28,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "List.H"
-#include "TimeOpenFOAM.H"
-#include "vector.H"
-#include "Fstream.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "IOstreams.H"
+#include "global/argList/argList.H"
+#include "containers/Lists/List/List.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 
@@ -175,8 +175,8 @@ int main(int argc, char *argv[])
 {
     argList::noCheckProcessorDirectories();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     if (!Pstream::parRun())
     {

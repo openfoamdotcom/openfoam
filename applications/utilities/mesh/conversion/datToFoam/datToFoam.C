@@ -36,11 +36,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "Fstream.H"
-#include "polyMesh.H"
-#include "unitConversion.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "global/constants/unitConversion.H"
 
 using namespace Foam;
 
@@ -64,7 +64,7 @@ int main(int argc, char *argv[])
         FatalError.exit();
     }
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     std::ifstream plot3dFile(args.get<fileName>(1));
 

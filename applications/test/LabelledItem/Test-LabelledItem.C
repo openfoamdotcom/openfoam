@@ -28,12 +28,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "IFstream.H"
-#include "edge.H"
-#include "LabelledItem.H"
-#include "List.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "containers/Identifiers/LabelledItem/LabelledItem.H"
+#include "containers/Lists/List/List.H"
 
 using namespace Foam;
 

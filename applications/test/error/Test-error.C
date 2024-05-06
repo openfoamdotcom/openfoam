@@ -28,8 +28,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "dictionary.H"
+#include "global/argList/argList.H"
+#include "db/dictionary/dictionary.H"
 
 using namespace Foam;
 

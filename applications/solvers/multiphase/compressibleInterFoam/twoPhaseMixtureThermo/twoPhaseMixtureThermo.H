@@ -39,9 +39,9 @@ SourceFiles
 #ifndef twoPhaseMixtureThermo_H
 #define twoPhaseMixtureThermo_H
 
-#include "rhoThermo.H"
-#include "psiThermo.H"
-#include "twoPhaseMixture.H"
+#include "rhoThermo/rhoThermo.H"
+#include "psiThermo/psiThermo.H"
+#include "twoPhaseMixture/twoPhaseMixture.H"
 #include "interfaceProperties.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

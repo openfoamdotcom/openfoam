@@ -39,18 +39,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "CloudPascal.H"
-#include "IOdictionary.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "timeSelector.H"
-#include "OFstream.H"
-#include "labelPairHashes.H"
-#include "IOField.H"
-#include "IOobjectList.H"
-#include "SortableList.H"
-#include "passiveParticleCloud.H"
+#include "global/argList/argList.H"
+#include "Cloud/CloudPascal.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "primitives/tuples/labelPairHashes.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "passiveParticle/passiveParticleCloud.H"
 #include "steadyParticleTracksTemplates.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -165,7 +165,7 @@ int main(int argc, char *argv[])
 
     argList::noParallel();
     timeSelector::addOptions();
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addOption
     (
         "dict",
@@ -174,11 +174,11 @@ int main(int argc, char *argv[])
     );
     argList::addVerboseOption();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     instantList timeDirs = timeSelector::select0(runTime, args);
-    #include "createNamedMesh.H"
-    #include "createControls.H"
+    #include "include/createNamedMesh.H"
+    #include "include/createControls.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

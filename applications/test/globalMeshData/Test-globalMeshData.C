@@ -31,11 +31,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "globalMeshData.H"
-#include "argList.H"
-#include "polyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "mapDistribute.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
 
 using namespace Foam;
 
@@ -46,9 +46,9 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const globalMeshData& globalData = mesh.globalData();
     const indirectPrimitivePatch& coupledPatch = globalData.coupledPatch();

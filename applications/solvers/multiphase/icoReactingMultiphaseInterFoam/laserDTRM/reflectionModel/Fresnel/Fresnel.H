@@ -40,7 +40,7 @@ SourceFiles
 #ifndef radiation_Fresnel_H
 #define radiation_Fresnel_H
 
-#include "reflectionModel.H"
+#include "reflectionModel/reflectionModel/reflectionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

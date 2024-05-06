@@ -29,8 +29,8 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "cellShapeRecognition.H"
-#include "labelList.H"
-#include "cellModel.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

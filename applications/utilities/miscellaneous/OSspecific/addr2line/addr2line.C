@@ -37,8 +37,8 @@ Description
 #include <vector>
 #include <iostream>
 
-#include "regExp.H"
-#include "SubStrings.H"
+#include "regExp/regExp.H"
+#include "primitives/strings/lists/SubStrings.H"
 
 static void usage();
 static void version();

@@ -56,17 +56,17 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "triSurface.H"
-#include "surfMesh.H"
-#include "surfFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "triSurface/triSurface.H"
+#include "surfMesh/surfMesh.H"
+#include "surfMesh/fields/surfFields.H"
 
-#include "MeshedSurfaces.H"
-#include "ModifiableMeshedSurface.H"
-#include "UnsortedMeshedSurfaces.H"
-#include "SpanStream.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "ModifiableMeshedSurface/ModifiableMeshedSurface.H"
+#include "UnsortedMeshedSurface/UnsortedMeshedSurfaces.H"
+#include "db/IOstreams/memory/SpanStream.H"
 
 using namespace Foam;
 
@@ -136,7 +136,7 @@ int main(int argc, char *argv[])
         "geometry scaling factor - default is 1"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool     optStdout = args.found("stdout");
     const scalar scaleFactor = args.getOrDefault<scalar>("scale", 0);

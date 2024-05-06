@@ -34,9 +34,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "base64Layer.H"
-#include "List.H"
-#include "Pair.H"
+#include "db/IOstreams/hashes/base64Layer.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/tuples/Pair.H"
 
 #include <sstream>
 

@@ -41,12 +41,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "triSurfaceMesh.H"
-#include "searchableSurfaces.H"
-#include "searchableSurfaceModifier.H"
+#include "triSurface/triSurface.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "searchableSurfaceModifier/searchableSurfaceModifier.H"
 
 using namespace Foam;
 
@@ -62,11 +62,11 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::addOption("dict", "file", "Alternative surfacePatchDict");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word dictName("surfacePatchDict");
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
     const IOdictionary meshDict(dictIO);
 
 

@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // Include MPI without any C++ bindings
 #ifndef MPICH_SKIP_MPICXX
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
     // Check -verbose before initialisation
     UPstream::debug = argList::verbose(argc, argv);
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (!Pstream::parRun())
     {
@@ -70,8 +70,8 @@ int main(int argc, char *argv[])
             << exit(FatalError);
     }
 
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     // Adjacency table
     const labelListList& connectivity =

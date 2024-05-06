@@ -39,18 +39,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "fluidThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "pimpleControl.H"
-#include "pressureControl.H"
-#include "CorrectPhiPascal.H"
-#include "fvOptions.H"
-#include "localEulerDdtScheme.H"
-#include "fvcSmooth.H"
-#include "cellCellStencilObject.H"
-#include "localMin.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "fluidThermo/fluidThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/pressureControl/pressureControl.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -62,24 +62,24 @@ int main(int argc, char *argv[])
         "With optional mesh motion and mesh topology changes."
     );
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "createDyMControls.H"
-    #include "createRDeltaT.H"
-    #include "initContinuityErrs.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "include/createDyMControls.H"
+    #include "cfdTools/general/include/createRDeltaT.H"
+    #include "fluid/initContinuityErrs.H"
     #include "createFields.H"
-    #include "createMRF.H"
-    #include "createFvOptions.H"
-    #include "createRhoUfIfPresent.H"
-    #include "createControls.H"
+    #include "cfdTools/general/include/createMRF.H"
+    #include "cfdTools/general/include/createFvOptions.H"
+    #include "cfdTools/compressible/createRhoUfIfPresent.H"
+    #include "include/createControls.H"
 
     turbulence->validate();
 
     if (!LTS)
     {
-        #include "compressibleCourantNo.H"
-        #include "setInitialDeltaT.H"
+        #include "fluid/compressibleCourantNo.H"
+        #include "cfdTools/general/include/setInitialDeltaT.H"
     }
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -88,7 +88,7 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
+        #include "include/readDyMControls.H"
 
         // Store divrhoU from the previous mesh so that it can be mapped
         // and used in correctPhi to ensure the corrected phi has the
@@ -108,12 +108,12 @@ int main(int argc, char *argv[])
 
         if (LTS)
         {
-            #include "setRDeltaT.H"
+            #include "solvers/multiphase/VoF/setRDeltaT.H"
         }
         else
         {
-            #include "compressibleCourantNo.H"
-            #include "setDeltaT.H"
+            #include "fluid/compressibleCourantNo.H"
+            #include "cfdTools/general/include/setDeltaT.H"
         }
 
         ++runTime;
@@ -132,9 +132,9 @@ int main(int argc, char *argv[])
                 {
                     MRF.update();
 
-                    #include "setCellMask.H"
-                    #include "setInterpolatedCells.H"
-                    #include "correctRhoPhiFaceMask.H"
+                    #include "include/setCellMask.H"
+                    #include "include/setInterpolatedCells.H"
+                    #include "include/correctRhoPhiFaceMask.H"
 
                     if (correctPhi)
                     {
@@ -147,23 +147,23 @@ int main(int argc, char *argv[])
 
                     if (checkMeshCourantNo)
                     {
-                        #include "meshCourantNo.H"
+                        #include "include/meshCourantNo.H"
                     }
                 }
             }
 
             if (pimple.firstIter() && !pimple.SIMPLErho())
             {
-                #include "rhoEqn.H"
+                #include "cfdTools/compressible/rhoEqn.H"
             }
 
-            #include "UEqn.H"
-            #include "EEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/EEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

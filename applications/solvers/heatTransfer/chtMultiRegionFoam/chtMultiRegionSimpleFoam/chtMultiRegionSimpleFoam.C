@@ -36,16 +36,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "rhoThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "fixedGradientFvPatchFields.H"
-#include "regionProperties.H"
-#include "solidThermo.H"
-#include "radiationModel.H"
-#include "fvOptions.H"
-#include "coordinateSystem.H"
-#include "loopControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "rhoThermo/rhoThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "solidThermo/solidThermo.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "cfdTools/general/solutionControl/loopControl/loopControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -60,15 +60,15 @@ int main(int argc, char *argv[])
 
     #define NO_CONTROL
     #define CREATE_MESH createMeshesPostProcess.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
     #include "createMeshes.H"
     #include "createFields.H"
-    #include "createCoupledRegions.H"
-    #include "initContinuityErrs.H"
+    #include "include/createCoupledRegions.H"
+    #include "fluid/initContinuityErrs.H"
 
     while (runTime.loop())
     {
@@ -80,18 +80,18 @@ int main(int argc, char *argv[])
 
             Info<< "\nSolving for fluid region "
                 << fluidRegions[i].name() << endl;
-            #include "readFluidMultiRegionSIMPLEControls.H"
-            #include "setRegionFluidFields.H"
-            #include "solveFluid.H"
+            #include "fluid/readFluidMultiRegionSIMPLEControls.H"
+            #include "fluid/setRegionFluidFields.H"
+            #include "fluid/solveFluid.H"
         }
 
         forAll(solidRegions, i)
         {
             fvMesh& mesh = solidRegions[i];
 
-            #include "readSolidMultiRegionSIMPLEControls.H"
-            #include "setRegionSolidFields.H"
-            #include "solveSolid.H"
+            #include "solid/readSolidMultiRegionSIMPLEControls.H"
+            #include "solid/setRegionSolidFields.H"
+            #include "solid/solveSolid.H"
         }
 
 
@@ -99,17 +99,17 @@ int main(int argc, char *argv[])
         {
             Info<< "\nSolving energy coupled regions" << endl;
             fvMatrixAssemblyPtr->solve();
-            #include "correctThermos.H"
+            #include "include/correctThermos.H"
 
             forAll(fluidRegions, i)
             {
                 fvMesh& mesh = fluidRegions[i];
 
-                #include "readSolidMultiRegionSIMPLEControls.H"
-                #include "setRegionFluidFields.H"
+                #include "solid/readSolidMultiRegionSIMPLEControls.H"
+                #include "fluid/setRegionFluidFields.H"
                 if (!frozenFlow)
                 {
-                    #include "pEqn.H"
+                    #include "fluid/pEqn.H"
                     turb.correct();
                 }
             }
@@ -131,10 +131,10 @@ int main(int argc, char *argv[])
 
                     Info<< "\nSolving for fluid region "
                         << fluidRegions[i].name() << endl;
-                    #include "readFluidMultiRegionSIMPLEControls.H"
-                    #include "setRegionFluidFields.H"
+                    #include "fluid/readFluidMultiRegionSIMPLEControls.H"
+                    #include "fluid/setRegionFluidFields.H"
                     frozenFlow = true;
-                    #include "solveFluid.H"
+                    #include "fluid/solveFluid.H"
                 }
 
                 forAll(solidRegions, i)
@@ -143,16 +143,16 @@ int main(int argc, char *argv[])
 
                     Info<< "\nSolving for solid region "
                         << solidRegions[i].name() << endl;
-                    #include "readSolidMultiRegionSIMPLEControls.H"
-                    #include "setRegionSolidFields.H"
-                    #include "solveSolid.H"
+                    #include "solid/readSolidMultiRegionSIMPLEControls.H"
+                    #include "solid/setRegionSolidFields.H"
+                    #include "solid/solveSolid.H"
                 }
 
                 if (coupled)
                 {
                     Info<< "\nSolving energy coupled regions.. " << endl;
                     fvMatrixAssemblyPtr->solve();
-                    #include "correctThermos.H"
+                    #include "include/correctThermos.H"
 
                     fvMatrixAssemblyPtr->clear();
                 }

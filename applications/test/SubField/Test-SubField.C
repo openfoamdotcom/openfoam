@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "argList.H"
+#include "include/OSspecific.H"
+#include "global/argList/argList.H"
 
-#include "scalarField.H"
-#include "SubField.H"
-#include "labelRange.H"
-#include "ListOps.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "fields/Fields/Field/SubField.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "containers/Lists/ListOps/ListOps.H"
 #include <numeric>
 
 using namespace Foam;

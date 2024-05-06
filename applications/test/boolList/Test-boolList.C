@@ -31,11 +31,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "uLabel.H"
-#include "boolList.H"
-#include "bitSet.H"
-#include "BitOps.H"
-#include "FlatOutput.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/Bits/BitOps/BitOps.H"
+#include "db/IOstreams/output/FlatOutput.H"
 #include "bitSetOrBoolList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

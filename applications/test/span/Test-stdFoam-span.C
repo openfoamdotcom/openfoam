@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
+#include "global/argList/argList.H"
 
-#include "IOstreams.H"
-#include "scalar.H"
-#include "vector.H"
-#include "labelRange.H"
-#include "scalarList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "primitives/Scalar/lists/scalarList.H"
 
 using namespace Foam;
 
@@ -77,7 +77,7 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::noFunctionObjects();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     {
         const List<label> list1(identity(15));

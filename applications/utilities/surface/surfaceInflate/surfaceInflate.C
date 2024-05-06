@@ -52,14 +52,14 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "triSurfaceFields.H"
-#include "triSurfaceMesh.H"
-#include "triSurfaceGeoMesh.H"
-#include "bitSet.H"
-#include "OBJstream.H"
-#include "surfaceFeatures.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "triSurface/fields/triSurfaceFields.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "triSurface/fields/triSurfaceGeoMesh.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "obj/OBJstream.H"
+#include "triSurface/surfaceFeatures/surfaceFeatures.H"
 
 using namespace Foam;
 
@@ -606,8 +606,8 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const auto inputName = args.get<word>(1);
     const auto distance = args.get<scalar>(2);

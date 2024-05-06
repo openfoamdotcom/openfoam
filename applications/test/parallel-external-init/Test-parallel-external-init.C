@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "vector.H"
-#include "IOstreams.H"
-#include "Pstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 #include <iostream>
 
 // Include MPI without any C++ bindings
@@ -136,7 +136,7 @@ int main(int argc, char *argv[])
 
     startMPI();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     Pout<< message().c_str();
 

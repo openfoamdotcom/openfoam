@@ -33,17 +33,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "engineTime.H"
-#include "engineMesh.H"
-#include "turbulentFluidThermoModel.H"
-#include "basicSprayCloud.H"
-#include "psiReactionThermo.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "engineTime/engineTime/engineTime.H"
+#include "engineMesh/engineMesh/engineMesh.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "clouds/derived/basicSprayCloud/basicSprayCloud.H"
+#include "psiReactionThermo/psiReactionThermo.H"
 #include "CombustionModel.H"
-#include "radiationModel.H"
-#include "SLGThermo.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "SLGThermo/SLGThermo.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -57,19 +57,19 @@ int main(int argc, char *argv[])
 
     #define CREATE_TIME createEngineTime.H
     #define CREATE_MESH createEngineMesh.H
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createEngineTime.H"
-    #include "createEngineMesh.H"
-    #include "createControl.H"
-    #include "readEngineTimeControls.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createEngineTime.H"
+    #include "include/createEngineMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "include/readEngineTimeControls.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "createRhoUf.H"
-    #include "compressibleCourantNo.H"
-    #include "setInitialDeltaT.H"
-    #include "initContinuityErrs.H"
+    #include "cfdTools/compressible/createRhoUf.H"
+    #include "fluid/compressibleCourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
+    #include "fluid/initContinuityErrs.H"
     #include "startSummary.H"
 
     turbulence->validate();
@@ -80,9 +80,9 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readEngineTimeControls.H"
-        #include "compressibleCourantNo.H"
-        #include "setDeltaT.H"
+        #include "include/readEngineTimeControls.H"
+        #include "fluid/compressibleCourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -92,19 +92,19 @@ int main(int argc, char *argv[])
 
         parcels.evolve();
 
-        #include "rhoEqn.H"
+        #include "cfdTools/compressible/rhoEqn.H"
 
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "UEqn.H"
-            #include "YEqn.H"
-            #include "EEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/YEqn.H"
+            #include "fluid/EEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

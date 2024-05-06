@@ -47,7 +47,7 @@ SourceFiles
 #ifndef PDRmeshArrays_H
 #define PDRmeshArrays_H
 
-#include "labelVector.H"
+#include "primitives/Vector/ints/labelVector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

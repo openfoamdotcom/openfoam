@@ -183,24 +183,24 @@ Note
    number of corner cases where it may not produce the desired result.
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "triSurface.H"
-#include "triSurfaceTools.H"
-#include "edgeMeshTools.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "edgeMesh/edgeMeshTools/edgeMeshTools.H"
 #include "surfaceFeaturesExtraction.H"
-#include "surfaceIntersection.H"
-#include "featureEdgeMesh.H"
-#include "extendedFeatureEdgeMesh.H"
-#include "treeBoundBox.H"
-#include "meshTools.H"
-#include "OBJstream.H"
-#include "triSurfaceMesh.H"
-#include "foamVtkSurfaceWriter.H"
-#include "unitConversion.H"
-#include "plane.H"
-#include "point.H"
-#include "triSurfaceLoader.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "edgeMesh/featureEdgeMesh/featureEdgeMesh.H"
+#include "edgeMesh/extendedFeatureEdgeMesh/extendedFeatureEdgeMesh.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "meshTools/meshTools.H"
+#include "obj/OBJstream.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "global/constants/unitConversion.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "triSurface/triSurfaceLoader/triSurfaceLoader.H"
 
 using namespace Foam;
 
@@ -224,8 +224,8 @@ int main(int argc, char *argv[])
         "Read surfaceFeatureExtractDict from specified location"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     Info<< nl
         << "Note: "
@@ -233,7 +233,7 @@ int main(int argc, char *argv[])
         << nl << nl;
 
     const word dictName("surfaceFeatureExtractDict");
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
 
     Info<< "Reading " << dictIO.name() << nl << endl;
     const IOdictionary dict(dictIO);

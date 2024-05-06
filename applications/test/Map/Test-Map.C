@@ -30,9 +30,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "Map.H"
+#include "containers/HashTables/Map/Map.H"
 #include <map>
-#include "IOstreams.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

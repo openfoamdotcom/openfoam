@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "barycentricTensor.H"
-#include "tetrahedron.H"
-#include "vectorField.H"
-#include "IOstreams.H"
+#include "primitives/Barycentric/barycentricTensor/barycentricTensor.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

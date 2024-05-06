@@ -40,15 +40,15 @@ SeeAlso
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
-#include "unitConversion.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
+#include "global/constants/unitConversion.H"
 #include "pairPatchAgglomeration.H"
-#include "labelListIOList.H"
-#include "syncTools.H"
-#include "globalIndex.H"
+#include "primitives/ints/lists/labelListIOList.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "parallel/globalIndex/globalIndex.H"
 
 using namespace Foam;
 
@@ -63,15 +63,15 @@ int main(int argc, char *argv[])
     );
 
     argList::addOption("dict", "file", "Alternative viewFactorsDict");
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word dictName("viewFactorsDict");
 
-    #include "setConstantMeshDictionaryIO.H"
+    #include "include/setConstantMeshDictionaryIO.H"
 
     // Read control dictionary
     const IOdictionary agglomDict(dictIO);

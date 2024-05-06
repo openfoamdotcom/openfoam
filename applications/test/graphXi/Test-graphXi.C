@@ -31,9 +31,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "graph.H"
-#include "OFstream.H"
-#include "mathematicalConstants.H"
+#include "graph/graph.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
 
 using namespace Foam;
 

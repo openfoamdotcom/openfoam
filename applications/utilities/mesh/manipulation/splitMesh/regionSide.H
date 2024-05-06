@@ -46,8 +46,8 @@ SourceFiles
 #ifndef regionSide_H
 #define regionSide_H
 
-#include "HashSet.H"
-#include "typeInfo.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

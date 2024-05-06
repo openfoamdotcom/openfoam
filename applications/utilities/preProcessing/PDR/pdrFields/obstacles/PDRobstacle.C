@@ -25,14 +25,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRobstacle.H"
-#include "boundBox.H"
-#include "meshedSurf.H"
-#include "axisAngleRotation.H"
-#include "coordinateSystem.H"
-#include "foamVtkSurfaceWriter.H"
-#include "unitConversion.H"
-#include "addToMemberFunctionSelectionTable.H"
+#include "obstacles/PDRobstacle.H"
+#include "meshes/boundBox/boundBox.H"
+#include "meshedSurf/meshedSurf.H"
+#include "primitives/coordinate/rotation/axisAngleRotation.H"
+#include "primitives/coordinate/systems/coordinateSystem.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "global/constants/unitConversion.H"
+#include "db/runTimeSelection/memberFunctions/addToMemberFunctionSelectionTable.H"
 
 using namespace Foam::constant;
 

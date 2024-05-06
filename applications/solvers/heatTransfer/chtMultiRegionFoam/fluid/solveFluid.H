@@ -5,18 +5,18 @@ if (finalIter)
 
 if (frozenFlow)
 {
-    #include "EEqn.H"
+    #include "fluid/EEqn.H"
 }
 else
 {
     if (oCorr == 0)
     {
-        #include "rhoEqn.H"
+        #include "cfdTools/compressible/rhoEqn.H"
     }
 
-    #include "UEqn.H"
-    #include "YEqn.H"
-    #include "EEqn.H"
+    #include "fluid/UEqn.H"
+    #include "fluid/YEqn.H"
+    #include "fluid/EEqn.H"
 
     if (!coupled)
     {
@@ -25,7 +25,7 @@ else
         // --- PISO loop
         for (int corr=0; corr<nCorr; corr++)
         {
-            #include "pEqn.H"
+            #include "fluid/pEqn.H"
         }
 
         turbulence.correct();

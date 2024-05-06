@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "thermoIncompressibleTwoPhaseMixture.H"
+#include "thermoIncompressibleTwoPhaseMixture/thermoIncompressibleTwoPhaseMixture.H"
 
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

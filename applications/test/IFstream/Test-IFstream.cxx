@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Fstream.H"
-#include "OSspecific.H"
-#include "etcFiles.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "include/OSspecific.H"
+#include "global/etcFiles/etcFiles.H"
 
 using namespace Foam;
 
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::addOption("ignore", "file", "Test readRaw with ignore");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // Test with etc/controlDict (mandatory, from distribution)
 

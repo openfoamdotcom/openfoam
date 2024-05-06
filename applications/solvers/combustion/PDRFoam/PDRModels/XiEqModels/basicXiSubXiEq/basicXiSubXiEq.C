@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "basicXiSubXiEq.H"
-#include "addToRunTimeSelectionTable.H"
+#include "PDRModels/XiEqModels/basicXiSubXiEq/basicXiSubXiEq.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

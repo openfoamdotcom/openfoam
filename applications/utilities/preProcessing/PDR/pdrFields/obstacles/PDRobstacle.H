@@ -40,15 +40,15 @@ SourceFiles
 #ifndef Foam_PDRobstacle_H
 #define Foam_PDRobstacle_H
 
-#include "InfoProxy.H"
-#include "labelPair.H"
-#include "MeshedSurface.H"
-#include "MeshedSurfacesFwd.H"
-#include "boundBox.H"
-#include "DynamicList.H"
-#include "pointField.H"
-#include "volumeType.H"
-#include "memberFunctionSelectionTables.H"
+#include "db/IOstreams/IOstreams/InfoProxy.H"
+#include "primitives/tuples/labelPair.H"
+#include "MeshedSurface/MeshedSurface.H"
+#include "MeshedSurface/MeshedSurfacesFwd.H"
+#include "meshes/boundBox/boundBox.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
+#include "db/runTimeSelection/memberFunctions/memberFunctionSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -471,7 +471,7 @@ inline Ostream& operator<<
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "PDRobstacleI.H"
+#include "obstacles/PDRobstacleI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

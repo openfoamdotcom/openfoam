@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedVertexOps.H"
-#include "indexedCellOps.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexOps.H"
+#include "conformalVoronoiMesh/indexedCell/indexedCellOps.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

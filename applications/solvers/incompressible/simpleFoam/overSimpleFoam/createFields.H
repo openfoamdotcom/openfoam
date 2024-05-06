@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 
 label pRefCell = 0;
@@ -42,4 +42,4 @@ autoPtr<incompressible::turbulenceModel> turbulence
     incompressible::turbulenceModel::New(U, phi, laminarTransport)
 );
 
-#include "createMRF.H"
+#include "cfdTools/general/include/createMRF.H"

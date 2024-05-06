@@ -84,9 +84,9 @@ SourceFiles
 #ifndef router_H
 #define router_H
 
-#include "labelList.H"
-#include "pointField.H"
-#include "DynamicList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

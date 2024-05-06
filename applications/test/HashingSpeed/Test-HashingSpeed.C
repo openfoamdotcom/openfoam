@@ -1,7 +1,7 @@
 // code taken more-or-less from Paul Hsieh's tests
 
-#include "Hasher.H"
-#include "int.H"
+#include "primitives/hashes/Hash/Hasher.H"
+#include "primitives/ints/int/int.H"
 
 #include <cstdio>
 #include <ctime>

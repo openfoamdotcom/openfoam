@@ -63,20 +63,20 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "unitConversion.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "bitSet.H"
-#include "meshTools.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "global/constants/unitConversion.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "meshTools/meshTools.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 #include "meshDualiser.H"
-#include "ReadFieldsPascal.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "topoSet.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "topoSet/topoSets/topoSet.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -368,7 +368,7 @@ int main(int argc, char *argv[])
         " adhering to all the feature and patch edges."
     );
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::noParallel();
 
     argList::addArgument
@@ -394,9 +394,9 @@ int main(int argc, char *argv[])
         " multiple faces in between cells"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

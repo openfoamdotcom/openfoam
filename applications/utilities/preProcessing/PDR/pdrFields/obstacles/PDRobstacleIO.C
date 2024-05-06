@@ -26,8 +26,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PDRsetFields.H"
-#include "PDRobstacle.H"
-#include "volumeType.H"
+#include "obstacles/PDRobstacle.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 using namespace Foam;
 using namespace Foam::constant;

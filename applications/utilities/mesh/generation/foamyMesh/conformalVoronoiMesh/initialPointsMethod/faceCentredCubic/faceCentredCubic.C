@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "faceCentredCubic.H"
-#include "addToRunTimeSelectionTable.H"
+#include "initialPointsMethod/faceCentredCubic/faceCentredCubic.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

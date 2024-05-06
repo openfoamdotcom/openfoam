@@ -36,8 +36,8 @@ SourceFiles
 #ifndef searchableSurfaceControl_H
 #define searchableSurfaceControl_H
 
-#include "cellSizeFunction.H"
-#include "triad.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/cellSizeFunction/cellSizeFunction.H"
+#include "primitives/triad/triad.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

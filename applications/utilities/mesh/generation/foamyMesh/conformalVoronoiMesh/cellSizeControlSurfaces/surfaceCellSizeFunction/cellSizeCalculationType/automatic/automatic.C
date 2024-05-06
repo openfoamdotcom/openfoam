@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "automatic.H"
-#include "addToRunTimeSelectionTable.H"
-#include "triSurfaceMesh.H"
-#include "foamVtkSurfaceWriter.H"
-#include "primitivePatchInterpolation.H"
-#include "TimeOpenFOAM.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/cellSizeCalculationType/automatic/automatic.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "interpolations/primitivePatchInterpolation/primitivePatchInterpolation.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

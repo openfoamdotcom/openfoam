@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ListOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
 #include "parLagrangianDistributor.H"
 #include "passivePositionParticleCloud.H"
-#include "fileOperation.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

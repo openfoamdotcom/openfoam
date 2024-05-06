@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceHeatResistance.H"
-#include "addToRunTimeSelectionTable.H"
-#include "twoPhaseMixtureEThermo.H"
-#include "cutCellIso.H"
-#include "volPointInterpolation.H"
-#include "calculatedFvPatchFields.H"
-#include "wallPolyPatch.H"
-#include "fvcSmooth.H"
-#include "fvmSup.H"
+#include "interfaceHeatResistance/interfaceHeatResistance.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "twoPhaseMixtureEThermo/twoPhaseMixtureEThermo.H"
+#include "cellCuts/cutCell/cutCellIso.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
+#include "fields/fvPatchFields/basic/calculated/calculatedFvPatchFields.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

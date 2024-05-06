@@ -29,8 +29,8 @@ License
 #ifndef Foam_patchSummaryTemplates_H
 #define Foam_patchSummaryTemplates_H
 
-#include "volFields.H"
-#include "IOobjectList.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOobjectList/IOobjectList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,8 +38,8 @@ SourceFiles
 #ifndef mergePolyMesh_H
 #define mergePolyMesh_H
 
-#include "polyMesh.H"
-#include "polyTopoChange.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

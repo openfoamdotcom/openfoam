@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniform.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volumeType.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/uniform/uniform.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -36,14 +36,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "boundaryMesh.H"
-#include "polyMesh.H"
-#include "faceSet.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "globalMeshData.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "boundaryMesh/boundaryMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 
 using namespace Foam;
 
@@ -198,9 +198,9 @@ int main(int argc, char *argv[])
         "Search tolerance as fraction of mesh size (default 1e-3)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const auto surfName = args.get<fileName>(1);
 

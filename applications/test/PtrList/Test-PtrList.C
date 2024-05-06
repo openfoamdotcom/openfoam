@@ -28,16 +28,16 @@ Description
     Test behaviour of UPtrList, PtrList
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 
-#include "scalar.H"
-#include "IOstreams.H"
-#include "PtrDynList.H"
-#include "DLPtrList.H"
-#include "SLPtrList.H"
-#include "plane.H"
-#include "DynamicList.H"
-#include "PtrListOps.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/PtrLists/PtrDynList/PtrDynList.H"
+#include "containers/LinkedLists/user/DLPtrList.H"
+#include "containers/LinkedLists/user/SLPtrList.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
 
 using namespace Foam;
 

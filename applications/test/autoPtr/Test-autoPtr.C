@@ -27,13 +27,13 @@ License
 
 // #define Foam_autoPtr_deprecate_setMethod
 
-#include "autoPtr.H"
-#include "labelList.H"
-#include "ListOps.H"
-#include "IOstreams.H"
-#include "Switch.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/ints/lists/labelList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/bools/Switch/Switch.H"
 
-#include "C7H16.H"
+#include "liquidProperties/C7H16/C7H16.H"
 
 using namespace Foam;
 

@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extrudedMesh.H"
-#include "wallPolyPatch.H"
+#include "extrudedMesh/extrudedMesh.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

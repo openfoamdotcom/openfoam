@@ -37,18 +37,18 @@ SourceFiles
 #ifndef cellShapeControlMesh_H
 #define cellShapeControlMesh_H
 
-#include "TimeOpenFOAM.H"
-#include "scalar.H"
-#include "point.H"
-#include "tensor.H"
-#include "triad.H"
-#include "fileName.H"
-#include "searchableSurfaces.H"
-#include "conformationSurfaces.H"
-#include "DistributedDelaunayMesh.H"
-#include "CGALTriangulation3Ddefs.H"
-#include "backgroundMeshDecomposition.H"
-#include "boundBox.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/triad/triad.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "DelaunayMesh/DistributedDelaunayMesh.H"
+#include "conformalVoronoiMesh/CGALTriangulation3Ddefs.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "meshes/boundBox/boundBox.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -174,7 +174,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cellShapeControlMeshI.H"
+#include "cellShapeControl/cellShapeControlMesh/cellShapeControlMeshI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 #endif

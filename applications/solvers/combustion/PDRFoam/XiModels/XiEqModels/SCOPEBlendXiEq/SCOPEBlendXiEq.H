@@ -40,7 +40,7 @@ SourceFiles
 #ifndef SCOPEBlend_H
 #define SCOPEBlend_H
 
-#include "XiEqModel.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

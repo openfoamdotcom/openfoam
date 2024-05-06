@@ -37,7 +37,7 @@ SourceFiles
 #ifndef domainDecompositionDryRun_H
 #define domainDecompositionDryRun_H
 
-#include "fvMesh.H"
+#include "fvMesh/fvMesh.H"
 
 namespace Foam
 {

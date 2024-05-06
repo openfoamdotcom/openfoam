@@ -26,7 +26,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PDRparams.H"
-#include "stringOps.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * * Global Data * * * * * * * * * * * * * * * //
 

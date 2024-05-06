@@ -84,8 +84,8 @@ SourceFiles
 #ifndef turbulentTemperatureTwoPhaseRadCoupledMixedFvPatchScalarField_H
 #define turbulentTemperatureTwoPhaseRadCoupledMixedFvPatchScalarField_H
 
-#include "mixedFvPatchFields.H"
-#include "scalarList.H"
+#include "fields/fvPatchFields/basic/mixed/mixedFvPatchFields.H"
+#include "primitives/Scalar/lists/scalarList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

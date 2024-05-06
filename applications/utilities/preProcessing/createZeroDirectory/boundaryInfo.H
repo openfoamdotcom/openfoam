@@ -35,11 +35,11 @@ Description
 #ifndef boundaryInfo_H
 #define boundaryInfo_H
 
-#include "boolList.H"
-#include "wordList.H"
-#include "HashSet.H"
-#include "IOPtrList.H"
-#include "entry.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
+#include "db/dictionary/entry/entry.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

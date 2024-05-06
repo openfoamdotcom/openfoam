@@ -27,9 +27,9 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "boundaryTemplates.H"
-#include "TimeOpenFOAM.H"
-#include "IFstream.H"
-#include "StringStream.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

@@ -35,14 +35,14 @@ SourceFiles
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IOdictionary.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
 
 #include "PDRsetFields.H"
 #include "PDRlegacy.H"
 #include "PDRutils.H"
-#include "IOmanip.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
 
 using namespace Foam;
 
@@ -79,11 +79,11 @@ int main(int argc, char* argv[])
         "Read obstacles and write VTK only"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word dictName("PDRsetFieldsDict");
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
 
     Info<< "Reading " << dictIO.name() << nl << endl;
 

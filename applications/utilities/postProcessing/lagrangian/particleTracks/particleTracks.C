@@ -36,14 +36,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "CloudPascal.H"
-#include "IOdictionary.H"
-#include "fvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "timeSelector.H"
-#include "coordSetWriter.H"
-#include "passiveParticleCloud.H"
+#include "global/argList/argList.H"
+#include "Cloud/CloudPascal.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "fvMesh/fvMesh.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
+#include "coordSet/writers/common/coordSetWriter.H"
+#include "passiveParticle/passiveParticleCloud.H"
 #include "particleTracksSampler.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
         " computed using a tracked-parcel-type cloud"
     );
     timeSelector::addOptions();
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
     // Less frequently used - reduce some clutter
     argList::setAdvanced("decomposeParDict");
@@ -117,15 +117,15 @@ int main(int argc, char *argv[])
     );
     argList::addVerboseOption();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     instantList timeDirs = timeSelector::select0(runTime, args);
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // ------------------------------------------------------------------------
     // Control properties
 
-    #include "createControls.H"
+    #include "include/createControls.H"
 
     args.readListIfPresent<wordRe>("fields", acceptFields);
     args.readIfPresent("format", setFormat);

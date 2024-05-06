@@ -40,29 +40,29 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyTopoChange.H"
-#include "polyTopoChanger.H"
-#include "edgeCollapser.H"
-#include "perfectInterface.H"
-#include "addPatchCellLayer.H"
-#include "fvMesh.H"
-#include "MeshedSurfaces.H"
-#include "globalIndex.H"
-#include "cellSet.H"
-#include "fvMeshTools.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "polyTopoChange/polyTopoChange/edgeCollapser.H"
+#include "perfectInterface/perfectInterface.H"
+#include "polyTopoChange/polyTopoChange/addPatchCellLayer.H"
+#include "fvMesh/fvMesh.H"
+#include "MeshedSurface/MeshedSurfaces.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
 
 #include "extrudedMesh/extrudedMesh.H"
-#include "extrudeModel.H"
+#include "extrudeModel/extrudeModel.H"
 
-#include "wedge.H"
-#include "wedgePolyPatch.H"
-#include "planeExtrusion.H"
-#include "emptyPolyPatch.H"
-#include "processorPolyPatch.H"
+#include "wedge/wedge.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "planeExtrusion/planeExtrusion.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 #include "processorMeshes.H"
-#include "hexRef8Data.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
 
 using namespace Foam;
 
@@ -250,13 +250,13 @@ int main(int argc, char *argv[])
         "Extrude mesh from existing patch."
     );
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addOption("dict", "file", "Alternative extrudeMeshDict");
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
     #include "createTimeExtruded.H"
 
     // Specified region or default region
-    #include "getRegionOption.H"
+    #include "include/getRegionOption.H"
 
     {
         Info<< "Create mesh";
@@ -382,7 +382,7 @@ int main(int argc, char *argv[])
             sourceCaseDir
         );
 
-        #include "createNamedMesh.H"
+        #include "include/createNamedMesh.H"
 
         const polyBoundaryMesh& patches = mesh.boundaryMesh();
 

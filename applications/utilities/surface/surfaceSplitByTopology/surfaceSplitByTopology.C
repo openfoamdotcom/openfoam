@@ -38,8 +38,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "triSurface.H"
+#include "global/argList/argList.H"
+#include "triSurface/triSurface.H"
 
 using namespace Foam;
 

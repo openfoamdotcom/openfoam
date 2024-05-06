@@ -1,9 +1,9 @@
 #include "checkMeshQuality.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "motionSmoother.H"
-#include "surfaceWriter.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "motionSmoother/motionSmoother.H"
+#include "writers/common/surfaceWriter.H"
 #include "checkTools.H"
 
 Foam::label Foam::checkMeshQuality

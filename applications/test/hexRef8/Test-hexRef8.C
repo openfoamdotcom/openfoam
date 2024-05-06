@@ -32,18 +32,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "hexRef8.H"
-#include "mapPolyMesh.H"
-#include "polyTopoChange.H"
-#include "Random.H"
-#include "calculatedPointPatchFields.H"
-#include "pointConstraints.H"
-#include "fvCFD.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "primitives/random/Random/Random.H"
+#include "fields/pointPatchFields/basic/calculated/calculatedPointPatchFields.H"
+#include "interpolation/volPointInterpolation/pointConstraints.H"
+#include "cfdTools/general/include/fvCFD.H"
 
 using namespace Foam;
 
@@ -52,11 +52,11 @@ using namespace Foam;
 // Main program:
 int main(int argc, char *argv[])
 {
-    #include "addTimeOptions.H"
+    #include "include/addTimeOptions.H"
     argList::addArgument("inflate (true|false)");
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
 
     const pointConstraints& pc = pointConstraints::New(pointMesh::New(mesh));
@@ -301,7 +301,7 @@ int main(int argc, char *argv[])
         // Check mesh volume conservation
         if (mesh.moving())
         {
-            #include "volContinuity.H"
+            #include "cfdTools/general/include/volContinuity.H"
         }
         else
         {

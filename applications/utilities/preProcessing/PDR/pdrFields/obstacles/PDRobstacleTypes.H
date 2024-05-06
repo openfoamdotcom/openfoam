@@ -37,7 +37,7 @@ SourceFiles
 #ifndef PDRobstacleTypes_H
 #define PDRobstacleTypes_H
 
-#include "PDRobstacle.H"
+#include "obstacles/PDRobstacle.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

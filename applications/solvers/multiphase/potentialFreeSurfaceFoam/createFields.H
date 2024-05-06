@@ -26,7 +26,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 singlePhaseTransportModel laminarTransport(U, phi);
 
@@ -35,7 +35,7 @@ autoPtr<incompressible::turbulenceModel> turbulence
     incompressible::turbulenceModel::New(U, phi, laminarTransport)
 );
 
-#include "readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
 
 Info<< "Creating field zeta\n" << endl;
 volVectorField zeta
@@ -76,5 +76,5 @@ scalar p_ghRefValue = 0.0;
 setRefCell(p_gh, pimple.dict(), p_ghRefCell, p_ghRefValue);
 mesh.setFluxRequired(p_gh.name());
 
-#include "createMRF.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createMRF.H"
+#include "cfdTools/general/include/createFvOptions.H"

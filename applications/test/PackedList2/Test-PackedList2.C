@@ -29,11 +29,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "boolList.H"
-#include "bitSet.H"
-#include "HashSet.H"
-#include "cpuTime.H"
+#include "global/argList/argList.H"
+#include "primitives/bools/lists/boolList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "cpuTime/cpuTime.H"
 #include <vector>
 #include <unordered_set>
 

@@ -31,15 +31,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "Pair.H"
-#include "Tuple2.H"
-#include "IOstreams.H"
-#include "StringStream.H"
-#include "Random.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 
@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
     argList::noBanner();
     argList::noCheckProcessorDirectories();
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (!Pstream::parRun())
     {

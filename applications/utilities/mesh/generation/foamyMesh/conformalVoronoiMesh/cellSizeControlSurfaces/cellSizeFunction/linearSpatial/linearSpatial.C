@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "linearSpatial.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volumeType.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/linearSpatial/linearSpatial.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

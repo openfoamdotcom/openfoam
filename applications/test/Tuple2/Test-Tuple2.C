@@ -32,14 +32,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "labelPair.H"
-#include "Tuple2.H"
-#include "label.H"
-#include "scalar.H"
-#include "List.H"
-#include "ListOps.H"
-#include "ops.H"
-#include "Pstream.H"
+#include "primitives/tuples/labelPair.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/ints/label/label.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/ops/ops.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
 #include <functional>
 
 using namespace Foam;

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef VoFPatchTransfer_H
 #define VoFPatchTransfer_H
 
-#include "transferModel.H"
+#include "submodels/kinematic/transferModels/transferModel/transferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,9 +37,9 @@ SourceFiles
 #ifndef cvControls_H
 #define cvControls_H
 
-#include "dictionary.H"
-#include "Switch.H"
-#include "vector.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "primitives/Vector/floats/vector.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -356,7 +356,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "cvControlsI.H"
+#include "cvControls/cvControlsI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "pointPairs.H"
+#include "pointPairs/pointPairs.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 
-#include "scalar.H"
+#include "primitives/Scalar/scalar/scalar.H"
 
-#include "IOstreams.H"
-#include "PtrListDictionary.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Dictionaries/PtrListDictionary/PtrListDictionary.H"
 
 using namespace Foam;
 

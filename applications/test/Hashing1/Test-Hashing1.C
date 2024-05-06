@@ -31,17 +31,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "IFstream.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
 
-#include "stringList.H"
-#include "labelList.H"
-#include "labelPair.H"
-#include "wordPair.H"
-#include "edgeList.H"
-#include "faceList.H"
-#include "triFaceList.H"
+#include "primitives/strings/lists/stringList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/tuples/labelPair.H"
+#include "primitives/tuples/wordPair.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
 
 #define FULLDEBUG
 #include "HashFunction.H"

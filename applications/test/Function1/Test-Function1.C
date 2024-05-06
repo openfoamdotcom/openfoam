@@ -32,14 +32,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
 #include "Function1.H"
-#include "scalarIndList.H"
-#include "scalarField.H"
-#include "IOdictionary.H"
-#include "linearInterpolationWeights.H"
-#include "splineInterpolationWeights.H"
+#include "primitives/Scalar/lists/scalarIndList.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "interpolations/interpolationWeights/linearInterpolationWeights/linearInterpolationWeights.H"
+#include "interpolations/interpolationWeights/splineInterpolationWeights/splineInterpolationWeights.H"
 
 using namespace Foam;
 
@@ -58,8 +58,8 @@ int main(int argc, char *argv[])
     argList::addArgument("functionN");
     argList::noMandatoryArgs();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     {
         scalarField samples({0, 1, 2, 3});
@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
 
     if (args.found("all") || args.size() > 1)
     {
-        #include "setConstantRunTimeDictionaryIO.H"
+        #include "include/setConstantRunTimeDictionaryIO.H"
 
         #if (OPENFOAM > 2212)
         dictionary propsDict(IOdictionary::readContents(dictIO));

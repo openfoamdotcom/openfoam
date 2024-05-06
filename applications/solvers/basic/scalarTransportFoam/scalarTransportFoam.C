@@ -55,9 +55,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "fvOptions.H"
-#include "simpleControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -68,10 +68,10 @@ int main(int argc, char *argv[])
         "Passive scalar transport equation solver."
     );
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     simpleControl simple(mesh);
 
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 
     Info<< "\nCalculating scalar transport\n" << endl;
 
-    #include "CourantNo.H"
+    #include "cfdTools/incompressible/CourantNo.H"
 
     while (simple.loop())
     {

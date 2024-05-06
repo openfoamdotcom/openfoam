@@ -26,14 +26,14 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "HashTable.H"
-#include "List.H"
-#include "DynamicList.H"
-#include "FlatOutput.H"
-#include "IOstreams.H"
-#include "SpanStream.H"
-#include "ListOps.H"
-#include "stringListOps.H"
+#include "containers/HashTables/HashTable/HashTable.H"
+#include "containers/Lists/List/List.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "primitives/strings/lists/stringListOps.H"
 
 using namespace Foam;
 

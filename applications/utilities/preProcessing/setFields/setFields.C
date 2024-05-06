@@ -35,17 +35,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "fvMesh.H"
-#include "faMesh.H"
-#include "topoSetSource.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "volFields.H"
-#include "areaFields.H"
-#include "coupledFvPatch.H"
-#include "coupledFaPatch.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fvMesh/fvMesh.H"
+#include "faMesh/faMesh.H"
+#include "topoSet/topoSetSource/topoSetSource.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "fields/volFields/volFields.H"
+#include "fields/areaFields/areaFields.H"
+#include "fvMesh/fvPatches/basic/coupled/coupledFvPatch.H"
+#include "faMesh/faPatches/basic/coupled/coupledFaPatch.H"
 
 using namespace Foam;
 
@@ -669,10 +669,10 @@ int main(int argc, char *argv[])
         "Suppress handling of finite-area mesh/fields"
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     autoPtr<faMesh> faMeshPtr;
 
@@ -686,7 +686,7 @@ int main(int argc, char *argv[])
     }
 
     const word dictName("setFieldsDict");
-    #include "setSystemMeshDictionaryIO.H"
+    #include "include/setSystemMeshDictionaryIO.H"
 
     Info<< "Reading " << dictIO.name() << nl << endl;
 

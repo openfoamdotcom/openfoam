@@ -26,8 +26,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "domainDecomposition.H"
-#include "cpuTime.H"
-#include "decompositionMethod.H"
+#include "cpuTime/cpuTime.H"
+#include "decompositionMethod/decompositionMethod.H"
 #include "decompositionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

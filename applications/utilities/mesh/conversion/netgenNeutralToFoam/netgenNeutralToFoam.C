@@ -80,13 +80,13 @@ NOTE:
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "IFstream.H"
-#include "polyPatch.H"
-#include "cellModel.H"
-#include "triFace.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "meshes/meshShapes/triFace/triFace.H"
 
 using namespace Foam;
 
@@ -101,8 +101,8 @@ int main(int argc, char *argv[])
     );
     argList::addArgument("Neutral file");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     IFstream str(args.get<fileName>(1));
 

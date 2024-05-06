@@ -34,8 +34,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 #include "fluentFvMesh.H"
 
 using namespace Foam;
@@ -49,8 +49,8 @@ int main(int argc, char *argv[])
         "Write an OpenFOAM mesh in Fluent mesh format"
     );
     argList::noParallel();
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     Info<< "Create mesh for time = "
         << runTime.timeName() << nl << endl;

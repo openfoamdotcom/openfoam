@@ -36,9 +36,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "triSurfaceSearch.H"
-#include "orientedSurface.H"
+#include "global/argList/argList.H"
+#include "triSurface/triSurfaceSearch/triSurfaceSearch.H"
+#include "triSurface/orientedSurface/orientedSurface.H"
 
 using namespace Foam;
 

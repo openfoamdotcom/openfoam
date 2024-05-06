@@ -74,7 +74,7 @@
         dimensionedVector(dimVelocity, Zero)
     );
 
-    #include "createPhi.H"
+    #include "cfdTools/incompressible/createPhi.H"
 
     OFstream post(args.path()/"chemFoam.out");
     post<< "# Time" << token::TAB << "Temperature [K]" << token::TAB

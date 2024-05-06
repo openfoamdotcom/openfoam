@@ -29,13 +29,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "hashedWordList.H"
-#include "HashOps.H"
-#include "HashSet.H"
-#include "Map.H"
-#include "MinMax.H"
-#include "labelPairHashes.H"
-#include "FlatOutput.H"
+#include "primitives/strings/lists/hashedWordList.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/HashTables/Map/Map.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "primitives/tuples/labelPairHashes.H"
+#include "db/IOstreams/output/FlatOutput.H"
 
 using namespace Foam;
 

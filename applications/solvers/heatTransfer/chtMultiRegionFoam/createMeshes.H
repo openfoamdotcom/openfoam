@@ -1,4 +1,4 @@
 regionProperties rp(runTime);
 
-#include "createFluidMeshes.H"
-#include "createSolidMeshes.H"
+#include "fluid/createFluidMeshes.H"
+#include "solid/createSolidMeshes.H"

@@ -212,7 +212,7 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "indexedVertexI.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

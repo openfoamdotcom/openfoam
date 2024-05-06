@@ -65,8 +65,8 @@ SourceFiles
 #ifndef general_H
 #define general_H
 
-#include "tabulatedWallFunction.H"
-#include "Enum.H"
+#include "tabulatedWallFunction/tabulatedWallFunction.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

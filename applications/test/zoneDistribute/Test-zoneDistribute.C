@@ -34,17 +34,17 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "centredCPCCellToCellStencilObject.H"
-#include "zoneDistribute.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fvMesh/extendedStencil/cellToCell/MeshObjects/centredCPCCellToCellStencilObject.H"
+#include "fvMesh/zoneDistribute/zoneDistribute.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     const extendedCentredCellToCellStencil& stencil =
         centredCPCCellToCellStencilObject::New(mesh);

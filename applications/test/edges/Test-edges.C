@@ -31,9 +31,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "edgeList.H"
-#include "edgeHashes.H"
+#include "global/argList/argList.H"
+#include "meshes/meshShapes/edge/edgeList.H"
+#include "meshes/meshShapes/edge/edgeHashes.H"
 
 using namespace Foam;
 

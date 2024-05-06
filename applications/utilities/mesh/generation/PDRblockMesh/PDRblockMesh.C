@@ -51,12 +51,12 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "polyMesh.H"
-#include "PDRblock.H"
-#include "TimeOpenFOAM.H"
-#include "IOdictionary.H"
-#include "OSspecific.H"
+#include "global/argList/argList.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "PDRblockMesh/PDRblock.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "include/OSspecific.H"
 
 using namespace Foam;
 
@@ -120,8 +120,8 @@ int main(int argc, char *argv[])
         "Specify a time to write mesh to (default: constant)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Remove old files, unless disabled
     const bool removeOldFiles = !args.found("no-clean");
@@ -159,7 +159,7 @@ int main(int argc, char *argv[])
 
     // Locate appropriate PDRblockMeshDict
     const word dictName("PDRblockMeshDict");
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
 
     IOdictionary meshDict(dictIO);
 

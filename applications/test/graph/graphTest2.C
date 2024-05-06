@@ -31,7 +31,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "graph.H"
+#include "graph/graph.H"
 
 using namespace Foam;
 

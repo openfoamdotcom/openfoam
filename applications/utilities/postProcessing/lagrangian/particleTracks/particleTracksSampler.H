@@ -38,11 +38,11 @@ SourceFiles
 #ifndef Foam_particleTracksSampler_H
 #define Foam_particleTracksSampler_H
 
-#include "globalIndex.H"
-#include "fieldTypes.H"
-#include "IOField.H"
-#include "labelField.H"
-#include "DynamicList.H"
+#include "parallel/globalIndex/globalIndex.H"
+#include "fields/Fields/fieldTypes.H"
+#include "db/IOobjects/IOField/IOField.H"
+#include "fields/Fields/labelField/labelField.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

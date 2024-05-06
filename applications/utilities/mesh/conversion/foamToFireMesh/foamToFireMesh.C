@@ -45,11 +45,11 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "FIREMeshWriter.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "fire/FIREMeshWriter.H"
 
 using namespace Foam;
 
@@ -77,8 +77,8 @@ int main(int argc, char *argv[])
         "Geometry scaling factor - default is 1 (none)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::select0(runTime, args);
 
@@ -103,7 +103,7 @@ int main(int argc, char *argv[])
         }
     }
 
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
 
     forAll(timeDirs, timeI)
     {

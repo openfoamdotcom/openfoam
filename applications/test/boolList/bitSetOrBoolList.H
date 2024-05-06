@@ -35,8 +35,8 @@ Description
 #ifndef Foam_bitSetOrBoolList_H
 #define Foam_bitSetOrBoolList_H
 
-#include "bitSet.H"
-#include "boolList.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "primitives/bools/lists/boolList.H"
 
 /*---------------------------------------------------------------------------*\
                       Class bitSetOrBoolList Declaration

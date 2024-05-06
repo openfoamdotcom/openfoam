@@ -1,7 +1,7 @@
 // Some test code
 
-#include "foamVersion.H"
-#include "IOstreams.H"
+#include "include/foamVersion.H"
+#include "db/IOstreams/IOstreams.H"
 
 namespace Foam
 {

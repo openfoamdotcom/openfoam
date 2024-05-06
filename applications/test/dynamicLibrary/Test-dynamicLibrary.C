@@ -31,9 +31,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "profiling.H"
-#include "DynamicList.H"
+#include "global/argList/argList.H"
+#include "global/profiling/profiling.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 using namespace Foam;
 

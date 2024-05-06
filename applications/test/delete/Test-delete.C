@@ -29,8 +29,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "word.H"
-#include "IOstreams.H"
+#include "primitives/strings/word/word.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

@@ -54,19 +54,19 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "simpleControl.H"
-#include "dynamicFvMesh.H"
-#include "dynamicOversetFvMesh.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "oversetFvMesh/dynamicOversetFvMesh/dynamicOversetFvMesh.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createNamedDynamicFvMesh.H"
+    #include "include/createTime.H"
+    #include "include/createNamedDynamicFvMesh.H"
 
     simpleControl simple(mesh);
 

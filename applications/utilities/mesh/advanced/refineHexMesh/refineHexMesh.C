@@ -35,22 +35,22 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvMesh.H"
-#include "pointMesh.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "hexRef8.H"
-#include "cellSet.H"
-#include "Fstream.H"
-#include "meshTools.H"
-#include "polyTopoChange.H"
-#include "mapPolyMesh.H"
-#include "volMesh.H"
-#include "surfaceMesh.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "pointFields.H"
-#include "ReadFieldsPascal.H"
+#include "fvMesh/fvMesh.H"
+#include "meshes/pointMesh/pointMesh.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "meshTools/meshTools.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "volMesh/volMesh.H"
+#include "surfaceMesh/surfaceMesh.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -63,8 +63,8 @@ int main(int argc, char *argv[])
     (
         "Refine a hex mesh by 2x2x2 cell splitting for the specified cellSet"
     );
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
     argList::addArgument("cellSet");
     argList::addBoolOption
     (
@@ -75,9 +75,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

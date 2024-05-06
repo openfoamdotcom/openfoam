@@ -36,9 +36,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "meshToMesh.H"
-#include "processorPolyPatch.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "meshToMesh/meshToMesh.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 #include "MapMeshes.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -211,7 +211,7 @@ int main(int argc, char *argv[])
     argList::addOptionCompat("no-lagrangian", {"noLagrangian", 2106});
 
     argList args(argc, argv);
-    #include "foamDlOpenLibs.H"
+    #include "include/foamDlOpenLibs.H"
 
     fileName rootDirTarget(args.rootPath());
     fileName caseDirTarget(args.globalCaseName());

@@ -36,27 +36,27 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
 
-#include "fvCFD.H"
-#include "IOobjectList.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "db/IOobjectList/IOobjectList.H"
 #include "processorMeshes.H"
-#include "regionProperties.H"
+#include "regionModel/regionProperties/regionProperties.H"
 #include "fvFieldReconstructor.H"
 #include "pointFieldReconstructor.H"
 #include "lagrangianReconstructor.H"
 
-#include "faCFD.H"
-#include "faMesh.H"
+#include "include/faCFD.H"
+#include "faMesh/faMesh.H"
 #include "processorFaMeshes.H"
 #include "faFieldReconstructor.H"
 
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
 
-#include "hexRef8Data.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
     timeSelector::addOptions(true, true);  // constant(true), zero(true)
     argList::noParallel();
 
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
     argList::addVerboseOption();
     argList::addOption
@@ -135,8 +135,8 @@ int main(int argc, char *argv[])
         "Only reconstruct new times (i.e. that do not exist already)"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
 
     const bool doFields = !args.found("no-fields");
@@ -197,7 +197,7 @@ int main(int argc, char *argv[])
     const bool newTimes = args.found("newTimes");
 
     // Get region names
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     // Determine the processor count
     label nProcs{0};

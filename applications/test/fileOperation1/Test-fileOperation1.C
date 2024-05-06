@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "fileOperation.H"
-#include "SubList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "OSspecific.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "global/fileOperations/fileOperation/fileOperation.H"
+#include "containers/Lists/List/SubList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "include/OSspecific.H"
 
 
 using namespace Foam;

@@ -26,16 +26,16 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PhaseCompressibleTurbulenceModel.H"
-#include "fluidThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "fluidThermo/fluidThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "makeTurbulenceModel.H"
 
-#include "ThermalDiffusivity.H"
-#include "EddyDiffusivity.H"
+#include "ThermalDiffusivity/ThermalDiffusivity.H"
+#include "EddyDiffusivity/EddyDiffusivity.H"
 
-#include "laminarModel.H"
-#include "RASModel.H"
-#include "LESModel.H"
+#include "laminar/laminarModel/laminarModel.H"
+#include "RAS/RASModel/RASModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -76,10 +76,10 @@ makeBaseTurbulenceModel
 // Laminar models
 // -------------------------------------------------------------------------- //
 
-#include "Stokes.H"
+#include "laminar/Stokes/Stokes.H"
 makeLaminarModel(Stokes);
 
-#include "Maxwell.H"
+#include "laminar/Maxwell/Maxwell.H"
 makeLaminarModel(Maxwell);
 
 
@@ -87,10 +87,10 @@ makeLaminarModel(Maxwell);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "kEpsilon.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
-#include "kOmegaSST.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
 makeRASModel(kOmegaSST);
 
 
@@ -98,10 +98,10 @@ makeRASModel(kOmegaSST);
 // LES models
 // -------------------------------------------------------------------------- //
 
-#include "Smagorinsky.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
 makeLESModel(Smagorinsky);
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 makeLESModel(kEqn);
 
 

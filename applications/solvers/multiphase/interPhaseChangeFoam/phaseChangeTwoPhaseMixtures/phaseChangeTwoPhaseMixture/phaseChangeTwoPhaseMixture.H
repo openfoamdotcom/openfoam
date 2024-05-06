@@ -38,13 +38,13 @@ SourceFiles
 #ifndef phaseChangeTwoPhaseMixture_H
 #define phaseChangeTwoPhaseMixture_H
 
-#include "incompressibleTwoPhaseMixture.H"
-#include "typeInfo.H"
-#include "runTimeSelectionTables.H"
-#include "volFields.H"
-#include "dimensionedScalar.H"
-#include "autoPtr.H"
-#include "Pair.H"
+#include "incompressibleTwoPhaseMixture/incompressibleTwoPhaseMixture.H"
+#include "db/typeInfo/typeInfo.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
+#include "fields/volFields/volFields.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "primitives/tuples/Pair.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "memInfo.H"
-#include "IOstreams.H"
-#include "List.H"
-#include "vector.H"
+#include "memInfo/memInfo.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/Vector/floats/vector.H"
 
 using namespace Foam;
 

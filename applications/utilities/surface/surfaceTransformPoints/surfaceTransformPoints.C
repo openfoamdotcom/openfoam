@@ -49,15 +49,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Fstream.H"
-#include "boundBox.H"
-#include "transformField.H"
-#include "Pair.H"
-#include "Tuple2.H"
-#include "axisAngleRotation.H"
-#include "EulerCoordinateRotation.H"
-#include "MeshedSurfaces.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "meshes/boundBox/boundBox.H"
+#include "fields/Fields/transformField/transformField.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/coordinate/rotation/axisAngleRotation.H"
+#include "primitives/coordinate/rotation/EulerCoordinateRotation.H"
+#include "MeshedSurface/MeshedSurfaces.H"
 
 using namespace Foam;
 using namespace Foam::coordinateRotations;

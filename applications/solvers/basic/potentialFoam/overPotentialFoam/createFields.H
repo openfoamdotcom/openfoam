@@ -11,7 +11,7 @@
 }
 
 // Mask field for zeroing out contributions on hole cells
-#include "createCellMask.H"
+#include "include/createCellMask.H"
 
 // Create bool field with interpolated cells
-#include "createInterpolatedCells.H"
+#include "include/createInterpolatedCells.H"

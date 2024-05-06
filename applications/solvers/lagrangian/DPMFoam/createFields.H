@@ -1,4 +1,4 @@
-#include "readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
 
 word continuousPhaseName
 (

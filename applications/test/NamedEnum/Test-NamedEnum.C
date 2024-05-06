@@ -30,8 +30,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "NamedEnum.H"
-#include "FlatOutput.H"
+#include "primitives/enums/compat/NamedEnum.H"
+#include "db/IOstreams/output/FlatOutput.H"
 
 // Expect compile-time warnings
 

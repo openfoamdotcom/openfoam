@@ -39,26 +39,26 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOobjectList.H"
-#include "fvMesh.H"
-#include "polyTopoChange.H"
-#include "ReadFieldsPascal.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "SortableList.H"
-#include "decompositionMethod.H"
-#include "renumberMethod.H"
-#include "zeroGradientFvPatchFields.H"
-#include "CuthillMcKeeRenumber.H"
-#include "fvMeshSubset.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
+#include "global/argList/argList.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fvMesh/fvMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "containers/Lists/SortableList/SortableList.H"
+#include "decompositionMethod/decompositionMethod.H"
+#include "renumberMethod/renumberMethod.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "CuthillMcKeeRenumber/CuthillMcKeeRenumber.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
 #include "processorMeshes.H"
-#include "hexRef8Data.H"
-#include "regionProperties.H"
-#include "polyMeshTools.H"
+#include "polyTopoChange/polyTopoChange/hexRef8/hexRef8Data.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "meshes/polyMesh/polyMeshCheck/polyMeshTools.H"
 
 #ifdef HAVE_ZOLTAN
     #include "zoltanRenumber.H"
@@ -604,9 +604,9 @@ int main(int argc, char *argv[])
         "Renumber mesh cells to reduce the bandwidth"
     );
 
-    #include "addAllRegionOptions.H"
-    #include "addOverwriteOption.H"
-    #include "addTimeOptions.H"
+    #include "include/addAllRegionOptions.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addTimeOptions.H"
 
     argList::addOption("dict", "file", "Alternative renumberMeshDict");
 
@@ -618,9 +618,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "getAllRegionOptions.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/getAllRegionOptions.H"
 
     // Force linker to include zoltan symbols. This section is only needed since
     // Zoltan is a static library
@@ -633,11 +633,11 @@ int main(int argc, char *argv[])
     instantList Times = runTime.times();
 
     // Set startTime and endTime depending on -time and -latestTime options
-    #include "checkTimeOptions.H"
+    #include "include/checkTimeOptions.H"
 
     runTime.setTime(Times[startTime], startTime);
 
-    #include "createNamedMeshes.H"
+    #include "include/createNamedMeshes.H"
 
     const bool readDict = args.found("dict");
     const bool doFrontWidth = args.found("frontWidth");
@@ -701,7 +701,7 @@ int main(int argc, char *argv[])
         if (readDict)
         {
             const word dictName("renumberMeshDict");
-            #include "setSystemMeshDictionaryIO.H"
+            #include "include/setSystemMeshDictionaryIO.H"
 
             Info<< "Renumber according to " << dictIO.name() << nl << endl;
 

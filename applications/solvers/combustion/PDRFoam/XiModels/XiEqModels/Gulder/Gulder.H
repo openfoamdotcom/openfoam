@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Gulder_H
 #define Gulder_H
 
-#include "XiEqModel.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

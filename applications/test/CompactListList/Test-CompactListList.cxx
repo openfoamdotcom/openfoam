@@ -32,11 +32,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "CompactListList.H"
-#include "IndirectList.H"
-#include "IOstreams.H"
-#include "SpanStream.H"
-#include "faceList.H"
+#include "containers/CompactLists/CompactListList/CompactListList.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "meshes/meshShapes/face/faceList.H"
 
 #include <iterator>  // for back_inserter
 

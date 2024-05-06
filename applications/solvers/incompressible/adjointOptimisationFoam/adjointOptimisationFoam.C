@@ -34,20 +34,20 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "optimisationManager.H"
-#include "primalSolver.H"
-#include "adjointSolverManager.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "optimisation/optimisationManager/optimisationManager/optimisationManager.H"
+#include "solvers/primalSolvers/primalSolver/primalSolver.H"
+#include "solvers/adjointSolverManager/adjointSolverManager.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 int main(int argc, char *argv[])
 {
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

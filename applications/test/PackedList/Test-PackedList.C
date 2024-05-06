@@ -30,12 +30,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "uLabel.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "IFstream.H"
-#include "bitSet.H"
+#include "global/argList/argList.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "containers/Bits/bitSet/bitSet.H"
 #include <climits>
 
 

@@ -41,9 +41,9 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "regionProperties.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "regionModel/regionProperties/regionProperties.H"
 
 using namespace Foam;
 
@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
     argList::noMandatoryArgs();
     argList::addArgument("regionType ... regionType");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // Silent version of "createTime.H", without libraries
     Time runTime

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "extrude2DMesh.H"
-#include "polyMesh.H"
-#include "polyTopoChange.H"
+#include "extrude2DMesh/extrude2DMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "polyTopoChange/polyTopoChange.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

@@ -51,20 +51,20 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyTopoChange.H"
-#include "polyModifyFace.H"
-#include "polyAddFace.H"
-#include "combineFaces.H"
-#include "removePoints.H"
-#include "polyMesh.H"
-#include "mapPolyMesh.H"
-#include "unitConversion.H"
-#include "motionSmoother.H"
-#include "topoSet.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/modifyObject/polyModifyFace.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "polyTopoChange/polyTopoChange/combineFaces.H"
+#include "polyTopoChange/polyTopoChange/removePoints.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "global/constants/unitConversion.H"
+#include "motionSmoother/motionSmoother.H"
+#include "topoSet/topoSets/topoSet.H"
 #include "processorMeshes.H"
-#include "PstreamReduceOps.H"
+#include "db/IOstreams/Pstreams/PstreamReduceOps.H"
 
 using namespace Foam;
 
@@ -351,7 +351,7 @@ int main(int argc, char *argv[])
         "Checks for multiple patch faces on the same cell and combines them."
     );
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::addArgument
     (
@@ -372,9 +372,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

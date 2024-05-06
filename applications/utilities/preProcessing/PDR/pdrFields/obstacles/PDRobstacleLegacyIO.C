@@ -25,10 +25,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "PDRobstacle.H"
-#include "vector.H"
-#include "stringOps.H"
-#include "unitConversion.H"
+#include "obstacles/PDRobstacle.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "global/constants/unitConversion.H"
 #include <cmath>
 
 #define ReportLineInfo(line, file)                                            \

@@ -56,7 +56,7 @@ SourceFiles
 #ifndef basicSubGrid_H
 #define basicSubGrid_H
 
-#include "XiGModel.H"
+#include "XiModels/XiGModels/XiGModel/XiGModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

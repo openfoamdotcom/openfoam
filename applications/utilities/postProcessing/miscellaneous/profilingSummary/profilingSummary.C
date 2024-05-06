@@ -37,16 +37,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "OSspecific.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "argList.H"
-#include "stringOps.H"
-#include "timeSelector.H"
-#include "IOobjectList.H"
-#include "functionObject.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/stringOps/stringOps.H"
+#include "db/Time/timeSelector.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/functionObjects/functionObject/functionObject.H"
 
 using namespace Foam;
 
@@ -82,8 +82,8 @@ int main(int argc, char *argv[])
     // Note that this should work without problems when profiling is active,
     // since we don't trigger it anywhere
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Determine the processor count
     const label nProcs = fileHandler().nProcs(args.path());

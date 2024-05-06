@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "composedFunctionImplicitFunction.H"
-#include "scalarField.H"
-#include "addToRunTimeSelectionTable.H"
+#include "implicitFunctions/composedFunction/composedFunctionImplicitFunction.H"
+#include "fields/Fields/scalarField/scalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

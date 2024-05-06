@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "indexedVertexOps.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertexOps.H"
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 

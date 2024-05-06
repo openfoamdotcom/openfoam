@@ -29,16 +29,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "bool.H"
-#include "Switch.H"
-#include "dictionary.H"
-#include "zero.H"
-#include "IOstreams.H"
-#include "PstreamBuffers.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IOobject.H"
-#include "scalarField.H"
+#include "primitives/bools/bool/bool.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/traits/zero.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Pstreams/PstreamBuffers.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobject/IOobject.H"
+#include "fields/Fields/scalarField/scalarField.H"
 
 namespace Foam
 {

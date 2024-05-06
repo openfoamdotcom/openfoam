@@ -58,20 +58,20 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/timeSelector.H"
 
-#include "IOobjectList.H"
-#include "labelIOList.H"
-#include "processorPolyPatch.H"
-#include "mapAddedPolyMesh.H"
-#include "polyMeshAdder.H"
-#include "faceCoupleInfo.H"
-#include "fvMeshAdder.H"
-#include "polyTopoChange.H"
-#include "topoSet.H"
-#include "regionProperties.H"
-#include "fvMeshTools.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "primitives/ints/lists/labelIOList.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "meshes/polyMesh/mapPolyMesh/mapAddedPolyMesh.H"
+#include "polyMeshAdder/polyMeshAdder.H"
+#include "polyMeshAdder/faceCoupleInfo.H"
+#include "fvMeshAdder/fvMeshAdder.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "topoSet/topoSets/topoSet.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
 
 using namespace Foam;
 
@@ -623,10 +623,10 @@ int main(int argc, char *argv[])
         "decomposition method or as a volScalarField for post-processing."
     );
 
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     printWarning();
 
@@ -681,7 +681,7 @@ int main(int argc, char *argv[])
     }
 
     // Get region names
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     // Determine the processor count
     label nProcs{0};

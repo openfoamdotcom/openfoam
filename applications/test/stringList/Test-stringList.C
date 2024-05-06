@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "stringListOps.H"
-#include "ListOps.H"
-#include "FlatOutput.H"
-#include "IOstreams.H"
-#include "SpanStream.H"
+#include "primitives/strings/lists/stringListOps.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/memory/SpanStream.H"
 
 using namespace Foam;
 

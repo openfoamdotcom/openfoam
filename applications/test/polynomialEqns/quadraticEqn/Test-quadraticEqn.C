@@ -34,8 +34,8 @@ Description
 #include <ctime>
 #include <random>
 
-#include "quadraticEqn.H"
-#include "vector2D.H"
+#include "primitives/polynomialEqns/quadraticEqn/quadraticEqn.H"
+#include "primitives/Vector2D/floats/vector2D.H"
 
 using namespace Foam;
 

@@ -34,7 +34,7 @@ while (piso.correctNonOrthogonal())
     }
 }
 
-#include "continuityErrs.H"
+#include "cfdTools/incompressible/continuityErrs.H"
 
 U = HbyA - rAU*fvc::grad(p);
 U.correctBoundaryConditions();

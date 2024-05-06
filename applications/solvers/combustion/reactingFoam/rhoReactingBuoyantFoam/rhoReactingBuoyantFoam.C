@@ -35,15 +35,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "rhoReactionThermo.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 #include "CombustionModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "multivariateScheme.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "localEulerDdtScheme.H"
-#include "fvcSmooth.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "interpolation/surfaceInterpolation/multivariateSchemes/multivariateScheme/multivariateScheme.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -56,15 +56,15 @@ int main(int argc, char *argv[])
         " with enhanced buoyancy treatment."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
-    #include "createTimeControls.H"
-    #include "initContinuityErrs.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "cfdTools/general/include/createTimeControls.H"
+    #include "fluid/initContinuityErrs.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
 
@@ -72,8 +72,8 @@ int main(int argc, char *argv[])
 
     if (!LTS)
     {
-        #include "compressibleCourantNo.H"
-        #include "setInitialDeltaT.H"
+        #include "fluid/compressibleCourantNo.H"
+        #include "cfdTools/general/include/setInitialDeltaT.H"
     }
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -82,35 +82,35 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
+        #include "cfdTools/general/include/readTimeControls.H"
 
         if (LTS)
         {
-            #include "setRDeltaT.H"
+            #include "solvers/multiphase/VoF/setRDeltaT.H"
         }
         else
         {
-            #include "compressibleCourantNo.H"
-            #include "setDeltaT.H"
+            #include "fluid/compressibleCourantNo.H"
+            #include "cfdTools/general/include/setDeltaT.H"
         }
 
         ++runTime;
 
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
-        #include "rhoEqn.H"
+        #include "cfdTools/compressible/rhoEqn.H"
 
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "UEqn.H"
-            #include "YEqn.H"
-            #include "EEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/YEqn.H"
+            #include "fluid/EEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

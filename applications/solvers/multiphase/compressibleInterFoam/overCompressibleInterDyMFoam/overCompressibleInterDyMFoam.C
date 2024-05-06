@@ -45,23 +45,23 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "CMULES.H"
-#include "EulerDdtScheme.H"
-#include "CrankNicolsonDdtScheme.H"
-#include "subCycle.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/CrankNicolsonDdtScheme/CrankNicolsonDdtScheme.H"
+#include "algorithms/subCycle/subCycle.H"
 #include "compressibleInterPhaseTransportModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "fvcSmooth.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
-#include "cellCellStencilObject.H"
-#include "localMin.H"
-#include "interpolationCellPoint.H"
-#include "transform.H"
-#include "fvMeshSubset.H"
-#include "oversetAdjustPhi.H"
+#include "cellCellStencil/cellCellStencil/cellCellStencilObject.H"
+#include "interpolation/surfaceInterpolation/schemes/localMin/localMin.H"
+#include "interpolation/interpolation/interpolationCellPoint/interpolationCellPoint.H"
+#include "primitives/transform/transform.H"
+#include "fvMesh/fvMeshSubset/fvMeshSubset.H"
+#include "oversetAdjustPhi/oversetAdjustPhi.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -74,13 +74,13 @@ int main(int argc, char *argv[])
         "Supports dynamic mesh motions including overset cases."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "createDyMControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "include/createDyMControls.H"
     #include "createFields.H"
 
     volScalarField& p = mixture.p();
@@ -89,16 +89,16 @@ int main(int argc, char *argv[])
     const volScalarField& psi2 = mixture.thermo2().psi();
 
     #include "correctPhi.H"
-    #include "createUf.H"
+    #include "cfdTools/incompressible/createUf.H"
 
     if (!LTS)
     {
-        #include "CourantNo.H"
-        #include "setInitialDeltaT.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setInitialDeltaT.H"
     }
 
-    #include "setCellMask.H"
-    #include "setInterpolatedCells.H"
+    #include "include/setCellMask.H"
+    #include "include/setInterpolatedCells.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -106,17 +106,17 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
+        #include "include/readDyMControls.H"
 
         if (LTS)
         {
-            #include "setRDeltaT.H"
+            #include "solvers/multiphase/VoF/setRDeltaT.H"
         }
         else
         {
-            #include "CourantNo.H"
-            #include "alphaCourantNo.H"
-            #include "setDeltaT.H"
+            #include "cfdTools/incompressible/CourantNo.H"
+            #include "solvers/multiphase/VoF/alphaCourantNo.H"
+            #include "cfdTools/general/include/setDeltaT.H"
         }
 
         ++runTime;
@@ -149,9 +149,9 @@ int main(int argc, char *argv[])
                     ghf = (g & mesh.Cf()) - ghRef;
 
                     // Update cellMask field for blocking out hole cells
-                    #include "setCellMask.H"
-                    #include "setInterpolatedCells.H"
-                    #include "correctPhiFaceMask.H"
+                    #include "include/setCellMask.H"
+                    #include "include/setInterpolatedCells.H"
+                    #include "include/correctPhiFaceMask.H"
 
                     mixture.correct();
 
@@ -162,25 +162,25 @@ int main(int argc, char *argv[])
 
                 if (mesh.changing() && checkMeshCourantNo)
                 {
-                    #include "meshCourantNo.H"
+                    #include "include/meshCourantNo.H"
                 }
             }
 
-            #include "alphaControls.H"
+            #include "cfdTools/general/include/alphaControls.H"
             #include "compressibleAlphaEqnSubCycle.H"
 
             rhoPhi *= faceMask;
 
             turbulence.correctPhasePhi();
 
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
             volScalarField divUp("divUp", fvc::div(fvc::absolute(phi, U), p));
             #include "TEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

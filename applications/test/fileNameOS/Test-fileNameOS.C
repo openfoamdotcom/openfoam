@@ -33,10 +33,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fileName.H"
-#include "OSspecific.H"
-#include "Switch.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/fileName/fileName.H"
+#include "include/OSspecific.H"
+#include "primitives/bools/Switch/Switch.H"
 
 #include <cstdlib>
 #include <iostream>
@@ -74,7 +74,7 @@ int main(int argc, char *argv[])
     argList::addBoolOption("no-space", "allowSpaceInFileName = false");
     argList::addBoolOption("with-space", "set allowSpaceInFileName = true");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (args.found("with-space"))
     {

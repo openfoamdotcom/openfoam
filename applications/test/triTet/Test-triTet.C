@@ -1,8 +1,8 @@
-#include "argList.H"
-#include "point.H"
-#include "triangle.H"
-#include "tetrahedron.H"
-#include "IOstreams.H"
+#include "global/argList/argList.H"
+#include "meshes/primitiveShapes/point/point.H"
+#include "meshes/primitiveShapes/triangle/triangle.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

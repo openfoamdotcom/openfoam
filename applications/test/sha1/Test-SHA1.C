@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSHA1stream.H"
-#include "SpanStream.H"
-#include "StringStream.H"
-#include "dictionary.H"
+#include "db/IOstreams/hashes/OSHA1stream.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "db/dictionary/dictionary.H"
 
 using namespace Foam;
 

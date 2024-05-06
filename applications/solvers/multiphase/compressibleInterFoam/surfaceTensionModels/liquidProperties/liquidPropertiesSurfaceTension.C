@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "liquidPropertiesSurfaceTension.H"
-#include "liquidThermo.H"
-#include "addToRunTimeSelectionTable.H"
+#include "liquidProperties/liquidPropertiesSurfaceTension.H"
+#include "rhoThermo/liquidThermo.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

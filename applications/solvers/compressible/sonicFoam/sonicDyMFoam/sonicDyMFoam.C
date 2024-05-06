@@ -35,13 +35,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "psiThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "pimpleControl.H"
-#include "CorrectPhiPascal.H"
-#include "fvOptions.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "psiThermo/psiThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -54,18 +54,18 @@ int main(int argc, char *argv[])
         "With optional mesh motion and mesh topology changes."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "createDyMControls.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "include/createDyMControls.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "createRhoUf.H"
-    #include "compressibleCourantNo.H"
-    #include "setInitialDeltaT.H"
-    #include "initContinuityErrs.H"
+    #include "cfdTools/compressible/createRhoUf.H"
+    #include "fluid/compressibleCourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
+    #include "fluid/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
+        #include "include/readDyMControls.H"
 
         {
             // Store divrhoU from the previous mesh so that it can be mapped
@@ -87,8 +87,8 @@ int main(int argc, char *argv[])
                 fvc::div(fvc::absolute(phi, rho, U))
             );
 
-            #include "compressibleCourantNo.H"
-            #include "setDeltaT.H"
+            #include "fluid/compressibleCourantNo.H"
+            #include "cfdTools/general/include/setDeltaT.H"
 
             ++runTime;
 
@@ -118,24 +118,24 @@ int main(int argc, char *argv[])
 
             if (checkMeshCourantNo)
             {
-                #include "meshCourantNo.H"
+                #include "include/meshCourantNo.H"
             }
         }
 
-        #include "rhoEqn.H"
+        #include "cfdTools/compressible/rhoEqn.H"
         Info<< "rho min/max : " << min(rho).value() << " " << max(rho).value()
             << endl;
 
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "UEqn.H"
-            #include "EEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/EEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

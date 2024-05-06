@@ -27,12 +27,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "parLagrangianDistributor.H"
-#include "TimeOpenFOAM.H"
-#include "IOobjectList.H"
-#include "mapDistributePolyMesh.H"
-#include "cloud.H"
-#include "CompactIOField.H"
-#include "DynamicList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "fields/cloud/cloud.H"
+#include "db/IOobjects/CompactIOField/CompactIOField.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 #include "passivePositionParticleCloud.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //

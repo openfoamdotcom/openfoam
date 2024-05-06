@@ -35,12 +35,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "fvCFD.H"
-#include "cpuTime.H"
-#include "IFstream.H"
-#include "regionProperties.H"
-#include "globalMeshData.H"
+#include "include/OSspecific.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cpuTime/cpuTime.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "regionModel/regionProperties/regionProperties.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 #include "decompositionInformation.H"
 #include "decompositionModel.H"
 
@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::noBanner();
 
-    #include "addAllRegionOptions.H"
+    #include "include/addAllRegionOptions.H"
 
     argList::addVerboseOption
     (
@@ -68,12 +68,12 @@ int main(int argc, char *argv[])
     // Include explicit constant options, have zero from time range
     timeSelector::addOptions(true, false);
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const auto decompFile = args.get<fileName>(1);
 
     // Set time from database
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     // Allow override of time
     instantList times = timeSelector::selectIfPresent(runTime, args);
@@ -83,7 +83,7 @@ int main(int argc, char *argv[])
         args.getOrDefault<fileName>("decomposeParDict", "");
 
     // Get region names
-    #include "getAllRegionOptions.H"
+    #include "include/getAllRegionOptions.H"
 
     labelList cellToProc;
 

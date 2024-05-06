@@ -2,7 +2,7 @@
 
 const word dictName("particleTrackDict");
 
-#include "setConstantMeshDictionaryIO.H"
+#include "include/setConstantMeshDictionaryIO.H"
 
 IOdictionary propsDict(dictIO);
 

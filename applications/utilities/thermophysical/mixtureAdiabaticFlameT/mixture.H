@@ -38,9 +38,9 @@ SourceFiles
 #ifndef mixture_H
 #define mixture_H
 
-#include "error.H"
+#include "db/error/error.H"
 
-#include "List.H"
+#include "containers/Lists/List/List.H"
 #include "substance.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

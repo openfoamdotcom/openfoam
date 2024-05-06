@@ -38,7 +38,7 @@ SourceFiles
 #ifndef Foam_loadOrCreateMesh_H
 #define Foam_loadOrCreateMesh_H
 
-#include "fvMeshTools.H"
+#include "fvMesh/fvMeshTools/fvMeshTools.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -33,9 +33,9 @@ Description
 #define PDRsetFields_H
 
 #include "PDRarrays.H"
-#include "PDRblock.H"
+#include "PDRblockMesh/PDRblock.H"
 #include "PDRmeshArrays.H"
-#include "PDRobstacle.H"
+#include "obstacles/PDRobstacle.H"
 #include "PDRpatchDef.H"
 #include "PDRparams.H"
 

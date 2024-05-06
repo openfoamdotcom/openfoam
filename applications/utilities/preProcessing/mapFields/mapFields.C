@@ -39,9 +39,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "meshToMesh0.H"
-#include "processorFvPatch.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "meshToMesh0/meshToMesh0.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 #include "MapMeshes.H"
 #include "decompositionModel.H"
 
@@ -281,7 +281,7 @@ int main(int argc, char *argv[])
     {
         FatalError.exit();
     }
-    #include "foamDlOpenLibs.H"
+    #include "include/foamDlOpenLibs.H"
 
     fileName rootDirTarget(args.rootPath());
     fileName caseDirTarget(args.globalCaseName());

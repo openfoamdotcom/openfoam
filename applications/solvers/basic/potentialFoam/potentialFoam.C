@@ -91,8 +91,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "pisoControl.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cfdTools/general/solutionControl/pisoControl/pisoControl.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -140,11 +140,11 @@ int main(int argc, char *argv[])
         "Execute functionObjects"
     );
 
-    #include "addRegionOption.H"
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     pisoControl potentialFlow(mesh, "potentialFlow");
 

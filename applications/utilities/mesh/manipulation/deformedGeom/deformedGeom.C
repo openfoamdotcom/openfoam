@@ -35,10 +35,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "fvMesh.H"
-#include "pointFields.H"
-#include "volPointInterpolation.H"
+#include "global/argList/argList.H"
+#include "fvMesh/fvMesh.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
+#include "interpolation/volPointInterpolation/volPointInterpolation.H"
 
 using namespace Foam;
 
@@ -54,12 +54,12 @@ int main(int argc, char *argv[])
 
     argList::addArgument("factor", "The deformation scaling factor");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const scalar scaleFactor = args.get<scalar>(1);
 
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     volPointInterpolation pInterp(mesh);
 

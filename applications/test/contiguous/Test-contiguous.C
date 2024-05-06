@@ -31,23 +31,23 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "argList.H"
-#include "wordRes.H"
-#include "contiguous.H"
+#include "include/OSspecific.H"
+#include "global/argList/argList.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/traits/contiguous.H"
 
-#include "IOstreams.H"
-#include "scalar.H"
-#include "vector.H"
-#include "Switch.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/Vector/floats/vector.H"
+#include "primitives/bools/Switch/Switch.H"
 
-#include "labelRange.H"
-#include "scalarList.H"
-#include "HashOps.H"
-#include "FixedList.H"
-#include "Pair.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "containers/HashTables/HashOps/HashOps.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/tuples/Pair.H"
 
-#include "distributedTriSurfaceMesh.H"
+#include "distributedTriSurfaceMesh/distributedTriSurfaceMesh.H"
 
 namespace Foam
 {

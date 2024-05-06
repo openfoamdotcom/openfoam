@@ -35,22 +35,22 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "globalMeshData.H"
-#include "StringStream.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "topoSetSource.H"
-#include "Fstream.H"
-#include "foamVtkWriteTopoSet.H"
-#include "IOobjectList.H"
-#include "cellZoneSet.H"
-#include "faceZoneSet.H"
-#include "pointZoneSet.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
+#include "db/IOstreams/StringStreams/StringStream.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "topoSet/topoSetSource/topoSetSource.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "output/vtk/topoSet/foamVtkWriteTopoSet.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "topoSet/topoSets/cellZoneSet.H"
+#include "topoSet/topoSets/faceZoneSet.H"
+#include "topoSet/topoSets/pointZoneSet.H"
+#include "db/Time/timeSelector.H"
 
 #include <stdio.h>
 
@@ -713,7 +713,7 @@ int main(int argc, char *argv[])
 
     timeSelector::addOptions(true, false);  // constant(true), zero(false)
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
     argList::addBoolOption("noVTK", "Do not write VTK files");
     argList::addBoolOption("loop", "Execute batch commands for all timesteps");
     argList::addOption
@@ -728,8 +728,8 @@ int main(int argc, char *argv[])
         "Do not synchronise selection across coupled patches"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     instantList timeDirs = timeSelector::select0(runTime, args);
 
     const bool writeVTK = !args.found("noVTK");
@@ -745,7 +745,7 @@ int main(int argc, char *argv[])
     }
 
 
-    #include "createNamedPolyMesh.H"
+    #include "include/createNamedPolyMesh.H"
 
     // Print some mesh info
     printMesh(runTime, mesh);

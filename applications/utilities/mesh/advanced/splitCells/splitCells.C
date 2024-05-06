@@ -47,22 +47,22 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyTopoChange.H"
-#include "polyTopoChanger.H"
-#include "mapPolyMesh.H"
-#include "polyMesh.H"
-#include "cellCuts.H"
-#include "cellSet.H"
-#include "cellModel.H"
-#include "meshCutter.H"
-#include "unitConversion.H"
-#include "geomCellLooper.H"
-#include "plane.H"
-#include "edgeVertex.H"
-#include "meshTools.H"
-#include "ListOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshCut/cellCuts/cellCuts.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "meshCut/meshModifiers/meshCutter/meshCutter.H"
+#include "global/constants/unitConversion.H"
+#include "meshCut/cellLooper/geomCellLooper.H"
+#include "meshes/primitiveShapes/plane/plane.H"
+#include "meshCut/edgeVertex/edgeVertex.H"
+#include "meshTools/meshTools.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 
@@ -520,7 +520,7 @@ int main(int argc, char *argv[])
     (
         "Split cells with flat faces"
     );
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::noParallel();
     argList::addArgument
     (
@@ -548,9 +548,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

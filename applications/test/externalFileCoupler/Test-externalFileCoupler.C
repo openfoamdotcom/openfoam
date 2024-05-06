@@ -31,8 +31,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "externalFileCoupler.H"
+#include "global/argList/argList.H"
+#include "coupling/externalFileCoupler.H"
 
 using namespace Foam;
 
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     argList::addOption("max", "N", "max number of calls (default: 1000)");
     argList::addBoolOption("slave", "run as slave");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const label maxCount = args.getOrDefault<label>("max", 1000);
     const label sleeping = args.getOrDefault<label>("sleep", 0);

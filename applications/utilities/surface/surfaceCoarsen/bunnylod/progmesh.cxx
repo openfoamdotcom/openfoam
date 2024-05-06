@@ -14,9 +14,9 @@
 #include <cstdlib>
 #include <cassert>
 
-#include "vector.hxx"
-#include "list.hxx"
-#include "progmesh.hxx"
+#include "bunnylod/vector.hxx"
+#include "bunnylod/list.hxx"
+#include "bunnylod/progmesh.hxx"
 
 #define min(x,y) (((x) <= (y)) ? (x) : (y))
 #define max(x,y) (((x) >= (y)) ? (x) : (y))

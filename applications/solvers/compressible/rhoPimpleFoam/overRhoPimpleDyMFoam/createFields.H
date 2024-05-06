@@ -37,7 +37,7 @@ volVectorField U
     mesh
 );
 
-#include "compressibleCreatePhi.H"
+#include "cfdTools/compressible/compressibleCreatePhi.H"
 
 pressureControl pressureControl(p, rho, pimple.dict(), false);
 
@@ -46,9 +46,9 @@ const dimensionedScalar rhoMin("rhoMin", dimDensity, Zero, pimple.dict());
 
 mesh.setFluxRequired(p.name());
 
-#include "createDpdt.H"
+#include "cfdTools/compressible/createDpdt.H"
 
-#include "createK.H"
+#include "cfdTools/general/include/createK.H"
 
 //- Overset specific
 
@@ -68,9 +68,9 @@ mesh.setFluxRequired(p.name());
 }
 
 // Mask field for zeroing out contributions on hole cells
-#include "createCellMask.H"
+#include "include/createCellMask.H"
 // Create bool field with interpolated cells
-#include "createInterpolatedCells.H"
+#include "include/createInterpolatedCells.H"
 
 Info<< "Creating turbulence model\n" << endl;
 autoPtr<compressible::turbulenceModel> turbulence

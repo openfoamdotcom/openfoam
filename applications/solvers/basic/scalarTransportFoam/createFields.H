@@ -49,6 +49,6 @@ Info<< "Reading diffusivity DT\n" << endl;
 
 dimensionedScalar DT("DT", dimViscosity, transportProperties);
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createFvOptions.H"

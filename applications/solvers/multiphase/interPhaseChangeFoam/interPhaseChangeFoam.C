@@ -45,14 +45,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "CMULES.H"
-#include "subCycle.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "algorithms/subCycle/subCycle.H"
 #include "interfaceProperties.H"
-#include "phaseChangeTwoPhaseMixture.H"
-#include "turbulentTransportModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
+#include "phaseChangeTwoPhaseMixture/phaseChangeTwoPhaseMixture.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -65,17 +65,17 @@ int main(int argc, char *argv[])
         "Uses VOF (volume of fluid) phase-fraction based interface capturing."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "createTimeControls.H"
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/general/include/createTimeControls.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     turbulence->validate();
 
@@ -85,9 +85,9 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
-        #include "CourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -96,7 +96,7 @@ int main(int argc, char *argv[])
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "alphaControls.H"
+            #include "cfdTools/general/include/alphaControls.H"
 
             surfaceScalarField rhoPhi
             (
@@ -112,15 +112,15 @@ int main(int argc, char *argv[])
 
             mixture->correct();
 
-            #include "alphaEqnSubCycle.H"
+            #include "solvers/multiphase/VoF/alphaEqnSubCycle.H"
             interface.correct();
 
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

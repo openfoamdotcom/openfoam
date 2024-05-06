@@ -60,11 +60,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "triSurface.H"
-#include "OFstream.H"
-#include "ListOps.H"
-#include "triSurfaceTools.H"
+#include "global/argList/argList.H"
+#include "triSurface/triSurface.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
 
 using namespace Foam;
 

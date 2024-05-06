@@ -56,10 +56,10 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "STARCDMeshReader.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "starcd/STARCDMeshReader.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 using namespace Foam;
 

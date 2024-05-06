@@ -81,10 +81,10 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "ccm.H"
-#include "regionSplit.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "common/ccm.H"
+#include "regionSplit/regionSplit.H"
 
 using namespace Foam;
 

@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "incompressibleThreePhaseMixture.H"
-#include "addToRunTimeSelectionTable.H"
-#include "surfaceFields.H"
-#include "fvc.H"
+#include "incompressibleThreePhaseMixture/incompressibleThreePhaseMixture.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "finiteVolume/fvc/fvc.H"
 
 // * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * * //
 

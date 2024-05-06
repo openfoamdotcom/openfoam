@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "objectRegistry.H"
-#include "ListOps.H"
+#include "db/objectRegistry/objectRegistry.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

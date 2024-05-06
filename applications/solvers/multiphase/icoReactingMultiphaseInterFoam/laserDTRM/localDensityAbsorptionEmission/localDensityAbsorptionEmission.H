@@ -38,7 +38,7 @@ SourceFiles
 #ifndef radiation_localDensityAbsorptionEmission_H
 #define radiation_localDensityAbsorptionEmission_H
 
-#include "absorptionEmissionModel.H"
+#include "submodels/absorptionEmissionModel/absorptionEmissionModel/absorptionEmissionModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

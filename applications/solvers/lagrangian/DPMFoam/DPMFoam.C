@@ -37,16 +37,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
 #include "DPMIncompressibleTurbulenceModel.H"
-#include "pimpleControl.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
 
 #ifdef MPPIC
-    #include "basicKinematicCloud.H"
+    #include "clouds/derived/basicKinematicCloud/basicKinematicCloud.H"
     #define basicKinematicTypeCloud basicKinematicCloud
 #else
-    #include "basicKinematicCollidingCloud.H"
+    #include "clouds/derived/basicKinematicCollidingCloud/basicKinematicCollidingCloud.H"
     #define basicKinematicTypeCloud basicKinematicCollidingCloud
 #endif
 
@@ -65,24 +65,24 @@ int main(int argc, char *argv[])
         "specify alternative cloud name. default is 'kinematicCloud'"
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
-    #include "createTimeControls.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "cfdTools/general/include/createTimeControls.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     Info<< "\nStarting time loop\n" << endl;
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
-        #include "CourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -132,7 +132,7 @@ int main(int argc, char *argv[])
             // --- PISO loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

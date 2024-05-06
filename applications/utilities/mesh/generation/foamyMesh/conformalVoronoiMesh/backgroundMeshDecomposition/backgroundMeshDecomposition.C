@@ -26,13 +26,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "backgroundMeshDecomposition.H"
-#include "meshSearch.H"
-#include "conformationSurfaces.H"
-#include "zeroGradientFvPatchFields.H"
-#include "TimeOpenFOAM.H"
-#include "Random.H"
-#include "pointConversion.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "meshSearch/meshSearch.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "fields/fvPatchFields/basic/zeroGradient/zeroGradientFvPatchFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/random/Random/Random.H"
+#include "conformalVoronoiMesh/pointConversion.H"
 #include "decompositionModel.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

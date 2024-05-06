@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulentTemperatureTwoPhaseRadCoupledMixedFvPatchScalarField.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvPatchFieldMapper.H"
-#include "volFields.H"
-#include "phaseSystem.H"
-#include "mappedPatchBase.H"
-#include "solidThermo.H"
+#include "derivedFvPatchFields/turbulentTemperatureTwoPhaseRadCoupledMixed/turbulentTemperatureTwoPhaseRadCoupledMixedFvPatchScalarField.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
+#include "fields/volFields/volFields.H"
+#include "phaseSystem/phaseSystem.H"
+#include "mappedPatches/mappedPolyPatch/mappedPatchBase.H"
+#include "solidThermo/solidThermo.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

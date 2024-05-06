@@ -29,16 +29,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "IFstream.H"
-#include "ITstream.H"
-#include "List.H"
-#include "Tuple2.H"
-#include "keyType.H"
-#include "wordRes.H"
-#include "predicates.H"
-#include "Random.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "containers/Lists/List/List.H"
+#include "primitives/tuples/Tuple2.H"
+#include "primitives/strings/keyType/keyType.H"
+#include "primitives/strings/wordRes/wordRes.H"
+#include "primitives/predicates/predicates.H"
+#include "primitives/random/Random/Random.H"
 
 using namespace Foam;
 

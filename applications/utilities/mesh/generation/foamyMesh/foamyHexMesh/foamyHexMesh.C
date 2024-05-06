@@ -35,12 +35,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IOdictionary.H"
-#include "searchableSurfaces.H"
-#include "conformalVoronoiMesh.H"
-#include "vtkCoordSetWriter.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "conformalVoronoiMesh/conformalVoronoiMesh.H"
+#include "coordSet/writers/vtk/vtkCoordSetWriter.H"
 
 using namespace Foam;
 
@@ -66,8 +66,8 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool checkGeometry = args.found("checkGeometry");
     const bool conformationOnly = args.found("conformationOnly");

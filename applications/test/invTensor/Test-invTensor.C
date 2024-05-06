@@ -31,14 +31,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "tensor.H"
-#include "symmTensor.H"
-#include "transform.H"
-#include "unitConversion.H"
-#include "Random.H"
-#include "scalar.H"
-#include "complex.H"
-#include "sigFpe.H"
+#include "primitives/Tensor/floats/tensor.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "primitives/transform/transform.H"
+#include "global/constants/unitConversion.H"
+#include "primitives/random/Random/Random.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/complex/complex.H"
+#include "signals/sigFpe.H"
 
 using namespace Foam;
 

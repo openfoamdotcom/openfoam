@@ -25,11 +25,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "constant.H"
-#include "addToRunTimeSelectionTable.H"
-#include "fvcGrad.H"
-#include "twoPhaseMixtureEThermo.H"
-#include "fvmSup.H"
+#include "constant/constant.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "finiteVolume/fvc/fvcGrad.H"
+#include "twoPhaseMixtureEThermo/twoPhaseMixtureEThermo.H"
+#include "finiteVolume/fvm/fvmSup.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

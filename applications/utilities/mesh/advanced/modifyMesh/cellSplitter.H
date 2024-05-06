@@ -38,9 +38,9 @@ SourceFiles
 #ifndef cellSplitter_H
 #define cellSplitter_H
 
-#include "Map.H"
-#include "edge.H"
-#include "typeInfo.H"
+#include "containers/HashTables/Map/Map.H"
+#include "meshes/meshShapes/edge/edge.H"
+#include "db/typeInfo/typeInfo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

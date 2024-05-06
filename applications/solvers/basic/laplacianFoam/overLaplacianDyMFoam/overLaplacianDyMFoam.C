@@ -54,11 +54,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "fvOptions.H"
-#include "simpleControl.H"
-#include "dynamicFvMesh.H"
-#include "oversetPatchPhiErr.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "oversetPatchPhiErr/oversetPatchPhiErr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -69,14 +69,14 @@ int main(int argc, char *argv[])
         "Overset Laplace equation solver for a scalar quantity."
     );
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createNamedDynamicFvMesh.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createNamedDynamicFvMesh.H"
 
     simpleControl simple(mesh);
 
     #include "createFields.H"
-    #include "createFvOptions.H"
+    #include "cfdTools/general/include/createFvOptions.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

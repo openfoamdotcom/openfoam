@@ -35,16 +35,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "turbulentFluidThermoModel.H"
-#include "coalCloud.H"
-#include "rhoReactionThermo.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "coalCloud/coalCloud.H"
+#include "rhoReactionThermo/rhoReactionThermo.H"
 #include "CombustionModel.H"
-#include "radiationModel.H"
-#include "IOporosityModelList.H"
-#include "fvOptions.H"
-#include "SLGThermo.H"
-#include "simpleControl.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "cfdTools/general/porosityModel/porosityModel/IOporosityModelList.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "SLGThermo/SLGThermo.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -57,17 +57,17 @@ int main(int argc, char *argv[])
         " with coal particle clouds and optional sources/constraints."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "createFvOptions.H"
-    #include "initContinuityErrs.H"
+    #include "cfdTools/general/include/createFvOptions.H"
+    #include "fluid/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -83,10 +83,10 @@ int main(int argc, char *argv[])
 
         // --- Pressure-velocity SIMPLE corrector loop
         {
-            #include "UEqn.H"
-            #include "YEqn.H"
-            #include "EEqn.H"
-            #include "pEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/YEqn.H"
+            #include "fluid/EEqn.H"
+            #include "fluid/pEqn.H"
         }
 
         turbulence->correct();

@@ -50,11 +50,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "simpleControl.H"
-#include "fvOptions.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 template<class Type>
 void zeroCells
@@ -81,15 +81,15 @@ int main(int argc, char *argv[])
         " by applying 'blockage' in regions causing pressure loss"
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
     #include "initAdjointContinuityErrs.H"
 
     turbulence->validate();
@@ -160,7 +160,7 @@ int main(int argc, char *argv[])
                 }
             }
 
-            #include "continuityErrs.H"
+            #include "cfdTools/incompressible/continuityErrs.H"
 
             // Explicitly relax pressure for momentum corrector
             p.relax();

@@ -36,7 +36,7 @@ SourceFiles
 #ifndef searchableBoxFeatures_H
 #define searchableBoxFeatures_H
 
-#include "searchableSurfaceFeatures.H"
+#include "searchableSurfaceFeatures/searchableSurfaceFeatures.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

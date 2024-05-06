@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "OSspecific.H"  // For fileSize()
-#include "Fstream.H"
-#include "Pstream.H"
-#include "SpanStream.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"  // For fileSize()
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "db/IOstreams/Pstreams/Pstream.H"
+#include "db/IOstreams/memory/SpanStream.H"
 #include <limits>
 
 using namespace Foam;
@@ -259,7 +259,7 @@ int main(int argc, char *argv[])
 
     argList::addArgument("srcFile");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     const bool syncPar = (UPstream::parRun() && !args.found("no-broadcast"));
     optUseSeek = args.found("seek");

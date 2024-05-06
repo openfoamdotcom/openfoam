@@ -25,13 +25,13 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "emptyPointPatchField.H"
-#include "IOobjectList.H"
-#include "mapDistributePolyMesh.H"
-#include "distributedFieldMapper.H"
-#include "distributedPointPatchFieldMapper.H"
-#include "pointFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "fields/pointPatchFields/constraint/empty/emptyPointPatchField.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistributePolyMesh.H"
+#include "fields/Fields/Field/distributedFieldMapper.H"
+#include "fields/pointPatchFields/pointPatchField/distributedPointPatchFieldMapper.H"
+#include "fields/GeometricFields/pointFields/pointFields.H"
 
 // * * * * * * * * * * * * * * * Member Functions  * * * * * * * * * * * * * //
 

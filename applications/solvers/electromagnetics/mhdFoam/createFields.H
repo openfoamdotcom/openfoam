@@ -69,7 +69,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 Info<< "Reading field pB\n" << endl;
 volScalarField pB

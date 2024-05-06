@@ -47,16 +47,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "dynamicFvMesh.H"
-#include "CMULES.H"
-#include "subCycle.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "dynamicFvMesh/dynamicFvMesh.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "algorithms/subCycle/subCycle.H"
 #include "interfaceProperties.H"
-#include "phaseChangeTwoPhaseMixture.H"
-#include "turbulentTransportModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "CorrectPhiPascal.H"
+#include "phaseChangeTwoPhaseMixture/phaseChangeTwoPhaseMixture.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -71,13 +71,13 @@ int main(int argc, char *argv[])
         " adaptive re-meshing."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createDynamicFvMesh.H"
-    #include "createDyMControls.H"
-    #include "initContinuityErrs.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createDynamicFvMesh.H"
+    #include "include/createDyMControls.H"
+    #include "fluid/initContinuityErrs.H"
     #include "createFields.H"
 
     volScalarField rAU
@@ -94,9 +94,9 @@ int main(int argc, char *argv[])
         dimensionedScalar("rAUf", dimTime/rho.dimensions(), 1.0)
     );
 
-    #include "createUf.H"
-    #include "CourantNo.H"
-    #include "setInitialDeltaT.H"
+    #include "cfdTools/incompressible/createUf.H"
+    #include "cfdTools/incompressible/CourantNo.H"
+    #include "cfdTools/general/include/setInitialDeltaT.H"
 
     turbulence->validate();
 
@@ -106,15 +106,15 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readDyMControls.H"
+        #include "include/readDyMControls.H"
 
         // Store divU from the previous mesh so that it can be mapped
         // and used in correctPhi to ensure the corrected phi has the
         // same divergence
         volScalarField divU("divU0", fvc::div(fvc::absolute(phi, U)));
 
-        #include "CourantNo.H"
-        #include "setDeltaT.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setDeltaT.H"
 
         ++runTime;
 
@@ -152,11 +152,11 @@ int main(int argc, char *argv[])
 
                 if (mesh.changing() && checkMeshCourantNo)
                 {
-                    #include "meshCourantNo.H"
+                    #include "include/meshCourantNo.H"
                 }
             }
 
-            #include "alphaControls.H"
+            #include "cfdTools/general/include/alphaControls.H"
 
             surfaceScalarField rhoPhi
             (
@@ -172,15 +172,15 @@ int main(int argc, char *argv[])
 
             mixture->correct();
 
-            #include "alphaEqnSubCycle.H"
+            #include "solvers/multiphase/VoF/alphaEqnSubCycle.H"
             interface.correct();
 
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

@@ -27,10 +27,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "ITstream.H"
-#include "FlatOutput.H"
-#include "hashedWordList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Tstreams/ITstream.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "primitives/strings/lists/hashedWordList.H"
 
 using namespace Foam;
 

@@ -46,14 +46,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "cellSet.H"
-#include "faceSet.H"
-#include "pointSet.H"
-#include "IOobjectList.H"
-#include "timeSelector.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "topoSet/topoSets/cellSet.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "topoSet/topoSets/pointSet.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "db/Time/timeSelector.H"
 
 using namespace Foam;
 
@@ -74,17 +74,17 @@ int main(int argc, char *argv[])
         "Ignore orientation of faceSet"
     );
 
-    #include "addRegionOption.H"
-    #include "addTimeOptions.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addRegionOption.H"
+    #include "include/addTimeOptions.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool noFlipMap = args.found("noFlipMap");
 
     // Get times list
     (void)timeSelector::selectIfPresent(runTime, args);
 
-    #include "createNamedPolyMesh.H"
+    #include "include/createNamedPolyMesh.H"
 
     const fileName setsSubPath(mesh.meshDir()/"sets");
 

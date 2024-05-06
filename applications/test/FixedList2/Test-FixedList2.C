@@ -34,14 +34,14 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "FixedList.H"
-#include "labelList.H"
-#include "vectorList.H"
-#include "ListOps.H"
-#include "IFstream.H"
-#include "OFstream.H"
-#include "cpuTime.H"
+#include "global/argList/argList.H"
+#include "containers/Lists/FixedList/FixedList.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Vector/lists/vectorList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "cpuTime/cpuTime.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

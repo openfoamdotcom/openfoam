@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "surfaceOffsetLinearDistance.H"
-#include "addToRunTimeSelectionTable.H"
-#include "volumeType.H"
+#include "cellSizeControlSurfaces/cellSizeFunction/surfaceOffsetLinearDistance/surfaceOffsetLinearDistance.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "meshes/primitiveShapes/volumeType/volumeType.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

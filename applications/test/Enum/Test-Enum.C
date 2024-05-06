@@ -28,10 +28,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "Enum.H"
-#include "dictionary.H"
-#include "FlatOutput.H"
-#include "IOstreams.H"  // For 'Sin'
+#include "primitives/enums/Enum.H"
+#include "db/dictionary/dictionary.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "db/IOstreams/IOstreams.H"  // For 'Sin'
 
 #include <array>
 

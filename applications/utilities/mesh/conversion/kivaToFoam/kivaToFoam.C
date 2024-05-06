@@ -35,18 +35,18 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "Fstream.H"
-#include "cellShape.H"
-#include "preservePatchTypes.H"
-#include "emptyPolyPatch.H"
-#include "wallPolyPatch.H"
-#include "symmetryPolyPatch.H"
-#include "wedgePolyPatch.H"
-#include "oldCyclicPolyPatch.H"
-#include "unitConversion.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/preservePatchTypes/preservePatchTypes.H"
+#include "meshes/polyMesh/polyPatches/constraint/empty/emptyPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/symmetry/symmetryPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/wedge/wedgePolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/oldCyclic/oldCyclicPolyPatch.H"
+#include "global/constants/unitConversion.H"
 
 using namespace Foam;
 
@@ -85,8 +85,8 @@ int main(int argc, char *argv[])
         "Minimum z-height for transferring liner faces to cylinder-head"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const fileName kivaFileName =
         args.getOrDefault<fileName>("file", "otape17");

@@ -27,8 +27,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "mirrorFvMesh.H"
-#include "TimeOpenFOAM.H"
-#include "plane.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/primitiveShapes/plane/plane.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //
 

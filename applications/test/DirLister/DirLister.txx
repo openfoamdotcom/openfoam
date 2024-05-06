@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "predicates.H"
-#include "stringOps.H"
+#include "primitives/predicates/predicates.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -30,13 +30,13 @@ Description
     Test expansion
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOstreams.H"
-#include "IOobject.H"
-#include "IFstream.H"
-#include "dictionary.H"
-#include "Pair.H"
-#include "stringOps.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/tuples/Pair.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 using namespace Foam;
 

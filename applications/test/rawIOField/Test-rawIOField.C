@@ -31,13 +31,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "Switch.H"
-#include "primitiveFields.H"
-#include "pointField.H"
-#include "rawIOField.H"
-#include "exprTraits.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "fields/Fields/primitiveFields.H"
+#include "meshes/primitiveShapes/point/pointField.H"
+#include "db/IOobjects/rawIOField/rawIOField.H"
+#include "expressions/traits/exprTraits.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -87,8 +87,8 @@ int main(int argc, char *argv[])
     argList::addArgument("fileName");
 
     #ifdef USE_ROOT_CASE
-        #include "setRootCase.H"
-        #include "createTime.H"
+        #include "include/setRootCase.H"
+        #include "include/createTime.H"
     #else
     // Without root case, or time
     argList args(argc, argv);

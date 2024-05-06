@@ -52,13 +52,13 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "timeSelector.H"
-#include "polyTopoChange.H"
-#include "fvMesh.H"
-#include "polyMeshFilter.H"
-#include "faceSet.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/Time/timeSelector.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "fvMesh/fvMesh.H"
+#include "polyMeshFilter/polyMeshFilter.H"
+#include "topoSet/topoSets/faceSet.H"
 
 using namespace Foam;
 
@@ -87,21 +87,21 @@ int main(int argc, char *argv[])
 
     argList::addOption("dict", "file", "Alternative collapseDict");
 
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     instantList timeDirs = timeSelector::selectIfPresent(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 
     const word dictName("collapseDict");
-    #include "setSystemMeshDictionaryIO.H"
+    #include "include/setSystemMeshDictionaryIO.H"
 
     Info<< "Reading " << dictIO.name() << nl << endl;
 

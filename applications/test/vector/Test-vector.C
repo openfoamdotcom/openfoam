@@ -31,9 +31,9 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "vectorField.H"
-#include "IOstreams.H"
-#include "Random.H"
+#include "fields/Fields/vectorField/vectorField.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/random/Random/Random.H"
 #include <algorithm>
 #include <random>
 

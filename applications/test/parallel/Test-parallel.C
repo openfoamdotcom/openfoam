@@ -32,16 +32,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "List.H"
-#include "mapDistribute.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IPstream.H"
-#include "OPstream.H"
-#include "vector.H"
-#include "IOstreams.H"
-#include "Random.H"
-#include "Tuple2.H"
+#include "containers/Lists/List/List.H"
+#include "meshes/polyMesh/mapPolyMesh/mapDistribute/mapDistribute.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOstreams/Pstreams/IPstream.H"
+#include "db/IOstreams/Pstreams/OPstream.H"
+#include "primitives/Vector/floats/vector.H"
+#include "db/IOstreams/IOstreams.H"
+#include "primitives/random/Random/Random.H"
+#include "primitives/tuples/Tuple2.H"
 
 using namespace Foam;
 
@@ -212,8 +212,8 @@ void testTokenized(const T& data)
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     testMapDistribute();
 

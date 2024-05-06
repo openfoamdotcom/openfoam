@@ -1,4 +1,4 @@
-#include "readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
 
 Info<< "Reading field p\n" << endl;
 volScalarField p
@@ -28,7 +28,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 singlePhaseTransportModel laminarTransport(U, phi);
 
@@ -77,9 +77,9 @@ scalar pRefValue = 0.0;
 setRefCell(p, pimple.dict(), pRefCell, pRefValue);
 mesh.setFluxRequired(p.name());
 
-#include "createMRF.H"
+#include "cfdTools/general/include/createMRF.H"
 #include "createClouds.H"
 #include "createSurfaceFilmModel.H"
-#include "createFvOptions.H"
+#include "cfdTools/general/include/createFvOptions.H"
 
 

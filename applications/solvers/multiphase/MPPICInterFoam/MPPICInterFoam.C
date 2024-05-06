@@ -38,21 +38,21 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "CMULES.H"
-#include "EulerDdtScheme.H"
-#include "localEulerDdtScheme.H"
-#include "CrankNicolsonDdtScheme.H"
-#include "subCycle.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fvMatrices/solvers/MULES/CMULES.H"
+#include "finiteVolume/ddtSchemes/EulerDdtScheme/EulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/localEulerDdtScheme/localEulerDdtScheme.H"
+#include "finiteVolume/ddtSchemes/CrankNicolsonDdtScheme/CrankNicolsonDdtScheme.H"
+#include "algorithms/subCycle/subCycle.H"
 
 #include "immiscibleIncompressibleTwoPhaseMixture.H"
 #include "PhaseCompressibleTurbulenceModel.H"
-#include "pimpleControl.H"
-#include "fvOptions.H"
-#include "CorrectPhiPascal.H"
-#include "fvcSmooth.H"
+#include "cfdTools/general/solutionControl/pimpleControl/pimpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
+#include "cfdTools/general/CorrectPhi/CorrectPhiPascal.H"
+#include "finiteVolume/fvc/fvcSmooth/fvcSmooth.H"
 
-#include "basicKinematicCloud.H"
+#include "clouds/derived/basicKinematicCloud/basicKinematicCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -65,27 +65,27 @@ int main(int argc, char *argv[])
         "Includes MRF and an MPPIC cloud."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
-    #include "createTimeControls.H"
-    #include "initContinuityErrs.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "cfdTools/general/include/createTimeControls.H"
+    #include "fluid/initContinuityErrs.H"
     #include "createFields.H"
-    #include "createAlphaFluxes.H"
-    #include "createFvOptions.H"
+    #include "solvers/multiphase/VoF/createAlphaFluxes.H"
+    #include "cfdTools/general/include/createFvOptions.H"
     #include "correctPhi.H"
 
     turbulence->validate();
 
     if (!LTS)
     {
-        #include "readTimeControls.H"
-        #include "CourantNo.H"
-        #include "setInitialDeltaT.H"
+        #include "cfdTools/general/include/readTimeControls.H"
+        #include "cfdTools/incompressible/CourantNo.H"
+        #include "cfdTools/general/include/setInitialDeltaT.H"
     }
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -94,17 +94,17 @@ int main(int argc, char *argv[])
 
     while (runTime.run())
     {
-        #include "readTimeControls.H"
+        #include "cfdTools/general/include/readTimeControls.H"
 
         if (LTS)
         {
-            #include "setRDeltaT.H"
+            #include "solvers/multiphase/VoF/setRDeltaT.H"
         }
         else
         {
-            #include "CourantNo.H"
-            #include "alphaCourantNo.H"
-            #include "setDeltaT.H"
+            #include "cfdTools/incompressible/CourantNo.H"
+            #include "solvers/multiphase/VoF/alphaCourantNo.H"
+            #include "cfdTools/general/include/setDeltaT.H"
         }
 
         ++runTime;
@@ -152,17 +152,17 @@ int main(int argc, char *argv[])
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "alphaControls.H"
-            #include "alphaEqnSubCycle.H"
+            #include "cfdTools/general/include/alphaControls.H"
+            #include "solvers/multiphase/VoF/alphaEqnSubCycle.H"
 
             mixture.correct();
 
-            #include "UEqn.H"
+            #include "fluid/UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "pEqn.H"
+                #include "fluid/pEqn.H"
             }
 
             if (pimple.turbCorr())

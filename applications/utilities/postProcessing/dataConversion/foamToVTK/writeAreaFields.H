@@ -19,8 +19,8 @@ Description
 #ifndef FoamToVTK_writeAreaFields_H
 #define FoamToVTK_writeAreaFields_H
 
-#include "readFields.H"
-#include "foamVtkIndPatchGeoFieldsWriter.H"
+#include "readFields/readFields.H"
+#include "vtk/output/foamVtkIndPatchGeoFieldsWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,14 +32,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "rigidBodyModel.H"
-#include "masslessBody.H"
-#include "rigidBodyModelState.H"
-#include "sphere.H"
-#include "joints.H"
-#include "IFstream.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
+#include "rigidBodyModel/rigidBodyModel.H"
+#include "bodies/masslessBody/masslessBody.H"
+#include "rigidBodyModelState/rigidBodyModelState.H"
+#include "bodies/sphere/sphere.H"
+#include "joints/joints.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
 
 using namespace Foam;
 using namespace RBD;
@@ -48,8 +48,8 @@ using namespace RBD;
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
     /*
     bool testMerge = true;
 

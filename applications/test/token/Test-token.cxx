@@ -27,16 +27,16 @@ Description
     Test token construct assign etc.
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "IOobject.H"
-#include "IOstreams.H"
-#include "IFstream.H"
-#include "cpuTime.H"
-#include "labelList.H"
-#include "scalarList.H"
-#include "DynamicList.H"
-#include "SpanStream.H"
-#include "formattingEntry.H"
+#include "global/argList/argList.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOstreams/IOstreams.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "cpuTime/cpuTime.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "db/IOstreams/memory/SpanStream.H"
+#include "db/dictionary/formattingEntry/formattingEntry.H"
 
 using namespace Foam;
 

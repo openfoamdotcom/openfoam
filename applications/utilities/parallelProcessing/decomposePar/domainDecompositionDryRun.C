@@ -26,8 +26,8 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "domainDecompositionDryRun.H"
-#include "volFields.H"
-#include "globalMeshData.H"
+#include "fields/volFields/volFields.H"
+#include "meshes/polyMesh/globalMeshData/globalMeshData.H"
 #include "decompositionModel.H"
 #include "decompositionInformation.H"
 

@@ -38,23 +38,23 @@ Original Authors
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "argList.H"
-#include "OSspecific.H"
-#include "faMesh.H"
-#include "faMeshTools.H"
-#include "IOdictionary.H"
-#include "IOobjectList.H"
-#include "areaFields.H"
-#include "edgeFields.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"
+#include "faMesh/faMesh.H"
+#include "faMesh/faMeshTools/faMeshTools.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
 #include "faFieldDecomposer.H"
 #include "faMeshReconstructor.H"
-#include "faMeshSubset.H"
-#include "PtrListOps.H"
-#include "foamVtkLineWriter.H"
-#include "foamVtkIndPatchWriter.H"
-#include "syncTools.H"
-#include "OBJstream.H"
+#include "faMesh/faMeshSubset/faMeshSubset.H"
+#include "containers/PtrLists/PtrListOps/PtrListOps.H"
+#include "vtk/write/foamVtkLineWriter.H"
+#include "output/vtk/patch/foamVtkIndPatchWriter.H"
+#include "meshes/polyMesh/syncTools/syncTools.H"
+#include "obj/OBJstream.H"
 
 using namespace Foam;
 
@@ -103,10 +103,10 @@ int main(int argc, char *argv[])
         true  // advanced option (debugging only)
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedPolyMesh.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedPolyMesh.H"
 
     const bool doDecompose = !args.found("no-decompose");
     const bool doDecompFields = !args.found("no-fields");

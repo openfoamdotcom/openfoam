@@ -28,8 +28,8 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "IOstreams.H"
-#include "unitConversion.H"
+#include "db/IOstreams/IOstreams.H"
+#include "global/constants/unitConversion.H"
 
 using namespace Foam;
 

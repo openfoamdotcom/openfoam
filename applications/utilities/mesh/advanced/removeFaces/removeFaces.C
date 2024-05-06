@@ -39,14 +39,14 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyTopoChange.H"
-#include "faceSet.H"
-#include "removeFaces.H"
-#include "ReadFieldsPascal.H"
-#include "volFields.H"
-#include "surfaceFields.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "topoSet/topoSets/faceSet.H"
+#include "polyTopoChange/polyTopoChange/removeFaces.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
 #include "processorMeshes.H"
 
 using namespace Foam;
@@ -60,14 +60,14 @@ int main(int argc, char *argv[])
     (
         "Remove faces specified in faceSet by combining cells on both sides"
     );
-    #include "addOverwriteOption.H"
+    #include "include/addOverwriteOption.H"
     argList::addArgument("faceSet");
 
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 

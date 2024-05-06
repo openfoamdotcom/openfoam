@@ -39,11 +39,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
+#include "cfdTools/general/include/fvCFD.H"
 #include "channelIndex.H"
-#include "makeGraph.H"
+#include "graphField/makeGraph.H"
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -58,13 +58,13 @@ int main(int argc, char *argv[])
     argList::noParallel();
     timeSelector::addOptions();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Get times list
     instantList timeDirs = timeSelector::select0(runTime, args);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
     #include "readTransportProperties.H"
 
     const word& gFormat = runTime.graphFormat();
@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
         runTime.setTime(timeDirs[timeI], timeI);
         Info<< "Collapsing fields for time " << runTime.timeName() << endl;
 
-        #include "readFields.H"
+        #include "readFields/readFields.H"
         #include "calculateFields.H"
 
         // Average fields over channel down to a line

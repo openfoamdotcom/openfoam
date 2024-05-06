@@ -38,11 +38,11 @@ SourceFiles
 #ifndef PDRparams_H
 #define PDRparams_H
 
-#include "labelList.H"
-#include "scalarList.H"
-#include "wordList.H"
-#include "fileNameList.H"
-#include "dictionary.H"
+#include "primitives/ints/lists/labelList.H"
+#include "primitives/Scalar/lists/scalarList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "primitives/strings/lists/fileNameList.H"
+#include "db/dictionary/dictionary.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

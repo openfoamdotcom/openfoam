@@ -31,16 +31,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "SlicedGeometricField.H"
-#include "slicedFvPatchFields.H"
-#include "slicedSurfaceFields.H"
-#include "slicedVolFields.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fields/GeometricFields/SlicedGeometricField/SlicedGeometricField.H"
+#include "fields/fvPatchFields/basic/sliced/slicedFvPatchFields.H"
+#include "fields/surfaceFields/slicedSurfaceFields.H"
+#include "fields/volFields/slicedVolFields.H"
 
-#include "areaFaMesh.H"
-#include "areaFields.H"
-#include "edgeFields.H"
-#include "slicedAreaFields.H"
+#include "areaMesh/areaFaMesh.H"
+#include "fields/areaFields/areaFields.H"
+#include "fields/edgeFields/edgeFields.H"
+#include "fields/areaFields/slicedAreaFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -51,10 +51,10 @@ int main(int argc, char *argv[])
         "finite-area",
         "Test finite-area mesh/fields"
     );
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     if (args.found("finite-area"))
     {

@@ -30,11 +30,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "uLabel.H"
-#include "labelRange.H"
-#include "bitSet.H"
-#include "FlatOutput.H"
-#include "IOstreams.H"
+#include "primitives/ints/uLabel/uLabel.H"
+#include "primitives/ranges/labelRange/labelRange.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "db/IOstreams/IOstreams.H"
 
 using namespace Foam;
 

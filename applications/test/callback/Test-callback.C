@@ -30,7 +30,7 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "Callback.H"
+#include "db/Callback/Callback.H"
 
 using namespace Foam;
 

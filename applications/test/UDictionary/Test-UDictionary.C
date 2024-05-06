@@ -29,10 +29,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
+#include "include/OSspecific.H"
 
-#include "IOstreams.H"
-#include "UDictionary.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/Dictionaries/UDictionary/UDictionary.H"
 
 using namespace Foam;
 

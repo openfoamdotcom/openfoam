@@ -69,24 +69,24 @@ Usage
 
 \*---------------------------------------------------------------------------*/
 
-#include "TimeOpenFOAM.H"
-#include "IOdictionary.H"
-#include "IOPtrList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/IOobjects/IOPtrList/IOPtrList.H"
 
-#include "blockMesh.H"
-#include "foamVtkInternalMeshWriter.H"
-#include "foamVtkSurfaceWriter.H"
-#include "attachPolyTopoChanger.H"
-#include "polyTopoChange.H"
-#include "cyclicPolyPatch.H"
-#include "cellSet.H"
+#include "blockMesh/blockMesh.H"
+#include "output/vtk/mesh/foamVtkInternalMeshWriter.H"
+#include "vtk/write/foamVtkSurfaceWriter.H"
+#include "polyTopoChange/attachPolyTopoChanger/attachPolyTopoChanger.H"
+#include "polyTopoChange/polyTopoChange.H"
+#include "meshes/polyMesh/polyPatches/constraint/cyclic/cyclicPolyPatch.H"
+#include "topoSet/topoSets/cellSet.H"
 
-#include "argList.H"
-#include "OSspecific.H"
-#include "OFstream.H"
+#include "global/argList/argList.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
-#include "wordPair.H"
-#include "slidingInterface.H"
+#include "primitives/tuples/wordPair.H"
+#include "slidingInterface/slidingInterface.H"
 
 using namespace Foam;
 
@@ -165,9 +165,9 @@ int main(int argc, char *argv[])
         "Specify a time to write mesh to (default: constant)"
     );
 
-    #include "addRegionOption.H"
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/addRegionOption.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     // Remove old files, unless disabled
     const bool removeOldFiles = !args.found("no-clean");
@@ -184,7 +184,7 @@ int main(int argc, char *argv[])
     );
 
     // Specified region or default region
-    #include "getRegionOption.H"
+    #include "include/getRegionOption.H"
 
     if (!polyMesh::regionName(regionName).empty())
     {

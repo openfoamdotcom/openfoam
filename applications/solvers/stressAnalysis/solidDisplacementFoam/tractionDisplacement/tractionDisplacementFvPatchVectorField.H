@@ -38,8 +38,8 @@ SourceFiles
 #ifndef tractionDisplacementFvPatchVectorField_H
 #define tractionDisplacementFvPatchVectorField_H
 
-#include "fvPatchFields.H"
-#include "fixedGradientFvPatchFields.H"
+#include "fields/fvPatchFields/fvPatchField/fvPatchFields.H"
+#include "fields/fvPatchFields/basic/fixedGradient/fixedGradientFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

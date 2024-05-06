@@ -66,13 +66,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "polyTopoChanger.H"
-#include "mapPolyMesh.H"
-#include "slidingInterface.H"
-#include "perfectInterface.H"
-#include "IOobjectList.H"
-#include "ReadFieldsPascal.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "slidingInterface/slidingInterface.H"
+#include "perfectInterface/perfectInterface.H"
+#include "db/IOobjectList/IOobjectList.H"
+#include "fields/ReadFields/ReadFieldsPascal.H"
 #include <numeric>
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
@@ -116,8 +116,8 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::noFunctionObjects();  // Never use function objects
 
-    #include "addOverwriteOption.H"
-    #include "addRegionOption.H"
+    #include "include/addOverwriteOption.H"
+    #include "include/addRegionOption.H"
 
     argList::addOption("dict", "file", "Alternative stitchMeshDict");
 
@@ -161,7 +161,7 @@ int main(int argc, char *argv[])
         "The slave patch name (non-dictionary mode)"
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // We now handle checking args and general sanity etc.
     const bool useCommandArgs = (args.size() > 1);
@@ -208,8 +208,8 @@ int main(int argc, char *argv[])
         }
     }
 
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
 
     const word oldInstance = mesh.pointsInstance();
 
@@ -294,7 +294,7 @@ int main(int argc, char *argv[])
     {
         // dictionary-driven:
 
-        #include "setSystemRunTimeDictionaryIO.H"
+        #include "include/setSystemRunTimeDictionaryIO.H"
 
         Info<< "Reading " << dictIO.name() << flush;
 

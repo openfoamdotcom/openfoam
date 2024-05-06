@@ -27,13 +27,13 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "mergePolyMesh.H"
-#include "TimeOpenFOAM.H"
-#include "polyTopoChanger.H"
-#include "mapPolyMesh.H"
-#include "polyAddPoint.H"
-#include "polyAddCell.H"
-#include "polyAddFace.H"
-#include "processorPolyPatch.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "polyTopoChange/polyTopoChanger/polyTopoChanger.H"
+#include "meshes/polyMesh/mapPolyMesh/mapPolyMesh.H"
+#include "polyTopoChange/addObject/polyAddPoint.H"
+#include "polyTopoChange/addObject/polyAddCell.H"
+#include "polyTopoChange/addObject/polyAddFace.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

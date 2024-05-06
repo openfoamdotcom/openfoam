@@ -37,10 +37,10 @@ SourceFiles
 #ifndef surfaceCellSizeFunction_H
 #define surfaceCellSizeFunction_H
 
-#include "searchableSurface.H"
-#include "dictionary.H"
-#include "autoPtr.H"
-#include "runTimeSelectionTables.H"
+#include "searchableSurfaces/searchableSurface/searchableSurface.H"
+#include "db/dictionary/dictionary.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

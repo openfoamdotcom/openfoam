@@ -26,9 +26,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "controlMeshRefinement.H"
-#include "cellSizeAndAlignmentControl.H"
-#include "OFstream.H"
+#include "cellShapeControl/controlMeshRefinement/controlMeshRefinement.H"
+#include "cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControl.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

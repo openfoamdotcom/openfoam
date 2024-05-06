@@ -26,8 +26,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "ellipsoidImplicitFunction.H"
-#include "addToRunTimeSelectionTable.H"
+#include "implicitFunctions/ellipsoid/ellipsoidImplicitFunction.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

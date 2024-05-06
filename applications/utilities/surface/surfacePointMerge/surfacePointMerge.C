@@ -36,11 +36,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "triSurface.H"
-#include "triSurfaceTools.H"
-#include "argList.H"
-#include "OFstream.H"
-#include "boundBox.H"
+#include "triSurface/triSurface.H"
+#include "triSurface/triSurfaceTools/triSurfaceTools.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshes/boundBox/boundBox.H"
 
 using namespace Foam;
 

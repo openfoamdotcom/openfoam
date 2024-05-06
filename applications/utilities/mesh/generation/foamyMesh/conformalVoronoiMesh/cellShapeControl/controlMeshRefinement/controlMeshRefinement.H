@@ -38,11 +38,11 @@ SourceFiles
 #ifndef controlMeshRefinement_H
 #define controlMeshRefinement_H
 
-#include "cellShapeControl.H"
-#include "cellShapeControlMesh.H"
-#include "cellSizeAndAlignmentControls.H"
-#include "conformationSurfaces.H"
-#include "backgroundMeshDecomposition.H"
+#include "cellShapeControl/cellShapeControl/cellShapeControl.H"
+#include "cellShapeControl/cellShapeControlMesh/cellShapeControlMesh.H"
+#include "cellShapeControl/cellSizeAndAlignmentControl/cellSizeAndAlignmentControls.H"
+#include "conformationSurfaces/conformationSurfaces.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

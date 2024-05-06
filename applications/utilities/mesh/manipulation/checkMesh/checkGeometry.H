@@ -1,6 +1,6 @@
-#include "label.H"
-#include "HashSet.H"
-#include "labelVector.H"
+#include "primitives/ints/label/label.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "primitives/Vector/ints/labelVector.H"
 
 namespace Foam
 {

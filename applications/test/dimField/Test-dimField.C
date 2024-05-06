@@ -31,8 +31,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "GeometricFields.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fields/GeometricFields/GeometricField/GeometricFields.H"
 
 // #undef TEST_UINT8_FIELD
 
@@ -52,9 +52,9 @@ namespace Foam
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     {
         Info<< "Tensor field\n" << endl;

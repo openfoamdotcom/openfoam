@@ -35,12 +35,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "rhoThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "radiationModel.H"
-#include "simpleControl.H"
-#include "fvOptions.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "rhoThermo/rhoThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "radiationModels/radiationModel/radiationModel.H"
+#include "cfdTools/general/solutionControl/simpleControl/simpleControl.H"
+#include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -52,16 +52,16 @@ int main(int argc, char *argv[])
         " of compressible fluids, including radiation."
     );
 
-    #include "postProcess.H"
+    #include "db/functionObjects/functionObjectList/postProcess.H"
 
-    #include "addCheckCaseOptions.H"
-    #include "setRootCaseLists.H"
-    #include "createTime.H"
-    #include "createMesh.H"
-    #include "createControl.H"
+    #include "include/addCheckCaseOptions.H"
+    #include "include/setRootCaseLists.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
+    #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "initContinuityErrs.H"
+    #include "fluid/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -75,9 +75,9 @@ int main(int argc, char *argv[])
 
         // Pressure-velocity SIMPLE corrector
         {
-            #include "UEqn.H"
-            #include "EEqn.H"
-            #include "pEqn.H"
+            #include "fluid/UEqn.H"
+            #include "fluid/EEqn.H"
+            #include "fluid/pEqn.H"
         }
 
         turbulence->correct();

@@ -27,23 +27,23 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "PDRarrays.H"
-#include "PDRblock.H"
+#include "PDRblockMesh/PDRblock.H"
 #include "PDRpatchDef.H"
 #include "PDRmeshArrays.H"
 #include "PDRparams.H"
 
 #include "PDRsetFields.H"
 
-#include "bitSet.H"
-#include "DynamicList.H"
-#include "dimensionSet.H"
-#include "symmTensor.H"
-#include "SquareMatrix.H"
-#include "IjkField.H"
-#include "MinMax.H"
-#include "volFields.H"
-#include "OFstream.H"
-#include "OSspecific.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
+#include "dimensionSet/dimensionSet.H"
+#include "primitives/SymmTensor/symmTensor/symmTensor.H"
+#include "matrices/SquareMatrix/SquareMatrix.H"
+#include "meshes/ijkMesh/IjkField.H"
+#include "primitives/ranges/MinMax/MinMax.H"
+#include "fields/volFields/volFields.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "include/OSspecific.H"
 
 #ifndef FULLDEBUG
 #ifndef NDEBUG

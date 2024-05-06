@@ -31,8 +31,8 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "passiveParticleCloud.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "passiveParticle/passiveParticleCloud.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -42,9 +42,9 @@ int main(int argc, char *argv[])
 
     argList::noFunctionObjects();
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     const word cloudName = args[1];
 

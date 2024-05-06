@@ -26,12 +26,12 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DelaunayMesh.H"
-#include "fvMesh.H"
-#include "pointConversion.H"
-#include "wallPolyPatch.H"
-#include "processorPolyPatch.H"
-#include "labelIOField.H"
+#include "DelaunayMesh/DelaunayMesh.H"
+#include "fvMesh/fvMesh.H"
+#include "conformalVoronoiMesh/pointConversion.H"
+#include "meshes/polyMesh/polyPatches/derived/wall/wallPolyPatch.H"
+#include "meshes/polyMesh/polyPatches/constraint/processor/processorPolyPatch.H"
+#include "fields/Fields/labelField/labelIOField.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

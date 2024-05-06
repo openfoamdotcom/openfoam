@@ -28,15 +28,15 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "line.H"
-#include "Random.H"
-#include "treeBoundBox.H"
-#include "bitSet.H"
-#include "HashSet.H"
-#include "ListOps.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveShapes/line/line.H"
+#include "primitives/random/Random/Random.H"
+#include "meshes/treeBoundBox/treeBoundBox.H"
+#include "containers/Bits/bitSet/bitSet.H"
+#include "containers/HashTables/HashSet/HashSet.H"
+#include "containers/Lists/ListOps/ListOps.H"
 
 using namespace Foam;
 
@@ -56,7 +56,7 @@ boundBox cube(scalar start, scalar width)
 
 int main(int argc, char *argv[])
 {
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     Info<<"boundBox faces: " << boundBox::hexFaces() << nl
         <<"tree-bb faces: " << treeBoundBox::faces << nl

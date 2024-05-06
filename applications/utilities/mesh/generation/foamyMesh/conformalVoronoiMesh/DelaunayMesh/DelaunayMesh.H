@@ -39,12 +39,12 @@ SourceFiles
 #ifndef DelaunayMesh_H
 #define DelaunayMesh_H
 
-#include "labelPairHashes.H"
-#include "boundBox.H"
-#include "indexedVertex.H"
-#include "CGALTriangulation3Ddefs.H"
-#include "TimeOpenFOAM.H"
-#include "autoPtr.H"
+#include "primitives/tuples/labelPairHashes.H"
+#include "meshes/boundBox/boundBox.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertex.H"
+#include "conformalVoronoiMesh/CGALTriangulation3Ddefs.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "memory/autoPtr/autoPtr.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -262,12 +262,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "DelaunayMeshI.H"
+#include "DelaunayMesh/DelaunayMeshI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DelaunayMesh.C"
+    #include "DelaunayMesh/DelaunayMesh.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

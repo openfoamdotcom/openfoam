@@ -31,10 +31,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "ListOps.H"
-#include "CircularBuffer.H"
-#include "FlatOutput.H"
+#include "global/argList/argList.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/Buffers/CircularBuffer.H"
+#include "db/IOstreams/output/FlatOutput.H"
 
 using namespace Foam;
 

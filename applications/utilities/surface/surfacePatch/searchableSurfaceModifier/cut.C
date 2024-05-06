@@ -26,15 +26,15 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cut.H"
-#include "addToRunTimeSelectionTable.H"
-#include "searchableSurfaces.H"
-#include "triSurfaceMesh.H"
-#include "searchableBox.H"
-#include "searchableRotatedBox.H"
-#include "surfaceIntersection.H"
-#include "intersectedSurface.H"
-#include "edgeIntersections.H"
+#include "searchableSurfaceModifier/cut.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
+#include "searchableSurfaces/searchableSurfaces/searchableSurfaces.H"
+#include "searchableSurfaces/triSurfaceMesh/triSurfaceMesh.H"
+#include "searchableSurfaces/searchableBox/searchableBox.H"
+#include "searchableSurfaces/searchableRotatedBox/searchableRotatedBox.H"
+#include "triSurface/booleanOps/surfaceIntersection/surfaceIntersection.H"
+#include "triSurface/booleanOps/intersectedSurface/intersectedSurface.H"
+#include "triSurface/booleanOps/surfaceIntersection/edgeIntersections.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

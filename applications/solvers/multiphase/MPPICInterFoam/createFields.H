@@ -1,4 +1,4 @@
-#include "createRDeltaT.H"
+#include "cfdTools/general/include/createRDeltaT.H"
 
 Info<< "Reading field p_rgh\n" << endl;
 volScalarField p_rgh
@@ -28,7 +28,7 @@ volVectorField U
     mesh
 );
 
-#include "createPhi.H"
+#include "cfdTools/incompressible/createPhi.H"
 
 Info<< "Reading transportProperties\n" << endl;
 immiscibleIncompressibleTwoPhaseMixture mixture(U, phi);
@@ -82,9 +82,9 @@ surfaceScalarField rhoPhi
     fvc::interpolate(rho)*phi
 );
 
-#include "readGravitationalAcceleration.H"
-#include "readhRef.H"
-#include "gh.H"
+#include "cfdTools/general/include/readGravitationalAcceleration.H"
+#include "cfdTools/general/include/readhRef.H"
+#include "cfdTools/general/include/gh.H"
 
 volScalarField p
 (
@@ -199,4 +199,4 @@ autoPtr
     )
 );
 
-#include "createMRF.H"
+#include "cfdTools/general/include/createMRF.H"

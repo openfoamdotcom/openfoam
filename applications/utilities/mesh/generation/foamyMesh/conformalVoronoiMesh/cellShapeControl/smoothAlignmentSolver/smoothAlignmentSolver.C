@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "smoothAlignmentSolver.H"
+#include "cellShapeControl/smoothAlignmentSolver/smoothAlignmentSolver.H"
 
 // * * * * * * * * * * * * * Private Member Functions  * * * * * * * * * * * //
 

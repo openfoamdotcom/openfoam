@@ -105,13 +105,13 @@ Note
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "wallFvPatch.H"
-#include "processorFvPatch.H"
-#include "fixedValueFvPatchFields.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
+#include "fields/fvPatchFields/basic/fixedValue/fixedValueFvPatchFields.H"
 
 using namespace Foam;
 
@@ -177,7 +177,7 @@ tmp<volScalarField> nu
         volScalarField rho(thermo.rho());
 
         // Create phi
-        #include "compressibleCreatePhi.H"
+        #include "cfdTools/compressible/compressibleCreatePhi.H"
 
         autoPtr<compressible::turbulenceModel> turbulence
         (
@@ -199,7 +199,7 @@ tmp<volScalarField> nu
         // Incompressible
 
         // Create phi
-        #include "createPhi.H"
+        #include "cfdTools/incompressible/createPhi.H"
 
         singlePhaseTransportModel laminarTransport(U, phi);
 
@@ -257,17 +257,17 @@ int main(int argc, char *argv[])
     argList::noFunctionObjects();
     argList::addOption("dict", "file", "Alternative setTurbulenceFieldsDict");
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const word dictName("setTurbulenceFieldsDict");
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
     Info<< "Reading " << dictIO.name() << nl << endl;
     IOdictionary dict(dictIO);
 
-    #include "createNamedMesh.H"
+    #include "include/createNamedMesh.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "searchableSurfaceFeatures.H"
+#include "searchableSurfaceFeatures/searchableSurfaceFeatures.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

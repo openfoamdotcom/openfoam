@@ -46,7 +46,7 @@ SourceFiles
 #ifndef Merkle_H
 #define Merkle_H
 
-#include "phaseChangeTwoPhaseMixture.H"
+#include "phaseChangeTwoPhaseMixture/phaseChangeTwoPhaseMixture.H"
 
 // * * * * * * * * * * * * * * * * *  * * * * * * * * * * * * * * * * //
 

@@ -27,11 +27,11 @@ License
 
 #include "PhaseCompressibleTurbulenceModel.H"
 #include "immiscibleIncompressibleTwoPhaseMixture.H"
-#include "addToRunTimeSelectionTable.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "makeTurbulenceModel.H"
 
-#include "turbulentTransportModel.H"
-#include "LESModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "LES/LESModel/LESModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -77,19 +77,19 @@ makeBaseTurbulenceModel
         Type                                                                   \
     )
 
-#include "Stokes.H"
+#include "laminar/Stokes/Stokes.H"
 makeLaminarModel(Stokes);
 
-#include "kEpsilon.H"
+#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
-#include "Smagorinsky.H"
+#include "LES/Smagorinsky/Smagorinsky.H"
 makeLESModel(Smagorinsky);
 
-#include "kEqn.H"
+#include "LES/kEqn/kEqn.H"
 makeLESModel(kEqn);
 
-#include "kOmega.H"
+#include "RAS/kOmega/kOmega.H"
 makeRASModel(kOmega);
 
 

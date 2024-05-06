@@ -25,8 +25,8 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "FresnelLaser.H"
-#include "addToRunTimeSelectionTable.H"
+#include "reflectionModel/FresnelLaser/FresnelLaser.H"
+#include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //
 

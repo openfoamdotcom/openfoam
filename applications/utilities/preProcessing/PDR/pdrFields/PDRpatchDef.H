@@ -38,9 +38,9 @@ SourceFiles
 #ifndef PDRpatchDef_H
 #define PDRpatchDef_H
 
-#include "word.H"
-#include "scalar.H"
-#include "Enum.H"
+#include "primitives/strings/word/word.H"
+#include "primitives/Scalar/scalar/scalar.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

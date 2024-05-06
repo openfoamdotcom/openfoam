@@ -33,16 +33,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "ListOps.H"
-#include "face.H"
-#include "tetrahedron.H"
-#include "triFaceList.H"
-#include "OFstream.H"
-#include "meshTools.H"
-#include "momentOfInertia.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/meshShapes/face/face.H"
+#include "meshes/primitiveShapes/tetrahedron/tetrahedron.H"
+#include "meshes/meshShapes/triFace/triFaceList.H"
+#include "db/IOstreams/Fstreams/OFstream.H"
+#include "meshTools/meshTools.H"
+#include "momentOfInertia/momentOfInertia.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -57,9 +57,9 @@ int main(int argc, char *argv[])
         "cell to use for inertia calculation, defaults to 0"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     scalar density = 1.0;
 

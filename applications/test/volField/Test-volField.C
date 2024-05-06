@@ -29,9 +29,9 @@ Application
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "GeometricFields.H"
-#include "transformGeometricField.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "fields/GeometricFields/GeometricField/GeometricFields.H"
+#include "fields/GeometricFields/transformGeometricField/transformGeometricField.H"
 
 // #undef TEST_UINT8_FIELD
 
@@ -134,10 +134,10 @@ int main(int argc, char *argv[])
 {
     argList::addBoolOption("zip", "run zip/unzip tests");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
-    #include "createTime.H"
-    #include "createMesh.H"
+    #include "include/createTime.H"
+    #include "include/createMesh.H"
 
     Info<< "Reading field p\n" << endl;
     volScalarField p
@@ -171,7 +171,7 @@ int main(int argc, char *argv[])
         mesh
     );
 
-    #include "createPhi.H"
+    #include "cfdTools/incompressible/createPhi.H"
 
     volSymmTensorField st
     (

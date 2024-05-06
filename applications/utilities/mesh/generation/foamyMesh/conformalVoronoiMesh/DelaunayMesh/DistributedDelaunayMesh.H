@@ -38,11 +38,11 @@ SourceFiles
 #ifndef DistributedDelaunayMesh_H
 #define DistributedDelaunayMesh_H
 
-#include "DelaunayMesh.H"
-#include "backgroundMeshDecomposition.H"
-#include "autoPtr.H"
-#include "boundBox.H"
-#include "indexedVertex.H"
+#include "DelaunayMesh/DelaunayMesh.H"
+#include "backgroundMeshDecomposition/backgroundMeshDecomposition.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "meshes/boundBox/boundBox.H"
+#include "conformalVoronoiMesh/indexedVertex/indexedVertex.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -208,7 +208,7 @@ public:
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "DistributedDelaunayMesh.C"
+    #include "DelaunayMesh/DistributedDelaunayMesh.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

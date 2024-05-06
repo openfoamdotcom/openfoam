@@ -28,11 +28,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "instant.H"
-#include "Pair.H"
-#include "fileNameInstant.H"
-#include "DynamicList.H"
+#include "global/argList/argList.H"
+#include "db/Time/instant/instant.H"
+#include "primitives/tuples/Pair.H"
+#include "db/Time/instant/fileNameInstant.H"
+#include "containers/Lists/DynamicList/DynamicList.H"
 
 using namespace Foam;
 

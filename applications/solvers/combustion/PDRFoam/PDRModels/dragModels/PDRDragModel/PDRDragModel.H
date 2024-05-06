@@ -38,11 +38,11 @@ SourceFiles
 #ifndef PDRDragModel_H
 #define PDRDragModel_H
 
-#include "IOdictionary.H"
-#include "psiuReactionThermo.H"
-#include "turbulentFluidThermoModel.H"
-#include "multivariateSurfaceInterpolationScheme.H"
-#include "runTimeSelectionTables.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "psiuReactionThermo/psiuReactionThermo.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "interpolation/surfaceInterpolation/multivariateSchemes/multivariateSurfaceInterpolationScheme/multivariateSurfaceInterpolationScheme.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

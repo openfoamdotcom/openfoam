@@ -29,12 +29,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "primitivePatch.H"
-#include "IndirectList.H"
-#include "Fstream.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "meshes/primitiveMesh/primitivePatch/primitivePatch.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
 
 using namespace Foam;
 
@@ -212,9 +212,9 @@ int main(int argc, char *argv[])
     argList::noParallel();
     argList::addArgument("patch");
 
-    #include "setRootCase.H"
-    #include "createTime.H"
-    #include "createPolyMesh.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
+    #include "include/createPolyMesh.H"
 
     const word patchName = args[1];
     const polyPatch& patch = mesh.boundaryMesh()[patchName];

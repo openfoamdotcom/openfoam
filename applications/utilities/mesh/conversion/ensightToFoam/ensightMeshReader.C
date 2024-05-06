@@ -26,12 +26,12 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "ensightMeshReader.H"
-#include "cellModel.H"
-#include "ensightReadFile.H"
-#include "matchPoints.H"
-#include "mergePoints.H"
-#include "ListListOps.H"
-#include "stringOps.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
+#include "ensight/read/ensightReadFile.H"
+#include "meshes/meshTools/matchPoints.H"
+#include "meshes/meshTools/mergePoints.H"
+#include "containers/Lists/ListListOps/ListListOps.H"
+#include "primitives/strings/stringOps/stringOps.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -45,11 +45,11 @@ SourceFiles
 #ifndef mixtureViscosityModel_H
 #define mixtureViscosityModel_H
 
-#include "dictionary.H"
-#include "volFieldsFwd.H"
-#include "surfaceFieldsFwd.H"
-#include "dimensionedScalar.H"
-#include "runTimeSelectionTables.H"
+#include "db/dictionary/dictionary.H"
+#include "fields/volFields/volFieldsFwd.H"
+#include "fields/surfaceFields/surfaceFieldsFwd.H"
+#include "dimensionedTypes/dimensionedScalar/dimensionedScalar.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -28,16 +28,16 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "IOobject.H"
-#include "IOdictionary.H"
-#include "IOMap.H"
-#include "coordinateSystems.H"
-#include "faSchemes.H"
-#include "fvSchemes.H"
-#include "schemesLookup.H"
-#include "scalarIOList.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "db/IOobject/IOobject.H"
+#include "db/IOobjects/IOdictionary/IOdictionary.H"
+#include "db/IOobjects/IOMap/IOMap.H"
+#include "primitives/coordinate/systems/coordinateSystems.H"
+#include "finiteArea/faSchemes/faSchemes.H"
+#include "finiteVolume/fvSchemes/fvSchemes.H"
+#include "matrices/schemes/schemesLookup.H"
+#include "primitives/Scalar/lists/scalarIOList.H"
 
 using namespace Foam;
 

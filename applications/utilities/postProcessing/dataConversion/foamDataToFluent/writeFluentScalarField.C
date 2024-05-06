@@ -32,7 +32,7 @@ Description
 \*---------------------------------------------------------------------------*/
 
 #include "writeFluentFields.H"
-#include "emptyFvPatchFields.H"
+#include "fields/fvPatchFields/constraint/empty/emptyFvPatchFields.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -25,9 +25,9 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "DTRMParticle.H"
-#include "constants.H"
-#include "physicoChemicalConstants.H"
+#include "DTRMParticle/DTRMParticle.H"
+#include "global/constants/constants.H"
+#include "global/constants/physicoChemical/physicoChemicalConstants.H"
 
 using namespace Foam::constant;
 

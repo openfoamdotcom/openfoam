@@ -25,7 +25,7 @@ writeInterval   #codeStream
 
     codeInclude
     #{
-        #include "fvCFD.H"
+        #include "cfdTools/general/include/fvCFD.H"
     #};
 
     codeOptions

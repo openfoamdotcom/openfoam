@@ -26,10 +26,10 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "dictionary.H"
-#include "primitiveEntry.H"
-#include "dimensionedTypes.H"
-#include "SpanStream.H"
+#include "db/dictionary/dictionary.H"
+#include "db/dictionary/primitiveEntry/primitiveEntry.H"
+#include "dimensionedTypes/dimensionedTypes.H"
+#include "db/IOstreams/memory/SpanStream.H"
 
 using namespace Foam;
 

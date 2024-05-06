@@ -92,9 +92,9 @@ See also
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "noiseModel.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "noise/noiseModels/noiseModel/noiseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -113,15 +113,15 @@ int main(int argc, char *argv[])
 
     argList::addOption("dict", "file", "Alternative noiseDict");
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     // As much as possible avoid synchronised operation
     fileHandler().distributed(true);
 
-    #include "createTime.H"
+    #include "include/createTime.H"
 
     const word dictName("noiseDict");
-    #include "setSystemRunTimeDictionaryIO.H"
+    #include "include/setSystemRunTimeDictionaryIO.H"
 
     Info<< "Reading " << dictIO.name() << nl << endl;
 

@@ -34,11 +34,11 @@ Description
 #ifndef solverTemplate_H
 #define solverTemplate_H
 
-#include "boolList.H"
-#include "wordList.H"
-#include "dimensionSet.H"
-#include "IOobject.H"
-#include "Enum.H"
+#include "primitives/bools/lists/boolList.H"
+#include "primitives/strings/lists/wordList.H"
+#include "dimensionSet/dimensionSet.H"
+#include "db/IOobject/IOobject.H"
+#include "primitives/enums/Enum.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -37,7 +37,7 @@ SourceFiles
 #ifndef uniformValue_H
 #define uniformValue_H
 
-#include "surfaceCellSizeFunction.H"
+#include "cellSizeControlSurfaces/surfaceCellSizeFunction/surfaceCellSizeFunction/surfaceCellSizeFunction.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -30,13 +30,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "OSspecific.H"
-#include "IOstreams.H"
-#include "ISLList.H"
-#include "List.H"
-#include "FlatOutput.H"
-#include "ListOps.H"
-#include "OSspecific.H"
+#include "include/OSspecific.H"
+#include "db/IOstreams/IOstreams.H"
+#include "containers/LinkedLists/user/ISLList.H"
+#include "containers/Lists/List/List.H"
+#include "db/IOstreams/output/FlatOutput.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "include/OSspecific.H"
 
 using namespace Foam;
 

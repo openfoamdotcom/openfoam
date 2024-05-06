@@ -45,13 +45,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "polyMesh.H"
-#include "IFstream.H"
-#include "polyPatch.H"
-#include "ListOps.H"
-#include "cellModel.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "meshes/polyMesh/polyMesh.H"
+#include "db/IOstreams/Fstreams/IFstream.H"
+#include "meshes/polyMesh/polyPatches/polyPatch/polyPatch.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "meshes/meshShapes/cellModel/cellModel.H"
 
 #include <fstream>
 
@@ -74,8 +74,8 @@ int main(int argc, char *argv[])
         "Treat input as containing hex instead of tet cells"
     );
 
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
     const bool readHex = args.found("hex");
     IFstream mshStream(args.get<fileName>(1));

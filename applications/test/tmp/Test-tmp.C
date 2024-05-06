@@ -18,11 +18,11 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "primitiveFields.H"
-#include "autoPtr.H"
-#include "refPtr.H"
-#include "tmp.H"
-#include "Switch.H"
+#include "fields/Fields/primitiveFields.H"
+#include "memory/autoPtr/autoPtr.H"
+#include "memory/refPtr/refPtr.H"
+#include "memory/tmp/tmp.H"
+#include "primitives/bools/Switch/Switch.H"
 
 using namespace Foam;
 

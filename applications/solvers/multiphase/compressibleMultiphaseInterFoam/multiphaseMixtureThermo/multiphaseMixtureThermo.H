@@ -37,12 +37,12 @@ SourceFiles
 #ifndef multiphaseMixtureThermo_H
 #define multiphaseMixtureThermo_H
 
-#include "phaseModel.H"
-#include "PtrDictionary.H"
-#include "volFields.H"
-#include "surfaceFields.H"
-#include "rhoThermo.H"
-#include "psiThermo.H"
+#include "phaseModel/phaseModel.H"
+#include "containers/Dictionaries/PtrDictionary/PtrDictionary.H"
+#include "fields/volFields/volFields.H"
+#include "fields/surfaceFields/surfaceFields.H"
+#include "rhoThermo/rhoThermo.H"
+#include "psiThermo/psiThermo.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

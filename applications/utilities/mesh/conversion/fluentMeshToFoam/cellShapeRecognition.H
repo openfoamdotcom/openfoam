@@ -33,9 +33,9 @@ Description
 #ifndef cellShapeRecognition_H
 #define cellShapeRecognition_H
 
-#include "cellShape.H"
-#include "faceList.H"
-#include "PtrList.H"
+#include "meshes/meshShapes/cellShape/cellShape.H"
+#include "meshes/meshShapes/face/faceList.H"
+#include "containers/PtrLists/PtrList/PtrList.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -32,10 +32,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "MathFunctions.H"
-#include "mathematicalConstants.H"
-#include "IOmanip.H"
-#include "TestTools.H"
+#include "primitives/functions/Math/MathFunctions.H"
+#include "global/constants/mathematical/mathematicalConstants.H"
+#include "db/IOstreams/IOstreams/IOmanip.H"
+#include "test/TestTools/TestTools.H"
 
 using namespace Foam;
 

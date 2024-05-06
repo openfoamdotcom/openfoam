@@ -40,8 +40,8 @@ SourceFiles
 #ifndef SCOPEXiEq_H
 #define SCOPEXiEq_H
 
-#include "XiEqModel.H"
-#include "SCOPELaminarFlameSpeed.H"
+#include "XiModels/XiEqModels/XiEqModel/XiEqModel.H"
+#include "laminarFlameSpeed/SCOPE/SCOPELaminarFlameSpeed.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

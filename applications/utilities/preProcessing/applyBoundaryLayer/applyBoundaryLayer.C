@@ -45,12 +45,12 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "fvCFD.H"
-#include "singlePhaseTransportModel.H"
-#include "turbulentTransportModel.H"
-#include "turbulentFluidThermoModel.H"
-#include "wallDist.H"
-#include "processorFvPatch.H"
+#include "cfdTools/general/include/fvCFD.H"
+#include "singlePhaseTransportModel/singlePhaseTransportModel.H"
+#include "turbulentTransportModels/turbulentTransportModel.H"
+#include "turbulentFluidThermoModels/turbulentFluidThermoModel.H"
+#include "fvMesh/wallDist/wallDist/wallDist.H"
+#include "fvMesh/fvPatches/constraint/processor/processorFvPatch.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
@@ -203,7 +203,7 @@ tmp<volScalarField> calcNut
         volScalarField rho(thermo.rho());
 
         // Update/re-write phi
-        #include "compressibleCreatePhi.H"
+        #include "cfdTools/compressible/compressibleCreatePhi.H"
         phi.write();
 
         autoPtr<compressible::turbulenceModel> turbulence
@@ -227,7 +227,7 @@ tmp<volScalarField> calcNut
         // Incompressible
 
         // Update/re-write phi
-        #include "createPhi.H"
+        #include "cfdTools/incompressible/createPhi.H"
         phi.write();
 
         singlePhaseTransportModel laminarTransport(U, phi);
@@ -253,7 +253,7 @@ int main(int argc, char *argv[])
         " turbulence fields based on the 1/7th power-law."
     );
 
-    #include "addRegionOption.H"
+    #include "include/addRegionOption.H"
 
     argList::addOption
     (
@@ -277,7 +277,7 @@ int main(int argc, char *argv[])
         "writeTurbulenceFields", {"write-nut", 1906}
     );
 
-    #include "setRootCase.H"
+    #include "include/setRootCase.H"
 
     if (!args.found("ybl") && !args.found("Cbl"))
     {
@@ -298,8 +298,8 @@ int main(int argc, char *argv[])
 
     const bool writeTurbulenceFields = args.found("writeTurbulenceFields");
 
-    #include "createTime.H"
-    #include "createNamedMesh.H"
+    #include "include/createTime.H"
+    #include "include/createNamedMesh.H"
     #include "createFields.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

@@ -32,10 +32,10 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "PatchTools.H"
-#include "argList.H"
-#include "TimeOpenFOAM.H"
-#include "OBJstream.H"
+#include "meshes/primitiveMesh/PatchTools/PatchTools.H"
+#include "global/argList/argList.H"
+#include "db/Time/TimeOpenFOAM.H"
+#include "obj/OBJstream.H"
 
 using namespace Foam;
 
@@ -201,12 +201,12 @@ using namespace Foam;
 
 int main(int argc, char *argv[])
 {
-    #include "addTimeOptions.H"
+    #include "include/addTimeOptions.H"
     argList::addArgument("patch");
-    #include "setRootCase.H"
-    #include "createTime.H"
+    #include "include/setRootCase.H"
+    #include "include/createTime.H"
 
-    #include "createPolyMesh.H"
+    #include "include/createPolyMesh.H"
 
     const word patchName = args[1];
     label patchi = mesh.boundaryMesh().findPatchID(patchName);

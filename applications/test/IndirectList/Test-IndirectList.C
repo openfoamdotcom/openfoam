@@ -28,13 +28,13 @@ Description
 
 \*---------------------------------------------------------------------------*/
 
-#include "argList.H"
-#include "Fstream.H"
-#include "ListOps.H"
-#include "IndirectList.H"
-#include "labelIndList.H"
-#include "SortList.H"
-#include "Random.H"
+#include "global/argList/argList.H"
+#include "db/IOstreams/Fstreams/Fstream.H"
+#include "containers/Lists/ListOps/ListOps.H"
+#include "containers/IndirectLists/IndirectList/IndirectList.H"
+#include "primitives/ints/lists/labelIndList.H"
+#include "containers/IndirectLists/SortList/SortList.H"
+#include "primitives/random/Random/Random.H"
 #include <functional>
 
 using namespace Foam;
