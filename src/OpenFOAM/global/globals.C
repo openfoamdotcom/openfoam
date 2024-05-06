@@ -95,7 +95,7 @@ bool Foam::JobInfo::constructed(false);
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read parallel communication switches
 
-#include "UPstream.C"
+#include "db/IOstreams/Pstreams/UPstream.C"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 // Read constants
