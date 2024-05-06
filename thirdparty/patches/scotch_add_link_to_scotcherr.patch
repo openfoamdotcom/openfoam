@@ -1,0 +1,13 @@
+diff --git a/src/libscotch/CMakeLists.txt b/src/libscotch/CMakeLists.txt
+index 4a7de7c..d1cce2e 100644
+--- a/src/libscotch/CMakeLists.txt
++++ b/src/libscotch/CMakeLists.txt
+@@ -573,6 +573,8 @@ target_include_directories(scotcherrexit PUBLIC
+ 
+ add_dependencies(scotcherrexit scotch_h)
+ 
++target_link_libraries(scotch PUBLIC scotcherr)
++
+ #################
+ #  libPTScotch  #
+ #################
