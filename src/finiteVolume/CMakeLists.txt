@@ -422,10 +422,16 @@ set(_FILES
   lduPrimitiveMeshAssembly/lduPrimitiveMeshAssembly.C
   lduPrimitiveMeshAssembly/assemblyFaceAreaPairGAMGAgglomeration/assemblyFaceAreaPairGAMGAgglomeration.C
 )
+set(_lemon_srcs)
+get_target_property(_lemon_template lemon LEMON_TEMPLATE)
+set(_lemon_src ${CMAKE_CURRENT_BINARY_DIR}/patchExprLemonParser.C)
+lemon_target(LemonFile expressions/patch/patchExprLemonParser.lyy-m4 "${_lemon_src}" COMPILE_FLAGS -I${OPENFOAM_SRC_DIR}/OpenFOAM/include -I${CMAKE_CURRENT_SOURCE_DIR}/expressions/patch TEMPLATE "${_lemon_template}")
+list(APPEND _lemon_srcs ${_lemon_src})
 get_target_property(_lemon_template lemon LEMON_TEMPLATE)
 set(_lemon_src ${CMAKE_CURRENT_BINARY_DIR}/volumeExprLemonParser.C)
-lemon_target(MyName expressions/volume/volumeExprLemonParser.lyy-m4 "${_lemon_src}" COMPILE_FLAGS -I${OPENFOAM_SRC_DIR}/OpenFOAM/include -I${CMAKE_CURRENT_SOURCE_DIR}/expressions/volume TEMPLATE "${_lemon_template}")
-add_library(finiteVolume ${_FILES} ${_lemon_src})
+lemon_target(LemonFile expressions/volume/volumeExprLemonParser.lyy-m4 "${_lemon_src}" COMPILE_FLAGS -I${OPENFOAM_SRC_DIR}/OpenFOAM/include -I${CMAKE_CURRENT_SOURCE_DIR}/expressions/volume TEMPLATE "${_lemon_template}")
+list(APPEND _lemon_srcs ${_lemon_src})
+add_library(finiteVolume ${_FILES} ${_lemon_srcs})
 target_compile_features(finiteVolume PUBLIC cxx_std_11)
 set_property(TARGET finiteVolume PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(finiteVolume PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
