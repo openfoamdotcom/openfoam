@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/thermo/heatTransferModel/constantHeatTransfer/constantHeatTransfer.H"
+#include "sources/interRegion/interRegionHeatTransfer/constantHeatTransfer/constantHeatTransfer.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

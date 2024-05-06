@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "interfacialModels/heatTransferModels/heatTransferModel/heatTransferModel.H"
 #include "phasePair/phasePair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

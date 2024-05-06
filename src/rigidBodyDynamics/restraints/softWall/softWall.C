@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyMotion/restraints/softWall/softWall.H"
+#include "restraints/softWall/softWall.H"
 #include "rigidBodyModel/rigidBodyModel.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "db/Time/TimeOpenFOAM.H"

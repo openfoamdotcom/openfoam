@@ -43,10 +43,10 @@ SourceFiles
 #ifndef surfaceFeaturesExtraction_method_H
 #define surfaceFeaturesExtraction_method_H
 
-#include "surfaceFeatures.H"
-#include "dictionary.H"
-#include "Switch.H"
-#include "runTimeSelectionTables.H"
+#include "triSurface/surfaceFeatures/surfaceFeatures.H"
+#include "db/dictionary/dictionary.H"
+#include "primitives/bools/Switch/Switch.H"
+#include "db/runTimeSelection/construction/runTimeSelectionTables.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef MultiComponentPhaseModel_H
 #define MultiComponentPhaseModel_H
 
-#include "phaseModel/phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 #include "primitives/strings/lists/hashedWordList.H"
 #include "rhoReactionThermo/rhoReactionThermo.H"
 #include "basicThermo/basicThermo.H"

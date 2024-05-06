@@ -80,10 +80,10 @@ makeLaminarModel(Stokes);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kOmegaSST/kOmegaSST.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
 makeRASModel(kOmegaSST);
 
 

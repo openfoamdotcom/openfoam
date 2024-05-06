@@ -37,7 +37,7 @@ SourceFiles
 #ifndef StaticPhaseModel_H
 #define StaticPhaseModel_H
 
-#include "phaseModel/phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

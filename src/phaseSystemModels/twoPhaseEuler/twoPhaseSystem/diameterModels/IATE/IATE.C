@@ -27,7 +27,7 @@ License
 
 #include "diameterModels/IATE/IATE.H"
 #include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
-#include "twoPhaseSystem.H"
+#include "twoPhaseSystem/twoPhaseSystem.H"
 #include "finiteVolume/fvm/fvmDdt.H"
 #include "finiteVolume/fvm/fvmDiv.H"
 #include "finiteVolume/fvm/fvmSup.H"

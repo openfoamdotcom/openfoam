@@ -85,7 +85,7 @@ SourceFiles
 #ifndef areaSurfaceFilmModels_dynamicContactAngleForce_H
 #define areaSurfaceFilmModels_dynamicContactAngleForce_H
 
-#include "submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.H"
+#include "liquidFilm/subModels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.H"
 #include "primitives/functions/Function1/Function1/Function1Pascal.H"
 #include "distributionModel/distributionModel.H"
 #include "primitives/random/Random/Random.H"

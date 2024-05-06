@@ -67,10 +67,10 @@ makeLaminarModel(Maxwell);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/SpalartAllmaras/SpalartAllmaras.H"
+#include "RAS/SpalartAllmaras/SpalartAllmaras.H"
 makeRASModel(SpalartAllmaras);
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
 #include "RAS/RNGkEpsilon/RNGkEpsilon.H"
@@ -79,7 +79,7 @@ makeRASModel(RNGkEpsilon);
 #include "RAS/realizableKE/realizableKE.H"
 makeRASModel(realizableKE);
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/LaunderSharmaKE/LaunderSharmaKE.H"
+#include "RAS/LaunderSharmaKE/LaunderSharmaKE.H"
 makeRASModel(LaunderSharmaKE);
 
 #include "RAS/kEpsilonPhitF/kEpsilonPhitF.H"
@@ -88,7 +88,7 @@ makeRASModel(kEpsilonPhitF);
 #include "RAS/kOmega/kOmega.H"
 makeRASModel(kOmega);
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kOmegaSST/kOmegaSST.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
 makeRASModel(kOmegaSST);
 
 #include "RAS/kOmegaSSTSAS/kOmegaSSTSAS.H"

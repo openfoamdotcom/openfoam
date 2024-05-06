@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/Thermodynamic/HeatTransferModel/RanzMarshall/RanzMarshall.H"
+#include "interfacialModels/heatTransferModels/RanzMarshall/RanzMarshall.H"
 #include "phasePair/reactingEuler_phasePair.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 

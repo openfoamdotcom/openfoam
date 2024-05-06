@@ -26,11 +26,11 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "twoPhaseSystem.H"
+#include "twoPhaseSystem/twoPhaseSystem.H"
 #include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
 #include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 #include "interfacialModels/virtualMassModels/virtualMassModel/virtualMassModel.H"
-#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "interfacialModels/heatTransferModels/heatTransferModel/heatTransferModel.H"
 #include "interfacialModels/liftModels/liftModel/liftModel.H"
 #include "interfacialModels/wallLubricationModels/wallLubricationModel/wallLubricationModel.H"
 #include "interfacialModels/turbulentDispersionModels/turbulentDispersionModel/turbulentDispersionModel.H"

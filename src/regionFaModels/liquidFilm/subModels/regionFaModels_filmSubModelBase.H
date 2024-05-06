@@ -124,12 +124,12 @@ public:
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "submodels/filmSubModelBaseI.H"
+#include "liquidFilm/subModels/filmSubModelBaseI.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 #ifdef NoRepository
-    #include "submodels/filmSubModelBaseTemplates.C"
+    #include "liquidFilm/subModels/filmSubModelBaseTemplates.C"
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

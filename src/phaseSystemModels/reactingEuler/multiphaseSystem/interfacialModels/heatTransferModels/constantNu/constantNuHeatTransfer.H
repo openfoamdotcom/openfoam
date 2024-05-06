@@ -38,7 +38,7 @@ SourceFiles
 #ifndef constantNuHeatTransfer_H
 #define constantNuHeatTransfer_H
 
-#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "interfacialModels/heatTransferModels/heatTransferModel/heatTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

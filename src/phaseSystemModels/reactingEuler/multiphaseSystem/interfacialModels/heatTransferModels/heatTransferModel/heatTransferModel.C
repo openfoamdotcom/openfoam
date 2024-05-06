@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "interfacialModels/heatTransferModels/heatTransferModel/heatTransferModel.H"
 #include "phasePair/reactingEuler_phasePair.H"
 #include "BlendedInterfacialModel/BlendedInterfacialModel.H"
 

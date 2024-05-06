@@ -27,7 +27,7 @@ License
 
 #include "faMesh/faMesh.H"
 #include "interpolation/edgeInterpolation/schemes/NVDscheme/faNVDscheme.H"
-#include "interpolation/surfaceInterpolation/limitedSchemes/Gamma/Gamma.H"
+#include "interpolation/edgeInterpolation/schemes/Gamma/Gamma.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

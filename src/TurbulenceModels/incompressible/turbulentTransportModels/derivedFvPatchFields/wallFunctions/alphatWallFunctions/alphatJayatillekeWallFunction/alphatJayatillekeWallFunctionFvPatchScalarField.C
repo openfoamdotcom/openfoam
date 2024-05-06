@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.H"
+#include "turbulentTransportModels/derivedFvPatchFields/wallFunctions/alphatWallFunctions/alphatJayatillekeWallFunction/alphatJayatillekeWallFunctionFvPatchScalarField.H"
 #include "fields/fvPatchFields/fvPatchField/fvPatchFieldMapper.H"
 #include "fields/volFields/volFields.H"
 #include "fvMesh/fvPatches/derived/wall/wallFvPatch.H"

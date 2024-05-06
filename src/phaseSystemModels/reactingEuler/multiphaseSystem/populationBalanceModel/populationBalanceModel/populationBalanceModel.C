@@ -33,7 +33,7 @@ License
 #include "populationBalanceModel/driftModels/driftModel/driftModel.H"
 #include "populationBalanceModel/nucleationModels/nucleationModel/nucleationModel.H"
 #include "phaseSystem/phaseSystem.H"
-#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "interfacialCompositionModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
 #include "finiteVolume/fvm/fvmDdt.H"
 #include "finiteVolume/fvc/fvcDdt.H"
 #include "finiteVolume/fvm/fvmSup.H"

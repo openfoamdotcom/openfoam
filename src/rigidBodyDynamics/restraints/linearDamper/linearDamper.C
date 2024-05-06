@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyMotion/restraints/linearDamper/linearDamper.H"
+#include "restraints/linearDamper/linearDamper.H"
 #include "rigidBodyModel/rigidBodyModel.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "interfacialCompositionModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
 #include "phasePair/reactingEuler_phasePair.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

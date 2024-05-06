@@ -38,7 +38,7 @@ SourceFiles
 #ifndef sphericalHeatTransfer_H
 #define sphericalHeatTransfer_H
 
-#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "interfacialModels/heatTransferModels/heatTransferModel/heatTransferModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

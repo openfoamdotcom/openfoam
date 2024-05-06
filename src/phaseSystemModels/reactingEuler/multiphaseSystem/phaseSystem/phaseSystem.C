@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "phaseSystem/phaseSystem.H"
-#include "interfaceModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
+#include "interfacialCompositionModels/surfaceTensionModels/surfaceTensionModel/surfaceTensionModel.H"
 #include "interfacialModels/aspectRatioModels/aspectRatioModel/aspectRatioModel.H"
 #include "interpolation/surfaceInterpolation/surfaceInterpolation/surfaceInterpolate.H"
 #include "finiteVolume/fvc/fvcDdt.H"

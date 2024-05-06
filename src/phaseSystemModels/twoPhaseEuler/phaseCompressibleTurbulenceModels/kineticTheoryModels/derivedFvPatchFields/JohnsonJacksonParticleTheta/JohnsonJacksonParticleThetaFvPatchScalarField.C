@@ -27,7 +27,7 @@ License
 
 #include "kineticTheoryModels/derivedFvPatchFields/JohnsonJacksonParticleTheta/JohnsonJacksonParticleThetaFvPatchScalarField.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
-#include "twoPhaseSystem.H"
+#include "twoPhaseSystem/twoPhaseSystem.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFRigidBodyMotion/restraints/linearAxialAngularSpring/linearAxialAngularSpring.H"
+#include "restraints/linearAxialAngularSpring/linearAxialAngularSpring.H"
 #include "rigidBodyModel/rigidBodyModel.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 

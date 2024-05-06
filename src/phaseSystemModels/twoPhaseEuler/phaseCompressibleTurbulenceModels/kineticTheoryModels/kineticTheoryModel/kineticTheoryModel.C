@@ -28,7 +28,7 @@ License
 
 #include "kineticTheoryModels/kineticTheoryModel/kineticTheoryModel.H"
 #include "global/constants/mathematical/mathematicalConstants.H"
-#include "twoPhaseSystem.H"
+#include "twoPhaseSystem/twoPhaseSystem.H"
 #include "cfdTools/general/fvOptions/fvOptions.H"
 
 // * * * * * * * * * * * * * * * * Constructors  * * * * * * * * * * * * * * //

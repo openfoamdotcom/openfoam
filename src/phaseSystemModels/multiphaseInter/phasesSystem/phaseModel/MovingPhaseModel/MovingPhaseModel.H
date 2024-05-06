@@ -41,7 +41,7 @@ SourceFiles
 #ifndef MovingPhaseModel_H
 #define MovingPhaseModel_H
 
-#include "phaseModel/phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

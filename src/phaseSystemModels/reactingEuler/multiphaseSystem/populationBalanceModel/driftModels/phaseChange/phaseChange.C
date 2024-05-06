@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "diameterModels/IATE/IATEsources/phaseChange/phaseChange.H"
+#include "populationBalanceModel/driftModels/phaseChange/phaseChange.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "phaseSystem/phaseSystem.H"
 #include "phasePair/phasePairKey.H"

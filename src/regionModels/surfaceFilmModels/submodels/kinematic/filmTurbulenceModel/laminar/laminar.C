@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/laminar/laminar.H"
+#include "submodels/kinematic/filmTurbulenceModel/laminar/laminar.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "fvMesh/fvMesh.H"
 #include "fvMatrices/fvMatrices.H"

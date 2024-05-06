@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "uniform/uniform.H"
+#include "windowModels/uniform/uniform.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "global/constants/mathematical/mathematicalConstants.H"
 

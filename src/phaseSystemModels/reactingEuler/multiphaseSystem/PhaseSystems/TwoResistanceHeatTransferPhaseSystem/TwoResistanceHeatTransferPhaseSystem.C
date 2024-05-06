@@ -28,7 +28,7 @@ License
 #include "PhaseSystems/TwoResistanceHeatTransferPhaseSystem/TwoResistanceHeatTransferPhaseSystem.H"
 
 #include "BlendedInterfacialModel/BlendedInterfacialModel.H"
-#include "submodels/thermo/heatTransferModel/heatTransferModel/heatTransferModel.H"
+#include "interfacialModels/heatTransferModels/heatTransferModel/heatTransferModel.H"
 
 #include "containers/HashTables/HashPtrTable/HashPtrTable.H"
 

@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.H"
+#include "liquidFilm/subModels/kinematic/force/contactAngleForces/contactAngleForce/contactAngleForce.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "include/faCFD.H"
 #include "global/constants/unitConversion.H"

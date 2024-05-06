@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "cfdTools/general/porosityModel/solidification/solidification.H"
+#include "submodels/thermo/phaseChangeModel/solidification/solidification.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "thermoSingleLayer/thermoSingleLayer.H"
 

@@ -38,7 +38,7 @@ SourceFiles
 #ifndef multiphaseInter_phasePair_H
 #define multiphaseInter_phasePair_H
 
-#include "phaseModel/phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 #include "phasePair/phasePairKey.H"
 #include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 

@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFSolvers/CrankNicolson/CrankNicolson.H"
+#include "rigidBodySolvers/CrankNicolson/CrankNicolson.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

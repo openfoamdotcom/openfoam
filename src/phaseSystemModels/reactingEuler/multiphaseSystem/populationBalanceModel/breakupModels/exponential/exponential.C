@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/MPPIC/ParticleStressModels/exponential/exponential.H"
+#include "populationBalanceModel/breakupModels/exponential/exponential.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

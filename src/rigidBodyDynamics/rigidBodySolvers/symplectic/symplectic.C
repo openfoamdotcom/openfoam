@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "sixDoFSolvers/symplectic/symplectic.H"
+#include "rigidBodySolvers/symplectic/symplectic.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * Static Data Members * * * * * * * * * * * * * //

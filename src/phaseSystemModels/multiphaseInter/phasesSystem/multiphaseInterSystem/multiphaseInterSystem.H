@@ -38,7 +38,7 @@ SourceFiles
 
 #include "basicThermo/basicThermo.H"
 
-#include "phaseModel/phaseModel.H"
+#include "phaseModel/phaseModel/phaseModel.H"
 #include "phasePair/phasePair.H"
 #include "phasePair/orderedPhasePair.H"
 

@@ -29,7 +29,7 @@ License
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
-#include "interfaceCompositionModel/interfaceCompositionModel.H"
+#include "interfacialCompositionModels/interfaceCompositionModels/interfaceCompositionModel/interfaceCompositionModel.H"
 #include "interfacialCompositionModels/interfaceCompositionModels/InterfaceCompositionModelCaseDir/InterfaceCompositionModelPascal1.H"
 #include "interfacialCompositionModels/interfaceCompositionModels/Henry/Henry.H"
 #include "interfacialCompositionModels/interfaceCompositionModels/NonRandomTwoLiquid/NonRandomTwoLiquid.H"

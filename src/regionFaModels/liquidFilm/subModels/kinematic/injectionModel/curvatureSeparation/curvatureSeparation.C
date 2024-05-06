@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/kinematic/injectionModel/curvatureSeparation/curvatureSeparation.H"
+#include "liquidFilm/subModels/kinematic/injectionModel/curvatureSeparation/curvatureSeparation.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "db/Time/TimeOpenFOAM.H"
 #include "primitives/strings/lists/stringListOps.H"

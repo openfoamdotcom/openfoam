@@ -26,7 +26,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/kinematic/injectionModel/BrunDrippingInjection/BrunDrippingInjection.H"
+#include "liquidFilm/subModels/kinematic/injectionModel/BrunDrippingInjection/BrunDrippingInjection.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

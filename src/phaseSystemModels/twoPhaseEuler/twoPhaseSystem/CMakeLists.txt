@@ -70,5 +70,7 @@ target_compile_definitions(compressibleTwoPhaseSystem PUBLIC WM_LABEL_SIZE=${WM_
 target_link_libraries(compressibleTwoPhaseSystem PUBLIC compressibleTurbulenceModels incompressibleTransportModels)
 target_include_directories(compressibleTwoPhaseSystem PUBLIC
   .
+  PRIVATE
+  ${OPENFOAM_SRC_DIR}
 )
 install(TARGETS compressibleTwoPhaseSystem DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

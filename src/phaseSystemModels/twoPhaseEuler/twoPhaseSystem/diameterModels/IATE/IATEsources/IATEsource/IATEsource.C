@@ -27,7 +27,7 @@ License
 \*---------------------------------------------------------------------------*/
 
 #include "diameterModels/IATE/IATEsources/IATEsource/IATEsource.H"
-#include "twoPhaseSystem.H"
+#include "twoPhaseSystem/twoPhaseSystem.H"
 #include "fvMatrices/fvMatrix/fvMatrix.H"
 #include "TurbulenceModels/phaseCompressible/PhaseCompressibleTurbulenceModel/PhaseCompressibleTurbulenceModelPascal.H"
 #include "cfdTools/general/meshObjects/gravity/gravityMeshObject.H"

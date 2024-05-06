@@ -156,5 +156,6 @@ target_compile_definitions(reactingMultiphaseSystem PUBLIC WM_LABEL_SIZE=${WM_LA
 target_link_libraries(reactingMultiphaseSystem PUBLIC combustionModels compressibleTurbulenceModels saturationModel thermophysicalProperties)
 target_include_directories(reactingMultiphaseSystem PUBLIC
   .
+  ${OPENFOAM_SRC_DIR}
 )
 install(TARGETS reactingMultiphaseSystem DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

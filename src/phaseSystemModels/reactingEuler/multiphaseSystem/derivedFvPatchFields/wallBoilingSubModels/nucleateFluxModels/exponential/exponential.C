@@ -25,7 +25,7 @@ License
 
 \*---------------------------------------------------------------------------*/
 
-#include "submodels/MPPIC/ParticleStressModels/exponential/exponential.H"
+#include "derivedFvPatchFields/wallBoilingSubModels/nucleateFluxModels/exponential/exponential.H"
 #include "db/runTimeSelection/construction/addToRunTimeSelectionTable.H"
 #include "fields/UniformDimensionedFields/uniformDimensionedFields.H"
 #include "phasePair/phasePairKey.H"

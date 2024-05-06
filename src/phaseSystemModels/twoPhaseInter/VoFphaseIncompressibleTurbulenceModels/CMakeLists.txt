@@ -7,5 +7,6 @@ target_compile_definitions(VoFphaseTurbulentTransportModels PUBLIC WM_LABEL_SIZE
 target_link_libraries(VoFphaseTurbulentTransportModels PUBLIC fluidThermophysicalModels incompressibleTurbulenceModels specie)
 target_include_directories(VoFphaseTurbulentTransportModels PUBLIC
   .
+  ${OPENFOAM_SRC_DIR}
 )
 install(TARGETS VoFphaseTurbulentTransportModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
