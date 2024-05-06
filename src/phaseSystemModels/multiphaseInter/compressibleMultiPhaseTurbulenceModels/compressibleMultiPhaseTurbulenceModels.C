@@ -88,7 +88,7 @@ makeLaminarModel(generalizedNewtonian);
 // RAS models
 // -------------------------------------------------------------------------- //
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 makeRASModel(kEpsilon);
 
 

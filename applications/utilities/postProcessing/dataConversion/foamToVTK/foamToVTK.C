@@ -144,7 +144,7 @@ Note
 #include "primitives/strings/lists/stringListOps.H"
 
 #include "Cloud/CloudPascal.H"
-#include "readFields/readFields.H"
+#include "readFields.H"
 #include "reportFields.H"
 
 #include "vtk/file/foamVtmWriter.H"

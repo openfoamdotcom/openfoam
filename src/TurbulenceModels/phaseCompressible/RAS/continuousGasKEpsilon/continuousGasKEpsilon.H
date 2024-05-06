@@ -65,7 +65,7 @@ SourceFiles
 #ifndef continuousGasKEpsilon_H
 #define continuousGasKEpsilon_H
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

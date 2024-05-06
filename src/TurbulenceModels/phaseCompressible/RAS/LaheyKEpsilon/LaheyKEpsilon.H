@@ -64,7 +64,7 @@ SourceFiles
 #ifndef LaheyKEpsilon_H
 #define LaheyKEpsilon_H
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kEpsilon/kEpsilon.H"
+#include "RAS/kEpsilon/kEpsilon.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

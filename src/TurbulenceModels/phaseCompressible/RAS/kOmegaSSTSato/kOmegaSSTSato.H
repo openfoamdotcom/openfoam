@@ -107,7 +107,7 @@ SourceFiles
 #ifndef kOmegaSSTSato_H
 #define kOmegaSSTSato_H
 
-#include "turbulenceModels/turbulenceModelVariables/RAS/kOmegaSST/kOmegaSST.H"
+#include "RAS/kOmegaSST/kOmegaSST.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

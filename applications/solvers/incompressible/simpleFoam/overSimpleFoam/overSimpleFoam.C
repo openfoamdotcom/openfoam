@@ -97,7 +97,7 @@ int main(int argc, char *argv[])
     #include "createFields.H"
     #include "createOversetFields.H"
     #include "cfdTools/general/include/createFvOptions.H"
-    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/general/include/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -111,8 +111,8 @@ int main(int argc, char *argv[])
 
         // --- Pressure-velocity SIMPLE corrector
         {
-            #include "fluid/UEqn.H"
-            #include "fluid/pEqn.H"
+            #include "UEqn.H"
+            #include "pEqn.H"
         }
 
         laminarTransport.correct();

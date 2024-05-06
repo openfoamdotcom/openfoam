@@ -73,9 +73,9 @@ int main(int argc, char *argv[])
     #include "include/setRootCaseLists.H"
     #include "include/createTime.H"
     #include "include/createMesh.H"
-    #include "cfdTools/general/solutionControl/createControl.H"
+    #include "createControl.H"
     #include "createFields.H"
-    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/general/include/initContinuityErrs.H"
 
     // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 

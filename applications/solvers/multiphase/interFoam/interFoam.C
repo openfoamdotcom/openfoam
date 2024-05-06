@@ -71,10 +71,10 @@ int main(int argc, char *argv[])
     #include "include/setRootCaseLists.H"
     #include "include/createTime.H"
     #include "include/createDynamicFvMesh.H"
-    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/general/include/initContinuityErrs.H"
     #include "include/createDyMControls.H"
     #include "createFields.H"
-    #include "solvers/multiphase/VoF/createAlphaFluxes.H"
+    #include "createAlphaFluxes.H"
     #include "initCorrectPhi.H"
     #include "cfdTools/incompressible/createUfIfPresent.H"
 
@@ -93,12 +93,12 @@ int main(int argc, char *argv[])
 
         if (LTS)
         {
-            #include "solvers/multiphase/VoF/setRDeltaT.H"
+            #include "setRDeltaT.H"
         }
         else
         {
             #include "cfdTools/incompressible/CourantNo.H"
-            #include "solvers/multiphase/VoF/alphaCourantNo.H"
+            #include "alphaCourantNo.H"
             #include "cfdTools/general/include/setDeltaT.H"
         }
 
@@ -149,7 +149,7 @@ int main(int argc, char *argv[])
             }
 
             #include "cfdTools/general/include/alphaControls.H"
-            #include "solvers/multiphase/VoF/alphaEqnSubCycle.H"
+            #include "alphaEqnSubCycle.H"
 
             mixture.correct();
 
@@ -158,12 +158,12 @@ int main(int argc, char *argv[])
                 continue;
             }
 
-            #include "fluid/UEqn.H"
+            #include "UEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "fluid/pEqn.H"
+                #include "pEqn.H"
             }
 
             if (pimple.turbCorr())

@@ -86,7 +86,7 @@ int main(int argc, char *argv[])
     #include "include/createMesh.H"
     #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
-    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/general/include/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -100,8 +100,8 @@ int main(int argc, char *argv[])
 
         // --- Pressure-velocity SIMPLE corrector
         {
-            #include "fluid/UEqn.H"
-            #include "fluid/pEqn.H"
+            #include "UEqn.H"
+            #include "pEqn.H"
         }
 
         laminarTransport.correct();

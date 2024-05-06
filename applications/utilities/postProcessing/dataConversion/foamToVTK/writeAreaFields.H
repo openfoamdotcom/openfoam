@@ -19,7 +19,7 @@ Description
 #ifndef FoamToVTK_writeAreaFields_H
 #define FoamToVTK_writeAreaFields_H
 
-#include "readFields/readFields.H"
+#include "readFields.H"
 #include "vtk/output/foamVtkIndPatchGeoFieldsWriter.H"
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
