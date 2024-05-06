@@ -601,6 +601,7 @@ set(_lemon_src ${CMAKE_CURRENT_BINARY_DIR}/fieldExprLemonParser.C)
 lemon_target(MyName expressions/fields/fieldExprLemonParser.lyy-m4 "${_lemon_src}" COMPILE_FLAGS -I${OPENFOAM_SRC_DIR}/OpenFOAM/include -I${CMAKE_CURRENT_SOURCE_DIR}/expressions/fields TEMPLATE "${_lemon_template}")
 add_library(OpenFOAM ${_FILES} ${_lemon_src})
 target_compile_features(OpenFOAM PUBLIC cxx_std_11)
+set_property(TARGET OpenFOAM PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(OpenFOAM PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(OpenFOAM PUBLIC Pstream)
 target_include_directories(OpenFOAM PUBLIC

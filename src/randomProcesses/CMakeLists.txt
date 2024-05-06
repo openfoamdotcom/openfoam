@@ -17,6 +17,7 @@ set(_FILES
 )
 add_library(randomProcesses ${_FILES})
 target_compile_features(randomProcesses PUBLIC cxx_std_11)
+set_property(TARGET randomProcesses PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(randomProcesses PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(randomProcesses PUBLIC FFTW3::fftw3f sampling)
 target_include_directories(randomProcesses PUBLIC

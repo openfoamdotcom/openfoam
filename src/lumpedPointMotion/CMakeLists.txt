@@ -10,6 +10,7 @@ set(_FILES
 )
 add_library(lumpedPointMotion ${_FILES})
 target_compile_features(lumpedPointMotion PUBLIC cxx_std_11)
+set_property(TARGET lumpedPointMotion PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(lumpedPointMotion PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(lumpedPointMotion PUBLIC dynamicMesh)
 target_include_directories(lumpedPointMotion PUBLIC

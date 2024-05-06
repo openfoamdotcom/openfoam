@@ -15,6 +15,7 @@ set(_FILES
 )
 add_library(incompressibleTransportModels ${_FILES})
 target_compile_features(incompressibleTransportModels PUBLIC cxx_std_11)
+set_property(TARGET incompressibleTransportModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(incompressibleTransportModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(incompressibleTransportModels PUBLIC finiteVolume twoPhaseMixture)
 target_include_directories(incompressibleTransportModels PUBLIC

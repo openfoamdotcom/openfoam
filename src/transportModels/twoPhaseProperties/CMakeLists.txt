@@ -7,6 +7,7 @@ set(_FILES
 )
 add_library(twoPhaseProperties ${_FILES})
 target_compile_features(twoPhaseProperties PUBLIC cxx_std_11)
+set_property(TARGET twoPhaseProperties PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(twoPhaseProperties PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(twoPhaseProperties PUBLIC finiteVolume interfaceProperties)
 target_include_directories(twoPhaseProperties PUBLIC

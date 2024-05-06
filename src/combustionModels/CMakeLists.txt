@@ -18,6 +18,7 @@ set(_FILES
 )
 add_library(combustionModels ${_FILES})
 target_compile_features(combustionModels PUBLIC cxx_std_11)
+set_property(TARGET combustionModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(combustionModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(combustionModels PUBLIC chemistryModel compressibleTurbulenceModels thermophysicalProperties)
 target_include_directories(combustionModels PUBLIC

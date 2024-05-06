@@ -8,6 +8,7 @@ set(_FILES
 )
 add_library(DSMC ${_FILES})
 target_compile_features(DSMC PUBLIC cxx_std_11)
+set_property(TARGET DSMC PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(DSMC PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(DSMC PUBLIC finiteVolume lagrangian)
 target_include_directories(DSMC PUBLIC

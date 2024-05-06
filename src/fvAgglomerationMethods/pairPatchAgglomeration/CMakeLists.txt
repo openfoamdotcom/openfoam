@@ -3,6 +3,7 @@ set(_FILES
 )
 add_library(pairPatchAgglomeration ${_FILES})
 target_compile_features(pairPatchAgglomeration PUBLIC cxx_std_11)
+set_property(TARGET pairPatchAgglomeration PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(pairPatchAgglomeration PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(pairPatchAgglomeration PUBLIC finiteVolume)
 target_include_directories(pairPatchAgglomeration PUBLIC

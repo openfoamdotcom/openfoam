@@ -3,9 +3,12 @@ set(_FILES
 )
 add_library(incompressibleInterPhaseTransportModels ${_FILES})
 target_compile_features(incompressibleInterPhaseTransportModels PUBLIC cxx_std_11)
+set_property(TARGET incompressibleInterPhaseTransportModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(incompressibleInterPhaseTransportModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(incompressibleInterPhaseTransportModels PUBLIC VoFphaseTurbulentTransportModels immiscibleIncompressibleTwoPhaseMixture)
 target_include_directories(incompressibleInterPhaseTransportModels PUBLIC
   .
+  PRIVATE
+  ${OPENFOAM_SRC_DIR}/
 )
 install(TARGETS incompressibleInterPhaseTransportModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

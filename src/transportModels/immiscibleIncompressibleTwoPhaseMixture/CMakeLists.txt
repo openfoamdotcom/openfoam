@@ -3,6 +3,7 @@ set(_FILES
 )
 add_library(immiscibleIncompressibleTwoPhaseMixture ${_FILES})
 target_compile_features(immiscibleIncompressibleTwoPhaseMixture PUBLIC cxx_std_11)
+set_property(TARGET immiscibleIncompressibleTwoPhaseMixture PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(immiscibleIncompressibleTwoPhaseMixture PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(immiscibleIncompressibleTwoPhaseMixture PUBLIC finiteVolume incompressibleTransportModels interfaceProperties twoPhaseProperties)
 target_include_directories(immiscibleIncompressibleTwoPhaseMixture PUBLIC

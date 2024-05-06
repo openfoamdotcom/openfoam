@@ -27,11 +27,12 @@ set(_FILES
 )
 add_library(phaseCompressibleTurbulenceModels ${_FILES})
 target_compile_features(phaseCompressibleTurbulenceModels PUBLIC cxx_std_11)
+set_property(TARGET phaseCompressibleTurbulenceModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(phaseCompressibleTurbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
-target_link_libraries(phaseCompressibleTurbulenceModels PUBLIC compressibleTwoPhaseSystem reactingTwoPhaseSystem)
+target_link_libraries(phaseCompressibleTurbulenceModels PUBLIC compressibleTwoPhaseSystem)
 target_include_directories(phaseCompressibleTurbulenceModels PUBLIC
   .
   PRIVATE
-  ${OPENFOAM_SRC_DIR}
+  ${OPENFOAM_SRC_DIR}/
 )
 install(TARGETS phaseCompressibleTurbulenceModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

@@ -46,6 +46,7 @@ set(_FILES
 )
 add_library(turbulenceModels ${_FILES})
 target_compile_features(turbulenceModels PUBLIC cxx_std_11)
+set_property(TARGET turbulenceModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(turbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(turbulenceModels PUBLIC finiteVolume meshTools)
 target_include_directories(turbulenceModels PUBLIC

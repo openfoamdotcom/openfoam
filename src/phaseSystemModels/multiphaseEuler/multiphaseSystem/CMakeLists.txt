@@ -20,6 +20,7 @@ set(_FILES
 )
 add_library(multiphaseSystem ${_FILES})
 target_compile_features(multiphaseSystem PUBLIC cxx_std_11)
+set_property(TARGET multiphaseSystem PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(multiphaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(multiphaseSystem PUBLIC incompressibleTransportModels interfaceProperties)
 target_include_directories(multiphaseSystem PUBLIC

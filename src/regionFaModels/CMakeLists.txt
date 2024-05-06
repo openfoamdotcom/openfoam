@@ -31,6 +31,7 @@ set(_FILES
 )
 add_library(regionFaModels ${_FILES})
 target_compile_features(regionFaModels PUBLIC cxx_std_11)
+set_property(TARGET regionFaModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(regionFaModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(regionFaModels PUBLIC distributionModels faOptions)
 target_include_directories(regionFaModels PUBLIC

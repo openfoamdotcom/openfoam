@@ -17,6 +17,7 @@ set(_FILES
 )
 add_library(engine ${_FILES})
 target_compile_features(engine PUBLIC cxx_std_11)
+set_property(TARGET engine PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(engine PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(engine PUBLIC fvMotionSolvers)
 target_include_directories(engine PUBLIC

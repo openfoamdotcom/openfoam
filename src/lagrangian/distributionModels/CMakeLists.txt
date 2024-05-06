@@ -13,6 +13,7 @@ set(_FILES
 )
 add_library(distributionModels ${_FILES})
 target_compile_features(distributionModels PUBLIC cxx_std_11)
+set_property(TARGET distributionModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(distributionModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(distributionModels PUBLIC lagrangian)
 target_include_directories(distributionModels PUBLIC

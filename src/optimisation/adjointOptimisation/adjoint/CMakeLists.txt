@@ -175,6 +175,7 @@ set(_FILES
 )
 add_library(adjointOptimisation ${_FILES})
 target_compile_features(adjointOptimisation PUBLIC cxx_std_11)
+set_property(TARGET adjointOptimisation PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(adjointOptimisation PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(adjointOptimisation PUBLIC finiteArea fvMotionSolvers fvOptions geometricVoF)
 target_include_directories(adjointOptimisation PUBLIC

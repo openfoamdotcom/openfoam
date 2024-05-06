@@ -9,6 +9,7 @@ set(_FILES
 )
 add_library(saturationModel ${_FILES})
 target_compile_features(saturationModel PUBLIC cxx_std_11)
+set_property(TARGET saturationModel PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(saturationModel PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(saturationModel PUBLIC finiteVolume)
 target_include_directories(saturationModel PUBLIC

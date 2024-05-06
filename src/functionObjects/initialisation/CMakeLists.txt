@@ -3,6 +3,7 @@ set(_FILES
 )
 add_library(initialisationFunctionObjects ${_FILES})
 target_compile_features(initialisationFunctionObjects PUBLIC cxx_std_11)
+set_property(TARGET initialisationFunctionObjects PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(initialisationFunctionObjects PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(initialisationFunctionObjects PUBLIC chemistryModel compressibleTurbulenceModels distributionModels incompressibleTurbulenceModels pairPatchAgglomeration reactionThermophysicalModels sampling)
 target_include_directories(initialisationFunctionObjects PUBLIC

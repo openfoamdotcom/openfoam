@@ -30,6 +30,7 @@ set(_FILES
 )
 add_library(overset ${_FILES})
 target_compile_features(overset PUBLIC cxx_std_11)
+set_property(TARGET overset PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(overset PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(overset PUBLIC decompositionMethods dynamicFvMesh sampling)
 target_include_directories(overset PUBLIC

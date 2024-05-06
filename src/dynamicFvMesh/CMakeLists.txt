@@ -13,6 +13,7 @@ set(_FILES
 )
 add_library(dynamicFvMesh ${_FILES})
 target_compile_features(dynamicFvMesh PUBLIC cxx_std_11)
+set_property(TARGET dynamicFvMesh PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(dynamicFvMesh PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(dynamicFvMesh PUBLIC dynamicMesh)
 target_include_directories(dynamicFvMesh PUBLIC

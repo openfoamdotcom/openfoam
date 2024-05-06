@@ -26,6 +26,7 @@ set(_FILES
 )
 add_library(atmosphericModels ${_FILES})
 target_compile_features(atmosphericModels PUBLIC cxx_std_11)
+set_property(TARGET atmosphericModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(atmosphericModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(atmosphericModels PUBLIC compressibleTurbulenceModels fvOptions incompressibleTurbulenceModels)
 target_include_directories(atmosphericModels PUBLIC

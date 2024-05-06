@@ -5,6 +5,7 @@ set(_FILES
 )
 add_library(rhoCentralFoam ${_FILES})
 target_compile_features(rhoCentralFoam PUBLIC cxx_std_11)
+set_property(TARGET rhoCentralFoam PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(rhoCentralFoam PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(rhoCentralFoam PUBLIC fluidThermophysicalModels specie)
 target_include_directories(rhoCentralFoam PUBLIC

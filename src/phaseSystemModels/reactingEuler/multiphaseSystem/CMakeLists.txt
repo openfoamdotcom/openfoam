@@ -152,10 +152,12 @@ set(_FILES
 )
 add_library(reactingMultiphaseSystem ${_FILES})
 target_compile_features(reactingMultiphaseSystem PUBLIC cxx_std_11)
+set_property(TARGET reactingMultiphaseSystem PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(reactingMultiphaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(reactingMultiphaseSystem PUBLIC combustionModels compressibleTurbulenceModels saturationModel thermophysicalProperties)
 target_include_directories(reactingMultiphaseSystem PUBLIC
   .
-  ${OPENFOAM_SRC_DIR}
+  PRIVATE
+  ${OPENFOAM_SRC_DIR}/
 )
 install(TARGETS reactingMultiphaseSystem DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

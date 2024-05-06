@@ -27,9 +27,12 @@ set(_FILES
 )
 add_library(twoPhaseReactingTurbulenceModels ${_FILES})
 target_compile_features(twoPhaseReactingTurbulenceModels PUBLIC cxx_std_11)
+set_property(TARGET twoPhaseReactingTurbulenceModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(twoPhaseReactingTurbulenceModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(twoPhaseReactingTurbulenceModels PUBLIC reactingTwoPhaseSystem)
 target_include_directories(twoPhaseReactingTurbulenceModels PUBLIC
   .
+  PRIVATE
+  ${OPENFOAM_SRC_DIR}/
 )
 install(TARGETS twoPhaseReactingTurbulenceModels DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)

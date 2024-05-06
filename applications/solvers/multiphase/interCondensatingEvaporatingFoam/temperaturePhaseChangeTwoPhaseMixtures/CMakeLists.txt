@@ -8,6 +8,7 @@ set(_FILES
 )
 add_library(phaseTemperatureChangeTwoPhaseMixtures ${_FILES})
 target_compile_features(phaseTemperatureChangeTwoPhaseMixtures PUBLIC cxx_std_11)
+set_property(TARGET phaseTemperatureChangeTwoPhaseMixtures PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(phaseTemperatureChangeTwoPhaseMixtures PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(phaseTemperatureChangeTwoPhaseMixtures PUBLIC fluidThermophysicalModels geometricVoF incompressibleTransportModels interfaceProperties twoPhaseProperties)
 target_include_directories(phaseTemperatureChangeTwoPhaseMixtures PUBLIC

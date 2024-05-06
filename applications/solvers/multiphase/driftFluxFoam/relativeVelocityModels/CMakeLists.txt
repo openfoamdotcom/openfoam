@@ -5,6 +5,7 @@ set(_FILES
 )
 add_library(driftFluxRelativeVelocityModels ${_FILES})
 target_compile_features(driftFluxRelativeVelocityModels PUBLIC cxx_std_11)
+set_property(TARGET driftFluxRelativeVelocityModels PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(driftFluxRelativeVelocityModels PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(driftFluxRelativeVelocityModels PUBLIC finiteVolume incompressibleTransportModels meshTools)
 target_include_directories(driftFluxRelativeVelocityModels PUBLIC

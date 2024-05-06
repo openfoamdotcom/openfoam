@@ -66,6 +66,7 @@ set(_flex_src ${CMAKE_CURRENT_BINARY_DIR}/STLAsciiParseFlex.C)
 flex_target(MyFlexName stl/STLAsciiParseFlex.L "${_flex_src}" COMPILE_FLAGS --c++)
 add_library(fileFormats ${_FILES} ${_flex_src})
 target_compile_features(fileFormats PUBLIC cxx_std_11)
+set_property(TARGET fileFormats PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(fileFormats PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(fileFormats PUBLIC OpenFOAM)
 target_include_directories(fileFormats PUBLIC

@@ -122,6 +122,7 @@ set(_FILES
 )
 add_library(fieldFunctionObjects ${_FILES})
 target_compile_features(fieldFunctionObjects PUBLIC cxx_std_11)
+set_property(TARGET fieldFunctionObjects PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(fieldFunctionObjects PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(fieldFunctionObjects PUBLIC distributionModels finiteArea incompressibleMultiphaseSystems incompressibleTurbulenceModels pairPatchAgglomeration reactingMultiphaseSystem turbulenceModelSchemes)
 target_include_directories(fieldFunctionObjects PUBLIC

@@ -66,11 +66,12 @@ set(_FILES
 )
 add_library(compressibleTwoPhaseSystem ${_FILES})
 target_compile_features(compressibleTwoPhaseSystem PUBLIC cxx_std_11)
+set_property(TARGET compressibleTwoPhaseSystem PROPERTY POSITION_INDEPENDENT_CODE ON)
 target_compile_definitions(compressibleTwoPhaseSystem PUBLIC WM_LABEL_SIZE=${WM_LABEL_SIZE} WM_${WM_PRECISION} NoRepository OPENFOAM=${OPENFOAM_VERSION})
 target_link_libraries(compressibleTwoPhaseSystem PUBLIC compressibleTurbulenceModels incompressibleTransportModels)
 target_include_directories(compressibleTwoPhaseSystem PUBLIC
   .
   PRIVATE
-  ${OPENFOAM_SRC_DIR}
+  ${OPENFOAM_SRC_DIR}/
 )
 install(TARGETS compressibleTwoPhaseSystem DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
