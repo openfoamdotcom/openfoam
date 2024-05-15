@@ -7,5 +7,4 @@ target_link_libraries(overSimpleFoam PUBLIC fvOptions incompressibleTransportMod
 target_include_directories(overSimpleFoam PUBLIC
   .
   ${PROJECT_SOURCE_DIR}/src/OpenFOAM/include
-  ${PROJECT_SOURCE_DIR}/src/finiteVolume/cfdTools/general/solutionControl
 )

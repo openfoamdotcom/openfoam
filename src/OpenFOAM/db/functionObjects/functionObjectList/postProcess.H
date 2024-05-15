@@ -54,7 +54,7 @@ Description
 #endif
 
 #ifndef CREATE_CONTROL
-    #define CREATE_CONTROL createControl.H
+    #define CREATE_CONTROL cfdTools/general/solutionControl/createControl.H
 #endif
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //

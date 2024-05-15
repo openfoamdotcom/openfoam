@@ -8,5 +8,4 @@ target_include_directories(interFoam PUBLIC
   .
   ../VoF
   ${PROJECT_SOURCE_DIR}/src/OpenFOAM/include
-  ${PROJECT_SOURCE_DIR}/src/finiteVolume/cfdTools/general/solutionControl
 )

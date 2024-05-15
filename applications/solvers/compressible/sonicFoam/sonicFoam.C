@@ -60,7 +60,7 @@ int main(int argc, char *argv[])
     #include "cfdTools/general/solutionControl/createControl.H"
     #include "createFields.H"
     #include "createFieldRefs.H"
-    #include "fluid/initContinuityErrs.H"
+    #include "cfdTools/general/include/initContinuityErrs.H"
 
     turbulence->validate();
 
@@ -72,20 +72,20 @@ int main(int argc, char *argv[])
     {
         Info<< "Time = " << runTime.timeName() << nl << endl;
 
-        #include "fluid/compressibleCourantNo.H"
+        #include "cfdTools/compressible/compressibleCourantNo.H"
 
         #include "cfdTools/compressible/rhoEqn.H"
 
         // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
-            #include "fluid/UEqn.H"
-            #include "fluid/EEqn.H"
+            #include "UEqn.H"
+            #include "EEqn.H"
 
             // --- Pressure corrector loop
             while (pimple.correct())
             {
-                #include "fluid/pEqn.H"
+                #include "pEqn.H"
             }
 
             if (pimple.turbCorr())

@@ -7,5 +7,4 @@ target_link_libraries(icoFoam PUBLIC finiteVolume meshTools)
 target_include_directories(icoFoam PUBLIC
   .
   ${PROJECT_SOURCE_DIR}/src/OpenFOAM/include
-  ${PROJECT_SOURCE_DIR}/src/finiteVolume/cfdTools/general/solutionControl
 )
