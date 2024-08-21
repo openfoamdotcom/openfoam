@@ -609,4 +609,8 @@ target_link_libraries(OpenFOAM PUBLIC Pstream)
 target_include_directories(OpenFOAM PUBLIC
   .
 )
+
+# link openfoam with zlib
+target_link_libraries(OpenFOAM PUBLIC ZLIB::ZLIB)
+
 install(TARGETS OpenFOAM DESTINATION ${CMAKE_INSTALL_LIBDIR}/openfoam EXPORT openfoam-targets)
